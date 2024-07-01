@@ -1,0 +1,17 @@
+Aufgaben:
+- Chunks in prepareLogData einbauen!
+- Cardet Datensatz umwandeln
+    - Zahlen vor den flattedjson??
+    - Einfach Algorithmus, welcher eine Liste mit Labels erstellt. Dafür kann einfach das flatted json (wenn richtig konfiguriert) mit den Überschriften
+    der CSV verglichen werden. Statisch bekommt dann eine 1, nicht statisch eine 0.
+- Modell weiter konfigurieren
+    - Größe der EIngabeschicht Evaluieren
+    - Herausfinden wie die Rechnung für die Parameter zustande kommt
+    - Neuronenanzahl evalueren
+        - Suche nach papern dazu
+    - Overfitting Problem
+        - Paper zu Early Stopping suchen
+        - Paper zu Vanishing Gradient Problem suchen
+        -Paper zu Overfitting
+        - Vielfalt des Trainingskoprus (YIng2016 S.4 in Fischer)
+- Ergebnisse vergleichen
