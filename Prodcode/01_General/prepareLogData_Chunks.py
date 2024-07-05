@@ -74,23 +74,33 @@ def compare_line_to_template(line, template):
         for i in range(padding):
             template_words.append(".*")
     comparison_result = []
+    static_counter = 0
     for lw, tw in zip(line_words, template_words):
         binary_labels = 0 if lw == tw else 1 # Einzelne Wortübereinstimmungen in eine Liste packen
+        if binary_labels == 1:
+            static_counter +=1
+        else:
+            static_counter = 0
         comparison_result.append(binary_labels)
+        if static_counter >= 7:
+            return False
     return comparison_result
 
 
-#Verarbeitet eine Liste von Zeilen und überprüft, welche Template auf jede Zeile zutrifft, und erstellt eine Vergleichsliste.
+#Verarbeitet eine Liste von Zeilen und überprüft, welches Template auf jede Zeile zutrifft, und erstellt eine Vergleichsliste.
 def process_lines(lines, templates):
     results = []
+    filtered_lines = []
     counter = 0
     for line in lines:
         counter+=1
         matched_template = match_template(line, templates, counter)
         if matched_template:
             comparison_result = compare_line_to_template(line, matched_template)
-            results.append(comparison_result)
-    return results
+            if comparison_result:
+                results.append(comparison_result)
+                filtered_lines.append(line)
+    return results, filtered_lines
 
 
 def chunk_count(file_path, chunk_size):
@@ -129,7 +139,7 @@ def process_log_file(chunk):
     return processed_lines
 
 def process_start(log_file_path, csv_file_path, chunk_size):
-    delete_file('content_list_big.csv')
+    delete_file('content_list_big.txt')
     delete_file('label_list_big.csv')
     list_templates = toList(csv_file_path)
     chunkSize = chunk_count(log_file_path, chunk_size)
@@ -153,13 +163,18 @@ def process_start(log_file_path, csv_file_path, chunk_size):
                 leftover = ""
 
             processed_lines = process_log_file(lines)
-            with open('content_list_big.txt', 'a', encoding='utf-8') as content_file:
-                for line in processed_lines:
-                    content_file.write(line + '\n')
-            processed_results = process_lines(processed_lines, list_templates)
+            
+            del lines
+            gc.collect()
+            processed_results, processed_lines = process_lines(processed_lines, list_templates)
+            
             with open('label_list_big.csv', 'a', newline='') as label_file:
                 writer = csv.writer(label_file)
                 writer.writerows(processed_results)
+            
+            with open('content_list_big.txt', 'a', encoding='utf-8') as content_file:
+                for line in processed_lines:
+                    content_file.write(line + '\n')
             # Manuelle Speicherfreigabe und Garbage Collection
             del processed_lines
             del processed_results
@@ -170,13 +185,15 @@ def process_start(log_file_path, csv_file_path, chunk_size):
     # Verarbeite die letzte unvollständige Zeile, falls vorhanden
     if leftover:
         processed_lines = process_log_file([leftover])
-        with open('content_list_big.csv', 'a', newline='') as content_file:
-            writer = csv.writer(content_file)
-            writer.writerows([[line] for line in processed_lines])
-        processed_results = process_lines(processed_lines, list_templates)
+        print(processed_lines)
+        processed_results, processed_lines = process_lines(processed_lines, list_templates)
         with open('label_list_big.csv', 'a', newline='') as label_file:
             writer = csv.writer(label_file)
             writer.writerows(processed_results)
+
+        with open('content_list_big.txt', 'a', encoding='utf-8') as content_file:
+            for line in processed_lines:
+                content_file.write(line + '\n')
         # Manuelle Speicherfreigabe und Garbage Collection
         del processed_lines
         del processed_results
@@ -185,6 +202,6 @@ def process_start(log_file_path, csv_file_path, chunk_size):
 
 
 
-log_file_path = r'C:\Users\j-u-b\OneDrive\Studium\Semester 6\Bachelorarbeit\Code\Datensätze\Drain3 Datensätze\BGL\BGL.log'
-csv_file_path = r'C:\Users\j-u-b\OneDrive\Studium\Semester 6\Bachelorarbeit\Code\Datensätze\Drain3 Datensätze\BGL\BGL_templates.csv'
+log_file_path = r'C:\Users\j-u-b\OneDrive\Studium\Semester 6\Bachelorarbeit\Code\LogAnalyzer\Datensätze\Drain3 Datensätze\HDFS\HDFS.log'
+csv_file_path = r'C:\Users\j-u-b\OneDrive\Studium\Semester 6\Bachelorarbeit\Code\LogAnalyzer\Datensätze\Vorbereitete Daten - Beispiel\hdfs_v1\HDFS_v1_unique_event_templates.csv'
 process_start(log_file_path, csv_file_path, 1000000)
