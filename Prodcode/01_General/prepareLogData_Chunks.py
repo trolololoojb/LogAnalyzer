@@ -1,16 +1,19 @@
 # Wandelt eine Log Datei mit Hilfe einer CSv Datei mit Content Temnplates in zwei txt Dateien um. 
 # Eine davon ist die "content_list" welche die einzelnen Lognachrichten enthält. 
 # Die "label_list" enthält die Labels der einzelnen Wörter für die Lognachrichten. 
-# Sepicheroptimiert
 
+import sys
 import pandas as pd
 import re
 import csv
 import os
 import gc
 
-#Bestimmt den Dateityp basierend auf der Dateiendung.
+
 def toList(file_path):
+    """
+    Bestimmt den Dateityp basierend auf der Dateiendung und gibt eine Liste der Einträge zurück.
+    """
     # Extrahiere die Dateiendung
     _, file_extension = os.path.splitext(file_path)
     
@@ -20,8 +23,6 @@ def toList(file_path):
     elif file_extension.lower() == '.csv':
         return csvToList(file_path)
 
-
-#Wandelt die CSV Datei mit Templates in eine Liste um
 def csvToList(csv_path):
     # Lade die CSV-Datei
     data = pd.read_csv(csv_path)
@@ -51,21 +52,25 @@ def txtToList(txt_path):
 
 
 
-#Findet das passende Template für eine gegebene Zeile.
-def match_template(line, templates, counter):
 
+def match_template(line, templates):
+    """
+    Findet das passende Template für eine gegebene Zeile.
+    """
     for template in templates:
         if re.search(template, line):
             return template
-    raise Exception("Template ohne Match!", templates, "Line:", counter,line)
+    return False
 
         
 
 
 
-#Vergleicht eine Zeile mit einem Template und erstellt eine Liste von 0 und 1 für Übereinstimmung und Nicht-Übereinstimmung.
+
 def compare_line_to_template(line, template):
-    
+    """
+    Vergleicht eine Zeile mit einem Template und erstellt eine Liste von 0 und 1 für Übereinstimmung und Nicht-Übereinstimmung.
+    """
     line = re.escape(line)
     line_words = line.split()
     template_words = template.split()
@@ -87,14 +92,15 @@ def compare_line_to_template(line, template):
     return comparison_result
 
 
-#Verarbeitet eine Liste von Zeilen und überprüft, welches Template auf jede Zeile zutrifft, und erstellt eine Vergleichsliste.
+
 def process_lines(lines, templates):
+    """ 
+    Verarbeitet eine Liste von Zeilen und überprüft, welches Template auf jede Zeile zutrifft, und erstellt eine Vergleichsliste.
+    """
     results = []
     filtered_lines = []
-    counter = 0
     for line in lines:
-        counter+=1
-        matched_template = match_template(line, templates, counter)
+        matched_template = match_template(line, templates)
         if matched_template:
             comparison_result = compare_line_to_template(line, matched_template)
             if comparison_result:
@@ -104,17 +110,22 @@ def process_lines(lines, templates):
 
 
 def chunk_count(file_path, chunk_size):
+    """
+    Berechnet die Anzahl der Chunks basierend auf der Datei-Größe
+    """
     with open(file_path, 'rb') as file:
-        # Berechnet die Anzahl der Chunks basierend auf der Datei-Größe
+        
         file_size = os.path.getsize(file_path)
         chunk_count = (file_size + chunk_size - 1) // chunk_size
     print(f"{chunk_count} Durchläufe benötigt")
     return chunk_count
 
 
-# Löscht die zu produzierenden Dateien um eine nicht gewollte Datenmanipulation zu vermeiden
-def delete_file(file_path):
 
+def delete_file(file_path):
+    """
+    Löscht die zu produzierenden Dateien um eine nicht gewollte Datenmanipulation zu vermeiden
+    """
     try:
         os.remove(file_path)
         print(f"{file_path} wurde gelöscht.")
@@ -125,18 +136,53 @@ def delete_file(file_path):
 
 
 
-#Wandelt die hdfs Logdatei in eine Liste um. Entfernt den nicht benötigten Anfang jeder Zeile.
-def process_log_file(chunk):
+
+def process_log_file(chunk, ident=1):
+    """
+    Wandelt die Logdatei in eine Liste um. Entfernt den nicht benötigten 
+    Anfang jeder Zeile.
+    
+    Args:
+    chunk: Teil der Logdatei
+    ident: Datensatzidentifikator
+    """
     processed_lines = []
+    
+    # Definiere die Funktion und Entferne Position basierend auf ident
+    if ident == 1:
+        pos_finder = pos_finder_hdfs
+        rem_pos = 2
+    elif ident == 2:
+        pos_finder = pos_finder_bgl
+        rem_pos = 0  # Annahme, dass rem_pos von pos_finder_bgl zurückgegeben wird
 
     for line in chunk:
-        # Find the position of the first occurrence of ": "
-        pos = line.find(': ')
+        pos = pos_finder(line)
+        if ident == 2:
+            pos, rem_pos = pos
+        
         if pos != -1:
-            # Remove the beginning of the line up to ": "
-            processed_line = line[pos + 2:]
-            processed_lines.append(processed_line.strip())
+            processed_line = line[pos + rem_pos:].strip()
+            processed_lines.append(processed_line)
+    
     return processed_lines
+
+
+def pos_finder_hdfs(line):
+    pos = line.find(': ')
+    return pos
+
+def pos_finder_bgl(line):
+    level = ["INFO",
+            "FATAL",
+            "WARNING",
+            "SEVERE",
+            "ERROR"]
+    for l in level:
+        pos = line.find(l +' ')
+        if pos != -1:
+            return pos, len(l)
+    return -1, -1
 
 def process_start(log_file_path, csv_file_path, chunk_size):
     delete_file('content_list_big.txt')
@@ -146,8 +192,9 @@ def process_start(log_file_path, csv_file_path, chunk_size):
     chunkCount = 0
     leftover = ""
 
-    with open(log_file_path, 'r') as file:
+    with open(log_file_path, 'r', encoding='utf-8') as file:
         while True:
+
             chunk = file.read(chunk_size)
             if not chunk:
                 break
@@ -162,17 +209,17 @@ def process_start(log_file_path, csv_file_path, chunk_size):
             else:
                 leftover = ""
 
-            processed_lines = process_log_file(lines)
+            processed_lines = process_log_file(lines, 2)
             
             del lines
             gc.collect()
             processed_results, processed_lines = process_lines(processed_lines, list_templates)
             
-            with open('label_list_big.csv', 'a', newline='') as label_file:
+            with open('label_list_bgl.csv', 'a', newline='') as label_file:
                 writer = csv.writer(label_file)
                 writer.writerows(processed_results)
             
-            with open('content_list_big.txt', 'a', encoding='utf-8') as content_file:
+            with open('content_list_bgl.txt', 'a', encoding='utf-8') as content_file:
                 for line in processed_lines:
                     content_file.write(line + '\n')
             # Manuelle Speicherfreigabe und Garbage Collection
@@ -187,11 +234,11 @@ def process_start(log_file_path, csv_file_path, chunk_size):
         processed_lines = process_log_file([leftover])
         print(processed_lines)
         processed_results, processed_lines = process_lines(processed_lines, list_templates)
-        with open('label_list_big.csv', 'a', newline='') as label_file:
+        with open('label_list_bgl.csv', 'a', newline='') as label_file:
             writer = csv.writer(label_file)
             writer.writerows(processed_results)
 
-        with open('content_list_big.txt', 'a', encoding='utf-8') as content_file:
+        with open('content_list_bgl.txt', 'a', encoding='utf-8') as content_file:
             for line in processed_lines:
                 content_file.write(line + '\n')
         # Manuelle Speicherfreigabe und Garbage Collection
@@ -202,6 +249,6 @@ def process_start(log_file_path, csv_file_path, chunk_size):
 
 
 
-log_file_path = r'C:\Users\j-u-b\OneDrive\Studium\Semester 6\Bachelorarbeit\Code\LogAnalyzer\Datensätze\Drain3 Datensätze\HDFS\HDFS.log'
-csv_file_path = r'C:\Users\j-u-b\OneDrive\Studium\Semester 6\Bachelorarbeit\Code\LogAnalyzer\Datensätze\Vorbereitete Daten - Beispiel\hdfs_v1\HDFS_v1_unique_event_templates.csv'
+log_file_path = r'C:\Users\j-u-b\OneDrive\Studium\Semester 6\Bachelorarbeit\Code\LogAnalyzer\Datensätze\Drain3 Datensätze\BGL\BGL.log'
+csv_file_path = r'C:\Users\j-u-b\OneDrive\Studium\Semester 6\Bachelorarbeit\Code\LogAnalyzer\Datensätze\Drain3 Datensätze\BGL\BGL_templates.csv'
 process_start(log_file_path, csv_file_path, 1000000)
