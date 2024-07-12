@@ -149,16 +149,20 @@ def process_log_file(chunk, ident=1):
     processed_lines = []
     
     # Definiere die Funktion und Entferne Position basierend auf ident
-    if ident == 1:
+    if ident == "hdfs":
         pos_finder = pos_finder_hdfs
         rem_pos = 2
-    elif ident == 2:
+    elif ident == "bgl":
         pos_finder = pos_finder_bgl
         rem_pos = 0  # Annahme, dass rem_pos von pos_finder_bgl zurückgegeben wird
+    elif ident == "hpc":
+        pos_finder = pos_finder_hpc
+        rem_pos = 2
+
 
     for line in chunk:
         pos = pos_finder(line)
-        if ident == 2:
+        if ident == "bgl":
             pos, rem_pos = pos
         
         if pos != -1:
@@ -184,9 +188,14 @@ def pos_finder_bgl(line):
             return pos, len(l)
     return -1, -1
 
+def pos_finder_hpc(line):
+    pos = line.find('1 ')
+    return pos
+
 def process_start(log_file_path, csv_file_path, chunk_size):
-    delete_file('content_list_big.txt')
-    delete_file('label_list_big.csv')
+    data_name = recognize_data()
+    delete_file('content_list_big'+ data_name + '.txt')
+    delete_file('label_list_big'+ data_name + '.csv')
     list_templates = toList(csv_file_path)
     chunkSize = chunk_count(log_file_path, chunk_size)
     chunkCount = 0
@@ -209,17 +218,17 @@ def process_start(log_file_path, csv_file_path, chunk_size):
             else:
                 leftover = ""
 
-            processed_lines = process_log_file(lines, 2)
+            processed_lines = process_log_file(lines, data_name)
             
             del lines
             gc.collect()
             processed_results, processed_lines = process_lines(processed_lines, list_templates)
             
-            with open('label_list_bgl.csv', 'a', newline='') as label_file:
+            with open('label_list_'+ data_name + '.csv', 'a', newline='') as label_file:
                 writer = csv.writer(label_file)
                 writer.writerows(processed_results)
             
-            with open('content_list_bgl.txt', 'a', encoding='utf-8') as content_file:
+            with open('content_list_'+ data_name + '.txt', 'a', encoding='utf-8') as content_file:
                 for line in processed_lines:
                     content_file.write(line + '\n')
             # Manuelle Speicherfreigabe und Garbage Collection
@@ -231,14 +240,13 @@ def process_start(log_file_path, csv_file_path, chunk_size):
 
     # Verarbeite die letzte unvollständige Zeile, falls vorhanden
     if leftover:
-        processed_lines = process_log_file([leftover])
-        print(processed_lines)
+        processed_lines = process_log_file([leftover], data_name)
         processed_results, processed_lines = process_lines(processed_lines, list_templates)
-        with open('label_list_bgl.csv', 'a', newline='') as label_file:
+        with open('label_list_'+ data_name + '.csv', 'a', newline='') as label_file:
             writer = csv.writer(label_file)
             writer.writerows(processed_results)
 
-        with open('content_list_bgl.txt', 'a', encoding='utf-8') as content_file:
+        with open('content_list_'+ data_name + '.txt', 'a', encoding='utf-8') as content_file:
             for line in processed_lines:
                 content_file.write(line + '\n')
         # Manuelle Speicherfreigabe und Garbage Collection
@@ -246,9 +254,17 @@ def process_start(log_file_path, csv_file_path, chunk_size):
         del processed_results
         gc.collect()  # Garbage Collector aufrufen
 
+def recognize_data():
+    if "hdfs" in log_file_path.lower():
+        return "hdfs"
+    elif "bgl" in log_file_path.lower():
+        return "bgl"
+    elif "hpc" in log_file_path.lower():
+        return "hpc"
+    else:
+        return None
 
 
-
-log_file_path = r'C:\Users\j-u-b\OneDrive\Studium\Semester 6\Bachelorarbeit\Code\LogAnalyzer\Datensätze\Drain3 Datensätze\BGL\BGL.log'
-csv_file_path = r'C:\Users\j-u-b\OneDrive\Studium\Semester 6\Bachelorarbeit\Code\LogAnalyzer\Datensätze\Drain3 Datensätze\BGL\BGL_templates.csv'
+log_file_path = r'C:\Users\j-u-b\OneDrive\Studium\Semester 6\Bachelorarbeit\Code\LogAnalyzer\Datensätze\Drain3 Datensätze\HPC\HPC.log'
+csv_file_path = r'C:\Users\j-u-b\OneDrive\Studium\Semester 6\Bachelorarbeit\Code\LogAnalyzer\Datensätze\Drain3 Datensätze\HPC\HPC_2k.log_templates.csv'
 process_start(log_file_path, csv_file_path, 1000000)
