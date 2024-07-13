@@ -194,8 +194,8 @@ def pos_finder_hpc(line):
 
 def process_start(log_file_path, csv_file_path, chunk_size):
     data_name = recognize_data()
-    delete_file('content_list_big'+ data_name + '.txt')
-    delete_file('label_list_big'+ data_name + '.csv')
+    delete_file('content_list_'+ data_name + '.txt')
+    delete_file('label_list_'+ data_name + '.csv')
     list_templates = toList(csv_file_path)
     chunkSize = chunk_count(log_file_path, chunk_size)
     chunkCount = 0
@@ -265,6 +265,6 @@ def recognize_data():
         return None
 
 
-log_file_path = r'C:\Users\j-u-b\OneDrive\Studium\Semester 6\Bachelorarbeit\Code\LogAnalyzer\Datensätze\Drain3 Datensätze\HPC\HPC.log'
-csv_file_path = r'C:\Users\j-u-b\OneDrive\Studium\Semester 6\Bachelorarbeit\Code\LogAnalyzer\Datensätze\Drain3 Datensätze\HPC\HPC_2k.log_templates.csv'
+log_file_path = r'C:\Users\j-u-b\OneDrive\Studium\Semester 6\Bachelorarbeit\Code\LogAnalyzer\Datensätze\Drain3 Datensätze\HDFS\HDFS.log'
+csv_file_path = r'C:\Users\j-u-b\OneDrive\Studium\Semester 6\Bachelorarbeit\Code\LogAnalyzer\Datensätze\Drain3 Datensätze\HDFS\preprocessed\HDFS.log_templates.csv'
 process_start(log_file_path, csv_file_path, 1000000)
