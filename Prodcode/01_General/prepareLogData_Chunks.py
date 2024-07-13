@@ -78,13 +78,18 @@ def compare_line_to_template(line, template):
     filtered_templates= [item for item in template_words if '.*\\' not in item]
     comparison_result = []
     static_counter = 0
+    padding_bool = True
 
     for lw in line_words:
         binary_labels = 0 if lw == filtered_templates[0] else 1 # Einzelne Wortübereinstimmungen in eine Liste packen
         if binary_labels == 1:
             static_counter +=1
         else:
-            del filtered_templates[:1]
+            if padding_bool:
+                del filtered_templates[:1]
+            if len(filtered_templates) == 0:
+                padding_bool == False
+                filtered_templates.append("")
             static_counter = 0
         comparison_result.append(binary_labels)
 
@@ -274,6 +279,6 @@ def recognize_data():
         return "proxifier"
 
 
-log_file_path = r'C:\Users\j-u-b\OneDrive\Studium\Semester 6\Bachelorarbeit\Code\LogAnalyzer\Datensätze\Drain3 Datensätze\Proxifier\Proxifier.log'
-csv_file_path = r'C:\Users\j-u-b\OneDrive\Studium\Semester 6\Bachelorarbeit\Code\LogAnalyzer\Datensätze\Drain3 Datensätze\Proxifier\Proxifier_2k.log_templates.csv'
+log_file_path = r'C:\Users\j-u-b\OneDrive\Studium\Semester 6\Bachelorarbeit\Code\LogAnalyzer\Datensätze\Drain3 Datensätze\BGL\BGL.log'
+csv_file_path = r'C:\Users\j-u-b\OneDrive\Studium\Semester 6\Bachelorarbeit\Code\LogAnalyzer\Datensätze\Drain3 Datensätze\BGL\BGL_templates.csv'
 process_start(log_file_path, csv_file_path, 1000000)
