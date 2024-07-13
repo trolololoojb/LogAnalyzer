@@ -43,7 +43,7 @@ def txtToList(txt_path):
     with open(txt_path, 'r', encoding='utf-8') as file:
         for line in file:
             # Ersetze Platzhalter durch reguläre Ausdrücke
-            line = line.replace('\n', r'')
+            line = line.strip()
             regex_pattern = re.escape(line)
             regex_pattern = regex_pattern.replace(r'<\*>', r'.*')
             template_list.append(regex_pattern)
@@ -74,22 +74,24 @@ def compare_line_to_template(line, template):
     line = re.escape(line)
     line_words = line.split()
     template_words = template.split()
-    padding = len(line_words) - len(template_words)
-    if padding > 0:
-        for i in range(padding):
-            template_words.append(".*")
+
+    filtered_templates= [item for item in template_words if '.*\\' not in item]
     comparison_result = []
     static_counter = 0
-    for lw, tw in zip(line_words, template_words):
-        binary_labels = 0 if lw == tw else 1 # Einzelne Wortübereinstimmungen in eine Liste packen
+
+    for lw in line_words:
+        binary_labels = 0 if lw == filtered_templates[0] else 1 # Einzelne Wortübereinstimmungen in eine Liste packen
         if binary_labels == 1:
             static_counter +=1
         else:
+            del filtered_templates[:1]
             static_counter = 0
         comparison_result.append(binary_labels)
+
         if static_counter >= 7:
             return False
     return comparison_result
+
 
 
 
@@ -158,6 +160,9 @@ def process_log_file(chunk, ident=1):
     elif ident == "hpc":
         pos_finder = pos_finder_hpc
         rem_pos = 2
+    elif ident == "proxifier":
+        pos_finder = pos_finder_proxifier
+        rem_pos = 2
 
 
     for line in chunk:
@@ -190,6 +195,10 @@ def pos_finder_bgl(line):
 
 def pos_finder_hpc(line):
     pos = line.find('1 ')
+    return pos
+
+def pos_finder_proxifier(line):
+    pos = line.find('- ')
     return pos
 
 def process_start(log_file_path, csv_file_path, chunk_size):
@@ -261,10 +270,10 @@ def recognize_data():
         return "bgl"
     elif "hpc" in log_file_path.lower():
         return "hpc"
-    else:
-        return None
+    elif "proxifier" in log_file_path.lower():
+        return "proxifier"
 
 
-log_file_path = r'C:\Users\j-u-b\OneDrive\Studium\Semester 6\Bachelorarbeit\Code\LogAnalyzer\Datensätze\Drain3 Datensätze\HDFS\HDFS.log'
-csv_file_path = r'C:\Users\j-u-b\OneDrive\Studium\Semester 6\Bachelorarbeit\Code\LogAnalyzer\Datensätze\Drain3 Datensätze\HDFS\preprocessed\HDFS.log_templates.csv'
+log_file_path = r'C:\Users\j-u-b\OneDrive\Studium\Semester 6\Bachelorarbeit\Code\LogAnalyzer\Datensätze\Drain3 Datensätze\Proxifier\Proxifier.log'
+csv_file_path = r'C:\Users\j-u-b\OneDrive\Studium\Semester 6\Bachelorarbeit\Code\LogAnalyzer\Datensätze\Drain3 Datensätze\Proxifier\Proxifier_2k.log_templates.csv'
 process_start(log_file_path, csv_file_path, 1000000)
