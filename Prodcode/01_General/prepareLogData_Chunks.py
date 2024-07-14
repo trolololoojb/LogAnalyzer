@@ -168,6 +168,9 @@ def process_log_file(chunk, ident=1):
     elif ident == "proxifier":
         pos_finder = pos_finder_proxifier
         rem_pos = 2
+    elif ident == "zookeeper":
+        pos_finder = pos_finder_zookeeper
+        rem_pos = 4
 
 
     for line in chunk:
@@ -200,6 +203,10 @@ def pos_finder_bgl(line):
 
 def pos_finder_hpc(line):
     pos = line.find('1 ')
+    return pos
+
+def pos_finder_zookeeper(line):
+    pos = line.find('] - ')
     return pos
 
 def pos_finder_proxifier(line):
@@ -277,8 +284,10 @@ def recognize_data():
         return "hpc"
     elif "proxifier" in log_file_path.lower():
         return "proxifier"
+    elif "zookeeper" in log_file_path.lower():
+        return "zookeeper"
 
 
-log_file_path = r'C:\Users\j-u-b\OneDrive\Studium\Semester 6\Bachelorarbeit\Code\LogAnalyzer\Datensätze\Drain3 Datensätze\BGL\BGL.log'
-csv_file_path = r'C:\Users\j-u-b\OneDrive\Studium\Semester 6\Bachelorarbeit\Code\LogAnalyzer\Datensätze\Drain3 Datensätze\BGL\BGL_templates.csv'
+log_file_path = r'C:\Users\j-u-b\OneDrive\Studium\Semester 6\Bachelorarbeit\Code\LogAnalyzer\Datensätze\Drain3 Datensätze\Zookeeper\Zookeeper.log'
+csv_file_path = r'C:\Users\j-u-b\OneDrive\Studium\Semester 6\Bachelorarbeit\Code\LogAnalyzer\Datensätze\Drain3 Datensätze\Zookeeper\Zookeeper_2k.log_templates.csv'
 process_start(log_file_path, csv_file_path, 1000000)
