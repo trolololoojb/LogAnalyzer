@@ -216,11 +216,11 @@ def pos_finder_proxifier(line):
     pos = line.find('- ')
     return pos
 
-def process_start(log_file_path, csv_file_path, chunk_size):
+def process_start(log_file_path, csv_file_path, chunk_size, content_file_path, label_list_path):
     data_name = recognize_data()
     print("\nVerarbeitung des " + data_name +"-Datensatzes")
-    delete_file('content_list_'+ data_name + '.txt')
-    delete_file('label_list_'+ data_name + '.csv')
+    delete_file(content_file_path)
+    delete_file(label_list_path)
     list_templates = toList(csv_file_path)
     chunkSize = chunk_count(log_file_path, chunk_size)
     chunkCount = 0
@@ -294,21 +294,36 @@ def recognize_data():
 
 
 log_file_path_list = [
-    r'C:\Users\j-u-b\OneDrive\Studium\Semester 6\Bachelorarbeit\Code\LogAnalyzer\Datensätze\Drain3 Datensätze\Zookeeper\Zookeeper.log',
     r"C:\Users\j-u-b\OneDrive\Studium\Semester 6\Bachelorarbeit\Code\LogAnalyzer\Datensätze\Drain3 Datensätze\BGL\BGL.log",
     r"C:\Users\j-u-b\OneDrive\Studium\Semester 6\Bachelorarbeit\Code\LogAnalyzer\Datensätze\Drain3 Datensätze\HDFS\HDFS.log",
     r"C:\Users\j-u-b\OneDrive\Studium\Semester 6\Bachelorarbeit\Code\LogAnalyzer\Datensätze\Drain3 Datensätze\HPC\HPC.log",
-    r"C:\Users\j-u-b\OneDrive\Studium\Semester 6\Bachelorarbeit\Code\LogAnalyzer\Datensätze\Drain3 Datensätze\Proxifier\Proxifier.log"
-
+    r"C:\Users\j-u-b\OneDrive\Studium\Semester 6\Bachelorarbeit\Code\LogAnalyzer\Datensätze\Drain3 Datensätze\Proxifier\Proxifier.log",
+    r'C:\Users\j-u-b\OneDrive\Studium\Semester 6\Bachelorarbeit\Code\LogAnalyzer\Datensätze\Drain3 Datensätze\Zookeeper\Zookeeper.log'
 ]
 
 csv_file_path_list = [
-    r'C:\Users\j-u-b\OneDrive\Studium\Semester 6\Bachelorarbeit\Code\LogAnalyzer\Datensätze\Drain3 Datensätze\Zookeeper\Zookeeper_2k.log_templates.csv',
     r"C:\Users\j-u-b\OneDrive\Studium\Semester 6\Bachelorarbeit\Code\LogAnalyzer\Datensätze\Drain3 Datensätze\BGL\BGL_templates.csv",
     r"C:\Users\j-u-b\OneDrive\Studium\Semester 6\Bachelorarbeit\Code\LogAnalyzer\Datensätze\Vorbereitete Daten - Beispiel\hdfs_v1\HDFS_v1_unique_event_templates.csv",
     r"C:\Users\j-u-b\OneDrive\Studium\Semester 6\Bachelorarbeit\Code\LogAnalyzer\Datensätze\Drain3 Datensätze\HPC\HPC_2k.log_templates.csv",
-    r"C:\Users\j-u-b\OneDrive\Studium\Semester 6\Bachelorarbeit\Code\LogAnalyzer\Datensätze\Drain3 Datensätze\Proxifier\Proxifier_2k.log_templates.csv"
+    r"C:\Users\j-u-b\OneDrive\Studium\Semester 6\Bachelorarbeit\Code\LogAnalyzer\Datensätze\Drain3 Datensätze\Proxifier\Proxifier_2k.log_templates.csv",
+    r'C:\Users\j-u-b\OneDrive\Studium\Semester 6\Bachelorarbeit\Code\LogAnalyzer\Datensätze\Drain3 Datensätze\Zookeeper\Zookeeper_2k.log_templates.csv'
 ]
 
-for log_file_path, csv_file_path in zip(log_file_path_list, csv_file_path_list):
-    process_start(log_file_path, csv_file_path, 1000000)
+content_file_path_list = [
+    r'C:\Users\j-u-b\OneDrive\Studium\Semester 6\Bachelorarbeit\Code\LogAnalyzer\Datensätze\Vorbereitete Daten - Beispiel\bgl_v1\content_list_bgl.txt',
+    r"C:\Users\j-u-b\OneDrive\Studium\Semester 6\Bachelorarbeit\Code\LogAnalyzer\Datensätze\Vorbereitete Daten - Beispiel\hdfs_v1\content_list_hdfs.txt",
+    r"C:\Users\j-u-b\OneDrive\Studium\Semester 6\Bachelorarbeit\Code\LogAnalyzer\Datensätze\Vorbereitete Daten - Beispiel\hpc_v1\content_list_hpc.txt",
+    r"C:\Users\j-u-b\OneDrive\Studium\Semester 6\Bachelorarbeit\Code\LogAnalyzer\Datensätze\Vorbereitete Daten - Beispiel\proxifier_v1\content_list_proxifier.txt",
+    r"C:\Users\j-u-b\OneDrive\Studium\Semester 6\Bachelorarbeit\Code\LogAnalyzer\Datensätze\Vorbereitete Daten - Beispiel\zookeeper_v1\content_list_zookeeper.txt"
+]
+
+label_list_path_list = [
+    r'C:\Users\j-u-b\OneDrive\Studium\Semester 6\Bachelorarbeit\Code\LogAnalyzer\Datensätze\Vorbereitete Daten - Beispiel\bgl_v1\label_list_bgl.csv',
+    r"C:\Users\j-u-b\OneDrive\Studium\Semester 6\Bachelorarbeit\Code\LogAnalyzer\Datensätze\Vorbereitete Daten - Beispiel\hdfs_v1\label_list_hdfs.csv",
+    r"C:\Users\j-u-b\OneDrive\Studium\Semester 6\Bachelorarbeit\Code\LogAnalyzer\Datensätze\Vorbereitete Daten - Beispiel\hpc_v1\label_list_hpc.csv",
+    r"C:\Users\j-u-b\OneDrive\Studium\Semester 6\Bachelorarbeit\Code\LogAnalyzer\Datensätze\Vorbereitete Daten - Beispiel\proxifier_v1\label_list_proxifier.csv",
+    r"C:\Users\j-u-b\OneDrive\Studium\Semester 6\Bachelorarbeit\Code\LogAnalyzer\Datensätze\Vorbereitete Daten - Beispiel\zookeeper_v1\label_list_zookeeper.csv"
+]
+
+for log_file_path, csv_file_path, content_file_path, label_list_path in zip(log_file_path_list, csv_file_path_list, content_file_path_list, label_list_path_list):
+    process_start(log_file_path, csv_file_path, 1000000, content_file_path, label_list_path)
