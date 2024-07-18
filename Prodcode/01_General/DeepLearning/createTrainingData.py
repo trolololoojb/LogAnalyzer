@@ -217,7 +217,7 @@ def pos_finder_proxifier(line):
     return pos
 
 def process_start(log_file_path, csv_file_path, chunk_size, content_file_path, label_list_path):
-    data_name = recognize_data()
+    data_name = recognize_data(log_file_path)
     print("\nVerarbeitung des " + data_name +"-Datensatzes")
     delete_file(content_file_path)
     delete_file(label_list_path)
@@ -249,11 +249,11 @@ def process_start(log_file_path, csv_file_path, chunk_size, content_file_path, l
             gc.collect()
             processed_results, processed_lines = process_lines(processed_lines, list_templates)
             
-            with open('label_list_'+ data_name + '.csv', 'a', newline='') as label_file:
+            with open(label_list_path, 'a', newline='') as label_file:
                 writer = csv.writer(label_file)
                 writer.writerows(processed_results)
             
-            with open('content_list_'+ data_name + '.txt', 'a', encoding='utf-8') as content_file:
+            with open(content_file_path, 'a', encoding='utf-8') as content_file:
                 for line in processed_lines:
                     content_file.write(line + '\n')
             # Manuelle Speicherfreigabe und Garbage Collection
@@ -267,11 +267,11 @@ def process_start(log_file_path, csv_file_path, chunk_size, content_file_path, l
     if leftover:
         processed_lines = process_log_file([leftover], data_name)
         processed_results, processed_lines = process_lines(processed_lines, list_templates)
-        with open('label_list_'+ data_name + '.csv', 'a', newline='') as label_file:
+        with open(label_list_path, 'a', newline='') as label_file:
             writer = csv.writer(label_file)
             writer.writerows(processed_results)
 
-        with open('content_list_'+ data_name + '.txt', 'a', encoding='utf-8') as content_file:
+        with open(content_file_path, 'a', encoding='utf-8') as content_file:
             for line in processed_lines:
                 content_file.write(line + '\n')
         # Manuelle Speicherfreigabe und Garbage Collection
@@ -279,7 +279,7 @@ def process_start(log_file_path, csv_file_path, chunk_size, content_file_path, l
         del processed_results
         gc.collect()  # Garbage Collector aufrufen
 
-def recognize_data():
+def recognize_data(log_file_path):
     if "hdfs" in log_file_path.lower():
         return "hdfs"
     elif "bgl" in log_file_path.lower():
@@ -325,5 +325,7 @@ label_list_path_list = [
     r"C:\Users\j-u-b\OneDrive\Studium\Semester 6\Bachelorarbeit\Code\LogAnalyzer\Datensätze\Vorbereitete Daten - Beispiel\zookeeper_v1\label_list_zookeeper.csv"
 ]
 
-for log_file_path, csv_file_path, content_file_path, label_list_path in zip(log_file_path_list, csv_file_path_list, content_file_path_list, label_list_path_list):
-    process_start(log_file_path, csv_file_path, 1000000, content_file_path, label_list_path)
+# for log_file_path, csv_file_path, content_file_path, label_list_path in zip(log_file_path_list, csv_file_path_list, content_file_path_list, label_list_path_list):
+#     process_start(log_file_path, csv_file_path, 1000000, content_file_path, label_list_path)
+
+process_start(log_file_path_list[0], csv_file_path_list[0], 1000000, content_file_path_list[0], label_list_path_list[0])
