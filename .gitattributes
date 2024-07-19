@@ -1,4 +1,3 @@
-<<<<<<< HEAD
 *.jpg !text !filter !merge !diff
 *.zip !text !filter !merge !diff
 *.json !text !filter !merge !diff
@@ -6,6 +5,3 @@
 *.tar.gz !text !filter !merge !diff
 *.log !text !filter !merge !diff
 *.tar !text !filter !merge !diff
-=======
-
->>>>>>> cdc60eb3f5c41182b3efee6322c6518fe8701c2a
