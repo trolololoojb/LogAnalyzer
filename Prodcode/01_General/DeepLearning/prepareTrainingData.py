@@ -1,8 +1,10 @@
 import csv
 import os
-from tokenizers import Tokenizer, models, trainers, pre_tokenizers, decoders, processors
+from tokenizers import Tokenizer, models, trainers, pre_tokenizers
 import tqdm
+from tensorflow.keras.preprocessing.text import Tokenizer as KerasTokenizer
 
+BPE_tokenizer = Tokenizer.from_file(r"/home/johann/github/LogAnalyzer/Datensätze/Vorbereitete Daten - Beispiel/Tokenizer/tokenizer_BPE.json")
 tokenizer = Tokenizer.from_file(r"/home/johann/github/LogAnalyzer/Datensätze/Vorbereitete Daten - Beispiel/Tokenizer/tokenizer.json")
 content_file_path_list = [
     r'/home/johann/github/LogAnalyzer/Datensätze/Vorbereitete Daten - Beispiel/bgl_v1/content_list_bgl.txt',
@@ -20,6 +22,14 @@ tokenized_file_path_list = [
     r"/home/johann/github/LogAnalyzer/Datensätze/Vorbereitete Daten - Beispiel/zookeeper_v1/tokenized_list_zookeeper.csv"
 ]
 
+BPE_tokenized_file_path_list = [
+    r'/home/johann/github/LogAnalyzer/Datensätze/Vorbereitete Daten - Beispiel/bgl_v1/BPE_tokenized_list_bgl.csv',
+    r"/home/johann/github/LogAnalyzer/Datensätze/Vorbereitete Daten - Beispiel/hdfs_v1/BPE_tokenized_list_hdfs.csv",
+    r"/home/johann/github/LogAnalyzer/Datensätze/Vorbereitete Daten - Beispiel/hpc_v1/BPE_tokenized_list_hpc.csv",
+    r"/home/johann/github/LogAnalyzer/Datensätze/Vorbereitete Daten - Beispiel/proxifier_v1/BPE_tokenized_list_proxifier.csv",
+    r"/home/johann/github/LogAnalyzer/Datensätze/Vorbereitete Daten - Beispiel/zookeeper_v1/BPE_tokenized_list_zookeeper.csv"
+]
+
 padded_file_path_list= [
     r'/home/johann/github/LogAnalyzer/Datensätze/Vorbereitete Daten - Beispiel/bgl_v1/padded_list_bgl.csv',
     r"/home/johann/github/LogAnalyzer/Datensätze/Vorbereitete Daten - Beispiel/hdfs_v1/padded_list_hdfs.csv",
@@ -28,7 +38,7 @@ padded_file_path_list= [
     r"/home/johann/github/LogAnalyzer/Datensätze/Vorbereitete Daten - Beispiel/zookeeper_v1/padded_list_zookeeper.csv"
 ]
 
-def generateTokenizer():
+def generateTokenizer_BPE():
     # Erstellen eines BPE Tokenizers
     tokenizer = Tokenizer(models.BPE())
 
@@ -37,6 +47,23 @@ def generateTokenizer():
 
     # Definieren des Trainers
     trainer = trainers.BpeTrainer(vocab_size=1000, special_tokens=["<pad>", "<cls>", "<sep>", "<unk>"])
+
+
+    # Training des Tokenizers
+    tokenizer.train(files=content_file_path_list, trainer=trainer)
+
+    print(tokenizer.get_vocab())
+    tokenizer.save(r"/home/johann/github/LogAnalyzer/Datensätze/Vorbereitete Daten - Beispiel/Tokenizer/tokenizer_BPE.json")
+
+def generateTokenizer():
+    # Erstellen eines BPE Tokenizers
+    tokenizer = Tokenizer(models.WordLevel())
+
+    # Definieren der PreTokenizer
+    tokenizer.pre_tokenizer = pre_tokenizers.Whitespace()
+
+    # Definieren des Trainers
+    trainer = trainers.WordLevelTrainer(min_frequency=1, special_tokens=["[PAD]", "[UNK]"])
 
 
     # Training des Tokenizers
@@ -59,7 +86,7 @@ def delete_file(file_path):
         print(f"Ein Fehler ist beim Löschen von {file_path} aufgetreten: {e}")
 
 
-def generateTokenizedData(tokenizer, input_filename, output_filename, chunk_size=1024):
+def generateTokenizedData_BPE(tokenizer, input_filename, output_filename, chunk_size=1024):
     """
     Verarbeitet eine Textdatei zeilenweise mit einem gegebenen Tokenizer und speichert die
     Token-IDs zusammen mit den Tokens in einer CSV-Datei. Enthält eine Fortschrittsanzeige.
@@ -113,14 +140,45 @@ def generateTokenizedData(tokenizer, input_filename, output_filename, chunk_size
                 writer.writerows(sentence)
                 writer.writerow([]) 
 
+def generate_tokenized_Data(tokenizer, input_filename, output_filename, chunk_size=1024):
+    delete_file(output_filename)
+    # Dateigröße bestimmen für die Fortschrittsanzeige
+    total_size = os.path.getsize(input_filename)
+    processed_size = 0
 
+    with open(input_filename, 'r', encoding='utf-8') as file, \
+         open(output_filename, 'a', newline='', encoding='utf-8') as out_file:
+        writer = csv.writer(out_file)
+        leftover = ''
+        
+        # Fortschrittsanzeige initialisieren
+        with tqdm.tqdm(total=total_size, unit='B', unit_scale=True, desc="Processing File") as pbar:
+            while True:
+                chunk = file.read(chunk_size)
+                if not chunk:
+                    break
+                chunk = leftover + chunk  # Hinzufügen des leftovers zum aktuellen Chunk
+                lines = chunk.split('\n')
+                leftover = lines.pop()  # Entfernen und Speichern der unvollständigen letzten Zeile
+
+                for line in lines:
+                    output = tokenizer.encode(line)
+                    writer.writerow(output.ids)
+
+                
+                processed_size += len(chunk.encode('utf-8'))  # Update processed size
+                pbar.update(len(chunk.encode('utf-8')))
+    # Verarbeitung des letzten leftovers, falls vorhanden
+    if leftover:
+        output = tokenizer.encode(leftover)
+        writer.writerow(output.ids)
 
 def data_size(file_path):
     total_lines = sum(1 for line in open(file_path))
     return total_lines
 
 
-def read_from_csv(filename, size, row_count = 0, chunksize = 10000000):
+def read_from_csv_3d(filename, size, row_count = 0, chunksize = 10000000):
     with open(filename, 'r') as csvfile:
         reader = csv.reader(csvfile)
         data = []
@@ -175,11 +233,11 @@ def get_max_padding_length():
     print("start max length process")
     final_max_inner_length = 0
     final_max_outer_length = 0
-    for file_path in tokenized_file_path_list:
+    for file_path in BPE_tokenized_file_path_list:
         row_counter = 0
         size  = data_size(file_path)
         while row_counter != "finish":
-            loaded_data, row_counter = read_from_csv(file_path, size, row_counter, 10000000)
+            loaded_data, row_counter = read_from_csv_3d(file_path, size, row_counter, 10000000)
             max_inner_length = max(max(len(inner) for inner in outer) for outer in loaded_data)
             if max_inner_length > final_max_inner_length:
                 final_max_inner_length = max_inner_length
@@ -187,6 +245,27 @@ def get_max_padding_length():
             if max_outer_length > final_max_outer_length:
                 final_max_outer_length = max_outer_length
                 print(final_max_inner_length, final_max_outer_length)
+
+
+def get_max_length_tokenized():
+    max_length = 0
+    max_file = ""
+    max_line = 0
+    for file_path in tokenized_file_path_list:
+        row_counter = 0
+        with open(file_path, 'r', newline='', encoding='utf-8') as file:
+            reader = csv.reader(file)
+            for row in reader:
+                row_counter +=1
+                row_length = len(row)
+                if row_length > max_length:
+                    max_length = row_length
+                    max_line = row_counter
+                    max_file = file_path
+    print(max_file)
+    print(max_line)
+    print(max_length)
+    return max_length
 
 
 def create_padding_files():
@@ -199,20 +278,24 @@ def create_padding_files():
         delete_file(save)
         size  = data_size(file_path)
         while row_counter != "finish":
-            loaded_data, row_counter = read_from_csv(file_path, size, row_counter, 1000)
+            loaded_data, row_counter = read_from_csv_3d(file_path, size, row_counter, 1000)
             padded_data = pad_data(loaded_data, final_max_inner_length, final_max_outer_length)
             save_to_csv(padded_data, save)
 
-get_max_padding_length()
+#get_max_padding_length()
 #create_padding_files()
+#generateTokenizer()
+#get_max_length_tokenized()
 
 
 
 
 
+# for log_file, tokenized_file in zip(content_file_path_list, BPE_tokenized_file_path_list):
+#     generateTokenizedData_BPE(tokenizer, log_file, tokenized_file, 10000)
 
 # for log_file, tokenized_file in zip(content_file_path_list, tokenized_file_path_list):
-#     generateTokenizedData(tokenizer, log_file, tokenized_file, 10000)
+#     generate_tokenized_Data(tokenizer, log_file, tokenized_file, 10000)
 
 
 
