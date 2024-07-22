@@ -317,6 +317,14 @@ content_file_path_list = [
     r"Datensätze/Vorbereitete Daten - Beispiel/zookeeper_v1/content_list_zookeeper.txt"
 ]
 
+new_content_file_path_list = [
+    r'Datensätze/Vorbereitete Daten - Beispiel/bgl_v1/content_list_bgl_new.txt',
+    r"Datensätze/Vorbereitete Daten - Beispiel/hdfs_v1/content_list_hdfs_new.txt",
+    r"Datensätze/Vorbereitete Daten - Beispiel/hpc_v1/content_list_hpc_new.txt",
+    r"Datensätze/Vorbereitete Daten - Beispiel/proxifier_v1/content_list_proxifier_new.txt",
+    r"Datensätze/Vorbereitete Daten - Beispiel/zookeeper_v1/content_list_zookeeper_new.txt"
+]
+
 label_list_path_list = [
     r'Datensätze/Vorbereitete Daten - Beispiel/bgl_v1/label_list_bgl.csv',
     r"Datensätze/Vorbereitete Daten - Beispiel/hdfs_v1/label_list_hdfs.csv",
