@@ -6,6 +6,8 @@ from tensorflow.keras.preprocessing.sequence import pad_sequences
 from tensorflow.keras.models import Sequential
 from tensorflow.keras.layers import Embedding, Bidirectional, GRU, Dense, TimeDistributed, Dropout
 from sklearn.model_selection import train_test_split
+from tensorflow.keras.callbacks import ModelCheckpoint, EarlyStopping, ReduceLROnPlateau
+from datetime import datetime
 
 
 def generator_data(data_path: str, batch_size: int, epochs: int):
@@ -18,11 +20,11 @@ def generator_data(data_path: str, batch_size: int, epochs: int):
 
 # Beispiel X und Y Daten
 X_data_files = [
-    r'/home/johann/github/LogAnalyzer/Datensätze/Vorbereitete Daten - Beispiel/bgl_v1/tokenized_list_bgl.csv',
-    r"/home/johann/github/LogAnalyzer/Datensätze/Vorbereitete Daten - Beispiel/hdfs_v1/tokenized_list_hdfs.csv",
-    r"/home/johann/github/LogAnalyzer/Datensätze/Vorbereitete Daten - Beispiel/hpc_v1/tokenized_list_hpc.csv",
-    r"/home/johann/github/LogAnalyzer/Datensätze/Vorbereitete Daten - Beispiel/proxifier_v1/tokenized_list_proxifier.csv",
-    r"/home/johann/github/LogAnalyzer/Datensätze/Vorbereitete Daten - Beispiel/zookeeper_v1/tokenized_list_zookeeper.csv"
+    r'Datensätze/Vorbereitete Daten - Beispiel/bgl_v1/content_list_bgl.txt',
+    r"Datensätze/Vorbereitete Daten - Beispiel/hdfs_v1/content_list_hdfs.txt",
+    r"Datensätze/Vorbereitete Daten - Beispiel/hpc_v1/content_list_hpc.txt",
+    r"Datensätze/Vorbereitete Daten - Beispiel/proxifier_v1/content_list_proxifier.txt",
+    r"Datensätze/Vorbereitete Daten - Beispiel/zookeeper_v1/content_list_zookeeper.txt"
 ]
 Y_data_files = [
     r'Datensätze/Vorbereitete Daten - Beispiel/bgl_v1/label_list_bgl.csv',
@@ -31,6 +33,24 @@ Y_data_files = [
     r"Datensätze/Vorbereitete Daten - Beispiel/proxifier_v1/label_list_proxifier.csv",
     r"Datensätze/Vorbereitete Daten - Beispiel/zookeeper_v1/label_list_zookeeper.csv"
 ]
+
+unique_label_path_list = [
+    r'Datensätze/Vorbereitete Daten - Beispiel/bgl_v1/unique_data/label_list_bgl_unique.csv',
+    r"Datensätze/Vorbereitete Daten - Beispiel/hdfs_v1/unique_data/label_list_hdfs.csv",
+    r"Datensätze/Vorbereitete Daten - Beispiel/hpc_v1/unique_data/label_list_hpc.csv",
+    r"Datensätze/Vorbereitete Daten - Beispiel/proxifier_v1/unique_data/label_list_proxifier.csv",
+    r"Datensätze/Vorbereitete Daten - Beispiel/zookeeper_v1/unique_data/label_list_zookeeper.csv"
+]
+
+
+unique_content_path_list = [
+    r'Datensätze/Vorbereitete Daten - Beispiel/bgl_v1/unique_data/content_list_bgl_unique.txt',
+    r"Datensätze/Vorbereitete Daten - Beispiel/hdfs_v1/unique_data/content_list_hdfs.txt",
+    r"Datensätze/Vorbereitete Daten - Beispiel/hpc_v1/unique_data/content_list_hpc.txt",
+    r"Datensätze/Vorbereitete Daten - Beispiel/proxifier_v1/unique_data/content_list_proxifier.txt",
+    r"Datensätze/Vorbereitete Daten - Beispiel/zookeeper_v1/unique_data/content_list_zookeeper.txt"
+]
+
 
 def data_size(file_path):
     total_lines = sum(1 for line in open(file_path))
@@ -65,11 +85,6 @@ def read_from_csv(filename, size, row_count = 0, chunksize = 10000000):
     
     return data, "finish"
 
-# row_counter = 0
-# size  = data_size(filename)
-# print("start")
-# while row_counter != "finish":
-#     loaded_data, row_counter = read_from_csv(filename, size, row_counter)
     
 
 
@@ -90,8 +105,11 @@ def load_labels(file_path):
     return labels
 
 
-
-def model_train(logs_file_path, labels_file_path, model, tokenizer, max_length):
+total_loss = []
+total_accuracy = []
+total_val_loss = []
+total_val_accuracy = []
+def model_train(logs_file_path, labels_file_path, model, tokenizer, max_length, checkpoint, early_stopping):
     # Laden der Daten
     logs = load_logs(logs_file_path)
     labels = load_labels(labels_file_path)
@@ -110,43 +128,51 @@ def model_train(logs_file_path, labels_file_path, model, tokenizer, max_length):
 
     
     # Training des Modells
-    model.fit(X_train, y_train, epochs=10, batch_size=1000, validation_split=0.2)
+    history = model.fit(X_train, y_train, epochs=100, batch_size=1000, validation_data=(X_test, y_test), callbacks= [checkpoint, early_stopping])
+    with open(f'Datensätze/Vorbereitete Daten - Beispiel/Models/{current_time}_{dimensions}/training_results.txt', 'a') as file:
+        loss = history.history['loss']
+        accuracy = history.history['accuracy']
+        val_loss = history.history['val_loss']
+        val_accuracy = history.history['val_accuracy']
+        file.write("Training auf folgende Datei: " + logs_file_path)
+        file.write(f'Total Trainings-Loss: {loss}\n')
+        file.write(f'Total Trainings-Accuracy: {accuracy}\n')
+        file.write(f'Total Validierungs-Loss: {val_loss}\n')
+        file.write(f'Total Validierungs-Accuracy: {val_accuracy}\n')
+        
+        
+        
+        
+
+
+
+
 
 tokenizer = Tokenizer.from_file(r"/home/johann/github/LogAnalyzer/Datensätze/Vorbereitete Daten - Beispiel/Tokenizer/tokenizer_BPE.json")
 word_index = tokenizer.get_vocab()
 max_length = 102
+dimensions = 50
 # Erstellung des Modells
 model = Sequential()
-model.add(Embedding(input_dim=len(word_index) + 1, output_dim=64))
-model.add(Bidirectional(GRU(64, return_sequences=True)))
-model.add(TimeDistributed(Dense(64, activation='relu')))
+model.add(Embedding(input_dim=len(word_index) + 1, output_dim=dimensions))
+model.add(Bidirectional(GRU(dimensions, return_sequences=True)))
+model.add(TimeDistributed(Dense(dimensions, activation='relu')))
 model.add(Dropout(0.5))
 model.add(TimeDistributed(Dense(1, activation='sigmoid')))
+current_time = datetime.now().strftime("%Y%m%d-%H%M%S")
+model_name = f'Datensätze/Vorbereitete Daten - Beispiel/Models/{current_time}_{dimensions}/tokenizedModel.keras'
+checkpoint = ModelCheckpoint(model_name, save_best_only=True, monitor='val_loss', mode='min')
+early_stopping = EarlyStopping(monitor='val_loss', patience=100, mode='min', restore_best_weights=True)
+
 
 # Kompilierung des Modells
 model.compile(optimizer='adam', loss='binary_crossentropy', metrics=['accuracy'])    
 
-for logs_file_path, labels_file_path in zip(X_data_files, Y_data_files):
-    model_train(logs_file_path, labels_file_path, model, tokenizer, max_length)
-model.save("Model.keras")
+# for logs_file_path, labels_file_path in zip(X_data_files, Y_data_files):
+#     model_train(logs_file_path, labels_file_path, model, tokenizer, max_length, checkpoint, early_stopping)
 
-# # Evaluation des Modells
-# loss, accuracy = model.evaluate(X_test, y_test)
-# print(f'Loss: {loss}, Accuracy: {accuracy}')
+model_train(unique_content_path_list[0], unique_label_path_list[0], model, tokenizer, max_length, checkpoint, early_stopping)
 
-# # Funktion zur Ausgabe der Vorhersagen
-# def predict_and_display(log):
-#     sequence = tokenizer.texts_to_sequences([log])
-#     sequence_padded = pad_sequences(sequence, maxlen=max_length, padding='post')
-#     prediction = model.predict(sequence_padded)[0]
 
-#     words = log.split()
-#     for word, pred in zip(words, prediction):
-#         label = 'nicht statisch' if pred > 0.5 else 'statisch'
-#         print(f'Wort: {word}, Vorhersage: {label}')
 
-# # Beispielvorhersage
-# new_log = "Received block blk_-1111111111111111111 of size 11111 from /11.111.11.111"
-# print("\nVorhersagen für neuen Logeintrag:")
-# predict_and_display(new_log)
 
