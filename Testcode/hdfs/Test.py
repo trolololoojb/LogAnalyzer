@@ -28,92 +28,73 @@
 #-------------------------------------------------------------------------------
 
 
-# import csv
-# import math
-
 # import numpy as np
+# import pandas as pd
+# from keras.models import Sequential
+# from keras.layers import Dense, LSTM, Embedding
+# from sklearn.model_selection import train_test_split
+# from sklearn.preprocessing import LabelEncoder
 
-# np.set_printoptions(threshold=np.inf)
+# # Beispielhafte Logdaten generieren
+# logs = [
+#     "INFO User logged in",
+#     "ERROR Failed to connect to database",
+#     "WARN Low disk space",
+#     "INFO User logged out",
+#     "ERROR Unexpected error occurred"
+# ]
 
-# # Funktion zum Lesen der Liste aus CSV
-# import csv
+# # Labels für die Logtypen
+# labels = ["INFO", "ERROR", "WARN"]
 
-# def data_size(file_path):
-#     total_lines = sum(1 for line in open(file_path))
-#     return total_lines
+# # Daten vorbereiten
+# X = np.array(logs)
+# y = np.array([0, 1, 2, 0, 1])  # Indizes der Labels
 
+# # Label-Encoding der Zielvariablen
+# label_encoder = LabelEncoder()
+# y_encoded = label_encoder.fit_transform(y)
 
-# def read_from_csv(filename, size, row_count = 0, chunksize = 10000000):
-#     with open(filename, 'r') as csvfile:
-#         reader = csv.reader(csvfile)
-#         data = []
-#         matrix = []
-#         chunksize = chunksize + row_count
-#         row_counter = 0
-#         for row in reader:
-#             if row_counter <= row_count:
-#                 row_counter += 1
-#                 continue
-#             else:
-#                 row_counter += 1
-#                 if not row:  # Leerzeile gefunden (Trennung der Matrizen)
-                    
-#                     data.append(matrix)
-#                     matrix = []
-#                     if row_counter >= chunksize:
-#                         print(f"{row_counter} von {size} Zeilen verarbeitet")
-#                         return data, row_counter
-#                 else:
-#                     matrix.append([int(num) for num in row])
-        
-#         if matrix:  # Letzte Matrix hinzufügen, falls nicht leer
-#             data.append(matrix)
-    
-#     return data, "finish"
+# # Tokenisierung und Padding der Sequenzen
+# from tensorflow.keras.preprocessing.text import Tokenizer
+# from tensorflow.keras.preprocessing.sequence import pad_sequences
 
+# tokenizer = Tokenizer()
+# tokenizer.fit_on_texts(X)
+# X_tokenized = tokenizer.texts_to_sequences(X)
+# X_padded = pad_sequences(X_tokenized, padding='post')
 
-# # Beispielaufrufe
-# filename = r'C:\Users\j-u-b\OneDrive\Studium\Semester 6\Bachelorarbeit\Code\LogAnalyzer\Datensätze\Vorbereitete Daten - Beispiel\bgl_v1\tokenized_list_bgl.csv'
+# # Train-Test-Split
+# X_train, X_test, y_train, y_test = train_test_split(X_padded, y_encoded, test_size=0.2)
 
+# # Modell definieren
+# model = Sequential()
+# model.add(Embedding(input_dim=len(tokenizer.word_index) + 1, output_dim=50, input_length=X_padded.shape[1]))
+# model.add(LSTM(100))
+# model.add(Dense(50, activation='relu'))
+# model.add(Dense(len(labels), activation='softmax'))
 
-# # Daten aus CSV-Datei lesen
-# row_counter = 0
-# size  = data_size(filename)
-# print("start")
-# final_max_inner_length = 0
-# final_max_outer_length = 0
-# while row_counter != "finish":
-#     loaded_data, row_counter = read_from_csv(filename, size, row_counter)
-#     max_inner_length = max(max(len(inner) for inner in outer) for outer in loaded_data)
-#     if max_inner_length > final_max_inner_length:
-#         final_max_inner_length = max_inner_length
-#     max_outer_length = max(len(outer) for outer in loaded_data)
-#     if max_outer_length > final_max_outer_length:
-#         final_max_outer_length = max_outer_length
+# # Modell kompilieren
+# model.compile(loss='sparse_categorical_crossentropy', optimizer='adam', metrics=['accuracy'])
 
+# # Modell trainieren
+# model.fit(X_train, y_train, epochs=10, batch_size=2, validation_data=(X_test, y_test))
 
+# # Modell evaluieren
+# loss, accuracy = model.evaluate(X_test, y_test)
+# print(f"Loss: {loss}")
+# print(f"Accuracy: {accuracy}")
 
+# # Beispielvorhersage
+# new_logs = ["INFO User login attempt", "ERROR Disk failure"]
+# new_logs_tokenized = tokenizer.texts_to_sequences(new_logs)
+# new_logs_padded = pad_sequences(new_logs_tokenized, padding='post', maxlen=X_padded.shape[1])
 
+# predictions = model.predict(new_logs_padded)
+# predicted_labels = label_encoder.inverse_transform(np.argmax(predictions, axis=1))
 
-# def pad_sequence(sequence, max_length):
-#     return sequence + [0] * (max_length - len(sequence))
+# print(predicted_labels)
 
-# def pad_outer_list(outer, max_inner_length, max_outer_length):
-#     padded_outer = [pad_sequence(inner, max_inner_length) for inner in outer]
-#     while len(padded_outer) < max_outer_length:
-#         padded_outer.append([0] * max_inner_length)
-#     return padded_outer
-
-# def pad_data(data, max_inner_length, max_outer_length):
-#     padded_data = [pad_outer_list(outer, max_inner_length, max_outer_length) for outer in data]
-#     return padded_data
-
-
-# padded_data = pad_data(loaded_data, max_inner_length, max_outer_length)
-
-
-# padded_data = np.array(padded_data)
-# print(padded_data)
 
 
 
@@ -122,12 +103,14 @@
 
 
 import csv
+import json
 import tensorflow as tf
 from tensorflow.keras.preprocessing.text import Tokenizer
 from tensorflow.keras.preprocessing.sequence import pad_sequences
 from tensorflow.keras.models import Sequential
-from tensorflow.keras.layers import Embedding, Bidirectional, LSTM, Dense, TimeDistributed, Dropout
+from tensorflow.keras.layers import Embedding, Bidirectional, GRU, Dense, TimeDistributed, Dropout, Masking
 from sklearn.model_selection import train_test_split
+
 
 # Laden der Logeinträge aus einer TXT-Datei
 def load_logs(file_path):
@@ -145,8 +128,8 @@ def load_labels(file_path):
     return labels
 
 # Pfade zu den Daten
-logs_file_path = r"/home/johann/github/LogAnalyzer/Datensätze/Vorbereitete Daten - Beispiel/hdfs_v1/content_list_hdfs.txt"
-labels_file_path = r"/home/johann/github/LogAnalyzer/Datensätze/Vorbereitete Daten - Beispiel/hdfs_v1/label_list_hdfs.csv"
+logs_file_path = r"Datensätze/Vorbereitete Daten - Beispiel/bgl_v1/unique_data/content_list_bgl_unique.txt"
+labels_file_path = r"/home/johann/github/LogAnalyzer/Datensätze/Vorbereitete Daten - Beispiel/bgl_v1/unique_data/label_list_bgl_unique.csv"
 
 # Laden der Daten
 logs = load_logs(logs_file_path)
@@ -157,28 +140,30 @@ tokenizer = Tokenizer()
 tokenizer.fit_on_texts(logs)
 sequences = tokenizer.texts_to_sequences(logs)
 word_index = tokenizer.word_index
+tokenizer_json = tokenizer.to_json()
+with open('tokenizer.json', 'w', encoding='utf-8') as f:
+    f.write(json.dumps(tokenizer_json, ensure_ascii=False))
 
 # Padding der Sequenzen
 max_length = max(len(seq) for seq in sequences)
 sequences_padded = pad_sequences(sequences, maxlen=max_length, padding='post')
 labels_padded = pad_sequences(labels, maxlen=max_length, padding='post')
-
 # Aufteilung in Trainings- und Testdaten
 X_train, X_test, y_train, y_test = train_test_split(sequences_padded, labels_padded, test_size=0.2)
 
 # Erstellung des Modells
 model = Sequential()
 model.add(Embedding(input_dim=len(word_index) + 1, output_dim=64, input_length=max_length))
-model.add(Bidirectional(LSTM(64, return_sequences=True)))
+model.add(Bidirectional(GRU(64, return_sequences=True)))
 model.add(TimeDistributed(Dense(64, activation='relu')))
 model.add(Dropout(0.5))
-model.add(TimeDistributed(Dense(1, activation='sigmoid')))
+model.add(TimeDistributed(Dense(1, activation='tanh')))
 
 # Kompilierung des Modells
-model.compile(optimizer='adam', loss='binary_crossentropy', metrics=['accuracy'])
+model.compile(optimizer='adam', loss='mean_squared_error', metrics=['accuracy'])
 
 # Training des Modells
-model.fit(X_train, y_train, epochs=2, batch_size=64, validation_split=0.2)
+model.fit(X_train, y_train, epochs=10, batch_size=64, validation_data=(X_test, y_test))
 
 # Evaluation des Modells
 loss, accuracy = model.evaluate(X_test, y_test)
@@ -188,7 +173,9 @@ print(f'Loss: {loss}, Accuracy: {accuracy}')
 def predict_and_display(log):
     sequence = tokenizer.texts_to_sequences([log])
     sequence_padded = pad_sequences(sequence, maxlen=max_length, padding='post')
+    print(sequence_padded[0])
     prediction = model.predict(sequence_padded)[0]
+    
 
     words = log.split()
     for word, pred in zip(words, prediction):
@@ -196,9 +183,10 @@ def predict_and_display(log):
         print(f'Wort: {word}, Vorhersage: {label}')
 
 # Beispielvorhersage
-new_log = "Received block blk_-1111111111111111111 of size 11111 from /11.111.11.111"
+new_log = ["9 ddr errors(s) detected and corrected on rank 9, symbol 9, bit 9", "instruction cache parity error corrected", "total of 99 ddr error(s) detected and corrected"]
 print("\nVorhersagen für neuen Logeintrag:")
-predict_and_display(new_log)
+for log in new_log:
+    predict_and_display(log)
 
 
 
