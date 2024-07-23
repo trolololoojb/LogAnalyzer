@@ -350,16 +350,7 @@ def create_padding_files():
             save_to_csv(padded_data, save)
 
 
-def BPE_labels(subwords, labels):
-    new_labels = []
-    counter = 0
-    for subword in subwords:
-        if subword != "#": 
-            new_labels.append(labels[counter])
-        else:
-            new_labels.append(labels[counter])
-            counter += 1
-    return new_labels
+
     
 
 # Aufruf der Methoden, falls erforderlich
