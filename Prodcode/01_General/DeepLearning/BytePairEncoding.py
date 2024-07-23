@@ -16,7 +16,7 @@ def BPE_labels(subwords, labels):
     new_labels = []
     counter = 0
     for subword in subwords:
-        if  re.search("§", subword): 
+        if  subword == " ": 
             new_labels.append(labels[counter])
             counter += 1
         else:
@@ -65,6 +65,14 @@ def generateTokenizer_BPE(text, files:bool = False):
     # Post-Processing, um sicherzustellen, dass Leerzeichen als Token behandelt werden
     tokenizer.post_processor = processors.ByteLevel(trim_offsets=False)
     return tokenizer
+
+# log_examples_bgl = ["9 ddr errors(s) detected and corrected on rank 9, symbol 9, bit 9", "instruction cache parity error corrected", "total of 99 ddr error(s) detected and corrected"]
+# labels = [1,0,0,0,0,0,0,0,1,0,1,0,1]
+# tokenizer = generateTokenizer_BPE(log_examples_bgl)
+# encode = tokenizer.encode(log_examples_bgl[0])
+# print(encode.tokens)
+# print(encode.ids)
+# print(BPE_labels(encode.tokens, labels))
 
 
 
