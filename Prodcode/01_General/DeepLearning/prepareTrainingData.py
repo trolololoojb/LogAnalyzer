@@ -6,8 +6,11 @@ import tqdm
 from tensorflow.keras.preprocessing.text import Tokenizer as KerasTokenizer
 from tokenizers.pre_tokenizers import Split
 
+# Lade vorhandene Tokenizer
 BPE_tokenizer = Tokenizer.from_file(r"/home/johann/github/LogAnalyzer/Datensätze/Vorbereitete Daten - Beispiel/Tokenizer/tokenizer_BPE.json")
 tokenizer = Tokenizer.from_file(r"/home/johann/github/LogAnalyzer/Datensätze/Vorbereitete Daten - Beispiel/Tokenizer/tokenizer.json")
+
+# Dateipfade für verschiedene Datensätze
 content_file_path_list = [
     r'/home/johann/github/LogAnalyzer/Datensätze/Vorbereitete Daten - Beispiel/bgl_v1/content_list_bgl.txt',
     r"/home/johann/github/LogAnalyzer/Datensätze/Vorbereitete Daten - Beispiel/hdfs_v1/content_list_hdfs.txt",
@@ -16,6 +19,7 @@ content_file_path_list = [
     r"/home/johann/github/LogAnalyzer/Datensätze/Vorbereitete Daten - Beispiel/zookeeper_v1/content_list_zookeeper.txt"
 ]
 
+# Pfade für tokenisierte Dateien
 tokenized_file_path_list = [
     r'/home/johann/github/LogAnalyzer/Datensätze/Vorbereitete Daten - Beispiel/bgl_v1/tokenized_list_bgl.csv',
     r"/home/johann/github/LogAnalyzer/Datensätze/Vorbereitete Daten - Beispiel/hdfs_v1/tokenized_list_hdfs.csv",
@@ -24,6 +28,7 @@ tokenized_file_path_list = [
     r"/home/johann/github/LogAnalyzer/Datensätze/Vorbereitete Daten - Beispiel/zookeeper_v1/tokenized_list_zookeeper.csv"
 ]
 
+# Pfade für BPE-tokenisierte Dateien
 BPE_tokenized_file_path_list = [
     r'/home/johann/github/LogAnalyzer/Datensätze/Vorbereitete Daten - Beispiel/bgl_v1/BPE_tokenized_list_bgl.csv',
     r"/home/johann/github/LogAnalyzer/Datensätze/Vorbereitete Daten - Beispiel/hdfs_v1/BPE_tokenized_list_hdfs.csv",
@@ -32,6 +37,7 @@ BPE_tokenized_file_path_list = [
     r"/home/johann/github/LogAnalyzer/Datensätze/Vorbereitete Daten - Beispiel/zookeeper_v1/BPE_tokenized_list_zookeeper.csv"
 ]
 
+# Pfade für gepolsterte Dateien
 padded_file_path_list= [
     r'/home/johann/github/LogAnalyzer/Datensätze/Vorbereitete Daten - Beispiel/bgl_v1/padded_list_bgl.csv',
     r"/home/johann/github/LogAnalyzer/Datensätze/Vorbereitete Daten - Beispiel/hdfs_v1/padded_list_hdfs.csv",
@@ -40,6 +46,7 @@ padded_file_path_list= [
     r"/home/johann/github/LogAnalyzer/Datensätze/Vorbereitete Daten - Beispiel/zookeeper_v1/padded_list_zookeeper.csv"
 ]
 
+# Pfade für Label-Dateien
 label_list_path_list = [
     r'Datensätze/Vorbereitete Daten - Beispiel/bgl_v1/label_list_bgl.csv',
     r"Datensätze/Vorbereitete Daten - Beispiel/hdfs_v1/label_list_hdfs.csv",
@@ -48,6 +55,7 @@ label_list_path_list = [
     r"Datensätze/Vorbereitete Daten - Beispiel/zookeeper_v1/label_list_zookeeper.csv"
 ]
 
+# Pfade für eindeutige Labels
 unique_label_path_list = [
     r'Datensätze/Vorbereitete Daten - Beispiel/bgl_v1/unique_data/label_list_bgl_unique.csv',
     r"Datensätze/Vorbereitete Daten - Beispiel/hdfs_v1/unique_data/label_list_hdfs.csv",
@@ -56,7 +64,7 @@ unique_label_path_list = [
     r"Datensätze/Vorbereitete Daten - Beispiel/zookeeper_v1/unique_data/label_list_zookeeper.csv"
 ]
 
-
+# Pfade für eindeutige Inhalte
 unique_content_path_list = [
     r'Datensätze/Vorbereitete Daten - Beispiel/bgl_v1/unique_data/content_list_bgl_unique.txt',
     r"Datensätze/Vorbereitete Daten - Beispiel/hdfs_v1/unique_data/content_list_hdfs.txt",
@@ -65,51 +73,32 @@ unique_content_path_list = [
     r"Datensätze/Vorbereitete Daten - Beispiel/zookeeper_v1/unique_data/content_list_zookeeper.txt"
 ]
 
-
 def generateTokenizer_BPE():
-    # Erstellen eines BPE Tokenizers
+    """
+    Erstellt einen BPE Tokenizer und speichert ihn als JSON-Datei.
+    """
     tokenizer = Tokenizer(models.BPE())
-
-
-    # Definieren der PreTokenizer
     tokenizer.pre_tokenizer = pre_tokenizers.Whitespace()
-
-    # Definieren des Trainers
     trainer = trainers.BpeTrainer(vocab_size=1000, special_tokens=["<pad>", "<cls>", "<sep>", "<unk>"])
-
-
-    # Training des Tokenizers
     tokenizer.train(files=content_file_path_list, trainer=trainer)
-
     print(tokenizer.get_vocab())
     tokenizer.save(r"/home/johann/github/LogAnalyzer/Datensätze/Vorbereitete Daten - Beispiel/Tokenizer/tokenizer_BPE.json")
 
 def generateTokenizer():
-    # Erstellen eines BPE Tokenizers
+    """
+    Erstellt einen WordLevel Tokenizer und speichert ihn als JSON-Datei.
+    """
     tokenizer = Tokenizer(models.WordLevel())
-
-        
-    split_tokenizer = Split(pattern = 'r', behavior = 'removed', invert = True)
-
-
-    # Definieren der PreTokenizer
+    split_tokenizer = Split(pattern='r', behavior='removed', invert=True)
     tokenizer.pre_tokenizer = pre_tokenizers.WhitespaceSplit()
-
-
-    # Definieren des Trainers
     trainer = trainers.WordLevelTrainer(min_frequency=1, special_tokens=["[PAD]", "[UNK]"])
-
-
-    # Training des Tokenizers
     tokenizer.train(files=content_file_path_list, trainer=trainer)
-
     print(tokenizer.get_vocab())
     tokenizer.save(r"/home/johann/github/LogAnalyzer/Datensätze/Vorbereitete Daten - Beispiel/Tokenizer/tokenizer.json")
 
-
 def delete_file(file_path):
     """
-    Löscht die zu produzierenden Dateien um eine nicht gewollte Datenmanipulation zu vermeiden
+    Löscht eine Datei, falls sie existiert, um Datenmanipulation zu vermeiden.
     """
     try:
         os.remove(file_path)
@@ -119,52 +108,39 @@ def delete_file(file_path):
     except Exception as e:
         print(f"Ein Fehler ist beim Löschen von {file_path} aufgetreten: {e}")
 
-
 def generateTokenizedData_BPE(tokenizer, input_filename, output_filename, chunk_size=1024):
     """
-    Verarbeitet eine Textdatei zeilenweise mit einem gegebenen Tokenizer und speichert die
-    Token-IDs zusammen mit den Tokens in einer CSV-Datei. Enthält eine Fortschrittsanzeige.
-
-    Args:
-    - tokenizer: Ein Tokenizer-Objekt, das eine Methode 'encode' hat.
-    - input_filename: Der Pfad zur Eingabedatei (.txt).
-    - output_filename: Der Pfad zur Ausgabedatei (.csv).
-    - chunk_size: Die Größe des Chunks in Bytes, der aus der Datei gelesen wird.
+    Tokenisiert eine Textdatei zeilenweise mit einem BPE Tokenizer und speichert die 
+    Token-IDs in einer CSV-Datei.
     """
     delete_file(output_filename)
-    # Dateigröße bestimmen für die Fortschrittsanzeige
     total_size = os.path.getsize(input_filename)
-    processed_size = 0
 
     with open(input_filename, 'r', encoding='utf-8') as file, \
          open(output_filename, 'a', newline='', encoding='utf-8') as out_file:
         writer = csv.writer(out_file)
         leftover = ''
         
-        # Fortschrittsanzeige initialisieren
         with tqdm.tqdm(total=total_size, unit='B', unit_scale=True, desc="Processing File") as pbar:
             while True:
                 chunk = file.read(chunk_size)
                 if not chunk:
                     break
-                chunk = leftover + chunk  # Hinzufügen des leftovers zum aktuellen Chunk
+                chunk = leftover + chunk
                 lines = chunk.split('\n')
-                leftover = lines.pop()  # Entfernen und Speichern der unvollständigen letzten Zeile
+                leftover = lines.pop()
 
                 for line in lines:
                     text = line.split()
-                    # Tokenisierung des Textes
                     sentence = []
                     for word in text:
                         word_output = tokenizer.encode(word)
                         sentence.append(word_output.ids)
                         writer.writerows(sentence)
-                        writer.writerow([]) 
+                        writer.writerow([])
                 
-                processed_size += len(chunk.encode('utf-8'))  # Update processed size
                 pbar.update(len(chunk.encode('utf-8')))
 
-        # Verarbeitung des letzten leftovers, falls vorhanden
         if leftover:
             text = leftover.split()
             sentence = []
@@ -172,47 +148,51 @@ def generateTokenizedData_BPE(tokenizer, input_filename, output_filename, chunk_
                 word_output = tokenizer.encode(word)
                 sentence.append(word_output.ids)
                 writer.writerows(sentence)
-                writer.writerow([]) 
+                writer.writerow([])
 
 def generate_tokenized_Data(tokenizer, input_filename, output_filename, chunk_size=1024):
+    """
+    Tokenisiert eine Textdatei zeilenweise mit einem WordLevel Tokenizer und speichert die 
+    Token-IDs in einer CSV-Datei.
+    """
     delete_file(output_filename)
-    # Dateigröße bestimmen für die Fortschrittsanzeige
     total_size = os.path.getsize(input_filename)
-    processed_size = 0
 
     with open(input_filename, 'r', encoding='utf-8') as file, \
          open(output_filename, 'a', newline='', encoding='utf-8') as out_file:
         writer = csv.writer(out_file)
         leftover = ''
         
-        # Fortschrittsanzeige initialisieren
         with tqdm.tqdm(total=total_size, unit='B', unit_scale=True, desc="Processing File") as pbar:
             while True:
                 chunk = file.read(chunk_size)
                 if not chunk:
                     break
-                chunk = leftover + chunk  # Hinzufügen des leftovers zum aktuellen Chunk
+                chunk = leftover + chunk
                 lines = chunk.split('\n')
-                leftover = lines.pop()  # Entfernen und Speichern der unvollständigen letzten Zeile
+                leftover = lines.pop()
 
                 for line in lines:
                     output = tokenizer.encode(line)
                     writer.writerow(output.ids)
-
                 
-                processed_size += len(chunk.encode('utf-8'))  # Update processed size
                 pbar.update(len(chunk.encode('utf-8')))
-    # Verarbeitung des letzten leftovers, falls vorhanden
-    if leftover:
-        output = tokenizer.encode(leftover)
-        writer.writerow(output.ids)
+
+        if leftover:
+            output = tokenizer.encode(leftover)
+            writer.writerow(output.ids)
 
 def data_size(file_path):
+    """
+    Bestimmt die Anzahl der Zeilen in einer Datei.
+    """
     total_lines = sum(1 for line in open(file_path))
     return total_lines
 
-
-def read_from_csv_3d(filename, size, row_count = 0, chunksize = 10000000):
+def read_from_csv_3d(filename, size, row_count=0, chunksize=10000000):
+    """
+    Liest eine CSV-Datei und gibt die Daten als 3D-Array zurück.
+    """
     with open(filename, 'r') as csvfile:
         reader = csv.reader(csvfile)
         data = []
@@ -225,51 +205,62 @@ def read_from_csv_3d(filename, size, row_count = 0, chunksize = 10000000):
                 continue
             else:
                 row_counter += 1
-                if not row:  # Leerzeile gefunden (Trennung der Matrizen)
+                if not row:
                     data.append(matrix)
                     matrix = []
                     if row_counter >= chunksize:
                         print(f"{row_counter} von {size} Zeilen verarbeitet")
                         return data, row_counter
-
-
                 else:
                     matrix.append([int(num) for num in row])
         
-        if matrix:  # Letzte Matrix hinzufügen, falls nicht leer
+        if matrix:
             data.append(matrix)
     
     return data, "finish"
 
 def pad_sequence(sequence, max_length):
+    """
+    Füllt eine Sequenz mit Nullen auf die maximale Länge auf.
+    """
     return sequence + [0] * (max_length - len(sequence))
 
 def pad_outer_list(outer, max_inner_length, max_outer_length):
+    """
+    Füllt eine äußere Liste mit inneren Listen auf die maximale Länge auf.
+    """
     padded_outer = [pad_sequence(inner, max_inner_length) for inner in outer]
     while len(padded_outer) < max_outer_length:
         padded_outer.append([0] * max_inner_length)
     return padded_outer
 
 def pad_data(data, max_inner_length, max_outer_length):
+    """
+    Füllt die Daten auf die maximale Länge auf.
+    """
     padded_data = [pad_outer_list(outer, max_inner_length, max_outer_length) for outer in data]
     return padded_data
 
 def save_to_csv(data, filename):
+    """
+    Speichert die gepolsterten Daten in einer CSV-Datei.
+    """
     with open(filename, 'a', newline='') as csvfile:
         writer = csv.writer(csvfile)
         for row in data:
             writer.writerows(row)
-            writer.writerow([])  # Leerzeile zur Trennung der Matrizen
-
-
+            writer.writerow([])
 
 def get_max_padding_length():
+    """
+    Bestimmt die maximale Länge der Polsterung für die Daten.
+    """
     print("start max length process")
     final_max_inner_length = 0
     final_max_outer_length = 0
     for file_path in BPE_tokenized_file_path_list:
         row_counter = 0
-        size  = data_size(file_path)
+        size = data_size(file_path)
         while row_counter != "finish":
             loaded_data, row_counter = read_from_csv_3d(file_path, size, row_counter, 10000000)
             max_inner_length = max(max(len(inner) for inner in outer) for outer in loaded_data)
@@ -280,8 +271,10 @@ def get_max_padding_length():
                 final_max_outer_length = max_outer_length
                 print(final_max_inner_length, final_max_outer_length)
 
-
 def get_max_length_tokenized():
+    """
+    Bestimmt die maximale Länge der tokenisierten Daten.
+    """
     max_length = 0
     max_file = ""
     max_line = 0
@@ -290,7 +283,7 @@ def get_max_length_tokenized():
         with open(file_path, 'r', newline='', encoding='utf-8') as file:
             reader = csv.reader(file)
             for row in reader:
-                row_counter +=1
+                row_counter += 1
                 row_length = len(row)
                 if row_length > max_length:
                     max_length = row_length
@@ -301,19 +294,14 @@ def get_max_length_tokenized():
     print(max_length)
     return max_length
 
-
-
-
-
-
 def delete_duplicates_with_labels(training_file, labels_file, output_training_file, output_labels_file):
+    """
+    Entfernt doppelte Einträge in den Trainingsdaten und den zugehörigen Labels.
+    """
     try:
-
-        # Einlesen der Trainingsdaten aus der TXT-Datei
         with open(training_file, 'r') as tf:
             training_data = tf.readlines()
 
-        # Einlesen der Y-Daten aus der CSV-Datei
         with open(labels_file, newline='') as lf:
             reader = csv.reader(lf)
             labels_data = list(reader)
@@ -321,7 +309,6 @@ def delete_duplicates_with_labels(training_file, labels_file, output_training_fi
         if len(training_data) != len(labels_data):
             raise ValueError("Die Anzahl der Zeilen in den Trainingsdaten und Y-Daten stimmt nicht überein.")
 
-        # Entfernen der doppelten Zeilen in den Trainingsdaten
         unique_training_data = []
         unique_labels_data = []
         seen = set()
@@ -334,11 +321,9 @@ def delete_duplicates_with_labels(training_file, labels_file, output_training_fi
         delete_file(output_training_file)
         delete_file(output_labels_file)
 
-        # Speichern der bereinigten Trainingsdaten in eine neue TXT-Datei
         with open(output_training_file, 'w') as tf_out:
             tf_out.writelines(unique_training_data)
 
-        # Speichern der bereinigten Y-Daten in eine neue CSV-Datei
         with open(output_labels_file, 'w', newline='') as lf_out:
             writer = csv.writer(lf_out)
             writer.writerows(unique_labels_data)
@@ -347,20 +332,10 @@ def delete_duplicates_with_labels(training_file, labels_file, output_training_fi
     except Exception as e:
         print(f"Fehler: {e}")
 
-# Beispielaufruf der Funktion
-# delete_duplicates_with_labels('training.txt', 'labels.csv', 'cleaned_training.txt', 'cleaned_labels.csv')
-
-
-# Beispielaufruf der Funktion
-# delete_duplicates_with_labels('train.csv', 'labels.csv', 'output_train.csv', 'output_labels.csv')
-
-
-# Beispielaufruf der Funktion
-# delete_duplicates_csv('input.csv', 'output.csv')
-
-
-
 def create_padding_files():
+    """
+    Erstellt Dateien mit gepolsterten Daten basierend auf den maximalen inneren und äußeren Längen.
+    """
     final_max_inner_length = 212
     final_max_outer_length = 75
 
@@ -368,37 +343,37 @@ def create_padding_files():
     for file_path, save in zip(tokenized_file_path_list, padded_file_path_list):
         row_counter = 0
         delete_file(save)
-        size  = data_size(file_path)
+        size = data_size(file_path)
         while row_counter != "finish":
             loaded_data, row_counter = read_from_csv_3d(file_path, size, row_counter, 1000)
             padded_data = pad_data(loaded_data, final_max_inner_length, final_max_outer_length)
             save_to_csv(padded_data, save)
 
-#get_max_padding_length()
-#create_padding_files()
-#generateTokenizer()
-#get_max_length_tokenized()
 
+def BPE_labels(subwords, labels):
+    new_labels = []
+    counter = 0
+    for subword in subwords:
+        if subword != "#": 
+            new_labels.append(labels[counter])
+        else:
+            new_labels.append(labels[counter])
+            counter += 1
+    return new_labels
+    
 
+# Aufruf der Methoden, falls erforderlich
+# get_max_padding_length()
+# create_padding_files()
+# generateTokenizer()
+# get_max_length_tokenized()
 
-
-
+# Beispiel für die Tokenisierung und Entfernung von Duplikaten
 # for log_file, tokenized_file in zip(content_file_path_list, BPE_tokenized_file_path_list):
 #     generateTokenizedData_BPE(tokenizer, log_file, tokenized_file, 10000)
 
 # for log_file, tokenized_file in zip(content_file_path_list, tokenized_file_path_list):
 #     generate_tokenized_Data(tokenizer, log_file, tokenized_file, 10000)
 
-# for content_file in content_file_path_list:
-#     delete_duplicates(content_file, content_file)
-
-# for tokenized_file, label_file, combined_file in zip(tokenized_file_path_list, label_list_path_list, combined_list_path_list):
-#     combine_csv(tokenized_file, label_file, combined_file)
-
 for content_file, label_file, unique_content_file, unique_label_file in zip(content_file_path_list, label_list_path_list, unique_content_path_list, unique_label_path_list):
     delete_duplicates_with_labels(content_file, label_file, unique_content_file, unique_label_file)
-
-#delete_duplicates_with_labels(content_file_path_list[0], label_list_path_list[0], unique_content_path_list[0], unique_label_path_list[0])
-
-
-#generateTokenizedData(tokenizer, r"C:\Users\j-u-b\OneDrive\Studium\Semester 6\Bachelorarbeit\Code\LogAnalyzer\Testcode\hdfs\content_list_big.txt", r"C:\Users\j-u-b\OneDrive\Studium\Semester 6\Bachelorarbeit\Code\LogAnalyzer\Testcode\hdfs\token_list_test.csv", 10000)
