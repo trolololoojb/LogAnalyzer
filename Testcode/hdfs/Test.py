@@ -102,6 +102,46 @@
 #----------------------------------------------------------------------------------------------------------------
 
 
+from tokenizers import Tokenizer, models, pre_tokenizers, trainers, normalizers, processors
+from tokenizers.processors import TemplateProcessing
+
+# Initialisierung des Tokenizers mit BPE-Modell
+tokenizer = Tokenizer(models.BPE())
+
+# Festlegen der Normalisierungsregeln (optional)
+tokenizer.normalizer = normalizers.Sequence([
+    normalizers.NFKC(),
+    normalizers.Lowercase()
+])
+
+# Festlegen der Pre-Tokenisierung, um Leerzeichen als Token zu erfassen
+tokenizer.pre_tokenizer = pre_tokenizers.Sequence([
+    pre_tokenizers.Whitespace(),
+    pre_tokenizers.ByteLevel(add_prefix_space=False)
+])
+
+# Training des Tokenizers mit einem Trainer, der die Leerzeichen einschließt
+trainer = trainers.BpeTrainer(
+    special_tokens=["<pad>", "<unk>", " "],
+    show_progress=True
+)
+
+# Laden und Normalisieren des Trainingsdatensatzes
+texts = ["Dein Text hier. Füge mehrere Texte hinzu, um den Tokenizer zu trainieren."]
+
+# Trainieren des Tokenizers
+tokenizer.train_from_iterator(texts, trainer)
+
+# Post-Processing, um sicherzustellen, dass Leerzeichen als Token behandelt werden
+tokenizer.post_processor = processors.ByteLevel(trim_offsets=False)
+
+
+# Testen des Tokenizers
+encoded = tokenizer.encode("Dein Text hier")
+
+print(encoded.tokens)
+print(encoded.ids)
+
 
 
 
