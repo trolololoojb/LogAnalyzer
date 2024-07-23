@@ -30,8 +30,8 @@ def load_labels(file_path):
     return labels
 
 # Pfade zu den Daten
-logs_file_path = r"Datensätze/Vorbereitete Daten - Beispiel/bgl_v1/unique_data/content_list_bgl_unique.txt"
-labels_file_path = r"/home/johann/github/LogAnalyzer/Datensätze/Vorbereitete Daten - Beispiel/bgl_v1/unique_data/label_list_bgl_unique.csv"
+logs_file_path = r"Datensätze/Vorbereitete Daten - Beispiel/bgl_v1/content_list_bgl.txt"
+labels_file_path = r"Datensätze/Vorbereitete Daten - Beispiel/bgl_v1/label_list_bgl.csv"
 
 # Laden der Daten
 logs = load_logs(logs_file_path)
@@ -51,7 +51,12 @@ max_length = max(len(seq) for seq in sequences)
 sequences_padded = pad_sequences(sequences, maxlen=max_length, padding='post')
 labels_padded = pad_sequences(labels, maxlen=max_length, padding='post')
 # Aufteilung in Trainings- und Testdaten
-X_train, X_test, y_train, y_test = train_test_split(sequences_padded, labels_padded, test_size=0.02, random_state=25)
+X_train, X_test, y_train, y_test = train_test_split(sequences_padded, labels_padded, test_size=0.2, random_state=25)
+
+batch_size = 64
+dataset = tf.data.Dataset.from_tensor_slices((X_train, y_train))
+dataset = dataset.shuffle(buffer_size=len(X_train))
+dataset = dataset.batch(batch_size)
 
 # Erstellung des Modells
 model = Sequential()
@@ -65,7 +70,7 @@ model.add(TimeDistributed(Dense(1, activation='tanh')))
 model.compile(optimizer='adam', loss='mean_squared_error', metrics=['accuracy'])
 
 # Training des Modells
-model.fit(X_train, y_train, epochs=10, batch_size=64, validation_data=(X_test, y_test))
+model.fit(dataset, epochs=10, batch_size=batch_size, validation_data=(X_test, y_test))
 
 # Evaluation des Modells
 loss, accuracy = model.evaluate(X_test, y_test)
@@ -81,11 +86,11 @@ def predict_and_display(log):
 
     words = log.split()
     for word, pred in zip(words, prediction):
-        label = 'nicht statisch' if pred > 0 else 'statisch'
+        label = 'nicht statisch' if pred > 0.5 else 'statisch'
         print(f'Wort: {word}, Vorhersage: {label}')
 
 # Beispielvorhersage
-new_log = ["9 ddr errors(s) detected and corrected on rank 9, symbol 9, bit 9", "instruction cache parity error corrected", "total of 99 ddr error(s) detected and 9"]
+new_log = ["9 ddr errors(s) detected and corrected on rank 9, symbol 9, bit 9", "instruction cache parity error corrected", "total of 99 ddr error(s) detected and corrected"]
 print("\nVorhersagen für neuen Logeintrag:")
 for log in new_log:
     predict_and_display(log)
