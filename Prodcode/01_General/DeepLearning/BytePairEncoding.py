@@ -1,33 +1,70 @@
-import keras_nlp
-from tensorflow.keras.preprocessing.text import Tokenizer
+import re
+from tokenizers import Tokenizer, models, pre_tokenizers, trainers, normalizers, processors
+import path
 
-# Beispiel-Text
-texts = [
-    "Logeintrag eins",
-    "Logeintrag zwei",
-    "Logeintrag drei",
-    "Logeintrag vier"
-]
+def BPE_labels(subwords, labels):
+    """
+    Ordnet den BPE-Subwörtern die passenden Labels zu.
 
-# Initialisieren des BytePairTokenizers
-# Hinweis: In einem realen Szenario müssen Sie den Tokenizer mit Ihrem eigenen Vokabular trainieren.
-# Hier ist ein einfaches Beispiel, wie Sie den Tokenizer einrichten könnten.
-# Die tatsächliche Implementierung kann variieren und erfordert normalerweise ein Trainingsset.
+    Parameter:
+    subwords (list of str): Liste der BPE-Subwörter. 
+    labels (list of int): Liste der ursprünglichen Labels.
 
-# Ein einfaches Beispiel zum Laden eines vortrainierten Tokenizers
-tokenizer = keras_nlp.tokenizers.BytePairTokenizer(
-    vocabulary_size=1000,
-    sequence_length=100,
-)
+    Rückgabewert:
+    new_labels (list of int): Labels, die den BPE-Subwörtern zugeordnet sind.
+    """
+    new_labels = []
+    counter = 0
+    for subword in subwords:
+        if  re.search("§", subword): 
+            new_labels.append(labels[counter])
+            counter += 1
+        else:
+            new_labels.append(labels[counter])
+    return new_labels
 
-# Trainieren des Tokenizers (dieser Schritt wird normalerweise mit einem großen Textkorpus durchgeführt)
-# Hier verwenden wir Beispieltexte nur zur Veranschaulichung.
-tokenizer.train_on_texts(texts)
+def generateTokenizer_BPE(text, files:bool = False):
+    """
+    Erstellt einen BPE (Byte Pair Encoding) Tokenizer und speichert ihn als JSON-Datei.
 
-# Text tokenisieren
-encoded_texts = tokenizer(texts)
+    Parameters:
+    text (list of str or str): Ein einzelner Text oder eine Liste von Texten, 
+                               die zum Trainieren des Tokenizers verwendet werden.
+                               Wenn 'files' True ist, sollten dies Dateipfade sein.
+    files (bool): Ein Flag, das angibt, ob 'text' eine Liste von Dateipfaden ist. 
+                  Wenn False, wird 'text' als eine Liste von Textstrings behandelt.
 
-# Ausgabe des tokenisierten Textes
-print("Tokenisierte Texte:")
-for i, encoded_text in enumerate(encoded_texts):
-    print(f"Text {i+1}: {encoded_text.numpy()}")
+    Returns:
+    tokenizer (Tokenizer): Ein trainierter BPE-Tokenizer.
+    """
+    # Initialisierung des Tokenizers mit BPE-Modell
+    tokenizer = Tokenizer(models.BPE())
+
+    # Festlegen der Normalisierungsregeln (optional)
+    tokenizer.normalizer = normalizers.Sequence([
+        normalizers.NFKC(),
+        normalizers.Lowercase()
+    ])
+
+    # Festlegen der Pre-Tokenisierung, um Leerzeichen als Token zu erfassen
+    tokenizer.pre_tokenizer = pre_tokenizers.Sequence([
+        pre_tokenizers.Whitespace(),
+        pre_tokenizers.ByteLevel(add_prefix_space=False)
+    ])
+
+    # Training des Tokenizers mit einem Trainer, der die Leerzeichen einschließt
+    trainer = trainers.BpeTrainer(
+        special_tokens=["<pad>", "<unk>", " "],
+        show_progress=True
+    )
+    if files:
+        tokenizer.train(files=text, trainer=trainer)
+    else:
+        tokenizer.train_from_iterator(iterator=text, trainer=trainer)
+
+    # Post-Processing, um sicherzustellen, dass Leerzeichen als Token behandelt werden
+    tokenizer.post_processor = processors.ByteLevel(trim_offsets=False)
+    return tokenizer
+
+
+
