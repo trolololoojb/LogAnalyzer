@@ -34,8 +34,8 @@ def load_labels(file_path):
     return labels
 
 # Pfade zu den Daten
-logs_file_path = r"Datensätze/Vorbereitete Daten - Beispiel/proxifier_v1/content_list_proxifier.txt"
-labels_file_path = r"Datensätze/Vorbereitete Daten - Beispiel/proxifier_v1/label_list_proxifier.csv"
+logs_file_path = r"Datensätze/Vorbereitete Daten - Beispiel/bgl_v1/unique_data/content_list_bgl_unique.txt"
+labels_file_path = r"Datensätze/Vorbereitete Daten - Beispiel/bgl_v1/unique_data/label_list_bgl_unique.csv"
 current_time = datetime.now().strftime("%Y%m%d-%H%M%S")
 epochs = 10
 log_examples_bgl = ["9 ddr errors(s) detected and corrected on rank 9, symbol 9, bit 9", "instruction cache parity error corrected", "total of 99 ddr error(s) detected and corrected"]
@@ -57,10 +57,20 @@ logs = load_logs(logs_file_path)
 labels = load_labels(labels_file_path)
 
 
+
 #BGL Teil
 tokenizer = BPE.generateTokenizer_BPE(logs)
+tokenizer.save(directory_path + '/tokenizer.json')
 sequences = [tokenizer.encode(log).ids for log in logs]
+tokens = [tokenizer.encode(log).tokens for log in logs]
 word_index =tokenizer.get_vocab()
+
+#labels an subword encoding anpassen
+labels_new = []
+for sequence, label in zip(tokens, labels):
+    labels_new.append(BPE.BPE_labels(sequence, label))
+
+labels = labels_new
 
 # Tokenisierung der Logeinträge
 # tokenizer = Tokenizer()
@@ -114,8 +124,11 @@ def predict_and_display(log):
         file.write(str(sequence_padded[0]) + "\n")
         prediction = model.predict(sequence_padded)[0]
         
-
-        words = log.split()
+        #Nicht an BPE angepasste Labels:
+        #words = log.split()
+        
+        #An BPE angepasste labels:
+        words = tokenizer.encode(log).tokens
         for word, pred in zip(words, prediction):
             label = 'nicht statisch' if pred > 0 else 'statisch'
             print(f'Wort: {word}, Vorhersage: {label}, Wert: {pred}')
