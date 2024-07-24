@@ -23,7 +23,7 @@ def BPE_labels(subwords, labels):
             new_labels.append(labels[counter])
     return new_labels
 
-def generateTokenizer_BPE(text, files:bool = False):
+def generateTokenizer_BPE(text, vocab_size, files:bool = False):
     """
     Erstellt einen BPE (Byte Pair Encoding) Tokenizer und speichert ihn als JSON-Datei.
 
@@ -55,7 +55,7 @@ def generateTokenizer_BPE(text, files:bool = False):
     # Training des Tokenizers mit einem Trainer, der die Leerzeichen einschließt
     trainer = trainers.BpeTrainer(
         special_tokens=["<pad>", "<unk>", " "],
-        show_progress=True
+        show_progress=True, vocab_size = vocab_size#, continuing_subword_prefix = "§"
     )
     if files:
         tokenizer.train(files=text, trainer=trainer)
@@ -68,7 +68,7 @@ def generateTokenizer_BPE(text, files:bool = False):
 
 # log_examples_bgl = ["9 ddr errors(s) detected and corrected on rank 9, symbol 9, bit 9", "instruction cache parity error corrected", "total of 99 ddr error(s) detected and corrected"]
 # labels = [1,0,0,0,0,0,0,0,1,0,1,0,1]
-# tokenizer = generateTokenizer_BPE(log_examples_bgl)
+# tokenizer = generateTokenizer_BPE(log_examples_bgl, 50)
 # encode = tokenizer.encode(log_examples_bgl[0])
 # print(encode.tokens)
 # print(encode.ids)
