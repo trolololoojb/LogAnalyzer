@@ -17,6 +17,7 @@ def BPE_labels(subwords, labels):
     counter = 0
     for subword in subwords:
         if  subword == " ": 
+            #new_labels.append(0)
             new_labels.append(labels[counter])
             counter += 1
         else:
@@ -67,7 +68,7 @@ def generateTokenizer_BPE(text, vocab_size, files:bool = False):
     return tokenizer
 
 # log_examples_bgl = ["9 ddr errors(s) detected and corrected on rank 9, symbol 9, bit 9", "instruction cache parity error corrected", "total of 99 ddr error(s) detected and corrected"]
-# labels = [1,0,0,0,0,0,0,0,1,0,1,0,1]
+# labels = [1,-1,-1,-1,-1,-1,-1,-1,1,-1,1,-1,1]
 # tokenizer = generateTokenizer_BPE(log_examples_bgl, 50)
 # encode = tokenizer.encode(log_examples_bgl[0])
 # print(encode.tokens)
