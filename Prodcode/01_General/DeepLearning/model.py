@@ -16,6 +16,7 @@ from tensorflow.keras.callbacks import ModelCheckpoint
 from sklearn.model_selection import train_test_split
 import BytePairEncoding as BPE
 from datetime import datetime
+import path
 
 
 # Laden der Logeinträge aus einer TXT-Datei
@@ -36,6 +37,7 @@ def load_labels(file_path):
 # Pfade zu den Daten
 logs_file_path = r"Datensätze/Vorbereitete Daten - Beispiel/bgl_v1/unique_data/content_list_bgl_unique.txt"
 labels_file_path = r"Datensätze/Vorbereitete Daten - Beispiel/bgl_v1/unique_data/label_list_bgl_unique.csv"
+
 current_time = datetime.now().strftime("%Y%m%d-%H%M%S")
 epochs = 10
 log_examples_bgl = ["9 ddr errors(s) detected and corrected on rank 9, symbol 9, bit 9", "instruction cache parity error corrected", "total of 99 ddr error(s) detected and corrected"]
@@ -56,10 +58,18 @@ os.makedirs(directory_path, exist_ok=True)
 logs = load_logs(logs_file_path)
 labels = load_labels(labels_file_path)
 
+# Laden der Daten
+logs = []
+labels = []
+
+for logs_file_path, labels_file_path in zip(path.unique_content_path_list, path.unique_label_path_list):
+    logs += load_logs(logs_file_path)
+    labels += load_labels(labels_file_path)
+
 
 
 #BGL Teil
-tokenizer = BPE.generateTokenizer_BPE(logs)
+tokenizer = BPE.generateTokenizer_BPE(logs, 10000)
 tokenizer.save(directory_path + '/tokenizer.json')
 sequences = [tokenizer.encode(log).ids for log in logs]
 tokens = [tokenizer.encode(log).tokens for log in logs]
@@ -84,6 +94,8 @@ labels = labels_new
 
 # Padding der Sequenzen
 max_length = max(len(seq) for seq in sequences)
+with open(directory_path + '/max_length.txt', 'w') as file:
+    file.write(str(max_length))
 sequences_padded = pad_sequences(sequences, maxlen=max_length, padding='post')
 labels_padded = pad_sequences(labels, maxlen=max_length, padding='post')
 # Aufteilung in Trainings- und Testdaten
@@ -113,6 +125,8 @@ history = model.fit(dataset, epochs=epochs, batch_size=batch_size, validation_da
 
 # Evaluation des Modells
 loss, accuracy = model.evaluate(X_test, y_test)
+with open(directory_path + '/training_results.txt', 'a') as file:
+    file.write(f'Loss: {loss}, Accuracy: {accuracy}\n')
 print(f'Loss: {loss}, Accuracy: {accuracy}')
 
 # Funktion zur Ausgabe der Vorhersagen
@@ -129,10 +143,32 @@ def predict_and_display(log):
         
         #An BPE angepasste labels:
         words = tokenizer.encode(log).tokens
-        for word, pred in zip(words, prediction):
-            label = 'nicht statisch' if pred > 0 else 'statisch'
-            print(f'Wort: {word}, Vorhersage: {label}, Wert: {pred}')
-            file.write(str(f'Wort: {word}, Vorhersage: {label}, Wert: {pred}\n'))
+        result = []
+        current_label = 'variabel' if prediction[0] > 0 else 'statisch'
+        current_words = [words[0]]
+        current_values = [prediction[0]]
+
+        for word, pred in zip(words[1:], prediction[1:]):
+            label = 'variabel' if pred > 0 else 'statisch'
+            if label == current_label:
+                current_words.append(word)
+                current_values.append(pred)
+            else:
+                result.append((current_words, current_label, current_values))
+                current_words = [word]
+                current_values = [pred]
+                current_label = label
+
+        # Letzte Gruppe hinzufügen
+        if current_words:
+            result.append((current_words, current_label, current_values))
+
+        # Ausgabe und Schreiben in Datei
+        for group, label, values in result:
+            text = ''.join(group)
+            values_str = ', '.join(map(str, values))
+            print(f'Wörter: {text}, Vorhersage: {label}, Werte: {values_str}')
+            file.write(f'Wörter: {text}, Vorhersage: {label}, Werte: {values_str}\n')
 
 # Beispielvorhersage
 
