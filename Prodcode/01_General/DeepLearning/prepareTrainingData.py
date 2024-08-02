@@ -7,8 +7,8 @@ from tensorflow.keras.preprocessing.text import Tokenizer as KerasTokenizer
 from tokenizers.pre_tokenizers import Split
 
 # Lade vorhandene Tokenizer
-BPE_tokenizer = Tokenizer.from_file(r"/home/johann/github/LogAnalyzer/Datensätze/Vorbereitete Daten - Beispiel/Tokenizer/tokenizer_BPE.json")
-tokenizer = Tokenizer.from_file(r"/home/johann/github/LogAnalyzer/Datensätze/Vorbereitete Daten - Beispiel/Tokenizer/tokenizer.json")
+BPE_tokenizer = Tokenizer.from_file(r"/home/johann/github/LogAnalyzer/Datensätze/Vorbereitete Daten - Beispiel/02_Tokenizer/tokenizer_BPE.json")
+tokenizer = Tokenizer.from_file(r"/home/johann/github/LogAnalyzer/Datensätze/Vorbereitete Daten - Beispiel/02_Tokenizer/tokenizer.json")
 
 # Dateipfade für verschiedene Datensätze
 content_file_path_list = [
