@@ -4,8 +4,8 @@ from tokenizers import Tokenizer
 from tensorflow.keras.models import load_model
 from tensorflow.keras.preprocessing.sequence import pad_sequences
 
-model_path = r'Datensätze/Vorbereitete Daten - Beispiel/01_Models/20240725-002519**** (gekappter bgl)/tokenizedModel.keras'
-tokenizer_path = r"Datensätze/Vorbereitete Daten - Beispiel/01_Models/20240725-002519**** (gekappter bgl)/tokenizer.json"
+model_path = r'Datensätze/Vorbereitete Daten - Beispiel/01_Models/20240802-150739 only 2k data/tokenizedModel.keras'
+tokenizer_path = r"Datensätze/Vorbereitete Daten - Beispiel/01_Models/20240802-150739 only 2k data/tokenizer.json"
 tokenizer = Tokenizer.from_file(tokenizer_path)
 model = load_model(model_path)
 directory_path = os.path.dirname(model_path)
@@ -51,11 +51,19 @@ def predict_and_display(log):
         result.append((current_words, current_label, current_values))
 
     # Ausgabe und Schreiben in Datei
+    result_label = []
     for group, label, values in result:
         text = ''.join(group)
+        split = text.split()
+        for word in split:
+            if label == "variabel":
+                result_label.append(1)
+            else:
+                result_label.append(-1)
         values_str = ', '.join(map(str, values))
         print(f'Wörter: {text}, Vorhersage: {label}, Werte: {values_str}')
+    return result_label
 
 new_log = input("Log eingeben: ")
 print("\nVorhersagen für neuen Logeintrag:")
-predict_and_display(new_log)
+print(predict_and_display(new_log))
