@@ -43,9 +43,10 @@ epochs = 10
 log_examples_bgl = ["9 ddr errors(s) detected and corrected on rank 9, symbol 9, bit 9", "instruction cache parity error corrected", "total of 99 ddr error(s) detected and corrected"]
 log_examples_hdfs = ["99.999.9.9:99999 Served block blk_-99999999999999999 to /99.999.9.9", "BLOCK* NameSystem.allocateBlock: /mnt/hadoop/mapred/system/job_999999999999_9999/job.jar. blk_9999999999999999999", "99.999.99.999:99999 Starting thread to transfer block blk_-9999999999999999999 to 99.999.999.999:99999, 99.999.99.999:99999"]
 log_examples_proxifier = ["rs.sinajs.cn:99 open through proxy proxy.cse.cuhk.edu.hk:9999 HTTPS", "pic9.zhimg.com:999 close, 9999 bytes (9.99 KB) sent, 9999 bytes (9.99 KB) received, lifetime 99:99", "ping9.teamviewer.com:999 (IPv9) error : Could not connect through proxy proxy.cse.cuhk.edu.hk:9999 - Proxy server cannot establish a connection with the target, status code 999"]
+log_examples_hpc = ["Component State Change: Component \999alt9\999 is in the unavailable state (HWID=9999)", "unix.hw state_change.unavailable 9999999999 9 Component State Change: Component \999alt9\999 is in the unavailable state (HWID=9999)", "node-999 node status 9999999999 9 configured out"]
+log_examples_zookeeper = ["My election bind port: 9.9.9.9/9.9.9.9:9999", "Closed socket connection for client /99.99.99.99:99999 which had sessionid 9x99f9a99999b999e", "caught end of stream exception"]
 
-
-log_examples = [log_examples_bgl, log_examples_hdfs, log_examples_proxifier]
+log_examples = [log_examples_bgl, log_examples_hdfs, log_examples_proxifier, log_examples_hpc, log_examples_zookeeper]
 
 # Erstelle den gesamten Pfad
 directory_path = f'Datensätze/Vorbereitete Daten - Beispiel/01_Models/{current_time}'
@@ -61,14 +62,14 @@ labels = load_labels(labels_file_path)
 # Laden der Daten
 logs = []
 labels = []
-
+logs_file_path = path.unique_content_path_list
 for logs_file_path, labels_file_path in zip(path.unique_content_path_list, path.unique_label_path_list):
     logs += load_logs(logs_file_path)
     labels += load_labels(labels_file_path)
 
 
 
-#BGL Teil
+#BPE Teil
 tokenizer = BPE.generateTokenizer_BPE(logs, 10000)
 tokenizer.save(directory_path + '/tokenizer.json')
 sequences = [tokenizer.encode(log).ids for log in logs]
@@ -135,6 +136,7 @@ def predict_and_display(log):
         sequence = [tokenizer.encode(log).ids]
         sequence_padded = pad_sequences(sequence, maxlen=max_length, padding='post')
         print(sequence_padded[0])
+        file.write("\nLog: " + log +"\n")
         file.write(str(sequence_padded[0]) + "\n")
         prediction = model.predict(sequence_padded)[0]
         
@@ -185,7 +187,7 @@ with open(directory_path + '/training_results.txt', 'a') as file:
     accuracy = history.history['accuracy']
     val_loss = history.history['val_loss']
     val_accuracy = history.history['val_accuracy']
-    file.write("Training auf folgende Datei: " + logs_file_path + "\n")
+    file.write("Training auf folgende Datei: " + str(logs_file_path) + "\n")
     file.write(f'Total Trainings-Loss: {loss}\n')
     file.write(f'Total Trainings-Accuracy: {accuracy}\n')
     file.write(f'Total Validierungs-Loss: {val_loss}\n')
