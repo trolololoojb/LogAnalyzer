@@ -60,3 +60,35 @@ unique_content_path_list = [
     r"Datensätze/Vorbereitete Daten - Beispiel/proxifier_v1/unique_data/content_list_proxifier.txt",
     r"Datensätze/Vorbereitete Daten - Beispiel/zookeeper_v1/unique_data/content_list_zookeeper.txt"
 ]
+
+twok_label_path_list = [
+    r'Datensätze/Vorbereitete Daten - Beispiel/bgl_v1/2k/label_list_bgl_unique.csv',
+    r"Datensätze/Vorbereitete Daten - Beispiel/hdfs_v1/2k/label_list_hdfs.csv",
+    r"Datensätze/Vorbereitete Daten - Beispiel/hpc_v1/2k/label_list_hpc.csv",
+    r"Datensätze/Vorbereitete Daten - Beispiel/proxifier_v1/2k/label_list_proxifier.csv",
+    r"Datensätze/Vorbereitete Daten - Beispiel/zookeeper_v1/2k/label_list_zookeeper.csv"
+]
+
+twok_content_path_list = [
+    r'Datensätze/Vorbereitete Daten - Beispiel/bgl_v1/2k/content_list_bgl_unique.txt',
+    r"Datensätze/Vorbereitete Daten - Beispiel/hdfs_v1/2k/content_list_hdfs.txt",
+    r"Datensätze/Vorbereitete Daten - Beispiel/hpc_v1/2k/content_list_hpc.txt",
+    r"Datensätze/Vorbereitete Daten - Beispiel/proxifier_v1/2k/content_list_proxifier.txt",
+    r"Datensätze/Vorbereitete Daten - Beispiel/zookeeper_v1/2k/content_list_zookeeper.txt"
+]
+
+twok_log_path_list = [
+    r'Datensätze/Vorbereitete Daten - Beispiel/bgl_v1/2k/BGL_2k.log',
+    r"Datensätze/Vorbereitete Daten - Beispiel/hdfs_v1/2k/HDFS_2k.log",
+    r"Datensätze/Vorbereitete Daten - Beispiel/hpc_v1/2k/HPC_2k.log",
+    r"Datensätze/Vorbereitete Daten - Beispiel/proxifier_v1/2k/Proxifier_2k.log",
+    r"Datensätze/Vorbereitete Daten - Beispiel/zookeeper_v1/2k/Zookeeper_2k.log"
+]
+
+twok_strctured_path_list = [
+    r'Datensätze/Vorbereitete Daten - Beispiel/bgl_v1/2k/BGL_2k.log_structured.csv',
+    r"Datensätze/Vorbereitete Daten - Beispiel/hdfs_v1/2k/HDFS_2k.log_structured.csv",
+    r"Datensätze/Vorbereitete Daten - Beispiel/hpc_v1/2k/HPC_2k.log_structured.csv",
+    r"Datensätze/Vorbereitete Daten - Beispiel/proxifier_v1/2k/Proxifier_2k.log_structured.csv",
+    r"Datensätze/Vorbereitete Daten - Beispiel/zookeeper_v1/2k/Zookeeper_2k.log_structured.csv"
+]
