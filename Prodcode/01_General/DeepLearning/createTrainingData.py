@@ -2,7 +2,7 @@
 # Eine davon ist die "content_list" welche die einzelnen Lognachrichten enthält. 
 # Die "label_list" enthält die Labels der einzelnen Wörter für die Lognachrichten. 
 
-import sys
+import path
 import pandas as pd
 import re
 import csv
@@ -83,7 +83,7 @@ def compare_line_to_template(line, template):
     padding_bool = True
 
     for lw in line_words:
-        binary_labels = 0 if lw == filtered_templates[0] else 1 # Einzelne Wortübereinstimmungen in eine Liste packen
+        binary_labels = -1 if lw == filtered_templates[0] else 1 # Einzelne Wortübereinstimmungen in eine Liste packen
         if binary_labels == 1:
             static_counter +=1
         else:
@@ -333,7 +333,10 @@ label_list_path_list = [
     r"Datensätze/Vorbereitete Daten - Beispiel/zookeeper_v1/label_list_zookeeper.csv"
 ]
 
-for log_file_path, csv_file_path, content_file_path, label_list_path in zip(log_file_path_list, csv_file_path_list, content_file_path_list, label_list_path_list):
-    process_start(log_file_path, csv_file_path, 1000000, content_file_path, label_list_path)
+# for log_file_path, csv_file_path, content_file_path, label_list_path in zip(log_file_path_list, csv_file_path_list, content_file_path_list, label_list_path_list):
+#     process_start(log_file_path, csv_file_path, 1000000, content_file_path, label_list_path)
 
 #process_start(log_file_path_list[0], csv_file_path_list[0], 1000000, content_file_path_list[0], label_list_path_list[0])
+
+for log_file_path, csv_file_path, content_file_path, label_list_path in zip(path.twok_log_path_list, path.twok_strctured_path_list, path.twok_content_path_list, path.twok_label_path_list):
+    process_start(log_file_path, csv_file_path, 1000000, content_file_path, label_list_path)
