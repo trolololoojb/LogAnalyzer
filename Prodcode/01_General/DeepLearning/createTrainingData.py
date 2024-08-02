@@ -338,5 +338,5 @@ label_list_path_list = [
 
 #process_start(log_file_path_list[0], csv_file_path_list[0], 1000000, content_file_path_list[0], label_list_path_list[0])
 
-for log_file_path, csv_file_path, content_file_path, label_list_path in zip(path.twok_log_path_list, path.twok_strctured_path_list, path.twok_content_path_list, path.twok_label_path_list):
+for log_file_path, csv_file_path, content_file_path, label_list_path in zip(path.twok_log_path_list, path.twok_structured_path_list, path.twok_content_path_list, path.twok_label_path_list):
     process_start(log_file_path, csv_file_path, 1000000, content_file_path, label_list_path)
