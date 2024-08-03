@@ -1,8 +1,3 @@
-"""
-Test Modell. statt sigmoid und binary crossentropy jetzt tanh und mean squared error. Hoffnung, dass das gegen die 0 beim padding hilft.
-Aber immer noch das Probölem, dass die hinteren variablen teile nicht erkannt werden.
-"""
-
 
 import csv
 import json
@@ -62,49 +57,62 @@ labels = load_labels(labels_file_path)
 # Laden der Daten
 logs = []
 labels = []
-logs_file_path = path.unique_content_path_list
-for logs_file_path, labels_file_path in zip(path.unique_content_path_list, path.unique_label_path_list):
-    logs += load_logs(logs_file_path)
-    labels += load_labels(labels_file_path)
+for log_file_path, label_file_path in zip(path.unique_content_path_list, path.unique_label_path_list):
+    logs += load_logs(log_file_path)
+    labels += load_labels(label_file_path)
+
+# Aufteilen in Trainings- und Testdaten
+logs_train, logs_test, labels_train, labels_test = train_test_split(logs, labels, test_size=0.2, random_state=25)
+
+with open(directory_path + '/validation_content.txt', 'w') as val_file:
+    for line in logs_test:
+        val_file.write(line +"\n")
+
+with open(directory_path + '/validation_labels.csv', 'w', newline='') as file:
+    writer = csv.writer(file)
+    for label in labels_test:
+        writer.writerow(label)
 
 
-
-#BPE Teil
-tokenizer = BPE.generateTokenizer_BPE(logs, 10000)
+# BPE Teil für Trainingsdaten
+tokenizer = BPE.generateTokenizer_BPE(logs_train, 10000)
 tokenizer.save(directory_path + '/tokenizer.json')
-sequences = [tokenizer.encode(log).ids for log in logs]
-tokens = [tokenizer.encode(log).tokens for log in logs]
-word_index =tokenizer.get_vocab()
+sequences_train = [tokenizer.encode(log).ids for log in logs_train]
+tokens_train = [tokenizer.encode(log).tokens for log in logs_train]
+word_index = tokenizer.get_vocab()
 
-#labels an subword encoding anpassen
-labels_new = []
-for sequence, label in zip(tokens, labels):
-    labels_new.append(BPE.BPE_labels(sequence, label))
+# Labels an subword encoding anpassen für Trainingsdaten
+labels_train_new = []
+for sequence, label in zip(tokens_train, labels_train):
+    labels_train_new.append(BPE.BPE_labels(sequence, label))
+labels_train = labels_train_new
 
-labels = labels_new
-
-# Tokenisierung der Logeinträge
-# tokenizer = Tokenizer()
-# tokenizer.fit_on_texts(logs)
-# sequences = tokenizer.texts_to_sequences(logs)
-# word_index = tokenizer.word_index
-# tokenizer_json = tokenizer.to_json()
-# with open('tokenizer.json', 'w', encoding='utf-8') as f:
-#     f.write(json.dumps(tokenizer_json, ensure_ascii=False))
-
-
-# Padding der Sequenzen
-max_length = max(len(seq) for seq in sequences)
+# Padding der Sequenzen für Trainingsdaten
+max_length = max(len(seq) for seq in sequences_train)
 with open(directory_path + '/max_length.txt', 'w') as file:
     file.write(str(max_length))
-sequences_padded = pad_sequences(sequences, maxlen=max_length, padding='post')
-labels_padded = pad_sequences(labels, maxlen=max_length, padding='post')
-# Aufteilung in Trainings- und Testdaten
-X_train, X_test, y_train, y_test = train_test_split(sequences_padded, labels_padded, test_size=0.2, random_state=25)
+sequences_train_padded = pad_sequences(sequences_train, maxlen=max_length, padding='post')
+labels_train_padded = pad_sequences(labels_train, maxlen=max_length, padding='post')
 
+# BPE Teil für Testdaten
+sequences_test = [tokenizer.encode(log).ids for log in logs_test]
+tokens_test = [tokenizer.encode(log).tokens for log in logs_test]
+
+# Labels an subword encoding anpassen für Testdaten
+labels_test_new = []
+for sequence, label in zip(tokens_test, labels_test):
+    labels_test_new.append(BPE.BPE_labels(sequence, label))
+labels_test = labels_test_new
+
+# Padding der Sequenzen für Testdaten
+sequences_test_padded = pad_sequences(sequences_test, maxlen=max_length, padding='post')
+labels_test_padded = pad_sequences(labels_test, maxlen=max_length, padding='post')
+
+
+# Erstellung des Datensets für Trainingsdaten
 batch_size = 64
-dataset = tf.data.Dataset.from_tensor_slices((X_train, y_train))
-dataset = dataset.shuffle(buffer_size=len(X_train))
+dataset = tf.data.Dataset.from_tensor_slices((sequences_train_padded, labels_train_padded))
+dataset = dataset.shuffle(buffer_size=len(sequences_train_padded))
 dataset = dataset.batch(batch_size)
 
 # Erstellung des Modells
@@ -121,11 +129,11 @@ model.compile(optimizer='adam', loss='mean_squared_error', metrics=['accuracy'])
 
 # Training des Modells
 checkpoint = ModelCheckpoint(model_name, save_best_only=True, monitor='val_accuracy', mode='max')
-history = model.fit(dataset, epochs=epochs, batch_size=batch_size, validation_data=(X_test, y_test), callbacks= [checkpoint])
-
+history = model.fit(dataset, epochs=epochs, batch_size=batch_size, validation_data=(sequences_test_padded, labels_test_padded), callbacks=[checkpoint])
 
 # Evaluation des Modells
-loss, accuracy = model.evaluate(X_test, y_test)
+loss, accuracy = model.evaluate(sequences_test_padded, labels_test_padded)
+
 with open(directory_path + '/training_results.txt', 'a') as file:
     file.write(f'Loss: {loss}, Accuracy: {accuracy}\n')
 print(f'Loss: {loss}, Accuracy: {accuracy}')
@@ -192,3 +200,5 @@ with open(directory_path + '/training_results.txt', 'a') as file:
     file.write(f'Total Trainings-Accuracy: {accuracy}\n')
     file.write(f'Total Validierungs-Loss: {val_loss}\n')
     file.write(f'Total Validierungs-Accuracy: {val_accuracy}\n')
+
+
