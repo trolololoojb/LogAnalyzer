@@ -21,12 +21,13 @@ try:
 except:
     max_length = input("Keine max-length Datei! Zum Fortfahren max_length angeben:")
 
-def predict_and_display(log):
+def predict_and_display(log, ausgabe:bool = True):
 
 
     sequence = [tokenizer.encode(log).ids]
     sequence_padded = pad_sequences(sequence, maxlen=max_length, padding='post')
-    print(sequence_padded[0])
+    if ausgabe:
+        print(sequence_padded[0])
     prediction = model.predict(sequence_padded)[0]
 
     words = tokenizer.encode(log).tokens
@@ -61,9 +62,10 @@ def predict_and_display(log):
             else:
                 result_label.append(-1)
         values_str = ', '.join(map(str, values))
-        print(f'Wörter: {text}, Vorhersage: {label}, Werte: {values_str}')
+        if ausgabe:
+            print(f'Wörter: {text}, Vorhersage: {label}, Werte: {values_str}')
     return result_label
 
-new_log = input("Log eingeben: ")
-print("\nVorhersagen für neuen Logeintrag:")
-print(predict_and_display(new_log))
+# new_log = input("Log eingeben: ")
+# print("\nVorhersagen für neuen Logeintrag:")
+# print(predict_and_display(new_log))
