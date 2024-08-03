@@ -69,7 +69,9 @@ def evaluate(eval_file, eval_label, additional_infos = ""):
         
         gleiche_zeilen = 0
         unterschiedliche_zeilen = 0
-        
+        miss_eval_content = []
+        miss_eval_label = []
+        correct_label = []
         for i in range(len(txt_zeilen)):
             print(i)
             pred_labels = model_load.predict_and_display(txt_zeilen[i].strip(), False)
@@ -77,7 +79,10 @@ def evaluate(eval_file, eval_label, additional_infos = ""):
             if pred_labels == csv_ergebnis:
                 gleiche_zeilen += 1
             else:
+                miss_eval_content.append(txt_zeilen[i].strip())
                 unterschiedliche_zeilen += 1
+                miss_eval_label.append(str(pred_labels))
+                correct_label.append(str(csv_ergebnis))
                 print(f"Zeile {i+1}: Unterschied gefunden")
                 print(f"TXT: {pred_labels}")
                 print(f"CSV: {csv_ergebnis}")
@@ -88,7 +93,12 @@ def evaluate(eval_file, eval_label, additional_infos = ""):
         
         with open(f"Datensätze/Vorbereitete Daten - Beispiel/03_Evaluationen/{file_name}_{model_name}_evaluation.txt", 'w') as infos:
             infos.write(f"Model: {model_name}\n Evaluierungsdaten: {file_name}\n Sonstige Infos: {additional_infos}\n")
-            infos.write(f"Ergebnisse: \n    -Gleiche Zeilen: {gleiche_zeilen} ({gleiche_prozent:.2f}%)\n    -Unterschiedliche Zeilen: {unterschiedliche_zeilen} ({unterschiedliche_prozent:.2f}%)")
+            infos.write(f"Ergebnisse: \n    -Gleiche Zeilen: {gleiche_zeilen} ({gleiche_prozent:.2f}%)\n    -Unterschiedliche Zeilen: {unterschiedliche_zeilen} ({unterschiedliche_prozent:.2f}%)\nFalsch interpretierte Zeilen:\n")
+            for line, e_label, label in zip(miss_eval_content, miss_eval_label, correct_label):
+                infos.write("Logeintrag: " + line + "\n")
+                infos.write("Modell-Label: " + e_label + "\n")
+                infos.write("Echtes Label: " + label + "\n")
+                infos.write("\n")
         print(f"Gleiche Zeilen: {gleiche_zeilen} ({gleiche_prozent:.2f}%)")
         print(f"Unterschiedliche Zeilen: {unterschiedliche_zeilen} ({unterschiedliche_prozent:.2f}%)")
     
@@ -99,5 +109,7 @@ def evaluate(eval_file, eval_label, additional_infos = ""):
 
 # evaluate(r"Datensätze/Vorbereitete Daten - Beispiel/proxifier_v1/2k/Proxifier_2k_evaluate_content.txt", r"Datensätze/Vorbereitete Daten - Beispiel/proxifier_v1/2k/Proxifier_2k_evaluate_label.csv")
 add_infos = input("Sonstige Infos hinzufügen:")
-for content, label in zip(path.twok_evaluate_content_list, path.twok_evaluate_label_list):
-    evaluate(content, label, add_infos)
+# for content, label in zip(path.twok_evaluate_content_list, path.twok_evaluate_label_list):
+#     evaluate(content, label, add_infos)
+
+evaluate(path.twok_evaluate_content_list[4], path.twok_evaluate_label_list[4], add_infos)
