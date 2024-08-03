@@ -1,11 +1,11 @@
 
 import os
 from tokenizers import Tokenizer
-from tensorflow.keras.models import load_model
-from tensorflow.keras.preprocessing.sequence import pad_sequences
+from tensorflow.keras.models import load_model # type: ignore
+from tensorflow.keras.preprocessing.sequence import pad_sequences # type: ignore
 
-model_path = r'Datensätze/Vorbereitete Daten - Beispiel/01_Models/20240802-150739 only 2k data/tokenizedModel.keras'
-tokenizer_path = r"Datensätze/Vorbereitete Daten - Beispiel/01_Models/20240802-150739 only 2k data/tokenizer.json"
+model_path = r'Datensätze/Vorbereitete Daten - Beispiel/01_Models/20240803-230203 Training auf unique Daten aber ohne Zookeeper/tokenizedModel.keras'
+tokenizer_path = r"Datensätze/Vorbereitete Daten - Beispiel/01_Models/20240803-230203 Training auf unique Daten aber ohne Zookeeper/tokenizer.json"
 tokenizer = Tokenizer.from_file(tokenizer_path)
 model = load_model(model_path)
 directory_path = os.path.dirname(model_path)
