@@ -62,6 +62,7 @@ def match_template(line, templates):
     for template in templates:
         if re.search(template, line):
             return template
+    raise Exception(f"Für Line  {line} wurde kein Template gefunden. \nTemplates: {str(templates)}")
     return False
 
         
