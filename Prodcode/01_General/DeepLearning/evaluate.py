@@ -55,10 +55,10 @@ def select_random_lines(input_file, log_file, label_file, output_content, output
     print(f'{num_lines} zufällige Zeilen wurden ausgewählt und gespeichert.')
 
 
-def evaluate(eval_file, eval_label):
+def evaluate(eval_file, eval_label, additional_infos = ""):
     file_name = os.path.basename(eval_file)
     model_name = os.path.basename(os.path.normpath(model_load.model_path))
-    additional_infos = input(f"Es wird evaluiert: {file_name} mit dem Model {model_name}. Sonstige Infos hinzufügen:")
+    
     with open(eval_file, 'r') as txt_f, open(eval_label, 'r') as csv_f:
         txt_zeilen = txt_f.readlines()
         csv_reader = csv.reader(csv_f)
@@ -86,7 +86,7 @@ def evaluate(eval_file, eval_label):
         gleiche_prozent = (gleiche_zeilen / gesamt_zeilen) * 100
         unterschiedliche_prozent = (unterschiedliche_zeilen / gesamt_zeilen) * 100
         
-        with open(f"Datensätze/Vorbereitete Daten - Beispiel/03_Evaluationen/{file_name}_evaluation.txt", 'w') as infos:
+        with open(f"Datensätze/Vorbereitete Daten - Beispiel/03_Evaluationen/{file_name}_{model_name}_evaluation.txt", 'w') as infos:
             infos.write(f"Model: {model_name}\n Evaluierungsdaten: {file_name}\n Sonstige Infos: {additional_infos}\n")
             infos.write(f"Ergebnisse: \n    -Gleiche Zeilen: {gleiche_zeilen} ({gleiche_prozent:.2f}%)\n    -Unterschiedliche Zeilen: {unterschiedliche_zeilen} ({unterschiedliche_prozent:.2f}%)")
         print(f"Gleiche Zeilen: {gleiche_zeilen} ({gleiche_prozent:.2f}%)")
@@ -98,6 +98,6 @@ def evaluate(eval_file, eval_label):
 #     select_random_lines(input_file, log_file, label_file, output_content, output_label)
 
 # evaluate(r"Datensätze/Vorbereitete Daten - Beispiel/proxifier_v1/2k/Proxifier_2k_evaluate_content.txt", r"Datensätze/Vorbereitete Daten - Beispiel/proxifier_v1/2k/Proxifier_2k_evaluate_label.csv")
-
+add_infos = input("Sonstige Infos hinzufügen:")
 for content, label in zip(path.twok_evaluate_content_list, path.twok_evaluate_label_list):
-    evaluate(content, label)
+    evaluate(content, label, add_infos)
