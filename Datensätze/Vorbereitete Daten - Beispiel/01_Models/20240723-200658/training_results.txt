@@ -1,0 +1,80 @@
+[ 17   2 311   2 774   9  44  10   2 233   2 239   2 243   2 255   2 394
+   2  17  13   2 383   2  17  13   2 739   2  17   0   0   0   0   0   0
+   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0
+   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0
+   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0
+   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0
+   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0
+   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0
+   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0
+   0   0   0   0   0   0   0   0   0   0   0]
+Wort: 9, Vorhersage: nicht statisch
+Wort: ddr, Vorhersage: statisch
+Wort: errors(s), Vorhersage: statisch
+Wort: detected, Vorhersage: statisch
+Wort: and, Vorhersage: statisch
+Wort: corrected, Vorhersage: statisch
+Wort: on, Vorhersage: statisch
+Wort: rank, Vorhersage: statisch
+Wort: 9,, Vorhersage: nicht statisch
+Wort: symbol, Vorhersage: statisch
+Wort: 9,, Vorhersage: nicht statisch
+Wort: bit, Vorhersage: statisch
+Wort: 9, Vorhersage: nicht statisch
+[327   2 965   2 633   2 197   2 243   0   0   0   0   0   0   0   0   0
+   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0
+   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0
+   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0
+   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0
+   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0
+   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0
+   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0
+   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0
+   0   0   0   0   0   0   0   0   0   0   0]
+Wort: instruction, Vorhersage: statisch
+Wort: cache, Vorhersage: statisch
+Wort: parity, Vorhersage: nicht statisch
+Wort: error, Vorhersage: statisch
+Wort: corrected, Vorhersage: statisch
+[480   2 143   2  53   2 311   2 197   9  44  10   2 233   2 239   2 243
+   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0
+   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0
+   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0
+   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0
+   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0
+   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0
+   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0
+   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0
+   0   0   0   0   0   0   0   0   0   0   0]
+Wort: total, Vorhersage: statisch
+Wort: of, Vorhersage: statisch
+Wort: 99, Vorhersage: nicht statisch
+Wort: ddr, Vorhersage: statisch
+Wort: error(s), Vorhersage: statisch
+Wort: detected, Vorhersage: statisch
+Wort: and, Vorhersage: statisch
+Wort: corrected, Vorhersage: nicht statisch
+Model: "sequential"
+┏━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━┳━━━━━━━━━━━━━━━━━━━━━━━━━━━━━┳━━━━━━━━━━━━━━━━━┓
+┃ Layer (type)                         ┃ Output Shape                ┃         Param # ┃
+┡━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━╇━━━━━━━━━━━━━━━━━━━━━━━━━━━━━╇━━━━━━━━━━━━━━━━━┩
+│ embedding (Embedding)                │ (None, 173, 64)             │         222,464 │
+├──────────────────────────────────────┼─────────────────────────────┼─────────────────┤
+│ bidirectional (Bidirectional)        │ (None, 173, 256)            │         148,992 │
+├──────────────────────────────────────┼─────────────────────────────┼─────────────────┤
+│ time_distributed (TimeDistributed)   │ (None, 173, 128)            │          32,896 │
+├──────────────────────────────────────┼─────────────────────────────┼─────────────────┤
+│ dropout (Dropout)                    │ (None, 173, 128)            │               0 │
+├──────────────────────────────────────┼─────────────────────────────┼─────────────────┤
+│ time_distributed_1 (TimeDistributed) │ (None, 173, 1)              │             129 │
+└──────────────────────────────────────┴─────────────────────────────┴─────────────────┘
+ Total params: 1,213,445 (4.63 MB)
+ Trainable params: 404,481 (1.54 MB)
+ Non-trainable params: 0 (0.00 B)
+ Optimizer params: 808,964 (3.09 MB)
+
+Training auf folgende Datei: Datensätze/Vorbereitete Daten - Beispiel/bgl_v1/unique_data/content_list_bgl_unique.txt
+Total Trainings-Loss: [0.013534251600503922, 0.00266683055087924, 0.0020243835169821978, 0.001768738031387329, 0.0016046481905505061, 0.0013413728447631001, 0.0012087851064279675, 0.001069809659384191, 0.001047266530804336, 0.0008269960526376963]
+Total Trainings-Accuracy: [0.9562432169914246, 0.9620440006256104, 0.9622324109077454, 0.9623041152954102, 0.9623633623123169, 0.9624672532081604, 0.9625691771507263, 0.962638258934021, 0.9626732468605042, 0.9628698229789734]
+Total Validierungs-Loss: [0.003109363839030266, 0.0022436606232076883, 0.002056194469332695, 0.0018893516389653087, 0.001489653717726469, 0.0013232785277068615, 0.001179217011667788, 0.0011036882642656565, 0.0009136886801570654, 0.000861147535033524]
+Total Validierungs-Accuracy: [0.9623286128044128, 0.9626165628433228, 0.9626988768577576, 0.9627785086631775, 0.9629098773002625, 0.9630073308944702, 0.9631571173667908, 0.9631767868995667, 0.9634031653404236, 0.9634156823158264]

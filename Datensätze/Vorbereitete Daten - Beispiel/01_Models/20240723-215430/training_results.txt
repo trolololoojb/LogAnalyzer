@@ -1,0 +1,493 @@
+[ 17   2 311   2 774   9  44  10   2 233   2 239   2 243   2 255   2 394
+   2  17  13   2 383   2  17  13   2 739   2  17   0   0   0   0   0   0
+   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0
+   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0
+   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0
+   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0
+   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0
+   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0
+   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0
+   0   0   0   0   0   0   0   0   0   0   0]
+Wort: 9, Vorhersage: nicht statisch, Wert: [0.99832976]
+Wort:  , Vorhersage: nicht statisch, Wert: [0.98593324]
+Wort: ddr, Vorhersage: statisch, Wert: [-0.9999727]
+Wort:  , Vorhersage: statisch, Wert: [-0.99999917]
+Wort: errors, Vorhersage: statisch, Wert: [-0.99994564]
+Wort: (, Vorhersage: statisch, Wert: [-0.9999801]
+Wort: s, Vorhersage: statisch, Wert: [-1.]
+Wort: ), Vorhersage: statisch, Wert: [-0.9999927]
+Wort:  , Vorhersage: statisch, Wert: [-0.9999744]
+Wort: detected, Vorhersage: statisch, Wert: [-0.9999782]
+Wort:  , Vorhersage: statisch, Wert: [-0.99999493]
+Wort: and, Vorhersage: statisch, Wert: [-1.]
+Wort:  , Vorhersage: statisch, Wert: [-0.9999995]
+Wort: corrected, Vorhersage: statisch, Wert: [-0.99986094]
+Wort:  , Vorhersage: statisch, Wert: [-0.99976546]
+Wort: on, Vorhersage: statisch, Wert: [-0.9999725]
+Wort:  , Vorhersage: statisch, Wert: [-0.9999786]
+Wort: rank, Vorhersage: statisch, Wert: [-0.99978596]
+Wort:  , Vorhersage: statisch, Wert: [-0.99961627]
+Wort: 9, Vorhersage: nicht statisch, Wert: [0.99967355]
+Wort: ,, Vorhersage: nicht statisch, Wert: [0.98822284]
+Wort:  , Vorhersage: nicht statisch, Wert: [0.9813198]
+Wort: symbol, Vorhersage: statisch, Wert: [-0.9999855]
+Wort:  , Vorhersage: statisch, Wert: [-0.99998885]
+Wort: 9, Vorhersage: nicht statisch, Wert: [0.99982095]
+Wort: ,, Vorhersage: nicht statisch, Wert: [0.9978741]
+Wort:  , Vorhersage: nicht statisch, Wert: [0.99715424]
+Wort: bit, Vorhersage: nicht statisch, Wert: [0.9991551]
+Wort:  , Vorhersage: nicht statisch, Wert: [0.9974911]
+Wort: 9, Vorhersage: nicht statisch, Wert: [0.9991307]
+[327   2 965   2 633   2 197   2 243   0   0   0   0   0   0   0   0   0
+   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0
+   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0
+   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0
+   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0
+   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0
+   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0
+   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0
+   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0
+   0   0   0   0   0   0   0   0   0   0   0]
+Wort: instruction, Vorhersage: statisch, Wert: [-0.999875]
+Wort:  , Vorhersage: statisch, Wert: [-0.9998194]
+Wort: cache, Vorhersage: statisch, Wert: [-0.99982464]
+Wort:  , Vorhersage: statisch, Wert: [-0.99995005]
+Wort: parity, Vorhersage: statisch, Wert: [-0.9789444]
+Wort:  , Vorhersage: statisch, Wert: [-0.9821243]
+Wort: error, Vorhersage: statisch, Wert: [-0.9891644]
+Wort:  , Vorhersage: statisch, Wert: [-0.9989753]
+Wort: corrected, Vorhersage: statisch, Wert: [-0.9657207]
+[480   2 143   2  53   2 311   2 197   9  44  10   2 233   2 239   2 243
+   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0
+   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0
+   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0
+   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0
+   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0
+   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0
+   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0
+   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0
+   0   0   0   0   0   0   0   0   0   0   0]
+Wort: total, Vorhersage: statisch, Wert: [-0.99997973]
+Wort:  , Vorhersage: statisch, Wert: [-0.99999666]
+Wort: of, Vorhersage: statisch, Wert: [-0.9999237]
+Wort:  , Vorhersage: statisch, Wert: [-0.999759]
+Wort: 99, Vorhersage: nicht statisch, Wert: [0.99998903]
+Wort:  , Vorhersage: nicht statisch, Wert: [0.9991235]
+Wort: ddr, Vorhersage: statisch, Wert: [-0.9999996]
+Wort:  , Vorhersage: statisch, Wert: [-1.]
+Wort: error, Vorhersage: statisch, Wert: [-0.99983674]
+Wort: (, Vorhersage: statisch, Wert: [-0.99983186]
+Wort: s, Vorhersage: statisch, Wert: [-0.9999992]
+Wort: ), Vorhersage: statisch, Wert: [-0.99998146]
+Wort:  , Vorhersage: statisch, Wert: [-0.9999646]
+Wort: detected, Vorhersage: statisch, Wert: [-0.9999639]
+Wort:  , Vorhersage: statisch, Wert: [-0.9999945]
+Wort: and, Vorhersage: statisch, Wert: [-0.99999905]
+Wort:  , Vorhersage: statisch, Wert: [-0.999994]
+Wort: corrected, Vorhersage: statisch, Wert: [-0.9812593]
+[  53   15   58   15   17   15   17   18   71    2 2566    2  550    2
+  665   36   24   14   73   17    2  127    2   16   53   15   58   15
+   17   15   17    0    0    0    0    0    0    0    0    0    0    0
+    0    0    0    0    0    0    0    0    0    0    0    0    0    0
+    0    0    0    0    0    0    0    0    0    0    0    0    0    0
+    0    0    0    0    0    0    0    0    0    0    0    0    0    0
+    0    0    0    0    0    0    0    0    0    0    0    0    0    0
+    0    0    0    0    0    0    0    0    0    0    0    0    0    0
+    0    0    0    0    0    0    0    0    0    0    0    0    0    0
+    0    0    0    0    0    0    0    0    0    0    0    0    0    0
+    0    0    0    0    0    0    0    0    0    0    0    0    0    0
+    0    0    0    0    0    0    0    0    0    0    0    0    0    0
+    0    0    0    0    0]
+Wort: 99, Vorhersage: nicht statisch, Wert: [0.99999917]
+Wort: ., Vorhersage: nicht statisch, Wert: [0.9999632]
+Wort: 999, Vorhersage: nicht statisch, Wert: [1.]
+Wort: ., Vorhersage: nicht statisch, Wert: [0.99999666]
+Wort: 9, Vorhersage: nicht statisch, Wert: [1.]
+Wort: ., Vorhersage: nicht statisch, Wert: [0.9999863]
+Wort: 9, Vorhersage: nicht statisch, Wert: [1.]
+Wort: :, Vorhersage: nicht statisch, Wert: [0.99998754]
+Wort: 99999, Vorhersage: nicht statisch, Wert: [0.9999991]
+Wort:  , Vorhersage: nicht statisch, Wert: [0.9999621]
+Wort: served, Vorhersage: statisch, Wert: [-0.66294706]
+Wort:  , Vorhersage: statisch, Wert: [-0.9383067]
+Wort: block, Vorhersage: statisch, Wert: [-0.99569]
+Wort:  , Vorhersage: statisch, Wert: [-0.98835254]
+Wort: bl, Vorhersage: nicht statisch, Wert: [0.9753074]
+Wort: k, Vorhersage: nicht statisch, Wert: [0.9982366]
+Wort: _, Vorhersage: nicht statisch, Wert: [0.9928266]
+Wort: -, Vorhersage: nicht statisch, Wert: [0.9838156]
+Wort: 9999999999999999, Vorhersage: nicht statisch, Wert: [0.96737736]
+Wort: 9, Vorhersage: nicht statisch, Wert: [0.9995997]
+Wort:  , Vorhersage: nicht statisch, Wert: [0.99021184]
+Wort: to, Vorhersage: statisch, Wert: [-0.9999943]
+Wort:  , Vorhersage: statisch, Wert: [-0.9999978]
+Wort: /, Vorhersage: nicht statisch, Wert: [0.95577604]
+Wort: 99, Vorhersage: nicht statisch, Wert: [0.9999989]
+Wort: ., Vorhersage: nicht statisch, Wert: [0.99997854]
+Wort: 999, Vorhersage: nicht statisch, Wert: [1.]
+Wort: ., Vorhersage: nicht statisch, Wert: [0.9999972]
+Wort: 9, Vorhersage: nicht statisch, Wert: [1.]
+Wort: ., Vorhersage: nicht statisch, Wert: [0.99993193]
+Wort: 9, Vorhersage: nicht statisch, Wert: [0.99992055]
+[ 550   11    2 1356 2273   15 1714   69  244  458   18    2   16   38
+  269   16   33   26   74   40   41   16  223   79   95   16 2273   16
+ 2407   24   56   54   24   54   16 2407   15   35   57   15    2  665
+   36   24   73   58    0    0    0    0    0    0    0    0    0    0
+    0    0    0    0    0    0    0    0    0    0    0    0    0    0
+    0    0    0    0    0    0    0    0    0    0    0    0    0    0
+    0    0    0    0    0    0    0    0    0    0    0    0    0    0
+    0    0    0    0    0    0    0    0    0    0    0    0    0    0
+    0    0    0    0    0    0    0    0    0    0    0    0    0    0
+    0    0    0    0    0    0    0    0    0    0    0    0    0    0
+    0    0    0    0    0    0    0    0    0    0    0    0    0    0
+    0    0    0    0    0    0    0    0    0    0    0    0    0    0
+    0    0    0    0    0]
+Wort: block, Vorhersage: statisch, Wert: [-0.9998868]
+Wort: *, Vorhersage: statisch, Wert: [-0.9999773]
+Wort:  , Vorhersage: statisch, Wert: [-0.9998333]
+Wort: name, Vorhersage: nicht statisch, Wert: [0.2500625]
+Wort: system, Vorhersage: nicht statisch, Wert: [0.7537883]
+Wort: ., Vorhersage: nicht statisch, Wert: [0.96072125]
+Wort: alloc, Vorhersage: nicht statisch, Wert: [0.9726266]
+Wort: at, Vorhersage: statisch, Wert: [-0.72811085]
+Wort: eb, Vorhersage: statisch, Wert: [-0.13933879]
+Wort: lock, Vorhersage: statisch, Wert: [-0.30108592]
+Wort: :, Vorhersage: statisch, Wert: [-0.87975144]
+Wort:  , Vorhersage: nicht statisch, Wert: [0.01697161]
+Wort: /, Vorhersage: nicht statisch, Wert: [0.9957534]
+Wort: m, Vorhersage: nicht statisch, Wert: [0.99952763]
+Wort: nt, Vorhersage: nicht statisch, Wert: [0.9997563]
+Wort: /, Vorhersage: nicht statisch, Wert: [0.9998664]
+Wort: h, Vorhersage: nicht statisch, Wert: [0.99958545]
+Wort: a, Vorhersage: nicht statisch, Wert: [0.99653405]
+Wort: do, Vorhersage: statisch, Wert: [-0.6730922]
+Wort: o, Vorhersage: nicht statisch, Wert: [0.48010424]
+Wort: p, Vorhersage: nicht statisch, Wert: [0.505065]
+Wort: /, Vorhersage: nicht statisch, Wert: [0.9796196]
+Wort: ma, Vorhersage: nicht statisch, Wert: [0.9940141]
+Wort: pr, Vorhersage: nicht statisch, Wert: [0.9994556]
+Wort: ed, Vorhersage: nicht statisch, Wert: [0.9989357]
+Wort: /, Vorhersage: nicht statisch, Wert: [0.99977136]
+Wort: system, Vorhersage: nicht statisch, Wert: [0.99982715]
+Wort: /, Vorhersage: nicht statisch, Wert: [0.9999536]
+Wort: job, Vorhersage: nicht statisch, Wert: [0.99978137]
+Wort: _, Vorhersage: nicht statisch, Wert: [0.99974114]
+Wort: 99999999, Vorhersage: nicht statisch, Wert: [1.]
+Wort: 9999, Vorhersage: nicht statisch, Wert: [1.]
+Wort: _, Vorhersage: nicht statisch, Wert: [0.9999996]
+Wort: 9999, Vorhersage: nicht statisch, Wert: [1.]
+Wort: /, Vorhersage: nicht statisch, Wert: [0.9999994]
+Wort: job, Vorhersage: nicht statisch, Wert: [0.9999254]
+Wort: ., Vorhersage: nicht statisch, Wert: [0.99987054]
+Wort: j, Vorhersage: nicht statisch, Wert: [0.99999905]
+Wort: ar, Vorhersage: nicht statisch, Wert: [0.9996868]
+Wort: ., Vorhersage: nicht statisch, Wert: [0.99685407]
+Wort:  , Vorhersage: nicht statisch, Wert: [0.995635]
+Wort: bl, Vorhersage: nicht statisch, Wert: [0.98958147]
+Wort: k, Vorhersage: nicht statisch, Wert: [0.99722]
+Wort: _, Vorhersage: nicht statisch, Wert: [0.9867633]
+Wort: 9999999999999999, Vorhersage: nicht statisch, Wert: [0.9942933]
+Wort: 999, Vorhersage: nicht statisch, Wert: [0.9999776]
+[  53   15   58   15   53   15   58   18   71    2 1372    2  121  661
+    2  127    2  395 1853    2  550    2  665   36   24   14   73   58
+    2  127    2   53   15   58   15   58   15   58   18   71   13    2
+   53   15   58   15   53   15   58   18   71    0    0    0    0    0
+    0    0    0    0    0    0    0    0    0    0    0    0    0    0
+    0    0    0    0    0    0    0    0    0    0    0    0    0    0
+    0    0    0    0    0    0    0    0    0    0    0    0    0    0
+    0    0    0    0    0    0    0    0    0    0    0    0    0    0
+    0    0    0    0    0    0    0    0    0    0    0    0    0    0
+    0    0    0    0    0    0    0    0    0    0    0    0    0    0
+    0    0    0    0    0    0    0    0    0    0    0    0    0    0
+    0    0    0    0    0    0    0    0    0    0    0    0    0    0
+    0    0    0    0    0]
+Wort: 99, Vorhersage: nicht statisch, Wert: [0.9999992]
+Wort: ., Vorhersage: nicht statisch, Wert: [0.9999707]
+Wort: 999, Vorhersage: nicht statisch, Wert: [1.]
+Wort: ., Vorhersage: nicht statisch, Wert: [0.9999985]
+Wort: 99, Vorhersage: nicht statisch, Wert: [1.]
+Wort: ., Vorhersage: nicht statisch, Wert: [0.99999785]
+Wort: 999, Vorhersage: nicht statisch, Wert: [1.]
+Wort: :, Vorhersage: nicht statisch, Wert: [0.9999989]
+Wort: 99999, Vorhersage: nicht statisch, Wert: [0.9999994]
+Wort:  , Vorhersage: nicht statisch, Wert: [0.9999588]
+Wort: starting, Vorhersage: statisch, Wert: [-0.81389767]
+Wort:  , Vorhersage: statisch, Wert: [-0.9440252]
+Wort: th, Vorhersage: nicht statisch, Wert: [0.8581623]
+Wort: read, Vorhersage: nicht statisch, Wert: [0.6802904]
+Wort:  , Vorhersage: nicht statisch, Wert: [0.46009368]
+Wort: to, Vorhersage: statisch, Wert: [-0.9999745]
+Wort:  , Vorhersage: statisch, Wert: [-0.9999931]
+Wort: trans, Vorhersage: statisch, Wert: [-0.9963098]
+Wort: fer, Vorhersage: statisch, Wert: [-0.9961382]
+Wort:  , Vorhersage: statisch, Wert: [-0.9975673]
+Wort: block, Vorhersage: statisch, Wert: [-0.9998541]
+Wort:  , Vorhersage: statisch, Wert: [-0.9999176]
+Wort: bl, Vorhersage: nicht statisch, Wert: [0.73310393]
+Wort: k, Vorhersage: nicht statisch, Wert: [0.98579955]
+Wort: _, Vorhersage: nicht statisch, Wert: [0.95658046]
+Wort: -, Vorhersage: nicht statisch, Wert: [0.96728116]
+Wort: 9999999999999999, Vorhersage: nicht statisch, Wert: [0.9650174]
+Wort: 999, Vorhersage: nicht statisch, Wert: [0.9999819]
+Wort:  , Vorhersage: nicht statisch, Wert: [0.9995579]
+Wort: to, Vorhersage: statisch, Wert: [-0.99999833]
+Wort:  , Vorhersage: statisch, Wert: [-0.99999964]
+Wort: 99, Vorhersage: nicht statisch, Wert: [0.9999964]
+Wort: ., Vorhersage: nicht statisch, Wert: [0.9999447]
+Wort: 999, Vorhersage: nicht statisch, Wert: [1.]
+Wort: ., Vorhersage: nicht statisch, Wert: [0.99999875]
+Wort: 999, Vorhersage: nicht statisch, Wert: [1.]
+Wort: ., Vorhersage: nicht statisch, Wert: [0.9999996]
+Wort: 999, Vorhersage: nicht statisch, Wert: [1.]
+Wort: :, Vorhersage: nicht statisch, Wert: [0.99999964]
+Wort: 99999, Vorhersage: nicht statisch, Wert: [1.]
+Wort: ,, Vorhersage: nicht statisch, Wert: [0.9999526]
+Wort:  , Vorhersage: nicht statisch, Wert: [0.99995583]
+Wort: 99, Vorhersage: nicht statisch, Wert: [1.]
+Wort: ., Vorhersage: nicht statisch, Wert: [0.99999934]
+Wort: 999, Vorhersage: nicht statisch, Wert: [1.]
+Wort: ., Vorhersage: nicht statisch, Wert: [1.]
+Wort: 99, Vorhersage: nicht statisch, Wert: [1.]
+Wort: ., Vorhersage: nicht statisch, Wert: [0.9999993]
+Wort: 999, Vorhersage: nicht statisch, Wert: [1.]
+Wort: :, Vorhersage: nicht statisch, Wert: [0.99999917]
+Wort: 99999, Vorhersage: nicht statisch, Wert: [0.99999714]
+[2448   15   44   61   26   35   44   15 2337   18   53    2 1066    2
+  121 2450 1080    2 1041    2 1041   15   28   65   15 1842   33   36
+   15  959   15   33   36   18   54    2  613   45   41   44    0    0
+    0    0    0    0    0    0    0    0    0    0    0    0    0    0
+    0    0    0    0    0    0    0    0    0    0    0    0    0    0
+    0    0    0    0    0    0    0    0    0    0    0    0    0    0
+    0    0    0    0    0    0    0    0    0    0    0    0    0    0
+    0    0    0    0    0    0    0    0    0    0    0    0    0    0
+    0    0    0    0    0    0    0    0    0    0    0    0    0    0
+    0    0    0    0    0    0    0    0    0    0    0    0    0    0
+    0    0    0    0    0    0    0    0    0    0    0    0    0    0
+    0    0    0    0    0    0    0    0    0    0    0    0    0    0
+    0    0    0    0    0]
+Wort: rs, Vorhersage: statisch, Wert: [-0.87855893]
+Wort: ., Vorhersage: statisch, Wert: [-0.98326606]
+Wort: s, Vorhersage: statisch, Wert: [-0.9999787]
+Wort: in, Vorhersage: statisch, Wert: [-0.999924]
+Wort: a, Vorhersage: statisch, Wert: [-0.99983245]
+Wort: j, Vorhersage: nicht statisch, Wert: [0.84482414]
+Wort: s, Vorhersage: statisch, Wert: [-0.9985334]
+Wort: ., Vorhersage: statisch, Wert: [-0.99291337]
+Wort: cn, Vorhersage: statisch, Wert: [-0.9582777]
+Wort: :, Vorhersage: statisch, Wert: [-0.7119575]
+Wort: 99, Vorhersage: nicht statisch, Wert: [0.99998647]
+Wort:  , Vorhersage: nicht statisch, Wert: [0.99959195]
+Wort: open, Vorhersage: statisch, Wert: [-0.6705202]
+Wort:  , Vorhersage: statisch, Wert: [-0.9386852]
+Wort: th, Vorhersage: nicht statisch, Wert: [0.9738146]
+Wort: rou, Vorhersage: nicht statisch, Wert: [0.89460903]
+Wort: gh, Vorhersage: statisch, Wert: [-0.21954605]
+Wort:  , Vorhersage: statisch, Wert: [-0.48320386]
+Wort: proxy, Vorhersage: statisch, Wert: [-0.92547214]
+Wort:  , Vorhersage: statisch, Wert: [-0.9089464]
+Wort: proxy, Vorhersage: nicht statisch, Wert: [0.9465224]
+Wort: ., Vorhersage: nicht statisch, Wert: [0.9889139]
+Wort: c, Vorhersage: nicht statisch, Wert: [0.9998928]
+Wort: se, Vorhersage: nicht statisch, Wert: [0.99860346]
+Wort: ., Vorhersage: nicht statisch, Wert: [0.9979581]
+Wort: cu, Vorhersage: nicht statisch, Wert: [0.9939229]
+Wort: h, Vorhersage: nicht statisch, Wert: [0.99535507]
+Wort: k, Vorhersage: nicht statisch, Wert: [0.9989565]
+Wort: ., Vorhersage: nicht statisch, Wert: [0.999034]
+Wort: edu, Vorhersage: nicht statisch, Wert: [0.9982857]
+Wort: ., Vorhersage: nicht statisch, Wert: [0.9995797]
+Wort: h, Vorhersage: nicht statisch, Wert: [0.9995598]
+Wort: k, Vorhersage: nicht statisch, Wert: [0.99993116]
+Wort: :, Vorhersage: nicht statisch, Wert: [0.9999462]
+Wort: 9999, Vorhersage: nicht statisch, Wert: [0.99999964]
+Wort:  , Vorhersage: nicht statisch, Wert: [0.99999225]
+Wort: ht, Vorhersage: nicht statisch, Wert: [0.97585833]
+Wort: t, Vorhersage: nicht statisch, Wert: [0.9854757]
+Wort: p, Vorhersage: statisch, Wert: [-0.8610241]
+Wort: s, Vorhersage: statisch, Wert: [-0.9999658]
+[  41  467   17   15   51   33  513   32   15  509   18   58    2 1393
+   13    2   54    2  282  758    2    9   17   15   53    2 1205   10
+    2 1226   13    2   54    2  282  758    2    9   17   15   53    2
+ 1205   10    2  533   13    2  483  257  547    2   53   18   53    0
+    0    0    0    0    0    0    0    0    0    0    0    0    0    0
+    0    0    0    0    0    0    0    0    0    0    0    0    0    0
+    0    0    0    0    0    0    0    0    0    0    0    0    0    0
+    0    0    0    0    0    0    0    0    0    0    0    0    0    0
+    0    0    0    0    0    0    0    0    0    0    0    0    0    0
+    0    0    0    0    0    0    0    0    0    0    0    0    0    0
+    0    0    0    0    0    0    0    0    0    0    0    0    0    0
+    0    0    0    0    0    0    0    0    0    0    0    0    0    0
+    0    0    0    0    0]
+Wort: p, Vorhersage: statisch, Wert: [-0.00742721]
+Wort: ic, Vorhersage: nicht statisch, Wert: [0.49960175]
+Wort: 9, Vorhersage: nicht statisch, Wert: [0.9996916]
+Wort: ., Vorhersage: nicht statisch, Wert: [0.9990768]
+Wort: z, Vorhersage: nicht statisch, Wert: [0.99994266]
+Wort: h, Vorhersage: nicht statisch, Wert: [0.99902]
+Wort: im, Vorhersage: nicht statisch, Wert: [0.99342954]
+Wort: g, Vorhersage: nicht statisch, Wert: [0.99887854]
+Wort: ., Vorhersage: nicht statisch, Wert: [0.99869823]
+Wort: com, Vorhersage: nicht statisch, Wert: [0.9959154]
+Wort: :, Vorhersage: nicht statisch, Wert: [0.9990548]
+Wort: 999, Vorhersage: nicht statisch, Wert: [0.9999994]
+Wort:  , Vorhersage: nicht statisch, Wert: [0.99997795]
+Wort: close, Vorhersage: nicht statisch, Wert: [0.9811372]
+Wort: ,, Vorhersage: nicht statisch, Wert: [0.98778903]
+Wort:  , Vorhersage: nicht statisch, Wert: [0.9949566]
+Wort: 9999, Vorhersage: nicht statisch, Wert: [0.9999993]
+Wort:  , Vorhersage: nicht statisch, Wert: [0.99999017]
+Wort: by, Vorhersage: statisch, Wert: [-0.99913096]
+Wort: tes, Vorhersage: statisch, Wert: [-0.99984056]
+Wort:  , Vorhersage: statisch, Wert: [-0.9979435]
+Wort: (, Vorhersage: nicht statisch, Wert: [0.999975]
+Wort: 9, Vorhersage: nicht statisch, Wert: [0.9999997]
+Wort: ., Vorhersage: nicht statisch, Wert: [0.99994475]
+Wort: 99, Vorhersage: nicht statisch, Wert: [0.99999964]
+Wort:  , Vorhersage: nicht statisch, Wert: [0.99984324]
+Wort: kb, Vorhersage: statisch, Wert: [-0.9526374]
+Wort: ), Vorhersage: statisch, Wert: [-0.92535794]
+Wort:  , Vorhersage: nicht statisch, Wert: [0.550642]
+Wort: sent, Vorhersage: statisch, Wert: [-0.1397732]
+Wort: ,, Vorhersage: nicht statisch, Wert: [0.90581065]
+Wort:  , Vorhersage: nicht statisch, Wert: [0.93174154]
+Wort: 9999, Vorhersage: nicht statisch, Wert: [0.9999984]
+Wort:  , Vorhersage: nicht statisch, Wert: [0.9999856]
+Wort: by, Vorhersage: statisch, Wert: [-0.99940836]
+Wort: tes, Vorhersage: statisch, Wert: [-0.99989057]
+Wort:  , Vorhersage: statisch, Wert: [-0.9986599]
+Wort: (, Vorhersage: nicht statisch, Wert: [0.99997276]
+Wort: 9, Vorhersage: nicht statisch, Wert: [0.9999997]
+Wort: ., Vorhersage: nicht statisch, Wert: [0.9999391]
+Wort: 99, Vorhersage: nicht statisch, Wert: [0.99999976]
+Wort:  , Vorhersage: nicht statisch, Wert: [0.9998286]
+Wort: kb, Vorhersage: statisch, Wert: [-0.9584123]
+Wort: ), Vorhersage: statisch, Wert: [-0.93465155]
+Wort:  , Vorhersage: nicht statisch, Wert: [0.42548013]
+Wort: received, Vorhersage: statisch, Wert: [-0.90951324]
+Wort: ,, Vorhersage: statisch, Wert: [-0.69600993]
+Wort:  , Vorhersage: statisch, Wert: [-0.64824766]
+Wort: li, Vorhersage: nicht statisch, Wert: [0.9635856]
+Wort: fe, Vorhersage: nicht statisch, Wert: [0.9574989]
+Wort: time, Vorhersage: nicht statisch, Wert: [0.6654635]
+Wort:  , Vorhersage: nicht statisch, Wert: [0.9179498]
+Wort: 99, Vorhersage: nicht statisch, Wert: [1.]
+Wort: :, Vorhersage: nicht statisch, Wert: [0.9999847]
+Wort: 99, Vorhersage: nicht statisch, Wert: [0.9999978]
+[2440   17   15   45 1677   89   30  746   15  509   18   58    2    9
+   80   47   17   10    2  197    2   18    2 2253    2  107    2  834
+  819    2  121 2450 1080    2 1041    2 1041   15   28   65   15 1842
+   33   36   15  959   15   33   36   18   54    2   14    2 1041    2
+  631    2 2243    2   30  773  483  162    2   26    2 1385    2  641
+    2  129    2  821   13    2  361    2  351    2   58    0    0    0
+    0    0    0    0    0    0    0    0    0    0    0    0    0    0
+    0    0    0    0    0    0    0    0    0    0    0    0    0    0
+    0    0    0    0    0    0    0    0    0    0    0    0    0    0
+    0    0    0    0    0    0    0    0    0    0    0    0    0    0
+    0    0    0    0    0    0    0    0    0    0    0    0    0    0
+    0    0    0    0    0    0    0    0    0    0    0    0    0    0
+    0    0    0    0    0]
+Wort: ping, Vorhersage: nicht statisch, Wert: [0.9564657]
+Wort: 9, Vorhersage: nicht statisch, Wert: [0.99995524]
+Wort: ., Vorhersage: nicht statisch, Wert: [0.9997718]
+Wort: t, Vorhersage: nicht statisch, Wert: [0.9999783]
+Wort: eam, Vorhersage: nicht statisch, Wert: [0.9996573]
+Wort: vi, Vorhersage: nicht statisch, Wert: [0.9976422]
+Wort: e, Vorhersage: nicht statisch, Wert: [0.9999167]
+Wort: wer, Vorhersage: nicht statisch, Wert: [0.99908215]
+Wort: ., Vorhersage: nicht statisch, Wert: [0.99946636]
+Wort: com, Vorhersage: nicht statisch, Wert: [0.9982511]
+Wort: :, Vorhersage: nicht statisch, Wert: [0.9997388]
+Wort: 999, Vorhersage: nicht statisch, Wert: [1.]
+Wort:  , Vorhersage: nicht statisch, Wert: [0.9999985]
+Wort: (, Vorhersage: nicht statisch, Wert: [0.9999834]
+Wort: ip, Vorhersage: nicht statisch, Wert: [0.99990696]
+Wort: v, Vorhersage: nicht statisch, Wert: [0.9999895]
+Wort: 9, Vorhersage: nicht statisch, Wert: [0.99999833]
+Wort: ), Vorhersage: nicht statisch, Wert: [0.9998412]
+Wort:  , Vorhersage: nicht statisch, Wert: [0.99791723]
+Wort: error, Vorhersage: statisch, Wert: [-0.99616885]
+Wort:  , Vorhersage: statisch, Wert: [-0.99957705]
+Wort: :, Vorhersage: statisch, Wert: [-0.96187234]
+Wort:  , Vorhersage: statisch, Wert: [-0.5806383]
+Wort: could, Vorhersage: statisch, Wert: [-0.9899206]
+Wort:  , Vorhersage: statisch, Wert: [-0.9960004]
+Wort: not, Vorhersage: statisch, Wert: [-0.9999778]
+Wort:  , Vorhersage: statisch, Wert: [-0.9999797]
+Wort: con, Vorhersage: statisch, Wert: [-0.9539349]
+Wort: nect, Vorhersage: statisch, Wert: [-0.9894124]
+Wort:  , Vorhersage: statisch, Wert: [-0.9918291]
+Wort: th, Vorhersage: statisch, Wert: [-0.29651237]
+Wort: rou, Vorhersage: statisch, Wert: [-0.9049532]
+Wort: gh, Vorhersage: statisch, Wert: [-0.9878757]
+Wort:  , Vorhersage: statisch, Wert: [-0.99114656]
+Wort: proxy, Vorhersage: statisch, Wert: [-0.9846711]
+Wort:  , Vorhersage: statisch, Wert: [-0.9885012]
+Wort: proxy, Vorhersage: nicht statisch, Wert: [0.856688]
+Wort: ., Vorhersage: nicht statisch, Wert: [0.9682563]
+Wort: c, Vorhersage: nicht statisch, Wert: [0.99976903]
+Wort: se, Vorhersage: nicht statisch, Wert: [0.9976081]
+Wort: ., Vorhersage: nicht statisch, Wert: [0.9967657]
+Wort: cu, Vorhersage: nicht statisch, Wert: [0.99155825]
+Wort: h, Vorhersage: nicht statisch, Wert: [0.9942177]
+Wort: k, Vorhersage: nicht statisch, Wert: [0.998827]
+Wort: ., Vorhersage: nicht statisch, Wert: [0.9989657]
+Wort: edu, Vorhersage: nicht statisch, Wert: [0.9982356]
+Wort: ., Vorhersage: nicht statisch, Wert: [0.9995818]
+Wort: h, Vorhersage: nicht statisch, Wert: [0.999584]
+Wort: k, Vorhersage: nicht statisch, Wert: [0.99994105]
+Wort: :, Vorhersage: nicht statisch, Wert: [0.99996096]
+Wort: 9999, Vorhersage: nicht statisch, Wert: [1.]
+Wort:  , Vorhersage: nicht statisch, Wert: [0.99999756]
+Wort: -, Vorhersage: statisch, Wert: [-0.9825452]
+Wort:  , Vorhersage: statisch, Wert: [-0.997795]
+Wort: proxy, Vorhersage: statisch, Wert: [-0.79869384]
+Wort:  , Vorhersage: statisch, Wert: [-0.1345027]
+Wort: server, Vorhersage: statisch, Wert: [-0.99736995]
+Wort:  , Vorhersage: statisch, Wert: [-0.9988401]
+Wort: cannot, Vorhersage: statisch, Wert: [-0.99990267]
+Wort:  , Vorhersage: statisch, Wert: [-0.99989367]
+Wort: e, Vorhersage: nicht statisch, Wert: [0.99692976]
+Wort: stab, Vorhersage: nicht statisch, Wert: [0.93172836]
+Wort: li, Vorhersage: statisch, Wert: [-0.5350732]
+Wort: sh, Vorhersage: statisch, Wert: [-0.9942096]
+Wort:  , Vorhersage: statisch, Wert: [-0.9965742]
+Wort: a, Vorhersage: statisch, Wert: [-0.9999479]
+Wort:  , Vorhersage: statisch, Wert: [-0.9999727]
+Wort: connection, Vorhersage: statisch, Wert: [-0.99999887]
+Wort:  , Vorhersage: statisch, Wert: [-0.9999994]
+Wort: with, Vorhersage: statisch, Wert: [-0.9999854]
+Wort:  , Vorhersage: statisch, Wert: [-0.99999374]
+Wort: the, Vorhersage: statisch, Wert: [-1.]
+Wort:  , Vorhersage: statisch, Wert: [-1.]
+Wort: target, Vorhersage: statisch, Wert: [-0.9999807]
+Wort: ,, Vorhersage: statisch, Wert: [-0.9999931]
+Wort:  , Vorhersage: statisch, Wert: [-0.99999905]
+Wort: status, Vorhersage: statisch, Wert: [-1.]
+Wort:  , Vorhersage: statisch, Wert: [-1.]
+Wort: code, Vorhersage: statisch, Wert: [-0.9999989]
+Wort:  , Vorhersage: statisch, Wert: [-0.9999979]
+Wort: 999, Vorhersage: nicht statisch, Wert: [0.99905264]
+Model: "sequential"
+┏━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━┳━━━━━━━━━━━━━━━━━━━━━━━━━━━━━┳━━━━━━━━━━━━━━━━━┓
+┃ Layer (type)                         ┃ Output Shape                ┃         Param # ┃
+┡━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━╇━━━━━━━━━━━━━━━━━━━━━━━━━━━━━╇━━━━━━━━━━━━━━━━━┩
+│ embedding (Embedding)                │ (None, 173, 64)             │         222,464 │
+├──────────────────────────────────────┼─────────────────────────────┼─────────────────┤
+│ bidirectional (Bidirectional)        │ (None, 173, 256)            │         148,992 │
+├──────────────────────────────────────┼─────────────────────────────┼─────────────────┤
+│ time_distributed (TimeDistributed)   │ (None, 173, 128)            │          32,896 │
+├──────────────────────────────────────┼─────────────────────────────┼─────────────────┤
+│ dropout (Dropout)                    │ (None, 173, 128)            │               0 │
+├──────────────────────────────────────┼─────────────────────────────┼─────────────────┤
+│ time_distributed_1 (TimeDistributed) │ (None, 173, 1)              │             129 │
+└──────────────────────────────────────┴─────────────────────────────┴─────────────────┘
+ Total params: 1,213,445 (4.63 MB)
+ Trainable params: 404,481 (1.54 MB)
+ Non-trainable params: 0 (0.00 B)
+ Optimizer params: 808,964 (3.09 MB)
+
+Training auf folgende Datei: Datensätze/Vorbereitete Daten - Beispiel/bgl_v1/unique_data/content_list_bgl_unique.txt
+Total Trainings-Loss: [0.01499227900058031, 0.002565684262663126, 0.0012157016899436712, 0.0010036957683041692, 0.0007608283776789904, 0.0005584772443398833, 0.00035647343611344695, 0.00031170356669463217, 0.0002891322656068951, 0.00029084316338412464]
+Total Trainings-Accuracy: [0.9138097167015076, 0.9215967655181885, 0.9219319224357605, 0.9219654202461243, 0.9219841957092285, 0.9220187067985535, 0.9220753908157349, 0.9220931529998779, 0.922100841999054, 0.9220982193946838]
+Total Validierungs-Loss: [0.0036025464069098234, 0.0015615486772730947, 0.0014086306327953935, 0.0011573930969461799, 0.0010403021005913615, 0.0008978676050901413, 0.0008489876054227352, 0.0007952719461172819, 0.0007523020030930638, 0.0008752979920245707]
+Total Validierungs-Accuracy: [0.9225298166275024, 0.9228402376174927, 0.9228696227073669, 0.9231392741203308, 0.9231520891189575, 0.9231017231941223, 0.9231492280960083, 0.9231338500976562, 0.9231477379798889, 0.9231547713279724]

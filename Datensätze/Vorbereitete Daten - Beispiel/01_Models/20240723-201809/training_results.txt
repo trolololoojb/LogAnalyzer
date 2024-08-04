@@ -1,0 +1,80 @@
+[ 17   2 191   2 462   9  44  10   2 234   2 182   2 198   2  62   2 383
+   2  17  13   2 387   2  17  13   2 434   2  17   0   0   0   0   0   0
+   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0
+   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0
+   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0
+   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0
+   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0
+   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0
+   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0
+   0   0   0   0   0   0   0   0   0   0   0]
+Wort: 9, Vorhersage: nicht statisch
+Wort: ddr, Vorhersage: nicht statisch
+Wort: errors(s), Vorhersage: nicht statisch
+Wort: detected, Vorhersage: nicht statisch
+Wort: and, Vorhersage: nicht statisch
+Wort: corrected, Vorhersage: nicht statisch
+Wort: on, Vorhersage: nicht statisch
+Wort: rank, Vorhersage: nicht statisch
+Wort: 9,, Vorhersage: nicht statisch
+Wort: symbol, Vorhersage: nicht statisch
+Wort: 9,, Vorhersage: nicht statisch
+Wort: bit, Vorhersage: nicht statisch
+Wort: 9, Vorhersage: nicht statisch
+[202   2 251   2 254   2 100   2 198   0   0   0   0   0   0   0   0   0
+   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0
+   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0
+   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0
+   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0
+   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0
+   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0
+   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0
+   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0
+   0   0   0   0   0   0   0   0   0   0   0]
+Wort: instruction, Vorhersage: nicht statisch
+Wort: cache, Vorhersage: nicht statisch
+Wort: parity, Vorhersage: nicht statisch
+Wort: error, Vorhersage: nicht statisch
+Wort: corrected, Vorhersage: nicht statisch
+[155   2 200   2  53   2 191   2 100   9  44  10   2 234   2 182   2 198
+   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0
+   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0
+   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0
+   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0
+   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0
+   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0
+   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0
+   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0
+   0   0   0   0   0   0   0   0   0   0   0]
+Wort: total, Vorhersage: nicht statisch
+Wort: of, Vorhersage: nicht statisch
+Wort: 99, Vorhersage: nicht statisch
+Wort: ddr, Vorhersage: nicht statisch
+Wort: error(s), Vorhersage: nicht statisch
+Wort: detected, Vorhersage: nicht statisch
+Wort: and, Vorhersage: nicht statisch
+Wort: corrected, Vorhersage: nicht statisch
+Model: "sequential"
+┏━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━┳━━━━━━━━━━━━━━━━━━━━━━━━━━━━━┳━━━━━━━━━━━━━━━━━┓
+┃ Layer (type)                         ┃ Output Shape                ┃         Param # ┃
+┡━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━╇━━━━━━━━━━━━━━━━━━━━━━━━━━━━━╇━━━━━━━━━━━━━━━━━┩
+│ embedding (Embedding)                │ (None, 173, 64)             │         221,888 │
+├──────────────────────────────────────┼─────────────────────────────┼─────────────────┤
+│ bidirectional (Bidirectional)        │ (None, 173, 256)            │         148,992 │
+├──────────────────────────────────────┼─────────────────────────────┼─────────────────┤
+│ time_distributed (TimeDistributed)   │ (None, 173, 128)            │          32,896 │
+├──────────────────────────────────────┼─────────────────────────────┼─────────────────┤
+│ dropout (Dropout)                    │ (None, 173, 128)            │               0 │
+├──────────────────────────────────────┼─────────────────────────────┼─────────────────┤
+│ time_distributed_1 (TimeDistributed) │ (None, 173, 1)              │             129 │
+└──────────────────────────────────────┴─────────────────────────────┴─────────────────┘
+ Total params: 1,211,717 (4.62 MB)
+ Trainable params: 403,905 (1.54 MB)
+ Non-trainable params: 0 (0.00 B)
+ Optimizer params: 807,812 (3.08 MB)
+
+Training auf folgende Datei: Datensätze/Vorbereitete Daten - Beispiel/bgl_v1/content_list_bgl.txt
+Total Trainings-Loss: [0.009133242070674896]
+Total Trainings-Accuracy: [0.9910662174224854]
+Total Validierungs-Loss: [0.009097152389585972]
+Total Validierungs-Accuracy: [0.9908981919288635]

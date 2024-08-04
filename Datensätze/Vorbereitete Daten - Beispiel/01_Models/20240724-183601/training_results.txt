@@ -1,0 +1,581 @@
+[ 17   2 237  47   2 233  48   9  48  10   2  63  49 246   2 285   2 297
+  47 246   2  87   2  47 193  40   2  17  13   2 142  31  44  41   2  17
+  13   2  31  38  49   2  17   0   0   0   0   0   0   0   0   0   0   0
+   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0
+   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0
+   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0
+   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0
+   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0
+   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0
+   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0
+   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0
+   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0
+   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0
+   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0
+   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0
+   0   0   0]
+Wort: 9, Vorhersage: variabel, Wert: [2.8404448e-04 9.9971598e-01]
+Wort:  , Vorhersage: statisch, Wert: [9.9998522e-01 1.4763544e-05]
+Wort: dd, Vorhersage: statisch, Wert: [9.9999809e-01 1.9390975e-06]
+Wort: r, Vorhersage: statisch, Wert: [9.991605e-01 8.395352e-04]
+Wort:  , Vorhersage: statisch, Wert: [9.999943e-01 5.734184e-06]
+Wort: error, Vorhersage: statisch, Wert: [1.000000e+00 4.176052e-09]
+Wort: s, Vorhersage: statisch, Wert: [9.9980813e-01 1.9183931e-04]
+Wort: (, Vorhersage: statisch, Wert: [9.9999809e-01 1.8819433e-06]
+Wort: s, Vorhersage: variabel, Wert: [0.00448303 0.99551696]
+Wort: ), Vorhersage: statisch, Wert: [0.9936739  0.00632608]
+Wort:  , Vorhersage: variabel, Wert: [0.2948623 0.7051377]
+Wort: de, Vorhersage: variabel, Wert: [5.5817043e-04 9.9944180e-01]
+Wort: t, Vorhersage: variabel, Wert: [0.10370544 0.89629453]
+Wort: ected, Vorhersage: variabel, Wert: [1.7924115e-06 9.9999821e-01]
+Wort:  , Vorhersage: statisch, Wert: [9.999995e-01 4.427211e-07]
+Wort: and, Vorhersage: statisch, Wert: [9.9982339e-01 1.7665533e-04]
+Wort:  , Vorhersage: statisch, Wert: [0.9979723  0.00202772]
+Wort: cor, Vorhersage: statisch, Wert: [0.82786787 0.17213209]
+Wort: r, Vorhersage: statisch, Wert: [0.7206632 0.2793368]
+Wort: ected, Vorhersage: statisch, Wert: [0.9232184 0.0767816]
+Wort:  , Vorhersage: statisch, Wert: [9.9949276e-01 5.0724461e-04]
+Wort: on, Vorhersage: statisch, Wert: [9.999968e-01 3.182019e-06]
+Wort:  , Vorhersage: statisch, Wert: [9.9934012e-01 6.5982365e-04]
+Wort: r, Vorhersage: statisch, Wert: [0.7532251  0.24677496]
+Wort: an, Vorhersage: statisch, Wert: [0.9758247  0.02417529]
+Wort: k, Vorhersage: statisch, Wert: [0.75060815 0.24939187]
+Wort:  , Vorhersage: statisch, Wert: [0.9761471  0.02385285]
+Wort: 9, Vorhersage: statisch, Wert: [0.9543218  0.04567815]
+Wort: ,, Vorhersage: statisch, Wert: [9.999926e-01 7.348600e-06]
+Wort:  , Vorhersage: statisch, Wert: [0.9939541  0.00604593]
+Wort: sym, Vorhersage: variabel, Wert: [2.9397231e-06 9.9999702e-01]
+Wort: b, Vorhersage: statisch, Wert: [9.9999940e-01 5.5784596e-07]
+Wort: o, Vorhersage: statisch, Wert: [9.999211e-01 7.889654e-05]
+Wort: l, Vorhersage: variabel, Wert: [0.08134045 0.9186595 ]
+Wort:  , Vorhersage: variabel, Wert: [0.35307854 0.6469214 ]
+Wort: 9, Vorhersage: variabel, Wert: [0.46849176 0.53150827]
+Wort: ,, Vorhersage: statisch, Wert: [0.51702297 0.48297703]
+Wort:  , Vorhersage: statisch, Wert: [0.6121294  0.38787064]
+Wort: b, Vorhersage: statisch, Wert: [0.70308435 0.2969156 ]
+Wort: i, Vorhersage: statisch, Wert: [0.7322501  0.26774994]
+Wort: t, Vorhersage: variabel, Wert: [0.36452255 0.6354774 ]
+Wort:  , Vorhersage: statisch, Wert: [0.6804956  0.31950438]
+Wort: 9, Vorhersage: variabel, Wert: [0.27743667 0.7225633 ]
+[ 66 105  47  50 157   2  32  30  73  34   2  99  38 156   2 233   2 297
+  47 246   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0
+   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0
+   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0
+   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0
+   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0
+   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0
+   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0
+   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0
+   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0
+   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0
+   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0
+   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0
+   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0
+   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0
+   0   0   0]
+Wort: in, Vorhersage: statisch, Wert: [9.9996054e-01 3.9453422e-05]
+Wort: st, Vorhersage: statisch, Wert: [9.9998713e-01 1.2834693e-05]
+Wort: r, Vorhersage: variabel, Wert: [0.06333202 0.9366679 ]
+Wort: u, Vorhersage: variabel, Wert: [0.47919005 0.52080995]
+Wort: ction, Vorhersage: statisch, Wert: [0.8804814  0.11951856]
+Wort:  , Vorhersage: statisch, Wert: [0.718294 0.281706]
+Wort: c, Vorhersage: statisch, Wert: [0.99708754 0.00291249]
+Wort: a, Vorhersage: variabel, Wert: [0.4999544 0.5000456]
+Wort: ch, Vorhersage: statisch, Wert: [0.7483729  0.25162706]
+Wort: e, Vorhersage: statisch, Wert: [0.54456246 0.45543754]
+Wort:  , Vorhersage: statisch, Wert: [0.569155 0.430845]
+Wort: par, Vorhersage: statisch, Wert: [0.9906578  0.00934224]
+Wort: i, Vorhersage: statisch, Wert: [0.9983553  0.00164461]
+Wort: ty, Vorhersage: statisch, Wert: [0.9973483  0.00265169]
+Wort:  , Vorhersage: variabel, Wert: [0.44788393 0.5521161 ]
+Wort: error, Vorhersage: variabel, Wert: [0.30198544 0.6980145 ]
+Wort:  , Vorhersage: variabel, Wert: [0.03083138 0.9691686 ]
+Wort: cor, Vorhersage: variabel, Wert: [0.07348146 0.92651856]
+Wort: r, Vorhersage: variabel, Wert: [0.02404628 0.9759537 ]
+Wort: ected, Vorhersage: variabel, Wert: [0.00108022 0.99891984]
+[ 93  49 216   2 134   2  57   2 237  47   2 233   9  48  10   2  63  49
+ 246   2 285   2 297  47 246   0   0   0   0   0   0   0   0   0   0   0
+   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0
+   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0
+   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0
+   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0
+   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0
+   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0
+   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0
+   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0
+   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0
+   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0
+   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0
+   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0
+   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0
+   0   0   0]
+Wort: to, Vorhersage: statisch, Wert: [1.000000e+00 3.274523e-08]
+Wort: t, Vorhersage: statisch, Wert: [9.9994659e-01 5.3352458e-05]
+Wort: al, Vorhersage: variabel, Wert: [4.221357e-07 9.999995e-01]
+Wort:  , Vorhersage: statisch, Wert: [1.0000000e+00 1.4988985e-10]
+Wort: of, Vorhersage: statisch, Wert: [9.9999344e-01 6.5315921e-06]
+Wort:  , Vorhersage: statisch, Wert: [9.9997926e-01 2.0786341e-05]
+Wort: 99, Vorhersage: statisch, Wert: [9.9998939e-01 1.0647738e-05]
+Wort:  , Vorhersage: variabel, Wert: [0.45819962 0.54180044]
+Wort: dd, Vorhersage: variabel, Wert: [0.2605797 0.7394203]
+Wort: r, Vorhersage: variabel, Wert: [0.15449739 0.8455027 ]
+Wort:  , Vorhersage: variabel, Wert: [0.13491392 0.8650861 ]
+Wort: error, Vorhersage: variabel, Wert: [0.3009454 0.6990546]
+Wort: (, Vorhersage: variabel, Wert: [0.4328617 0.5671383]
+Wort: s, Vorhersage: variabel, Wert: [0.4700874  0.52991265]
+Wort: ), Vorhersage: variabel, Wert: [0.4662209  0.53377914]
+Wort:  , Vorhersage: variabel, Wert: [0.32391703 0.676083  ]
+Wort: de, Vorhersage: variabel, Wert: [0.34885192 0.6511481 ]
+Wort: t, Vorhersage: variabel, Wert: [0.26302174 0.7369783 ]
+Wort: ected, Vorhersage: variabel, Wert: [0.35599753 0.64400244]
+Wort:  , Vorhersage: statisch, Wert: [0.57073224 0.42926776]
+Wort: and, Vorhersage: variabel, Wert: [0.44080147 0.5591985 ]
+Wort:  , Vorhersage: variabel, Wert: [0.13589375 0.8641063 ]
+Wort: cor, Vorhersage: variabel, Wert: [0.3415816  0.65841836]
+Wort: r, Vorhersage: variabel, Wert: [0.2845231  0.71547693]
+Wort: ected, Vorhersage: variabel, Wert: [0.09785233 0.90214765]
+[ 57  15  61  15  17  15  17  18  67   2 260   2 132   2 143  28  14  74
+  17   2  93   2  16  57  15  61  15  17  15  17   0   0   0   0   0   0
+   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0
+   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0
+   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0
+   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0
+   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0
+   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0
+   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0
+   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0
+   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0
+   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0
+   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0
+   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0
+   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0
+   0   0   0]
+Wort: 99, Vorhersage: variabel, Wert: [1.9334252e-17 1.0000000e+00]
+Wort: ., Vorhersage: variabel, Wert: [2.1264993e-14 1.0000000e+00]
+Wort: 999, Vorhersage: variabel, Wert: [6.7039025e-17 1.0000000e+00]
+Wort: ., Vorhersage: variabel, Wert: [1.1959846e-16 1.0000000e+00]
+Wort: 9, Vorhersage: variabel, Wert: [5.1107328e-17 1.0000000e+00]
+Wort: ., Vorhersage: variabel, Wert: [6.44445e-17 1.00000e+00]
+Wort: 9, Vorhersage: variabel, Wert: [3.2854687e-17 1.0000000e+00]
+Wort: :, Vorhersage: variabel, Wert: [8.560891e-17 1.000000e+00]
+Wort: 99999, Vorhersage: variabel, Wert: [8.196203e-17 1.000000e+00]
+Wort:  , Vorhersage: variabel, Wert: [9.815035e-17 1.000000e+00]
+Wort: served, Vorhersage: variabel, Wert: [5.697434e-17 1.000000e+00]
+Wort:  , Vorhersage: variabel, Wert: [3.4379723e-16 1.0000000e+00]
+Wort: block, Vorhersage: variabel, Wert: [1.8602739e-15 1.0000000e+00]
+Wort:  , Vorhersage: variabel, Wert: [1.9831087e-15 1.0000000e+00]
+Wort: blk, Vorhersage: variabel, Wert: [7.693547e-16 1.000000e+00]
+Wort: _, Vorhersage: variabel, Wert: [2.8695684e-14 1.0000000e+00]
+Wort: -, Vorhersage: variabel, Wert: [4.769862e-14 1.000000e+00]
+Wort: 9999999999999999, Vorhersage: variabel, Wert: [7.9316294e-14 1.0000000e+00]
+Wort: 9, Vorhersage: variabel, Wert: [9.96101e-13 1.00000e+00]
+Wort:  , Vorhersage: variabel, Wert: [1.3773133e-12 1.0000000e+00]
+Wort: to, Vorhersage: variabel, Wert: [2.6470758e-11 1.0000000e+00]
+Wort:  , Vorhersage: variabel, Wert: [3.639738e-12 1.000000e+00]
+Wort: /, Vorhersage: variabel, Wert: [1.6285284e-11 1.0000000e+00]
+Wort: 99, Vorhersage: variabel, Wert: [8.0486903e-13 1.0000000e+00]
+Wort: ., Vorhersage: variabel, Wert: [9.559738e-12 1.000000e+00]
+Wort: 999, Vorhersage: variabel, Wert: [1.8759484e-11 1.0000000e+00]
+Wort: ., Vorhersage: variabel, Wert: [1.397684e-10 1.000000e+00]
+Wort: 9, Vorhersage: variabel, Wert: [1.3195578e-10 1.0000000e+00]
+Wort: ., Vorhersage: variabel, Wert: [2.433138e-10 1.000000e+00]
+Wort: 9, Vorhersage: variabel, Wert: [2.066581e-10 1.000000e+00]
+[132  11   2 231 189 219  15 216  82  32 215 132  18   2  16  42 184  16
+  37  30  78  44  45  16 204  81  83  16 219  16  39  44  31  28  59  58
+  28  58  16  39  44  31  15  39  62  15   2 143  28 212   0   0   0   0
+   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0
+   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0
+   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0
+   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0
+   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0
+   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0
+   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0
+   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0
+   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0
+   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0
+   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0
+   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0
+   0   0   0]
+Wort: block, Vorhersage: variabel, Wert: [2.131841e-09 1.000000e+00]
+Wort: *, Vorhersage: variabel, Wert: [5.011867e-08 1.000000e+00]
+Wort:  , Vorhersage: variabel, Wert: [1.0053355e-08 1.0000000e+00]
+Wort: na, Vorhersage: variabel, Wert: [2.1696749e-09 1.0000000e+00]
+Wort: me, Vorhersage: variabel, Wert: [1.1918314e-08 1.0000000e+00]
+Wort: system, Vorhersage: variabel, Wert: [3.3922711e-09 1.0000000e+00]
+Wort: ., Vorhersage: variabel, Wert: [1.404358e-08 1.000000e+00]
+Wort: al, Vorhersage: variabel, Wert: [9.484475e-08 9.999999e-01]
+Wort: lo, Vorhersage: variabel, Wert: [4.054401e-08 1.000000e+00]
+Wort: c, Vorhersage: variabel, Wert: [1.6795363e-07 9.9999988e-01]
+Wort: ate, Vorhersage: variabel, Wert: [7.850828e-08 9.999999e-01]
+Wort: block, Vorhersage: variabel, Wert: [1.03238335e-07 9.99999881e-01]
+Wort: :, Vorhersage: variabel, Wert: [1.4314893e-05 9.9998569e-01]
+Wort:  , Vorhersage: variabel, Wert: [9.793004e-04 9.990207e-01]
+Wort: /, Vorhersage: variabel, Wert: [0.01135975 0.9886403 ]
+Wort: m, Vorhersage: variabel, Wert: [1.3310691e-04 9.9986684e-01]
+Wort: nt, Vorhersage: variabel, Wert: [2.0237107e-04 9.9979764e-01]
+Wort: /, Vorhersage: variabel, Wert: [3.3763144e-04 9.9966240e-01]
+Wort: h, Vorhersage: variabel, Wert: [1.4559103e-05 9.9998546e-01]
+Wort: a, Vorhersage: variabel, Wert: [7.5987526e-07 9.9999928e-01]
+Wort: do, Vorhersage: variabel, Wert: [2.2798552e-07 9.9999976e-01]
+Wort: o, Vorhersage: variabel, Wert: [3.0854605e-06 9.9999690e-01]
+Wort: p, Vorhersage: variabel, Wert: [2.0833634e-06 9.9999797e-01]
+Wort: /, Vorhersage: variabel, Wert: [1.3824524e-05 9.9998617e-01]
+Wort: ma, Vorhersage: variabel, Wert: [2.1933978e-07 9.9999976e-01]
+Wort: pr, Vorhersage: variabel, Wert: [2.0865625e-06 9.9999785e-01]
+Wort: ed, Vorhersage: variabel, Wert: [4.9377326e-05 9.9995065e-01]
+Wort: /, Vorhersage: variabel, Wert: [2.6072728e-04 9.9973923e-01]
+Wort: system, Vorhersage: variabel, Wert: [7.210346e-05 9.999279e-01]
+Wort: /, Vorhersage: variabel, Wert: [9.5869228e-04 9.9904126e-01]
+Wort: j, Vorhersage: variabel, Wert: [8.0532284e-04 9.9919468e-01]
+Wort: o, Vorhersage: variabel, Wert: [1.0305268e-04 9.9989688e-01]
+Wort: b, Vorhersage: variabel, Wert: [3.2179625e-05 9.9996781e-01]
+Wort: _, Vorhersage: variabel, Wert: [4.304269e-06 9.999957e-01]
+Wort: 99999999, Vorhersage: variabel, Wert: [3.4814133e-07 9.9999964e-01]
+Wort: 9999, Vorhersage: variabel, Wert: [1.2007958e-07 9.9999988e-01]
+Wort: _, Vorhersage: variabel, Wert: [3.3969093e-07 9.9999964e-01]
+Wort: 9999, Vorhersage: variabel, Wert: [1.6380845e-07 9.9999988e-01]
+Wort: /, Vorhersage: variabel, Wert: [1.6649138e-06 9.9999833e-01]
+Wort: j, Vorhersage: variabel, Wert: [8.863465e-06 9.999912e-01]
+Wort: o, Vorhersage: variabel, Wert: [2.600339e-06 9.999974e-01]
+Wort: b, Vorhersage: variabel, Wert: [1.089368e-06 9.999989e-01]
+Wort: ., Vorhersage: variabel, Wert: [2.9030621e-06 9.9999714e-01]
+Wort: j, Vorhersage: variabel, Wert: [7.5763427e-07 9.9999928e-01]
+Wort: ar, Vorhersage: variabel, Wert: [4.0083890e-07 9.9999964e-01]
+Wort: ., Vorhersage: variabel, Wert: [1.3928532e-07 9.9999988e-01]
+Wort:  , Vorhersage: variabel, Wert: [1.0155813e-07 9.9999988e-01]
+Wort: blk, Vorhersage: variabel, Wert: [2.4293552e-09 1.0000000e+00]
+Wort: _, Vorhersage: variabel, Wert: [4.7572932e-08 1.0000000e+00]
+Wort: 9999999999999999999, Vorhersage: variabel, Wert: [1.5146917e-09 1.0000000e+00]
+[ 57  15  61  15  57  15  61  18  67   2 105  62 140   2 108 133 139   2
+  93   2 262  35 112   2 132   2 143  28  14 212   2  93   2  57  15  61
+  15  61  15  61  18  67  13   2  57  15  61  15  57  15  61  18  67   0
+   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0
+   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0
+   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0
+   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0
+   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0
+   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0
+   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0
+   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0
+   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0
+   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0
+   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0
+   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0
+   0   0   0]
+Wort: 99, Vorhersage: variabel, Wert: [1.1165636e-16 1.0000000e+00]
+Wort: ., Vorhersage: variabel, Wert: [1.7031172e-13 1.0000000e+00]
+Wort: 999, Vorhersage: variabel, Wert: [6.297785e-16 1.000000e+00]
+Wort: ., Vorhersage: variabel, Wert: [1.5195628e-15 1.0000000e+00]
+Wort: 99, Vorhersage: variabel, Wert: [6.7730014e-16 1.0000000e+00]
+Wort: ., Vorhersage: variabel, Wert: [2.3679719e-15 1.0000000e+00]
+Wort: 999, Vorhersage: variabel, Wert: [3.4977002e-15 1.0000000e+00]
+Wort: :, Vorhersage: variabel, Wert: [3.10098e-14 1.00000e+00]
+Wort: 99999, Vorhersage: variabel, Wert: [4.008124e-14 1.000000e+00]
+Wort:  , Vorhersage: variabel, Wert: [1.05814324e-13 1.00000000e+00]
+Wort: st, Vorhersage: variabel, Wert: [4.015995e-12 1.000000e+00]
+Wort: ar, Vorhersage: variabel, Wert: [2.915995e-12 1.000000e+00]
+Wort: ting, Vorhersage: variabel, Wert: [8.843855e-13 1.000000e+00]
+Wort:  , Vorhersage: variabel, Wert: [7.7323076e-13 1.0000000e+00]
+Wort: th, Vorhersage: variabel, Wert: [8.706815e-12 1.000000e+00]
+Wort: re, Vorhersage: variabel, Wert: [4.4112858e-13 1.0000000e+00]
+Wort: ad, Vorhersage: variabel, Wert: [2.1974074e-13 1.0000000e+00]
+Wort:  , Vorhersage: variabel, Wert: [1.0617054e-13 1.0000000e+00]
+Wort: to, Vorhersage: variabel, Wert: [7.4662027e-13 1.0000000e+00]
+Wort:  , Vorhersage: variabel, Wert: [3.916359e-14 1.000000e+00]
+Wort: trans, Vorhersage: variabel, Wert: [3.1805282e-15 1.0000000e+00]
+Wort: f, Vorhersage: variabel, Wert: [2.83697e-14 1.00000e+00]
+Wort: er, Vorhersage: variabel, Wert: [1.6068852e-13 1.0000000e+00]
+Wort:  , Vorhersage: variabel, Wert: [2.1630716e-13 1.0000000e+00]
+Wort: block, Vorhersage: variabel, Wert: [1.01754e-14 1.00000e+00]
+Wort:  , Vorhersage: variabel, Wert: [4.527291e-16 1.000000e+00]
+Wort: blk, Vorhersage: variabel, Wert: [2.6909284e-17 1.0000000e+00]
+Wort: _, Vorhersage: variabel, Wert: [3.6052877e-16 1.0000000e+00]
+Wort: -, Vorhersage: variabel, Wert: [2.9354194e-16 1.0000000e+00]
+Wort: 9999999999999999999, Vorhersage: variabel, Wert: [7.888348e-17 1.000000e+00]
+Wort:  , Vorhersage: variabel, Wert: [8.566286e-16 1.000000e+00]
+Wort: to, Vorhersage: variabel, Wert: [7.051708e-15 1.000000e+00]
+Wort:  , Vorhersage: variabel, Wert: [3.1194498e-16 1.0000000e+00]
+Wort: 99, Vorhersage: variabel, Wert: [3.8550915e-17 1.0000000e+00]
+Wort: ., Vorhersage: variabel, Wert: [1.4089885e-16 1.0000000e+00]
+Wort: 999, Vorhersage: variabel, Wert: [4.6782222e-17 1.0000000e+00]
+Wort: ., Vorhersage: variabel, Wert: [1.8283606e-16 1.0000000e+00]
+Wort: 999, Vorhersage: variabel, Wert: [1.4806459e-16 1.0000000e+00]
+Wort: ., Vorhersage: variabel, Wert: [8.186801e-16 1.000000e+00]
+Wort: 999, Vorhersage: variabel, Wert: [5.1946847e-16 1.0000000e+00]
+Wort: :, Vorhersage: variabel, Wert: [7.0801455e-15 1.0000000e+00]
+Wort: 99999, Vorhersage: variabel, Wert: [9.419008e-14 1.000000e+00]
+Wort: ,, Vorhersage: variabel, Wert: [6.88658e-12 1.00000e+00]
+Wort:  , Vorhersage: variabel, Wert: [1.761703e-14 1.000000e+00]
+Wort: 99, Vorhersage: variabel, Wert: [1.0592817e-14 1.0000000e+00]
+Wort: ., Vorhersage: variabel, Wert: [1.2424296e-13 1.0000000e+00]
+Wort: 999, Vorhersage: variabel, Wert: [1.7997153e-13 1.0000000e+00]
+Wort: ., Vorhersage: variabel, Wert: [1.8605252e-12 1.0000000e+00]
+Wort: 99, Vorhersage: variabel, Wert: [5.3315538e-12 1.0000000e+00]
+Wort: ., Vorhersage: variabel, Wert: [1.0427597e-10 1.0000000e+00]
+Wort: 999, Vorhersage: variabel, Wert: [8.589213e-11 1.000000e+00]
+Wort: :, Vorhersage: variabel, Wert: [8.768754e-10 1.000000e+00]
+Wort: 99999, Vorhersage: variabel, Wert: [1.7052328e-10 1.0000000e+00]
+[ 47  48  15  48  66  30  39  48  15  32  43  18  57   2 288   2 282   2
+ 200   2 200  15 264  15 265  15 256  15 197  18  58   2 299   0   0   0
+   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0
+   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0
+   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0
+   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0
+   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0
+   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0
+   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0
+   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0
+   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0
+   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0
+   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0
+   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0
+   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0
+   0   0   0]
+Wort: r, Vorhersage: variabel, Wert: [3.4693894e-11 1.0000000e+00]
+Wort: s, Vorhersage: variabel, Wert: [1.4071865e-12 1.0000000e+00]
+Wort: ., Vorhersage: variabel, Wert: [1.04314555e-14 1.00000000e+00]
+Wort: s, Vorhersage: variabel, Wert: [4.343504e-15 1.000000e+00]
+Wort: in, Vorhersage: variabel, Wert: [2.3464272e-15 1.0000000e+00]
+Wort: a, Vorhersage: variabel, Wert: [4.1970705e-16 1.0000000e+00]
+Wort: j, Vorhersage: variabel, Wert: [1.3046043e-15 1.0000000e+00]
+Wort: s, Vorhersage: variabel, Wert: [2.2135491e-16 1.0000000e+00]
+Wort: ., Vorhersage: variabel, Wert: [7.530819e-17 1.000000e+00]
+Wort: c, Vorhersage: variabel, Wert: [5.3467774e-16 1.0000000e+00]
+Wort: n, Vorhersage: variabel, Wert: [1.2558795e-16 1.0000000e+00]
+Wort: :, Vorhersage: variabel, Wert: [2.1355479e-17 1.0000000e+00]
+Wort: 99, Vorhersage: variabel, Wert: [3.470873e-18 1.000000e+00]
+Wort:  , Vorhersage: variabel, Wert: [3.0468941e-18 1.0000000e+00]
+Wort: open, Vorhersage: variabel, Wert: [3.7474582e-18 1.0000000e+00]
+Wort:  , Vorhersage: variabel, Wert: [4.556617e-19 1.000000e+00]
+Wort: through, Vorhersage: variabel, Wert: [1.6319367e-18 1.0000000e+00]
+Wort:  , Vorhersage: variabel, Wert: [2.5716228e-17 1.0000000e+00]
+Wort: proxy, Vorhersage: variabel, Wert: [4.3340486e-17 1.0000000e+00]
+Wort:  , Vorhersage: variabel, Wert: [3.1803291e-18 1.0000000e+00]
+Wort: proxy, Vorhersage: variabel, Wert: [3.371474e-17 1.000000e+00]
+Wort: ., Vorhersage: variabel, Wert: [1.5531471e-18 1.0000000e+00]
+Wort: cse, Vorhersage: variabel, Wert: [3.0954647e-19 1.0000000e+00]
+Wort: ., Vorhersage: variabel, Wert: [7.887501e-18 1.000000e+00]
+Wort: cuhk, Vorhersage: variabel, Wert: [7.965687e-20 1.000000e+00]
+Wort: ., Vorhersage: variabel, Wert: [7.960804e-18 1.000000e+00]
+Wort: edu, Vorhersage: variabel, Wert: [6.8250255e-17 1.0000000e+00]
+Wort: ., Vorhersage: variabel, Wert: [3.2694313e-15 1.0000000e+00]
+Wort: hk, Vorhersage: variabel, Wert: [1.0599602e-15 1.0000000e+00]
+Wort: :, Vorhersage: variabel, Wert: [2.4930063e-13 1.0000000e+00]
+Wort: 9999, Vorhersage: variabel, Wert: [2.0982714e-11 1.0000000e+00]
+Wort:  , Vorhersage: variabel, Wert: [7.746583e-09 1.000000e+00]
+Wort: https, Vorhersage: variabel, Wert: [1.5011359e-10 1.0000000e+00]
+[ 45  38  32  17  15  55  37  38  42  36  15 192  18  61   2 248  13   2
+  58   2 225   2   9  17  15  57   2 228  10   2  64 184  13   2  58   2
+ 225   2   9  17  15  57   2 228  10   2 229  13   2 186 203 223   2  57
+  18  57   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0
+   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0
+   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0
+   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0
+   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0
+   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0
+   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0
+   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0
+   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0
+   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0
+   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0
+   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0
+   0   0   0]
+Wort: p, Vorhersage: variabel, Wert: [3.6468397e-16 1.0000000e+00]
+Wort: i, Vorhersage: variabel, Wert: [5.7330776e-18 1.0000000e+00]
+Wort: c, Vorhersage: variabel, Wert: [6.5202867e-18 1.0000000e+00]
+Wort: 9, Vorhersage: variabel, Wert: [2.041985e-19 1.000000e+00]
+Wort: ., Vorhersage: variabel, Wert: [3.8326966e-19 1.0000000e+00]
+Wort: z, Vorhersage: variabel, Wert: [2.3485627e-19 1.0000000e+00]
+Wort: h, Vorhersage: variabel, Wert: [3.4253867e-19 1.0000000e+00]
+Wort: i, Vorhersage: variabel, Wert: [9.058627e-20 1.000000e+00]
+Wort: m, Vorhersage: variabel, Wert: [3.4880599e-19 1.0000000e+00]
+Wort: g, Vorhersage: variabel, Wert: [5.0791035e-20 1.0000000e+00]
+Wort: ., Vorhersage: variabel, Wert: [3.2581184e-20 1.0000000e+00]
+Wort: com, Vorhersage: variabel, Wert: [3.1315093e-20 1.0000000e+00]
+Wort: :, Vorhersage: variabel, Wert: [3.328468e-20 1.000000e+00]
+Wort: 999, Vorhersage: variabel, Wert: [1.2152611e-20 1.0000000e+00]
+Wort:  , Vorhersage: variabel, Wert: [6.844618e-21 1.000000e+00]
+Wort: close, Vorhersage: variabel, Wert: [5.197132e-20 1.000000e+00]
+Wort: ,, Vorhersage: variabel, Wert: [2.2206075e-19 1.0000000e+00]
+Wort:  , Vorhersage: variabel, Wert: [4.977218e-20 1.000000e+00]
+Wort: 9999, Vorhersage: variabel, Wert: [1.6420637e-20 1.0000000e+00]
+Wort:  , Vorhersage: variabel, Wert: [1.1418375e-19 1.0000000e+00]
+Wort: bytes, Vorhersage: variabel, Wert: [1.4161531e-19 1.0000000e+00]
+Wort:  , Vorhersage: variabel, Wert: [3.1909242e-19 1.0000000e+00]
+Wort: (, Vorhersage: variabel, Wert: [3.53852e-18 1.00000e+00]
+Wort: 9, Vorhersage: variabel, Wert: [1.4815823e-18 1.0000000e+00]
+Wort: ., Vorhersage: variabel, Wert: [8.245627e-17 1.000000e+00]
+Wort: 99, Vorhersage: variabel, Wert: [5.855239e-17 1.000000e+00]
+Wort:  , Vorhersage: variabel, Wert: [1.9144251e-16 1.0000000e+00]
+Wort: kb, Vorhersage: variabel, Wert: [9.7987246e-17 1.0000000e+00]
+Wort: ), Vorhersage: variabel, Wert: [1.0033373e-12 1.0000000e+00]
+Wort:  , Vorhersage: variabel, Wert: [1.7342954e-09 1.0000000e+00]
+Wort: se, Vorhersage: variabel, Wert: [8.743042e-16 1.000000e+00]
+Wort: nt, Vorhersage: variabel, Wert: [2.4246445e-15 1.0000000e+00]
+Wort: ,, Vorhersage: variabel, Wert: [6.904723e-14 1.000000e+00]
+Wort:  , Vorhersage: variabel, Wert: [4.4464346e-17 1.0000000e+00]
+Wort: 9999, Vorhersage: variabel, Wert: [6.8789183e-18 1.0000000e+00]
+Wort:  , Vorhersage: variabel, Wert: [3.0748487e-17 1.0000000e+00]
+Wort: bytes, Vorhersage: variabel, Wert: [1.3228089e-17 1.0000000e+00]
+Wort:  , Vorhersage: variabel, Wert: [4.8542747e-17 1.0000000e+00]
+Wort: (, Vorhersage: variabel, Wert: [3.450467e-16 1.000000e+00]
+Wort: 9, Vorhersage: variabel, Wert: [6.077208e-17 1.000000e+00]
+Wort: ., Vorhersage: variabel, Wert: [2.662362e-15 1.000000e+00]
+Wort: 99, Vorhersage: variabel, Wert: [6.228428e-16 1.000000e+00]
+Wort:  , Vorhersage: variabel, Wert: [1.2884377e-13 1.0000000e+00]
+Wort: kb, Vorhersage: variabel, Wert: [2.7169356e-14 1.0000000e+00]
+Wort: ), Vorhersage: variabel, Wert: [1.3150422e-07 9.9999988e-01]
+Wort:  , Vorhersage: variabel, Wert: [8.5215197e-07 9.9999917e-01]
+Wort: received, Vorhersage: variabel, Wert: [3.1881056e-09 1.0000000e+00]
+Wort: ,, Vorhersage: variabel, Wert: [2.2138457e-07 9.9999976e-01]
+Wort:  , Vorhersage: variabel, Wert: [7.8344335e-08 9.9999988e-01]
+Wort: li, Vorhersage: variabel, Wert: [1.986575e-09 1.000000e+00]
+Wort: fe, Vorhersage: variabel, Wert: [5.446596e-10 1.000000e+00]
+Wort: time, Vorhersage: variabel, Wert: [3.1844607e-08 1.0000000e+00]
+Wort:  , Vorhersage: variabel, Wert: [8.736205e-09 1.000000e+00]
+Wort: 99, Vorhersage: variabel, Wert: [7.405668e-10 1.000000e+00]
+Wort: :, Vorhersage: variabel, Wert: [1.7760665e-09 1.0000000e+00]
+Wort: 99, Vorhersage: variabel, Wert: [4.7298104e-10 1.0000000e+00]
+[ 45 113  17  15 190  30  42  51  38  34  52 112  15 192  18  61   2   9
+  86  51  17  10   2 233   2  18   2  32  94  41  33   2 110   2 222  43
+ 242   2 282   2 200   2 200  15 264  15 265  15 256  15 197  18  58   2
+  14   2 200   2  90 112   2  32 193 110   2  34 105 127 186 144   2  30
+   2 222  43 242  98   2  52  38 108   2 138   2  49  62 230  49  13   2
+ 105  71  50  48   2  32  44  63   2  61   0   0   0   0   0   0   0   0
+   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0
+   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0
+   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0
+   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0
+   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0
+   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0
+   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0
+   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0
+   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0
+   0   0   0]
+Wort: p, Vorhersage: variabel, Wert: [7.726937e-14 1.000000e+00]
+Wort: ing, Vorhersage: variabel, Wert: [2.689739e-16 1.000000e+00]
+Wort: 9, Vorhersage: variabel, Wert: [3.6995765e-18 1.0000000e+00]
+Wort: ., Vorhersage: variabel, Wert: [5.949235e-18 1.000000e+00]
+Wort: te, Vorhersage: variabel, Wert: [3.2994996e-16 1.0000000e+00]
+Wort: a, Vorhersage: variabel, Wert: [2.37003e-17 1.00000e+00]
+Wort: m, Vorhersage: variabel, Wert: [3.556344e-17 1.000000e+00]
+Wort: v, Vorhersage: variabel, Wert: [7.857474e-17 1.000000e+00]
+Wort: i, Vorhersage: variabel, Wert: [3.739194e-16 1.000000e+00]
+Wort: e, Vorhersage: variabel, Wert: [2.6252174e-16 1.0000000e+00]
+Wort: w, Vorhersage: variabel, Wert: [1.5097685e-16 1.0000000e+00]
+Wort: er, Vorhersage: variabel, Wert: [3.8470705e-17 1.0000000e+00]
+Wort: ., Vorhersage: variabel, Wert: [2.6000793e-18 1.0000000e+00]
+Wort: com, Vorhersage: variabel, Wert: [5.2421566e-18 1.0000000e+00]
+Wort: :, Vorhersage: variabel, Wert: [2.6008136e-18 1.0000000e+00]
+Wort: 999, Vorhersage: variabel, Wert: [8.075996e-18 1.000000e+00]
+Wort:  , Vorhersage: variabel, Wert: [3.157026e-17 1.000000e+00]
+Wort: (, Vorhersage: variabel, Wert: [2.0801033e-16 1.0000000e+00]
+Wort: ip, Vorhersage: variabel, Wert: [5.386429e-17 1.000000e+00]
+Wort: v, Vorhersage: variabel, Wert: [1.8523773e-16 1.0000000e+00]
+Wort: 9, Vorhersage: variabel, Wert: [3.5823283e-14 1.0000000e+00]
+Wort: ), Vorhersage: variabel, Wert: [3.5494403e-12 1.0000000e+00]
+Wort:  , Vorhersage: variabel, Wert: [4.552505e-13 1.000000e+00]
+Wort: error, Vorhersage: variabel, Wert: [2.1682019e-13 1.0000000e+00]
+Wort:  , Vorhersage: variabel, Wert: [6.673906e-14 1.000000e+00]
+Wort: :, Vorhersage: variabel, Wert: [5.196151e-16 1.000000e+00]
+Wort:  , Vorhersage: variabel, Wert: [1.4327762e-14 1.0000000e+00]
+Wort: c, Vorhersage: variabel, Wert: [1.2336453e-13 1.0000000e+00]
+Wort: ou, Vorhersage: variabel, Wert: [1.4325704e-15 1.0000000e+00]
+Wort: l, Vorhersage: variabel, Wert: [2.1295706e-15 1.0000000e+00]
+Wort: d, Vorhersage: variabel, Wert: [2.2816302e-15 1.0000000e+00]
+Wort:  , Vorhersage: variabel, Wert: [1.1384208e-16 1.0000000e+00]
+Wort: not, Vorhersage: variabel, Wert: [1.5536286e-16 1.0000000e+00]
+Wort:  , Vorhersage: variabel, Wert: [3.0877312e-17 1.0000000e+00]
+Wort: con, Vorhersage: variabel, Wert: [2.3780175e-17 1.0000000e+00]
+Wort: n, Vorhersage: variabel, Wert: [2.717614e-18 1.000000e+00]
+Wort: ect, Vorhersage: variabel, Wert: [1.2534038e-18 1.0000000e+00]
+Wort:  , Vorhersage: variabel, Wert: [2.4814e-19 1.0000e+00]
+Wort: through, Vorhersage: variabel, Wert: [6.7084716e-20 1.0000000e+00]
+Wort:  , Vorhersage: variabel, Wert: [1.1617278e-18 1.0000000e+00]
+Wort: proxy, Vorhersage: variabel, Wert: [1.1802566e-18 1.0000000e+00]
+Wort:  , Vorhersage: variabel, Wert: [2.1598782e-19 1.0000000e+00]
+Wort: proxy, Vorhersage: variabel, Wert: [6.948859e-19 1.000000e+00]
+Wort: ., Vorhersage: variabel, Wert: [8.8236383e-20 1.0000000e+00]
+Wort: cse, Vorhersage: variabel, Wert: [2.2777717e-20 1.0000000e+00]
+Wort: ., Vorhersage: variabel, Wert: [2.5483488e-19 1.0000000e+00]
+Wort: cuhk, Vorhersage: variabel, Wert: [6.7571132e-21 1.0000000e+00]
+Wort: ., Vorhersage: variabel, Wert: [4.2244507e-19 1.0000000e+00]
+Wort: edu, Vorhersage: variabel, Wert: [2.9398543e-18 1.0000000e+00]
+Wort: ., Vorhersage: variabel, Wert: [4.2803374e-17 1.0000000e+00]
+Wort: hk, Vorhersage: variabel, Wert: [4.6380103e-17 1.0000000e+00]
+Wort: :, Vorhersage: variabel, Wert: [9.324159e-15 1.000000e+00]
+Wort: 9999, Vorhersage: variabel, Wert: [3.9039437e-13 1.0000000e+00]
+Wort:  , Vorhersage: variabel, Wert: [6.148588e-09 1.000000e+00]
+Wort: -, Vorhersage: variabel, Wert: [2.347313e-08 1.000000e+00]
+Wort:  , Vorhersage: variabel, Wert: [5.002355e-08 1.000000e+00]
+Wort: proxy, Vorhersage: variabel, Wert: [1.231018e-06 9.999988e-01]
+Wort:  , Vorhersage: variabel, Wert: [1.1324975e-05 9.9998868e-01]
+Wort: serv, Vorhersage: variabel, Wert: [5.4636307e-06 9.9999452e-01]
+Wort: er, Vorhersage: variabel, Wert: [4.4775463e-04 9.9955219e-01]
+Wort:  , Vorhersage: variabel, Wert: [0.01446919 0.98553085]
+Wort: c, Vorhersage: variabel, Wert: [0.04323128 0.95676875]
+Wort: an, Vorhersage: variabel, Wert: [0.00143248 0.99856746]
+Wort: not, Vorhersage: variabel, Wert: [0.01344192 0.98655814]
+Wort:  , Vorhersage: variabel, Wert: [0.08433912 0.91566086]
+Wort: e, Vorhersage: variabel, Wert: [0.14406663 0.8559333 ]
+Wort: st, Vorhersage: variabel, Wert: [0.0289672  0.97103286]
+Wort: ab, Vorhersage: variabel, Wert: [0.01877809 0.98122185]
+Wort: li, Vorhersage: variabel, Wert: [0.006333   0.99366695]
+Wort: sh, Vorhersage: variabel, Wert: [0.01207573 0.9879242 ]
+Wort:  , Vorhersage: variabel, Wert: [0.03569416 0.9643058 ]
+Wort: a, Vorhersage: variabel, Wert: [0.0071722  0.99282783]
+Wort:  , Vorhersage: variabel, Wert: [0.00185581 0.99814415]
+Wort: con, Vorhersage: variabel, Wert: [7.7666005e-04 9.9922335e-01]
+Wort: n, Vorhersage: variabel, Wert: [1.8234522e-04 9.9981767e-01]
+Wort: ect, Vorhersage: variabel, Wert: [5.0065364e-04 9.9949932e-01]
+Wort: ion, Vorhersage: variabel, Wert: [0.00850587 0.9914942 ]
+Wort:  , Vorhersage: variabel, Wert: [0.00825222 0.99174774]
+Wort: w, Vorhersage: variabel, Wert: [0.0134022 0.9865978]
+Wort: i, Vorhersage: variabel, Wert: [0.01019896 0.989801  ]
+Wort: th, Vorhersage: variabel, Wert: [0.014876   0.98512405]
+Wort:  , Vorhersage: variabel, Wert: [0.01317992 0.98682004]
+Wort: the, Vorhersage: variabel, Wert: [0.01359066 0.9864094 ]
+Wort:  , Vorhersage: variabel, Wert: [0.00409202 0.995908  ]
+Wort: t, Vorhersage: variabel, Wert: [0.00207928 0.9979207 ]
+Wort: ar, Vorhersage: variabel, Wert: [0.04079932 0.9592007 ]
+Wort: ge, Vorhersage: variabel, Wert: [0.02389606 0.97610396]
+Wort: t, Vorhersage: variabel, Wert: [0.01033252 0.98966753]
+Wort: ,, Vorhersage: statisch, Wert: [0.9823814  0.01761862]
+Wort:  , Vorhersage: variabel, Wert: [0.01807876 0.9819212 ]
+Wort: st, Vorhersage: variabel, Wert: [0.00168423 0.9983158 ]
+Wort: at, Vorhersage: variabel, Wert: [4.1632078e-04 9.9958366e-01]
+Wort: u, Vorhersage: variabel, Wert: [6.1298476e-04 9.9938703e-01]
+Wort: s, Vorhersage: variabel, Wert: [0.00289254 0.99710745]
+Wort:  , Vorhersage: variabel, Wert: [4.5196482e-04 9.9954802e-01]
+Wort: c, Vorhersage: variabel, Wert: [0.00216601 0.997834  ]
+Wort: o, Vorhersage: variabel, Wert: [1.9666023e-04 9.9980336e-01]
+Wort: de, Vorhersage: variabel, Wert: [6.010631e-05 9.999399e-01]
+Wort:  , Vorhersage: variabel, Wert: [6.7842222e-05 9.9993217e-01]
+Wort: 999, Vorhersage: variabel, Wert: [8.2346293e-07 9.9999917e-01]
+Model: "sequential"
+┏━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━┳━━━━━━━━━━━━━━━━━━━━━━━━━━━━━┳━━━━━━━━━━━━━━━━━┓
+┃ Layer (type)                         ┃ Output Shape                ┃         Param # ┃
+┡━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━╇━━━━━━━━━━━━━━━━━━━━━━━━━━━━━╇━━━━━━━━━━━━━━━━━┩
+│ embedding (Embedding)                │ (None, 273, 128)            │          38,528 │
+├──────────────────────────────────────┼─────────────────────────────┼─────────────────┤
+│ bidirectional (Bidirectional)        │ (None, 273, 1000)           │       1,890,000 │
+├──────────────────────────────────────┼─────────────────────────────┼─────────────────┤
+│ dropout (Dropout)                    │ (None, 273, 1000)           │               0 │
+├──────────────────────────────────────┼─────────────────────────────┼─────────────────┤
+│ bidirectional_1 (Bidirectional)      │ (None, 273, 1000)           │       4,506,000 │
+├──────────────────────────────────────┼─────────────────────────────┼─────────────────┤
+│ time_distributed (TimeDistributed)   │ (None, 273, 200)            │         200,200 │
+├──────────────────────────────────────┼─────────────────────────────┼─────────────────┤
+│ dropout_1 (Dropout)                  │ (None, 273, 200)            │               0 │
+├──────────────────────────────────────┼─────────────────────────────┼─────────────────┤
+│ time_distributed_1 (TimeDistributed) │ (None, 273, 2)              │             402 │
+└──────────────────────────────────────┴─────────────────────────────┴─────────────────┘
+ Total params: 19,905,392 (75.93 MB)
+ Trainable params: 6,635,130 (25.31 MB)
+ Non-trainable params: 0 (0.00 B)
+ Optimizer params: 13,270,262 (50.62 MB)
+
+Total Trainings-Loss: [0.0030450487975031137, 0.0008083805441856384, 0.0005775691824965179, 0.0005458766245283186, 0.00045212064287625253, 0.00031764342566020787, 0.00035330705577507615, 0.00025913966237567365, 0.0002084003936033696, 0.00029111557523719966, 0.0003414008242543787, 0.0001732788805384189, 0.00014874839689582586, 0.0001234087103512138, 0.0001321199961239472]
+Total Trainings-Accuracy: [0.35497787594795227, 0.36919230222702026, 0.8459061980247498, 0.7258684635162354, 0.6158556938171387, 0.43697142601013184, 0.22321254014968872, 0.09673488885164261, 0.05289015173912048, 0.21119239926338196, 0.17626281082630157, 0.07970225811004639, 0.07325856387615204, 0.06358596682548523, 0.08893568813800812]
+Total Validierungs-Loss: [0.0008510255720466375, 0.0006017587729729712, 0.00039134841063059866, 0.000515438208822161, 0.00034729420440271497, 0.00027560946182347834, 0.0002646666544023901, 0.00022700348927173764, 0.00020501980907283723, 0.0021714786998927593, 0.00022766119218431413, 0.00018138339510187507, 0.000156912297825329, 0.00018641038332134485, 0.00020816674805246294]
+Total Validierungs-Accuracy: [0.04537111520767212, 0.8781551122665405, 0.7066734433174133, 0.8885327577590942, 0.4876801669597626, 0.04333001747727394, 0.04716289043426514, 0.059389565140008926, 0.049417681992053986, 0.34971481561660767, 0.0446738563477993, 0.08245660364627838, 0.047483425587415695, 0.05303342267870903, 0.043292347341775894]

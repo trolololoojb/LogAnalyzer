@@ -1,0 +1,216 @@
+Loss: 0.0037531498819589615, Accuracy: 0.9730262756347656
+[ 13   2 247   2 407   6  38   7   2 190   2 198   2 205   2 200   2 353
+   2  13   9   2 294   2  13   9   2 341   2  13   0   0   0   0   0   0
+   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0
+   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0
+   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0
+   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0
+   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0
+   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0
+   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0
+   0   0   0   0   0   0   0   0   0]
+Wörter: 9 , Vorhersage: variabel, Wert: [0.58127826]
+Wörter: ddr errors(s) detected and corrected on rank , Vorhersage: statisch, Wert: [-0.9365692]
+Wörter: 9,, Vorhersage: variabel, Wert: [0.58127826]
+Wörter:  symbol , Vorhersage: statisch, Wert: [0.00341628]
+Wörter: 9, bit 9, Vorhersage: variabel, Wert: [0.58127826]
+[265   2 422   2 332   2 138   2 205   0   0   0   0   0   0   0   0   0
+   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0
+   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0
+   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0
+   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0
+   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0
+   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0
+   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0
+   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0
+   0   0   0   0   0   0   0   0   0]
+Wörter: instruction, Vorhersage: statisch, Wert: [-0.91579425]
+Wörter:  , Vorhersage: variabel, Wert: [0.00411903]
+Wörter: cache parity, Vorhersage: statisch, Wert: [-0.9622073]
+Wörter:  , Vorhersage: variabel, Wert: [0.00411903]
+Wörter: error, Vorhersage: statisch, Wert: [-0.51284903]
+Wörter:  , Vorhersage: variabel, Wert: [0.00411903]
+Wörter: corrected, Vorhersage: statisch, Wert: [-0.92693114]
+[516   2 102   2  46   2 247   2 138   6  38   7   2 190   2 198   2 205
+   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0
+   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0
+   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0
+   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0
+   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0
+   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0
+   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0
+   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0
+   0   0   0   0   0   0   0   0   0]
+Wörter: total, Vorhersage: statisch, Wert: [-0.9575639]
+Wörter:  , Vorhersage: variabel, Wert: [0.00133066]
+Wörter: of, Vorhersage: statisch, Wert: [-0.9746054]
+Wörter:  99 , Vorhersage: variabel, Wert: [0.00133066]
+Wörter: ddr error(s), Vorhersage: statisch, Wert: [-0.79833]
+Wörter:  , Vorhersage: variabel, Wert: [0.00133066]
+Wörter: detected and, Vorhersage: statisch, Wert: [-0.9838206]
+Wörter:  , Vorhersage: variabel, Wert: [0.00133066]
+Wörter: corrected, Vorhersage: statisch, Wert: [-0.9726723]
+[ 46  11  51  11  13  11  13  14  72   2  77 104   2 558   2 477  30  19
+  10  76  13   2 300   2  12  46  11  51  11  13  11  13   0   0   0   0
+   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0
+   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0
+   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0
+   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0
+   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0
+   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0
+   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0
+   0   0   0   0   0   0   0   0   0]
+Wörter: 99.999.9.9:99999 served block blk_-99999999999999999 to, Vorhersage: variabel, Wert: [0.9999768]
+Wörter:  , Vorhersage: statisch, Wert: [0.00153656]
+Wörter: /99.999.9.9, Vorhersage: variabel, Wert: [0.9992671]
+[ 558    2 1303 1135 1027   11  716   59  188  347   14    2   12   32
+  268   12   27   20   88 1066   12  154  100   23   12 1135 1027   12
+ 1420   19   49   47   19   47   12 1420   11   29   54   11    2  477
+   30   19   76   51    0    0    0    0    0    0    0    0    0    0
+    0    0    0    0    0    0    0    0    0    0    0    0    0    0
+    0    0    0    0    0    0    0    0    0    0    0    0    0    0
+    0    0    0    0    0    0    0    0    0    0    0    0    0    0
+    0    0    0    0    0    0    0    0    0    0    0    0    0    0
+    0    0    0    0    0    0    0    0    0    0    0    0    0    0
+    0    0    0    0    0    0    0    0    0    0    0    0    0    0
+    0    0    0    0    0    0    0    0    0    0    0    0    0    0
+    0    0    0    0    0    0    0    0    0    0    0    0    0    0
+    0    0    0]
+Wörter: block, Vorhersage: statisch, Wert: [-0.79822224]
+Wörter:  , Vorhersage: variabel, Wert: [0.01158651]
+Wörter: namesystem.allocateblock:, Vorhersage: statisch, Wert: [-0.55579495]
+Wörter:  /mnt/ha, Vorhersage: variabel, Wert: [0.01158651]
+Wörter: do, Vorhersage: statisch, Wert: [-0.6960249]
+Wörter: op/mapred/system/job_999999999999_9999/job.jar. blk_9999999999999999999, Vorhersage: variabel, Wert: [0.2512925]
+[  46   11   51   11   46   11   51   14   72    2  740    2  209  375
+    2  300    2  390   38 1031    2  558    2  477   30   19   10   76
+   51    2  300    2   46   11   51   11   51   11   51   14   72    9
+    2   46   11   51   11   46   11   51   14   72    0    0    0    0
+    0    0    0    0    0    0    0    0    0    0    0    0    0    0
+    0    0    0    0    0    0    0    0    0    0    0    0    0    0
+    0    0    0    0    0    0    0    0    0    0    0    0    0    0
+    0    0    0    0    0    0    0    0    0    0    0    0    0    0
+    0    0    0    0    0    0    0    0    0    0    0    0    0    0
+    0    0    0    0    0    0    0    0    0    0    0    0    0    0
+    0    0    0    0    0    0    0    0    0    0    0    0    0    0
+    0    0    0    0    0    0    0    0    0    0    0    0    0    0
+    0    0    0]
+Wörter: 99.999.99.999:99999 , Vorhersage: variabel, Wert: [0.99998087]
+Wörter: starting, Vorhersage: statisch, Wert: [-0.19422509]
+Wörter:  , Vorhersage: variabel, Wert: [0.0018139]
+Wörter: th, Vorhersage: statisch, Wert: [-0.21720691]
+Wörter: read , Vorhersage: variabel, Wert: [0.08401933]
+Wörter: to transfer, Vorhersage: statisch, Wert: [-0.70143235]
+Wörter:  , Vorhersage: variabel, Wert: [0.0018139]
+Wörter: block , Vorhersage: statisch, Wert: [-0.85701305]
+Wörter: blk_-9999999999999999999 to, Vorhersage: variabel, Wert: [0.8160324]
+Wörter:  , Vorhersage: statisch, Wert: [0.0018139]
+Wörter: 99.999.999.999:99999,, Vorhersage: variabel, Wert: [0.99998087]
+Wörter:  , Vorhersage: statisch, Wert: [0.0018139]
+Wörter: 99.999.99.999:99999, Vorhersage: variabel, Wert: [0.99998087]
+[  37   38   11   38   67   20   29   38   11   22   33   14   46    2
+ 1067   33    2  209  135   40  661    2 1186    2 1186   11   22  231
+   11   22   40   27   30   11  104   40   11   27   30   14   47    2
+   27   39   39   35   38    0    0    0    0    0    0    0    0    0
+    0    0    0    0    0    0    0    0    0    0    0    0    0    0
+    0    0    0    0    0    0    0    0    0    0    0    0    0    0
+    0    0    0    0    0    0    0    0    0    0    0    0    0    0
+    0    0    0    0    0    0    0    0    0    0    0    0    0    0
+    0    0    0    0    0    0    0    0    0    0    0    0    0    0
+    0    0    0    0    0    0    0    0    0    0    0    0    0    0
+    0    0    0    0    0    0    0    0    0    0    0    0    0    0
+    0    0    0    0    0    0    0    0    0    0    0    0    0    0
+    0    0    0]
+Wörter: rs.sina, Vorhersage: statisch, Wert: [-0.5399664]
+Wörter: j, Vorhersage: variabel, Wert: [0.50817126]
+Wörter: s., Vorhersage: statisch, Wert: [-0.9863367]
+Wörter: cn:99 open through , Vorhersage: variabel, Wert: [0.8955794]
+Wörter: proxy , Vorhersage: statisch, Wert: [-0.3065049]
+Wörter: proxy.cse.cuhk.edu.hk:9999 http, Vorhersage: variabel, Wert: [-0.3065049]
+Wörter: s, Vorhersage: statisch, Wert: [-0.9863367]
+[ 308   22   13   11   45   27  812   26   11  351   14   51    2 1375
+    9    2   47    2  604   38    2    6   13   11   46    2   30   21
+    7    2  602    9    2   47    2  604   38    2    6   13   11   46
+    2   30   21    7    2  281  230  104    9    2  415  187  381    2
+   46   14   46    0    0    0    0    0    0    0    0    0    0    0
+    0    0    0    0    0    0    0    0    0    0    0    0    0    0
+    0    0    0    0    0    0    0    0    0    0    0    0    0    0
+    0    0    0    0    0    0    0    0    0    0    0    0    0    0
+    0    0    0    0    0    0    0    0    0    0    0    0    0    0
+    0    0    0    0    0    0    0    0    0    0    0    0    0    0
+    0    0    0    0    0    0    0    0    0    0    0    0    0    0
+    0    0    0    0    0    0    0    0    0    0    0    0    0    0
+    0    0    0]
+Wörter: pic9.zhimg.com:999 , Vorhersage: variabel, Wert: [0.8684767]
+Wörter: close, Vorhersage: statisch, Wert: [-0.43176025]
+Wörter: , 9999 , Vorhersage: variabel, Wert: [0.84876513]
+Wörter: bytes, Vorhersage: statisch, Wert: [-0.93715876]
+Wörter:  , Vorhersage: variabel, Wert: [0.00294396]
+Wörter: (, Vorhersage: statisch, Wert: [-0.67169917]
+Wörter: 9.99 kb) , Vorhersage: variabel, Wert: [0.9997042]
+Wörter: sent, Vorhersage: statisch, Wert: [-0.23597306]
+Wörter: , 9999 , Vorhersage: variabel, Wert: [0.84876513]
+Wörter: bytes, Vorhersage: statisch, Wert: [-0.93715876]
+Wörter:  , Vorhersage: variabel, Wert: [0.00294396]
+Wörter: (, Vorhersage: statisch, Wert: [-0.67169917]
+Wörter: 9.99 kb) received, lifetime 99:99, Vorhersage: variabel, Wert: [0.9997042]
+[1070   13   11   39  150   32   41   28   24  841   11  351   14   51
+    2    6  292   41   13    7    2  138    2   14    2  242  531   23
+    2  158    2  916   62    2  209  135   40  661    2 1186    2 1186
+   11   22  231   11   22   40   27   30   11  104   40   11   27   30
+   14   47    2   10    2 1186    2  703    2  948    2 1029  174  415
+  111    2   20    2  916   95    2  494    2  287    2  633    9    2
+  352    2  907    2   51    0    0    0    0    0    0    0    0    0
+    0    0    0    0    0    0    0    0    0    0    0    0    0    0
+    0    0    0    0    0    0    0    0    0    0    0    0    0    0
+    0    0    0    0    0    0    0    0    0    0    0    0    0    0
+    0    0    0    0    0    0    0    0    0    0    0    0    0    0
+    0    0    0    0    0    0    0    0    0    0    0    0    0    0
+    0    0    0]
+Wörter: ping9.teamv, Vorhersage: variabel, Wert: [0.62627023]
+Wörter: i, Vorhersage: statisch, Wert: [-0.07427742]
+Wörter: ewer.com:999 (ipv9) , Vorhersage: variabel, Wert: [0.9700855]
+Wörter: error :, Vorhersage: statisch, Wert: [-0.5874435]
+Wörter:  , Vorhersage: variabel, Wert: [0.00272451]
+Wörter: could not, Vorhersage: statisch, Wert: [-0.01257009]
+Wörter:  , Vorhersage: variabel, Wert: [0.00272451]
+Wörter: connect, Vorhersage: statisch, Wert: [-0.7493227]
+Wörter:  , Vorhersage: variabel, Wert: [0.00272451]
+Wörter: thro, Vorhersage: statisch, Wert: [-0.20161791]
+Wörter: ugh , Vorhersage: variabel, Wert: [0.97628486]
+Wörter: proxy , Vorhersage: statisch, Wert: [-0.4247993]
+Wörter: proxy.cse.cuhk.edu.hk:9999 - , Vorhersage: variabel, Wert: [-0.4247993]
+Wörter: proxy, Vorhersage: statisch, Wert: [-0.4247993]
+Wörter:  , Vorhersage: variabel, Wert: [0.00272451]
+Wörter: server cannot establish, Vorhersage: statisch, Wert: [-0.8807063]
+Wörter:  , Vorhersage: variabel, Wert: [0.00272451]
+Wörter: a connection with the, Vorhersage: statisch, Wert: [-0.8260367]
+Wörter:  , Vorhersage: variabel, Wert: [0.00272451]
+Wörter: target, status, Vorhersage: statisch, Wert: [-0.5192127]
+Wörter:  , Vorhersage: variabel, Wert: [0.00272451]
+Wörter: code, Vorhersage: statisch, Wert: [-0.8065386]
+Wörter:  999, Vorhersage: variabel, Wert: [0.00272451]
+Model: "sequential"
+┏━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━┳━━━━━━━━━━━━━━━━━━━━━━━━━━━━━┳━━━━━━━━━━━━━━━━━┓
+┃ Layer (type)                         ┃ Output Shape                ┃         Param # ┃
+┡━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━╇━━━━━━━━━━━━━━━━━━━━━━━━━━━━━╇━━━━━━━━━━━━━━━━━┩
+│ embedding (Embedding)                │ (None, 171, 64)             │          94,912 │
+├──────────────────────────────────────┼─────────────────────────────┼─────────────────┤
+│ bidirectional (Bidirectional)        │ (None, 171, 256)            │         148,992 │
+├──────────────────────────────────────┼─────────────────────────────┼─────────────────┤
+│ time_distributed (TimeDistributed)   │ (None, 171, 128)            │          32,896 │
+├──────────────────────────────────────┼─────────────────────────────┼─────────────────┤
+│ dropout (Dropout)                    │ (None, 171, 128)            │               0 │
+├──────────────────────────────────────┼─────────────────────────────┼─────────────────┤
+│ time_distributed_1 (TimeDistributed) │ (None, 171, 1)              │             129 │
+└──────────────────────────────────────┴─────────────────────────────┴─────────────────┘
+ Total params: 830,789 (3.17 MB)
+ Trainable params: 276,929 (1.06 MB)
+ Non-trainable params: 0 (0.00 B)
+ Optimizer params: 553,860 (2.11 MB)
+
+Training auf folgende Datei: Datensätze/Vorbereitete Daten - Beispiel/bgl_v1/unique_data/content_list_bgl_unique.txt
+Total Trainings-Loss: [0.05546264722943306, 0.020222840830683708, 0.008310497738420963, 0.004866704810410738, 0.0038185256998986006, 0.0032317342702299356, 0.002916528843343258, 0.00257088546641171, 0.0022418079897761345, 0.0016876974841579795]
+Total Trainings-Accuracy: [0.9419406056404114, 0.9705665707588196, 0.9714729189872742, 0.9722514152526855, 0.9726461172103882, 0.9728948473930359, 0.9729384779930115, 0.9730372428894043, 0.9730373620986938, 0.9730374217033386]
+Total Validierungs-Loss: [0.025822868570685387, 0.012540291994810104, 0.005830307491123676, 0.004808841273188591, 0.004512625280767679, 0.004425046965479851, 0.004276059102267027, 0.004193223547190428, 0.004314600955694914, 0.003753000171855092]
+Total Validierungs-Accuracy: [0.9701169729232788, 0.9711549878120422, 0.9721053242683411, 0.9725876450538635, 0.9727778434753418, 0.9727192521095276, 0.9729679226875305, 0.9730262756347656, 0.9730556011199951, 0.9730263352394104]

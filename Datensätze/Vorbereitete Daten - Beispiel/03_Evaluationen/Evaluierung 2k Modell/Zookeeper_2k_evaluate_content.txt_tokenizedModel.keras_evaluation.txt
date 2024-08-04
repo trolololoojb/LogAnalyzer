@@ -1,0 +1,6 @@
+Model: tokenizedModel.keras
+ Evaluierungsdaten: Zookeeper_2k_evaluate_content.txt
+ Sonstige Infos: Evaluierung auf 2000 Zeilen mit dem 2k modell mit Val Daten 20%
+Ergebnisse: 
+    -Gleiche Zeilen: 1909 (95.45%)
+    -Unterschiedliche Zeilen: 91 (4.55%)

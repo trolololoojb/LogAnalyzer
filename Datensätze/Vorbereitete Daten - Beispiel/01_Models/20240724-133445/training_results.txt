@@ -1,0 +1,498 @@
+[ 17   2 191   2 462   9  44  10   2 234   2 182   2 198   2  62   2 383
+   2  17  13   2 387   2  17  13   2 434   2  17   0   0   0   0   0   0
+   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0
+   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0
+   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0
+   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0
+   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0
+   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0
+   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0
+   0   0   0   0   0   0   0   0   0   0   0]
+Wort: 9, Vorhersage: nicht statisch, Wert: [1.]
+Wort:  , Vorhersage: nicht statisch, Wert: [1.]
+Wort: ddr, Vorhersage: nicht statisch, Wert: [1.]
+Wort:  , Vorhersage: nicht statisch, Wert: [1.]
+Wort: errors, Vorhersage: nicht statisch, Wert: [1.]
+Wort: (, Vorhersage: nicht statisch, Wert: [1.]
+Wort: s, Vorhersage: nicht statisch, Wert: [1.]
+Wort: ), Vorhersage: nicht statisch, Wert: [1.]
+Wort:  , Vorhersage: nicht statisch, Wert: [1.]
+Wort: detected, Vorhersage: nicht statisch, Wert: [1.]
+Wort:  , Vorhersage: nicht statisch, Wert: [1.]
+Wort: and, Vorhersage: nicht statisch, Wert: [1.]
+Wort:  , Vorhersage: nicht statisch, Wert: [1.]
+Wort: corrected, Vorhersage: nicht statisch, Wert: [1.]
+Wort:  , Vorhersage: nicht statisch, Wert: [1.]
+Wort: on, Vorhersage: nicht statisch, Wert: [1.]
+Wort:  , Vorhersage: nicht statisch, Wert: [1.]
+Wort: rank, Vorhersage: nicht statisch, Wert: [1.]
+Wort:  , Vorhersage: nicht statisch, Wert: [1.]
+Wort: 9, Vorhersage: nicht statisch, Wert: [1.]
+Wort: ,, Vorhersage: nicht statisch, Wert: [1.]
+Wort:  , Vorhersage: nicht statisch, Wert: [1.]
+Wort: symbol, Vorhersage: nicht statisch, Wert: [1.]
+Wort:  , Vorhersage: nicht statisch, Wert: [1.]
+Wort: 9, Vorhersage: nicht statisch, Wert: [1.]
+Wort: ,, Vorhersage: nicht statisch, Wert: [1.]
+Wort:  , Vorhersage: nicht statisch, Wert: [1.]
+Wort: bit, Vorhersage: nicht statisch, Wert: [1.]
+Wort:  , Vorhersage: nicht statisch, Wert: [1.]
+Wort: 9, Vorhersage: nicht statisch, Wert: [1.]
+[202   2 251   2 254   2 100   2 198   0   0   0   0   0   0   0   0   0
+   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0
+   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0
+   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0
+   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0
+   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0
+   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0
+   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0
+   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0
+   0   0   0   0   0   0   0   0   0   0   0]
+Wort: instruction, Vorhersage: nicht statisch, Wert: [1.]
+Wort:  , Vorhersage: nicht statisch, Wert: [1.]
+Wort: cache, Vorhersage: nicht statisch, Wert: [1.]
+Wort:  , Vorhersage: nicht statisch, Wert: [1.]
+Wort: parity, Vorhersage: nicht statisch, Wert: [1.]
+Wort:  , Vorhersage: nicht statisch, Wert: [1.]
+Wort: error, Vorhersage: nicht statisch, Wert: [1.]
+Wort:  , Vorhersage: nicht statisch, Wert: [1.]
+Wort: corrected, Vorhersage: nicht statisch, Wert: [1.]
+[155   2 200   2  53   2 191   2 100   9  44  10   2 234   2 182   2 198
+   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0
+   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0
+   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0
+   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0
+   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0
+   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0
+   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0
+   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0
+   0   0   0   0   0   0   0   0   0   0   0]
+Wort: total, Vorhersage: nicht statisch, Wert: [1.]
+Wort:  , Vorhersage: nicht statisch, Wert: [1.]
+Wort: of, Vorhersage: nicht statisch, Wert: [1.]
+Wort:  , Vorhersage: nicht statisch, Wert: [1.]
+Wort: 99, Vorhersage: nicht statisch, Wert: [1.]
+Wort:  , Vorhersage: nicht statisch, Wert: [1.]
+Wort: ddr, Vorhersage: nicht statisch, Wert: [1.]
+Wort:  , Vorhersage: nicht statisch, Wert: [1.]
+Wort: error, Vorhersage: nicht statisch, Wert: [1.]
+Wort: (, Vorhersage: nicht statisch, Wert: [1.]
+Wort: s, Vorhersage: nicht statisch, Wert: [1.]
+Wort: ), Vorhersage: nicht statisch, Wert: [1.]
+Wort:  , Vorhersage: nicht statisch, Wert: [1.]
+Wort: detected, Vorhersage: nicht statisch, Wert: [1.]
+Wort:  , Vorhersage: nicht statisch, Wert: [1.]
+Wort: and, Vorhersage: nicht statisch, Wert: [1.]
+Wort:  , Vorhersage: nicht statisch, Wert: [1.]
+Wort: corrected, Vorhersage: nicht statisch, Wert: [1.]
+[  53   15   82   15   17   15   17   18   73    2  672  420    2  626
+    2 1739   36   24   14  123  327    2  296    2   16   53   15   82
+   15   17   15   17    0    0    0    0    0    0    0    0    0    0
+    0    0    0    0    0    0    0    0    0    0    0    0    0    0
+    0    0    0    0    0    0    0    0    0    0    0    0    0    0
+    0    0    0    0    0    0    0    0    0    0    0    0    0    0
+    0    0    0    0    0    0    0    0    0    0    0    0    0    0
+    0    0    0    0    0    0    0    0    0    0    0    0    0    0
+    0    0    0    0    0    0    0    0    0    0    0    0    0    0
+    0    0    0    0    0    0    0    0    0    0    0    0    0    0
+    0    0    0    0    0    0    0    0    0    0    0    0    0    0
+    0    0    0    0    0    0    0    0    0    0    0    0    0    0
+    0    0    0    0    0]
+Wort: 99, Vorhersage: nicht statisch, Wert: [1.]
+Wort: ., Vorhersage: nicht statisch, Wert: [1.]
+Wort: 999, Vorhersage: nicht statisch, Wert: [1.]
+Wort: ., Vorhersage: nicht statisch, Wert: [1.]
+Wort: 9, Vorhersage: nicht statisch, Wert: [1.]
+Wort: ., Vorhersage: nicht statisch, Wert: [1.]
+Wort: 9, Vorhersage: nicht statisch, Wert: [1.]
+Wort: :, Vorhersage: nicht statisch, Wert: [1.]
+Wort: 99999, Vorhersage: nicht statisch, Wert: [1.]
+Wort:  , Vorhersage: nicht statisch, Wert: [1.]
+Wort: ser, Vorhersage: nicht statisch, Wert: [1.]
+Wort: ved, Vorhersage: nicht statisch, Wert: [1.]
+Wort:  , Vorhersage: nicht statisch, Wert: [1.]
+Wort: block, Vorhersage: nicht statisch, Wert: [1.]
+Wort:  , Vorhersage: nicht statisch, Wert: [1.]
+Wort: bl, Vorhersage: nicht statisch, Wert: [1.]
+Wort: k, Vorhersage: nicht statisch, Wert: [1.]
+Wort: _, Vorhersage: nicht statisch, Wert: [1.]
+Wort: -, Vorhersage: nicht statisch, Wert: [1.]
+Wort: 99999999, Vorhersage: nicht statisch, Wert: [1.]
+Wort: 999999999, Vorhersage: nicht statisch, Wert: [1.]
+Wort:  , Vorhersage: nicht statisch, Wert: [1.]
+Wort: to, Vorhersage: nicht statisch, Wert: [1.]
+Wort:  , Vorhersage: nicht statisch, Wert: [1.]
+Wort: /, Vorhersage: nicht statisch, Wert: [1.]
+Wort: 99, Vorhersage: nicht statisch, Wert: [1.]
+Wort: ., Vorhersage: nicht statisch, Wert: [1.]
+Wort: 999, Vorhersage: nicht statisch, Wert: [1.]
+Wort: ., Vorhersage: nicht statisch, Wert: [1.]
+Wort: 9, Vorhersage: nicht statisch, Wert: [1.]
+Wort: ., Vorhersage: nicht statisch, Wert: [1.]
+Wort: 9, Vorhersage: nicht statisch, Wert: [1.]
+[ 626   11    2 1722 1213   15 1663  626   18    2   16   38   39   45
+   16   33   26   97 1010   16  438  962   16 1213   16 1430   24  123
+   55   24   55   16 1430   15   35   77   15    2 1739   36   24  476
+   82    0    0    0    0    0    0    0    0    0    0    0    0    0
+    0    0    0    0    0    0    0    0    0    0    0    0    0    0
+    0    0    0    0    0    0    0    0    0    0    0    0    0    0
+    0    0    0    0    0    0    0    0    0    0    0    0    0    0
+    0    0    0    0    0    0    0    0    0    0    0    0    0    0
+    0    0    0    0    0    0    0    0    0    0    0    0    0    0
+    0    0    0    0    0    0    0    0    0    0    0    0    0    0
+    0    0    0    0    0    0    0    0    0    0    0    0    0    0
+    0    0    0    0    0    0    0    0    0    0    0    0    0    0
+    0    0    0    0    0]
+Wort: block, Vorhersage: nicht statisch, Wert: [1.]
+Wort: *, Vorhersage: nicht statisch, Wert: [1.]
+Wort:  , Vorhersage: nicht statisch, Wert: [1.]
+Wort: name, Vorhersage: nicht statisch, Wert: [1.]
+Wort: system, Vorhersage: nicht statisch, Wert: [1.]
+Wort: ., Vorhersage: nicht statisch, Wert: [1.]
+Wort: allocate, Vorhersage: nicht statisch, Wert: [1.]
+Wort: block, Vorhersage: nicht statisch, Wert: [1.]
+Wort: :, Vorhersage: nicht statisch, Wert: [1.]
+Wort:  , Vorhersage: nicht statisch, Wert: [1.]
+Wort: /, Vorhersage: nicht statisch, Wert: [1.]
+Wort: m, Vorhersage: nicht statisch, Wert: [1.]
+Wort: n, Vorhersage: nicht statisch, Wert: [1.]
+Wort: t, Vorhersage: nicht statisch, Wert: [1.]
+Wort: /, Vorhersage: nicht statisch, Wert: [1.]
+Wort: h, Vorhersage: nicht statisch, Wert: [1.]
+Wort: a, Vorhersage: nicht statisch, Wert: [1.]
+Wort: do, Vorhersage: nicht statisch, Wert: [1.]
+Wort: op, Vorhersage: nicht statisch, Wert: [1.]
+Wort: /, Vorhersage: nicht statisch, Wert: [1.]
+Wort: map, Vorhersage: nicht statisch, Wert: [1.]
+Wort: red, Vorhersage: nicht statisch, Wert: [1.]
+Wort: /, Vorhersage: nicht statisch, Wert: [1.]
+Wort: system, Vorhersage: nicht statisch, Wert: [1.]
+Wort: /, Vorhersage: nicht statisch, Wert: [1.]
+Wort: job, Vorhersage: nicht statisch, Wert: [1.]
+Wort: _, Vorhersage: nicht statisch, Wert: [1.]
+Wort: 99999999, Vorhersage: nicht statisch, Wert: [1.]
+Wort: 9999, Vorhersage: nicht statisch, Wert: [1.]
+Wort: _, Vorhersage: nicht statisch, Wert: [1.]
+Wort: 9999, Vorhersage: nicht statisch, Wert: [1.]
+Wort: /, Vorhersage: nicht statisch, Wert: [1.]
+Wort: job, Vorhersage: nicht statisch, Wert: [1.]
+Wort: ., Vorhersage: nicht statisch, Wert: [1.]
+Wort: j, Vorhersage: nicht statisch, Wert: [1.]
+Wort: ar, Vorhersage: nicht statisch, Wert: [1.]
+Wort: ., Vorhersage: nicht statisch, Wert: [1.]
+Wort:  , Vorhersage: nicht statisch, Wert: [1.]
+Wort: bl, Vorhersage: nicht statisch, Wert: [1.]
+Wort: k, Vorhersage: nicht statisch, Wert: [1.]
+Wort: _, Vorhersage: nicht statisch, Wert: [1.]
+Wort: 9999999999999999, Vorhersage: nicht statisch, Wert: [1.]
+Wort: 999, Vorhersage: nicht statisch, Wert: [1.]
+[  53   15   82   15   53   15   82   18   73    2 1854    2  147  521
+    2  296    2  214   44 1293    2  626    2 1739   36   24   14  476
+   82    2  296    2   53   15   82   15   82   15   82   18   73   13
+    2   53   15   82   15   53   15   82   18   73    0    0    0    0
+    0    0    0    0    0    0    0    0    0    0    0    0    0    0
+    0    0    0    0    0    0    0    0    0    0    0    0    0    0
+    0    0    0    0    0    0    0    0    0    0    0    0    0    0
+    0    0    0    0    0    0    0    0    0    0    0    0    0    0
+    0    0    0    0    0    0    0    0    0    0    0    0    0    0
+    0    0    0    0    0    0    0    0    0    0    0    0    0    0
+    0    0    0    0    0    0    0    0    0    0    0    0    0    0
+    0    0    0    0    0    0    0    0    0    0    0    0    0    0
+    0    0    0    0    0]
+Wort: 99, Vorhersage: nicht statisch, Wert: [1.]
+Wort: ., Vorhersage: nicht statisch, Wert: [1.]
+Wort: 999, Vorhersage: nicht statisch, Wert: [1.]
+Wort: ., Vorhersage: nicht statisch, Wert: [1.]
+Wort: 99, Vorhersage: nicht statisch, Wert: [1.]
+Wort: ., Vorhersage: nicht statisch, Wert: [1.]
+Wort: 999, Vorhersage: nicht statisch, Wert: [1.]
+Wort: :, Vorhersage: nicht statisch, Wert: [1.]
+Wort: 99999, Vorhersage: nicht statisch, Wert: [1.]
+Wort:  , Vorhersage: nicht statisch, Wert: [1.]
+Wort: starting, Vorhersage: nicht statisch, Wert: [1.]
+Wort:  , Vorhersage: nicht statisch, Wert: [1.]
+Wort: th, Vorhersage: nicht statisch, Wert: [1.]
+Wort: read, Vorhersage: nicht statisch, Wert: [1.]
+Wort:  , Vorhersage: nicht statisch, Wert: [1.]
+Wort: to, Vorhersage: nicht statisch, Wert: [1.]
+Wort:  , Vorhersage: nicht statisch, Wert: [1.]
+Wort: tran, Vorhersage: nicht statisch, Wert: [1.]
+Wort: s, Vorhersage: nicht statisch, Wert: [1.]
+Wort: fer, Vorhersage: nicht statisch, Wert: [1.]
+Wort:  , Vorhersage: nicht statisch, Wert: [1.]
+Wort: block, Vorhersage: nicht statisch, Wert: [1.]
+Wort:  , Vorhersage: nicht statisch, Wert: [1.]
+Wort: bl, Vorhersage: nicht statisch, Wert: [1.]
+Wort: k, Vorhersage: nicht statisch, Wert: [1.]
+Wort: _, Vorhersage: nicht statisch, Wert: [1.]
+Wort: -, Vorhersage: nicht statisch, Wert: [1.]
+Wort: 9999999999999999, Vorhersage: nicht statisch, Wert: [1.]
+Wort: 999, Vorhersage: nicht statisch, Wert: [1.]
+Wort:  , Vorhersage: nicht statisch, Wert: [1.]
+Wort: to, Vorhersage: nicht statisch, Wert: [1.]
+Wort:  , Vorhersage: nicht statisch, Wert: [1.]
+Wort: 99, Vorhersage: nicht statisch, Wert: [1.]
+Wort: ., Vorhersage: nicht statisch, Wert: [1.]
+Wort: 999, Vorhersage: nicht statisch, Wert: [1.]
+Wort: ., Vorhersage: nicht statisch, Wert: [1.]
+Wort: 999, Vorhersage: nicht statisch, Wert: [1.]
+Wort: ., Vorhersage: nicht statisch, Wert: [1.]
+Wort: 999, Vorhersage: nicht statisch, Wert: [1.]
+Wort: :, Vorhersage: nicht statisch, Wert: [1.]
+Wort: 99999, Vorhersage: nicht statisch, Wert: [1.]
+Wort: ,, Vorhersage: nicht statisch, Wert: [1.]
+Wort:  , Vorhersage: nicht statisch, Wert: [1.]
+Wort: 99, Vorhersage: nicht statisch, Wert: [1.]
+Wort: ., Vorhersage: nicht statisch, Wert: [1.]
+Wort: 999, Vorhersage: nicht statisch, Wert: [1.]
+Wort: ., Vorhersage: nicht statisch, Wert: [1.]
+Wort: 99, Vorhersage: nicht statisch, Wert: [1.]
+Wort: ., Vorhersage: nicht statisch, Wert: [1.]
+Wort: 999, Vorhersage: nicht statisch, Wert: [1.]
+Wort: :, Vorhersage: nicht statisch, Wert: [1.]
+Wort: 99999, Vorhersage: nicht statisch, Wert: [1.]
+[1078   15   44   54   26   35   44   15 1873   18   53    2 1011    2
+  147  130 1471    2  301    2  301   15   28  353   15 2912   33   36
+   15   88   46   15   33   36   18   55    2 1134   45   41   44    0
+    0    0    0    0    0    0    0    0    0    0    0    0    0    0
+    0    0    0    0    0    0    0    0    0    0    0    0    0    0
+    0    0    0    0    0    0    0    0    0    0    0    0    0    0
+    0    0    0    0    0    0    0    0    0    0    0    0    0    0
+    0    0    0    0    0    0    0    0    0    0    0    0    0    0
+    0    0    0    0    0    0    0    0    0    0    0    0    0    0
+    0    0    0    0    0    0    0    0    0    0    0    0    0    0
+    0    0    0    0    0    0    0    0    0    0    0    0    0    0
+    0    0    0    0    0    0    0    0    0    0    0    0    0    0
+    0    0    0    0    0]
+Wort: rs, Vorhersage: nicht statisch, Wert: [1.]
+Wort: ., Vorhersage: nicht statisch, Wert: [1.]
+Wort: s, Vorhersage: nicht statisch, Wert: [1.]
+Wort: in, Vorhersage: nicht statisch, Wert: [1.]
+Wort: a, Vorhersage: nicht statisch, Wert: [1.]
+Wort: j, Vorhersage: nicht statisch, Wert: [1.]
+Wort: s, Vorhersage: nicht statisch, Wert: [1.]
+Wort: ., Vorhersage: nicht statisch, Wert: [1.]
+Wort: cn, Vorhersage: nicht statisch, Wert: [1.]
+Wort: :, Vorhersage: nicht statisch, Wert: [1.]
+Wort: 99, Vorhersage: nicht statisch, Wert: [1.]
+Wort:  , Vorhersage: nicht statisch, Wert: [1.]
+Wort: open, Vorhersage: nicht statisch, Wert: [1.]
+Wort:  , Vorhersage: nicht statisch, Wert: [1.]
+Wort: th, Vorhersage: nicht statisch, Wert: [1.]
+Wort: ro, Vorhersage: nicht statisch, Wert: [1.]
+Wort: ugh, Vorhersage: nicht statisch, Wert: [1.]
+Wort:  , Vorhersage: nicht statisch, Wert: [1.]
+Wort: proxy, Vorhersage: nicht statisch, Wert: [1.]
+Wort:  , Vorhersage: nicht statisch, Wert: [1.]
+Wort: proxy, Vorhersage: nicht statisch, Wert: [1.]
+Wort: ., Vorhersage: nicht statisch, Wert: [1.]
+Wort: c, Vorhersage: nicht statisch, Wert: [1.]
+Wort: se, Vorhersage: nicht statisch, Wert: [1.]
+Wort: ., Vorhersage: nicht statisch, Wert: [1.]
+Wort: cu, Vorhersage: nicht statisch, Wert: [1.]
+Wort: h, Vorhersage: nicht statisch, Wert: [1.]
+Wort: k, Vorhersage: nicht statisch, Wert: [1.]
+Wort: ., Vorhersage: nicht statisch, Wert: [1.]
+Wort: ed, Vorhersage: nicht statisch, Wert: [1.]
+Wort: u, Vorhersage: nicht statisch, Wert: [1.]
+Wort: ., Vorhersage: nicht statisch, Wert: [1.]
+Wort: h, Vorhersage: nicht statisch, Wert: [1.]
+Wort: k, Vorhersage: nicht statisch, Wert: [1.]
+Wort: :, Vorhersage: nicht statisch, Wert: [1.]
+Wort: 9999, Vorhersage: nicht statisch, Wert: [1.]
+Wort:  , Vorhersage: nicht statisch, Wert: [1.]
+Wort: ht, Vorhersage: nicht statisch, Wert: [1.]
+Wort: t, Vorhersage: nicht statisch, Wert: [1.]
+Wort: p, Vorhersage: nicht statisch, Wert: [1.]
+Wort: s, Vorhersage: nicht statisch, Wert: [1.]
+[  41  396   17   15   51   33  215   32   15  636   18   82    2 1622
+   13    2   55    2  666   44    2    9   17   15   53    2  909   10
+    2  951   13    2   55    2  666   44    2    9   17   15   53    2
+  909   10    2  423   13    2  469  732  164    2   53   18   53    0
+    0    0    0    0    0    0    0    0    0    0    0    0    0    0
+    0    0    0    0    0    0    0    0    0    0    0    0    0    0
+    0    0    0    0    0    0    0    0    0    0    0    0    0    0
+    0    0    0    0    0    0    0    0    0    0    0    0    0    0
+    0    0    0    0    0    0    0    0    0    0    0    0    0    0
+    0    0    0    0    0    0    0    0    0    0    0    0    0    0
+    0    0    0    0    0    0    0    0    0    0    0    0    0    0
+    0    0    0    0    0    0    0    0    0    0    0    0    0    0
+    0    0    0    0    0]
+Wort: p, Vorhersage: nicht statisch, Wert: [1.]
+Wort: ic, Vorhersage: nicht statisch, Wert: [1.]
+Wort: 9, Vorhersage: nicht statisch, Wert: [1.]
+Wort: ., Vorhersage: nicht statisch, Wert: [1.]
+Wort: z, Vorhersage: nicht statisch, Wert: [1.]
+Wort: h, Vorhersage: nicht statisch, Wert: [1.]
+Wort: im, Vorhersage: nicht statisch, Wert: [1.]
+Wort: g, Vorhersage: nicht statisch, Wert: [1.]
+Wort: ., Vorhersage: nicht statisch, Wert: [1.]
+Wort: com, Vorhersage: nicht statisch, Wert: [1.]
+Wort: :, Vorhersage: nicht statisch, Wert: [1.]
+Wort: 999, Vorhersage: nicht statisch, Wert: [1.]
+Wort:  , Vorhersage: nicht statisch, Wert: [1.]
+Wort: close, Vorhersage: nicht statisch, Wert: [1.]
+Wort: ,, Vorhersage: nicht statisch, Wert: [1.]
+Wort:  , Vorhersage: nicht statisch, Wert: [1.]
+Wort: 9999, Vorhersage: nicht statisch, Wert: [1.]
+Wort:  , Vorhersage: nicht statisch, Wert: [1.]
+Wort: byte, Vorhersage: nicht statisch, Wert: [1.]
+Wort: s, Vorhersage: nicht statisch, Wert: [1.]
+Wort:  , Vorhersage: nicht statisch, Wert: [1.]
+Wort: (, Vorhersage: nicht statisch, Wert: [1.]
+Wort: 9, Vorhersage: nicht statisch, Wert: [1.]
+Wort: ., Vorhersage: nicht statisch, Wert: [1.]
+Wort: 99, Vorhersage: nicht statisch, Wert: [1.]
+Wort:  , Vorhersage: nicht statisch, Wert: [1.]
+Wort: kb, Vorhersage: nicht statisch, Wert: [1.]
+Wort: ), Vorhersage: nicht statisch, Wert: [1.]
+Wort:  , Vorhersage: nicht statisch, Wert: [1.]
+Wort: sent, Vorhersage: nicht statisch, Wert: [1.]
+Wort: ,, Vorhersage: nicht statisch, Wert: [1.]
+Wort:  , Vorhersage: nicht statisch, Wert: [1.]
+Wort: 9999, Vorhersage: nicht statisch, Wert: [1.]
+Wort:  , Vorhersage: nicht statisch, Wert: [1.]
+Wort: byte, Vorhersage: nicht statisch, Wert: [1.]
+Wort: s, Vorhersage: nicht statisch, Wert: [1.]
+Wort:  , Vorhersage: nicht statisch, Wert: [1.]
+Wort: (, Vorhersage: nicht statisch, Wert: [1.]
+Wort: 9, Vorhersage: nicht statisch, Wert: [1.]
+Wort: ., Vorhersage: nicht statisch, Wert: [1.]
+Wort: 99, Vorhersage: nicht statisch, Wert: [1.]
+Wort:  , Vorhersage: nicht statisch, Wert: [1.]
+Wort: kb, Vorhersage: nicht statisch, Wert: [1.]
+Wort: ), Vorhersage: nicht statisch, Wert: [1.]
+Wort:  , Vorhersage: nicht statisch, Wert: [1.]
+Wort: received, Vorhersage: nicht statisch, Wert: [1.]
+Wort: ,, Vorhersage: nicht statisch, Wert: [1.]
+Wort:  , Vorhersage: nicht statisch, Wert: [1.]
+Wort: li, Vorhersage: nicht statisch, Wert: [1.]
+Wort: fe, Vorhersage: nicht statisch, Wert: [1.]
+Wort: time, Vorhersage: nicht statisch, Wert: [1.]
+Wort:  , Vorhersage: nicht statisch, Wert: [1.]
+Wort: 99, Vorhersage: nicht statisch, Wert: [1.]
+Wort: :, Vorhersage: nicht statisch, Wert: [1.]
+Wort: 99, Vorhersage: nicht statisch, Wert: [1.]
+[  41   61   17   15  261  148  652   30 1202   15  636   18   82    2
+    9  728   47   17   10    2  100    2   18    2 2129    2  265    2
+  840  101    2  147  130 1471    2  301    2  301   15   28  353   15
+ 2912   33   36   15   88   46   15   33   36   18   55    2   14    2
+  301    2 1348    2 1662    2  503  538   37  176   33    2   26    2
+  842    2 1745    2  151    2 1515   13    2  547    2  407    2   82
+    0    0    0    0    0    0    0    0    0    0    0    0    0    0
+    0    0    0    0    0    0    0    0    0    0    0    0    0    0
+    0    0    0    0    0    0    0    0    0    0    0    0    0    0
+    0    0    0    0    0    0    0    0    0    0    0    0    0    0
+    0    0    0    0    0    0    0    0    0    0    0    0    0    0
+    0    0    0    0    0    0    0    0    0    0    0    0    0    0
+    0    0    0    0    0]
+Wort: p, Vorhersage: nicht statisch, Wert: [1.]
+Wort: ing, Vorhersage: nicht statisch, Wert: [1.]
+Wort: 9, Vorhersage: nicht statisch, Wert: [1.]
+Wort: ., Vorhersage: nicht statisch, Wert: [1.]
+Wort: te, Vorhersage: nicht statisch, Wert: [1.]
+Wort: am, Vorhersage: nicht statisch, Wert: [1.]
+Wort: vi, Vorhersage: nicht statisch, Wert: [1.]
+Wort: e, Vorhersage: nicht statisch, Wert: [1.]
+Wort: wer, Vorhersage: nicht statisch, Wert: [1.]
+Wort: ., Vorhersage: nicht statisch, Wert: [1.]
+Wort: com, Vorhersage: nicht statisch, Wert: [1.]
+Wort: :, Vorhersage: nicht statisch, Wert: [1.]
+Wort: 999, Vorhersage: nicht statisch, Wert: [1.]
+Wort:  , Vorhersage: nicht statisch, Wert: [1.]
+Wort: (, Vorhersage: nicht statisch, Wert: [1.]
+Wort: ip, Vorhersage: nicht statisch, Wert: [1.]
+Wort: v, Vorhersage: nicht statisch, Wert: [1.]
+Wort: 9, Vorhersage: nicht statisch, Wert: [1.]
+Wort: ), Vorhersage: nicht statisch, Wert: [1.]
+Wort:  , Vorhersage: nicht statisch, Wert: [1.]
+Wort: error, Vorhersage: nicht statisch, Wert: [1.]
+Wort:  , Vorhersage: nicht statisch, Wert: [1.]
+Wort: :, Vorhersage: nicht statisch, Wert: [1.]
+Wort:  , Vorhersage: nicht statisch, Wert: [1.]
+Wort: could, Vorhersage: nicht statisch, Wert: [1.]
+Wort:  , Vorhersage: nicht statisch, Wert: [1.]
+Wort: not, Vorhersage: nicht statisch, Wert: [1.]
+Wort:  , Vorhersage: nicht statisch, Wert: [1.]
+Wort: conn, Vorhersage: nicht statisch, Wert: [1.]
+Wort: ect, Vorhersage: nicht statisch, Wert: [1.]
+Wort:  , Vorhersage: nicht statisch, Wert: [1.]
+Wort: th, Vorhersage: nicht statisch, Wert: [1.]
+Wort: ro, Vorhersage: nicht statisch, Wert: [1.]
+Wort: ugh, Vorhersage: nicht statisch, Wert: [1.]
+Wort:  , Vorhersage: nicht statisch, Wert: [1.]
+Wort: proxy, Vorhersage: nicht statisch, Wert: [1.]
+Wort:  , Vorhersage: nicht statisch, Wert: [1.]
+Wort: proxy, Vorhersage: nicht statisch, Wert: [1.]
+Wort: ., Vorhersage: nicht statisch, Wert: [1.]
+Wort: c, Vorhersage: nicht statisch, Wert: [1.]
+Wort: se, Vorhersage: nicht statisch, Wert: [1.]
+Wort: ., Vorhersage: nicht statisch, Wert: [1.]
+Wort: cu, Vorhersage: nicht statisch, Wert: [1.]
+Wort: h, Vorhersage: nicht statisch, Wert: [1.]
+Wort: k, Vorhersage: nicht statisch, Wert: [1.]
+Wort: ., Vorhersage: nicht statisch, Wert: [1.]
+Wort: ed, Vorhersage: nicht statisch, Wert: [1.]
+Wort: u, Vorhersage: nicht statisch, Wert: [1.]
+Wort: ., Vorhersage: nicht statisch, Wert: [1.]
+Wort: h, Vorhersage: nicht statisch, Wert: [1.]
+Wort: k, Vorhersage: nicht statisch, Wert: [1.]
+Wort: :, Vorhersage: nicht statisch, Wert: [1.]
+Wort: 9999, Vorhersage: nicht statisch, Wert: [1.]
+Wort:  , Vorhersage: nicht statisch, Wert: [1.]
+Wort: -, Vorhersage: nicht statisch, Wert: [1.]
+Wort:  , Vorhersage: nicht statisch, Wert: [1.]
+Wort: proxy, Vorhersage: nicht statisch, Wert: [1.]
+Wort:  , Vorhersage: nicht statisch, Wert: [1.]
+Wort: server, Vorhersage: nicht statisch, Wert: [1.]
+Wort:  , Vorhersage: nicht statisch, Wert: [1.]
+Wort: cannot, Vorhersage: nicht statisch, Wert: [1.]
+Wort:  , Vorhersage: nicht statisch, Wert: [1.]
+Wort: est, Vorhersage: nicht statisch, Wert: [1.]
+Wort: ab, Vorhersage: nicht statisch, Wert: [1.]
+Wort: l, Vorhersage: nicht statisch, Wert: [1.]
+Wort: is, Vorhersage: nicht statisch, Wert: [1.]
+Wort: h, Vorhersage: nicht statisch, Wert: [1.]
+Wort:  , Vorhersage: nicht statisch, Wert: [1.]
+Wort: a, Vorhersage: nicht statisch, Wert: [1.]
+Wort:  , Vorhersage: nicht statisch, Wert: [1.]
+Wort: connection, Vorhersage: nicht statisch, Wert: [1.]
+Wort:  , Vorhersage: nicht statisch, Wert: [1.]
+Wort: with, Vorhersage: nicht statisch, Wert: [1.]
+Wort:  , Vorhersage: nicht statisch, Wert: [1.]
+Wort: the, Vorhersage: nicht statisch, Wert: [1.]
+Wort:  , Vorhersage: nicht statisch, Wert: [1.]
+Wort: target, Vorhersage: nicht statisch, Wert: [1.]
+Wort: ,, Vorhersage: nicht statisch, Wert: [1.]
+Wort:  , Vorhersage: nicht statisch, Wert: [1.]
+Wort: status, Vorhersage: nicht statisch, Wert: [1.]
+Wort:  , Vorhersage: nicht statisch, Wert: [1.]
+Wort: code, Vorhersage: nicht statisch, Wert: [1.]
+Wort:  , Vorhersage: nicht statisch, Wert: [1.]
+Wort: 999, Vorhersage: nicht statisch, Wert: [1.]
+Model: "sequential"
+┏━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━┳━━━━━━━━━━━━━━━━━━━━━━━━┳━━━━━━━━━━━━━━━┓
+┃ Layer (type)                    ┃ Output Shape           ┃       Param # ┃
+┡━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━╇━━━━━━━━━━━━━━━━━━━━━━━━╇━━━━━━━━━━━━━━━┩
+│ embedding (Embedding)           │ (None, 173, 128)       │       443,776 │
+├─────────────────────────────────┼────────────────────────┼───────────────┤
+│ bidirectional (Bidirectional)   │ (None, 173, 256)       │       198,144 │
+├─────────────────────────────────┼────────────────────────┼───────────────┤
+│ time_distributed                │ (None, 173, 128)       │        32,896 │
+│ (TimeDistributed)               │                        │               │
+├─────────────────────────────────┼────────────────────────┼───────────────┤
+│ dropout (Dropout)               │ (None, 173, 128)       │             0 │
+├─────────────────────────────────┼────────────────────────┼───────────────┤
+│ time_distributed_1              │ (None, 173, 1)         │           129 │
+│ (TimeDistributed)               │                        │               │
+└─────────────────────────────────┴────────────────────────┴───────────────┘
+ Total params: 2,024,837 (7.72 MB)
+ Trainable params: 674,945 (2.57 MB)
+ Non-trainable params: 0 (0.00 B)
+ Optimizer params: 1,349,892 (5.15 MB)
+
+Training auf folgende Datei: Datensätze/Vorbereitete Daten - Beispiel/bgl_v1/content_list_bgl.txt
+Total Trainings-Loss: [0.03429481387138367, 0.03427453339099884]
+Total Trainings-Accuracy: [0.9657158255577087, 0.9657216668128967]
+Total Validierungs-Loss: [0.034342650324106216, 0.034342650324106216]
+Total Validierungs-Accuracy: [0.9656566381454468, 0.9656566381454468]

@@ -1,0 +1,6 @@
+Model: tokenizedModel.keras
+ Evaluierungsdaten: HPC_2k_evaluate_content.txt
+ Sonstige Infos: Evaluierung auf 2000 random zeilen mit dem Unique Modell
+Ergebnisse: 
+    -Gleiche Zeilen: 1889 (94.45%)
+    -Unterschiedliche Zeilen: 111 (5.55%)

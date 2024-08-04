@@ -1,6 +1,9 @@
 *.log
 *.tar
-/Datensätze
+/Datensätze/*
 label_list_big.*
 content_list_big.*
 *.zip
+!Datensätze/Vorbereitete\ Daten\ -\ Beispiel/03_Evaluationen
+!Datensätze/Vorbereitete\ Daten\ -\ Beispiel
+Datensätze/Vorbereitete\ Daten\ -\ Beispiel/*_v1

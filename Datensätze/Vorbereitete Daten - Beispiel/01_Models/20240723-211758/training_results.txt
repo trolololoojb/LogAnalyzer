@@ -1,0 +1,93 @@
+[ 10   2  16  16  30   2 350  31   3  31   4   2  84  53  15 120   2  54
+  16   2  15 133  52  15 120   2 117   2  60  23   2  10   6   2  31  37
+  25  14  27  24   2  10   6   2  14 119   2  10   0   0   0   0   0   0
+   0   0   0   0]
+Wort: 9, Vorhersage: nicht statisch
+Wort: ddr, Vorhersage: nicht statisch
+Wort: errors(s), Vorhersage: nicht statisch
+Wort: detected, Vorhersage: nicht statisch
+Wort: and, Vorhersage: nicht statisch
+Wort: corrected, Vorhersage: nicht statisch
+Wort: on, Vorhersage: nicht statisch
+Wort: rank, Vorhersage: nicht statisch
+Wort: 9,, Vorhersage: statisch
+Wort: symbol, Vorhersage: statisch
+Wort: 9,, Vorhersage: statisch
+Wort: bit, Vorhersage: nicht statisch
+Wort: 9, Vorhersage: nicht statisch
+[ 63  97  30  33  15 143   2  15 205  20  17   2  28  80 119  37   2 350
+   2  15 133  52  15 120   0   0   0   0   0   0   0   0   0   0   0   0
+   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0
+   0   0   0   0]
+Wort: instruction, Vorhersage: nicht statisch
+Wort: cache, Vorhersage: nicht statisch
+Wort: parity, Vorhersage: nicht statisch
+Wort: error, Vorhersage: nicht statisch
+Wort: corrected, Vorhersage: nicht statisch
+[ 48  32 146   2  89   2  39   2  16  16  30   2 350   3  31   4   2  84
+  53  15 120   2  54  16   2  15 133  52  15 120   0   0   0   0   0   0
+   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0
+   0   0   0   0]
+Wort: total, Vorhersage: statisch
+Wort: of, Vorhersage: nicht statisch
+Wort: 99, Vorhersage: nicht statisch
+Wort: ddr, Vorhersage: nicht statisch
+Wort: error(s), Vorhersage: nicht statisch
+Wort: detected, Vorhersage: statisch
+Wort: and, Vorhersage: nicht statisch
+Wort: corrected, Vorhersage: nicht statisch
+[39  8 41  8 10  8 10 11 44  2 86  2 47  2 49 12  7 96  2 48  2  9 39  8
+ 41  8 10  8 10  0  0  0  0  0  0  0  0  0  0  0  0  0  0  0  0  0  0  0
+  0  0  0  0  0  0  0  0  0  0]
+Wort: 99.999.9.9:99999, Vorhersage: nicht statisch
+Wort: Served, Vorhersage: nicht statisch
+Wort: block, Vorhersage: nicht statisch
+Wort: blk_-99999999999999999, Vorhersage: nicht statisch
+Wort: to, Vorhersage: nicht statisch
+Wort: /99.999.9.9, Vorhersage: nicht statisch
+[ 47   5   2  83   8 156  11   2   9 197   9 199   9 284   9 279   9 186
+  12 153  12  40   9 186   8 365   8   2  49  12  56   0   0   0   0   0
+   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0
+   0   0   0   0]
+Wort: BLOCK*, Vorhersage: nicht statisch
+Wort: NameSystem.allocateBlock:, Vorhersage: nicht statisch
+Wort: /mnt/hadoop/mapred/system/job_999999999999_9999/job.jar., Vorhersage: nicht statisch
+Wort: blk_9999999999999999999, Vorhersage: nicht statisch
+[ 39   8  41   8  39   8  41  11  44   2 111   2 113   2  48   2 109   2
+  47   2  49  12   7  56   2  48   2  39   8  41   8  41   8  41  11  44
+   6   2  39   8  41   8  39   8  41  11  44   0   0   0   0   0   0   0
+   0   0   0   0]
+Wort: 99.999.99.999:99999, Vorhersage: nicht statisch
+Wort: Starting, Vorhersage: nicht statisch
+Wort: thread, Vorhersage: nicht statisch
+Wort: to, Vorhersage: nicht statisch
+Wort: transfer, Vorhersage: nicht statisch
+Wort: block, Vorhersage: nicht statisch
+Wort: blk_-9999999999999999999, Vorhersage: nicht statisch
+Wort: to, Vorhersage: nicht statisch
+Wort: 99.999.999.999:99999,, Vorhersage: nicht statisch
+Wort: 99.999.99.999:99999, Vorhersage: nicht statisch
+Model: "sequential"
+┏━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━┳━━━━━━━━━━━━━━━━━━━━━━━━━━━━━┳━━━━━━━━━━━━━━━━━┓
+┃ Layer (type)                         ┃ Output Shape                ┃         Param # ┃
+┡━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━╇━━━━━━━━━━━━━━━━━━━━━━━━━━━━━╇━━━━━━━━━━━━━━━━━┩
+│ embedding (Embedding)                │ (None, 58, 64)              │          26,624 │
+├──────────────────────────────────────┼─────────────────────────────┼─────────────────┤
+│ bidirectional (Bidirectional)        │ (None, 58, 256)             │         148,992 │
+├──────────────────────────────────────┼─────────────────────────────┼─────────────────┤
+│ time_distributed (TimeDistributed)   │ (None, 58, 128)             │          32,896 │
+├──────────────────────────────────────┼─────────────────────────────┼─────────────────┤
+│ dropout (Dropout)                    │ (None, 58, 128)             │               0 │
+├──────────────────────────────────────┼─────────────────────────────┼─────────────────┤
+│ time_distributed_1 (TimeDistributed) │ (None, 58, 1)               │             129 │
+└──────────────────────────────────────┴─────────────────────────────┴─────────────────┘
+ Total params: 625,925 (2.39 MB)
+ Trainable params: 208,641 (815.00 KB)
+ Non-trainable params: 0 (0.00 B)
+ Optimizer params: 417,284 (1.59 MB)
+
+Training auf folgende Datei: Datensätze/Vorbereitete Daten - Beispiel/hdfs_v1/unique_data/content_list_hdfs.txt
+Total Trainings-Loss: [0.15765057504177094]
+Total Trainings-Accuracy: [0.881096363067627]
+Total Validierungs-Loss: [0.08187218755483627]
+Total Validierungs-Accuracy: [0.9324288964271545]

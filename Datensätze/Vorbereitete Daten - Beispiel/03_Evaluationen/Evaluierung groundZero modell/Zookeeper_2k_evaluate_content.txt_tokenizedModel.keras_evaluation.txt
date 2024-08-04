@@ -1,0 +1,6 @@
+Model: tokenizedModel.keras
+ Evaluierungsdaten: Zookeeper_2k_evaluate_content.txt
+ Sonstige Infos: Evaluierung auf 2000 random zeilen mit dem Unique Modell
+Ergebnisse: 
+    -Gleiche Zeilen: 1987 (99.35%)
+    -Unterschiedliche Zeilen: 13 (0.65%)

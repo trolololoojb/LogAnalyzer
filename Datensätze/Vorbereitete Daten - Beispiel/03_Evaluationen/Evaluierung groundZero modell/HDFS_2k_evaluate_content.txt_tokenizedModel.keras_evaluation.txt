@@ -1,0 +1,6 @@
+Model: tokenizedModel.keras
+ Evaluierungsdaten: HDFS_2k_evaluate_content.txt
+ Sonstige Infos: Evaluierung auf 2000 random zeilen mit dem Unique Modell
+Ergebnisse: 
+    -Gleiche Zeilen: 2000 (100.00%)
+    -Unterschiedliche Zeilen: 0 (0.00%)

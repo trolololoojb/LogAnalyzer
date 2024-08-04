@@ -1,0 +1,161 @@
+[  8   2  14 609   2 103  29   3  29   4   2  14 115 597  45   2 216  14
+   2  59  28  80  30  45   2  99   2 195  24  21   2   8   5   2 448  23
+ 107  22   2   8   5   2  12 241   2   8   0   0   0   0   0   0   0   0
+   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0
+   0]
+Wort: 9, Vorhersage: nicht statisch
+Wort: ddr, Vorhersage: nicht statisch
+Wort: errors(s), Vorhersage: nicht statisch
+Wort: detected, Vorhersage: nicht statisch
+Wort: and, Vorhersage: nicht statisch
+Wort: corrected, Vorhersage: nicht statisch
+Wort: on, Vorhersage: nicht statisch
+Wort: rank, Vorhersage: nicht statisch
+Wort: 9,, Vorhersage: nicht statisch
+Wort: symbol, Vorhersage: nicht statisch
+Wort: 9,, Vorhersage: nicht statisch
+Wort: bit, Vorhersage: nicht statisch
+Wort: 9, Vorhersage: statisch
+[119 447 829  13 106   2 876  15   2 398 416   2 103   2  59  28  80  30
+  45   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0
+   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0
+   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0
+   0]
+Wort: instruction, Vorhersage: nicht statisch
+Wort: cache, Vorhersage: nicht statisch
+Wort: parity, Vorhersage: nicht statisch
+Wort: error, Vorhersage: nicht statisch
+Wort: corrected, Vorhersage: nicht statisch
+[145  95  22   2  25  16   2  37   2  14 609   2 103   3  29   4   2  14
+ 115 597  45   2 216  14   2  59  28  80  30  45   0   0   0   0   0   0
+   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0
+   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0
+   0]
+Wort: total, Vorhersage: nicht statisch
+Wort: of, Vorhersage: nicht statisch
+Wort: 99, Vorhersage: nicht statisch
+Wort: ddr, Vorhersage: nicht statisch
+Wort: error(s), Vorhersage: nicht statisch
+Wort: detected, Vorhersage: nicht statisch
+Wort: and, Vorhersage: nicht statisch
+Wort: corrected, Vorhersage: statisch
+[  37    7   69    7    8    7    8    9   94    2  133   82    2  328
+    2   12  233    6  556 1086    2  145    2   37    7   69    7    8
+    7    8    0    0    0    0    0    0    0    0    0    0    0    0
+    0    0    0    0    0    0    0    0    0    0    0    0    0    0
+    0    0    0    0    0    0    0    0    0    0    0    0    0    0
+    0    0    0]
+Wort: 99.999.9.9:99999, Vorhersage: nicht statisch
+Wort: Served, Vorhersage: nicht statisch
+Wort: block, Vorhersage: nicht statisch
+Wort: blk_-99999999999999999, Vorhersage: nicht statisch
+Wort: to, Vorhersage: nicht statisch
+Wort: /99.999.9.9, Vorhersage: nicht statisch
+[328   2  24 710  63  35  29 376  23   7  11 343 775 299  73 161   9   2
+  23  74  18 527  57 186  26 746 512 376  23  20  25  12 556  43  43  20
+  25  12   7  20 668   7   2  12 233 556  43 253   0   0   0   0   0   0
+   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0
+   0]
+Wort: BLOCK*, Vorhersage: nicht statisch
+Wort: NameSystem.allocateBlock:, Vorhersage: nicht statisch
+Wort: /mnt/hadoop/mapred/system/job_999999999999_9999/job.jar., Vorhersage: nicht statisch
+Wort: blk_9999999999999999999, Vorhersage: nicht statisch
+[  37    7   69    7   37    7   69    9   94    2  110   28  836    2
+   50  117  184    2  145    2  517 1059   16   96    2  328    2   12
+  233    6  556   43  253    2  145    2   37    7   69    7   69    7
+   69    9   94    5    2   37    7   69    7   37    7   69    9   94
+    0    0    0    0    0    0    0    0    0    0    0    0    0    0
+    0    0    0]
+Wort: 99.999.99.999:99999, Vorhersage: nicht statisch
+Wort: Starting, Vorhersage: nicht statisch
+Wort: thread, Vorhersage: nicht statisch
+Wort: to, Vorhersage: nicht statisch
+Wort: transfer, Vorhersage: nicht statisch
+Wort: block, Vorhersage: nicht statisch
+Wort: blk_-9999999999999999999, Vorhersage: nicht statisch
+Wort: to, Vorhersage: nicht statisch
+Wort: 99.999.999.999:99999,, Vorhersage: nicht statisch
+Wort: 99.999.99.999:99999, Vorhersage: nicht statisch
+[1223    7  581    7  142    9   37    2   58    2   56    2   42    2
+   42    7   48    7   49    7   47    7   39    9   43    2   62    0
+    0    0    0    0    0    0    0    0    0    0    0    0    0    0
+    0    0    0    0    0    0    0    0    0    0    0    0    0    0
+    0    0    0    0    0    0    0    0    0    0    0    0    0    0
+    0    0    0]
+Wort: rs.sinajs.cn:99, Vorhersage: nicht statisch
+Wort: open, Vorhersage: nicht statisch
+Wort: through, Vorhersage: nicht statisch
+Wort: proxy, Vorhersage: nicht statisch
+Wort: proxy.cse.cuhk.edu.hk:9999, Vorhersage: nicht statisch
+Wort: HTTPS, Vorhersage: nicht statisch
+[304   8   7 590   7  64   9  69   2  79   5   2  43   2  67   2   3   8
+   7  37   2  68   4   2  83   5   2  43   2  67   2   3   8   7  37   2
+  68   4   2  86   5   2  87   2  37   9  37   0   0   0   0   0   0   0
+   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0
+   0]
+Wort: pic9.zhimg.com:999, Vorhersage: nicht statisch
+Wort: close,, Vorhersage: nicht statisch
+Wort: 9999, Vorhersage: nicht statisch
+Wort: bytes, Vorhersage: nicht statisch
+Wort: (9.99, Vorhersage: nicht statisch
+Wort: KB), Vorhersage: nicht statisch
+Wort: sent,, Vorhersage: nicht statisch
+Wort: 9999, Vorhersage: nicht statisch
+Wort: bytes, Vorhersage: nicht statisch
+Wort: (9.99, Vorhersage: nicht statisch
+Wort: KB), Vorhersage: nicht statisch
+Wort: received,, Vorhersage: nicht statisch
+Wort: lifetime, Vorhersage: nicht statisch
+Wort: 99:99, Vorhersage: nicht statisch
+[580   8   7 767   7  64   9  69   2   3 925   8   4   2 103   2   9   2
+ 124   2 114   2 134   2  56   2  42   2  42   7  48   7  49   7  47   7
+  39   9  43   2   6   2  42   2 196   2 202   2 205   2  11   2 120   2
+ 147   2 135   2 203   5   2 204   2 199   2  69   0   0   0   0   0   0
+   0]
+Wort: ping9.teamviewer.com:999, Vorhersage: nicht statisch
+Wort: (IPv9), Vorhersage: nicht statisch
+Wort: error, Vorhersage: nicht statisch
+Wort: :, Vorhersage: nicht statisch
+Wort: Could, Vorhersage: nicht statisch
+Wort: not, Vorhersage: nicht statisch
+Wort: connect, Vorhersage: nicht statisch
+Wort: through, Vorhersage: nicht statisch
+Wort: proxy, Vorhersage: nicht statisch
+Wort: proxy.cse.cuhk.edu.hk:9999, Vorhersage: nicht statisch
+Wort: -, Vorhersage: nicht statisch
+Wort: Proxy, Vorhersage: nicht statisch
+Wort: server, Vorhersage: nicht statisch
+Wort: cannot, Vorhersage: nicht statisch
+Wort: establish, Vorhersage: nicht statisch
+Wort: a, Vorhersage: nicht statisch
+Wort: connection, Vorhersage: nicht statisch
+Wort: with, Vorhersage: nicht statisch
+Wort: the, Vorhersage: nicht statisch
+Wort: target,, Vorhersage: nicht statisch
+Wort: status, Vorhersage: nicht statisch
+Wort: code, Vorhersage: nicht statisch
+Wort: 999, Vorhersage: nicht statisch
+Model: "sequential"
+┏━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━┳━━━━━━━━━━━━━━━━━━━━━━━━━━━━━┳━━━━━━━━━━━━━━━━━┓
+┃ Layer (type)                         ┃ Output Shape                ┃         Param # ┃
+┡━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━╇━━━━━━━━━━━━━━━━━━━━━━━━━━━━━╇━━━━━━━━━━━━━━━━━┩
+│ embedding (Embedding)                │ (None, 73, 64)              │          83,712 │
+├──────────────────────────────────────┼─────────────────────────────┼─────────────────┤
+│ bidirectional (Bidirectional)        │ (None, 73, 256)             │         148,992 │
+├──────────────────────────────────────┼─────────────────────────────┼─────────────────┤
+│ time_distributed (TimeDistributed)   │ (None, 73, 128)             │          32,896 │
+├──────────────────────────────────────┼─────────────────────────────┼─────────────────┤
+│ dropout (Dropout)                    │ (None, 73, 128)             │               0 │
+├──────────────────────────────────────┼─────────────────────────────┼─────────────────┤
+│ time_distributed_1 (TimeDistributed) │ (None, 73, 1)               │             129 │
+└──────────────────────────────────────┴─────────────────────────────┴─────────────────┘
+ Total params: 797,189 (3.04 MB)
+ Trainable params: 265,729 (1.01 MB)
+ Non-trainable params: 0 (0.00 B)
+ Optimizer params: 531,460 (2.03 MB)
+
+Training auf folgende Datei: Datensätze/Vorbereitete Daten - Beispiel/proxifier_v1/content_list_proxifier.txt
+Total Trainings-Loss: [0.06732475757598877, 0.0486886128783226, 0.04757208749651909, 0.047987692058086395, 0.05307780206203461, 0.04753660783171654, 0.04709239304065704, 0.047013990581035614, 0.04770900681614876, 0.046898405998945236]
+Total Trainings-Accuracy: [0.939790666103363, 0.9516976475715637, 0.9526085257530212, 0.9522228837013245, 0.9483582973480225, 0.952788770198822, 0.9530412554740906, 0.9530922770500183, 0.9524549245834351, 0.953159749507904]
+Total Validierungs-Loss: [0.050916921347379684, 0.04887588694691658, 0.048368893563747406, 0.06558918207883835, 0.04852631688117981, 0.04793795570731163, 0.048214077949523926, 0.04922076314687729, 0.047770582139492035, 0.04775625467300415]
+Total Validierungs-Accuracy: [0.951890766620636, 0.952176034450531, 0.9513296484947205, 0.94672691822052, 0.9519714713096619, 0.9521854519844055, 0.9514626860618591, 0.9499508142471313, 0.9523709416389465, 0.9521665573120117]
