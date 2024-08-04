@@ -1,6 +1,0 @@
-Model: tokenizedModel.keras
- Evaluierungsdaten: Proxifier_2k_evaluate_content.txt
- Sonstige Infos: Evaluierung auf 2000 random Zeilen mit dem 2k Modell ohne Validierungsdaten
-Ergebnisse: 
-    -Gleiche Zeilen: 1212 (60.60%)
-    -Unterschiedliche Zeilen: 788 (39.40%)

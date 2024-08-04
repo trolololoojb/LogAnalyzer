@@ -1,6 +1,0 @@
-Model: tokenizedModel.keras
- Evaluierungsdaten: BGL_2k_evaluate_content.txt
- Sonstige Infos: Evaluierung auf 2000 random Zeilen mit dem 2k Modell ohne Validierungsdaten
-Ergebnisse: 
-    -Gleiche Zeilen: 994 (49.70%)
-    -Unterschiedliche Zeilen: 1006 (50.30%)

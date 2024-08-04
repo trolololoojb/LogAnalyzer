@@ -1,179 +1,180 @@
 Model: tokenizedModel.keras
  Evaluierungsdaten: validation_content.txt
- Sonstige Infos: Evaluierung des GroundZeroModells mit den Validierungsdaten
+ Sonstige Infos: Evaluierung des ground Zero Modells auf die 20% Validierungsdaten
+Durchschnittlicher F1-Score: 0.9958307295629661
 Ergebnisse: 
     -Gleiche Zeilen: 5305 (99.20%)
     -Unterschiedliche Zeilen: 43 (0.80%)
 Falsch interpretierte Zeilen:
-L9 DCACHE summary averages: #ofDirtyLines: 999 out of 9999 #ofDirtyDblWord: 999 out of 9999
-[-1, -1, -1, -1, -1, 1, -1, -1, 1, -1, 1, -1, -1, 1]
-[-1, -1, -1, -1, -1, 1, -1, -1, -1, -1, 1, -1, -1, -1]
+Logeintrag: L9 DCACHE summary averages: #ofDirtyLines: 999 out of 9999 #ofDirtyDblWord: 999 out of 9999
+Modell-Label: [-1, -1, -1, -1, -1, 1, -1, -1, 1, -1, 1, -1, -1, 1]
+Echtes Label: [-1, -1, -1, -1, -1, 1, -1, -1, -1, -1, 1, -1, -1, -1]
 
-node-9 action start 9999999999 9 wait  (command 9999)
-[1, 1, 1, 1, 1, -1, -1, 1]
-[1, 1, 1, 1, 1, -1, -1, -1, 1]
+Logeintrag: node-9 action start 9999999999 9 wait  (command 9999)
+Modell-Label: [1, 1, 1, 1, 1, -1, -1, 1, -1]
+Echtes Label: [1, 1, 1, 1, 1, -1, -1, -1, 1]
 
-data cache search parity error detected. attempting to correct
-[-1, -1, -1, -1, -1, -1, -1, -1, -1]
-[-1, -1, 1, -1, -1, -1, -1, -1, -1]
+Logeintrag: data cache search parity error detected. attempting to correct
+Modell-Label: [-1, -1, -1, -1, -1, -1, -1, -1, -1]
+Echtes Label: [-1, -1, 1, -1, -1, -1, -1, -1, -1]
 
-memory manager address parity error..............9
-[-1, -1, 1, -1, 1]
-[-1, -1, 1, 1, 1]
+Logeintrag: memory manager address parity error..............9
+Modell-Label: [-1, -1, 1, -1, 1]
+Echtes Label: [-1, -1, 1, 1, 1]
 
-i-cache parity error..............9
-[-1, -1, 1]
-[-1, -1, -1]
+Logeintrag: i-cache parity error..............9
+Modell-Label: [-1, -1, 1]
+Echtes Label: [-1, -1, -1]
 
-size of scratchpad portion of L9.........9 (9M)
-[-1, -1, -1, -1, -1, 1, 1, -1]
-[-1, -1, -1, -1, -1, -1, -1]
+Logeintrag: size of scratchpad portion of L9.........9 (9M)
+Modell-Label: [-1, -1, -1, -1, -1, 1, 1, -1]
+Echtes Label: [-1, -1, -1, -1, -1, -1, -1, 1]
 
-action error 9999999999 9 boot (command 9999) Error: HALT asserted\  cannot continue
-[1, 1, 1, 1, -1, -1, 1, -1, -1, -1, -1, -1]
-[1, 1, 1, 1, -1, -1, 1, -1, -1, -1, -1, -1, -1]
+Logeintrag: action error 9999999999 9 boot (command 9999) Error: HALT asserted\  cannot continue
+Modell-Label: [1, 1, 1, 1, -1, -1, 1, -1, -1, -1, -1, -1, 1]
+Echtes Label: [1, 1, 1, 1, -1, -1, 1, -1, -1, -1, -1, -1, -1]
 
-boot  (command 9999)
-[-1, -1, 1]
-[-1, -1, -1, 1]
+Logeintrag: boot  (command 9999)
+Modell-Label: [-1, -1, 1, -1]
+Echtes Label: [-1, -1, -1, 1]
 
-d-cache flush parity error........9
-[1, -1, 1, -1, 1]
-[-1, 1, -1, 1]
+Logeintrag: d-cache flush parity error........9
+Modell-Label: [1, -1, 1, -1, 1]
+Echtes Label: [-1, 1, -1, 1, -1]
 
-capture first EDRAM parity error address..9
-[-1, 1, 1, 1, -1, 1, -1]
-[-1, 1, 1, 1, 1, 1]
+Logeintrag: capture first EDRAM parity error address..9
+Modell-Label: [-1, 1, 1, 1, -1, 1, -1]
+Echtes Label: [-1, 1, 1, 1, 1, 1, 1]
 
-DDR failing info register: DDR Fail Info Register: 9x99999999
-[-1, -1, -1, -1, -1, -1, -1, -1, 1]
-[-1, -1, 1, -1, 1, 1, 1, 1, 1]
+Logeintrag: DDR failing info register: DDR Fail Info Register: 9x99999999
+Modell-Label: [-1, -1, -1, -1, -1, -1, -1, -1, 1]
+Echtes Label: [-1, -1, 1, -1, 1, 1, 1, 1, 1]
 
-idoproxy communication failure: BGLERR_IDO_PKT_TIMEOUT connection lost to node/link/service card
-[-1, -1, -1, -1, -1, -1, -1, -1, -1]
-[1, 1, 1, -1, -1, -1, -1, -1, -1]
+Logeintrag: idoproxy communication failure: BGLERR_IDO_PKT_TIMEOUT connection lost to node/link/service card
+Modell-Label: [-1, -1, -1, -1, -1, -1, -1, -1, -1]
+Echtes Label: [1, 1, 1, -1, -1, -1, -1, -1, -1]
 
-icache prefetch threshold................9
-[-1, -1, 1, -1]
-[-1, -1, 1]
+Logeintrag: icache prefetch threshold................9
+Modell-Label: [-1, -1, 1, -1]
+Echtes Label: [-1, -1, 1, 1]
 
-Link error on broadcast tree Interconnect-9N99:99:9:9
-[-1, -1, -1, -1, 1, 1]
-[-1, 1, 1, 1, 1, 1]
+Logeintrag: Link error on broadcast tree Interconnect-9N99:99:9:9
+Modell-Label: [-1, -1, -1, -1, 1, 1]
+Echtes Label: [-1, 1, 1, 1, 1, 1]
 
-9 Link error on broadcast tree Interconnect-9N99:99:9:9
-[1, -1, -1, -1, -1, 1, 1]
-[1, -1, 1, 1, 1, 1, 1]
+Logeintrag: 9 Link error on broadcast tree Interconnect-9N99:99:9:9
+Modell-Label: [1, -1, -1, -1, -1, 1, 1]
+Echtes Label: [1, -1, 1, 1, 1, 1, 1]
 
-Target=ido://FF:F9:9F:99:E9:99:99:9D:99:E9:99:99/JTAG/99 Message=Pll failed to lock
-[1, 1, -1, -1, -1]
-[1, 1, 1, 1, 1]
+Logeintrag: Target=ido://FF:F9:9F:99:E9:99:99:9D:99:E9:99:99/JTAG/99 Message=Pll failed to lock
+Modell-Label: [1, 1, -1, -1, -1]
+Echtes Label: [1, 1, 1, 1, 1]
 
-parity error in read queue PLB.................9
-[-1, -1, -1, -1, -1, -1]
-[-1, -1, -1, -1, -1, 1]
+Logeintrag: parity error in read queue PLB.................9
+Modell-Label: [-1, -1, -1, -1, -1, -1]
+Echtes Label: [-1, -1, -1, -1, -1, 1]
 
-Machine Check Status Register: 9x99999999
-[-1, -1, 1, 1, 1]
-[-1, -1, -1, -1, 1]
+Logeintrag: Machine Check Status Register: 9x99999999
+Modell-Label: [-1, -1, 1, 1, 1]
+Echtes Label: [-1, -1, -1, -1, 1]
 
-node-9 action start 9999999999 9 halt  (command 9999)
-[1, 1, 1, 1, 1, -1, -1, 1]
-[1, 1, 1, 1, 1, -1, -1, -1, 1]
+Logeintrag: node-9 action start 9999999999 9 halt  (command 9999)
+Modell-Label: [1, 1, 1, 1, 1, -1, -1, 1, -1]
+Echtes Label: [1, 1, 1, 1, 1, -1, -1, -1, 1]
 
-BGLMaster has been started: ./BGLMaster --consoleip 999.9.9.9 --consoleport 99999 --configfile bglmaster.init
-[-1, -1, -1, -1, -1, -1, 1, -1, 1, -1, 1]
-[-1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1]
+Logeintrag: BGLMaster has been started: ./BGLMaster --consoleip 999.9.9.9 --consoleport 99999 --configfile bglmaster.init
+Modell-Label: [-1, -1, -1, -1, -1, -1, 1, -1, 1, -1, 1]
+Echtes Label: [-1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1]
 
-MidplaneSwitchController performing bit sparing on R99-M9-L9-U99-C bit 9
-[-1, -1, -1, -1, -1, 1, 1, 1]
-[-1, -1, -1, -1, -1, 1, -1, 1]
+Logeintrag: MidplaneSwitchController performing bit sparing on R99-M9-L9-U99-C bit 9
+Modell-Label: [-1, -1, -1, -1, -1, 1, 1, 1]
+Echtes Label: [-1, -1, -1, -1, -1, 1, -1, 1]
 
-9 clusterAddMember  (command 9999)
-[1, -1, -1, 1]
-[1, -1, -1, -1, 1]
+Logeintrag: 9 clusterAddMember  (command 9999)
+Modell-Label: [1, -1, -1, 1, -1]
+Echtes Label: [1, -1, -1, -1, 1]
 
-Target=ido://FF:F9:9F:99:E9:99:99:9D:99:E9:99:99/JTAG/9 Message=Pll failed to lock
-[1, 1, -1, -1, -1]
-[1, 1, 1, 1, 1]
+Logeintrag: Target=ido://FF:F9:9F:99:E9:99:99:9D:99:E9:99:99/JTAG/9 Message=Pll failed to lock
+Modell-Label: [1, 1, -1, -1, -1]
+Echtes Label: [1, 1, 1, 1, 1]
 
-disable apu instruction broadcast........9
-[-1, -1, -1, 1, -1]
-[-1, -1, -1, -1]
+Logeintrag: disable apu instruction broadcast........9
+Modell-Label: [-1, -1, -1, 1, -1]
+Echtes Label: [-1, -1, -1, -1, 1]
 
-node-999 action start 9999999999 9 risBoot  (command 9999)
-[1, 1, 1, 1, 1, -1, -1, 1]
-[1, 1, 1, 1, 1, -1, -1, -1, 1]
+Logeintrag: node-999 action start 9999999999 9 risBoot  (command 9999)
+Modell-Label: [1, 1, 1, 1, 1, -1, -1, 1, -1]
+Echtes Label: [1, 1, 1, 1, 1, -1, -1, -1, 1]
 
-Link error on broadcast tree Interconnect-9T99:99:9:9
-[-1, -1, -1, -1, 1, 1]
-[-1, 1, 1, 1, 1, 1]
+Logeintrag: Link error on broadcast tree Interconnect-9T99:99:9:9
+Modell-Label: [-1, -1, -1, -1, 1, 1]
+Echtes Label: [-1, 1, 1, 1, 1, 1]
 
-New election. My id =  9, proposed zxid=9x99999999b
-[-1, -1, -1, -1, -1, 1, 1, 1]
-[-1, -1, -1, -1, -1, -1, 1, 1, 1]
+Logeintrag: New election. My id =  9, proposed zxid=9x99999999b
+Modell-Label: [-1, -1, -1, -1, -1, 1, 1, 1, -1]
+Echtes Label: [-1, -1, -1, -1, -1, -1, 1, 1, 1]
 
-L9 global control register: 9x999999f9
-[-1, -1, -1, -1, 1]
-[-1, 1, 1, -1, 1]
+Logeintrag: L9 global control register: 9x999999f9
+Modell-Label: [-1, -1, -1, -1, 1]
+Echtes Label: [-1, 1, 1, -1, 1]
 
-DDR failing address register: 9x99999999 9x9b9c9c99
-[-1, -1, -1, -1, 1, 1]
-[-1, -1, 1, -1, 1, 1]
+Logeintrag: DDR failing address register: 9x99999999 9x9b9c9c99
+Modell-Label: [-1, -1, -1, -1, 1, 1]
+Echtes Label: [-1, -1, 1, -1, 1, 1]
 
-Power Good signal deactivated: R99-M9-NF. A service action may be required.
-[-1, -1, -1, -1, 1, -1, -1, -1, -1, -1, -1, -1]
-[-1, -1, -1, -1, 1, -1, -1, -1, -1, -1, -1]
+Logeintrag: Power Good signal deactivated: R99-M9-NF. A service action may be required.
+Modell-Label: [-1, -1, -1, -1, 1, -1, -1, -1, -1, -1, -1, -1]
+Echtes Label: [-1, -1, -1, -1, 1, -1, -1, -1, -1, -1, -1, 1]
 
-node-99 action start 9999999999 9 risBoot  (command 9999)
-[1, 1, 1, 1, 1, -1, -1, 1]
-[1, 1, 1, 1, 1, -1, -1, -1, 1]
+Logeintrag: node-99 action start 9999999999 9 risBoot  (command 9999)
+Modell-Label: [1, 1, 1, 1, 1, -1, -1, 1, -1]
+Echtes Label: [1, 1, 1, 1, 1, -1, -1, -1, 1]
 
-New election. My id =  9, proposed zxid=9x9999999bc
-[-1, -1, -1, -1, -1, 1, 1, 1]
-[-1, -1, -1, -1, -1, -1, 1, 1, 1]
+Logeintrag: New election. My id =  9, proposed zxid=9x9999999bc
+Modell-Label: [-1, -1, -1, -1, -1, 1, 1, 1, -1]
+Echtes Label: [-1, -1, -1, -1, -1, -1, 1, 1, 1]
 
-close EDRAM pages as soon as possible....9
-[-1, 1, -1, -1, -1, -1, -1]
-[-1, -1, -1, -1, -1, -1, -1]
+Logeintrag: close EDRAM pages as soon as possible....9
+Modell-Label: [-1, 1, -1, -1, -1, -1, -1]
+Echtes Label: [-1, -1, -1, -1, -1, -1, -1]
 
-memory manager address error.....................9
-[-1, -1, -1, 1]
-[-1, -1, 1, 1]
+Logeintrag: memory manager address error.....................9
+Modell-Label: [-1, -1, -1, 1]
+Echtes Label: [-1, -1, 1, 1]
 
-Starting quorum peer
-[-1, 1, 1]
-[-1, -1, -1]
+Logeintrag: Starting quorum peer
+Modell-Label: [-1, 1, 1]
+Echtes Label: [-1, -1, -1]
 
-node-999 action start 9999999999 9 clusterAddMember  (command 9999)
-[1, 1, 1, 1, 1, -1, -1, 1]
-[1, 1, 1, 1, 1, -1, -1, -1, 1]
+Logeintrag: node-999 action start 9999999999 9 clusterAddMember  (command 9999)
+Modell-Label: [1, 1, 1, 1, 1, -1, -1, 1, -1]
+Echtes Label: [1, 1, 1, 1, 1, -1, -1, -1, 1]
 
-MidplaneSwitchController::clearPort() bll_clear_port failed: R99-M9-L9-U99-A
-[-1, 1, -1, -1, 1]
-[-1, -1, -1, 1]
+Logeintrag: MidplaneSwitchController::clearPort() bll_clear_port failed: R99-M9-L9-U99-A
+Modell-Label: [-1, 1, -1, -1, 1]
+Echtes Label: [-1, -1, -1, 1, -1]
 
-9 ambient=99  threshold exceeded
-[1, 1, 1, 1]
-[1, 1, 1, 1, 1]
+Logeintrag: 9 ambient=99  threshold exceeded
+Modell-Label: [1, 1, 1, 1, -1]
+Echtes Label: [1, 1, 1, 1, 1]
 
-MidplaneSwitchController::parityAlignment() pap failed: R99-M9-L9-U99-C, status=ffffffff ffffff99
-[-1, -1, -1, 1, 1, -1, 1]
-[-1, -1, -1, 1, 1, 1]
+Logeintrag: MidplaneSwitchController::parityAlignment() pap failed: R99-M9-L9-U99-C, status=ffffffff ffffff99
+Modell-Label: [-1, -1, -1, 1, 1, -1, 1]
+Echtes Label: [-1, -1, -1, 1, 1, 1, -1]
 
-Power Good signal deactivated: R99-M9-NE. A service action may be required.
-[-1, -1, -1, -1, 1, -1, -1, -1, -1, -1, -1, -1]
-[-1, -1, -1, -1, 1, -1, -1, -1, -1, -1, -1]
+Logeintrag: Power Good signal deactivated: R99-M9-NE. A service action may be required.
+Modell-Label: [-1, -1, -1, -1, 1, -1, -1, -1, -1, -1, -1, -1]
+Echtes Label: [-1, -1, -1, -1, 1, -1, -1, -1, -1, -1, -1, 1]
 
-EndServiceAction is restarting the NodeCards in midplane R99-M9 as part of Service Action 999
-[-1, -1, -1, -1, -1, -1, -1, 1, -1, -1, -1, -1, -1, 1]
-[-1, -1, -1, -1, 1, -1, -1, 1, -1, -1, -1, -1, -1, 1]
+Logeintrag: EndServiceAction is restarting the NodeCards in midplane R99-M9 as part of Service Action 999
+Modell-Label: [-1, -1, -1, -1, -1, -1, -1, 1, -1, -1, -1, -1, -1, 1]
+Echtes Label: [-1, -1, -1, -1, 1, -1, -1, 1, -1, -1, -1, -1, -1, 1]
 
-New election. My id =  9, proposed zxid=9x999999999
-[-1, -1, -1, -1, -1, 1, 1, 1]
-[-1, -1, -1, -1, -1, -1, 1, 1, 1]
+Logeintrag: New election. My id =  9, proposed zxid=9x999999999
+Modell-Label: [-1, -1, -1, -1, -1, 1, 1, 1, -1]
+Echtes Label: [-1, -1, -1, -1, -1, -1, 1, 1, 1]
 
-Torus non-recoverable error DCRs follow.
-[-1, 1, -1, -1, -1, 1, -1]
-[-1, -1, -1, -1, -1]
+Logeintrag: Torus non-recoverable error DCRs follow.
+Modell-Label: [-1, 1, -1, -1, -1, 1, -1]
+Echtes Label: [-1, -1, -1, -1, -1, -1, 1]
 
