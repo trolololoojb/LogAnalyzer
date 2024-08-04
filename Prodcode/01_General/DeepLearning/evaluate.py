@@ -3,7 +3,7 @@ import os
 import random
 import path
 import model_load
-
+from sklearn.metrics import f1_score
 
 def select_random_lines(input_file, log_file, label_file, output_content, output_label, num_lines=2000):
 
@@ -54,6 +54,24 @@ def select_random_lines(input_file, log_file, label_file, output_content, output
 
     print(f'{num_lines} zufällige Zeilen wurden ausgewählt und gespeichert.')
 
+# Funktion zum Auffüllen der Labels durch Spiegelung der gegenüberliegenden Werte
+def pad_labels(true_labels, predicted_labels):
+    max_length = max(len(true_labels), len(predicted_labels))
+    
+    if len(true_labels) < max_length:
+        # Werte aus pred_labels nutzen, um true_labels zu füllen
+        for i in range(len(true_labels), max_length):
+            true_labels.append(-predicted_labels[i % len(predicted_labels)])
+        
+    if len(predicted_labels) < max_length:
+        # Werte aus true_labels nutzen, um predicted_labels zu füllen
+        for i in range(len(predicted_labels), max_length):
+            predicted_labels.append(-true_labels[i % len(true_labels)])
+        
+    return true_labels, predicted_labels
+
+def convert_labels(labels):
+    return [1 if label == 1 else 0 for label in labels]
 
 def evaluate(eval_file, eval_label, additional_infos = ""):
     file_name = os.path.basename(eval_file)
@@ -72,20 +90,24 @@ def evaluate(eval_file, eval_label, additional_infos = ""):
         miss_eval_content = []
         miss_eval_label = []
         correct_label = []
+        f1_scores = []
         for i in range(len(txt_zeilen)):
             print(i)
             pred_labels = model_load.predict_and_display(txt_zeilen[i].strip(), False)
-            csv_ergebnis = csv_zeilen[i]
-            if pred_labels == csv_ergebnis:
+            true_labels = csv_zeilen[i]
+            true_labels_padded, pred_labels_padded = pad_labels(true_labels, pred_labels)
+            f1 = f1_score(convert_labels(true_labels_padded), convert_labels(pred_labels_padded), zero_division= 1)
+            f1_scores.append(f1)
+            if pred_labels == true_labels:
                 gleiche_zeilen += 1
             else:
                 miss_eval_content.append(txt_zeilen[i].strip())
                 unterschiedliche_zeilen += 1
                 miss_eval_label.append(str(pred_labels))
-                correct_label.append(str(csv_ergebnis))
+                correct_label.append(str(true_labels))
                 print(f"Zeile {i+1}: Unterschied gefunden")
                 print(f"TXT: {pred_labels}")
-                print(f"CSV: {csv_ergebnis}")
+                print(f"CSV: {true_labels}")
         
         gesamt_zeilen = len(txt_zeilen)
         gleiche_prozent = (gleiche_zeilen / gesamt_zeilen) * 100
@@ -93,7 +115,11 @@ def evaluate(eval_file, eval_label, additional_infos = ""):
         
         with open(f"Datensätze/Vorbereitete Daten - Beispiel/03_Evaluationen/{file_name}_{model_name}_evaluation.txt", 'w') as infos:
             infos.write(f"Model: {model_name}\n Evaluierungsdaten: {file_name}\n Sonstige Infos: {additional_infos}\n")
+            average_f1 = sum(f1_scores) / len(f1_scores)
+            infos.write(f"Durchschnittlicher F1-Score: {average_f1}\n")
+            print(f"Durchschnittlicher F1-Score: {average_f1}")
             infos.write(f"Ergebnisse: \n    -Gleiche Zeilen: {gleiche_zeilen} ({gleiche_prozent:.2f}%)\n    -Unterschiedliche Zeilen: {unterschiedliche_zeilen} ({unterschiedliche_prozent:.2f}%)\nFalsch interpretierte Zeilen:\n")
+
             for line, e_label, label in zip(miss_eval_content, miss_eval_label, correct_label):
                 infos.write("Logeintrag: " + line + "\n")
                 infos.write("Modell-Label: " + e_label + "\n")
@@ -106,10 +132,10 @@ def evaluate(eval_file, eval_label, additional_infos = ""):
 
 # for input_file, log_file, label_file, output_content, output_label in zip(path.content_file_path_list, path.twok_log_path_list, path.label_list_path_list , path.twok_evaluate_content_list, path.twok_evaluate_label_list):
 #     select_random_lines(input_file, log_file, label_file, output_content, output_label)
-
-# evaluate(r"Datensätze/Vorbereitete Daten - Beispiel/proxifier_v1/2k/Proxifier_2k_evaluate_content.txt", r"Datensätze/Vorbereitete Daten - Beispiel/proxifier_v1/2k/Proxifier_2k_evaluate_label.csv")
 add_infos = input("Sonstige Infos hinzufügen:")
-# for content, label in zip(path.twok_evaluate_content_list, path.twok_evaluate_label_list):
+evaluate(r"Datensätze/Vorbereitete Daten - Beispiel/01_Models/20240803-173601 unique Daten alle Datensätze GZero/validation_content.txt", r"Datensätze/Vorbereitete Daten - Beispiel/01_Models/20240803-173601 unique Daten alle Datensätze GZero/validation_labels.csv", add_infos)
+
+# for content, label in zip(path.twok_content_path_list, path.twok_label_path_list):
 #     evaluate(content, label, add_infos)
 
-evaluate(path.twok_evaluate_content_list[4], path.twok_evaluate_label_list[4], add_infos)
+#evaluate(path.twok_content_path_list[4], path.twok_label_path_list[4], add_infos)
