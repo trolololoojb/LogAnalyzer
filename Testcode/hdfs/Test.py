@@ -101,17 +101,52 @@
 
 #----------------------------------------------------------------------------------------------------------------
 
-list = []
+from sklearn.metrics import f1_score
 
-list1 = [1,1,1,1,1,1]
+# Funktion zum Auffüllen der Labels durch Spiegelung der gegenüberliegenden Werte
+def pad_labels(true_labels, predicted_labels):
+    max_length = max(len(true_labels), len(predicted_labels))
+    
+    if len(true_labels) < max_length:
+        # Werte aus pred_labels nutzen, um true_labels zu füllen
+        for i in range(len(true_labels), max_length):
+            true_labels.append(-predicted_labels[i % len(predicted_labels)])
+        
+    if len(predicted_labels) < max_length:
+        # Werte aus true_labels nutzen, um predicted_labels zu füllen
+        for i in range(len(predicted_labels), max_length):
+            predicted_labels.append(-true_labels[i % len(true_labels)])
+        
+    return true_labels, predicted_labels
 
-list2 = [2,2,2,2,2,2,2]
+# Funktion zur Umwandlung von -1/1 zu 0/1 für die Berechnung des F1-Scores
+def convert_labels(labels):
+    return [1 if label == 1 else 0 for label in labels]
 
+# Mehrere Sätze von echten und vorhergesagten Labels
+true_labels_list = [
+    [1, -1, 1, 1, -1, 1, -1, -1, 1, -1],
+    [-1, -1, -1, -1, -1, -1, -1, -1],
+    [1, 1, 1, -1, -1, 1, -1, 1, -1, -1]
+]
 
-list += list1
-list += list2
+predicted_labels_list = [
+    [1, -1, 1, -1, -1, 1, -1, 1, 1, -1, 1],
+    [-1, -1, -1, -1, -1, -1, -1, -1],
+    [1, -1, 1, -1, -1, 1, -1, 1, 1, -1]
+]
 
-print(list)
+# Berechnung des durchschnittlichen F1-Scores
+f1_scores = []
+
+for true_labels, predicted_labels in zip(true_labels_list, predicted_labels_list):
+    true_labels, predicted_labels = pad_labels(true_labels, predicted_labels)
+    f1 = f1_score(convert_labels(true_labels), convert_labels(predicted_labels), zero_division= 1)
+    f1_scores.append(f1)
+
+average_f1 = sum(f1_scores) / len(f1_scores)
+
+print(f"Durchschnittlicher F1-Score: {average_f1}")
 
 
 
