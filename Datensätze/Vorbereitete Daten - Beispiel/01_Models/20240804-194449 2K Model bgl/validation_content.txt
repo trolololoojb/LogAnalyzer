@@ -1,0 +1,40 @@
+ciod: generated 9 core files for program /home/spelce9/HPCC_IBM/Urgent/VNM/99K/vnm.rts
+iar 999a9999 dear 99ef99b9
+iar 999999b9 dear 9999c9cc
+Node card VPD check: U99 node in processor card slot J99 do not match. VPD ecid 99999E99DB9FFFFF9D9B9AF99ED9, found 99D999D9A99FFFFF999B9BB999E9
+iar 99999999 dear 999e9aac
+tlb error.........................9
+iar 99999e99 dear 999999bc
+CE sym 99, at 9x99aa99c9, mask 9x99
+CE sym 9, at 9x9999b999, mask 9x99
+ciod: generated 99 core files for program /home/germann9/SPaSM_static/SPaSM_mpi
+ciod: generated 99 core files for program /home/spelce9/HPCC_IBM/TomAndJeff/bin/untested_copro/untested_copro.rts
+CE sym 9, at 9x9b9999e9, mask 9x99
+r99=9x99999ae9 r99=9x99999b99 r99=9x99999999 r99=9x99999b99
+CE sym 99, at 9x99e9f999, mask 9x99
+floating point instr. enabled.....9
+CE sym 9, at 9x99d99999, mask 9x99
+ciod: Error creating node map from file /home/pakin9/sweep9d-9.9b/results/xyzt-9x99x99x9.map: Permission denied
+iar 999a99a9 dear 99999dd9
+CE sym 99, at 9x999abf99, mask 9x99
+Node card VPD check: U99 node in processor card slot J99 do not match. VPD ecid 999A9D99999FFFFF999E9AC9D9CC, found 9999999999999999999999999999
+iar 999a999c dear 99b99c99
+CE sym 99, at 9x99c9f999, mask 9x99
+iar 99999f99 dear 99a9a9a9
+ciod: LOGIN chdir(/bglscratch/bwallen/SWL/SYS-CALLS/testcases/kernel/syscalls/open) failed: No such file or directory
+icache prefetch threshold................9
+ciod: LOGIN chdir(/bglscratch/bwallen/SWL/SYS-CALLS/testcases/kernel/syscalls/readv) failed: No such file or directory
+data store interrupt caused by dcbf.........9
+CE sym 99, at 9x99999cc9, mask 9x99
+ciod: Received signal 99, code=9, errno=9, address=9x99999a99
+iar 99999fc9 dear 99999999
+CE sym 99, at 9x9d9c9dc9, mask 9x99
+ciod: generated 999 core files for program /home/germann9/BGL-demo/SPaSM_mpi
+iar 999a9999 dear 99eff9b9
+fpr99=9xffffffff ffffffff ffffffff ffffffff
+iar 99999e99 dear 999999fc
+CE sym 99, at 9x999fe999, mask 9x99
+CE sym 99, at 9x9999fa99, mask 9x99
+iar 999a99a9 dear 99b99d99
+iar 999a999c dear 99eff999
+CE sym 99, at 9x999f9c99, mask 9x99

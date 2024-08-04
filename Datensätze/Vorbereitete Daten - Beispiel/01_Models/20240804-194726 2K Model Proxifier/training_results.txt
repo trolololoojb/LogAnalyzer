@@ -1,0 +1,255 @@
+Loss: 3.4866957321355585e-06, Accuracy: 0.8654109835624695
+
+Log: 9 ddr errors(s) detected and corrected on rank 9, symbol 9, bit 9
+[  8   2  14 560   2 102  29   3  29   4   2  14 103 423  45   2 485   2
+  46  28  80  30  45   2 106   2  28 165  21   2   8   5   2 371  23 112
+  22   2   8   5   2  12 171   2   8   0   0   0   0   0   0   0   0   0
+   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0
+   0]
+Wörter: 9 ddr, Vorhersage: variabel, Werte: [0.9999792], [0.9977192], [0.99313766], [0.96435726]
+Wörter:  errors, Vorhersage: statisch, Werte: [-0.7477349], [-0.9995459], [-0.78048605]
+Wörter: (s) detected, Vorhersage: variabel, Werte: [0.9983109], [0.9997282], [0.99999934], [0.9995134], [0.9949769], [0.95874786], [0.8715094], [0.8726732]
+Wörter:  and co, Vorhersage: statisch, Werte: [-0.8220647], [-0.76551706], [-0.990154], [-0.8297054]
+Wörter: rrected, Vorhersage: variabel, Werte: [0.9514292], [0.9450607], [0.9833666], [0.9815637]
+Wörter:  , Vorhersage: statisch, Werte: [-0.18335484]
+Wörter: on, Vorhersage: variabel, Werte: [0.21429056]
+Wörter:  , Vorhersage: statisch, Werte: [-0.94521886]
+Wörter: rank, Vorhersage: variabel, Werte: [0.894707], [0.91793114], [0.95781696]
+Wörter:  , Vorhersage: statisch, Werte: [-0.3269411]
+Wörter: 9,, Vorhersage: variabel, Werte: [0.9998614], [0.49554485]
+Wörter:  sy, Vorhersage: statisch, Werte: [-0.61609316], [-0.31817615]
+Wörter: mbol 9,, Vorhersage: variabel, Werte: [0.6912242], [0.84398973], [0.97889835], [0.00540032], [0.99991536], [0.7657365]
+Wörter:  , Vorhersage: statisch, Werte: [-0.0863503]
+Wörter: bit, Vorhersage: variabel, Werte: [0.82623476], [0.72786194]
+Wörter:  , Vorhersage: statisch, Werte: [-0.7874112]
+Wörter: 9, Vorhersage: variabel, Werte: [0.99194676]
+
+Log: instruction cache parity error corrected
+[ 107  339 1119   13  117    2  921   15    2  417  671    2  102    2
+   46   28   80   30   45    0    0    0    0    0    0    0    0    0
+    0    0    0    0    0    0    0    0    0    0    0    0    0    0
+    0    0    0    0    0    0    0    0    0    0    0    0    0    0
+    0    0    0    0    0    0    0    0    0    0    0    0    0    0
+    0    0    0]
+Wörter: instruction, Vorhersage: variabel, Werte: [0.8209287], [0.872772], [0.9441951], [0.97590107], [0.95556176]
+Wörter:  , Vorhersage: statisch, Werte: [-0.43147564]
+Wörter: cache, Vorhersage: variabel, Werte: [0.3375324], [0.8568855]
+Wörter:  , Vorhersage: statisch, Werte: [-0.77928543]
+Wörter: parity, Vorhersage: variabel, Werte: [0.5773967], [0.39259723]
+Wörter:  error co, Vorhersage: statisch, Werte: [-0.963732], [-0.999715], [-0.99958277], [-0.9640022]
+Wörter: rrected, Vorhersage: variabel, Werte: [0.6568172], [0.57309246], [0.6305281], [0.05081155]
+
+Log: total of 99 ddr error(s) detected and corrected
+[146  96  22   2  25  16   2  37   2  14 560   2 102   3  29   4   2  14
+ 103 423  45   2 485   2  46  28  80  30  45   0   0   0   0   0   0   0
+   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0
+   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0
+   0]
+Wörter: tota, Vorhersage: statisch, Werte: [-0.9672206], [-0.80490327]
+Wörter: l, Vorhersage: variabel, Werte: [0.63943887]
+Wörter:  , Vorhersage: statisch, Werte: [-0.8159031]
+Wörter: of 99 ddr, Vorhersage: variabel, Werte: [0.00967287], [0.9870442], [0.44419435], [0.9999844], [0.9926742], [0.9795381], [0.8714398]
+Wörter:  error, Vorhersage: statisch, Werte: [-0.901502], [-0.9996754]
+Wörter: (s) detected, Vorhersage: variabel, Werte: [0.9763754], [0.9983476], [0.9999979], [0.9990681], [0.993466], [0.9574338], [0.87793344], [0.87446094]
+Wörter:  and co, Vorhersage: statisch, Werte: [-0.8257542], [-0.7856825], [-0.98942107], [-0.83230394]
+Wörter: rrected, Vorhersage: variabel, Werte: [0.8728429], [0.6992971], [0.6619206], [0.04646914]
+
+Log: 99.999.9.9:99999 Served block blk_-99999999999999999 to /99.999.9.9
+[  37    7   59    7    8    7    8    9   88    2  141   82    2  432
+    2   12  382    6  357 1152    2  146    2   37    7   59    7    8
+    7    8    0    0    0    0    0    0    0    0    0    0    0    0
+    0    0    0    0    0    0    0    0    0    0    0    0    0    0
+    0    0    0    0    0    0    0    0    0    0    0    0    0    0
+    0    0    0]
+Wörter: 99.999.9.9:99999 served, Vorhersage: variabel, Werte: [1.], [1.], [1.], [1.], [1.], [1.], [1.], [1.], [1.], [0.99991065], [0.8837584], [0.03267101]
+Wörter:  , Vorhersage: statisch, Werte: [-0.9802494]
+Wörter: block, Vorhersage: variabel, Werte: [0.3612271]
+Wörter:  , Vorhersage: statisch, Werte: [-0.91559726]
+Wörter: blk-99999999999999999 , Vorhersage: variabel, Werte: [0.67210263], [0.83572006], [0.26858866], [0.99867874], [0.9997755], [0.9882788]
+Wörter: to , Vorhersage: statisch, Werte: [-0.8439955], [-0.52651215]
+Wörter: 99.999.9.9, Vorhersage: variabel, Werte: [1.], [1.], [1.], [1.], [1.], [1.], [1.]
+
+Log: BLOCK* NameSystem.allocateBlock: /mnt/hadoop/mapred/system/job_999999999999_9999/job.jar. blk_9999999999999999999
+[ 432    2   24  435   51   35   29  269   23    7  334 1162  269  432
+    9    2   23   74   18  424   65  132  851   45  599  269   23   20
+   25   12  357   39   39   20   25   12    7   20  363    7    2   12
+  382  357   39  177    0    0    0    0    0    0    0    0    0    0
+    0    0    0    0    0    0    0    0    0    0    0    0    0    0
+    0    0    0]
+Wörter: block namesystem.allocateblock:, Vorhersage: variabel, Werte: [0.98034185], [0.1905343], [0.49977255], [0.60110587], [0.8862446], [0.94796836], [0.9950607], [0.9967474], [0.9996669], [1.], [0.9999847], [0.9997413], [0.9974255], [0.99739885], [0.9900181]
+Wörter:  m, Vorhersage: statisch, Werte: [-0.7900494], [-0.42013288]
+Wörter: nthadoopmapredsystemjob9999999999999999job.jar. blk9999999999999999999, Vorhersage: variabel, Werte: [0.42812812], [0.4660939], [0.6965915], [0.7917088], [0.8957716], [0.9541519], [0.9539778], [0.95890594], [0.9522136], [0.9724424], [0.9698005], [0.9818968], [0.9981165], [0.99995774], [1.], [1.], [0.9999992], [0.9999909], [0.99999505], [1.], [0.99999917], [0.999997], [1.], [0.9999902], [0.99962085], [0.9892304], [0.9990672], [0.99999905], [0.9999281]
+
+Log: 99.999.99.999:99999 Starting thread to transfer block blk_-9999999999999999999 to 99.999.999.999:99999, 99.999.99.999:99999
+[ 37   7  59   7  37   7  59   9  88   2 113  28 647   2  56 123 140   2
+ 146   2  30  28 165  29  16  95   2 432   2  12 382   6 357  39 177   2
+ 146   2  37   7  59   7  59   7  59   9  88   5   2  37   7  59   7  37
+   7  59   9  88   0   0   0   0   0   0   0   0   0   0   0   0   0   0
+   0]
+Wörter: 99.999.99.999:99999 starting, Vorhersage: variabel, Werte: [1.], [1.], [1.], [1.], [1.], [1.], [1.], [1.], [1.], [0.9998779], [0.8894942], [0.9776377], [0.88884705]
+Wörter:  thre, Vorhersage: statisch, Werte: [-0.8639209], [-0.74911284], [-0.28378847]
+Wörter: ad, Vorhersage: variabel, Werte: [0.8885858]
+Wörter:  to t, Vorhersage: statisch, Werte: [-0.8007891], [-0.9975899], [-0.9988286], [-0.79064643]
+Wörter: ransfer block, Vorhersage: variabel, Werte: [0.96237785], [0.9758966], [0.99479944], [0.99753886], [0.9931906], [0.52018356], [0.97365206]
+Wörter:  , Vorhersage: statisch, Werte: [-0.4133968]
+Wörter: blk-9999999999999999999 to 99.999.999.999:99999, 99.999.99.999:99999, Vorhersage: variabel, Werte: [0.8892463], [0.91850686], [0.5706465], [0.9996965], [1.], [1.], [0.9999874], [0.7726074], [0.21874617], [1.], [1.], [1.], [1.], [1.], [1.], [1.], [1.], [1.], [0.9999216], [0.9940944], [1.], [1.], [1.], [1.], [1.], [1.], [1.], [1.], [0.99999905]
+
+Log: rs.sinajs.cn:99 open through proxy proxy.cse.cuhk.edu.hk:9999 HTTPS
+[1118    7  450    7  130    9   37    2   66    2   63    2   44    2
+   44    7   49    7   50    7   48    7   40    9   39    2   69    0
+    0    0    0    0    0    0    0    0    0    0    0    0    0    0
+    0    0    0    0    0    0    0    0    0    0    0    0    0    0
+    0    0    0    0    0    0    0    0    0    0    0    0    0    0
+    0    0    0]
+Wörter: rs.sinajs.cn:99 , Vorhersage: variabel, Werte: [0.99981135], [1.], [1.], [1.], [1.], [0.9999988], [1.], [0.99917597]
+Wörter: open through proxy , Vorhersage: statisch, Werte: [-0.9997206], [-0.99996716], [-1.], [-0.9999977], [-0.998548], [-0.99681723]
+Wörter: proxy.cse.cuhk.edu.hk:9999 , Vorhersage: variabel, Werte: [0.9971633], [1.], [1.], [1.], [1.], [1.], [1.], [1.], [1.], [1.], [1.], [0.9959654]
+Wörter: https, Vorhersage: statisch, Werte: [-0.9970367]
+
+Log: pic9.zhimg.com:999 close, 9999 bytes (9.99 KB) sent, 9999 bytes (9.99 KB) received, lifetime 99:99
+[400   8   7 747   7  57   9  59   2  79   5   2  39   2  54   2   3   8
+   7  37   2  55   4   2  83   5   2  39   2  54   2   3   8   7  37   2
+  55   4   2  86   5   2  87   2  37   9  37   0   0   0   0   0   0   0
+   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0
+   0]
+Wörter: pic9.zhimg.com:999 , Vorhersage: variabel, Werte: [0.99974304], [1.], [1.], [1.], [1.], [1.], [1.], [1.], [0.9998437]
+Wörter: close, , Vorhersage: statisch, Werte: [-0.9998], [-0.99994713], [-0.99795616]
+Wörter: 9999 , Vorhersage: variabel, Werte: [0.9999994], [0.9999236]
+Wörter: bytes , Vorhersage: statisch, Werte: [-0.9972018], [-0.9996131]
+Wörter: (9.99 kb) , Vorhersage: variabel, Werte: [0.9996208], [1.], [1.], [1.], [1.], [1.], [1.], [0.99994254]
+Wörter: sent, , Vorhersage: statisch, Werte: [-0.9995719], [-0.9998808], [-0.9949631]
+Wörter: 9999 , Vorhersage: variabel, Werte: [0.9999995], [0.9999332]
+Wörter: bytes , Vorhersage: statisch, Werte: [-0.9970099], [-0.9996162]
+Wörter: (9.99 kb) , Vorhersage: variabel, Werte: [0.99959135], [1.], [1.], [1.], [1.], [1.], [1.], [0.9998884]
+Wörter: received, lifetime , Vorhersage: statisch, Werte: [-0.9997043], [-0.999963], [-0.99988735], [-0.9999218], [-0.99937737]
+Wörter: 99:99, Vorhersage: variabel, Werte: [0.99949396], [0.9953175], [0.99984014]
+
+Log: ping9.teamviewer.com:999 (IPv9) error : Could not connect through proxy proxy.cse.cuhk.edu.hk:9999 - Proxy server cannot establish a connection with the target, status code 999
+[487   8   7 461   7  57   9  59   2   3 724   8   4   2 102   2   9   2
+ 114   2 109   2 131   2  63   2  44   2  44   7  49   7  50   7  48   7
+  40   9  39   2   6   2  44   2 192   2 201   2 204   2  11   2 129   2
+ 164   2 143   2 202   5   2 203   2 197   2  59   0   0   0   0   0   0
+   0]
+Wörter: ping9.teamviewer.com:999 (ipv9) , Vorhersage: variabel, Werte: [0.99962837], [1.], [1.], [1.], [1.], [1.], [1.], [1.], [0.9998922], [0.99994993], [0.9990661], [0.99999905], [1.], [0.9996699]
+Wörter: error : could not connect through proxy , Vorhersage: statisch, Werte: [-0.99770755], [-0.9997824], [-0.99830925], [-0.9997379], [-0.9998021], [-0.99979514], [-0.99944293], [-0.9995105], [-0.9991403], [-0.9996398], [-0.9999987], [-0.99998933], [-0.9971813], [-0.99456525]
+Wörter: proxy.cse.cuhk.edu.hk:9999 , Vorhersage: variabel, Werte: [0.9976276], [1.], [1.], [1.], [1.], [1.], [1.], [1.], [1.], [1.], [1.], [0.99864393]
+Wörter: - proxy server cannot establish a connection with the target, status code , Vorhersage: statisch, Werte: [-0.9906756], [-0.9998807], [-0.9960048], [-0.9986269], [-0.9948048], [-0.9986143], [-0.9973321], [-0.9991506], [-0.99753255], [-0.9992552], [-0.99669605], [-0.9989892], [-0.9992334], [-0.99945706], [-0.99866575], [-0.9992422], [-0.99940753], [-0.9995692], [-0.99809486], [-0.999396], [-0.9986086], [-0.99611604], [-0.9975111], [-0.99366987], [-0.9901026]
+Wörter: 999, Vorhersage: variabel, Werte: [0.9921028]
+
+Log: Component State Change: Component \999alt9\999 is in the unavailable state (HWID=9999)
+[ 57  26 106 115   2 181  15   2 666   9   2  57  26 106 115   2  59  11
+ 278   8  59   2 415   2 107   2 143   2 402 274  11 205  11  12  90   2
+ 181  15   2   3  18  33  99  39   4   0   0   0   0   0   0   0   0   0
+   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0
+   0]
+Wörter: component state, Vorhersage: variabel, Werte: [0.9999227], [0.9988031], [0.9956702], [0.9931268], [0.24427031], [0.66131496], [0.9221904]
+Wörter:  , Vorhersage: statisch, Werte: [-0.64918417]
+Wörter: change:, Vorhersage: variabel, Werte: [0.5135423], [0.91274863]
+Wörter:  , Vorhersage: statisch, Werte: [-0.4501514]
+Wörter: component 999alt9999 is, Vorhersage: variabel, Werte: [0.9998346], [0.9977936], [0.9945111], [0.9949013], [0.7318434], [0.99999225], [0.9968108], [0.9985793], [0.9999992], [1.], [0.999934], [0.99675936]
+Wörter:  in the unava, Vorhersage: statisch, Werte: [-0.7296904], [-0.911216], [-0.99782205], [-0.999297], [-0.9994955], [-0.9724732], [-0.8621588], [-0.8748528]
+Wörter: il, Vorhersage: variabel, Werte: [0.30782536]
+Wörter: a, Vorhersage: statisch, Werte: [-0.163759]
+Wörter: ble, Vorhersage: variabel, Werte: [0.9675358], [0.9556976]
+Wörter:  , Vorhersage: statisch, Werte: [-0.32477647]
+Wörter: state, Vorhersage: variabel, Werte: [0.5505756], [0.8955378]
+Wörter:  , Vorhersage: statisch, Werte: [-0.7334375]
+Wörter: (hwid9999), Vorhersage: variabel, Werte: [0.9964646], [0.9856775], [0.9849283], [0.9925011], [0.9999987], [0.9999969]
+
+Log: unix.hw state_change.unavailable 9999999999 9 Component State Change: Component \999alt9\999 is in the unavailable state (HWID=9999)
+[402 355   7  18  33   2 181  15 666   7 402 274  11 205  11  12  90   2
+  39 127   2   8   2  57  26 106 115   2 181  15   2 666   9   2  57  26
+ 106 115   2  59  11 278   8  59   2 415   2 107   2 143   2 402 274  11
+ 205  11  12  90   2 181  15   2   3  18  33  99  39   4   0   0   0   0
+   0]
+Wörter: unix.hw statechange.unavailable 9999999999 9 component, Vorhersage: variabel, Werte: [0.99338216], [0.99941003], [1.], [0.9999819], [0.9998501], [0.98185486], [0.9574323], [0.99063104], [0.99819326], [1.], [0.9999318], [0.9983897], [0.9255518], [0.9479206], [0.36683866], [0.9862374], [0.98519367], [0.7058886], [0.9999997], [1.], [0.9999722], [0.99999964], [0.999817], [0.99999094], [0.99911743], [0.99149346], [0.9753035]
+Wörter:  , Vorhersage: statisch, Werte: [-0.6015472]
+Wörter: state, Vorhersage: variabel, Werte: [0.19557247], [0.8568288]
+Wörter:  , Vorhersage: statisch, Werte: [-0.7364777]
+Wörter: change:, Vorhersage: variabel, Werte: [0.46332532], [0.90910935]
+Wörter:  , Vorhersage: statisch, Werte: [-0.4507666]
+Wörter: component 999alt9999 is, Vorhersage: variabel, Werte: [0.99983394], [0.99779236], [0.99451387], [0.99490565], [0.7322339], [0.9999923], [0.9968105], [0.9985791], [0.9999994], [1.], [0.999934], [0.9967588]
+Wörter:  in the unava, Vorhersage: statisch, Werte: [-0.7297591], [-0.91125494], [-0.9978227], [-0.9992971], [-0.99949545], [-0.9724834], [-0.8622362], [-0.87493503]
+Wörter: il, Vorhersage: variabel, Werte: [0.30576327]
+Wörter: a, Vorhersage: statisch, Werte: [-0.16690041]
+Wörter: ble, Vorhersage: variabel, Werte: [0.9673099], [0.9552517]
+Wörter:  , Vorhersage: statisch, Werte: [-0.33168417]
+Wörter: state, Vorhersage: variabel, Werte: [0.5427814], [0.8925732]
+Wörter:  , Vorhersage: statisch, Werte: [-0.7420694]
+Wörter: (hwid9999), Vorhersage: variabel, Werte: [0.9963188], [0.98486495], [0.9837784], [0.9917958], [0.9999986], [0.9999968]
+
+Log: node-999 node status 9999999999 9 configured out
+[316 184   6  59   2 316 184   2 203   2  39 127   2   8   2 676 580  45
+   2 449   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0
+   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0
+   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0
+   0]
+Wörter: node-999 node, Vorhersage: variabel, Werte: [0.9737342], [0.9951187], [0.97840035], [0.99999654], [0.99842507], [0.9922303], [0.98993635]
+Wörter:  status , Vorhersage: statisch, Werte: [-0.5102863], [-0.9794582], [-0.98387676]
+Wörter: 9999999999 9 configured, Vorhersage: variabel, Werte: [0.9999976], [0.9999989], [0.9998943], [0.9999985], [0.99816674], [0.94875515], [0.628812], [0.5886065]
+Wörter:  out, Vorhersage: statisch, Werte: [-0.8963587], [-0.09316783]
+
+Log: My election bind port: 9.9.9.9/9.9.9.9:9999
+[ 23  35   2 150  70 117   2  12 107  14   2 268 265   9   2   8   7   8
+   7   8   7   8   8   7   8   7   8   7   8   9  39   0   0   0   0   0
+   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0
+   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0
+   0]
+Wörter: my, Vorhersage: variabel, Werte: [0.92675704], [0.93610126]
+Wörter:  , Vorhersage: statisch, Werte: [-0.36237356]
+Wörter: election, Vorhersage: variabel, Werte: [0.232769], [0.24497199], [0.61126995]
+Wörter:  , Vorhersage: statisch, Werte: [-0.75312513]
+Wörter: bind port: 9.9.9.99.9.9.9:9999, Vorhersage: variabel, Werte: [0.8179289], [0.82725686], [0.9789558], [0.05462135], [0.69722426], [0.96871465], [0.9974566], [0.9697571], [1.], [1.], [1.], [1.], [1.], [1.], [1.], [1.], [1.], [1.], [1.], [1.], [1.], [1.], [0.9999997], [1.]
+
+Log: Closed socket connection for client /99.99.99.99:99999 which had sessionid 9x99f9a99999b999e
+[480   2 404 103   2 129   2 182  28   2 152   2  37   7  37   7  37   7
+  37   9  88   2  33 277 175   2  18 140   2  41 237  19 106  99   2   8
+  34  37  16   8  11  88  12  59  15   0   0   0   0   0   0   0   0   0
+   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0
+   0]
+Wörter: closed socket connection fo, Vorhersage: statisch, Werte: [-0.11220738], [-0.92706764], [-0.8377422], [-0.24732946], [-0.9719311], [-0.99565643], [-0.9970184], [-0.6857168]
+Wörter: r client 99.99.99.99:99999 w, Vorhersage: variabel, Werte: [0.9948631], [0.848718], [0.99969876], [0.99660844], [1.], [1.], [1.], [1.], [1.], [1.], [1.], [1.], [1.], [0.9998191], [0.85885614]
+Wörter: hi, Vorhersage: statisch, Werte: [-0.08377732]
+Wörter: ch, Vorhersage: variabel, Werte: [0.5283874]
+Wörter:  h, Vorhersage: statisch, Werte: [-0.94180447], [-0.7504573]
+Wörter: ad, Vorhersage: variabel, Werte: [0.7645151]
+Wörter:  se, Vorhersage: statisch, Werte: [-0.8028084], [-0.04756522]
+Wörter: ssionid 9x99f9a99999b999e, Vorhersage: variabel, Werte: [0.9252107], [0.9882829], [0.9811227], [0.9901772], [0.66307294], [0.9999846], [0.9997977], [0.99999964], [0.9999877], [1.], [0.9998615], [1.], [0.99998903], [0.9999995], [0.99629724]
+
+Log: caught end of stream exception
+[118  60  18  30   2 645   2  25  16   2 339 123 435   2 439 380  26 117
+   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0
+   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0
+   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0
+   0]
+Wörter: caught, Vorhersage: variabel, Werte: [0.82091737], [0.88508207], [0.895831], [0.97283536]
+Wörter:  end o, Vorhersage: statisch, Werte: [-0.3302648], [-0.38816857], [-0.9807849], [-0.8273732]
+Wörter: f, Vorhersage: variabel, Werte: [0.89906335]
+Wörter:  stre, Vorhersage: statisch, Werte: [-0.7094117], [-0.2171701], [-0.00073022]
+Wörter: am, Vorhersage: variabel, Werte: [0.5085239]
+Wörter:  exce, Vorhersage: statisch, Werte: [-0.8774376], [-0.7751623], [-0.41008922]
+Wörter: ption, Vorhersage: variabel, Werte: [0.16978256], [0.00312375]
+Model: "sequential"
+┏━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━┳━━━━━━━━━━━━━━━━━━━━━━━━━━━━━┳━━━━━━━━━━━━━━━━━┓
+┃ Layer (type)                         ┃ Output Shape                ┃         Param # ┃
+┡━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━╇━━━━━━━━━━━━━━━━━━━━━━━━━━━━━╇━━━━━━━━━━━━━━━━━┩
+│ embedding (Embedding)                │ (None, 73, 64)              │          83,648 │
+├──────────────────────────────────────┼─────────────────────────────┼─────────────────┤
+│ bidirectional (Bidirectional)        │ (None, 73, 256)             │         148,992 │
+├──────────────────────────────────────┼─────────────────────────────┼─────────────────┤
+│ time_distributed (TimeDistributed)   │ (None, 73, 128)             │          32,896 │
+├──────────────────────────────────────┼─────────────────────────────┼─────────────────┤
+│ dropout (Dropout)                    │ (None, 73, 128)             │               0 │
+├──────────────────────────────────────┼─────────────────────────────┼─────────────────┤
+│ time_distributed_1 (TimeDistributed) │ (None, 73, 1)               │             129 │
+└──────────────────────────────────────┴─────────────────────────────┴─────────────────┘
+ Total params: 796,997 (3.04 MB)
+ Trainable params: 265,665 (1.01 MB)
+ Non-trainable params: 0 (0.00 B)
+ Optimizer params: 531,332 (2.03 MB)
+
+Training auf folgende Datei: Datensätze/Vorbereitete Daten - Beispiel/proxifier_v1/2k/Proxifier_2k_evaluate_content.txt
+Total Trainings-Loss: [0.16163399815559387, 0.005391962360590696, 0.0017911407630890608, 0.0015812345081940293, 0.0015326665015891194, 0.0014993378426879644, 0.0014876219211146235, 0.0014769923873245716, 0.0014561458956450224, 0.0014265644131228328]
+Total Trainings-Accuracy: [0.7361965179443359, 0.8410539627075195, 0.8423887491226196, 0.8424448370933533, 0.8424517512321472, 0.8424657583236694, 0.8424657583236694, 0.8424656391143799, 0.8424587249755859, 0.8424658179283142]
+Total Validierungs-Loss: [0.005346035584807396, 0.0002803885727189481, 4.586195791489445e-05, 2.0907562429783866e-05, 1.3066477549728006e-05, 8.248020094470121e-06, 7.158333573897835e-06, 4.61693161923904e-06, 7.566392014268786e-06, 3.4819927350326907e-06]
+Total Validierungs-Accuracy: [0.8654109835624695, 0.8654109835624695, 0.8654109835624695, 0.8654109835624695, 0.8654109835624695, 0.8654109835624695, 0.8654109835624695, 0.8654109835624695, 0.8654109835624695, 0.8654109835624695]

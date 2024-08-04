@@ -1,0 +1,40 @@
+switch_module error 9999999999 9 link errors remain current
+gige9 gige temperature 9999999999 9 warning
+warning
+node-D9 clusterfilesystem clusterfilesystem.not_served 9999999999 9 ClusterFileSystem: ServerFileSystem domain root9_local is no longer served by node node-99
+normal
+9 ServerFileSystem: ServerFileSystem domain root99_tmp is full
+ambient=99
+Component State Change: Component 999SCSI-WWID:99999999:9999-9fe9-9999-ed99-9999-9999-9999-999a999 is in the unavailable state (HWID=99)
+active
+Targeting domains:node-D9 and nodes:node-[999-999\ 999-999]
+9 ClusterFileSystem: ServerFileSystem domain cluster_root_backup is no longer served by node node-99
+Targeting domains:node-D9 and nodes:node-999
+ambient=99
+running
+9 ClusterFileSystem: ServerFileSystem domain root99_local is no longer served by node node-999
+unix.hw state_change.unavailable 9999999999 9 Component State Change: Component \999SCSI-WWID:99999999:9999-99b9-9999-9999-9999-b999-999f-9999\999 is in the unavailable state (HWID=9999)
+Linkerror event interval expired
+node temperature 9999999999 9 ambient=99
+Linkerror event interval expired
+node-99 unix.hw state_change.unavailable 9999999999 9 Component State Change: Component \999SCSI-WWID:99999999:9999-99b9-9999-999b-9999-d999-99bc-9999\999 is in the unavailable state (HWID=9999)
+Fan speeds ( 9999 9999 9999 **** 9999 9999 )
+ambient=99
+Linkerror event interval expired
+Fan speeds ( 9999 9999 9999 **** 9999 9999 )
+unix.hw net.niff.down 9999999999 9 NIFF: node node-99 detected a failed network connection on network 9.9.999.9 via interface alt9
+inconsistent nodesets node-999 9x999999fe <ok> node-999 9x999999fe <ok> node-999 9x9999e9fe <ok> node-999 9x9999e9fe <ok>
+Temperature (99C) exceeds warning threshold
+9 ServerFileSystem: ServerFileSystem domain storage9999 is full
+9 wait  (command 9999)
+gige9 gige temperature 9999999999 9 normal
+unix.hw state_change.unavailable 9999999999 9 Component State Change: Component \999SCSI-WWID:99999999:9999-99b9-9999-999f-9999-9999-999c-9999\999 is in the unavailable state (HWID=999)
+clusterfilesystem clusterfilesystem.not_served 9999999999 9 ClusterFileSystem: ServerFileSystem domain root9_local is no longer served by node node-99
+inconsistent nodesets node-999 9x99999999 <ok> node-999 9x9fffe999e <ok> node-999 9x9999999e <ok> node-999 9x9999999e <ok>
+normal
+Component State Change: Component \999SCSI-WWID:9c999999:99e9-9e99-9999-99c9\999 is in the unavailable state (HWID=9999)
+Fan speeds ( 9999 9999 9999 **** 9999 9999 )
+node-D9 clusterfilesystem fdmn.full 9999999999 9 ServerFileSystem: ServerFileSystem domain root99_tmp is full
+Targeting domains:node-D[9\ 9] and nodes:node-[9-99\ 999-999]
+normal
+node-99 node status 9999999999 9 not responding

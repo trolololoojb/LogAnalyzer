@@ -1,0 +1,40 @@
+Processed session termination for sessionid: 9x99ed9ac9c9e99af
+Interrupted while waiting for message on queue
+Received connection request /99.99.99.99:99999
+Established session 9x99ee99a9c999999 with negotiated timeout 99999 for client /99.99.99.99:99999
+Interrupting SendWorker
+Client attempting to establish new session at /99.99.99.99:99999
+New election. My id =  9, proposed zxid=9x9
+Processed session termination for sessionid: 9x99ede99999f999a
+Interrupted while waiting for message on queue
+Send worker leaving thread
+Established session 9x99ede99a9a9999a with negotiated timeout 99999 for client /99.99.99.99:99999
+Closed socket connection for client /99.99.99.99:99999 which had sessionid 9x99ee9e999ed9999
+Received connection request /99.99.99.99:99999
+Interrupted while waiting for message on queue
+Processed session termination for sessionid: 9x99ee9e999ed999f
+Received connection request /99.99.99.99:99999
+Received connection request /99.99.99.99:99999
+Closed socket connection for client /99.99.99.99:99999 which had sessionid 9x99f9a9999b99999
+Processed session termination for sessionid: 9x99ed99999f999ca
+Accepted socket connection from /99.99.99.99:99999
+Send worker leaving thread
+caught end of stream exception
+Processed session termination for sessionid: 9x99f9999a9e9999b
+Expiring session 9x99ed9ac9c9e99af, timeout of 99999ms exceeded
+Expiring session 9x99ed9ac9c9e99b9, timeout of 99999ms exceeded
+Expiring session 9x99f9fdae9ba999c, timeout of 99999ms exceeded
+Processed session termination for sessionid: 9x99f9a99999b999f
+Closed socket connection for client /99.99.99.99:99999 which had sessionid 9x99ed9ac9c9e999c
+Send worker leaving thread
+Interrupted while waiting for message on queue
+Closed socket connection for client /99.99.99.99:99999 which had sessionid 9x99f9999b9af999b
+Server environment:os.version=9.99.9-99-generic
+Closed socket connection for client /99.99.99.99:99999 which had sessionid 9x99f9999999a999b
+Established session 9x99f9999a9e9999c with negotiated timeout 99999 for client /99.99.99.99:99999
+Send worker leaving thread
+Interrupting SendWorker
+Send worker leaving thread
+Established session 9x99f9a99999b999d with negotiated timeout 99999 for client /99.99.99.99:99999
+Processed session termination for sessionid: 9x99ed999999999bc
+Interrupted while waiting for message on queue
