@@ -57,7 +57,7 @@ labels = load_labels(labels_file_path)
 # Laden der Daten
 logs = []
 labels = []
-for log_file_path, label_file_path in zip(path.unique_content_path_list, path.unique_label_path_list):
+for log_file_path, label_file_path in zip(path.twok_evaluate_content_list, path.twok_evaluate_label_list):
     logs += load_logs(log_file_path)
     labels += load_labels(label_file_path)
 
@@ -117,7 +117,7 @@ dataset = dataset.batch(batch_size)
 
 # Erstellung des Modells
 model = Sequential()
-model.add(Embedding(input_dim=len(word_index) + 1, output_dim=64, input_length=max_length))
+model.add(Embedding(input_dim=len(word_index), output_dim=64, input_length=max_length))
 model.add(Bidirectional(GRU(128, return_sequences=True)))
 model.add(TimeDistributed(Dense(128, activation='relu')))
 model.add(Dropout(0.5))
