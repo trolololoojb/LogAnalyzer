@@ -133,7 +133,7 @@ def evaluate(eval_file, eval_label, additional_infos = ""):
 # for input_file, log_file, label_file, output_content, output_label in zip(path.content_file_path_list, path.twok_log_path_list, path.label_list_path_list , path.twok_evaluate_content_list, path.twok_evaluate_label_list):
 #     select_random_lines(input_file, log_file, label_file, output_content, output_label)
 add_infos = input("Sonstige Infos hinzufügen:")
-evaluate(r"Datensätze/Vorbereitete Daten - Beispiel/01_Models/20240803-173601 unique Daten alle Datensätze GZero/validation_content.txt", r"Datensätze/Vorbereitete Daten - Beispiel/01_Models/20240803-173601 unique Daten alle Datensätze GZero/validation_labels.csv", add_infos)
+evaluate(path.twok_content_path_list[4], path.twok_label_path_list[4], add_infos)
 
 # for content, label in zip(path.twok_content_path_list, path.twok_label_path_list):
 #     evaluate(content, label, add_infos)

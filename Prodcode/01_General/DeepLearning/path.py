@@ -49,7 +49,7 @@ unique_label_path_list = [
     r"Datensätze/Vorbereitete Daten - Beispiel/hdfs_v1/unique_data/label_list_hdfs.csv",
     r"Datensätze/Vorbereitete Daten - Beispiel/hpc_v1/unique_data/label_list_hpc.csv",
     r"Datensätze/Vorbereitete Daten - Beispiel/proxifier_v1/unique_data/label_list_proxifier.csv",
-    r"Datensätze/Vorbereitete Daten - Beispiel/zookeeper_v1/unique_data/label_list_zookeeper.csv"
+    #r"Datensätze/Vorbereitete Daten - Beispiel/zookeeper_v1/unique_data/label_list_zookeeper.csv"
 ]
 
 # Pfade für eindeutige Inhalte
@@ -58,7 +58,7 @@ unique_content_path_list = [
     r"Datensätze/Vorbereitete Daten - Beispiel/hdfs_v1/unique_data/content_list_hdfs.txt",
     r"Datensätze/Vorbereitete Daten - Beispiel/hpc_v1/unique_data/content_list_hpc.txt",
     r"Datensätze/Vorbereitete Daten - Beispiel/proxifier_v1/unique_data/content_list_proxifier.txt",
-    r"Datensätze/Vorbereitete Daten - Beispiel/zookeeper_v1/unique_data/content_list_zookeeper.txt"
+    #r"Datensätze/Vorbereitete Daten - Beispiel/zookeeper_v1/unique_data/content_list_zookeeper.txt"
 ]
 
 twok_label_path_list = [

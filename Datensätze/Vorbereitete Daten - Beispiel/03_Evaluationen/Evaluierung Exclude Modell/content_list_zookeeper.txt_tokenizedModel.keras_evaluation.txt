@@ -1,0 +1,3848 @@
+Model: tokenizedModel.keras
+ Evaluierungsdaten: content_list_zookeeper.txt
+ Sonstige Infos: Evaluierung Exclude Zookeeper Modell mit dem 2K Zookeeper Datensatz
+Durchschnittlicher F1-Score: 0.7232345759079613
+Ergebnisse: 
+    -Gleiche Zeilen: 1040 (52.00%)
+    -Unterschiedliche Zeilen: 960 (48.00%)
+Falsch interpretierte Zeilen:
+Logeintrag: Notification time out: 9999
+Modell-Label: [-1, 1, 1, 1]
+Echtes Label: [-1, -1, -1, 1]
+
+Logeintrag: Connection broken for id 999999999999, my id = 9, error =
+Modell-Label: [-1, -1, -1, -1, -1, 1, 1, 1, 1, 1, 1]
+Echtes Label: [-1, -1, -1, -1, 1, 1, 1, 1, 1, 1, 1]
+
+Logeintrag: Connection broken for id 999999999999, my id = 9, error =
+Modell-Label: [-1, -1, -1, -1, -1, 1, 1, 1, 1, 1, 1]
+Echtes Label: [-1, -1, -1, -1, 1, 1, 1, 1, 1, 1, 1]
+
+Logeintrag: Connection broken for id 999999999999, my id = 9, error =
+Modell-Label: [-1, -1, -1, -1, -1, 1, 1, 1, 1, 1, 1]
+Echtes Label: [-1, -1, -1, -1, 1, 1, 1, 1, 1, 1, 1]
+
+Logeintrag: Connection broken for id 999999999999, my id = 9, error =
+Modell-Label: [-1, -1, -1, -1, -1, 1, 1, 1, 1, 1, 1]
+Echtes Label: [-1, -1, -1, -1, 1, 1, 1, 1, 1, 1, 1]
+
+Logeintrag: Interrupting SendWorker
+Modell-Label: [1, 1, -1]
+Echtes Label: [-1, -1, 1]
+
+Logeintrag: Interrupting SendWorker
+Modell-Label: [1, 1, -1]
+Echtes Label: [-1, -1, 1]
+
+Logeintrag: Interrupting SendWorker
+Modell-Label: [1, 1, -1]
+Echtes Label: [-1, -1, 1]
+
+Logeintrag: Interrupting SendWorker
+Modell-Label: [1, 1, -1]
+Echtes Label: [-1, -1, 1]
+
+Logeintrag: Interrupting SendWorker
+Modell-Label: [1, 1, -1]
+Echtes Label: [-1, -1, 1]
+
+Logeintrag: Connection broken for id 999999999999, my id = 9, error =
+Modell-Label: [-1, -1, -1, -1, -1, 1, 1, 1, 1, 1, 1]
+Echtes Label: [-1, -1, -1, -1, 1, 1, 1, 1, 1, 1, 1]
+
+Logeintrag: Connection broken for id 999999999999, my id = 9, error =
+Modell-Label: [-1, -1, -1, -1, -1, 1, 1, 1, 1, 1, 1]
+Echtes Label: [-1, -1, -1, -1, 1, 1, 1, 1, 1, 1, 1]
+
+Logeintrag: Connection broken for id 999999999999, my id = 9, error =
+Modell-Label: [-1, -1, -1, -1, -1, 1, 1, 1, 1, 1, 1]
+Echtes Label: [-1, -1, -1, -1, 1, 1, 1, 1, 1, 1, 1]
+
+Logeintrag: Interrupting SendWorker
+Modell-Label: [1, 1, -1]
+Echtes Label: [-1, -1, 1]
+
+Logeintrag: Interrupting SendWorker
+Modell-Label: [1, 1, -1]
+Echtes Label: [-1, -1, 1]
+
+Logeintrag: Interrupting SendWorker
+Modell-Label: [1, 1, -1]
+Echtes Label: [-1, -1, 1]
+
+Logeintrag: Interrupting SendWorker
+Modell-Label: [1, 1, -1]
+Echtes Label: [-1, -1, 1]
+
+Logeintrag: Interrupting SendWorker
+Modell-Label: [1, 1, -1]
+Echtes Label: [-1, -1, 1]
+
+Logeintrag: Interrupting SendWorker
+Modell-Label: [1, 1, -1]
+Echtes Label: [-1, -1, 1]
+
+Logeintrag: Connection broken for id 999999999999, my id = 9, error =
+Modell-Label: [-1, -1, -1, -1, -1, 1, 1, 1, 1, 1, 1]
+Echtes Label: [-1, -1, -1, -1, 1, 1, 1, 1, 1, 1, 1]
+
+Logeintrag: Interrupting SendWorker
+Modell-Label: [1, 1, -1]
+Echtes Label: [-1, -1, 1]
+
+Logeintrag: Interrupting SendWorker
+Modell-Label: [1, 1, -1]
+Echtes Label: [-1, -1, 1]
+
+Logeintrag: Connection broken for id 999999999999, my id = 9, error =
+Modell-Label: [-1, -1, -1, -1, -1, 1, 1, 1, 1, 1, 1]
+Echtes Label: [-1, -1, -1, -1, 1, 1, 1, 1, 1, 1, 1]
+
+Logeintrag: Interrupting SendWorker
+Modell-Label: [1, 1, -1]
+Echtes Label: [-1, -1, 1]
+
+Logeintrag: Interrupting SendWorker
+Modell-Label: [1, 1, -1]
+Echtes Label: [-1, -1, 1]
+
+Logeintrag: Interrupting SendWorker
+Modell-Label: [1, 1, -1]
+Echtes Label: [-1, -1, 1]
+
+Logeintrag: Interrupting SendWorker
+Modell-Label: [1, 1, -1]
+Echtes Label: [-1, -1, 1]
+
+Logeintrag: Connection broken for id 999999999999, my id = 9, error =
+Modell-Label: [-1, -1, -1, -1, -1, 1, 1, 1, 1, 1, 1]
+Echtes Label: [-1, -1, -1, -1, 1, 1, 1, 1, 1, 1, 1]
+
+Logeintrag: Interrupting SendWorker
+Modell-Label: [1, 1, -1]
+Echtes Label: [-1, -1, 1]
+
+Logeintrag: Interrupting SendWorker
+Modell-Label: [1, 1, -1]
+Echtes Label: [-1, -1, 1]
+
+Logeintrag: Interrupting SendWorker
+Modell-Label: [1, 1, -1]
+Echtes Label: [-1, -1, 1]
+
+Logeintrag: Interrupting SendWorker
+Modell-Label: [1, 1, -1]
+Echtes Label: [-1, -1, 1]
+
+Logeintrag: Connection broken for id 999999999999, my id = 9, error =
+Modell-Label: [-1, -1, -1, -1, -1, 1, 1, 1, 1, 1, 1]
+Echtes Label: [-1, -1, -1, -1, 1, 1, 1, 1, 1, 1, 1]
+
+Logeintrag: Connection broken for id 999999999999, my id = 9, error =
+Modell-Label: [-1, -1, -1, -1, -1, 1, 1, 1, 1, 1, 1]
+Echtes Label: [-1, -1, -1, -1, 1, 1, 1, 1, 1, 1, 1]
+
+Logeintrag: Connection broken for id 999999999999, my id = 9, error =
+Modell-Label: [-1, -1, -1, -1, -1, 1, 1, 1, 1, 1, 1]
+Echtes Label: [-1, -1, -1, -1, 1, 1, 1, 1, 1, 1, 1]
+
+Logeintrag: Interrupting SendWorker
+Modell-Label: [1, 1, -1]
+Echtes Label: [-1, -1, 1]
+
+Logeintrag: Connection broken for id 999999999999, my id = 9, error =
+Modell-Label: [-1, -1, -1, -1, -1, 1, 1, 1, 1, 1, 1]
+Echtes Label: [-1, -1, -1, -1, 1, 1, 1, 1, 1, 1, 1]
+
+Logeintrag: Connection broken for id 999999999999, my id = 9, error =
+Modell-Label: [-1, -1, -1, -1, -1, 1, 1, 1, 1, 1, 1]
+Echtes Label: [-1, -1, -1, -1, 1, 1, 1, 1, 1, 1, 1]
+
+Logeintrag: Interrupting SendWorker
+Modell-Label: [1, 1, -1]
+Echtes Label: [-1, -1, 1]
+
+Logeintrag: Interrupting SendWorker
+Modell-Label: [1, 1, -1]
+Echtes Label: [-1, -1, 1]
+
+Logeintrag: Interrupting SendWorker
+Modell-Label: [1, 1, -1]
+Echtes Label: [-1, -1, 1]
+
+Logeintrag: Interrupting SendWorker
+Modell-Label: [1, 1, -1]
+Echtes Label: [-1, -1, 1]
+
+Logeintrag: Interrupting SendWorker
+Modell-Label: [1, 1, -1]
+Echtes Label: [-1, -1, 1]
+
+Logeintrag: Connection broken for id 999999999999, my id = 9, error =
+Modell-Label: [-1, -1, -1, -1, -1, 1, 1, 1, 1, 1, 1]
+Echtes Label: [-1, -1, -1, -1, 1, 1, 1, 1, 1, 1, 1]
+
+Logeintrag: Interrupting SendWorker
+Modell-Label: [1, 1, -1]
+Echtes Label: [-1, -1, 1]
+
+Logeintrag: Interrupting SendWorker
+Modell-Label: [1, 1, -1]
+Echtes Label: [-1, -1, 1]
+
+Logeintrag: Connection broken for id 999999999999, my id = 9, error =
+Modell-Label: [-1, -1, -1, -1, -1, 1, 1, 1, 1, 1, 1]
+Echtes Label: [-1, -1, -1, -1, 1, 1, 1, 1, 1, 1, 1]
+
+Logeintrag: Connection broken for id 999999999999, my id = 9, error =
+Modell-Label: [-1, -1, -1, -1, -1, 1, 1, 1, 1, 1, 1]
+Echtes Label: [-1, -1, -1, -1, 1, 1, 1, 1, 1, 1, 1]
+
+Logeintrag: Interrupting SendWorker
+Modell-Label: [1, 1, -1]
+Echtes Label: [-1, -1, 1]
+
+Logeintrag: Connection broken for id 999999999999, my id = 9, error =
+Modell-Label: [-1, -1, -1, -1, -1, 1, 1, 1, 1, 1, 1]
+Echtes Label: [-1, -1, -1, -1, 1, 1, 1, 1, 1, 1, 1]
+
+Logeintrag: Interrupting SendWorker
+Modell-Label: [1, 1, -1]
+Echtes Label: [-1, -1, 1]
+
+Logeintrag: Connection broken for id 999999999999, my id = 9, error =
+Modell-Label: [-1, -1, -1, -1, -1, 1, 1, 1, 1, 1, 1]
+Echtes Label: [-1, -1, -1, -1, 1, 1, 1, 1, 1, 1, 1]
+
+Logeintrag: Interrupting SendWorker
+Modell-Label: [1, 1, -1]
+Echtes Label: [-1, -1, 1]
+
+Logeintrag: Connection broken for id 999999999999, my id = 9, error =
+Modell-Label: [-1, -1, -1, -1, -1, 1, 1, 1, 1, 1, 1]
+Echtes Label: [-1, -1, -1, -1, 1, 1, 1, 1, 1, 1, 1]
+
+Logeintrag: Interrupting SendWorker
+Modell-Label: [1, 1, -1]
+Echtes Label: [-1, -1, 1]
+
+Logeintrag: Connection broken for id 999999999999, my id = 9, error =
+Modell-Label: [-1, -1, -1, -1, -1, 1, 1, 1, 1, 1, 1]
+Echtes Label: [-1, -1, -1, -1, 1, 1, 1, 1, 1, 1, 1]
+
+Logeintrag: Interrupting SendWorker
+Modell-Label: [1, 1, -1]
+Echtes Label: [-1, -1, 1]
+
+Logeintrag: Interrupting SendWorker
+Modell-Label: [1, 1, -1]
+Echtes Label: [-1, -1, 1]
+
+Logeintrag: Interrupting SendWorker
+Modell-Label: [1, 1, -1]
+Echtes Label: [-1, -1, 1]
+
+Logeintrag: Connection broken for id 999999999999, my id = 9, error =
+Modell-Label: [-1, -1, -1, -1, -1, 1, 1, 1, 1, 1, 1]
+Echtes Label: [-1, -1, -1, -1, 1, 1, 1, 1, 1, 1, 1]
+
+Logeintrag: Connection broken for id 999999999999, my id = 9, error =
+Modell-Label: [-1, -1, -1, -1, -1, 1, 1, 1, 1, 1, 1]
+Echtes Label: [-1, -1, -1, -1, 1, 1, 1, 1, 1, 1, 1]
+
+Logeintrag: Interrupting SendWorker
+Modell-Label: [1, 1, -1]
+Echtes Label: [-1, -1, 1]
+
+Logeintrag: Connection broken for id 999999999999, my id = 9, error =
+Modell-Label: [-1, -1, -1, -1, -1, 1, 1, 1, 1, 1, 1]
+Echtes Label: [-1, -1, -1, -1, 1, 1, 1, 1, 1, 1, 1]
+
+Logeintrag: Connection broken for id 999999999999, my id = 9, error =
+Modell-Label: [-1, -1, -1, -1, -1, 1, 1, 1, 1, 1, 1]
+Echtes Label: [-1, -1, -1, -1, 1, 1, 1, 1, 1, 1, 1]
+
+Logeintrag: Connection broken for id 999999999999, my id = 9, error =
+Modell-Label: [-1, -1, -1, -1, -1, 1, 1, 1, 1, 1, 1]
+Echtes Label: [-1, -1, -1, -1, 1, 1, 1, 1, 1, 1, 1]
+
+Logeintrag: Connection broken for id 999999999999, my id = 9, error =
+Modell-Label: [-1, -1, -1, -1, -1, 1, 1, 1, 1, 1, 1]
+Echtes Label: [-1, -1, -1, -1, 1, 1, 1, 1, 1, 1, 1]
+
+Logeintrag: Interrupting SendWorker
+Modell-Label: [1, 1, -1]
+Echtes Label: [-1, -1, 1]
+
+Logeintrag: Interrupting SendWorker
+Modell-Label: [1, 1, -1]
+Echtes Label: [-1, -1, 1]
+
+Logeintrag: Interrupting SendWorker
+Modell-Label: [1, 1, -1]
+Echtes Label: [-1, -1, 1]
+
+Logeintrag: Connection broken for id 999999999999, my id = 9, error =
+Modell-Label: [-1, -1, -1, -1, -1, 1, 1, 1, 1, 1, 1]
+Echtes Label: [-1, -1, -1, -1, 1, 1, 1, 1, 1, 1, 1]
+
+Logeintrag: Connection broken for id 999999999999, my id = 9, error =
+Modell-Label: [-1, -1, -1, -1, -1, 1, 1, 1, 1, 1, 1]
+Echtes Label: [-1, -1, -1, -1, 1, 1, 1, 1, 1, 1, 1]
+
+Logeintrag: Interrupting SendWorker
+Modell-Label: [1, 1, -1]
+Echtes Label: [-1, -1, 1]
+
+Logeintrag: Interrupting SendWorker
+Modell-Label: [1, 1, -1]
+Echtes Label: [-1, -1, 1]
+
+Logeintrag: Connection broken for id 999999999999, my id = 9, error =
+Modell-Label: [-1, -1, -1, -1, -1, 1, 1, 1, 1, 1, 1]
+Echtes Label: [-1, -1, -1, -1, 1, 1, 1, 1, 1, 1, 1]
+
+Logeintrag: Connection broken for id 999999999999, my id = 9, error =
+Modell-Label: [-1, -1, -1, -1, -1, 1, 1, 1, 1, 1, 1]
+Echtes Label: [-1, -1, -1, -1, 1, 1, 1, 1, 1, 1, 1]
+
+Logeintrag: Connection broken for id 999999999999, my id = 9, error =
+Modell-Label: [-1, -1, -1, -1, -1, 1, 1, 1, 1, 1, 1]
+Echtes Label: [-1, -1, -1, -1, 1, 1, 1, 1, 1, 1, 1]
+
+Logeintrag: Interrupting SendWorker
+Modell-Label: [1, 1, -1]
+Echtes Label: [-1, -1, 1]
+
+Logeintrag: Interrupting SendWorker
+Modell-Label: [1, 1, -1]
+Echtes Label: [-1, -1, 1]
+
+Logeintrag: Connection broken for id 999999999999, my id = 9, error =
+Modell-Label: [-1, -1, -1, -1, -1, 1, 1, 1, 1, 1, 1]
+Echtes Label: [-1, -1, -1, -1, 1, 1, 1, 1, 1, 1, 1]
+
+Logeintrag: Interrupting SendWorker
+Modell-Label: [1, 1, -1]
+Echtes Label: [-1, -1, 1]
+
+Logeintrag: Interrupting SendWorker
+Modell-Label: [1, 1, -1]
+Echtes Label: [-1, -1, 1]
+
+Logeintrag: Interrupting SendWorker
+Modell-Label: [1, 1, -1]
+Echtes Label: [-1, -1, 1]
+
+Logeintrag: Connection broken for id 999999999999, my id = 9, error =
+Modell-Label: [-1, -1, -1, -1, -1, 1, 1, 1, 1, 1, 1]
+Echtes Label: [-1, -1, -1, -1, 1, 1, 1, 1, 1, 1, 1]
+
+Logeintrag: Interrupting SendWorker
+Modell-Label: [1, 1, -1]
+Echtes Label: [-1, -1, 1]
+
+Logeintrag: Connection broken for id 999999999999, my id = 9, error =
+Modell-Label: [-1, -1, -1, -1, -1, 1, 1, 1, 1, 1, 1]
+Echtes Label: [-1, -1, -1, -1, 1, 1, 1, 1, 1, 1, 1]
+
+Logeintrag: Connection broken for id 999999999999, my id = 9, error =
+Modell-Label: [-1, -1, -1, -1, -1, 1, 1, 1, 1, 1, 1]
+Echtes Label: [-1, -1, -1, -1, 1, 1, 1, 1, 1, 1, 1]
+
+Logeintrag: Interrupting SendWorker
+Modell-Label: [1, 1, -1]
+Echtes Label: [-1, -1, 1]
+
+Logeintrag: Connection broken for id 999999999999, my id = 9, error =
+Modell-Label: [-1, -1, -1, -1, -1, 1, 1, 1, 1, 1, 1]
+Echtes Label: [-1, -1, -1, -1, 1, 1, 1, 1, 1, 1, 1]
+
+Logeintrag: Interrupting SendWorker
+Modell-Label: [1, 1, -1]
+Echtes Label: [-1, -1, 1]
+
+Logeintrag: Interrupting SendWorker
+Modell-Label: [1, 1, -1]
+Echtes Label: [-1, -1, 1]
+
+Logeintrag: Interrupting SendWorker
+Modell-Label: [1, 1, -1]
+Echtes Label: [-1, -1, 1]
+
+Logeintrag: Interrupting SendWorker
+Modell-Label: [1, 1, -1]
+Echtes Label: [-1, -1, 1]
+
+Logeintrag: Interrupting SendWorker
+Modell-Label: [1, 1, -1]
+Echtes Label: [-1, -1, 1]
+
+Logeintrag: Interrupting SendWorker
+Modell-Label: [1, 1, -1]
+Echtes Label: [-1, -1, 1]
+
+Logeintrag: Connection broken for id 999999999999, my id = 9, error =
+Modell-Label: [-1, -1, -1, -1, -1, 1, 1, 1, 1, 1, 1]
+Echtes Label: [-1, -1, -1, -1, 1, 1, 1, 1, 1, 1, 1]
+
+Logeintrag: Connection broken for id 999999999999, my id = 9, error =
+Modell-Label: [-1, -1, -1, -1, -1, 1, 1, 1, 1, 1, 1]
+Echtes Label: [-1, -1, -1, -1, 1, 1, 1, 1, 1, 1, 1]
+
+Logeintrag: Interrupting SendWorker
+Modell-Label: [1, 1, -1]
+Echtes Label: [-1, -1, 1]
+
+Logeintrag: Interrupting SendWorker
+Modell-Label: [1, 1, -1]
+Echtes Label: [-1, -1, 1]
+
+Logeintrag: Connection broken for id 999999999999, my id = 9, error =
+Modell-Label: [-1, -1, -1, -1, -1, 1, 1, 1, 1, 1, 1]
+Echtes Label: [-1, -1, -1, -1, 1, 1, 1, 1, 1, 1, 1]
+
+Logeintrag: Connection broken for id 999999999999, my id = 9, error =
+Modell-Label: [-1, -1, -1, -1, -1, 1, 1, 1, 1, 1, 1]
+Echtes Label: [-1, -1, -1, -1, 1, 1, 1, 1, 1, 1, 1]
+
+Logeintrag: Connection broken for id 999999999999, my id = 9, error =
+Modell-Label: [-1, -1, -1, -1, -1, 1, 1, 1, 1, 1, 1]
+Echtes Label: [-1, -1, -1, -1, 1, 1, 1, 1, 1, 1, 1]
+
+Logeintrag: Connection broken for id 999999999999, my id = 9, error =
+Modell-Label: [-1, -1, -1, -1, -1, 1, 1, 1, 1, 1, 1]
+Echtes Label: [-1, -1, -1, -1, 1, 1, 1, 1, 1, 1, 1]
+
+Logeintrag: Interrupting SendWorker
+Modell-Label: [1, 1, -1]
+Echtes Label: [-1, -1, 1]
+
+Logeintrag: Connection broken for id 999999999999, my id = 9, error =
+Modell-Label: [-1, -1, -1, -1, -1, 1, 1, 1, 1, 1, 1]
+Echtes Label: [-1, -1, -1, -1, 1, 1, 1, 1, 1, 1, 1]
+
+Logeintrag: Interrupting SendWorker
+Modell-Label: [1, 1, -1]
+Echtes Label: [-1, -1, 1]
+
+Logeintrag: Interrupting SendWorker
+Modell-Label: [1, 1, -1]
+Echtes Label: [-1, -1, 1]
+
+Logeintrag: Interrupting SendWorker
+Modell-Label: [1, 1, -1]
+Echtes Label: [-1, -1, 1]
+
+Logeintrag: Interrupting SendWorker
+Modell-Label: [1, 1, -1]
+Echtes Label: [-1, -1, 1]
+
+Logeintrag: Connection broken for id 999999999999, my id = 9, error =
+Modell-Label: [-1, -1, -1, -1, -1, 1, 1, 1, 1, 1, 1]
+Echtes Label: [-1, -1, -1, -1, 1, 1, 1, 1, 1, 1, 1]
+
+Logeintrag: Connection broken for id 999999999999, my id = 9, error =
+Modell-Label: [-1, -1, -1, -1, -1, 1, 1, 1, 1, 1, 1]
+Echtes Label: [-1, -1, -1, -1, 1, 1, 1, 1, 1, 1, 1]
+
+Logeintrag: Connection broken for id 999999999999, my id = 9, error =
+Modell-Label: [-1, -1, -1, -1, -1, 1, 1, 1, 1, 1, 1]
+Echtes Label: [-1, -1, -1, -1, 1, 1, 1, 1, 1, 1, 1]
+
+Logeintrag: Interrupting SendWorker
+Modell-Label: [1, 1, -1]
+Echtes Label: [-1, -1, 1]
+
+Logeintrag: Interrupting SendWorker
+Modell-Label: [1, 1, -1]
+Echtes Label: [-1, -1, 1]
+
+Logeintrag: Connection broken for id 999999999999, my id = 9, error =
+Modell-Label: [-1, -1, -1, -1, -1, 1, 1, 1, 1, 1, 1]
+Echtes Label: [-1, -1, -1, -1, 1, 1, 1, 1, 1, 1, 1]
+
+Logeintrag: Interrupting SendWorker
+Modell-Label: [1, 1, -1]
+Echtes Label: [-1, -1, 1]
+
+Logeintrag: Interrupting SendWorker
+Modell-Label: [1, 1, -1]
+Echtes Label: [-1, -1, 1]
+
+Logeintrag: Connection broken for id 999999999999, my id = 9, error =
+Modell-Label: [-1, -1, -1, -1, -1, 1, 1, 1, 1, 1, 1]
+Echtes Label: [-1, -1, -1, -1, 1, 1, 1, 1, 1, 1, 1]
+
+Logeintrag: Connection broken for id 999999999999, my id = 9, error =
+Modell-Label: [-1, -1, -1, -1, -1, 1, 1, 1, 1, 1, 1]
+Echtes Label: [-1, -1, -1, -1, 1, 1, 1, 1, 1, 1, 1]
+
+Logeintrag: Connection broken for id 999999999999, my id = 9, error =
+Modell-Label: [-1, -1, -1, -1, -1, 1, 1, 1, 1, 1, 1]
+Echtes Label: [-1, -1, -1, -1, 1, 1, 1, 1, 1, 1, 1]
+
+Logeintrag: Connection broken for id 999999999999, my id = 9, error =
+Modell-Label: [-1, -1, -1, -1, -1, 1, 1, 1, 1, 1, 1]
+Echtes Label: [-1, -1, -1, -1, 1, 1, 1, 1, 1, 1, 1]
+
+Logeintrag: Interrupting SendWorker
+Modell-Label: [1, 1, -1]
+Echtes Label: [-1, -1, 1]
+
+Logeintrag: Connection broken for id 999999999999, my id = 9, error =
+Modell-Label: [-1, -1, -1, -1, -1, 1, 1, 1, 1, 1, 1]
+Echtes Label: [-1, -1, -1, -1, 1, 1, 1, 1, 1, 1, 1]
+
+Logeintrag: Connection broken for id 999999999999, my id = 9, error =
+Modell-Label: [-1, -1, -1, -1, -1, 1, 1, 1, 1, 1, 1]
+Echtes Label: [-1, -1, -1, -1, 1, 1, 1, 1, 1, 1, 1]
+
+Logeintrag: Interrupting SendWorker
+Modell-Label: [1, 1, -1]
+Echtes Label: [-1, -1, 1]
+
+Logeintrag: Interrupting SendWorker
+Modell-Label: [1, 1, -1]
+Echtes Label: [-1, -1, 1]
+
+Logeintrag: Connection broken for id 999999999999, my id = 9, error =
+Modell-Label: [-1, -1, -1, -1, -1, 1, 1, 1, 1, 1, 1]
+Echtes Label: [-1, -1, -1, -1, 1, 1, 1, 1, 1, 1, 1]
+
+Logeintrag: Connection broken for id 999999999999, my id = 9, error =
+Modell-Label: [-1, -1, -1, -1, -1, 1, 1, 1, 1, 1, 1]
+Echtes Label: [-1, -1, -1, -1, 1, 1, 1, 1, 1, 1, 1]
+
+Logeintrag: Connection broken for id 999999999999, my id = 9, error =
+Modell-Label: [-1, -1, -1, -1, -1, 1, 1, 1, 1, 1, 1]
+Echtes Label: [-1, -1, -1, -1, 1, 1, 1, 1, 1, 1, 1]
+
+Logeintrag: Connection broken for id 999999999999, my id = 9, error =
+Modell-Label: [-1, -1, -1, -1, -1, 1, 1, 1, 1, 1, 1]
+Echtes Label: [-1, -1, -1, -1, 1, 1, 1, 1, 1, 1, 1]
+
+Logeintrag: Interrupting SendWorker
+Modell-Label: [1, 1, -1]
+Echtes Label: [-1, -1, 1]
+
+Logeintrag: Connection broken for id 999999999999, my id = 9, error =
+Modell-Label: [-1, -1, -1, -1, -1, 1, 1, 1, 1, 1, 1]
+Echtes Label: [-1, -1, -1, -1, 1, 1, 1, 1, 1, 1, 1]
+
+Logeintrag: Connection broken for id 999999999999, my id = 9, error =
+Modell-Label: [-1, -1, -1, -1, -1, 1, 1, 1, 1, 1, 1]
+Echtes Label: [-1, -1, -1, -1, 1, 1, 1, 1, 1, 1, 1]
+
+Logeintrag: Interrupting SendWorker
+Modell-Label: [1, 1, -1]
+Echtes Label: [-1, -1, 1]
+
+Logeintrag: Interrupting SendWorker
+Modell-Label: [1, 1, -1]
+Echtes Label: [-1, -1, 1]
+
+Logeintrag: Connection broken for id 999999999999, my id = 9, error =
+Modell-Label: [-1, -1, -1, -1, -1, 1, 1, 1, 1, 1, 1]
+Echtes Label: [-1, -1, -1, -1, 1, 1, 1, 1, 1, 1, 1]
+
+Logeintrag: Connection broken for id 999999999999, my id = 9, error =
+Modell-Label: [-1, -1, -1, -1, -1, 1, 1, 1, 1, 1, 1]
+Echtes Label: [-1, -1, -1, -1, 1, 1, 1, 1, 1, 1, 1]
+
+Logeintrag: Connection broken for id 999999999999, my id = 9, error =
+Modell-Label: [-1, -1, -1, -1, -1, 1, 1, 1, 1, 1, 1]
+Echtes Label: [-1, -1, -1, -1, 1, 1, 1, 1, 1, 1, 1]
+
+Logeintrag: Connection broken for id 999999999999, my id = 9, error =
+Modell-Label: [-1, -1, -1, -1, -1, 1, 1, 1, 1, 1, 1]
+Echtes Label: [-1, -1, -1, -1, 1, 1, 1, 1, 1, 1, 1]
+
+Logeintrag: Interrupting SendWorker
+Modell-Label: [1, 1, -1]
+Echtes Label: [-1, -1, 1]
+
+Logeintrag: Connection broken for id 999999999999, my id = 9, error =
+Modell-Label: [-1, -1, -1, -1, -1, 1, 1, 1, 1, 1, 1]
+Echtes Label: [-1, -1, -1, -1, 1, 1, 1, 1, 1, 1, 1]
+
+Logeintrag: Connection broken for id 999999999999, my id = 9, error =
+Modell-Label: [-1, -1, -1, -1, -1, 1, 1, 1, 1, 1, 1]
+Echtes Label: [-1, -1, -1, -1, 1, 1, 1, 1, 1, 1, 1]
+
+Logeintrag: Connection broken for id 999999999999, my id = 9, error =
+Modell-Label: [-1, -1, -1, -1, -1, 1, 1, 1, 1, 1, 1]
+Echtes Label: [-1, -1, -1, -1, 1, 1, 1, 1, 1, 1, 1]
+
+Logeintrag: Interrupting SendWorker
+Modell-Label: [1, 1, -1]
+Echtes Label: [-1, -1, 1]
+
+Logeintrag: Connection broken for id 999999999999, my id = 9, error =
+Modell-Label: [-1, -1, -1, -1, -1, 1, 1, 1, 1, 1, 1]
+Echtes Label: [-1, -1, -1, -1, 1, 1, 1, 1, 1, 1, 1]
+
+Logeintrag: Interrupting SendWorker
+Modell-Label: [1, 1, -1]
+Echtes Label: [-1, -1, 1]
+
+Logeintrag: Interrupting SendWorker
+Modell-Label: [1, 1, -1]
+Echtes Label: [-1, -1, 1]
+
+Logeintrag: Connection broken for id 999999999999, my id = 9, error =
+Modell-Label: [-1, -1, -1, -1, -1, 1, 1, 1, 1, 1, 1]
+Echtes Label: [-1, -1, -1, -1, 1, 1, 1, 1, 1, 1, 1]
+
+Logeintrag: Connection broken for id 999999999999, my id = 9, error =
+Modell-Label: [-1, -1, -1, -1, -1, 1, 1, 1, 1, 1, 1]
+Echtes Label: [-1, -1, -1, -1, 1, 1, 1, 1, 1, 1, 1]
+
+Logeintrag: Interrupting SendWorker
+Modell-Label: [1, 1, -1]
+Echtes Label: [-1, -1, 1]
+
+Logeintrag: Interrupting SendWorker
+Modell-Label: [1, 1, -1]
+Echtes Label: [-1, -1, 1]
+
+Logeintrag: Interrupting SendWorker
+Modell-Label: [1, 1, -1]
+Echtes Label: [-1, -1, 1]
+
+Logeintrag: Connection broken for id 999999999999, my id = 9, error =
+Modell-Label: [-1, -1, -1, -1, -1, 1, 1, 1, 1, 1, 1]
+Echtes Label: [-1, -1, -1, -1, 1, 1, 1, 1, 1, 1, 1]
+
+Logeintrag: Interrupting SendWorker
+Modell-Label: [1, 1, -1]
+Echtes Label: [-1, -1, 1]
+
+Logeintrag: Interrupting SendWorker
+Modell-Label: [1, 1, -1]
+Echtes Label: [-1, -1, 1]
+
+Logeintrag: Interrupting SendWorker
+Modell-Label: [1, 1, -1]
+Echtes Label: [-1, -1, 1]
+
+Logeintrag: Interrupting SendWorker
+Modell-Label: [1, 1, -1]
+Echtes Label: [-1, -1, 1]
+
+Logeintrag: Interrupting SendWorker
+Modell-Label: [1, 1, -1]
+Echtes Label: [-1, -1, 1]
+
+Logeintrag: Connection broken for id 999999999999, my id = 9, error =
+Modell-Label: [-1, -1, -1, -1, -1, 1, 1, 1, 1, 1, 1]
+Echtes Label: [-1, -1, -1, -1, 1, 1, 1, 1, 1, 1, 1]
+
+Logeintrag: Connection broken for id 999999999999, my id = 9, error =
+Modell-Label: [-1, -1, -1, -1, -1, 1, 1, 1, 1, 1, 1]
+Echtes Label: [-1, -1, -1, -1, 1, 1, 1, 1, 1, 1, 1]
+
+Logeintrag: Connection broken for id 999999999999, my id = 9, error =
+Modell-Label: [-1, -1, -1, -1, -1, 1, 1, 1, 1, 1, 1]
+Echtes Label: [-1, -1, -1, -1, 1, 1, 1, 1, 1, 1, 1]
+
+Logeintrag: Connection broken for id 999999999999, my id = 9, error =
+Modell-Label: [-1, -1, -1, -1, -1, 1, 1, 1, 1, 1, 1]
+Echtes Label: [-1, -1, -1, -1, 1, 1, 1, 1, 1, 1, 1]
+
+Logeintrag: Connection broken for id 999999999999, my id = 9, error =
+Modell-Label: [-1, -1, -1, -1, -1, 1, 1, 1, 1, 1, 1]
+Echtes Label: [-1, -1, -1, -1, 1, 1, 1, 1, 1, 1, 1]
+
+Logeintrag: Interrupting SendWorker
+Modell-Label: [1, 1, -1]
+Echtes Label: [-1, -1, 1]
+
+Logeintrag: Connection broken for id 999999999999, my id = 9, error =
+Modell-Label: [-1, -1, -1, -1, -1, 1, 1, 1, 1, 1, 1]
+Echtes Label: [-1, -1, -1, -1, 1, 1, 1, 1, 1, 1, 1]
+
+Logeintrag: Interrupting SendWorker
+Modell-Label: [1, 1, -1]
+Echtes Label: [-1, -1, 1]
+
+Logeintrag: Connection broken for id 999999999999, my id = 9, error =
+Modell-Label: [-1, -1, -1, -1, -1, 1, 1, 1, 1, 1, 1]
+Echtes Label: [-1, -1, -1, -1, 1, 1, 1, 1, 1, 1, 1]
+
+Logeintrag: Interrupting SendWorker
+Modell-Label: [1, 1, -1]
+Echtes Label: [-1, -1, 1]
+
+Logeintrag: Interrupting SendWorker
+Modell-Label: [1, 1, -1]
+Echtes Label: [-1, -1, 1]
+
+Logeintrag: Connection broken for id 999999999999, my id = 9, error =
+Modell-Label: [-1, -1, -1, -1, -1, 1, 1, 1, 1, 1, 1]
+Echtes Label: [-1, -1, -1, -1, 1, 1, 1, 1, 1, 1, 1]
+
+Logeintrag: Interrupting SendWorker
+Modell-Label: [1, 1, -1]
+Echtes Label: [-1, -1, 1]
+
+Logeintrag: Connection broken for id 999999999999, my id = 9, error =
+Modell-Label: [-1, -1, -1, -1, -1, 1, 1, 1, 1, 1, 1]
+Echtes Label: [-1, -1, -1, -1, 1, 1, 1, 1, 1, 1, 1]
+
+Logeintrag: Connection broken for id 999999999999, my id = 9, error =
+Modell-Label: [-1, -1, -1, -1, -1, 1, 1, 1, 1, 1, 1]
+Echtes Label: [-1, -1, -1, -1, 1, 1, 1, 1, 1, 1, 1]
+
+Logeintrag: Connection broken for id 999999999999, my id = 9, error =
+Modell-Label: [-1, -1, -1, -1, -1, 1, 1, 1, 1, 1, 1]
+Echtes Label: [-1, -1, -1, -1, 1, 1, 1, 1, 1, 1, 1]
+
+Logeintrag: Interrupting SendWorker
+Modell-Label: [1, 1, -1]
+Echtes Label: [-1, -1, 1]
+
+Logeintrag: Connection broken for id 999999999999, my id = 9, error =
+Modell-Label: [-1, -1, -1, -1, -1, 1, 1, 1, 1, 1, 1]
+Echtes Label: [-1, -1, -1, -1, 1, 1, 1, 1, 1, 1, 1]
+
+Logeintrag: Connection broken for id 999999999999, my id = 9, error =
+Modell-Label: [-1, -1, -1, -1, -1, 1, 1, 1, 1, 1, 1]
+Echtes Label: [-1, -1, -1, -1, 1, 1, 1, 1, 1, 1, 1]
+
+Logeintrag: Interrupting SendWorker
+Modell-Label: [1, 1, -1]
+Echtes Label: [-1, -1, 1]
+
+Logeintrag: Interrupting SendWorker
+Modell-Label: [1, 1, -1]
+Echtes Label: [-1, -1, 1]
+
+Logeintrag: Interrupting SendWorker
+Modell-Label: [1, 1, -1]
+Echtes Label: [-1, -1, 1]
+
+Logeintrag: Connection broken for id 999999999999, my id = 9, error =
+Modell-Label: [-1, -1, -1, -1, -1, 1, 1, 1, 1, 1, 1]
+Echtes Label: [-1, -1, -1, -1, 1, 1, 1, 1, 1, 1, 1]
+
+Logeintrag: Connection broken for id 999999999999, my id = 9, error =
+Modell-Label: [-1, -1, -1, -1, -1, 1, 1, 1, 1, 1, 1]
+Echtes Label: [-1, -1, -1, -1, 1, 1, 1, 1, 1, 1, 1]
+
+Logeintrag: Interrupting SendWorker
+Modell-Label: [1, 1, -1]
+Echtes Label: [-1, -1, 1]
+
+Logeintrag: Interrupting SendWorker
+Modell-Label: [1, 1, -1]
+Echtes Label: [-1, -1, 1]
+
+Logeintrag: Connection broken for id 999999999999, my id = 9, error =
+Modell-Label: [-1, -1, -1, -1, -1, 1, 1, 1, 1, 1, 1]
+Echtes Label: [-1, -1, -1, -1, 1, 1, 1, 1, 1, 1, 1]
+
+Logeintrag: Connection broken for id 999999999999, my id = 9, error =
+Modell-Label: [-1, -1, -1, -1, -1, 1, 1, 1, 1, 1, 1]
+Echtes Label: [-1, -1, -1, -1, 1, 1, 1, 1, 1, 1, 1]
+
+Logeintrag: Connection broken for id 999999999999, my id = 9, error =
+Modell-Label: [-1, -1, -1, -1, -1, 1, 1, 1, 1, 1, 1]
+Echtes Label: [-1, -1, -1, -1, 1, 1, 1, 1, 1, 1, 1]
+
+Logeintrag: Connection broken for id 999999999999, my id = 9, error =
+Modell-Label: [-1, -1, -1, -1, -1, 1, 1, 1, 1, 1, 1]
+Echtes Label: [-1, -1, -1, -1, 1, 1, 1, 1, 1, 1, 1]
+
+Logeintrag: Connection broken for id 999999999999, my id = 9, error =
+Modell-Label: [-1, -1, -1, -1, -1, 1, 1, 1, 1, 1, 1]
+Echtes Label: [-1, -1, -1, -1, 1, 1, 1, 1, 1, 1, 1]
+
+Logeintrag: Connection broken for id 999999999999, my id = 9, error =
+Modell-Label: [-1, -1, -1, -1, -1, 1, 1, 1, 1, 1, 1]
+Echtes Label: [-1, -1, -1, -1, 1, 1, 1, 1, 1, 1, 1]
+
+Logeintrag: Connection broken for id 999999999999, my id = 9, error =
+Modell-Label: [-1, -1, -1, -1, -1, 1, 1, 1, 1, 1, 1]
+Echtes Label: [-1, -1, -1, -1, 1, 1, 1, 1, 1, 1, 1]
+
+Logeintrag: Interrupting SendWorker
+Modell-Label: [1, 1, -1]
+Echtes Label: [-1, -1, 1]
+
+Logeintrag: Interrupting SendWorker
+Modell-Label: [1, 1, -1]
+Echtes Label: [-1, -1, 1]
+
+Logeintrag: Closed socket connection for client /99.99.99.99:99999 which had sessionid 9x99ed99999f99999
+Modell-Label: [-1, -1, -1, -1, -1, 1, -1, -1, 1, -1, 1]
+Echtes Label: [-1, -1, -1, -1, -1, 1, -1, -1, -1, 1, -1]
+
+Logeintrag: caught end of stream exception
+Modell-Label: [-1, -1, -1, 1, -1]
+Echtes Label: [-1, -1, -1, -1, -1]
+
+Logeintrag: Closed socket connection for client /99.99.99.99:99999 which had sessionid 9x99ed99999f99999
+Modell-Label: [-1, -1, -1, -1, -1, 1, -1, -1, 1, -1, 1]
+Echtes Label: [-1, -1, -1, -1, -1, 1, -1, -1, -1, 1, -1]
+
+Logeintrag: Client attempting to renew session 9x99ed99999999999 at /99.99.99.99:99999
+Modell-Label: [-1, -1, -1, -1, 1, 1, -1, 1]
+Echtes Label: [-1, -1, -1, -1, -1, 1, -1, 1]
+
+Logeintrag: Closed socket connection for client /99.99.99.99:99999 which had sessionid 9x99ed99999f99999
+Modell-Label: [-1, -1, -1, -1, -1, 1, -1, -1, 1, -1, 1]
+Echtes Label: [-1, -1, -1, -1, -1, 1, -1, -1, -1, 1, -1]
+
+Logeintrag: Client attempting to establish new session at /99.99.99.99:99999
+Modell-Label: [-1, -1, -1, -1, -1, 1, -1, 1]
+Echtes Label: [-1, -1, -1, -1, -1, -1, -1, 1]
+
+Logeintrag: Established session 9x99ed99999f99999 with negotiated timeout 99999 for client /99.99.99.99:99999
+Modell-Label: [-1, -1, 1, -1, 1, -1, -1, 1, -1, -1, 1]
+Echtes Label: [-1, -1, 1, -1, -1, -1, 1, -1, -1, 1, -1]
+
+Logeintrag: Established session 9x99ed99999f9999b with negotiated timeout 99999 for client /99.99.99.99:99999
+Modell-Label: [-1, -1, 1, -1, 1, -1, -1, 1, -1, -1, 1]
+Echtes Label: [-1, -1, 1, -1, -1, -1, 1, -1, -1, 1, -1]
+
+Logeintrag: Closed socket connection for client /99.99.99.99:99999 which had sessionid 9x99ed99999f99999
+Modell-Label: [-1, -1, -1, -1, -1, 1, -1, -1, 1, -1, 1]
+Echtes Label: [-1, -1, -1, -1, -1, 1, -1, -1, -1, 1, -1]
+
+Logeintrag: Established session 9x99ed99999f9999b with negotiated timeout 99999 for client /99.99.99.99:99999
+Modell-Label: [-1, -1, 1, -1, 1, -1, -1, 1, -1, -1, 1]
+Echtes Label: [-1, -1, 1, -1, -1, -1, 1, -1, -1, 1, -1]
+
+Logeintrag: Established session 9x99ed99999f9999f with negotiated timeout 99999 for client /99.99.99.99:99999
+Modell-Label: [-1, -1, 1, -1, 1, -1, -1, 1, -1, -1, 1]
+Echtes Label: [-1, -1, 1, -1, -1, -1, 1, -1, -1, 1, -1]
+
+Logeintrag: Established session 9x99ed99999f99999 with negotiated timeout 99999 for client /99.99.99.99:99999
+Modell-Label: [-1, -1, 1, -1, 1, -1, -1, 1, -1, -1, 1]
+Echtes Label: [-1, -1, 1, -1, -1, -1, 1, -1, -1, 1, -1]
+
+Logeintrag: Closed socket connection for client /99.99.99.99:99999 which had sessionid 9x99ed99999f9999d
+Modell-Label: [-1, -1, -1, -1, -1, 1, -1, -1, 1, -1, 1]
+Echtes Label: [-1, -1, -1, -1, -1, 1, -1, -1, -1, 1, -1]
+
+Logeintrag: Established session 9x99ed99999f9999c with negotiated timeout 99999 for client /99.99.99.99:99999
+Modell-Label: [-1, -1, 1, -1, 1, -1, -1, 1, -1, -1, 1]
+Echtes Label: [-1, -1, 1, -1, -1, -1, 1, -1, -1, 1, -1]
+
+Logeintrag: Client attempting to establish new session at /99.99.99.99:99999
+Modell-Label: [-1, -1, -1, -1, -1, 1, -1, 1]
+Echtes Label: [-1, -1, -1, -1, -1, -1, -1, 1]
+
+Logeintrag: Client attempting to establish new session at /99.99.99.99:99999
+Modell-Label: [-1, -1, -1, -1, -1, 1, -1, 1]
+Echtes Label: [-1, -1, -1, -1, -1, -1, -1, 1]
+
+Logeintrag: Established session 9x99ed99999f99999 with negotiated timeout 99999 for client /99.99.99.99:99999
+Modell-Label: [-1, -1, 1, -1, 1, -1, -1, 1, -1, -1, 1]
+Echtes Label: [-1, -1, 1, -1, -1, -1, 1, -1, -1, 1, -1]
+
+Logeintrag: Client attempting to establish new session at /99.99.99.99:99999
+Modell-Label: [-1, -1, -1, -1, -1, 1, -1, 1]
+Echtes Label: [-1, -1, -1, -1, -1, -1, -1, 1]
+
+Logeintrag: Client attempting to establish new session at /99.99.99.99:99999
+Modell-Label: [-1, -1, -1, -1, -1, 1, -1, 1]
+Echtes Label: [-1, -1, -1, -1, -1, -1, -1, 1]
+
+Logeintrag: Closed socket connection for client /99.99.99.99:99999 which had sessionid 9x99ed99999f99999
+Modell-Label: [-1, -1, -1, -1, -1, 1, -1, -1, 1, -1, 1]
+Echtes Label: [-1, -1, -1, -1, -1, 1, -1, -1, -1, 1, -1]
+
+Logeintrag: Closed socket connection for client /99.99.99.99:99999 which had sessionid 9x99ed99999f9999b
+Modell-Label: [-1, -1, -1, -1, -1, 1, -1, -1, 1, -1, 1]
+Echtes Label: [-1, -1, -1, -1, -1, 1, -1, -1, -1, 1, -1]
+
+Logeintrag: Connection request from old client /99.99.99.99:99999; will be dropped if server is in r-o mode
+Modell-Label: [-1, -1, -1, -1, -1, 1, -1, -1, -1, -1, -1, -1, -1, -1, -1]
+Echtes Label: [-1, -1, -1, -1, -1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1]
+
+Logeintrag: Client attempting to establish new session at /99.99.99.99:99999
+Modell-Label: [-1, -1, -1, -1, -1, 1, -1, 1]
+Echtes Label: [-1, -1, -1, -1, -1, -1, -1, 1]
+
+Logeintrag: Client attempting to establish new session at /99.99.99.99:99999
+Modell-Label: [-1, -1, -1, -1, -1, 1, -1, 1]
+Echtes Label: [-1, -1, -1, -1, -1, -1, -1, 1]
+
+Logeintrag: Connection request from old client /99.99.99.99:99999; will be dropped if server is in r-o mode
+Modell-Label: [-1, -1, -1, -1, -1, 1, -1, -1, -1, -1, -1, -1, -1, -1, -1]
+Echtes Label: [-1, -1, -1, -1, -1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1]
+
+Logeintrag: Connection request from old client /99.99.99.99:99999; will be dropped if server is in r-o mode
+Modell-Label: [-1, -1, -1, -1, -1, 1, -1, -1, -1, -1, -1, -1, -1, -1, -1]
+Echtes Label: [-1, -1, -1, -1, -1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1]
+
+Logeintrag: Client attempting to establish new session at /99.99.99.99:99999
+Modell-Label: [-1, -1, -1, -1, -1, 1, -1, 1]
+Echtes Label: [-1, -1, -1, -1, -1, -1, -1, 1]
+
+Logeintrag: Connection request from old client /99.99.99.99:99999; will be dropped if server is in r-o mode
+Modell-Label: [-1, -1, -1, -1, -1, 1, -1, -1, -1, -1, -1, -1, -1, -1, -1]
+Echtes Label: [-1, -1, -1, -1, -1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1]
+
+Logeintrag: Closed socket connection for client /99.99.99.99:99999 which had sessionid 9x99ed99999f999cd
+Modell-Label: [-1, -1, -1, -1, -1, 1, -1, -1, 1, -1, 1]
+Echtes Label: [-1, -1, -1, -1, -1, 1, -1, -1, -1, 1, -1]
+
+Logeintrag: Connection request from old client /99.99.99.99:99999; will be dropped if server is in r-o mode
+Modell-Label: [-1, -1, -1, -1, -1, 1, -1, -1, -1, -1, -1, -1, -1, -1, -1]
+Echtes Label: [-1, -1, -1, -1, -1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1]
+
+Logeintrag: Closed socket connection for client /99.99.99.99:99999 which had sessionid 9x99ed99999f999d9
+Modell-Label: [-1, -1, -1, -1, -1, 1, -1, -1, 1, -1, 1]
+Echtes Label: [-1, -1, -1, -1, -1, 1, -1, -1, -1, 1, -1]
+
+Logeintrag: Client attempting to establish new session at /99.99.99.99:99999
+Modell-Label: [-1, -1, -1, -1, -1, 1, -1, 1]
+Echtes Label: [-1, -1, -1, -1, -1, -1, -1, 1]
+
+Logeintrag: Established session 9x99ed99999f999df with negotiated timeout 99999 for client /99.99.99.99:99999
+Modell-Label: [-1, -1, 1, -1, 1, -1, -1, 1, -1, -1, 1]
+Echtes Label: [-1, -1, 1, -1, -1, -1, 1, -1, -1, 1, -1]
+
+Logeintrag: caught end of stream exception
+Modell-Label: [-1, -1, -1, 1, -1]
+Echtes Label: [-1, -1, -1, -1, -1]
+
+Logeintrag: Client attempting to establish new session at /99.99.99.99:99999
+Modell-Label: [-1, -1, -1, -1, -1, 1, -1, 1]
+Echtes Label: [-1, -1, -1, -1, -1, -1, -1, 1]
+
+Logeintrag: caught end of stream exception
+Modell-Label: [-1, -1, -1, 1, -1]
+Echtes Label: [-1, -1, -1, -1, -1]
+
+Logeintrag: Closed socket connection for client /99.99.99.99:99999 which had sessionid 9x99ed99999f999f9
+Modell-Label: [-1, -1, -1, -1, -1, 1, -1, -1, 1, -1, 1]
+Echtes Label: [-1, -1, -1, -1, -1, 1, -1, -1, -1, 1, -1]
+
+Logeintrag: Server environment:user.dir=/
+Modell-Label: [-1, -1, 1]
+Echtes Label: [-1, 1, -1]
+
+Logeintrag: Connection request from old client /99.99.99.99:99999; will be dropped if server is in r-o mode
+Modell-Label: [-1, -1, -1, -1, -1, 1, -1, -1, -1, -1, -1, -1, -1, -1, -1]
+Echtes Label: [-1, -1, -1, -1, -1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1]
+
+Logeintrag: Client attempting to establish new session at /99.99.99.99:99999
+Modell-Label: [-1, -1, -1, -1, -1, 1, -1, 1]
+Echtes Label: [-1, -1, -1, -1, -1, -1, -1, 1]
+
+Logeintrag: Processed session termination for sessionid: 9x99ede99a9a99999
+Modell-Label: [1, 1, -1, -1, -1, -1, 1, -1, 1]
+Echtes Label: [-1, -1, -1, -1, -1, 1, -1, 1, -1]
+
+Logeintrag: Processed session termination for sessionid: 9x99ede99999f9999
+Modell-Label: [1, 1, -1, -1, -1, 1, -1, 1]
+Echtes Label: [-1, -1, -1, -1, -1, 1, 1, -1]
+
+Logeintrag: caught end of stream exception
+Modell-Label: [-1, -1, -1, 1, -1]
+Echtes Label: [-1, -1, -1, -1, -1]
+
+Logeintrag: Processed session termination for sessionid: 9x99ede99a9a99999
+Modell-Label: [1, 1, -1, -1, -1, -1, 1, -1, 1]
+Echtes Label: [-1, -1, -1, -1, -1, 1, -1, 1, -1]
+
+Logeintrag: Connection request from old client /99.99.99.99:99999; will be dropped if server is in r-o mode
+Modell-Label: [-1, -1, -1, -1, -1, 1, -1, -1, -1, -1, -1, -1, -1, -1, -1]
+Echtes Label: [-1, -1, -1, -1, -1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1]
+
+Logeintrag: Processed session termination for sessionid: 9x99ede99999f999b
+Modell-Label: [1, 1, -1, -1, -1, 1, -1, 1]
+Echtes Label: [-1, -1, -1, -1, -1, 1, 1, -1]
+
+Logeintrag: Expiring session 9x99ede99a99b999b, timeout of 99999ms exceeded
+Modell-Label: [-1, -1, 1, -1, -1, 1, 1]
+Echtes Label: [-1, -1, 1, 1, 1, 1, 1]
+
+Logeintrag: Processed session termination for sessionid: 9x99ede99a99b999b
+Modell-Label: [1, 1, -1, -1, -1, 1, -1, 1]
+Echtes Label: [-1, -1, -1, -1, -1, 1, 1, -1]
+
+Logeintrag: Expiring session 9x99ede99999f9999, timeout of 99999ms exceeded
+Modell-Label: [-1, -1, 1, -1, -1, 1, 1]
+Echtes Label: [-1, -1, 1, 1, 1, 1, 1]
+
+Logeintrag: Processed session termination for sessionid: 9x99ede99999f9999
+Modell-Label: [1, 1, -1, -1, -1, 1, -1, 1]
+Echtes Label: [-1, -1, -1, -1, -1, 1, 1, -1]
+
+Logeintrag: caught end of stream exception
+Modell-Label: [-1, -1, -1, 1, -1]
+Echtes Label: [-1, -1, -1, -1, -1]
+
+Logeintrag: Processed session termination for sessionid: 9x99ede99a9a9999a
+Modell-Label: [1, 1, -1, -1, -1, -1, 1, -1, 1]
+Echtes Label: [-1, -1, -1, -1, -1, 1, -1, 1, -1]
+
+Logeintrag: Connection request from old client /99.99.99.99:99999; will be dropped if server is in r-o mode
+Modell-Label: [-1, -1, -1, -1, -1, 1, -1, -1, -1, -1, -1, -1, -1, -1, -1]
+Echtes Label: [-1, -1, -1, -1, -1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1]
+
+Logeintrag: caught end of stream exception
+Modell-Label: [-1, -1, -1, 1, -1]
+Echtes Label: [-1, -1, -1, -1, -1]
+
+Logeintrag: Connection request from old client /99.99.99.99:99999; will be dropped if server is in r-o mode
+Modell-Label: [-1, -1, -1, -1, -1, 1, -1, -1, -1, -1, -1, -1, -1, -1, -1]
+Echtes Label: [-1, -1, -1, -1, -1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1]
+
+Logeintrag: Established session 9x99ede99a9a9999b with negotiated timeout 99999 for client /99.99.99.99:99999
+Modell-Label: [-1, -1, 1, -1, 1, -1, -1, 1, -1, -1, 1]
+Echtes Label: [-1, -1, 1, -1, -1, -1, 1, -1, -1, 1, -1]
+
+Logeintrag: Client attempting to establish new session at /99.99.99.99:99999
+Modell-Label: [-1, -1, -1, -1, -1, 1, -1, 1]
+Echtes Label: [-1, -1, -1, -1, -1, -1, -1, 1]
+
+Logeintrag: Expiring session 9x99ede99999f999c, timeout of 99999ms exceeded
+Modell-Label: [-1, -1, 1, -1, -1, 1, 1]
+Echtes Label: [-1, -1, 1, 1, 1, 1, 1]
+
+Logeintrag: Expiring session 9x99ede99a99b9999, timeout of 99999ms exceeded
+Modell-Label: [-1, -1, 1, -1, -1, 1, 1]
+Echtes Label: [-1, -1, 1, 1, 1, 1, 1]
+
+Logeintrag: ******* GOODBYE /99.99.99.99:99999 ********
+Modell-Label: [-1, 1, -1, 1, 1, -1]
+Echtes Label: [-1, -1, 1, -1, -1, 1]
+
+Logeintrag: LOOKING
+Modell-Label: [1, -1]
+Echtes Label: [-1, 1]
+
+Logeintrag: Interrupting SendWorker
+Modell-Label: [1, 1, -1]
+Echtes Label: [-1, -1, 1]
+
+Logeintrag: Notification time out: 99999
+Modell-Label: [-1, 1, 1, 1]
+Echtes Label: [-1, -1, -1, 1]
+
+Logeintrag: Connection request from old client /99.99.99.99:99999; will be dropped if server is in r-o mode
+Modell-Label: [-1, -1, -1, -1, -1, 1, -1, -1, -1, -1, -1, -1, -1, -1, -1]
+Echtes Label: [-1, -1, -1, -1, -1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1]
+
+Logeintrag: Established session 9x99edfaa99f99999 with negotiated timeout 99999 for client /99.99.99.99:99999
+Modell-Label: [-1, -1, 1, -1, 1, -1, -1, 1, -1, -1, 1]
+Echtes Label: [-1, -1, 1, -1, -1, -1, 1, -1, -1, 1, -1]
+
+Logeintrag: caught end of stream exception
+Modell-Label: [-1, -1, -1, 1, -1]
+Echtes Label: [-1, -1, -1, -1, -1]
+
+Logeintrag: caught end of stream exception
+Modell-Label: [-1, -1, -1, 1, -1]
+Echtes Label: [-1, -1, -1, -1, -1]
+
+Logeintrag: Connection request from old client /99.99.99.99:99999; will be dropped if server is in r-o mode
+Modell-Label: [-1, -1, -1, -1, -1, 1, -1, -1, -1, -1, -1, -1, -1, -1, -1]
+Echtes Label: [-1, -1, -1, -1, -1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1]
+
+Logeintrag: Closed socket connection for client /99.99.99.99:99999 which had sessionid 9x99edfaa99f99999
+Modell-Label: [-1, -1, -1, -1, -1, 1, -1, -1, 1, -1, 1]
+Echtes Label: [-1, -1, -1, -1, -1, 1, -1, -1, -1, 1, -1]
+
+Logeintrag: Connection request from old client /99.99.99.99:99999; will be dropped if server is in r-o mode
+Modell-Label: [-1, -1, -1, -1, -1, 1, -1, -1, -1, -1, -1, -1, -1, -1, -1]
+Echtes Label: [-1, -1, -1, -1, -1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1]
+
+Logeintrag: Connection request from old client /99.99.99.99:99999; will be dropped if server is in r-o mode
+Modell-Label: [-1, -1, -1, -1, -1, 1, -1, -1, -1, -1, -1, -1, -1, -1, -1]
+Echtes Label: [-1, -1, -1, -1, -1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1]
+
+Logeintrag: My election bind port: 9.9.9.9/9.9.9.9:9999
+Modell-Label: [-1, 1, -1, 1, 1, 1]
+Echtes Label: [-1, -1, -1, -1, 1, -1]
+
+Logeintrag: LOOKING
+Modell-Label: [1, -1]
+Echtes Label: [-1, 1]
+
+Logeintrag: New election. My id =  9, proposed zxid=9x999999999
+Modell-Label: [-1, 1, -1, 1, 1, 1, 1, 1, 1]
+Echtes Label: [-1, -1, -1, -1, -1, -1, 1, 1, 1]
+
+Logeintrag: Server environment:host.name=mesos-master-9
+Modell-Label: [-1, -1, 1]
+Echtes Label: [-1, 1, -1]
+
+Logeintrag: FOLLOWING - LEADER ELECTION TOOK - 99
+Modell-Label: [-1, -1, -1, 1, -1, -1, -1, 1]
+Echtes Label: [1, 1, 1, 1, 1, 1, 1, -1]
+
+Logeintrag: Established session 9x99ee9e999ed999c with negotiated timeout 99999 for client /99.99.99.99:99999
+Modell-Label: [-1, -1, 1, -1, 1, -1, -1, 1, -1, -1, 1]
+Echtes Label: [-1, -1, 1, -1, -1, -1, 1, -1, -1, 1, -1]
+
+Logeintrag: Client attempting to establish new session at /99.99.99.99:99999
+Modell-Label: [-1, -1, -1, -1, -1, 1, -1, 1]
+Echtes Label: [-1, -1, -1, -1, -1, -1, -1, 1]
+
+Logeintrag: Connection request from old client /99.99.99.99:99999; will be dropped if server is in r-o mode
+Modell-Label: [-1, -1, -1, -1, -1, 1, -1, -1, -1, -1, -1, -1, -1, -1, -1]
+Echtes Label: [-1, -1, -1, -1, -1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1]
+
+Logeintrag: Connection request from old client /99.99.99.99:99999; will be dropped if server is in r-o mode
+Modell-Label: [-1, -1, -1, -1, -1, 1, -1, -1, -1, -1, -1, -1, -1, -1, -1]
+Echtes Label: [-1, -1, -1, -1, -1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1]
+
+Logeintrag: caught end of stream exception
+Modell-Label: [-1, -1, -1, 1, -1]
+Echtes Label: [-1, -1, -1, -1, -1]
+
+Logeintrag: Established session 9x99ee9e999ed999c with negotiated timeout 99999 for client /99.99.99.99:99999
+Modell-Label: [-1, -1, 1, -1, 1, -1, -1, 1, -1, -1, 1]
+Echtes Label: [-1, -1, 1, -1, -1, -1, 1, -1, -1, 1, -1]
+
+Logeintrag: Client attempting to establish new session at /99.99.99.99:99999
+Modell-Label: [-1, -1, -1, -1, -1, 1, -1, 1]
+Echtes Label: [-1, -1, -1, -1, -1, -1, -1, 1]
+
+Logeintrag: Notification: 9 (n.leader), 9x999999999 (n.zxid), 9x9 (n.round), LEADING (n.state), 9 (n.sid), 9x9 (n.peerEPoch), LOOKING (my state)
+Modell-Label: [-1, 1, 1, 1, 1, 1, 1, -1, 1, 1, 1, -1, 1, 1, 1, -1, 1, -1, -1, -1]
+Echtes Label: [1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, -1, 1, 1, 1]
+
+Logeintrag: FOLLOWING - LEADER ELECTION TOOK - 999
+Modell-Label: [-1, -1, -1, 1, -1, -1, -1, 1]
+Echtes Label: [1, 1, 1, 1, 1, 1, 1, -1]
+
+Logeintrag: Established session 9x99f99999bd99999 with negotiated timeout 99999 for client /99.99.99.99:99999
+Modell-Label: [-1, -1, 1, -1, 1, -1, -1, 1, -1, -1, 1]
+Echtes Label: [-1, -1, 1, -1, -1, -1, 1, -1, -1, 1, -1]
+
+Logeintrag: caught end of stream exception
+Modell-Label: [-1, -1, -1, 1, -1]
+Echtes Label: [-1, -1, -1, -1, -1]
+
+Logeintrag: Client attempting to establish new session at /99.99.99.99:99999
+Modell-Label: [-1, -1, -1, -1, -1, 1, -1, 1]
+Echtes Label: [-1, -1, -1, -1, -1, -1, -1, 1]
+
+Logeintrag: Connection request from old client /99.99.99.99:99999; will be dropped if server is in r-o mode
+Modell-Label: [-1, -1, -1, -1, -1, 1, -1, -1, -1, -1, -1, -1, -1, -1, -1]
+Echtes Label: [-1, -1, -1, -1, -1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1]
+
+Logeintrag: Closed socket connection for client /99.99.99.99:99999 which had sessionid 9x99f99999bd9999d
+Modell-Label: [-1, -1, -1, -1, -1, 1, -1, -1, 1, -1, 1]
+Echtes Label: [-1, -1, -1, -1, -1, 1, -1, -1, -1, 1, -1]
+
+Logeintrag: caught end of stream exception
+Modell-Label: [-1, -1, -1, 1, -1]
+Echtes Label: [-1, -1, -1, -1, -1]
+
+Logeintrag: caught end of stream exception
+Modell-Label: [-1, -1, -1, 1, -1]
+Echtes Label: [-1, -1, -1, -1, -1]
+
+Logeintrag: Established session 9x99f99999bd99999 with negotiated timeout 99999 for client /99.99.99.99:99999
+Modell-Label: [-1, -1, 1, -1, 1, -1, -1, 1, -1, -1, 1]
+Echtes Label: [-1, -1, 1, -1, -1, -1, 1, -1, -1, 1, -1]
+
+Logeintrag: autopurge.snapRetainCount set to 9
+Modell-Label: [1, -1, 1, -1, 1, -1, 1]
+Echtes Label: [-1, -1, -1, 1, -1, 1, -1]
+
+Logeintrag: Server environment:java.vendor=Oracle Corporation
+Modell-Label: [-1, -1, 1, -1, 1, -1]
+Echtes Label: [-1, 1, 1, 1, -1, 1]
+
+Logeintrag: Revalidating client: 9x99f99999bd99999
+Modell-Label: [-1, 1, 1, 1]
+Echtes Label: [-1, -1, 1, -1]
+
+Logeintrag: Established session 9x99f99999bd99999 with negotiated timeout 99999 for client /99.99.99.99:99999
+Modell-Label: [-1, -1, 1, -1, 1, -1, -1, 1, -1, -1, 1]
+Echtes Label: [-1, -1, 1, -1, -1, -1, 1, -1, -1, 1, -1]
+
+Logeintrag: Established session 9x99f99999bd99999 with negotiated timeout 99999 for client /99.99.99.99:99999
+Modell-Label: [-1, -1, 1, -1, 1, -1, -1, 1, -1, -1, 1]
+Echtes Label: [-1, -1, 1, -1, -1, -1, 1, -1, -1, 1, -1]
+
+Logeintrag: Client attempting to renew session 9x99f99999bd9999b at /99.99.99.99:99999
+Modell-Label: [-1, -1, -1, -1, 1, 1, -1, 1]
+Echtes Label: [-1, -1, -1, -1, -1, 1, -1, 1]
+
+Logeintrag: Server environment:zookeeper.version=9.9.9--9, built on 99/99/9999 99:99 GMT
+Modell-Label: [-1, -1, 1, 1, -1, 1, 1, 1]
+Echtes Label: [-1, 1, 1, 1, 1, 1, 1, -1]
+
+Logeintrag: Server environment:user.name=zookeeper
+Modell-Label: [-1, -1, 1, -1]
+Echtes Label: [-1, 1, -1, 1]
+
+Logeintrag: Revalidating client: 9x99f99999bd99999
+Modell-Label: [-1, 1, 1, 1]
+Echtes Label: [-1, -1, 1, -1]
+
+Logeintrag: caught end of stream exception
+Modell-Label: [-1, -1, -1, 1, -1]
+Echtes Label: [-1, -1, -1, -1, -1]
+
+Logeintrag: Server environment:os.name=Linux
+Modell-Label: [-1, -1, 1]
+Echtes Label: [-1, 1, -1]
+
+Logeintrag: Client attempting to establish new session at /99.99.99.99:99999
+Modell-Label: [-1, -1, -1, -1, -1, 1, -1, 1]
+Echtes Label: [-1, -1, -1, -1, -1, -1, -1, 1]
+
+Logeintrag: Exception causing close of session 9x9 due to java.io.IOException: ZooKeeperServer not running
+Modell-Label: [-1, 1, -1, -1, -1, -1, 1, -1, -1, 1, 1, 1, -1]
+Echtes Label: [-1, -1, -1, -1, -1, 1, -1, -1, -1, -1, -1, -1, 1]
+
+Logeintrag: Notification: 9 (n.leader), 9xb99999999 (n.zxid), 9x9 (n.round), LOOKING (n.state), 9 (n.sid), 9xb (n.peerEPoch), LOOKING (my state)
+Modell-Label: [-1, 1, 1, 1, 1, 1, 1, -1, 1, 1, 1, -1, 1, 1, 1, -1, 1, -1, -1, -1]
+Echtes Label: [1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, -1, 1, 1, 1]
+
+Logeintrag: Notification: 9 (n.leader), 9xb9999999b (n.zxid), 9x9 (n.round), LOOKING (n.state), 9 (n.sid), 9xb (n.peerEPoch), FOLLOWING (my state)
+Modell-Label: [-1, 1, 1, 1, 1, 1, 1, -1, 1, 1, 1, -1, 1, 1, 1, -1, 1, -1, -1, -1]
+Echtes Label: [1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, -1, 1, 1, 1]
+
+Logeintrag: Established session 9x99f9a9999b99999 with negotiated timeout 99999 for client /99.99.99.99:99999
+Modell-Label: [-1, -1, 1, -1, 1, -1, -1, 1, -1, -1, 1]
+Echtes Label: [-1, -1, 1, -1, -1, -1, 1, -1, -1, 1, -1]
+
+Logeintrag: Client attempting to establish new session at /99.99.99.99:99999
+Modell-Label: [-1, -1, -1, -1, -1, 1, -1, 1]
+Echtes Label: [-1, -1, -1, -1, -1, -1, -1, 1]
+
+Logeintrag: Established session 9x99f9a9999b99999 with negotiated timeout 99999 for client /99.99.99.99:99999
+Modell-Label: [-1, -1, 1, -1, 1, -1, -1, 1, -1, -1, 1]
+Echtes Label: [-1, -1, 1, -1, -1, -1, 1, -1, -1, 1, -1]
+
+Logeintrag: Established session 9x99f9a9999b99999 with negotiated timeout 99999 for client /99.99.99.99:99999
+Modell-Label: [-1, -1, 1, -1, 1, -1, -1, 1, -1, -1, 1]
+Echtes Label: [-1, -1, 1, -1, -1, -1, 1, -1, -1, 1, -1]
+
+Logeintrag: Closed socket connection for client /99.99.99.99:99999 which had sessionid 9x99f9a9999b99999
+Modell-Label: [-1, -1, -1, -1, -1, 1, -1, -1, 1, -1, 1]
+Echtes Label: [-1, -1, -1, -1, -1, 1, -1, -1, -1, 1, -1]
+
+Logeintrag: caught end of stream exception
+Modell-Label: [-1, -1, -1, 1, -1]
+Echtes Label: [-1, -1, -1, -1, -1]
+
+Logeintrag: Closed socket connection for client /99.99.99.99:99999 which had sessionid 9x99f9a9999b99999
+Modell-Label: [-1, -1, -1, -1, -1, 1, -1, -1, 1, -1, 1]
+Echtes Label: [-1, -1, -1, -1, -1, 1, -1, -1, -1, 1, -1]
+
+Logeintrag: Connection request from old client /99.99.99.99:99999; will be dropped if server is in r-o mode
+Modell-Label: [-1, -1, -1, -1, -1, 1, -1, -1, -1, -1, -1, -1, -1, -1, -1]
+Echtes Label: [-1, -1, -1, -1, -1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1]
+
+Logeintrag: tickTime set to 9999
+Modell-Label: [-1, 1, 1, -1, 1]
+Echtes Label: [-1, -1, -1, 1, -1]
+
+Logeintrag: Notification time out: 99999
+Modell-Label: [-1, 1, 1, 1]
+Echtes Label: [-1, -1, -1, 1]
+
+Logeintrag: Notification time out: 99999
+Modell-Label: [-1, 1, 1, 1]
+Echtes Label: [-1, -1, -1, 1]
+
+Logeintrag: Notification time out: 99999
+Modell-Label: [-1, 1, 1, 1]
+Echtes Label: [-1, -1, -1, 1]
+
+Logeintrag: Notification time out: 99999
+Modell-Label: [-1, 1, 1, 1]
+Echtes Label: [-1, -1, -1, 1]
+
+Logeintrag: Notification time out: 99999
+Modell-Label: [-1, 1, 1, 1]
+Echtes Label: [-1, -1, -1, 1]
+
+Logeintrag: Notification time out: 99999
+Modell-Label: [-1, 1, 1, 1]
+Echtes Label: [-1, -1, -1, 1]
+
+Logeintrag: Notification time out: 99999
+Modell-Label: [-1, 1, 1, 1]
+Echtes Label: [-1, -1, -1, 1]
+
+Logeintrag: Notification time out: 99999
+Modell-Label: [-1, 1, 1, 1]
+Echtes Label: [-1, -1, -1, 1]
+
+Logeintrag: Notification time out: 99999
+Modell-Label: [-1, 1, 1, 1]
+Echtes Label: [-1, -1, -1, 1]
+
+Logeintrag: Notification time out: 99999
+Modell-Label: [-1, 1, 1, 1]
+Echtes Label: [-1, -1, -1, 1]
+
+Logeintrag: Notification time out: 99999
+Modell-Label: [-1, 1, 1, 1]
+Echtes Label: [-1, -1, -1, 1]
+
+Logeintrag: Notification time out: 99999
+Modell-Label: [-1, 1, 1, 1]
+Echtes Label: [-1, -1, -1, 1]
+
+Logeintrag: Notification time out: 99999
+Modell-Label: [-1, 1, 1, 1]
+Echtes Label: [-1, -1, -1, 1]
+
+Logeintrag: Notification time out: 99999
+Modell-Label: [-1, 1, 1, 1]
+Echtes Label: [-1, -1, -1, 1]
+
+Logeintrag: Notification time out: 99999
+Modell-Label: [-1, 1, 1, 1]
+Echtes Label: [-1, -1, -1, 1]
+
+Logeintrag: Notification time out: 99999
+Modell-Label: [-1, 1, 1, 1]
+Echtes Label: [-1, -1, -1, 1]
+
+Logeintrag: Notification time out: 99999
+Modell-Label: [-1, 1, 1, 1]
+Echtes Label: [-1, -1, -1, 1]
+
+Logeintrag: Notification time out: 99999
+Modell-Label: [-1, 1, 1, 1]
+Echtes Label: [-1, -1, -1, 1]
+
+Logeintrag: Notification time out: 99999
+Modell-Label: [-1, 1, 1, 1]
+Echtes Label: [-1, -1, -1, 1]
+
+Logeintrag: Notification time out: 99999
+Modell-Label: [-1, 1, 1, 1]
+Echtes Label: [-1, -1, -1, 1]
+
+Logeintrag: Notification time out: 99999
+Modell-Label: [-1, 1, 1, 1]
+Echtes Label: [-1, -1, -1, 1]
+
+Logeintrag: Notification time out: 99999
+Modell-Label: [-1, 1, 1, 1]
+Echtes Label: [-1, -1, -1, 1]
+
+Logeintrag: Notification time out: 99999
+Modell-Label: [-1, 1, 1, 1]
+Echtes Label: [-1, -1, -1, 1]
+
+Logeintrag: Notification time out: 99999
+Modell-Label: [-1, 1, 1, 1]
+Echtes Label: [-1, -1, -1, 1]
+
+Logeintrag: Notification time out: 99999
+Modell-Label: [-1, 1, 1, 1]
+Echtes Label: [-1, -1, -1, 1]
+
+Logeintrag: Notification time out: 99999
+Modell-Label: [-1, 1, 1, 1]
+Echtes Label: [-1, -1, -1, 1]
+
+Logeintrag: Notification time out: 99999
+Modell-Label: [-1, 1, 1, 1]
+Echtes Label: [-1, -1, -1, 1]
+
+Logeintrag: Notification time out: 99999
+Modell-Label: [-1, 1, 1, 1]
+Echtes Label: [-1, -1, -1, 1]
+
+Logeintrag: Notification time out: 99999
+Modell-Label: [-1, 1, 1, 1]
+Echtes Label: [-1, -1, -1, 1]
+
+Logeintrag: Notification time out: 99999
+Modell-Label: [-1, 1, 1, 1]
+Echtes Label: [-1, -1, -1, 1]
+
+Logeintrag: Notification time out: 99999
+Modell-Label: [-1, 1, 1, 1]
+Echtes Label: [-1, -1, -1, 1]
+
+Logeintrag: Notification time out: 99999
+Modell-Label: [-1, 1, 1, 1]
+Echtes Label: [-1, -1, -1, 1]
+
+Logeintrag: Notification time out: 99999
+Modell-Label: [-1, 1, 1, 1]
+Echtes Label: [-1, -1, -1, 1]
+
+Logeintrag: Notification time out: 99999
+Modell-Label: [-1, 1, 1, 1]
+Echtes Label: [-1, -1, -1, 1]
+
+Logeintrag: Notification time out: 99999
+Modell-Label: [-1, 1, 1, 1]
+Echtes Label: [-1, -1, -1, 1]
+
+Logeintrag: Connection broken for id 9, my id = 9, error =
+Modell-Label: [-1, -1, -1, -1, 1, -1, -1, 1, 1, 1, 1]
+Echtes Label: [-1, -1, -1, -1, 1, 1, 1, 1, 1, 1, 1]
+
+Logeintrag: Server environment:java.vendor=Oracle Corporation
+Modell-Label: [-1, -1, 1, -1, 1, -1]
+Echtes Label: [-1, 1, 1, 1, -1, 1]
+
+Logeintrag: Unexpected exception causing shutdown while sock still open
+Modell-Label: [-1, -1, 1, 1, 1, -1, -1, -1]
+Echtes Label: [-1, -1, -1, -1, -1, -1, -1, -1]
+
+Logeintrag: Unexpected exception causing shutdown while sock still open
+Modell-Label: [-1, -1, 1, 1, 1, -1, -1, -1]
+Echtes Label: [-1, -1, -1, -1, -1, -1, -1, -1]
+
+Logeintrag: ******* GOODBYE /99.99.99.99:99999 ********
+Modell-Label: [-1, 1, -1, 1, 1, -1]
+Echtes Label: [-1, -1, 1, -1, -1, 1]
+
+Logeintrag: Unexpected exception causing shutdown while sock still open
+Modell-Label: [-1, -1, 1, 1, 1, -1, -1, -1]
+Echtes Label: [-1, -1, -1, -1, -1, -1, -1, -1]
+
+Logeintrag: Unexpected exception causing shutdown while sock still open
+Modell-Label: [-1, -1, 1, 1, 1, -1, -1, -1]
+Echtes Label: [-1, -1, -1, -1, -1, -1, -1, -1]
+
+Logeintrag: ******* GOODBYE /99.99.99.99:99999 ********
+Modell-Label: [-1, 1, -1, 1, 1, -1]
+Echtes Label: [-1, -1, 1, -1, -1, 1]
+
+Logeintrag: ******* GOODBYE /99.99.99.99:99999 ********
+Modell-Label: [-1, 1, -1, 1, 1, -1]
+Echtes Label: [-1, -1, 1, -1, -1, 1]
+
+Logeintrag: ******* GOODBYE /99.99.99.99:99999 ********
+Modell-Label: [-1, 1, -1, 1, 1, -1]
+Echtes Label: [-1, -1, 1, -1, -1, 1]
+
+Logeintrag: ******* GOODBYE /99.99.99.99:99999 ********
+Modell-Label: [-1, 1, -1, 1, 1, -1]
+Echtes Label: [-1, -1, 1, -1, -1, 1]
+
+Logeintrag: Unexpected exception causing shutdown while sock still open
+Modell-Label: [-1, -1, 1, 1, 1, -1, -1, -1]
+Echtes Label: [-1, -1, -1, -1, -1, -1, -1, -1]
+
+Logeintrag: ******* GOODBYE /99.99.99.99:99999 ********
+Modell-Label: [-1, 1, -1, 1, 1, -1]
+Echtes Label: [-1, -1, 1, -1, -1, 1]
+
+Logeintrag: ******* GOODBYE /99.99.99.99:99999 ********
+Modell-Label: [-1, 1, -1, 1, 1, -1]
+Echtes Label: [-1, -1, 1, -1, -1, 1]
+
+Logeintrag: ******* GOODBYE /99.99.99.99:99999 ********
+Modell-Label: [-1, 1, -1, 1, 1, -1]
+Echtes Label: [-1, -1, 1, -1, -1, 1]
+
+Logeintrag: ******* GOODBYE /99.99.99.99:99999 ********
+Modell-Label: [-1, 1, -1, 1, 1, -1]
+Echtes Label: [-1, -1, 1, -1, -1, 1]
+
+Logeintrag: ******* GOODBYE /99.99.99.99:99999 ********
+Modell-Label: [-1, 1, -1, 1, 1, -1]
+Echtes Label: [-1, -1, 1, -1, -1, 1]
+
+Logeintrag: Unexpected exception causing shutdown while sock still open
+Modell-Label: [-1, -1, 1, 1, 1, -1, -1, -1]
+Echtes Label: [-1, -1, -1, -1, -1, -1, -1, -1]
+
+Logeintrag: Unexpected exception causing shutdown while sock still open
+Modell-Label: [-1, -1, 1, 1, 1, -1, -1, -1]
+Echtes Label: [-1, -1, -1, -1, -1, -1, -1, -1]
+
+Logeintrag: ******* GOODBYE /99.99.99.99:99999 ********
+Modell-Label: [-1, 1, -1, 1, 1, -1]
+Echtes Label: [-1, -1, 1, -1, -1, 1]
+
+Logeintrag: ******* GOODBYE /99.99.99.99:99999 ********
+Modell-Label: [-1, 1, -1, 1, 1, -1]
+Echtes Label: [-1, -1, 1, -1, -1, 1]
+
+Logeintrag: ******* GOODBYE /99.99.99.99:99999 ********
+Modell-Label: [-1, 1, -1, 1, 1, -1]
+Echtes Label: [-1, -1, 1, -1, -1, 1]
+
+Logeintrag: ******* GOODBYE /99.99.99.99:99999 ********
+Modell-Label: [-1, 1, -1, 1, 1, -1]
+Echtes Label: [-1, -1, 1, -1, -1, 1]
+
+Logeintrag: Unexpected exception causing shutdown while sock still open
+Modell-Label: [-1, -1, 1, 1, 1, -1, -1, -1]
+Echtes Label: [-1, -1, -1, -1, -1, -1, -1, -1]
+
+Logeintrag: ******* GOODBYE /99.99.99.99:99999 ********
+Modell-Label: [-1, 1, -1, 1, 1, -1]
+Echtes Label: [-1, -1, 1, -1, -1, 1]
+
+Logeintrag: Unexpected exception causing shutdown while sock still open
+Modell-Label: [-1, -1, 1, 1, 1, -1, -1, -1]
+Echtes Label: [-1, -1, -1, -1, -1, -1, -1, -1]
+
+Logeintrag: Unexpected exception causing shutdown while sock still open
+Modell-Label: [-1, -1, 1, 1, 1, -1, -1, -1]
+Echtes Label: [-1, -1, -1, -1, -1, -1, -1, -1]
+
+Logeintrag: Unexpected exception causing shutdown while sock still open
+Modell-Label: [-1, -1, 1, 1, 1, -1, -1, -1]
+Echtes Label: [-1, -1, -1, -1, -1, -1, -1, -1]
+
+Logeintrag: ******* GOODBYE /99.99.99.99:99999 ********
+Modell-Label: [-1, 1, -1, 1, 1, -1]
+Echtes Label: [-1, -1, 1, -1, -1, 1]
+
+Logeintrag: ******* GOODBYE /99.99.99.99:99999 ********
+Modell-Label: [-1, 1, -1, 1, 1, -1]
+Echtes Label: [-1, -1, 1, -1, -1, 1]
+
+Logeintrag: ******* GOODBYE /99.99.99.99:99999 ********
+Modell-Label: [-1, 1, -1, 1, 1, -1]
+Echtes Label: [-1, -1, 1, -1, -1, 1]
+
+Logeintrag: Unexpected exception causing shutdown while sock still open
+Modell-Label: [-1, -1, 1, 1, 1, -1, -1, -1]
+Echtes Label: [-1, -1, -1, -1, -1, -1, -1, -1]
+
+Logeintrag: Interrupting SendWorker
+Modell-Label: [1, 1, -1]
+Echtes Label: [-1, -1, 1]
+
+Logeintrag: Connection broken for id 999999999999, my id = 9, error =
+Modell-Label: [-1, -1, -1, -1, -1, 1, 1, 1, 1, 1, 1]
+Echtes Label: [-1, -1, -1, -1, 1, 1, 1, 1, 1, 1, 1]
+
+Logeintrag: Interrupting SendWorker
+Modell-Label: [1, 1, -1]
+Echtes Label: [-1, -1, 1]
+
+Logeintrag: Connection broken for id 999999999999, my id = 9, error =
+Modell-Label: [-1, -1, -1, -1, -1, 1, 1, 1, 1, 1, 1]
+Echtes Label: [-1, -1, -1, -1, 1, 1, 1, 1, 1, 1, 1]
+
+Logeintrag: Connection broken for id 999999999999, my id = 9, error =
+Modell-Label: [-1, -1, -1, -1, -1, 1, 1, 1, 1, 1, 1]
+Echtes Label: [-1, -1, -1, -1, 1, 1, 1, 1, 1, 1, 1]
+
+Logeintrag: Interrupting SendWorker
+Modell-Label: [1, 1, -1]
+Echtes Label: [-1, -1, 1]
+
+Logeintrag: Interrupting SendWorker
+Modell-Label: [1, 1, -1]
+Echtes Label: [-1, -1, 1]
+
+Logeintrag: Interrupting SendWorker
+Modell-Label: [1, 1, -1]
+Echtes Label: [-1, -1, 1]
+
+Logeintrag: Connection broken for id 999999999999, my id = 9, error =
+Modell-Label: [-1, -1, -1, -1, -1, 1, 1, 1, 1, 1, 1]
+Echtes Label: [-1, -1, -1, -1, 1, 1, 1, 1, 1, 1, 1]
+
+Logeintrag: Interrupting SendWorker
+Modell-Label: [1, 1, -1]
+Echtes Label: [-1, -1, 1]
+
+Logeintrag: Interrupting SendWorker
+Modell-Label: [1, 1, -1]
+Echtes Label: [-1, -1, 1]
+
+Logeintrag: Connection broken for id 999999999999, my id = 9, error =
+Modell-Label: [-1, -1, -1, -1, -1, 1, 1, 1, 1, 1, 1]
+Echtes Label: [-1, -1, -1, -1, 1, 1, 1, 1, 1, 1, 1]
+
+Logeintrag: Connection broken for id 999999999999, my id = 9, error =
+Modell-Label: [-1, -1, -1, -1, -1, 1, 1, 1, 1, 1, 1]
+Echtes Label: [-1, -1, -1, -1, 1, 1, 1, 1, 1, 1, 1]
+
+Logeintrag: Connection broken for id 999999999999, my id = 9, error =
+Modell-Label: [-1, -1, -1, -1, -1, 1, 1, 1, 1, 1, 1]
+Echtes Label: [-1, -1, -1, -1, 1, 1, 1, 1, 1, 1, 1]
+
+Logeintrag: Connection broken for id 999999999999, my id = 9, error =
+Modell-Label: [-1, -1, -1, -1, -1, 1, 1, 1, 1, 1, 1]
+Echtes Label: [-1, -1, -1, -1, 1, 1, 1, 1, 1, 1, 1]
+
+Logeintrag: Interrupting SendWorker
+Modell-Label: [1, 1, -1]
+Echtes Label: [-1, -1, 1]
+
+Logeintrag: Interrupting SendWorker
+Modell-Label: [1, 1, -1]
+Echtes Label: [-1, -1, 1]
+
+Logeintrag: Connection broken for id 999999999999, my id = 9, error =
+Modell-Label: [-1, -1, -1, -1, -1, 1, 1, 1, 1, 1, 1]
+Echtes Label: [-1, -1, -1, -1, 1, 1, 1, 1, 1, 1, 1]
+
+Logeintrag: Interrupting SendWorker
+Modell-Label: [1, 1, -1]
+Echtes Label: [-1, -1, 1]
+
+Logeintrag: Connection broken for id 999999999999, my id = 9, error =
+Modell-Label: [-1, -1, -1, -1, -1, 1, 1, 1, 1, 1, 1]
+Echtes Label: [-1, -1, -1, -1, 1, 1, 1, 1, 1, 1, 1]
+
+Logeintrag: Connection broken for id 999999999999, my id = 9, error =
+Modell-Label: [-1, -1, -1, -1, -1, 1, 1, 1, 1, 1, 1]
+Echtes Label: [-1, -1, -1, -1, 1, 1, 1, 1, 1, 1, 1]
+
+Logeintrag: Connection broken for id 999999999999, my id = 9, error =
+Modell-Label: [-1, -1, -1, -1, -1, 1, 1, 1, 1, 1, 1]
+Echtes Label: [-1, -1, -1, -1, 1, 1, 1, 1, 1, 1, 1]
+
+Logeintrag: Connection broken for id 999999999999, my id = 9, error =
+Modell-Label: [-1, -1, -1, -1, -1, 1, 1, 1, 1, 1, 1]
+Echtes Label: [-1, -1, -1, -1, 1, 1, 1, 1, 1, 1, 1]
+
+Logeintrag: Connection broken for id 999999999999, my id = 9, error =
+Modell-Label: [-1, -1, -1, -1, -1, 1, 1, 1, 1, 1, 1]
+Echtes Label: [-1, -1, -1, -1, 1, 1, 1, 1, 1, 1, 1]
+
+Logeintrag: Interrupting SendWorker
+Modell-Label: [1, 1, -1]
+Echtes Label: [-1, -1, 1]
+
+Logeintrag: Connection broken for id 999999999999, my id = 9, error =
+Modell-Label: [-1, -1, -1, -1, -1, 1, 1, 1, 1, 1, 1]
+Echtes Label: [-1, -1, -1, -1, 1, 1, 1, 1, 1, 1, 1]
+
+Logeintrag: Interrupting SendWorker
+Modell-Label: [1, 1, -1]
+Echtes Label: [-1, -1, 1]
+
+Logeintrag: Interrupting SendWorker
+Modell-Label: [1, 1, -1]
+Echtes Label: [-1, -1, 1]
+
+Logeintrag: Interrupting SendWorker
+Modell-Label: [1, 1, -1]
+Echtes Label: [-1, -1, 1]
+
+Logeintrag: Connection broken for id 999999999999, my id = 9, error =
+Modell-Label: [-1, -1, -1, -1, -1, 1, 1, 1, 1, 1, 1]
+Echtes Label: [-1, -1, -1, -1, 1, 1, 1, 1, 1, 1, 1]
+
+Logeintrag: Interrupting SendWorker
+Modell-Label: [1, 1, -1]
+Echtes Label: [-1, -1, 1]
+
+Logeintrag: Interrupting SendWorker
+Modell-Label: [1, 1, -1]
+Echtes Label: [-1, -1, 1]
+
+Logeintrag: Interrupting SendWorker
+Modell-Label: [1, 1, -1]
+Echtes Label: [-1, -1, 1]
+
+Logeintrag: Connection broken for id 999999999999, my id = 9, error =
+Modell-Label: [-1, -1, -1, -1, -1, 1, 1, 1, 1, 1, 1]
+Echtes Label: [-1, -1, -1, -1, 1, 1, 1, 1, 1, 1, 1]
+
+Logeintrag: Interrupting SendWorker
+Modell-Label: [1, 1, -1]
+Echtes Label: [-1, -1, 1]
+
+Logeintrag: Connection broken for id 999999999999, my id = 9, error =
+Modell-Label: [-1, -1, -1, -1, -1, 1, 1, 1, 1, 1, 1]
+Echtes Label: [-1, -1, -1, -1, 1, 1, 1, 1, 1, 1, 1]
+
+Logeintrag: Interrupting SendWorker
+Modell-Label: [1, 1, -1]
+Echtes Label: [-1, -1, 1]
+
+Logeintrag: Connection broken for id 999999999999, my id = 9, error =
+Modell-Label: [-1, -1, -1, -1, -1, 1, 1, 1, 1, 1, 1]
+Echtes Label: [-1, -1, -1, -1, 1, 1, 1, 1, 1, 1, 1]
+
+Logeintrag: Interrupting SendWorker
+Modell-Label: [1, 1, -1]
+Echtes Label: [-1, -1, 1]
+
+Logeintrag: Interrupting SendWorker
+Modell-Label: [1, 1, -1]
+Echtes Label: [-1, -1, 1]
+
+Logeintrag: Connection broken for id 999999999999, my id = 9, error =
+Modell-Label: [-1, -1, -1, -1, -1, 1, 1, 1, 1, 1, 1]
+Echtes Label: [-1, -1, -1, -1, 1, 1, 1, 1, 1, 1, 1]
+
+Logeintrag: Connection broken for id 999999999999, my id = 9, error =
+Modell-Label: [-1, -1, -1, -1, -1, 1, 1, 1, 1, 1, 1]
+Echtes Label: [-1, -1, -1, -1, 1, 1, 1, 1, 1, 1, 1]
+
+Logeintrag: Interrupting SendWorker
+Modell-Label: [1, 1, -1]
+Echtes Label: [-1, -1, 1]
+
+Logeintrag: Interrupting SendWorker
+Modell-Label: [1, 1, -1]
+Echtes Label: [-1, -1, 1]
+
+Logeintrag: Connection broken for id 999999999999, my id = 9, error =
+Modell-Label: [-1, -1, -1, -1, -1, 1, 1, 1, 1, 1, 1]
+Echtes Label: [-1, -1, -1, -1, 1, 1, 1, 1, 1, 1, 1]
+
+Logeintrag: Connection broken for id 999999999999, my id = 9, error =
+Modell-Label: [-1, -1, -1, -1, -1, 1, 1, 1, 1, 1, 1]
+Echtes Label: [-1, -1, -1, -1, 1, 1, 1, 1, 1, 1, 1]
+
+Logeintrag: Connection broken for id 999999999999, my id = 9, error =
+Modell-Label: [-1, -1, -1, -1, -1, 1, 1, 1, 1, 1, 1]
+Echtes Label: [-1, -1, -1, -1, 1, 1, 1, 1, 1, 1, 1]
+
+Logeintrag: Connection broken for id 999999999999, my id = 9, error =
+Modell-Label: [-1, -1, -1, -1, -1, 1, 1, 1, 1, 1, 1]
+Echtes Label: [-1, -1, -1, -1, 1, 1, 1, 1, 1, 1, 1]
+
+Logeintrag: Interrupting SendWorker
+Modell-Label: [1, 1, -1]
+Echtes Label: [-1, -1, 1]
+
+Logeintrag: Interrupting SendWorker
+Modell-Label: [1, 1, -1]
+Echtes Label: [-1, -1, 1]
+
+Logeintrag: Connection broken for id 999999999999, my id = 9, error =
+Modell-Label: [-1, -1, -1, -1, -1, 1, 1, 1, 1, 1, 1]
+Echtes Label: [-1, -1, -1, -1, 1, 1, 1, 1, 1, 1, 1]
+
+Logeintrag: Interrupting SendWorker
+Modell-Label: [1, 1, -1]
+Echtes Label: [-1, -1, 1]
+
+Logeintrag: Interrupting SendWorker
+Modell-Label: [1, 1, -1]
+Echtes Label: [-1, -1, 1]
+
+Logeintrag: Interrupting SendWorker
+Modell-Label: [1, 1, -1]
+Echtes Label: [-1, -1, 1]
+
+Logeintrag: Interrupting SendWorker
+Modell-Label: [1, 1, -1]
+Echtes Label: [-1, -1, 1]
+
+Logeintrag: Connection broken for id 999999999999, my id = 9, error =
+Modell-Label: [-1, -1, -1, -1, -1, 1, 1, 1, 1, 1, 1]
+Echtes Label: [-1, -1, -1, -1, 1, 1, 1, 1, 1, 1, 1]
+
+Logeintrag: Connection broken for id 999999999999, my id = 9, error =
+Modell-Label: [-1, -1, -1, -1, -1, 1, 1, 1, 1, 1, 1]
+Echtes Label: [-1, -1, -1, -1, 1, 1, 1, 1, 1, 1, 1]
+
+Logeintrag: Interrupting SendWorker
+Modell-Label: [1, 1, -1]
+Echtes Label: [-1, -1, 1]
+
+Logeintrag: Connection broken for id 999999999999, my id = 9, error =
+Modell-Label: [-1, -1, -1, -1, -1, 1, 1, 1, 1, 1, 1]
+Echtes Label: [-1, -1, -1, -1, 1, 1, 1, 1, 1, 1, 1]
+
+Logeintrag: Interrupting SendWorker
+Modell-Label: [1, 1, -1]
+Echtes Label: [-1, -1, 1]
+
+Logeintrag: Connection broken for id 999999999999, my id = 9, error =
+Modell-Label: [-1, -1, -1, -1, -1, 1, 1, 1, 1, 1, 1]
+Echtes Label: [-1, -1, -1, -1, 1, 1, 1, 1, 1, 1, 1]
+
+Logeintrag: Connection broken for id 999999999999, my id = 9, error =
+Modell-Label: [-1, -1, -1, -1, -1, 1, 1, 1, 1, 1, 1]
+Echtes Label: [-1, -1, -1, -1, 1, 1, 1, 1, 1, 1, 1]
+
+Logeintrag: Connection broken for id 999999999999, my id = 9, error =
+Modell-Label: [-1, -1, -1, -1, -1, 1, 1, 1, 1, 1, 1]
+Echtes Label: [-1, -1, -1, -1, 1, 1, 1, 1, 1, 1, 1]
+
+Logeintrag: Interrupting SendWorker
+Modell-Label: [1, 1, -1]
+Echtes Label: [-1, -1, 1]
+
+Logeintrag: Connection broken for id 999999999999, my id = 9, error =
+Modell-Label: [-1, -1, -1, -1, -1, 1, 1, 1, 1, 1, 1]
+Echtes Label: [-1, -1, -1, -1, 1, 1, 1, 1, 1, 1, 1]
+
+Logeintrag: Interrupting SendWorker
+Modell-Label: [1, 1, -1]
+Echtes Label: [-1, -1, 1]
+
+Logeintrag: Connection broken for id 999999999999, my id = 9, error =
+Modell-Label: [-1, -1, -1, -1, -1, 1, 1, 1, 1, 1, 1]
+Echtes Label: [-1, -1, -1, -1, 1, 1, 1, 1, 1, 1, 1]
+
+Logeintrag: Interrupting SendWorker
+Modell-Label: [1, 1, -1]
+Echtes Label: [-1, -1, 1]
+
+Logeintrag: Interrupting SendWorker
+Modell-Label: [1, 1, -1]
+Echtes Label: [-1, -1, 1]
+
+Logeintrag: Connection broken for id 999999999999, my id = 9, error =
+Modell-Label: [-1, -1, -1, -1, -1, 1, 1, 1, 1, 1, 1]
+Echtes Label: [-1, -1, -1, -1, 1, 1, 1, 1, 1, 1, 1]
+
+Logeintrag: Connection broken for id 999999999999, my id = 9, error =
+Modell-Label: [-1, -1, -1, -1, -1, 1, 1, 1, 1, 1, 1]
+Echtes Label: [-1, -1, -1, -1, 1, 1, 1, 1, 1, 1, 1]
+
+Logeintrag: Interrupting SendWorker
+Modell-Label: [1, 1, -1]
+Echtes Label: [-1, -1, 1]
+
+Logeintrag: Connection broken for id 999999999999, my id = 9, error =
+Modell-Label: [-1, -1, -1, -1, -1, 1, 1, 1, 1, 1, 1]
+Echtes Label: [-1, -1, -1, -1, 1, 1, 1, 1, 1, 1, 1]
+
+Logeintrag: Connection broken for id 999999999999, my id = 9, error =
+Modell-Label: [-1, -1, -1, -1, -1, 1, 1, 1, 1, 1, 1]
+Echtes Label: [-1, -1, -1, -1, 1, 1, 1, 1, 1, 1, 1]
+
+Logeintrag: Interrupting SendWorker
+Modell-Label: [1, 1, -1]
+Echtes Label: [-1, -1, 1]
+
+Logeintrag: Connection broken for id 999999999999, my id = 9, error =
+Modell-Label: [-1, -1, -1, -1, -1, 1, 1, 1, 1, 1, 1]
+Echtes Label: [-1, -1, -1, -1, 1, 1, 1, 1, 1, 1, 1]
+
+Logeintrag: Connection broken for id 999999999999, my id = 9, error =
+Modell-Label: [-1, -1, -1, -1, -1, 1, 1, 1, 1, 1, 1]
+Echtes Label: [-1, -1, -1, -1, 1, 1, 1, 1, 1, 1, 1]
+
+Logeintrag: Connection broken for id 999999999999, my id = 9, error =
+Modell-Label: [-1, -1, -1, -1, -1, 1, 1, 1, 1, 1, 1]
+Echtes Label: [-1, -1, -1, -1, 1, 1, 1, 1, 1, 1, 1]
+
+Logeintrag: Connection broken for id 999999999999, my id = 9, error =
+Modell-Label: [-1, -1, -1, -1, -1, 1, 1, 1, 1, 1, 1]
+Echtes Label: [-1, -1, -1, -1, 1, 1, 1, 1, 1, 1, 1]
+
+Logeintrag: Connection broken for id 999999999999, my id = 9, error =
+Modell-Label: [-1, -1, -1, -1, -1, 1, 1, 1, 1, 1, 1]
+Echtes Label: [-1, -1, -1, -1, 1, 1, 1, 1, 1, 1, 1]
+
+Logeintrag: Interrupting SendWorker
+Modell-Label: [1, 1, -1]
+Echtes Label: [-1, -1, 1]
+
+Logeintrag: Interrupting SendWorker
+Modell-Label: [1, 1, -1]
+Echtes Label: [-1, -1, 1]
+
+Logeintrag: Interrupting SendWorker
+Modell-Label: [1, 1, -1]
+Echtes Label: [-1, -1, 1]
+
+Logeintrag: Interrupting SendWorker
+Modell-Label: [1, 1, -1]
+Echtes Label: [-1, -1, 1]
+
+Logeintrag: Interrupting SendWorker
+Modell-Label: [1, 1, -1]
+Echtes Label: [-1, -1, 1]
+
+Logeintrag: Connection broken for id 999999999999, my id = 9, error =
+Modell-Label: [-1, -1, -1, -1, -1, 1, 1, 1, 1, 1, 1]
+Echtes Label: [-1, -1, -1, -1, 1, 1, 1, 1, 1, 1, 1]
+
+Logeintrag: Connection broken for id 999999999999, my id = 9, error =
+Modell-Label: [-1, -1, -1, -1, -1, 1, 1, 1, 1, 1, 1]
+Echtes Label: [-1, -1, -1, -1, 1, 1, 1, 1, 1, 1, 1]
+
+Logeintrag: Interrupting SendWorker
+Modell-Label: [1, 1, -1]
+Echtes Label: [-1, -1, 1]
+
+Logeintrag: Connection broken for id 999999999999, my id = 9, error =
+Modell-Label: [-1, -1, -1, -1, -1, 1, 1, 1, 1, 1, 1]
+Echtes Label: [-1, -1, -1, -1, 1, 1, 1, 1, 1, 1, 1]
+
+Logeintrag: Connection broken for id 999999999999, my id = 9, error =
+Modell-Label: [-1, -1, -1, -1, -1, 1, 1, 1, 1, 1, 1]
+Echtes Label: [-1, -1, -1, -1, 1, 1, 1, 1, 1, 1, 1]
+
+Logeintrag: Interrupting SendWorker
+Modell-Label: [1, 1, -1]
+Echtes Label: [-1, -1, 1]
+
+Logeintrag: Interrupting SendWorker
+Modell-Label: [1, 1, -1]
+Echtes Label: [-1, -1, 1]
+
+Logeintrag: Interrupting SendWorker
+Modell-Label: [1, 1, -1]
+Echtes Label: [-1, -1, 1]
+
+Logeintrag: Connection broken for id 999999999999, my id = 9, error =
+Modell-Label: [-1, -1, -1, -1, -1, 1, 1, 1, 1, 1, 1]
+Echtes Label: [-1, -1, -1, -1, 1, 1, 1, 1, 1, 1, 1]
+
+Logeintrag: Interrupting SendWorker
+Modell-Label: [1, 1, -1]
+Echtes Label: [-1, -1, 1]
+
+Logeintrag: Connection broken for id 999999999999, my id = 9, error =
+Modell-Label: [-1, -1, -1, -1, -1, 1, 1, 1, 1, 1, 1]
+Echtes Label: [-1, -1, -1, -1, 1, 1, 1, 1, 1, 1, 1]
+
+Logeintrag: Interrupting SendWorker
+Modell-Label: [1, 1, -1]
+Echtes Label: [-1, -1, 1]
+
+Logeintrag: Interrupting SendWorker
+Modell-Label: [1, 1, -1]
+Echtes Label: [-1, -1, 1]
+
+Logeintrag: Connection broken for id 999999999999, my id = 9, error =
+Modell-Label: [-1, -1, -1, -1, -1, 1, 1, 1, 1, 1, 1]
+Echtes Label: [-1, -1, -1, -1, 1, 1, 1, 1, 1, 1, 1]
+
+Logeintrag: Interrupting SendWorker
+Modell-Label: [1, 1, -1]
+Echtes Label: [-1, -1, 1]
+
+Logeintrag: Connection broken for id 999999999999, my id = 9, error =
+Modell-Label: [-1, -1, -1, -1, -1, 1, 1, 1, 1, 1, 1]
+Echtes Label: [-1, -1, -1, -1, 1, 1, 1, 1, 1, 1, 1]
+
+Logeintrag: Interrupting SendWorker
+Modell-Label: [1, 1, -1]
+Echtes Label: [-1, -1, 1]
+
+Logeintrag: Connection broken for id 999999999999, my id = 9, error =
+Modell-Label: [-1, -1, -1, -1, -1, 1, 1, 1, 1, 1, 1]
+Echtes Label: [-1, -1, -1, -1, 1, 1, 1, 1, 1, 1, 1]
+
+Logeintrag: Interrupting SendWorker
+Modell-Label: [1, 1, -1]
+Echtes Label: [-1, -1, 1]
+
+Logeintrag: Interrupting SendWorker
+Modell-Label: [1, 1, -1]
+Echtes Label: [-1, -1, 1]
+
+Logeintrag: Connection broken for id 999999999999, my id = 9, error =
+Modell-Label: [-1, -1, -1, -1, -1, 1, 1, 1, 1, 1, 1]
+Echtes Label: [-1, -1, -1, -1, 1, 1, 1, 1, 1, 1, 1]
+
+Logeintrag: Connection broken for id 999999999999, my id = 9, error =
+Modell-Label: [-1, -1, -1, -1, -1, 1, 1, 1, 1, 1, 1]
+Echtes Label: [-1, -1, -1, -1, 1, 1, 1, 1, 1, 1, 1]
+
+Logeintrag: Interrupting SendWorker
+Modell-Label: [1, 1, -1]
+Echtes Label: [-1, -1, 1]
+
+Logeintrag: Connection broken for id 999999999999, my id = 9, error =
+Modell-Label: [-1, -1, -1, -1, -1, 1, 1, 1, 1, 1, 1]
+Echtes Label: [-1, -1, -1, -1, 1, 1, 1, 1, 1, 1, 1]
+
+Logeintrag: Interrupting SendWorker
+Modell-Label: [1, 1, -1]
+Echtes Label: [-1, -1, 1]
+
+Logeintrag: Connection broken for id 999999999999, my id = 9, error =
+Modell-Label: [-1, -1, -1, -1, -1, 1, 1, 1, 1, 1, 1]
+Echtes Label: [-1, -1, -1, -1, 1, 1, 1, 1, 1, 1, 1]
+
+Logeintrag: Interrupting SendWorker
+Modell-Label: [1, 1, -1]
+Echtes Label: [-1, -1, 1]
+
+Logeintrag: Connection broken for id 999999999999, my id = 9, error =
+Modell-Label: [-1, -1, -1, -1, -1, 1, 1, 1, 1, 1, 1]
+Echtes Label: [-1, -1, -1, -1, 1, 1, 1, 1, 1, 1, 1]
+
+Logeintrag: Interrupting SendWorker
+Modell-Label: [1, 1, -1]
+Echtes Label: [-1, -1, 1]
+
+Logeintrag: Connection broken for id 999999999999, my id = 9, error =
+Modell-Label: [-1, -1, -1, -1, -1, 1, 1, 1, 1, 1, 1]
+Echtes Label: [-1, -1, -1, -1, 1, 1, 1, 1, 1, 1, 1]
+
+Logeintrag: Interrupting SendWorker
+Modell-Label: [1, 1, -1]
+Echtes Label: [-1, -1, 1]
+
+Logeintrag: Interrupting SendWorker
+Modell-Label: [1, 1, -1]
+Echtes Label: [-1, -1, 1]
+
+Logeintrag: Connection broken for id 999999999999, my id = 9, error =
+Modell-Label: [-1, -1, -1, -1, -1, 1, 1, 1, 1, 1, 1]
+Echtes Label: [-1, -1, -1, -1, 1, 1, 1, 1, 1, 1, 1]
+
+Logeintrag: Interrupting SendWorker
+Modell-Label: [1, 1, -1]
+Echtes Label: [-1, -1, 1]
+
+Logeintrag: Interrupting SendWorker
+Modell-Label: [1, 1, -1]
+Echtes Label: [-1, -1, 1]
+
+Logeintrag: Connection broken for id 999999999999, my id = 9, error =
+Modell-Label: [-1, -1, -1, -1, -1, 1, 1, 1, 1, 1, 1]
+Echtes Label: [-1, -1, -1, -1, 1, 1, 1, 1, 1, 1, 1]
+
+Logeintrag: Interrupting SendWorker
+Modell-Label: [1, 1, -1]
+Echtes Label: [-1, -1, 1]
+
+Logeintrag: Interrupting SendWorker
+Modell-Label: [1, 1, -1]
+Echtes Label: [-1, -1, 1]
+
+Logeintrag: Interrupting SendWorker
+Modell-Label: [1, 1, -1]
+Echtes Label: [-1, -1, 1]
+
+Logeintrag: Interrupting SendWorker
+Modell-Label: [1, 1, -1]
+Echtes Label: [-1, -1, 1]
+
+Logeintrag: Connection broken for id 999999999999, my id = 9, error =
+Modell-Label: [-1, -1, -1, -1, -1, 1, 1, 1, 1, 1, 1]
+Echtes Label: [-1, -1, -1, -1, 1, 1, 1, 1, 1, 1, 1]
+
+Logeintrag: Connection broken for id 999999999999, my id = 9, error =
+Modell-Label: [-1, -1, -1, -1, -1, 1, 1, 1, 1, 1, 1]
+Echtes Label: [-1, -1, -1, -1, 1, 1, 1, 1, 1, 1, 1]
+
+Logeintrag: Interrupting SendWorker
+Modell-Label: [1, 1, -1]
+Echtes Label: [-1, -1, 1]
+
+Logeintrag: Connection broken for id 999999999999, my id = 9, error =
+Modell-Label: [-1, -1, -1, -1, -1, 1, 1, 1, 1, 1, 1]
+Echtes Label: [-1, -1, -1, -1, 1, 1, 1, 1, 1, 1, 1]
+
+Logeintrag: Interrupting SendWorker
+Modell-Label: [1, 1, -1]
+Echtes Label: [-1, -1, 1]
+
+Logeintrag: Connection broken for id 999999999999, my id = 9, error =
+Modell-Label: [-1, -1, -1, -1, -1, 1, 1, 1, 1, 1, 1]
+Echtes Label: [-1, -1, -1, -1, 1, 1, 1, 1, 1, 1, 1]
+
+Logeintrag: Interrupting SendWorker
+Modell-Label: [1, 1, -1]
+Echtes Label: [-1, -1, 1]
+
+Logeintrag: Connection broken for id 999999999999, my id = 9, error =
+Modell-Label: [-1, -1, -1, -1, -1, 1, 1, 1, 1, 1, 1]
+Echtes Label: [-1, -1, -1, -1, 1, 1, 1, 1, 1, 1, 1]
+
+Logeintrag: Connection broken for id 999999999999, my id = 9, error =
+Modell-Label: [-1, -1, -1, -1, -1, 1, 1, 1, 1, 1, 1]
+Echtes Label: [-1, -1, -1, -1, 1, 1, 1, 1, 1, 1, 1]
+
+Logeintrag: Interrupting SendWorker
+Modell-Label: [1, 1, -1]
+Echtes Label: [-1, -1, 1]
+
+Logeintrag: Connection broken for id 999999999999, my id = 9, error =
+Modell-Label: [-1, -1, -1, -1, -1, 1, 1, 1, 1, 1, 1]
+Echtes Label: [-1, -1, -1, -1, 1, 1, 1, 1, 1, 1, 1]
+
+Logeintrag: Connection broken for id 999999999999, my id = 9, error =
+Modell-Label: [-1, -1, -1, -1, -1, 1, 1, 1, 1, 1, 1]
+Echtes Label: [-1, -1, -1, -1, 1, 1, 1, 1, 1, 1, 1]
+
+Logeintrag: Connection broken for id 999999999999, my id = 9, error =
+Modell-Label: [-1, -1, -1, -1, -1, 1, 1, 1, 1, 1, 1]
+Echtes Label: [-1, -1, -1, -1, 1, 1, 1, 1, 1, 1, 1]
+
+Logeintrag: Interrupting SendWorker
+Modell-Label: [1, 1, -1]
+Echtes Label: [-1, -1, 1]
+
+Logeintrag: Connection broken for id 999999999999, my id = 9, error =
+Modell-Label: [-1, -1, -1, -1, -1, 1, 1, 1, 1, 1, 1]
+Echtes Label: [-1, -1, -1, -1, 1, 1, 1, 1, 1, 1, 1]
+
+Logeintrag: Interrupting SendWorker
+Modell-Label: [1, 1, -1]
+Echtes Label: [-1, -1, 1]
+
+Logeintrag: Interrupting SendWorker
+Modell-Label: [1, 1, -1]
+Echtes Label: [-1, -1, 1]
+
+Logeintrag: Connection broken for id 999999999999, my id = 9, error =
+Modell-Label: [-1, -1, -1, -1, -1, 1, 1, 1, 1, 1, 1]
+Echtes Label: [-1, -1, -1, -1, 1, 1, 1, 1, 1, 1, 1]
+
+Logeintrag: Interrupting SendWorker
+Modell-Label: [1, 1, -1]
+Echtes Label: [-1, -1, 1]
+
+Logeintrag: Interrupting SendWorker
+Modell-Label: [1, 1, -1]
+Echtes Label: [-1, -1, 1]
+
+Logeintrag: Connection broken for id 999999999999, my id = 9, error =
+Modell-Label: [-1, -1, -1, -1, -1, 1, 1, 1, 1, 1, 1]
+Echtes Label: [-1, -1, -1, -1, 1, 1, 1, 1, 1, 1, 1]
+
+Logeintrag: Connection broken for id 999999999999, my id = 9, error =
+Modell-Label: [-1, -1, -1, -1, -1, 1, 1, 1, 1, 1, 1]
+Echtes Label: [-1, -1, -1, -1, 1, 1, 1, 1, 1, 1, 1]
+
+Logeintrag: Connection broken for id 999999999999, my id = 9, error =
+Modell-Label: [-1, -1, -1, -1, -1, 1, 1, 1, 1, 1, 1]
+Echtes Label: [-1, -1, -1, -1, 1, 1, 1, 1, 1, 1, 1]
+
+Logeintrag: Interrupting SendWorker
+Modell-Label: [1, 1, -1]
+Echtes Label: [-1, -1, 1]
+
+Logeintrag: Connection broken for id 999999999999, my id = 9, error =
+Modell-Label: [-1, -1, -1, -1, -1, 1, 1, 1, 1, 1, 1]
+Echtes Label: [-1, -1, -1, -1, 1, 1, 1, 1, 1, 1, 1]
+
+Logeintrag: Interrupting SendWorker
+Modell-Label: [1, 1, -1]
+Echtes Label: [-1, -1, 1]
+
+Logeintrag: Interrupting SendWorker
+Modell-Label: [1, 1, -1]
+Echtes Label: [-1, -1, 1]
+
+Logeintrag: Connection broken for id 999999999999, my id = 9, error =
+Modell-Label: [-1, -1, -1, -1, -1, 1, 1, 1, 1, 1, 1]
+Echtes Label: [-1, -1, -1, -1, 1, 1, 1, 1, 1, 1, 1]
+
+Logeintrag: Connection broken for id 999999999999, my id = 9, error =
+Modell-Label: [-1, -1, -1, -1, -1, 1, 1, 1, 1, 1, 1]
+Echtes Label: [-1, -1, -1, -1, 1, 1, 1, 1, 1, 1, 1]
+
+Logeintrag: Connection broken for id 999999999999, my id = 9, error =
+Modell-Label: [-1, -1, -1, -1, -1, 1, 1, 1, 1, 1, 1]
+Echtes Label: [-1, -1, -1, -1, 1, 1, 1, 1, 1, 1, 1]
+
+Logeintrag: Connection broken for id 999999999999, my id = 9, error =
+Modell-Label: [-1, -1, -1, -1, -1, 1, 1, 1, 1, 1, 1]
+Echtes Label: [-1, -1, -1, -1, 1, 1, 1, 1, 1, 1, 1]
+
+Logeintrag: Interrupting SendWorker
+Modell-Label: [1, 1, -1]
+Echtes Label: [-1, -1, 1]
+
+Logeintrag: Connection broken for id 999999999999, my id = 9, error =
+Modell-Label: [-1, -1, -1, -1, -1, 1, 1, 1, 1, 1, 1]
+Echtes Label: [-1, -1, -1, -1, 1, 1, 1, 1, 1, 1, 1]
+
+Logeintrag: Interrupting SendWorker
+Modell-Label: [1, 1, -1]
+Echtes Label: [-1, -1, 1]
+
+Logeintrag: Connection broken for id 999999999999, my id = 9, error =
+Modell-Label: [-1, -1, -1, -1, -1, 1, 1, 1, 1, 1, 1]
+Echtes Label: [-1, -1, -1, -1, 1, 1, 1, 1, 1, 1, 1]
+
+Logeintrag: Connection broken for id 999999999999, my id = 9, error =
+Modell-Label: [-1, -1, -1, -1, -1, 1, 1, 1, 1, 1, 1]
+Echtes Label: [-1, -1, -1, -1, 1, 1, 1, 1, 1, 1, 1]
+
+Logeintrag: Connection broken for id 999999999999, my id = 9, error =
+Modell-Label: [-1, -1, -1, -1, -1, 1, 1, 1, 1, 1, 1]
+Echtes Label: [-1, -1, -1, -1, 1, 1, 1, 1, 1, 1, 1]
+
+Logeintrag: Connection broken for id 999999999999, my id = 9, error =
+Modell-Label: [-1, -1, -1, -1, -1, 1, 1, 1, 1, 1, 1]
+Echtes Label: [-1, -1, -1, -1, 1, 1, 1, 1, 1, 1, 1]
+
+Logeintrag: Connection broken for id 999999999999, my id = 9, error =
+Modell-Label: [-1, -1, -1, -1, -1, 1, 1, 1, 1, 1, 1]
+Echtes Label: [-1, -1, -1, -1, 1, 1, 1, 1, 1, 1, 1]
+
+Logeintrag: Connection broken for id 999999999999, my id = 9, error =
+Modell-Label: [-1, -1, -1, -1, -1, 1, 1, 1, 1, 1, 1]
+Echtes Label: [-1, -1, -1, -1, 1, 1, 1, 1, 1, 1, 1]
+
+Logeintrag: Interrupting SendWorker
+Modell-Label: [1, 1, -1]
+Echtes Label: [-1, -1, 1]
+
+Logeintrag: Interrupting SendWorker
+Modell-Label: [1, 1, -1]
+Echtes Label: [-1, -1, 1]
+
+Logeintrag: Connection broken for id 999999999999, my id = 9, error =
+Modell-Label: [-1, -1, -1, -1, -1, 1, 1, 1, 1, 1, 1]
+Echtes Label: [-1, -1, -1, -1, 1, 1, 1, 1, 1, 1, 1]
+
+Logeintrag: Interrupting SendWorker
+Modell-Label: [1, 1, -1]
+Echtes Label: [-1, -1, 1]
+
+Logeintrag: Interrupting SendWorker
+Modell-Label: [1, 1, -1]
+Echtes Label: [-1, -1, 1]
+
+Logeintrag: Connection broken for id 999999999999, my id = 9, error =
+Modell-Label: [-1, -1, -1, -1, -1, 1, 1, 1, 1, 1, 1]
+Echtes Label: [-1, -1, -1, -1, 1, 1, 1, 1, 1, 1, 1]
+
+Logeintrag: Connection broken for id 999999999999, my id = 9, error =
+Modell-Label: [-1, -1, -1, -1, -1, 1, 1, 1, 1, 1, 1]
+Echtes Label: [-1, -1, -1, -1, 1, 1, 1, 1, 1, 1, 1]
+
+Logeintrag: Interrupting SendWorker
+Modell-Label: [1, 1, -1]
+Echtes Label: [-1, -1, 1]
+
+Logeintrag: Interrupting SendWorker
+Modell-Label: [1, 1, -1]
+Echtes Label: [-1, -1, 1]
+
+Logeintrag: Connection broken for id 999999999999, my id = 9, error =
+Modell-Label: [-1, -1, -1, -1, -1, 1, 1, 1, 1, 1, 1]
+Echtes Label: [-1, -1, -1, -1, 1, 1, 1, 1, 1, 1, 1]
+
+Logeintrag: Interrupting SendWorker
+Modell-Label: [1, 1, -1]
+Echtes Label: [-1, -1, 1]
+
+Logeintrag: Interrupting SendWorker
+Modell-Label: [1, 1, -1]
+Echtes Label: [-1, -1, 1]
+
+Logeintrag: Connection broken for id 999999999999, my id = 9, error =
+Modell-Label: [-1, -1, -1, -1, -1, 1, 1, 1, 1, 1, 1]
+Echtes Label: [-1, -1, -1, -1, 1, 1, 1, 1, 1, 1, 1]
+
+Logeintrag: Interrupting SendWorker
+Modell-Label: [1, 1, -1]
+Echtes Label: [-1, -1, 1]
+
+Logeintrag: Interrupting SendWorker
+Modell-Label: [1, 1, -1]
+Echtes Label: [-1, -1, 1]
+
+Logeintrag: Connection broken for id 999999999999, my id = 9, error =
+Modell-Label: [-1, -1, -1, -1, -1, 1, 1, 1, 1, 1, 1]
+Echtes Label: [-1, -1, -1, -1, 1, 1, 1, 1, 1, 1, 1]
+
+Logeintrag: Connection broken for id 999999999999, my id = 9, error =
+Modell-Label: [-1, -1, -1, -1, -1, 1, 1, 1, 1, 1, 1]
+Echtes Label: [-1, -1, -1, -1, 1, 1, 1, 1, 1, 1, 1]
+
+Logeintrag: Interrupting SendWorker
+Modell-Label: [1, 1, -1]
+Echtes Label: [-1, -1, 1]
+
+Logeintrag: Connection broken for id 999999999999, my id = 9, error =
+Modell-Label: [-1, -1, -1, -1, -1, 1, 1, 1, 1, 1, 1]
+Echtes Label: [-1, -1, -1, -1, 1, 1, 1, 1, 1, 1, 1]
+
+Logeintrag: Interrupting SendWorker
+Modell-Label: [1, 1, -1]
+Echtes Label: [-1, -1, 1]
+
+Logeintrag: Interrupting SendWorker
+Modell-Label: [1, 1, -1]
+Echtes Label: [-1, -1, 1]
+
+Logeintrag: Connection broken for id 999999999999, my id = 9, error =
+Modell-Label: [-1, -1, -1, -1, -1, 1, 1, 1, 1, 1, 1]
+Echtes Label: [-1, -1, -1, -1, 1, 1, 1, 1, 1, 1, 1]
+
+Logeintrag: Connection broken for id 999999999999, my id = 9, error =
+Modell-Label: [-1, -1, -1, -1, -1, 1, 1, 1, 1, 1, 1]
+Echtes Label: [-1, -1, -1, -1, 1, 1, 1, 1, 1, 1, 1]
+
+Logeintrag: Got user-level KeeperException when processing sessionid:9x99ed99999999999 type:create cxid:9x99b9bb9f zxid:9x999999999 txntype:-9 reqpath:n/a Error Path:/home/curi/.zookeeper Error:KeeperErrorCode = NodeExists for /home/curi/.zookeeper
+Modell-Label: [1, 1, 1, -1, -1, -1, 1, 1, -1, 1, 1, 1, 1, -1, 1, -1, 1, -1, 1, -1, 1, 1, 1, -1, -1, 1]
+Echtes Label: [-1, -1, -1, -1, -1, 1, -1, 1, 1, 1, 1, -1, 1, -1, -1, -1, -1, 1, -1, 1, -1, -1, -1, 1, 1, -1]
+
+Logeintrag: caught end of stream exception
+Modell-Label: [-1, -1, -1, 1, -1]
+Echtes Label: [-1, -1, -1, -1, -1]
+
+Logeintrag: Processed session termination for sessionid: 9x99ed99999f99999
+Modell-Label: [1, 1, -1, -1, -1, 1, -1, 1]
+Echtes Label: [-1, -1, -1, -1, -1, 1, 1, -1]
+
+Logeintrag: Processed session termination for sessionid: 9x99ed99999999999
+Modell-Label: [1, 1, -1, -1, -1, 1, -1, 1]
+Echtes Label: [-1, -1, -1, -1, -1, 1, 1, -1]
+
+Logeintrag: Processed session termination for sessionid: 9x99ed99999f99999
+Modell-Label: [1, 1, -1, -1, -1, 1, -1, 1]
+Echtes Label: [-1, -1, -1, -1, -1, 1, 1, -1]
+
+Logeintrag: Connection request from old client /99.99.99.99:99999; will be dropped if server is in r-o mode
+Modell-Label: [-1, -1, -1, -1, -1, 1, -1, -1, -1, -1, -1, -1, -1, -1, -1]
+Echtes Label: [-1, -1, -1, -1, -1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1]
+
+Logeintrag: Client attempting to establish new session at /99.99.99.99:99999
+Modell-Label: [-1, -1, -1, -1, -1, 1, -1, 1]
+Echtes Label: [-1, -1, -1, -1, -1, -1, -1, 1]
+
+Logeintrag: Notification: 9 (n.leader), 9x99999999b (n.zxid), 9x9 (n.round), LOOKING (n.state), 9 (n.sid), 9x9 (n.peerEPoch), LEADING (my state)
+Modell-Label: [-1, 1, 1, 1, 1, 1, 1, -1, 1, 1, 1, -1, 1, 1, 1, -1, 1, -1]
+Echtes Label: [1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, -1, 1]
+
+Logeintrag: Processed session termination for sessionid: 9x99ed9999999999c
+Modell-Label: [1, 1, -1, -1, -1, 1, 1]
+Echtes Label: [-1, -1, -1, -1, -1, 1, -1]
+
+Logeintrag: Connection request from old client /99.99.99.99:99999; will be dropped if server is in r-o mode
+Modell-Label: [-1, -1, -1, -1, -1, 1, -1, -1, -1, -1, -1, -1, -1, -1, -1]
+Echtes Label: [-1, -1, -1, -1, -1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1]
+
+Logeintrag: Client attempting to establish new session at /99.99.99.99:99999
+Modell-Label: [-1, -1, -1, -1, -1, 1, -1, 1]
+Echtes Label: [-1, -1, -1, -1, -1, -1, -1, 1]
+
+Logeintrag: Expiring session 9x99ed99999f99999, timeout of 99999ms exceeded
+Modell-Label: [-1, -1, 1, -1, -1, 1, 1]
+Echtes Label: [-1, -1, 1, 1, 1, 1, 1]
+
+Logeintrag: Processed session termination for sessionid: 9x99ed99999999999
+Modell-Label: [1, 1, -1, -1, -1, 1, -1, 1]
+Echtes Label: [-1, -1, -1, -1, -1, 1, 1, -1]
+
+Logeintrag: Expiring session 9x99ed99999999999, timeout of 99999ms exceeded
+Modell-Label: [-1, -1, 1, -1, -1, 1, 1]
+Echtes Label: [-1, -1, 1, 1, 1, 1, 1]
+
+Logeintrag: Expiring session 9x99ed9999999999a, timeout of 99999ms exceeded
+Modell-Label: [-1, 1, 1, -1, -1, 1, 1]
+Echtes Label: [-1, -1, 1, 1, 1, 1, 1]
+
+Logeintrag: Client attempting to establish new session at /99.99.99.99:99999
+Modell-Label: [-1, -1, -1, -1, -1, 1, -1, 1]
+Echtes Label: [-1, -1, -1, -1, -1, -1, -1, 1]
+
+Logeintrag: Processed session termination for sessionid: 9x99ed99999f9999f
+Modell-Label: [1, 1, -1, -1, -1, 1, -1, 1]
+Echtes Label: [-1, -1, -1, -1, -1, 1, 1, -1]
+
+Logeintrag: Closed socket connection for client /99.99.99.99:99999 which had sessionid 9x99ed9999999999f
+Modell-Label: [-1, -1, -1, -1, -1, 1, -1, -1, 1, -1, 1]
+Echtes Label: [-1, -1, -1, -1, -1, 1, -1, -1, -1, 1, -1]
+
+Logeintrag: Processed session termination for sessionid: 9x99ed9ac9c9e9999
+Modell-Label: [1, 1, -1, -1, -1, -1, 1, -1, 1]
+Echtes Label: [-1, -1, -1, -1, -1, 1, -1, 1, -1]
+
+Logeintrag: Expiring session 9x99ed9ac9c9e999b, timeout of 99999ms exceeded
+Modell-Label: [-1, -1, 1, -1, -1, 1, 1]
+Echtes Label: [-1, -1, 1, 1, 1, 1, 1]
+
+Logeintrag: Processed session termination for sessionid: 9x99ed99999f99999
+Modell-Label: [1, 1, -1, -1, -1, 1, -1, 1]
+Echtes Label: [-1, -1, -1, -1, -1, 1, 1, -1]
+
+Logeintrag: Processed session termination for sessionid: 9x99ed9ac9c9e9999
+Modell-Label: [1, 1, -1, -1, -1, -1, 1, -1, 1]
+Echtes Label: [-1, -1, -1, -1, -1, 1, -1, 1, -1]
+
+Logeintrag: Processed session termination for sessionid: 9x99ed99999f9999f
+Modell-Label: [1, 1, -1, -1, -1, 1, -1, 1]
+Echtes Label: [-1, -1, -1, -1, -1, 1, 1, -1]
+
+Logeintrag: Client attempting to establish new session at /99.99.99.99:99999
+Modell-Label: [-1, -1, -1, -1, -1, 1, -1, 1]
+Echtes Label: [-1, -1, -1, -1, -1, -1, -1, 1]
+
+Logeintrag: Expiring session 9x99ed9ac9c9e9999, timeout of 99999ms exceeded
+Modell-Label: [-1, -1, 1, -1, -1, 1, 1]
+Echtes Label: [-1, -1, 1, 1, 1, 1, 1]
+
+Logeintrag: Processed session termination for sessionid: 9x99ed99999f99999
+Modell-Label: [1, 1, -1, -1, -1, 1, -1, 1]
+Echtes Label: [-1, -1, -1, -1, -1, 1, 1, -1]
+
+Logeintrag: Connection request from old client /99.99.99.99:99999; will be dropped if server is in r-o mode
+Modell-Label: [-1, -1, -1, -1, -1, 1, -1, -1, -1, -1, -1, -1, -1, -1, -1]
+Echtes Label: [-1, -1, -1, -1, -1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1]
+
+Logeintrag: Expiring session 9x99ed99999f99999, timeout of 99999ms exceeded
+Modell-Label: [-1, -1, 1, -1, -1, 1, 1]
+Echtes Label: [-1, -1, 1, 1, 1, 1, 1]
+
+Logeintrag: Processed session termination for sessionid: 9x99ed99999999999
+Modell-Label: [1, 1, -1, -1, -1, 1, -1, 1]
+Echtes Label: [-1, -1, -1, -1, -1, 1, 1, -1]
+
+Logeintrag: Closed socket connection for client /99.99.99.99:99999 which had sessionid 9x99ed9999999999f
+Modell-Label: [-1, -1, -1, -1, -1, 1, -1, -1, 1, -1, 1]
+Echtes Label: [-1, -1, -1, -1, -1, 1, -1, -1, -1, 1, -1]
+
+Logeintrag: caught end of stream exception
+Modell-Label: [-1, -1, -1, 1, -1]
+Echtes Label: [-1, -1, -1, -1, -1]
+
+Logeintrag: Processed session termination for sessionid: 9x99ed9ac9c9e999e
+Modell-Label: [1, 1, -1, -1, -1, -1, 1, -1, 1]
+Echtes Label: [-1, -1, -1, -1, -1, 1, -1, 1, -1]
+
+Logeintrag: Established session 9x99ed9999999999e with negotiated timeout 99999 for client /99.99.99.99:99999
+Modell-Label: [-1, -1, 1, -1, 1, -1, -1, 1, -1, -1, 1]
+Echtes Label: [-1, -1, 1, -1, -1, -1, 1, -1, -1, 1, -1]
+
+Logeintrag: Expiring session 9x99ed9ac9c9e9999, timeout of 99999ms exceeded
+Modell-Label: [-1, -1, 1, -1, -1, 1, 1]
+Echtes Label: [-1, -1, 1, 1, 1, 1, 1]
+
+Logeintrag: caught end of stream exception
+Modell-Label: [-1, -1, -1, 1, -1]
+Echtes Label: [-1, -1, -1, -1, -1]
+
+Logeintrag: Established session 9x99ed9999999999c with negotiated timeout 99999 for client /99.99.99.99:99999
+Modell-Label: [-1, -1, 1, 1, -1, 1, -1, -1, 1, -1, -1, 1]
+Echtes Label: [-1, -1, 1, -1, -1, -1, 1, -1, -1, 1, 1, -1]
+
+Logeintrag: Established session 9x99ed99999999999 with negotiated timeout 99999 for client /99.99.99.99:99999
+Modell-Label: [-1, -1, 1, -1, 1, -1, -1, 1, -1, -1, 1]
+Echtes Label: [-1, -1, 1, -1, -1, -1, 1, -1, -1, 1, -1]
+
+Logeintrag: caught end of stream exception
+Modell-Label: [-1, -1, -1, 1, -1]
+Echtes Label: [-1, -1, -1, -1, -1]
+
+Logeintrag: Processed session termination for sessionid: 9x99ed99999999999
+Modell-Label: [1, 1, -1, -1, -1, 1, -1, 1]
+Echtes Label: [-1, -1, -1, -1, -1, 1, 1, -1]
+
+Logeintrag: caught end of stream exception
+Modell-Label: [-1, -1, -1, 1, -1]
+Echtes Label: [-1, -1, -1, -1, -1]
+
+Logeintrag: Processed session termination for sessionid: 9x99ed9ac9c9e9999
+Modell-Label: [1, 1, -1, -1, -1, -1, 1, -1, 1]
+Echtes Label: [-1, -1, -1, -1, -1, 1, -1, 1, -1]
+
+Logeintrag: Processed session termination for sessionid: 9x99ed9ac9c9e9999
+Modell-Label: [1, 1, -1, -1, -1, -1, 1, -1, 1]
+Echtes Label: [-1, -1, -1, -1, -1, 1, -1, 1, -1]
+
+Logeintrag: caught end of stream exception
+Modell-Label: [-1, -1, -1, 1, -1]
+Echtes Label: [-1, -1, -1, -1, -1]
+
+Logeintrag: Expiring session 9x99ed9ac9c9e999f, timeout of 99999ms exceeded
+Modell-Label: [-1, -1, 1, -1, -1, 1, 1]
+Echtes Label: [-1, -1, 1, 1, 1, 1, 1]
+
+Logeintrag: Expiring session 9x99ed9999999999e, timeout of 99999ms exceeded
+Modell-Label: [-1, 1, 1, -1, -1, 1, 1]
+Echtes Label: [-1, -1, 1, 1, 1, 1, 1]
+
+Logeintrag: Processed session termination for sessionid: 9x99ed9ac9c9e999a
+Modell-Label: [1, 1, -1, -1, -1, -1, 1, -1, 1]
+Echtes Label: [-1, -1, -1, -1, -1, 1, -1, 1, -1]
+
+Logeintrag: Processed session termination for sessionid: 9x99ed9ac9c9e9999
+Modell-Label: [1, 1, -1, -1, -1, -1, 1, -1, 1]
+Echtes Label: [-1, -1, -1, -1, -1, 1, -1, 1, -1]
+
+Logeintrag: Established session 9x99ed999999999a9 with negotiated timeout 99999 for client /99.99.99.99:99999
+Modell-Label: [-1, -1, 1, -1, 1, -1, -1, 1, -1, -1, 1]
+Echtes Label: [-1, -1, 1, -1, -1, -1, 1, -1, -1, 1, -1]
+
+Logeintrag: Established session 9x99ed999999999a9 with negotiated timeout 99999 for client /99.99.99.99:99999
+Modell-Label: [-1, -1, 1, -1, 1, -1, -1, 1, -1, -1, 1]
+Echtes Label: [-1, -1, 1, -1, -1, -1, 1, -1, -1, 1, -1]
+
+Logeintrag: Processed session termination for sessionid: 9x99ed9ac9c9e9999
+Modell-Label: [1, 1, -1, -1, -1, -1, 1, -1, 1]
+Echtes Label: [-1, -1, -1, -1, -1, 1, -1, 1, -1]
+
+Logeintrag: caught end of stream exception
+Modell-Label: [-1, -1, -1, 1, -1]
+Echtes Label: [-1, -1, -1, -1, -1]
+
+Logeintrag: Processed session termination for sessionid: 9x99ed99999f999a9
+Modell-Label: [1, 1, -1, -1, -1, -1, 1, -1, 1]
+Echtes Label: [-1, -1, -1, -1, -1, 1, -1, 1, -1]
+
+Logeintrag: Expiring session 9x99ed99999f9999f, timeout of 99999ms exceeded
+Modell-Label: [-1, -1, 1, -1, -1, 1, 1]
+Echtes Label: [-1, -1, 1, 1, 1, 1, 1]
+
+Logeintrag: Processed session termination for sessionid: 9x99ed9ac9c9e9999
+Modell-Label: [1, 1, -1, -1, -1, -1, 1, -1, 1]
+Echtes Label: [-1, -1, -1, -1, -1, 1, -1, 1, -1]
+
+Logeintrag: Established session 9x99ed999999999af with negotiated timeout 99999 for client /99.99.99.99:99999
+Modell-Label: [-1, -1, 1, -1, 1, -1, -1, 1, -1, -1, 1]
+Echtes Label: [-1, -1, 1, -1, -1, -1, 1, -1, -1, 1, -1]
+
+Logeintrag: Connection request from old client /99.99.99.99:99999; will be dropped if server is in r-o mode
+Modell-Label: [-1, -1, -1, -1, -1, 1, -1, -1, -1, -1, -1, -1, -1, -1, -1]
+Echtes Label: [-1, -1, -1, -1, -1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1]
+
+Logeintrag: Expiring session 9x99ed9ac9c9e999f, timeout of 99999ms exceeded
+Modell-Label: [-1, -1, 1, -1, -1, 1, 1]
+Echtes Label: [-1, -1, 1, 1, 1, 1, 1]
+
+Logeintrag: Expiring session 9x99ed999999999ad, timeout of 99999ms exceeded
+Modell-Label: [-1, -1, 1, -1, -1, 1, 1]
+Echtes Label: [-1, -1, 1, 1, 1, 1, 1]
+
+Logeintrag: Expiring session 9x99ed99999f999d9, timeout of 99999ms exceeded
+Modell-Label: [-1, -1, 1, -1, -1, 1, 1]
+Echtes Label: [-1, -1, 1, 1, 1, 1, 1]
+
+Logeintrag: Processed session termination for sessionid: 9x99ed9ac9c9e99ae
+Modell-Label: [1, 1, -1, -1, -1, 1, -1, 1]
+Echtes Label: [-1, -1, -1, -1, -1, 1, 1, -1]
+
+Logeintrag: Client attempting to establish new session at /99.99.99.99:99999
+Modell-Label: [-1, -1, -1, -1, -1, 1, -1, 1]
+Echtes Label: [-1, -1, -1, -1, -1, -1, -1, 1]
+
+Logeintrag: Connection request from old client /99.99.99.99:99999; will be dropped if server is in r-o mode
+Modell-Label: [-1, -1, -1, -1, -1, 1, -1, -1, -1, -1, -1, -1, -1, -1, -1]
+Echtes Label: [-1, -1, -1, -1, -1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1]
+
+Logeintrag: Client attempting to establish new session at /99.99.99.99:99999
+Modell-Label: [-1, -1, -1, -1, -1, 1, -1, 1]
+Echtes Label: [-1, -1, -1, -1, -1, -1, -1, 1]
+
+Logeintrag: caught end of stream exception
+Modell-Label: [-1, -1, -1, 1, -1]
+Echtes Label: [-1, -1, -1, -1, -1]
+
+Logeintrag: caught end of stream exception
+Modell-Label: [-1, -1, -1, 1, -1]
+Echtes Label: [-1, -1, -1, -1, -1]
+
+Logeintrag: caught end of stream exception
+Modell-Label: [-1, -1, -1, 1, -1]
+Echtes Label: [-1, -1, -1, -1, -1]
+
+Logeintrag: Established session 9x99ede99a99b999a with negotiated timeout 99999 for client /99.99.99.99:99999
+Modell-Label: [-1, -1, 1, -1, 1, -1, -1, 1, -1, -1, 1]
+Echtes Label: [-1, -1, 1, -1, -1, -1, 1, -1, -1, 1, -1]
+
+Logeintrag: Client attempting to establish new session at /99.99.99.99:99999
+Modell-Label: [-1, -1, -1, -1, -1, 1, -1, 1]
+Echtes Label: [-1, -1, -1, -1, -1, -1, -1, 1]
+
+Logeintrag: Established session 9x99ede99a99b9999 with negotiated timeout 99999 for client /99.99.99.99:99999
+Modell-Label: [-1, -1, 1, -1, 1, -1, -1, 1, -1, -1, 1]
+Echtes Label: [-1, -1, 1, -1, -1, -1, 1, -1, -1, 1, -1]
+
+Logeintrag: Established session 9x99ede99a99b999a with negotiated timeout 99999 for client /99.99.99.99:99999
+Modell-Label: [-1, -1, 1, -1, 1, -1, -1, 1, -1, -1, 1]
+Echtes Label: [-1, -1, 1, -1, -1, -1, 1, -1, -1, 1, -1]
+
+Logeintrag: Client attempting to establish new session at /99.99.99.99:99999
+Modell-Label: [-1, -1, -1, -1, -1, 1, -1, 1]
+Echtes Label: [-1, -1, -1, -1, -1, -1, -1, 1]
+
+Logeintrag: caught end of stream exception
+Modell-Label: [-1, -1, -1, 1, -1]
+Echtes Label: [-1, -1, -1, -1, -1]
+
+Logeintrag: Established session 9x99ede99a99b999c with negotiated timeout 99999 for client /99.99.99.99:99999
+Modell-Label: [-1, -1, 1, -1, 1, -1, -1, 1, -1, -1, 1]
+Echtes Label: [-1, -1, 1, -1, -1, -1, 1, -1, -1, 1, -1]
+
+Logeintrag: Starting quorum peer
+Modell-Label: [-1, 1, -1, -1]
+Echtes Label: [-1, -1, -1, 1]
+
+Logeintrag: Snapshotting: 9x999999dcd to /var/lib/zookeeper/version-9/snapshot.999999dcd
+Modell-Label: [-1, 1, -1, 1, -1, 1]
+Echtes Label: [-1, 1, -1, 1, 1, -1]
+
+Logeintrag: Client attempting to establish new session at /99.99.99.99:99999
+Modell-Label: [-1, -1, -1, -1, -1, 1, -1, 1]
+Echtes Label: [-1, -1, -1, -1, -1, -1, -1, 1]
+
+Logeintrag: Closed socket connection for client /99.99.99.99:99999 which had sessionid 9x99edfaa9999999c
+Modell-Label: [-1, -1, -1, -1, -1, 1, -1, -1, 1, -1, 1]
+Echtes Label: [-1, -1, -1, -1, -1, 1, -1, -1, -1, 1, -1]
+
+Logeintrag: Expiring session 9x99edfaa9c99999d, timeout of 99999ms exceeded
+Modell-Label: [-1, -1, 1, -1, -1, 1, 1]
+Echtes Label: [-1, -1, 1, 1, 1, 1, 1]
+
+Logeintrag: Expiring session 9x99edfaa99999999, timeout of 99999ms exceeded
+Modell-Label: [-1, -1, 1, -1, -1, 1, 1]
+Echtes Label: [-1, -1, 1, 1, 1, 1, 1]
+
+Logeintrag: Connection request from old client /99.99.99.99:99999; will be dropped if server is in r-o mode
+Modell-Label: [-1, -1, -1, -1, -1, 1, -1, -1, -1, -1, -1, -1, -1, -1, -1]
+Echtes Label: [-1, -1, -1, -1, -1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1]
+
+Logeintrag: Client attempting to establish new session at /99.99.99.99:99999
+Modell-Label: [-1, -1, -1, -1, -1, 1, -1, 1]
+Echtes Label: [-1, -1, -1, -1, -1, -1, -1, 1]
+
+Logeintrag: Established session 9x99edfaa99999999 with negotiated timeout 99999 for client /99.99.99.99:99999
+Modell-Label: [-1, -1, 1, -1, 1, -1, -1, 1, -1, -1, 1]
+Echtes Label: [-1, -1, 1, -1, -1, -1, 1, -1, -1, 1, -1]
+
+Logeintrag: Expiring session 9x99edfaa99999999, timeout of 99999ms exceeded
+Modell-Label: [-1, -1, 1, -1, -1, 1, 1]
+Echtes Label: [-1, -1, 1, 1, 1, 1, 1]
+
+Logeintrag: Processed session termination for sessionid: 9x99edfaa99f99999
+Modell-Label: [1, 1, -1, -1, -1, 1, -1, 1]
+Echtes Label: [-1, -1, -1, -1, -1, 1, 1, -1]
+
+Logeintrag: Expiring session 9x99edfaa9c999999, timeout of 99999ms exceeded
+Modell-Label: [-1, -1, 1, -1, -1, 1, 1]
+Echtes Label: [-1, -1, 1, 1, 1, 1, 1]
+
+Logeintrag: Processed session termination for sessionid: 9x99edfaa99f9999d
+Modell-Label: [1, 1, -1, -1, -1, 1, -1, 1]
+Echtes Label: [-1, -1, -1, -1, -1, 1, 1, -1]
+
+Logeintrag: Processed session termination for sessionid: 9x99edfaa9999999d
+Modell-Label: [1, 1, -1, -1, -1, 1, -1, 1]
+Echtes Label: [-1, -1, -1, -1, -1, 1, 1, -1]
+
+Logeintrag: Expiring session 9x99edfaa99f9999a, timeout of 99999ms exceeded
+Modell-Label: [-1, -1, 1, -1, -1, 1, 1]
+Echtes Label: [-1, -1, 1, 1, 1, 1, 1]
+
+Logeintrag: Client attempting to establish new session at /99.99.99.99:99999
+Modell-Label: [-1, -1, -1, -1, -1, 1, -1, 1]
+Echtes Label: [-1, -1, -1, -1, -1, -1, -1, 1]
+
+Logeintrag: caught end of stream exception
+Modell-Label: [-1, -1, -1, 1, -1]
+Echtes Label: [-1, -1, -1, -1, -1]
+
+Logeintrag: Expiring session 9x99edfaa99f99999, timeout of 99999ms exceeded
+Modell-Label: [-1, -1, 1, -1, -1, 1, 1]
+Echtes Label: [-1, -1, 1, 1, 1, 1, 1]
+
+Logeintrag: Connection request from old client /99.99.99.99:99999; will be dropped if server is in r-o mode
+Modell-Label: [-1, -1, -1, -1, -1, 1, -1, -1, -1, -1, -1, -1, -1, -1, -1]
+Echtes Label: [-1, -1, -1, -1, -1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1]
+
+Logeintrag: Client attempting to establish new session at /99.99.99.99:99999
+Modell-Label: [-1, -1, -1, -1, -1, 1, -1, 1]
+Echtes Label: [-1, -1, -1, -1, -1, -1, -1, 1]
+
+Logeintrag: caught end of stream exception
+Modell-Label: [-1, -1, -1, 1, -1]
+Echtes Label: [-1, -1, -1, -1, -1]
+
+Logeintrag: Processed session termination for sessionid: 9x99edfaa9c99999d
+Modell-Label: [1, 1, -1, -1, -1, 1, -1, 1]
+Echtes Label: [-1, -1, -1, -1, -1, 1, 1, -1]
+
+Logeintrag: Processed session termination for sessionid: 9x99edfaa99f99999
+Modell-Label: [1, 1, -1, -1, -1, 1, -1, 1]
+Echtes Label: [-1, -1, -1, -1, -1, 1, 1, -1]
+
+Logeintrag: autopurge.purgeInterval set to 9
+Modell-Label: [1, -1, -1, -1, 1]
+Echtes Label: [-1, -1, -1, 1, -1]
+
+Logeintrag: Snapshotting: 9x99999999e to /var/lib/zookeeper/version-9/snapshot.99999999e
+Modell-Label: [-1, 1, -1, 1, -1, 1]
+Echtes Label: [-1, 1, -1, 1, 1, -1]
+
+Logeintrag: Follower sid: 9 : info : org.apache.zookeeper.server.quorum.QuorumPeer$QuorumServer@99999fe9
+Modell-Label: [-1, -1, 1, -1, -1, -1, -1, 1, -1, 1, -1, 1]
+Echtes Label: [-1, -1, 1, -1, -1, -1, 1, -1, 1, -1, 1, -1]
+
+Logeintrag: Processed session termination for sessionid: 9x99ee99a9c99999a
+Modell-Label: [1, 1, -1, -1, -1, -1, 1, -1, 1]
+Echtes Label: [-1, -1, -1, -1, -1, 1, -1, 1, -1]
+
+Logeintrag: Established session 9x99ee99a99f9999c with negotiated timeout 99999 for client /99.99.99.99:99999
+Modell-Label: [-1, -1, 1, -1, 1, -1, -1, 1, -1, -1, 1]
+Echtes Label: [-1, -1, 1, -1, -1, -1, 1, -1, -1, 1, -1]
+
+Logeintrag: Expiring session 9x99ee99a99f99999, timeout of 99999ms exceeded
+Modell-Label: [-1, -1, 1, -1, -1, 1, 1]
+Echtes Label: [-1, -1, 1, 1, 1, 1, 1]
+
+Logeintrag: Expiring session 9x99ee99a99f9999d, timeout of 99999ms exceeded
+Modell-Label: [-1, -1, 1, -1, -1, 1, 1]
+Echtes Label: [-1, -1, 1, 1, 1, 1, 1]
+
+Logeintrag: Processed session termination for sessionid: 9x99ee99a99f99999
+Modell-Label: [1, 1, -1, -1, -1, 1, -1, 1]
+Echtes Label: [-1, -1, -1, -1, -1, 1, 1, -1]
+
+Logeintrag: Processed session termination for sessionid: 9x99ee99a99f9999a
+Modell-Label: [1, 1, -1, -1, -1, -1, 1, -1, 1]
+Echtes Label: [-1, -1, -1, -1, -1, 1, -1, 1, -1]
+
+Logeintrag: Processed session termination for sessionid: 9x99ee99a9c999999
+Modell-Label: [1, 1, -1, -1, -1, 1, -1, 1]
+Echtes Label: [-1, -1, -1, -1, -1, 1, 1, -1]
+
+Logeintrag: Established session 9x99ee99a99f9999e with negotiated timeout 99999 for client /99.99.99.99:99999
+Modell-Label: [-1, -1, 1, -1, 1, -1, -1, 1, -1, -1, 1]
+Echtes Label: [-1, -1, 1, -1, -1, -1, 1, -1, -1, 1, -1]
+
+Logeintrag: Established session 9x99ee99a99f9999f with negotiated timeout 99999 for client /99.99.99.99:99999
+Modell-Label: [-1, -1, 1, -1, 1, -1, -1, 1, -1, -1, 1]
+Echtes Label: [-1, -1, 1, -1, -1, -1, 1, -1, -1, 1, -1]
+
+Logeintrag: Client attempting to establish new session at /99.99.99.99:99999
+Modell-Label: [-1, -1, -1, -1, -1, 1, -1, 1]
+Echtes Label: [-1, -1, -1, -1, -1, -1, -1, 1]
+
+Logeintrag: Expiring session 9x99ee99a99f99999, timeout of 99999ms exceeded
+Modell-Label: [-1, -1, 1, -1, -1, 1, 1]
+Echtes Label: [-1, -1, 1, 1, 1, 1, 1]
+
+Logeintrag: Expiring session 9x99ee99a99f99999, timeout of 99999ms exceeded
+Modell-Label: [-1, -1, 1, -1, -1, 1, 1]
+Echtes Label: [-1, -1, 1, 1, 1, 1, 1]
+
+Logeintrag: Expiring session 9x99ee9e999ed999a, timeout of 99999ms exceeded
+Modell-Label: [-1, -1, 1, -1, -1, 1, 1]
+Echtes Label: [-1, -1, 1, 1, 1, 1, 1]
+
+Logeintrag: Expiring session 9x99ee99a9c99999a, timeout of 99999ms exceeded
+Modell-Label: [-1, -1, 1, -1, -1, 1, 1]
+Echtes Label: [-1, -1, 1, 1, 1, 1, 1]
+
+Logeintrag: Connection request from old client /99.99.99.99:99999; will be dropped if server is in r-o mode
+Modell-Label: [-1, -1, -1, -1, -1, 1, -1, -1, -1, -1, -1, -1, -1, -1, -1]
+Echtes Label: [-1, -1, -1, -1, -1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1]
+
+Logeintrag: Connection request from old client /99.99.99.99:99999; will be dropped if server is in r-o mode
+Modell-Label: [-1, -1, -1, -1, -1, 1, -1, -1, -1, -1, -1, -1, -1, -1, -1]
+Echtes Label: [-1, -1, -1, -1, -1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1]
+
+Logeintrag: caught end of stream exception
+Modell-Label: [-1, -1, -1, 1, -1]
+Echtes Label: [-1, -1, -1, -1, -1]
+
+Logeintrag: Client attempting to establish new session at /99.99.99.99:99999
+Modell-Label: [-1, -1, -1, -1, -1, 1, -1, 1]
+Echtes Label: [-1, -1, -1, -1, -1, -1, -1, 1]
+
+Logeintrag: Established session 9x99f9999999a999e with negotiated timeout 99999 for client /99.99.99.99:99999
+Modell-Label: [-1, -1, 1, -1, 1, -1, -1, 1, -1, -1, 1]
+Echtes Label: [-1, -1, 1, -1, -1, -1, 1, -1, -1, 1, -1]
+
+Logeintrag: Connection request from old client /99.99.99.99:99999; will be dropped if server is in r-o mode
+Modell-Label: [-1, -1, -1, -1, -1, 1, -1, -1, -1, -1, -1, -1, -1, -1, -1]
+Echtes Label: [-1, -1, -1, -1, -1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1]
+
+Logeintrag: Connection request from old client /99.99.99.99:99999; will be dropped if server is in r-o mode
+Modell-Label: [-1, -1, -1, -1, -1, 1, -1, -1, -1, -1, -1, -1, -1, -1, -1]
+Echtes Label: [-1, -1, -1, -1, -1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1]
+
+Logeintrag: Revalidating client: 9x99f9999999a999c
+Modell-Label: [-1, 1, 1, 1]
+Echtes Label: [-1, -1, 1, -1]
+
+Logeintrag: autopurge.purgeInterval set to 9
+Modell-Label: [1, -1, -1, -1, 1]
+Echtes Label: [-1, -1, -1, 1, -1]
+
+Logeintrag: Connection request from old client /99.99.99.99:99999; will be dropped if server is in r-o mode
+Modell-Label: [-1, -1, -1, -1, -1, 1, -1, -1, -1, -1, -1, -1, -1, -1, -1]
+Echtes Label: [-1, -1, -1, -1, -1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1]
+
+Logeintrag: Client attempting to renew session 9x99f9999999a9999 at /99.99.99.99:99999
+Modell-Label: [-1, -1, -1, -1, 1, 1, -1, 1]
+Echtes Label: [-1, -1, -1, -1, -1, 1, -1, 1]
+
+Logeintrag: caught end of stream exception
+Modell-Label: [-1, -1, -1, 1, -1]
+Echtes Label: [-1, -1, -1, -1, -1]
+
+Logeintrag: Closed socket connection for client /99.99.99.99:99999 which had sessionid 9x99f9999999a999b
+Modell-Label: [-1, -1, -1, -1, -1, 1, -1, -1, 1, -1, 1]
+Echtes Label: [-1, -1, -1, -1, -1, 1, -1, -1, -1, 1, -1]
+
+Logeintrag: Established session 9x99f9999b9af9999 with negotiated timeout 99999 for client /99.99.99.99:99999
+Modell-Label: [-1, -1, 1, -1, 1, -1, -1, 1, -1, -1, 1]
+Echtes Label: [-1, -1, 1, -1, -1, -1, 1, -1, -1, 1, -1]
+
+Logeintrag: Server environment:java.class.path=/etc/zookeeper/conf:/usr/share/java/jline.jar:/usr/share/java/log9j-9.9.jar:/usr/share/java/xercesImpl.jar:/usr/share/java/xmlParserAPIs.jar:/usr/share/java/netty.jar:/usr/share/java/slf9j-api.jar:/usr/share/java/slf9j-log9j99.jar:/usr/share/java/zookeeper.jar
+Modell-Label: [-1, -1, 1, -1, 1]
+Echtes Label: [-1, 1, -1, 1, -1]
+
+Logeintrag: Have quorum of supporters; starting up and setting last processed zxid: 9xb99999999
+Modell-Label: [-1, -1, -1, -1, -1, -1, -1, -1, -1, -1, 1, 1, 1]
+Echtes Label: [-1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, 1, -1]
+
+Logeintrag: Notification: 9 (n.leader), 9xa9999999a (n.zxid), 9x9 (n.round), FOLLOWING (n.state), 9 (n.sid), 9xa (n.peerEPoch), LEADING (my state)
+Modell-Label: [-1, 1, 1, 1, 1, 1, 1, -1, 1, 1, 1, -1, 1, 1, -1, 1, -1, -1, -1]
+Echtes Label: [1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1]
+
+Logeintrag: Expiring session 9x99f9999a9e99999, timeout of 99999ms exceeded
+Modell-Label: [-1, -1, 1, -1, -1, 1, 1]
+Echtes Label: [-1, -1, 1, 1, 1, 1, 1]
+
+Logeintrag: Processed session termination for sessionid: 9x99f9999a99e999c
+Modell-Label: [1, 1, -1, -1, -1, 1, -1, 1]
+Echtes Label: [-1, -1, -1, -1, -1, 1, 1, -1]
+
+Logeintrag: Processed session termination for sessionid: 9x99f9999a9e9999d
+Modell-Label: [1, 1, -1, -1, -1, 1, -1, 1]
+Echtes Label: [-1, -1, -1, -1, -1, 1, 1, -1]
+
+Logeintrag: Client attempting to establish new session at /99.99.99.99:99999
+Modell-Label: [-1, -1, -1, -1, -1, 1, -1, 1]
+Echtes Label: [-1, -1, -1, -1, -1, -1, -1, 1]
+
+Logeintrag: Expiring session 9x99f9fdae9ba9999, timeout of 99999ms exceeded
+Modell-Label: [-1, -1, 1, -1, -1, 1, 1]
+Echtes Label: [-1, -1, 1, 1, 1, 1, 1]
+
+Logeintrag: Processed session termination for sessionid: 9x99f9fdae9ba9999
+Modell-Label: [1, 1, -1, -1, -1, 1, -1, 1]
+Echtes Label: [-1, -1, -1, -1, -1, 1, 1, -1]
+
+Logeintrag: Expiring session 9x99f9fdaf999999a, timeout of 99999ms exceeded
+Modell-Label: [-1, -1, 1, -1, -1, 1, 1]
+Echtes Label: [-1, -1, 1, 1, 1, 1, 1]
+
+Logeintrag: Exception causing close of session 9x9 due to java.io.IOException: ZooKeeperServer not running
+Modell-Label: [-1, 1, -1, -1, -1, -1, 1, -1, -1, 1, 1, 1, -1]
+Echtes Label: [-1, -1, -1, -1, -1, 1, -1, -1, -1, -1, -1, -1, 1]
+
+Logeintrag: Exception causing close of session 9x9 due to java.io.IOException: ZooKeeperServer not running
+Modell-Label: [-1, 1, -1, -1, -1, -1, 1, -1, -1, 1, 1, 1, -1]
+Echtes Label: [-1, -1, -1, -1, -1, 1, -1, -1, -1, -1, -1, -1, 1]
+
+Logeintrag: First is 9x9
+Modell-Label: [1, -1, 1]
+Echtes Label: [-1, -1, 1]
+
+Logeintrag: Notification: 9 (n.leader), 9xb9999999b (n.zxid), 9x9 (n.round), LOOKING (n.state), 9 (n.sid), 9xb (n.peerEPoch), LEADING (my state)
+Modell-Label: [-1, 1, 1, 1, 1, 1, 1, -1, 1, 1, 1, -1, 1, 1, 1, -1, 1, -1, 1, -1]
+Echtes Label: [1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, -1, 1, -1, 1]
+
+Logeintrag: Notification: 9 (n.leader), 9xb9999999b (n.zxid), 9x9 (n.round), LOOKING (n.state), 9 (n.sid), 9xb (n.peerEPoch), LEADING (my state)
+Modell-Label: [-1, 1, 1, 1, 1, 1, 1, -1, 1, 1, 1, -1, 1, 1, 1, -1, 1, -1, 1, -1]
+Echtes Label: [1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, -1, 1, -1, 1]
+
+Logeintrag: Expiring session 9x99f9fdae9ba9999, timeout of 99999ms exceeded
+Modell-Label: [-1, -1, 1, -1, -1, 1, 1]
+Echtes Label: [-1, -1, 1, 1, 1, 1, 1]
+
+Logeintrag: Expiring session 9x99f9fdae9ba999c, timeout of 99999ms exceeded
+Modell-Label: [-1, -1, 1, -1, -1, 1, 1]
+Echtes Label: [-1, -1, 1, 1, 1, 1, 1]
+
+Logeintrag: Expiring session 9x99f9fdaf9999999, timeout of 99999ms exceeded
+Modell-Label: [-1, -1, 1, -1, -1, 1, 1]
+Echtes Label: [-1, -1, 1, 1, 1, 1, 1]
+
+Logeintrag: Closed socket connection for client /99.99.99.99:99999 which had sessionid 9x99f9a999df99999
+Modell-Label: [-1, -1, -1, -1, -1, 1, -1, -1, 1, -1, 1]
+Echtes Label: [-1, -1, -1, -1, -1, 1, -1, -1, -1, 1, -1]
+
+Logeintrag: Expiring session 9x99f9a999df99999, timeout of 99999ms exceeded
+Modell-Label: [-1, -1, 1, -1, -1, 1, 1]
+Echtes Label: [-1, -1, 1, 1, 1, 1, 1]
+
+Logeintrag: Established session 9x99f9a999df9999e with negotiated timeout 99999 for client /99.99.99.99:99999
+Modell-Label: [-1, -1, 1, -1, 1, -1, -1, 1, -1, -1, 1]
+Echtes Label: [-1, -1, 1, -1, -1, -1, 1, -1, -1, 1, -1]
+
+Logeintrag: Processed session termination for sessionid: 9x99f9a99999b999f
+Modell-Label: [1, 1, -1, -1, -1, 1, -1, 1]
+Echtes Label: [-1, -1, -1, -1, -1, 1, 1, -1]
+
+Logeintrag: Processed session termination for sessionid: 9x99f9a9999b99999
+Modell-Label: [1, 1, -1, -1, -1, 1, -1, 1]
+Echtes Label: [-1, -1, -1, -1, -1, 1, 1, -1]
+
+Logeintrag: Established session 9x99f9a999df99999 with negotiated timeout 99999 for client /99.99.99.99:99999
+Modell-Label: [-1, -1, 1, -1, 1, -1, -1, 1, -1, -1, 1]
+Echtes Label: [-1, -1, 1, -1, -1, -1, 1, -1, -1, 1, -1]
+
+Logeintrag: caught end of stream exception
+Modell-Label: [-1, -1, -1, 1, -1]
+Echtes Label: [-1, -1, -1, -1, -1]
+
+Logeintrag: Closed socket connection for client /99.99.99.99:99999 which had sessionid 9x99f9a999df9999b
+Modell-Label: [-1, -1, -1, -1, -1, 1, -1, -1, 1, -1, 1]
+Echtes Label: [-1, -1, -1, -1, -1, 1, -1, -1, -1, 1, -1]
+
+Logeintrag: Closed socket connection for client /99.99.99.99:99999 which had sessionid 9x99f9a999df9999d
+Modell-Label: [-1, -1, -1, -1, -1, 1, -1, -1, 1, -1, 1]
+Echtes Label: [-1, -1, -1, -1, -1, 1, -1, -1, -1, 1, -1]
+
+Logeintrag: Processed session termination for sessionid: 9x99f9a9999b99999
+Modell-Label: [1, 1, -1, -1, -1, 1, -1, 1]
+Echtes Label: [-1, -1, -1, -1, -1, 1, 1, -1]
+
+Logeintrag: Client attempting to establish new session at /99.99.99.99:99999
+Modell-Label: [-1, -1, -1, -1, -1, 1, -1, 1]
+Echtes Label: [-1, -1, -1, -1, -1, -1, -1, 1]
+
+Logeintrag: Connection request from old client /99.99.99.99:99999; will be dropped if server is in r-o mode
+Modell-Label: [-1, -1, -1, -1, -1, 1, -1, -1, -1, -1, -1, -1, -1, -1, -1]
+Echtes Label: [-1, -1, -1, -1, -1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1]
+
+Logeintrag: Expiring session 9x99f9a99999b9999, timeout of 99999ms exceeded
+Modell-Label: [-1, -1, 1, -1, -1, 1, 1]
+Echtes Label: [-1, -1, 1, 1, 1, 1, 1]
+
+Logeintrag: autopurge.purgeInterval set to 9
+Modell-Label: [1, -1, -1, -1, 1]
+Echtes Label: [-1, -1, -1, 1, -1]
+
+Logeintrag: Sending DIFF
+Modell-Label: [-1, 1]
+Echtes Label: [-1, -1]
+
+Logeintrag: Expiring session 9x99f9a999df99999, timeout of 99999ms exceeded
+Modell-Label: [-1, -1, 1, -1, -1, 1, 1]
+Echtes Label: [-1, -1, 1, 1, 1, 1, 1]
+
+Logeintrag: Processed session termination for sessionid: 9x99f9a99999b999c
+Modell-Label: [1, 1, -1, -1, -1, 1, -1, 1]
+Echtes Label: [-1, -1, -1, -1, -1, 1, 1, -1]
+
+Logeintrag: Processed session termination for sessionid: 9x99f9a9999b9999f
+Modell-Label: [1, 1, -1, -1, -1, 1, -1, 1]
+Echtes Label: [-1, -1, -1, -1, -1, 1, 1, -1]
+
+Logeintrag: LOOKING
+Modell-Label: [1, -1]
+Echtes Label: [-1, 1]
+
+Logeintrag: Notification: 9 (n.leader), 9x9 (n.zxid), 9x9 (n.round), LOOKING (n.state), 9 (n.sid), 9x9 (n.peerEPoch), LOOKING (my state)
+Modell-Label: [-1, 1, 1, 1, 1, 1, 1, -1, 1, 1, 1, -1, 1, 1, -1, 1, -1, -1, -1]
+Echtes Label: [1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1]
+
+Logeintrag: Notification: 9 (n.leader), 9x9 (n.zxid), 9x9 (n.round), LOOKING (n.state), 9 (n.sid), 9x9 (n.peerEPoch), LOOKING (my state)
+Modell-Label: [-1, 1, 1, 1, 1, 1, 1, -1, 1, 1, 1, -1, 1, 1, -1, 1, -1, -1, -1]
+Echtes Label: [1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1]
+
+Logeintrag: Connection broken for id 999999999999, my id = 9, error =
+Modell-Label: [-1, -1, -1, -1, -1, 1, 1, 1, 1, 1, 1]
+Echtes Label: [-1, -1, -1, -1, 1, 1, 1, 1, 1, 1, 1]
+
+Logeintrag: Connection broken for id 999999999999, my id = 9, error =
+Modell-Label: [-1, -1, -1, -1, -1, 1, 1, 1, 1, 1, 1]
+Echtes Label: [-1, -1, -1, -1, 1, 1, 1, 1, 1, 1, 1]
+
+Logeintrag: Interrupting SendWorker
+Modell-Label: [1, 1, -1]
+Echtes Label: [-1, -1, 1]
+
+Logeintrag: Connection broken for id 999999999999, my id = 9, error =
+Modell-Label: [-1, -1, -1, -1, -1, 1, 1, 1, 1, 1, 1]
+Echtes Label: [-1, -1, -1, -1, 1, 1, 1, 1, 1, 1, 1]
+
+Logeintrag: Interrupting SendWorker
+Modell-Label: [1, 1, -1]
+Echtes Label: [-1, -1, 1]
+
+Logeintrag: Connection broken for id 999999999999, my id = 9, error =
+Modell-Label: [-1, -1, -1, -1, -1, 1, 1, 1, 1, 1, 1]
+Echtes Label: [-1, -1, -1, -1, 1, 1, 1, 1, 1, 1, 1]
+
+Logeintrag: Interrupting SendWorker
+Modell-Label: [1, 1, -1]
+Echtes Label: [-1, -1, 1]
+
+Logeintrag: Connection broken for id 999999999999, my id = 9, error =
+Modell-Label: [-1, -1, -1, -1, -1, 1, 1, 1, 1, 1, 1]
+Echtes Label: [-1, -1, -1, -1, 1, 1, 1, 1, 1, 1, 1]
+
+Logeintrag: Connection broken for id 999999999999, my id = 9, error =
+Modell-Label: [-1, -1, -1, -1, -1, 1, 1, 1, 1, 1, 1]
+Echtes Label: [-1, -1, -1, -1, 1, 1, 1, 1, 1, 1, 1]
+
+Logeintrag: Connection broken for id 999999999999, my id = 9, error =
+Modell-Label: [-1, -1, -1, -1, -1, 1, 1, 1, 1, 1, 1]
+Echtes Label: [-1, -1, -1, -1, 1, 1, 1, 1, 1, 1, 1]
+
+Logeintrag: Interrupting SendWorker
+Modell-Label: [1, 1, -1]
+Echtes Label: [-1, -1, 1]
+
+Logeintrag: Interrupting SendWorker
+Modell-Label: [1, 1, -1]
+Echtes Label: [-1, -1, 1]
+
+Logeintrag: Interrupting SendWorker
+Modell-Label: [1, 1, -1]
+Echtes Label: [-1, -1, 1]
+
+Logeintrag: Connection broken for id 999999999999, my id = 9, error =
+Modell-Label: [-1, -1, -1, -1, -1, 1, 1, 1, 1, 1, 1]
+Echtes Label: [-1, -1, -1, -1, 1, 1, 1, 1, 1, 1, 1]
+
+Logeintrag: Connection broken for id 999999999999, my id = 9, error =
+Modell-Label: [-1, -1, -1, -1, -1, 1, 1, 1, 1, 1, 1]
+Echtes Label: [-1, -1, -1, -1, 1, 1, 1, 1, 1, 1, 1]
+
+Logeintrag: Connection broken for id 999999999999, my id = 9, error =
+Modell-Label: [-1, -1, -1, -1, -1, 1, 1, 1, 1, 1, 1]
+Echtes Label: [-1, -1, -1, -1, 1, 1, 1, 1, 1, 1, 1]
+
+Logeintrag: Connection broken for id 999999999999, my id = 9, error =
+Modell-Label: [-1, -1, -1, -1, -1, 1, 1, 1, 1, 1, 1]
+Echtes Label: [-1, -1, -1, -1, 1, 1, 1, 1, 1, 1, 1]
+
+Logeintrag: Connection broken for id 999999999999, my id = 9, error =
+Modell-Label: [-1, -1, -1, -1, -1, 1, 1, 1, 1, 1, 1]
+Echtes Label: [-1, -1, -1, -1, 1, 1, 1, 1, 1, 1, 1]
+
+Logeintrag: Interrupting SendWorker
+Modell-Label: [1, 1, -1]
+Echtes Label: [-1, -1, 1]
+
+Logeintrag: Connection broken for id 999999999999, my id = 9, error =
+Modell-Label: [-1, -1, -1, -1, -1, 1, 1, 1, 1, 1, 1]
+Echtes Label: [-1, -1, -1, -1, 1, 1, 1, 1, 1, 1, 1]
+
+Logeintrag: Connection broken for id 999999999999, my id = 9, error =
+Modell-Label: [-1, -1, -1, -1, -1, 1, 1, 1, 1, 1, 1]
+Echtes Label: [-1, -1, -1, -1, 1, 1, 1, 1, 1, 1, 1]
+
+Logeintrag: Connection broken for id 999999999999, my id = 9, error =
+Modell-Label: [-1, -1, -1, -1, -1, 1, 1, 1, 1, 1, 1]
+Echtes Label: [-1, -1, -1, -1, 1, 1, 1, 1, 1, 1, 1]
+
+Logeintrag: Connection broken for id 999999999999, my id = 9, error =
+Modell-Label: [-1, -1, -1, -1, -1, 1, 1, 1, 1, 1, 1]
+Echtes Label: [-1, -1, -1, -1, 1, 1, 1, 1, 1, 1, 1]
+
+Logeintrag: Interrupting SendWorker
+Modell-Label: [1, 1, -1]
+Echtes Label: [-1, -1, 1]
+
+Logeintrag: Connection broken for id 999999999999, my id = 9, error =
+Modell-Label: [-1, -1, -1, -1, -1, 1, 1, 1, 1, 1, 1]
+Echtes Label: [-1, -1, -1, -1, 1, 1, 1, 1, 1, 1, 1]
+
+Logeintrag: Connection broken for id 999999999999, my id = 9, error =
+Modell-Label: [-1, -1, -1, -1, -1, 1, 1, 1, 1, 1, 1]
+Echtes Label: [-1, -1, -1, -1, 1, 1, 1, 1, 1, 1, 1]
+
+Logeintrag: Interrupting SendWorker
+Modell-Label: [1, 1, -1]
+Echtes Label: [-1, -1, 1]
+
+Logeintrag: Interrupting SendWorker
+Modell-Label: [1, 1, -1]
+Echtes Label: [-1, -1, 1]
+
+Logeintrag: Interrupting SendWorker
+Modell-Label: [1, 1, -1]
+Echtes Label: [-1, -1, 1]
+
+Logeintrag: Interrupting SendWorker
+Modell-Label: [1, 1, -1]
+Echtes Label: [-1, -1, 1]
+
+Logeintrag: Connection broken for id 999999999999, my id = 9, error =
+Modell-Label: [-1, -1, -1, -1, -1, 1, 1, 1, 1, 1, 1]
+Echtes Label: [-1, -1, -1, -1, 1, 1, 1, 1, 1, 1, 1]
+
+Logeintrag: Interrupting SendWorker
+Modell-Label: [1, 1, -1]
+Echtes Label: [-1, -1, 1]
+
+Logeintrag: Interrupting SendWorker
+Modell-Label: [1, 1, -1]
+Echtes Label: [-1, -1, 1]
+
+Logeintrag: Interrupting SendWorker
+Modell-Label: [1, 1, -1]
+Echtes Label: [-1, -1, 1]
+
+Logeintrag: Connection broken for id 999999999999, my id = 9, error =
+Modell-Label: [-1, -1, -1, -1, -1, 1, 1, 1, 1, 1, 1]
+Echtes Label: [-1, -1, -1, -1, 1, 1, 1, 1, 1, 1, 1]
+
+Logeintrag: Interrupting SendWorker
+Modell-Label: [1, 1, -1]
+Echtes Label: [-1, -1, 1]
+
+Logeintrag: Connection broken for id 999999999999, my id = 9, error =
+Modell-Label: [-1, -1, -1, -1, -1, 1, 1, 1, 1, 1, 1]
+Echtes Label: [-1, -1, -1, -1, 1, 1, 1, 1, 1, 1, 1]
+
+Logeintrag: Connection broken for id 999999999999, my id = 9, error =
+Modell-Label: [-1, -1, -1, -1, -1, 1, 1, 1, 1, 1, 1]
+Echtes Label: [-1, -1, -1, -1, 1, 1, 1, 1, 1, 1, 1]
+
+Logeintrag: Connection broken for id 999999999999, my id = 9, error =
+Modell-Label: [-1, -1, -1, -1, -1, 1, 1, 1, 1, 1, 1]
+Echtes Label: [-1, -1, -1, -1, 1, 1, 1, 1, 1, 1, 1]
+
+Logeintrag: Interrupting SendWorker
+Modell-Label: [1, 1, -1]
+Echtes Label: [-1, -1, 1]
+
+Logeintrag: Connection broken for id 999999999999, my id = 9, error =
+Modell-Label: [-1, -1, -1, -1, -1, 1, 1, 1, 1, 1, 1]
+Echtes Label: [-1, -1, -1, -1, 1, 1, 1, 1, 1, 1, 1]
+
+Logeintrag: Connection broken for id 999999999999, my id = 9, error =
+Modell-Label: [-1, -1, -1, -1, -1, 1, 1, 1, 1, 1, 1]
+Echtes Label: [-1, -1, -1, -1, 1, 1, 1, 1, 1, 1, 1]
+
+Logeintrag: Interrupting SendWorker
+Modell-Label: [1, 1, -1]
+Echtes Label: [-1, -1, 1]
+
+Logeintrag: Connection broken for id 999999999999, my id = 9, error =
+Modell-Label: [-1, -1, -1, -1, -1, 1, 1, 1, 1, 1, 1]
+Echtes Label: [-1, -1, -1, -1, 1, 1, 1, 1, 1, 1, 1]
+
+Logeintrag: Interrupting SendWorker
+Modell-Label: [1, 1, -1]
+Echtes Label: [-1, -1, 1]
+
+Logeintrag: Interrupting SendWorker
+Modell-Label: [1, 1, -1]
+Echtes Label: [-1, -1, 1]
+
+Logeintrag: Interrupting SendWorker
+Modell-Label: [1, 1, -1]
+Echtes Label: [-1, -1, 1]
+
+Logeintrag: Interrupting SendWorker
+Modell-Label: [1, 1, -1]
+Echtes Label: [-1, -1, 1]
+
+Logeintrag: Connection broken for id 999999999999, my id = 9, error =
+Modell-Label: [-1, -1, -1, -1, -1, 1, 1, 1, 1, 1, 1]
+Echtes Label: [-1, -1, -1, -1, 1, 1, 1, 1, 1, 1, 1]
+
+Logeintrag: Interrupting SendWorker
+Modell-Label: [1, 1, -1]
+Echtes Label: [-1, -1, 1]
+
+Logeintrag: Connection broken for id 999999999999, my id = 9, error =
+Modell-Label: [-1, -1, -1, -1, -1, 1, 1, 1, 1, 1, 1]
+Echtes Label: [-1, -1, -1, -1, 1, 1, 1, 1, 1, 1, 1]
+
+Logeintrag: Interrupting SendWorker
+Modell-Label: [1, 1, -1]
+Echtes Label: [-1, -1, 1]
+
+Logeintrag: Connection broken for id 999999999999, my id = 9, error =
+Modell-Label: [-1, -1, -1, -1, -1, 1, 1, 1, 1, 1, 1]
+Echtes Label: [-1, -1, -1, -1, 1, 1, 1, 1, 1, 1, 1]
+
+Logeintrag: Interrupting SendWorker
+Modell-Label: [1, 1, -1]
+Echtes Label: [-1, -1, 1]
+
+Logeintrag: Connection broken for id 999999999999, my id = 9, error =
+Modell-Label: [-1, -1, -1, -1, -1, 1, 1, 1, 1, 1, 1]
+Echtes Label: [-1, -1, -1, -1, 1, 1, 1, 1, 1, 1, 1]
+
+Logeintrag: Interrupting SendWorker
+Modell-Label: [1, 1, -1]
+Echtes Label: [-1, -1, 1]
+
+Logeintrag: Interrupting SendWorker
+Modell-Label: [1, 1, -1]
+Echtes Label: [-1, -1, 1]
+
+Logeintrag: Connection broken for id 999999999999, my id = 9, error =
+Modell-Label: [-1, -1, -1, -1, -1, 1, 1, 1, 1, 1, 1]
+Echtes Label: [-1, -1, -1, -1, 1, 1, 1, 1, 1, 1, 1]
+
+Logeintrag: Interrupting SendWorker
+Modell-Label: [1, 1, -1]
+Echtes Label: [-1, -1, 1]
+
+Logeintrag: Connection broken for id 999999999999, my id = 9, error =
+Modell-Label: [-1, -1, -1, -1, -1, 1, 1, 1, 1, 1, 1]
+Echtes Label: [-1, -1, -1, -1, 1, 1, 1, 1, 1, 1, 1]
+
+Logeintrag: Interrupting SendWorker
+Modell-Label: [1, 1, -1]
+Echtes Label: [-1, -1, 1]
+
+Logeintrag: Connection broken for id 999999999999, my id = 9, error =
+Modell-Label: [-1, -1, -1, -1, -1, 1, 1, 1, 1, 1, 1]
+Echtes Label: [-1, -1, -1, -1, 1, 1, 1, 1, 1, 1, 1]
+
+Logeintrag: Interrupting SendWorker
+Modell-Label: [1, 1, -1]
+Echtes Label: [-1, -1, 1]
+
+Logeintrag: Connection broken for id 999999999999, my id = 9, error =
+Modell-Label: [-1, -1, -1, -1, -1, 1, 1, 1, 1, 1, 1]
+Echtes Label: [-1, -1, -1, -1, 1, 1, 1, 1, 1, 1, 1]
+
+Logeintrag: Interrupting SendWorker
+Modell-Label: [1, 1, -1]
+Echtes Label: [-1, -1, 1]
+
+Logeintrag: Interrupting SendWorker
+Modell-Label: [1, 1, -1]
+Echtes Label: [-1, -1, 1]
+
+Logeintrag: Interrupting SendWorker
+Modell-Label: [1, 1, -1]
+Echtes Label: [-1, -1, 1]
+
+Logeintrag: Connection broken for id 999999999999, my id = 9, error =
+Modell-Label: [-1, -1, -1, -1, -1, 1, 1, 1, 1, 1, 1]
+Echtes Label: [-1, -1, -1, -1, 1, 1, 1, 1, 1, 1, 1]
+
+Logeintrag: Interrupting SendWorker
+Modell-Label: [1, 1, -1]
+Echtes Label: [-1, -1, 1]
+
+Logeintrag: Connection broken for id 999999999999, my id = 9, error =
+Modell-Label: [-1, -1, -1, -1, -1, 1, 1, 1, 1, 1, 1]
+Echtes Label: [-1, -1, -1, -1, 1, 1, 1, 1, 1, 1, 1]
+
+Logeintrag: Interrupting SendWorker
+Modell-Label: [1, 1, -1]
+Echtes Label: [-1, -1, 1]
+
+Logeintrag: Interrupting SendWorker
+Modell-Label: [1, 1, -1]
+Echtes Label: [-1, -1, 1]
+
+Logeintrag: Interrupting SendWorker
+Modell-Label: [1, 1, -1]
+Echtes Label: [-1, -1, 1]
+
+Logeintrag: Connection broken for id 999999999999, my id = 9, error =
+Modell-Label: [-1, -1, -1, -1, -1, 1, 1, 1, 1, 1, 1]
+Echtes Label: [-1, -1, -1, -1, 1, 1, 1, 1, 1, 1, 1]
+
+Logeintrag: Interrupting SendWorker
+Modell-Label: [1, 1, -1]
+Echtes Label: [-1, -1, 1]
+
+Logeintrag: Connection broken for id 999999999999, my id = 9, error =
+Modell-Label: [-1, -1, -1, -1, -1, 1, 1, 1, 1, 1, 1]
+Echtes Label: [-1, -1, -1, -1, 1, 1, 1, 1, 1, 1, 1]
+
+Logeintrag: Connection broken for id 999999999999, my id = 9, error =
+Modell-Label: [-1, -1, -1, -1, -1, 1, 1, 1, 1, 1, 1]
+Echtes Label: [-1, -1, -1, -1, 1, 1, 1, 1, 1, 1, 1]
+
+Logeintrag: Interrupting SendWorker
+Modell-Label: [1, 1, -1]
+Echtes Label: [-1, -1, 1]
+
+Logeintrag: Interrupting SendWorker
+Modell-Label: [1, 1, -1]
+Echtes Label: [-1, -1, 1]
+
+Logeintrag: Connection broken for id 999999999999, my id = 9, error =
+Modell-Label: [-1, -1, -1, -1, -1, 1, 1, 1, 1, 1, 1]
+Echtes Label: [-1, -1, -1, -1, 1, 1, 1, 1, 1, 1, 1]
+
+Logeintrag: Connection broken for id 999999999999, my id = 9, error =
+Modell-Label: [-1, -1, -1, -1, -1, 1, 1, 1, 1, 1, 1]
+Echtes Label: [-1, -1, -1, -1, 1, 1, 1, 1, 1, 1, 1]
+
+Logeintrag: Interrupting SendWorker
+Modell-Label: [1, 1, -1]
+Echtes Label: [-1, -1, 1]
+
+Logeintrag: Interrupting SendWorker
+Modell-Label: [1, 1, -1]
+Echtes Label: [-1, -1, 1]
+
+Logeintrag: Interrupting SendWorker
+Modell-Label: [1, 1, -1]
+Echtes Label: [-1, -1, 1]
+
+Logeintrag: Interrupting SendWorker
+Modell-Label: [1, 1, -1]
+Echtes Label: [-1, -1, 1]
+
+Logeintrag: Interrupting SendWorker
+Modell-Label: [1, 1, -1]
+Echtes Label: [-1, -1, 1]
+
+Logeintrag: Connection broken for id 999999999999, my id = 9, error =
+Modell-Label: [-1, -1, -1, -1, -1, 1, 1, 1, 1, 1, 1]
+Echtes Label: [-1, -1, -1, -1, 1, 1, 1, 1, 1, 1, 1]
+
+Logeintrag: Connection broken for id 999999999999, my id = 9, error =
+Modell-Label: [-1, -1, -1, -1, -1, 1, 1, 1, 1, 1, 1]
+Echtes Label: [-1, -1, -1, -1, 1, 1, 1, 1, 1, 1, 1]
+
+Logeintrag: Interrupting SendWorker
+Modell-Label: [1, 1, -1]
+Echtes Label: [-1, -1, 1]
+
+Logeintrag: Connection broken for id 999999999999, my id = 9, error =
+Modell-Label: [-1, -1, -1, -1, -1, 1, 1, 1, 1, 1, 1]
+Echtes Label: [-1, -1, -1, -1, 1, 1, 1, 1, 1, 1, 1]
+
+Logeintrag: Interrupting SendWorker
+Modell-Label: [1, 1, -1]
+Echtes Label: [-1, -1, 1]
+
+Logeintrag: Connection broken for id 999999999999, my id = 9, error =
+Modell-Label: [-1, -1, -1, -1, -1, 1, 1, 1, 1, 1, 1]
+Echtes Label: [-1, -1, -1, -1, 1, 1, 1, 1, 1, 1, 1]
+
+Logeintrag: Connection broken for id 999999999999, my id = 9, error =
+Modell-Label: [-1, -1, -1, -1, -1, 1, 1, 1, 1, 1, 1]
+Echtes Label: [-1, -1, -1, -1, 1, 1, 1, 1, 1, 1, 1]
+
+Logeintrag: Interrupting SendWorker
+Modell-Label: [1, 1, -1]
+Echtes Label: [-1, -1, 1]
+
+Logeintrag: Connection broken for id 999999999999, my id = 9, error =
+Modell-Label: [-1, -1, -1, -1, -1, 1, 1, 1, 1, 1, 1]
+Echtes Label: [-1, -1, -1, -1, 1, 1, 1, 1, 1, 1, 1]
+
+Logeintrag: Connection broken for id 999999999999, my id = 9, error =
+Modell-Label: [-1, -1, -1, -1, -1, 1, 1, 1, 1, 1, 1]
+Echtes Label: [-1, -1, -1, -1, 1, 1, 1, 1, 1, 1, 1]
+
+Logeintrag: Connection broken for id 999999999999, my id = 9, error =
+Modell-Label: [-1, -1, -1, -1, -1, 1, 1, 1, 1, 1, 1]
+Echtes Label: [-1, -1, -1, -1, 1, 1, 1, 1, 1, 1, 1]
+
+Logeintrag: Connection broken for id 999999999999, my id = 9, error =
+Modell-Label: [-1, -1, -1, -1, -1, 1, 1, 1, 1, 1, 1]
+Echtes Label: [-1, -1, -1, -1, 1, 1, 1, 1, 1, 1, 1]
+
+Logeintrag: Interrupting SendWorker
+Modell-Label: [1, 1, -1]
+Echtes Label: [-1, -1, 1]
+
+Logeintrag: Connection broken for id 999999999999, my id = 9, error =
+Modell-Label: [-1, -1, -1, -1, -1, 1, 1, 1, 1, 1, 1]
+Echtes Label: [-1, -1, -1, -1, 1, 1, 1, 1, 1, 1, 1]
+
+Logeintrag: Connection broken for id 999999999999, my id = 9, error =
+Modell-Label: [-1, -1, -1, -1, -1, 1, 1, 1, 1, 1, 1]
+Echtes Label: [-1, -1, -1, -1, 1, 1, 1, 1, 1, 1, 1]
+
+Logeintrag: Connection broken for id 999999999999, my id = 9, error =
+Modell-Label: [-1, -1, -1, -1, -1, 1, 1, 1, 1, 1, 1]
+Echtes Label: [-1, -1, -1, -1, 1, 1, 1, 1, 1, 1, 1]
+
+Logeintrag: Interrupting SendWorker
+Modell-Label: [1, 1, -1]
+Echtes Label: [-1, -1, 1]
+
+Logeintrag: Connection broken for id 999999999999, my id = 9, error =
+Modell-Label: [-1, -1, -1, -1, -1, 1, 1, 1, 1, 1, 1]
+Echtes Label: [-1, -1, -1, -1, 1, 1, 1, 1, 1, 1, 1]
+
+Logeintrag: Interrupting SendWorker
+Modell-Label: [1, 1, -1]
+Echtes Label: [-1, -1, 1]
+
+Logeintrag: Connection broken for id 999999999999, my id = 9, error =
+Modell-Label: [-1, -1, -1, -1, -1, 1, 1, 1, 1, 1, 1]
+Echtes Label: [-1, -1, -1, -1, 1, 1, 1, 1, 1, 1, 1]
+
+Logeintrag: Connection broken for id 999999999999, my id = 9, error =
+Modell-Label: [-1, -1, -1, -1, -1, 1, 1, 1, 1, 1, 1]
+Echtes Label: [-1, -1, -1, -1, 1, 1, 1, 1, 1, 1, 1]
+
+Logeintrag: Connection broken for id 999999999999, my id = 9, error =
+Modell-Label: [-1, -1, -1, -1, -1, 1, 1, 1, 1, 1, 1]
+Echtes Label: [-1, -1, -1, -1, 1, 1, 1, 1, 1, 1, 1]
+
+Logeintrag: Interrupting SendWorker
+Modell-Label: [1, 1, -1]
+Echtes Label: [-1, -1, 1]
+
+Logeintrag: Connection broken for id 999999999999, my id = 9, error =
+Modell-Label: [-1, -1, -1, -1, -1, 1, 1, 1, 1, 1, 1]
+Echtes Label: [-1, -1, -1, -1, 1, 1, 1, 1, 1, 1, 1]
+
+Logeintrag: Interrupting SendWorker
+Modell-Label: [1, 1, -1]
+Echtes Label: [-1, -1, 1]
+
+Logeintrag: Connection broken for id 999999999999, my id = 9, error =
+Modell-Label: [-1, -1, -1, -1, -1, 1, 1, 1, 1, 1, 1]
+Echtes Label: [-1, -1, -1, -1, 1, 1, 1, 1, 1, 1, 1]
+
+Logeintrag: Interrupting SendWorker
+Modell-Label: [1, 1, -1]
+Echtes Label: [-1, -1, 1]
+
+Logeintrag: Connection broken for id 999999999999, my id = 9, error =
+Modell-Label: [-1, -1, -1, -1, -1, 1, 1, 1, 1, 1, 1]
+Echtes Label: [-1, -1, -1, -1, 1, 1, 1, 1, 1, 1, 1]
+
+Logeintrag: Interrupting SendWorker
+Modell-Label: [1, 1, -1]
+Echtes Label: [-1, -1, 1]
+
+Logeintrag: Interrupting SendWorker
+Modell-Label: [1, 1, -1]
+Echtes Label: [-1, -1, 1]
+
+Logeintrag: Connection broken for id 999999999999, my id = 9, error =
+Modell-Label: [-1, -1, -1, -1, -1, 1, 1, 1, 1, 1, 1]
+Echtes Label: [-1, -1, -1, -1, 1, 1, 1, 1, 1, 1, 1]
+
+Logeintrag: Connection broken for id 999999999999, my id = 9, error =
+Modell-Label: [-1, -1, -1, -1, -1, 1, 1, 1, 1, 1, 1]
+Echtes Label: [-1, -1, -1, -1, 1, 1, 1, 1, 1, 1, 1]
+
+Logeintrag: Interrupting SendWorker
+Modell-Label: [1, 1, -1]
+Echtes Label: [-1, -1, 1]
+
+Logeintrag: Interrupting SendWorker
+Modell-Label: [1, 1, -1]
+Echtes Label: [-1, -1, 1]
+
+Logeintrag: Connection broken for id 999999999999, my id = 9, error =
+Modell-Label: [-1, -1, -1, -1, -1, 1, 1, 1, 1, 1, 1]
+Echtes Label: [-1, -1, -1, -1, 1, 1, 1, 1, 1, 1, 1]
+
+Logeintrag: Connection broken for id 999999999999, my id = 9, error =
+Modell-Label: [-1, -1, -1, -1, -1, 1, 1, 1, 1, 1, 1]
+Echtes Label: [-1, -1, -1, -1, 1, 1, 1, 1, 1, 1, 1]
+
+Logeintrag: Interrupting SendWorker
+Modell-Label: [1, 1, -1]
+Echtes Label: [-1, -1, 1]
+
+Logeintrag: Interrupting SendWorker
+Modell-Label: [1, 1, -1]
+Echtes Label: [-1, -1, 1]
+
+Logeintrag: Connection broken for id 999999999999, my id = 9, error =
+Modell-Label: [-1, -1, -1, -1, -1, 1, 1, 1, 1, 1, 1]
+Echtes Label: [-1, -1, -1, -1, 1, 1, 1, 1, 1, 1, 1]
+
+Logeintrag: Connection broken for id 999999999999, my id = 9, error =
+Modell-Label: [-1, -1, -1, -1, -1, 1, 1, 1, 1, 1, 1]
+Echtes Label: [-1, -1, -1, -1, 1, 1, 1, 1, 1, 1, 1]
+
+Logeintrag: Interrupting SendWorker
+Modell-Label: [1, 1, -1]
+Echtes Label: [-1, -1, 1]
+
+Logeintrag: Connection broken for id 999999999999, my id = 9, error =
+Modell-Label: [-1, -1, -1, -1, -1, 1, 1, 1, 1, 1, 1]
+Echtes Label: [-1, -1, -1, -1, 1, 1, 1, 1, 1, 1, 1]
+
+Logeintrag: Connection broken for id 999999999999, my id = 9, error =
+Modell-Label: [-1, -1, -1, -1, -1, 1, 1, 1, 1, 1, 1]
+Echtes Label: [-1, -1, -1, -1, 1, 1, 1, 1, 1, 1, 1]
+
+Logeintrag: Interrupting SendWorker
+Modell-Label: [1, 1, -1]
+Echtes Label: [-1, -1, 1]
+
+Logeintrag: Connection broken for id 999999999999, my id = 9, error =
+Modell-Label: [-1, -1, -1, -1, -1, 1, 1, 1, 1, 1, 1]
+Echtes Label: [-1, -1, -1, -1, 1, 1, 1, 1, 1, 1, 1]
+
+Logeintrag: Interrupting SendWorker
+Modell-Label: [1, 1, -1]
+Echtes Label: [-1, -1, 1]
+
+Logeintrag: Connection broken for id 999999999999, my id = 9, error =
+Modell-Label: [-1, -1, -1, -1, -1, 1, 1, 1, 1, 1, 1]
+Echtes Label: [-1, -1, -1, -1, 1, 1, 1, 1, 1, 1, 1]
+
+Logeintrag: Connection broken for id 999999999999, my id = 9, error =
+Modell-Label: [-1, -1, -1, -1, -1, 1, 1, 1, 1, 1, 1]
+Echtes Label: [-1, -1, -1, -1, 1, 1, 1, 1, 1, 1, 1]
+
+Logeintrag: Interrupting SendWorker
+Modell-Label: [1, 1, -1]
+Echtes Label: [-1, -1, 1]
+
+Logeintrag: Connection broken for id 999999999999, my id = 9, error =
+Modell-Label: [-1, -1, -1, -1, -1, 1, 1, 1, 1, 1, 1]
+Echtes Label: [-1, -1, -1, -1, 1, 1, 1, 1, 1, 1, 1]
+
+Logeintrag: Connection broken for id 999999999999, my id = 9, error =
+Modell-Label: [-1, -1, -1, -1, -1, 1, 1, 1, 1, 1, 1]
+Echtes Label: [-1, -1, -1, -1, 1, 1, 1, 1, 1, 1, 1]
+
+Logeintrag: Connection broken for id 999999999999, my id = 9, error =
+Modell-Label: [-1, -1, -1, -1, -1, 1, 1, 1, 1, 1, 1]
+Echtes Label: [-1, -1, -1, -1, 1, 1, 1, 1, 1, 1, 1]
+
+Logeintrag: Connection broken for id 999999999999, my id = 9, error =
+Modell-Label: [-1, -1, -1, -1, -1, 1, 1, 1, 1, 1, 1]
+Echtes Label: [-1, -1, -1, -1, 1, 1, 1, 1, 1, 1, 1]
+
+Logeintrag: Interrupting SendWorker
+Modell-Label: [1, 1, -1]
+Echtes Label: [-1, -1, 1]
+
+Logeintrag: Connection broken for id 999999999999, my id = 9, error =
+Modell-Label: [-1, -1, -1, -1, -1, 1, 1, 1, 1, 1, 1]
+Echtes Label: [-1, -1, -1, -1, 1, 1, 1, 1, 1, 1, 1]
+
+Logeintrag: Connection broken for id 999999999999, my id = 9, error =
+Modell-Label: [-1, -1, -1, -1, -1, 1, 1, 1, 1, 1, 1]
+Echtes Label: [-1, -1, -1, -1, 1, 1, 1, 1, 1, 1, 1]
+
+Logeintrag: Connection broken for id 999999999999, my id = 9, error =
+Modell-Label: [-1, -1, -1, -1, -1, 1, 1, 1, 1, 1, 1]
+Echtes Label: [-1, -1, -1, -1, 1, 1, 1, 1, 1, 1, 1]
+
+Logeintrag: Connection broken for id 999999999999, my id = 9, error =
+Modell-Label: [-1, -1, -1, -1, -1, 1, 1, 1, 1, 1, 1]
+Echtes Label: [-1, -1, -1, -1, 1, 1, 1, 1, 1, 1, 1]
+
+Logeintrag: Interrupting SendWorker
+Modell-Label: [1, 1, -1]
+Echtes Label: [-1, -1, 1]
+
+Logeintrag: Interrupting SendWorker
+Modell-Label: [1, 1, -1]
+Echtes Label: [-1, -1, 1]
+
+Logeintrag: Connection broken for id 999999999999, my id = 9, error =
+Modell-Label: [-1, -1, -1, -1, -1, 1, 1, 1, 1, 1, 1]
+Echtes Label: [-1, -1, -1, -1, 1, 1, 1, 1, 1, 1, 1]
+
+Logeintrag: Interrupting SendWorker
+Modell-Label: [1, 1, -1]
+Echtes Label: [-1, -1, 1]
+
+Logeintrag: Connection broken for id 999999999999, my id = 9, error =
+Modell-Label: [-1, -1, -1, -1, -1, 1, 1, 1, 1, 1, 1]
+Echtes Label: [-1, -1, -1, -1, 1, 1, 1, 1, 1, 1, 1]
+
+Logeintrag: Connection broken for id 999999999999, my id = 9, error =
+Modell-Label: [-1, -1, -1, -1, -1, 1, 1, 1, 1, 1, 1]
+Echtes Label: [-1, -1, -1, -1, 1, 1, 1, 1, 1, 1, 1]
+
+Logeintrag: Connection broken for id 999999999999, my id = 9, error =
+Modell-Label: [-1, -1, -1, -1, -1, 1, 1, 1, 1, 1, 1]
+Echtes Label: [-1, -1, -1, -1, 1, 1, 1, 1, 1, 1, 1]
+
+Logeintrag: Interrupting SendWorker
+Modell-Label: [1, 1, -1]
+Echtes Label: [-1, -1, 1]
+
+Logeintrag: Interrupting SendWorker
+Modell-Label: [1, 1, -1]
+Echtes Label: [-1, -1, 1]
+
+Logeintrag: Connection broken for id 999999999999, my id = 9, error =
+Modell-Label: [-1, -1, -1, -1, -1, 1, 1, 1, 1, 1, 1]
+Echtes Label: [-1, -1, -1, -1, 1, 1, 1, 1, 1, 1, 1]
+
+Logeintrag: Connection broken for id 999999999999, my id = 9, error =
+Modell-Label: [-1, -1, -1, -1, -1, 1, 1, 1, 1, 1, 1]
+Echtes Label: [-1, -1, -1, -1, 1, 1, 1, 1, 1, 1, 1]
+
+Logeintrag: Connection broken for id 999999999999, my id = 9, error =
+Modell-Label: [-1, -1, -1, -1, -1, 1, 1, 1, 1, 1, 1]
+Echtes Label: [-1, -1, -1, -1, 1, 1, 1, 1, 1, 1, 1]
+
+Logeintrag: Connection broken for id 999999999999, my id = 9, error =
+Modell-Label: [-1, -1, -1, -1, -1, 1, 1, 1, 1, 1, 1]
+Echtes Label: [-1, -1, -1, -1, 1, 1, 1, 1, 1, 1, 1]
+
+Logeintrag: Interrupting SendWorker
+Modell-Label: [1, 1, -1]
+Echtes Label: [-1, -1, 1]
+
+Logeintrag: Connection broken for id 999999999999, my id = 9, error =
+Modell-Label: [-1, -1, -1, -1, -1, 1, 1, 1, 1, 1, 1]
+Echtes Label: [-1, -1, -1, -1, 1, 1, 1, 1, 1, 1, 1]
+
+Logeintrag: Connection broken for id 999999999999, my id = 9, error =
+Modell-Label: [-1, -1, -1, -1, -1, 1, 1, 1, 1, 1, 1]
+Echtes Label: [-1, -1, -1, -1, 1, 1, 1, 1, 1, 1, 1]
+
+Logeintrag: Interrupting SendWorker
+Modell-Label: [1, 1, -1]
+Echtes Label: [-1, -1, 1]
+
+Logeintrag: Connection broken for id 999999999999, my id = 9, error =
+Modell-Label: [-1, -1, -1, -1, -1, 1, 1, 1, 1, 1, 1]
+Echtes Label: [-1, -1, -1, -1, 1, 1, 1, 1, 1, 1, 1]
+
+Logeintrag: Connection broken for id 999999999999, my id = 9, error =
+Modell-Label: [-1, -1, -1, -1, -1, 1, 1, 1, 1, 1, 1]
+Echtes Label: [-1, -1, -1, -1, 1, 1, 1, 1, 1, 1, 1]
+
+Logeintrag: Connection broken for id 999999999999, my id = 9, error =
+Modell-Label: [-1, -1, -1, -1, -1, 1, 1, 1, 1, 1, 1]
+Echtes Label: [-1, -1, -1, -1, 1, 1, 1, 1, 1, 1, 1]
+
+Logeintrag: Connection broken for id 999999999999, my id = 9, error =
+Modell-Label: [-1, -1, -1, -1, -1, 1, 1, 1, 1, 1, 1]
+Echtes Label: [-1, -1, -1, -1, 1, 1, 1, 1, 1, 1, 1]
+
+Logeintrag: Interrupting SendWorker
+Modell-Label: [1, 1, -1]
+Echtes Label: [-1, -1, 1]
+
+Logeintrag: Connection broken for id 999999999999, my id = 9, error =
+Modell-Label: [-1, -1, -1, -1, -1, 1, 1, 1, 1, 1, 1]
+Echtes Label: [-1, -1, -1, -1, 1, 1, 1, 1, 1, 1, 1]
+
+Logeintrag: Interrupting SendWorker
+Modell-Label: [1, 1, -1]
+Echtes Label: [-1, -1, 1]
+
+Logeintrag: Connection broken for id 999999999999, my id = 9, error =
+Modell-Label: [-1, -1, -1, -1, -1, 1, 1, 1, 1, 1, 1]
+Echtes Label: [-1, -1, -1, -1, 1, 1, 1, 1, 1, 1, 1]
+
+Logeintrag: Connection broken for id 999999999999, my id = 9, error =
+Modell-Label: [-1, -1, -1, -1, -1, 1, 1, 1, 1, 1, 1]
+Echtes Label: [-1, -1, -1, -1, 1, 1, 1, 1, 1, 1, 1]
+
+Logeintrag: Connection broken for id 999999999999, my id = 9, error =
+Modell-Label: [-1, -1, -1, -1, -1, 1, 1, 1, 1, 1, 1]
+Echtes Label: [-1, -1, -1, -1, 1, 1, 1, 1, 1, 1, 1]
+
+Logeintrag: Connection broken for id 999999999999, my id = 9, error =
+Modell-Label: [-1, -1, -1, -1, -1, 1, 1, 1, 1, 1, 1]
+Echtes Label: [-1, -1, -1, -1, 1, 1, 1, 1, 1, 1, 1]
+
+Logeintrag: Interrupting SendWorker
+Modell-Label: [1, 1, -1]
+Echtes Label: [-1, -1, 1]
+
+Logeintrag: Connection broken for id 999999999999, my id = 9, error =
+Modell-Label: [-1, -1, -1, -1, -1, 1, 1, 1, 1, 1, 1]
+Echtes Label: [-1, -1, -1, -1, 1, 1, 1, 1, 1, 1, 1]
+
+Logeintrag: Interrupting SendWorker
+Modell-Label: [1, 1, -1]
+Echtes Label: [-1, -1, 1]
+
+Logeintrag: Notification: 9 (n.leader), 9x99999999b (n.zxid), 9x9 (n.round), LOOKING (n.state), 9 (n.sid), 9x9 (n.peerEPoch), LOOKING (my state)
+Modell-Label: [-1, 1, 1, 1, 1, 1, 1, -1, 1, 1, 1, -1, 1, 1, 1, -1, 1, -1, -1, -1]
+Echtes Label: [1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, -1, 1, 1, 1]
+
+Logeintrag: Established session 9x99ed9ac9c9e9999 with negotiated timeout 99999 for client /99.99.99.99:99999
+Modell-Label: [-1, -1, 1, -1, 1, -1, -1, 1, -1, -1, 1]
+Echtes Label: [-1, -1, 1, -1, -1, -1, 1, -1, -1, 1, -1]
+
+Logeintrag: Connection request from old client /99.99.99.99:99999; will be dropped if server is in r-o mode
+Modell-Label: [-1, -1, -1, -1, -1, 1, -1, -1, -1, -1, -1, -1, -1, -1, -1]
+Echtes Label: [-1, -1, -1, -1, -1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1]
+
+Logeintrag: Client attempting to establish new session at /99.99.99.99:99999
+Modell-Label: [-1, -1, -1, -1, -1, 1, -1, 1]
+Echtes Label: [-1, -1, -1, -1, -1, -1, -1, 1]
+
+Logeintrag: Client attempting to establish new session at /99.99.99.99:99999
+Modell-Label: [-1, -1, -1, -1, -1, 1, -1, 1]
+Echtes Label: [-1, -1, -1, -1, -1, -1, -1, 1]
+
+Logeintrag: caught end of stream exception
+Modell-Label: [-1, -1, -1, 1, -1]
+Echtes Label: [-1, -1, -1, -1, -1]
+
+Logeintrag: Established session 9x99ed9ac9c9e999e with negotiated timeout 99999 for client /99.99.99.99:99999
+Modell-Label: [-1, -1, 1, -1, 1, -1, -1, 1, -1, -1, 1]
+Echtes Label: [-1, -1, 1, -1, -1, -1, 1, -1, -1, 1, -1]
+
+Logeintrag: Established session 9x99ed9ac9c9e9999 with negotiated timeout 99999 for client /99.99.99.99:99999
+Modell-Label: [-1, -1, 1, -1, 1, -1, -1, 1, -1, -1, 1]
+Echtes Label: [-1, -1, 1, -1, -1, -1, 1, -1, -1, 1, -1]
+
+Logeintrag: Client attempting to establish new session at /99.99.99.99:99999
+Modell-Label: [-1, -1, -1, -1, -1, 1, -1, 1]
+Echtes Label: [-1, -1, -1, -1, -1, -1, -1, 1]
+
+Logeintrag: caught end of stream exception
+Modell-Label: [-1, -1, -1, 1, -1]
+Echtes Label: [-1, -1, -1, -1, -1]
+
+Logeintrag: caught end of stream exception
+Modell-Label: [-1, -1, -1, 1, -1]
+Echtes Label: [-1, -1, -1, -1, -1]
+
+Logeintrag: Client attempting to establish new session at /99.99.99.99:99999
+Modell-Label: [-1, -1, -1, -1, -1, 1, -1, 1]
+Echtes Label: [-1, -1, -1, -1, -1, -1, -1, 1]
+
+Logeintrag: Established session 9x99ed9ac9c9e9999 with negotiated timeout 99999 for client /99.99.99.99:99999
+Modell-Label: [-1, -1, 1, -1, 1, -1, -1, 1, -1, -1, 1]
+Echtes Label: [-1, -1, 1, -1, -1, -1, 1, -1, -1, 1, -1]
+
+Logeintrag: Connection request from old client /99.99.99.99:99999; will be dropped if server is in r-o mode
+Modell-Label: [-1, -1, -1, -1, -1, 1, -1, -1, -1, -1, -1, -1, -1, -1, -1]
+Echtes Label: [-1, -1, -1, -1, -1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1]
+
+Logeintrag: caught end of stream exception
+Modell-Label: [-1, -1, -1, 1, -1]
+Echtes Label: [-1, -1, -1, -1, -1]
+
+Logeintrag: Connection request from old client /99.99.99.99:99999; will be dropped if server is in r-o mode
+Modell-Label: [-1, -1, -1, -1, -1, 1, -1, -1, -1, -1, -1, -1, -1, -1, -1]
+Echtes Label: [-1, -1, -1, -1, -1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1]
+
+Logeintrag: Connection request from old client /99.99.99.99:99999; will be dropped if server is in r-o mode
+Modell-Label: [-1, -1, -1, -1, -1, 1, -1, -1, -1, -1, -1, -1, -1, -1, -1]
+Echtes Label: [-1, -1, -1, -1, -1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1]
+
+Logeintrag: caught end of stream exception
+Modell-Label: [-1, -1, -1, 1, -1]
+Echtes Label: [-1, -1, -1, -1, -1]
+
+Logeintrag: Connection broken for id 9, my id = 9, error =
+Modell-Label: [-1, -1, -1, -1, 1, -1, -1, 1, 1, 1, 1]
+Echtes Label: [-1, -1, -1, -1, 1, 1, 1, 1, 1, 1, 1]
+
+Logeintrag: Established session 9x99ed9ac9c9e99d9 with negotiated timeout 99999 for client /99.99.99.99:99999
+Modell-Label: [-1, -1, 1, -1, 1, -1, -1, 1, -1, -1, 1]
+Echtes Label: [-1, -1, 1, -1, -1, -1, 1, -1, -1, 1, -1]
+
+Logeintrag: LOOKING
+Modell-Label: [1, -1]
+Echtes Label: [-1, 1]
+
+Logeintrag: Notification: 9 (n.leader), 9x999999999 (n.zxid), 9x9 (n.round), FOLLOWING (n.state), 9 (n.sid), 9x9 (n.peerEPoch), FOLLOWING (my state)
+Modell-Label: [-1, 1, 1, 1, 1, 1, 1, -1, 1, 1, 1, -1, 1, 1, -1, 1, -1, -1, -1]
+Echtes Label: [1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1]
+
+Logeintrag: Connection request from old client /99.99.99.99:99999; will be dropped if server is in r-o mode
+Modell-Label: [-1, -1, -1, -1, -1, 1, -1, -1, -1, -1, -1, -1, -1, -1, -1]
+Echtes Label: [-1, -1, -1, -1, -1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1]
+
+Logeintrag: Established session 9x99ede99999f9999 with negotiated timeout 99999 for client /99.99.99.99:99999
+Modell-Label: [-1, -1, 1, -1, 1, -1, -1, 1, -1, -1, 1]
+Echtes Label: [-1, -1, 1, -1, -1, -1, 1, -1, -1, 1, -1]
+
+Logeintrag: Established session 9x99ede99999f9999 with negotiated timeout 99999 for client /99.99.99.99:99999
+Modell-Label: [-1, -1, 1, -1, 1, -1, -1, 1, -1, -1, 1]
+Echtes Label: [-1, -1, 1, -1, -1, -1, 1, -1, -1, 1, -1]
+
+Logeintrag: Established session 9x99ede99999f999d with negotiated timeout 99999 for client /99.99.99.99:99999
+Modell-Label: [-1, -1, 1, -1, 1, -1, -1, 1, -1, -1, 1]
+Echtes Label: [-1, -1, 1, -1, -1, -1, 1, -1, -1, 1, -1]
+
+Logeintrag: Connection request from old client /99.99.99.99:99999; will be dropped if server is in r-o mode
+Modell-Label: [-1, -1, -1, -1, -1, 1, -1, -1, -1, -1, -1, -1, -1, -1, -1]
+Echtes Label: [-1, -1, -1, -1, -1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1]
+
+Logeintrag: Client attempting to establish new session at /99.99.99.99:99999
+Modell-Label: [-1, -1, -1, -1, -1, 1, -1, 1]
+Echtes Label: [-1, -1, -1, -1, -1, -1, -1, 1]
+
+Logeintrag: Closed socket connection for client /99.99.99.99:99999 which had sessionid 9x99ede99999f999f
+Modell-Label: [-1, -1, -1, -1, -1, 1, -1, -1, 1, -1, 1]
+Echtes Label: [-1, -1, -1, -1, -1, 1, -1, -1, -1, 1, -1]
+
+Logeintrag: Closed socket connection for client /99.99.99.99:99999 which had sessionid 9x99ede99999f9999
+Modell-Label: [-1, -1, -1, -1, -1, 1, -1, -1, 1, -1, 1]
+Echtes Label: [-1, -1, -1, -1, -1, 1, -1, -1, -1, 1, -1]
+
+Logeintrag: Client attempting to establish new session at /99.99.99.99:99999
+Modell-Label: [-1, -1, -1, -1, -1, 1, -1, 1]
+Echtes Label: [-1, -1, -1, -1, -1, -1, -1, 1]
+
+Logeintrag: Connection request from old client /99.99.99.99:99999; will be dropped if server is in r-o mode
+Modell-Label: [-1, -1, -1, -1, -1, 1, -1, -1, -1, -1, -1, -1, -1, -1, -1]
+Echtes Label: [-1, -1, -1, -1, -1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1]
+
+Logeintrag: Client attempting to establish new session at /99.99.99.99:99999
+Modell-Label: [-1, -1, -1, -1, -1, 1, -1, 1]
+Echtes Label: [-1, -1, -1, -1, -1, -1, -1, 1]
+
+Logeintrag: Established session 9x99ede99999f9999 with negotiated timeout 99999 for client /99.99.99.99:99999
+Modell-Label: [-1, -1, 1, -1, 1, -1, -1, 1, -1, -1, 1]
+Echtes Label: [-1, -1, 1, -1, -1, -1, 1, -1, -1, 1, -1]
+
+Logeintrag: caught end of stream exception
+Modell-Label: [-1, -1, -1, 1, -1]
+Echtes Label: [-1, -1, -1, -1, -1]
+
+Logeintrag: minSessionTimeout set to -9
+Modell-Label: [1, 1, -1, 1]
+Echtes Label: [-1, -1, -1, 1]
+
+Logeintrag: Server environment:os.name=Linux
+Modell-Label: [-1, -1, 1]
+Echtes Label: [-1, 1, -1]
+
+Logeintrag: Server environment:user.name=zookeeper
+Modell-Label: [-1, -1, 1, -1]
+Echtes Label: [-1, 1, -1, 1]
+
+Logeintrag: Established session 9x99edfaa9c999999 with negotiated timeout 99999 for client /99.99.99.99:99999
+Modell-Label: [-1, -1, 1, -1, 1, -1, -1, 1, -1, -1, 1]
+Echtes Label: [-1, -1, 1, -1, -1, -1, 1, -1, -1, 1, -1]
+
+Logeintrag: Closed socket connection for client /99.99.99.99:99999 which had sessionid 9x99edfaa9c999999
+Modell-Label: [-1, -1, -1, -1, -1, 1, -1, -1, 1, -1, 1]
+Echtes Label: [-1, -1, -1, -1, -1, 1, -1, -1, -1, 1, -1]
+
+Logeintrag: caught end of stream exception
+Modell-Label: [-1, -1, -1, 1, -1]
+Echtes Label: [-1, -1, -1, -1, -1]
+
+Logeintrag: Established session 9x99edfaa9c99999e with negotiated timeout 99999 for client /99.99.99.99:99999
+Modell-Label: [-1, -1, 1, -1, 1, -1, -1, 1, -1, -1, 1]
+Echtes Label: [-1, -1, 1, -1, -1, -1, 1, -1, -1, 1, -1]
+
+Logeintrag: Closed socket connection for client /99.99.99.99:99999 which had sessionid 9x99edfaa9c99999d
+Modell-Label: [-1, -1, -1, -1, -1, 1, -1, -1, 1, -1, 1]
+Echtes Label: [-1, -1, -1, -1, -1, 1, -1, -1, -1, 1, -1]
+
+Logeintrag: Established session 9x99edfaa9c99999a with negotiated timeout 99999 for client /99.99.99.99:99999
+Modell-Label: [-1, -1, 1, -1, 1, -1, -1, 1, -1, -1, 1]
+Echtes Label: [-1, -1, 1, -1, -1, -1, 1, -1, -1, 1, -1]
+
+Logeintrag: Connection request from old client /99.99.99.99:99999; will be dropped if server is in r-o mode
+Modell-Label: [-1, -1, -1, -1, -1, 1, -1, -1, -1, -1, -1, -1, -1, -1, -1]
+Echtes Label: [-1, -1, -1, -1, -1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1]
+
+Logeintrag: Connection request from old client /99.99.99.99:99999; will be dropped if server is in r-o mode
+Modell-Label: [-1, -1, -1, -1, -1, 1, -1, -1, -1, -1, -1, -1, -1, -1, -1]
+Echtes Label: [-1, -1, -1, -1, -1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1]
+
+Logeintrag: minSessionTimeout set to -9
+Modell-Label: [1, 1, -1, 1]
+Echtes Label: [-1, -1, -1, 1]
+
+Logeintrag: Server environment:java.home=/usr/lib/jvm/java-9-openjdk-amd99/jre
+Modell-Label: [-1, -1, 1]
+Echtes Label: [-1, 1, -1]
+
+Logeintrag: Established session 9x99ee99a9c99999b with negotiated timeout 99999 for client /99.99.99.99:99999
+Modell-Label: [-1, -1, 1, -1, 1, -1, -1, 1, -1, -1, 1]
+Echtes Label: [-1, -1, 1, -1, -1, -1, 1, -1, -1, 1, -1]
+
+Logeintrag: Notification: 9 (n.leader), 9x999999999 (n.zxid), 9x9 (n.round), LOOKING (n.state), 9 (n.sid), 9x9 (n.peerEPoch), LOOKING (my state)
+Modell-Label: [-1, 1, 1, 1, 1, 1, 1, -1, 1, 1, 1, -1, 1, 1, -1, 1, -1, 1, -1, -1, -1]
+Echtes Label: [1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, -1, 1, 1, 1]
+
+Logeintrag: Client attempting to establish new session at /99.99.99.99:99999
+Modell-Label: [-1, -1, -1, -1, -1, 1, -1, 1]
+Echtes Label: [-1, -1, -1, -1, -1, -1, -1, 1]
+
+Logeintrag: Closed socket connection for client /99.99.99.99:99999 which had sessionid 9x99f9999999e9999
+Modell-Label: [-1, -1, -1, -1, -1, 1, -1, -1, 1, -1, 1]
+Echtes Label: [-1, -1, -1, -1, -1, 1, -1, -1, -1, 1, -1]
+
+Logeintrag: Expiring session 9x99f99999bd99999, timeout of 99999ms exceeded
+Modell-Label: [-1, -1, 1, -1, -1, 1, 1]
+Echtes Label: [-1, -1, 1, 1, 1, 1, 1]
+
+Logeintrag: Expiring session 9x99f99999bd9999f, timeout of 99999ms exceeded
+Modell-Label: [-1, -1, 1, -1, -1, 1, 1]
+Echtes Label: [-1, -1, 1, 1, 1, 1, 1]
+
+Logeintrag: Processed session termination for sessionid: 9x99f9999999a9999
+Modell-Label: [1, 1, -1, -1, -1, 1, -1, 1]
+Echtes Label: [-1, -1, -1, -1, -1, 1, 1, -1]
+
