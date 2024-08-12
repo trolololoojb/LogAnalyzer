@@ -54,8 +54,19 @@ def select_random_lines(input_file, log_file, label_file, output_content, output
 
     print(f'{num_lines} zufällige Zeilen wurden ausgewählt und gespeichert.')
 
-# Funktion zum Auffüllen der Labels durch Spiegelung der gegenüberliegenden Werte
 def pad_labels(true_labels, predicted_labels):
+    """
+    Füllt die true_labels und predicted_labels auf, um die gleiche Länge zu erreichen.
+    Dabei werden die Werte aus der jeweils anderen Liste mit negiertem Vorzeichen verwendet.
+
+    Parameter:
+    true_labels (List[int]): Die Liste der tatsächlichen Labels.
+    predicted_labels (List[int]): Die Liste der vorhergesagten Labels.
+
+    Rückgabewert:
+    Tuple[List[int], List[int]]: Zwei Listen (true_labels und predicted_labels),
+    die auf die gleiche Länge aufgefüllt wurden. 
+    """
     max_length = max(len(true_labels), len(predicted_labels))
     
     if len(true_labels) < max_length:
@@ -71,9 +82,36 @@ def pad_labels(true_labels, predicted_labels):
     return true_labels, predicted_labels
 
 def convert_labels(labels):
+    """
+    Konvertiert die gegebenen Labels in binäre Werte.
+
+    Parameter:
+    labels (List[int]): Eine Liste von Labels, die konvertiert werden sollen.
+
+    Rückgabewert:
+    List[int]: Eine Liste von binären Werten
+    """
     return [1 if label == 1 else 0 for label in labels]
 
 def evaluate(eval_file, eval_label, additional_infos = ""):
+    """
+    Diese Funktion bewertet die Vorhersagegenauigkeit eines Modells, indem sie die 
+    vorhergesagten Labels aus einer Textdatei mit den tatsächlichen Labels aus einer 
+    CSV-Datei vergleicht. Die Funktion berechnet den F1-Score für jede Zeile und 
+    führt eine Analyse durch, wie viele Zeilen korrekt oder falsch vorhergesagt wurden. 
+    Die Ergebnisse werden in einer Textdatei gespeichert, die den Namen des Modells und 
+    der Evaluierungsdaten enthält.
+
+    Parameter:
+    - eval_file: Pfad zur Textdatei, die die zu bewertenden Logs enthält.
+    - eval_label: Pfad zur CSV-Datei, die die tatsächlichen Labels enthält.
+    - additional_infos: (optional) Zusätzliche Informationen, die in der Ausgabedatei 
+      gespeichert werden sollen.
+
+    Rückgabewert:
+    - Keine Rückgabe. Die Ergebnisse werden in einer Textdatei gespeichert und auf der 
+      Konsole ausgegeben.
+    """
     file_name = os.path.basename(eval_file)
     model_name = os.path.basename(os.path.normpath(model_load.model_path))
     
