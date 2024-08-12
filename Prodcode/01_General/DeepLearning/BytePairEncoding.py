@@ -16,8 +16,7 @@ def BPE_labels(subwords, labels):
     new_labels = []
     counter = 0
     for subword in subwords:
-        if  subword == " ": 
-            #new_labels.append(0)
+        if  subword == " ":
             new_labels.append(labels[counter])
             counter += 1
         else:
@@ -56,7 +55,7 @@ def generateTokenizer_BPE(text, vocab_size, files:bool = False):
     # Training des Tokenizers mit einem Trainer, der die Leerzeichen einschließt
     trainer = trainers.BpeTrainer(
         special_tokens=["<pad>", "<unk>", " "],
-        show_progress=True, vocab_size = vocab_size#, continuing_subword_prefix = "§"
+        show_progress=True, vocab_size = vocab_size
     )
     if files:
         tokenizer.train(files=text, trainer=trainer)
