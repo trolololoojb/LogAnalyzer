@@ -1,0 +1,348 @@
+Model: tokenizedModel.keras
+ Evaluierungsdaten: content_list_hdfs.txt
+ Sonstige Infos: Evaluierung Baseline Modell maskZero
+Durchschnittlicher F1-Score: 0.9922761904761904
+Ergebnisse: 
+    -Gleiche Zeilen: 1915 (95.75%)
+    -Unterschiedliche Zeilen: 85 (4.25%)
+Falsch interpretierte Zeilen:
+Logeintrag: 99.999.99.99:99999:Got exception while serving blk_-9999999999999999999 to /99.999.99.99:
+Modell-Label: [1, 0, 0, 1, 1, 1, 1]
+Echtes Label: [1, 1, 1, 1, 1, 1, 1]
+
+Logeintrag: 99.999.999.999:99999:Got exception while serving blk_9999999999999999999 to /99.999.99.999:
+Modell-Label: [1, 0, 0, 1, 1, 1, 1]
+Echtes Label: [1, 1, 1, 1, 1, 1, 1]
+
+Logeintrag: 99.999.999.999:99999:Got exception while serving blk_9999999999999999999 to /99.999.99.999:
+Modell-Label: [1, 0, 0, 1, 1, 1, 1]
+Echtes Label: [1, 1, 1, 1, 1, 1, 1]
+
+Logeintrag: 99.999.99.999:99999:Got exception while serving blk_9999999999999999999 to /99.999.999.999:
+Modell-Label: [1, 0, 0, 1, 1, 1, 1]
+Echtes Label: [1, 1, 1, 1, 1, 1, 1]
+
+Logeintrag: 99.999.999.99:99999:Got exception while serving blk_9999999999999999999 to /99.999.999.99:
+Modell-Label: [1, 0, 0, 1, 1, 1, 1]
+Echtes Label: [1, 1, 1, 1, 1, 1, 1]
+
+Logeintrag: 99.999.9.999:99999:Got exception while serving blk_-9999999999999999999 to /99.999.9.999:
+Modell-Label: [1, 0, 0, 1, 1, 1, 1]
+Echtes Label: [1, 1, 1, 1, 1, 1, 1]
+
+Logeintrag: 99.999.999.999:99999:Got exception while serving blk_9999999999999999999 to /99.999.999.9:
+Modell-Label: [1, 0, 0, 1, 1, 1, 1]
+Echtes Label: [1, 1, 1, 1, 1, 1, 1]
+
+Logeintrag: 99.999.99.999:99999:Got exception while serving blk_-999999999999999999 to /99.999.99.99:
+Modell-Label: [1, 0, 0, 1, 1, 1, 1]
+Echtes Label: [1, 1, 1, 1, 1, 1, 1]
+
+Logeintrag: 99.999.999.999:99999:Got exception while serving blk_-9999999999999999999 to /99.999.999.999:
+Modell-Label: [1, 0, 0, 1, 1, 1, 1]
+Echtes Label: [1, 1, 1, 1, 1, 1, 1]
+
+Logeintrag: 99.999.99.99:99999:Got exception while serving blk_-9999999999999999999 to /99.999.99.999:
+Modell-Label: [1, 0, 0, 1, 1, 1, 1]
+Echtes Label: [1, 1, 1, 1, 1, 1, 1]
+
+Logeintrag: 99.999.99.999:99999:Got exception while serving blk_9999999999999999999 to /99.999.99.999:
+Modell-Label: [1, 0, 0, 1, 1, 1, 1]
+Echtes Label: [1, 1, 1, 1, 1, 1, 1]
+
+Logeintrag: 99.999.99.999:99999:Got exception while serving blk_-9999999999999999999 to /99.999.999.999:
+Modell-Label: [1, 0, 0, 1, 1, 1, 1]
+Echtes Label: [1, 1, 1, 1, 1, 1, 1]
+
+Logeintrag: 99.999.99.999:99999:Got exception while serving blk_-99999999999999999 to /99.999.9.99:
+Modell-Label: [1, 0, 0, 1, 1, 1, 1]
+Echtes Label: [1, 1, 1, 1, 1, 1, 1]
+
+Logeintrag: 99.999.99.99:99999:Got exception while serving blk_9999999999999999999 to /99.999.99.999:
+Modell-Label: [1, 0, 0, 1, 1, 1, 1]
+Echtes Label: [1, 1, 1, 1, 1, 1, 1]
+
+Logeintrag: 99.999.999.999:99999:Got exception while serving blk_9999999999999999999 to /99.999.999.999:
+Modell-Label: [1, 0, 0, 1, 1, 1, 1]
+Echtes Label: [1, 1, 1, 1, 1, 1, 1]
+
+Logeintrag: 99.999.99.999:99999:Got exception while serving blk_9999999999999999999 to /99.999.999.99:
+Modell-Label: [1, 0, 0, 1, 1, 1, 1]
+Echtes Label: [1, 1, 1, 1, 1, 1, 1]
+
+Logeintrag: 99.999.999.999:99999:Got exception while serving blk_9999999999999999999 to /99.999.99.999:
+Modell-Label: [1, 0, 0, 1, 1, 1, 1]
+Echtes Label: [1, 1, 1, 1, 1, 1, 1]
+
+Logeintrag: 99.999.99.999:99999:Got exception while serving blk_9999999999999999999 to /99.999.999.999:
+Modell-Label: [1, 0, 0, 1, 1, 1, 1]
+Echtes Label: [1, 1, 1, 1, 1, 1, 1]
+
+Logeintrag: 99.999.99.999:99999:Got exception while serving blk_9999999999999999999 to /99.999.9.999:
+Modell-Label: [1, 0, 0, 1, 1, 1, 1]
+Echtes Label: [1, 1, 1, 1, 1, 1, 1]
+
+Logeintrag: 99.999.99.9:99999:Got exception while serving blk_9999999999999999999 to /99.999.999.99:
+Modell-Label: [1, 0, 0, 1, 1, 1, 1]
+Echtes Label: [1, 1, 1, 1, 1, 1, 1]
+
+Logeintrag: 99.999.99.999:99999:Got exception while serving blk_9999999999999999999 to /99.999.999.999:
+Modell-Label: [1, 0, 0, 1, 1, 1, 1]
+Echtes Label: [1, 1, 1, 1, 1, 1, 1]
+
+Logeintrag: 99.999.99.999:99999:Got exception while serving blk_-9999999999999999999 to /99.999.99.999:
+Modell-Label: [1, 0, 0, 1, 1, 1, 1]
+Echtes Label: [1, 1, 1, 1, 1, 1, 1]
+
+Logeintrag: 99.999.99.999:99999:Got exception while serving blk_-9999999999999999999 to /99.999.999.999:
+Modell-Label: [1, 0, 0, 1, 1, 1, 1]
+Echtes Label: [1, 1, 1, 1, 1, 1, 1]
+
+Logeintrag: 99.999.99.9:99999:Got exception while serving blk_-9999999999999999999 to /99.999.99.999:
+Modell-Label: [1, 0, 0, 1, 1, 1, 1]
+Echtes Label: [1, 1, 1, 1, 1, 1, 1]
+
+Logeintrag: 99.999.99.9:99999:Got exception while serving blk_-9999999999999999999 to /99.999.99.999:
+Modell-Label: [1, 0, 0, 1, 1, 1, 1]
+Echtes Label: [1, 1, 1, 1, 1, 1, 1]
+
+Logeintrag: 99.999.99.999:99999:Got exception while serving blk_-9999999999999999999 to /99.999.99.999:
+Modell-Label: [1, 0, 0, 1, 1, 1, 1]
+Echtes Label: [1, 1, 1, 1, 1, 1, 1]
+
+Logeintrag: 99.999.99.999:99999:Got exception while serving blk_9999999999999999999 to /99.999.999.99:
+Modell-Label: [1, 0, 0, 1, 1, 1, 1]
+Echtes Label: [1, 1, 1, 1, 1, 1, 1]
+
+Logeintrag: 99.999.99.999:99999:Got exception while serving blk_-9999999999999999999 to /99.999.99.999:
+Modell-Label: [1, 0, 0, 1, 1, 1, 1]
+Echtes Label: [1, 1, 1, 1, 1, 1, 1]
+
+Logeintrag: 99.999.999.999:99999:Got exception while serving blk_9999999999999999999 to /99.999.999.99:
+Modell-Label: [1, 0, 0, 1, 1, 1, 1]
+Echtes Label: [1, 1, 1, 1, 1, 1, 1]
+
+Logeintrag: 99.999.99.9:99999:Got exception while serving blk_-9999999999999999999 to /99.999.99.99:
+Modell-Label: [1, 0, 0, 1, 1, 1, 1]
+Echtes Label: [1, 1, 1, 1, 1, 1, 1]
+
+Logeintrag: 99.999.999.9:99999:Got exception while serving blk_-999999999999999999 to /99.999.999.99:
+Modell-Label: [1, 0, 0, 1, 1, 1, 1]
+Echtes Label: [1, 1, 1, 1, 1, 1, 1]
+
+Logeintrag: 99.999.99.999:99999:Got exception while serving blk_-9999999999999999999 to /99.999.99.999:
+Modell-Label: [1, 0, 0, 1, 1, 1, 1]
+Echtes Label: [1, 1, 1, 1, 1, 1, 1]
+
+Logeintrag: 99.999.99.999:99999:Got exception while serving blk_9999999999999999999 to /99.999.99.999:
+Modell-Label: [1, 0, 0, 1, 1, 1, 1]
+Echtes Label: [1, 1, 1, 1, 1, 1, 1]
+
+Logeintrag: 99.999.99.9:99999:Got exception while serving blk_9999999999999999999 to /99.999.999.9:
+Modell-Label: [1, 0, 0, 1, 1, 1, 1]
+Echtes Label: [1, 1, 1, 1, 1, 1, 1]
+
+Logeintrag: 99.999.99.999:99999:Got exception while serving blk_-9999999999999999999 to /99.999.999.999:
+Modell-Label: [1, 0, 0, 1, 1, 1, 1]
+Echtes Label: [1, 1, 1, 1, 1, 1, 1]
+
+Logeintrag: 99.999.999.99:99999:Got exception while serving blk_-99999999999999999 to /99.999.99.999:
+Modell-Label: [1, 0, 0, 1, 1, 1, 1]
+Echtes Label: [1, 1, 1, 1, 1, 1, 1]
+
+Logeintrag: 99.999.99.999:99999:Got exception while serving blk_-9999999999999999999 to /99.999.999.99:
+Modell-Label: [1, 0, 0, 1, 1, 1, 1]
+Echtes Label: [1, 1, 1, 1, 1, 1, 1]
+
+Logeintrag: 99.999.999.99:99999:Got exception while serving blk_-9999999999999999999 to /99.999.99.999:
+Modell-Label: [1, 0, 0, 1, 1, 1, 1]
+Echtes Label: [1, 1, 1, 1, 1, 1, 1]
+
+Logeintrag: 99.999.99.999:99999:Got exception while serving blk_-9999999999999999999 to /99.999.999.99:
+Modell-Label: [1, 0, 0, 1, 1, 1, 1]
+Echtes Label: [1, 1, 1, 1, 1, 1, 1]
+
+Logeintrag: 99.999.99.999:99999:Got exception while serving blk_9999999999999999999 to /99.999.99.99:
+Modell-Label: [1, 0, 0, 1, 1, 1, 1]
+Echtes Label: [1, 1, 1, 1, 1, 1, 1]
+
+Logeintrag: 99.999.999.99:99999:Got exception while serving blk_-9999999999999999999 to /99.999.99.9:
+Modell-Label: [1, 0, 0, 1, 1, 1, 1]
+Echtes Label: [1, 1, 1, 1, 1, 1, 1]
+
+Logeintrag: 99.999.999.99:99999:Got exception while serving blk_9999999999999999999 to /99.999.999.99:
+Modell-Label: [1, 0, 0, 1, 1, 1, 1]
+Echtes Label: [1, 1, 1, 1, 1, 1, 1]
+
+Logeintrag: 99.999.999.999:99999:Got exception while serving blk_9999999999999999999 to /99.999.999.999:
+Modell-Label: [1, 0, 0, 1, 1, 1, 1]
+Echtes Label: [1, 1, 1, 1, 1, 1, 1]
+
+Logeintrag: 99.999.99.999:99999:Got exception while serving blk_999999999999999999 to /99.999.999.999:
+Modell-Label: [1, 0, 0, 1, 1, 1, 1]
+Echtes Label: [1, 1, 1, 1, 1, 1, 1]
+
+Logeintrag: 99.999.999.99:99999:Got exception while serving blk_9999999999999999999 to /99.999.9.999:
+Modell-Label: [1, 0, 0, 1, 1, 1, 1]
+Echtes Label: [1, 1, 1, 1, 1, 1, 1]
+
+Logeintrag: 99.999.99.999:99999:Got exception while serving blk_-999999999999999999 to /99.999.999.999:
+Modell-Label: [1, 0, 0, 1, 1, 1, 1]
+Echtes Label: [1, 1, 1, 1, 1, 1, 1]
+
+Logeintrag: 99.999.999.999:99999:Got exception while serving blk_9999999999999999999 to /99.999.999.999:
+Modell-Label: [1, 0, 0, 1, 1, 1, 1]
+Echtes Label: [1, 1, 1, 1, 1, 1, 1]
+
+Logeintrag: 99.999.99.9:99999:Got exception while serving blk_9999999999999999999 to /99.999.99.999:
+Modell-Label: [1, 0, 0, 1, 1, 1, 1]
+Echtes Label: [1, 1, 1, 1, 1, 1, 1]
+
+Logeintrag: 99.999.99.99:99999:Got exception while serving blk_9999999999999999999 to /99.999.999.999:
+Modell-Label: [1, 0, 0, 1, 1, 1, 1]
+Echtes Label: [1, 1, 1, 1, 1, 1, 1]
+
+Logeintrag: 99.999.99.999:99999:Got exception while serving blk_-9999999999999999999 to /99.999.99.99:
+Modell-Label: [1, 0, 0, 1, 1, 1, 1]
+Echtes Label: [1, 1, 1, 1, 1, 1, 1]
+
+Logeintrag: 99.999.99.999:99999:Got exception while serving blk_99999999999999999 to /99.999.999.99:
+Modell-Label: [1, 0, 0, 1, 1, 1, 1]
+Echtes Label: [1, 1, 1, 1, 1, 1, 1]
+
+Logeintrag: 99.999.99.99:99999:Got exception while serving blk_9999999999999999999 to /99.999.999.999:
+Modell-Label: [1, 0, 0, 1, 1, 1, 1]
+Echtes Label: [1, 1, 1, 1, 1, 1, 1]
+
+Logeintrag: 99.999.99.999:99999:Got exception while serving blk_-9999999999999999999 to /99.999.99.99:
+Modell-Label: [1, 0, 0, 1, 1, 1, 1]
+Echtes Label: [1, 1, 1, 1, 1, 1, 1]
+
+Logeintrag: 99.999.999.99:99999:Got exception while serving blk_9999999999999999999 to /99.999.99.9:
+Modell-Label: [1, 0, 0, 1, 1, 1, 1]
+Echtes Label: [1, 1, 1, 1, 1, 1, 1]
+
+Logeintrag: 99.999.999.999:99999:Got exception while serving blk_9999999999999999999 to /99.999.99.999:
+Modell-Label: [1, 0, 0, 1, 1, 1, 1]
+Echtes Label: [1, 1, 1, 1, 1, 1, 1]
+
+Logeintrag: 99.999.99.999:99999:Got exception while serving blk_9999999999999999999 to /99.999.999.999:
+Modell-Label: [1, 0, 0, 1, 1, 1, 1]
+Echtes Label: [1, 1, 1, 1, 1, 1, 1]
+
+Logeintrag: 99.999.99.99:99999:Got exception while serving blk_9999999999999999999 to /99.999.9.99:
+Modell-Label: [1, 0, 0, 1, 1, 1, 1]
+Echtes Label: [1, 1, 1, 1, 1, 1, 1]
+
+Logeintrag: 99.999.99.999:99999:Got exception while serving blk_9999999999999999999 to /99.999.99.99:
+Modell-Label: [1, 0, 0, 1, 1, 1, 1]
+Echtes Label: [1, 1, 1, 1, 1, 1, 1]
+
+Logeintrag: 99.999.999.999:99999:Got exception while serving blk_9999999999999999999 to /99.999.999.999:
+Modell-Label: [1, 0, 0, 1, 1, 1, 1]
+Echtes Label: [1, 1, 1, 1, 1, 1, 1]
+
+Logeintrag: 99.999.999.999:99999:Got exception while serving blk_9999999999999999999 to /99.999.99.99:
+Modell-Label: [1, 0, 0, 1, 1, 1, 1]
+Echtes Label: [1, 1, 1, 1, 1, 1, 1]
+
+Logeintrag: 99.999.99.99:99999:Got exception while serving blk_9999999999999999999 to /99.999.99.999:
+Modell-Label: [1, 0, 0, 1, 1, 1, 1]
+Echtes Label: [1, 1, 1, 1, 1, 1, 1]
+
+Logeintrag: 99.999.999.999:99999:Got exception while serving blk_999999999999999999 to /99.999.99.999:
+Modell-Label: [1, 0, 0, 1, 1, 1, 1]
+Echtes Label: [1, 1, 1, 1, 1, 1, 1]
+
+Logeintrag: 99.999.999.99:99999:Got exception while serving blk_-9999999999999999999 to /99.999.999.999:
+Modell-Label: [1, 0, 0, 1, 1, 1, 1]
+Echtes Label: [1, 1, 1, 1, 1, 1, 1]
+
+Logeintrag: 99.999.99.999:99999:Got exception while serving blk_-9999999999999999999 to /99.999.99.999:
+Modell-Label: [1, 0, 0, 1, 1, 1, 1]
+Echtes Label: [1, 1, 1, 1, 1, 1, 1]
+
+Logeintrag: 99.999.999.99:99999:Got exception while serving blk_9999999999999999999 to /99.999.999.99:
+Modell-Label: [1, 0, 0, 1, 1, 1, 1]
+Echtes Label: [1, 1, 1, 1, 1, 1, 1]
+
+Logeintrag: 99.999.99.99:99999:Got exception while serving blk_-9999999999999999999 to /99.999.99.999:
+Modell-Label: [1, 0, 0, 1, 1, 1, 1]
+Echtes Label: [1, 1, 1, 1, 1, 1, 1]
+
+Logeintrag: 99.999.99.999:99999:Got exception while serving blk_9999999999999999999 to /99.999.99.9:
+Modell-Label: [1, 0, 0, 1, 1, 1, 1]
+Echtes Label: [1, 1, 1, 1, 1, 1, 1]
+
+Logeintrag: 99.999.999.99:99999:Got exception while serving blk_-9999999999999999999 to /99.999.99.99:
+Modell-Label: [1, 0, 0, 1, 1, 1, 1]
+Echtes Label: [1, 1, 1, 1, 1, 1, 1]
+
+Logeintrag: 99.999.99.999:99999:Got exception while serving blk_9999999999999999999 to /99.999.99.999:
+Modell-Label: [1, 0, 0, 1, 1, 1, 1]
+Echtes Label: [1, 1, 1, 1, 1, 1, 1]
+
+Logeintrag: 99.999.99.999:99999:Got exception while serving blk_9999999999999999999 to /99.999.9.999:
+Modell-Label: [1, 0, 0, 1, 1, 1, 1]
+Echtes Label: [1, 1, 1, 1, 1, 1, 1]
+
+Logeintrag: 99.999.99.999:99999:Got exception while serving blk_-9999999999999999999 to /99.999.99.999:
+Modell-Label: [1, 0, 0, 1, 1, 1, 1]
+Echtes Label: [1, 1, 1, 1, 1, 1, 1]
+
+Logeintrag: 99.999.99.9:99999:Got exception while serving blk_-9999999999999999999 to /99.999.999.999:
+Modell-Label: [1, 0, 0, 1, 1, 1, 1]
+Echtes Label: [1, 1, 1, 1, 1, 1, 1]
+
+Logeintrag: 99.999.999.999:99999:Got exception while serving blk_9999999999999999999 to /99.999.999.99:
+Modell-Label: [1, 0, 0, 1, 1, 1, 1]
+Echtes Label: [1, 1, 1, 1, 1, 1, 1]
+
+Logeintrag: BLOCK* ask 99.999.99.999:99999 to delete  blk_-9999999999999999999
+Modell-Label: [0, 0, 1, 0, 0, 1, 0]
+Echtes Label: [0, 0, 1, 0, 0, 0, 1]
+
+Logeintrag: BLOCK* ask 99.999.999.99:99999 to delete  blk_9999999999999999999
+Modell-Label: [0, 0, 1, 0, 0, 1, 0]
+Echtes Label: [0, 0, 1, 0, 0, 0, 1]
+
+Logeintrag: 99.999.99.999:99999:Got exception while serving blk_9999999999999999999 to /99.999.99.999:
+Modell-Label: [1, 0, 0, 1, 1, 1, 1]
+Echtes Label: [1, 1, 1, 1, 1, 1, 1]
+
+Logeintrag: 99.999.999.999:99999:Got exception while serving blk_-9999999999999999999 to /99.999.99.999:
+Modell-Label: [1, 0, 0, 1, 1, 1, 1]
+Echtes Label: [1, 1, 1, 1, 1, 1, 1]
+
+Logeintrag: 99.999.9.999:99999:Got exception while serving blk_-9999999999999999999 to /99.999.99.999:
+Modell-Label: [1, 0, 0, 1, 1, 1, 1]
+Echtes Label: [1, 1, 1, 1, 1, 1, 1]
+
+Logeintrag: 99.999.999.999:99999:Got exception while serving blk_999999999999999999 to /99.999.999.999:
+Modell-Label: [1, 0, 0, 1, 1, 1, 1]
+Echtes Label: [1, 1, 1, 1, 1, 1, 1]
+
+Logeintrag: 99.999.99.999:99999:Got exception while serving blk_-9999999999999999999 to /99.999.99.999:
+Modell-Label: [1, 0, 0, 1, 1, 1, 1]
+Echtes Label: [1, 1, 1, 1, 1, 1, 1]
+
+Logeintrag: 99.999.9.99:99999:Got exception while serving blk_-9999999999999999999 to /99.999.99.999:
+Modell-Label: [1, 0, 0, 1, 1, 1, 1]
+Echtes Label: [1, 1, 1, 1, 1, 1, 1]
+
+Logeintrag: 99.999.999.99:99999:Got exception while serving blk_-9999999999999999999 to /99.999.9.999:
+Modell-Label: [1, 0, 0, 1, 1, 1, 1]
+Echtes Label: [1, 1, 1, 1, 1, 1, 1]
+
+Logeintrag: BLOCK* ask 99.999.99.999:99999 to delete  blk_-9999999999999999999 blk_-9999999999999999999 blk_-9999999999999999999 blk_9999999999999999999 blk_9999999999999999999 blk_9999999999999999999 blk_-9999999999999999999 blk_-9999999999999999999 blk_9999999999999999999 blk_9999999999999999999 blk_-9999999999999999999 blk_9999999999999999999 blk_999999999999999999 blk_-9999999999999999999 blk_-9999999999999999999 blk_-9999999999999999999 blk_-9999999999999999999 blk_9999999999999999999 blk_9999999999999999999 blk_-9999999999999999999 blk_9999999999999999999 blk_-9999999999999999999 blk_9999999999999999999 blk_-9999999999999999999 blk_999999999999999999 blk_999999999999999999 blk_-9999999999999999999 blk_-9999999999999999999 blk_-9999999999999999999 blk_-9999999999999999999 blk_9999999999999999999 blk_-9999999999999999999 blk_-9999999999999999999 blk_9999999999999999999 blk_-9999999999999999999 blk_-9999999999999999999 blk_9999999999999999999 blk_9999999999999999999 blk_-9999999999999999999 blk_9999999999999999999 blk_999999999999999999 blk_9999999999999999999 blk_9999999999999999999 blk_9999999999999999999 blk_-9999999999999999999 blk_-9999999999999999999 blk_999999999999999999 blk_9999999999999999999 blk_9999999999999999999 blk_9999999999999999999 blk_9999999999999999999 blk_-9999999999999999999 blk_9999999999999999999 blk_-9999999999999999999 blk_9999999999999999999 blk_9999999999999999999 blk_-999999999999999999 blk_9999999999999999999 blk_-9999999999999999999 blk_-9999999999999999999 blk_-9999999999999999999 blk_-9999999999999999999 blk_-9999999999999999999 blk_-9999999999999999999 blk_9999999999999999999 blk_9999999999999999999 blk_-9999999999999999999 blk_-9999999999999999999 blk_9999999999999999999 blk_9999999999999999999 blk_-9999999999999999999 blk_-9999999999999999999 blk_999999999999999999 blk_-9999999999999999999 blk_9999999999999999999 blk_-9999999999999999999 blk_-9999999999999999999 blk_9999999999999999999 blk_999999999999999999 blk_9999999999999999999 blk_9999999999999999999 blk_-9999999999999999999 blk_9999999999999999999 blk_999999999999999999 blk_-9999999999999999999 blk_-999999999999999999 blk_99999999999999999 blk_9999999999999999999 blk_-99999999999999999 blk_9999999999999999999 blk_-9999999999999999999 blk_-9999999999999999999 blk_-9999999999999999999 blk_-9999999999999999999 blk_9999999999999999999 blk_9999999999999999999 blk_-9999999999999999999 blk_999999999999999999 blk_9999999999999999999 blk_-9999999999999999999
+Modell-Label: [1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0]
+Echtes Label: [0, 0, 1, 0, 0, 0, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1]
+
+Logeintrag: BLOCK* ask 99.999.99.999:99999 to delete  blk_9999999999999999999 blk_-9999999999999999999 blk_9999999999999999999 blk_-999999999999999999 blk_-9999999999999999999 blk_-9999999999999999999 blk_-9999999999999999999 blk_-9999999999999999999 blk_-9999999999999999999 blk_9999999999999999999 blk_-9999999999999999999 blk_-9999999999999999999 blk_9999999999999999999 blk_-9999999999999999999 blk_-9999999999999999999 blk_-9999999999999999999 blk_9999999999999999999 blk_-9999999999999999999 blk_999999999999999999 blk_-9999999999999999999 blk_-9999999999999999999 blk_9999999999999999999 blk_-999999999999999999 blk_-9999999999999999999 blk_-9999999999999999999 blk_9999999999999999999 blk_9999999999999999999 blk_9999999999999999999 blk_-9999999999999999999 blk_-9999999999999999999 blk_9999999999999999999 blk_9999999999999999999 blk_9999999999999999999 blk_9999999999999999999 blk_9999999999999999999 blk_-999999999999999999 blk_-9999999999999999999 blk_9999999999999999999 blk_9999999999999999999 blk_999999999999999999 blk_-9999999999999999999 blk_-9999999999999999999 blk_9999999999999999999 blk_9999999999999999999 blk_9999999999999999999 blk_9999999999999999999 blk_-9999999999999999999 blk_9999999999999999999 blk_-999999999999999999 blk_-9999999999999999999 blk_-9999999999999999999 blk_-9999999999999999999 blk_9999999999999999999 blk_9999999999999999999 blk_9999999999999999999 blk_999999999999999999 blk_-9999999999999999999 blk_-9999999999999999999 blk_-9999999999999999999 blk_-9999999999999999999 blk_-9999999999999999999 blk_-9999999999999999999 blk_9999999999999999999 blk_9999999999999999999 blk_9999999999999999999 blk_-9999999999999999999 blk_9999999999999999999 blk_9999999999999999999 blk_-9999999999999999999 blk_9999999999999999999 blk_999999999999999999 blk_9999999999999999999 blk_9999999999999999999 blk_9999999999999999999 blk_9999999999999999999 blk_9999999999999999999 blk_-9999999999999999999 blk_-9999999999999999999 blk_9999999999999999999 blk_9999999999999999999 blk_-9999999999999999999 blk_-9999999999999999999 blk_-9999999999999999999 blk_-9999999999999999999 blk_-9999999999999999999 blk_9999999999999999999 blk_-9999999999999999999 blk_-9999999999999999 blk_9999999999999999999 blk_-9999999999999999999 blk_-9999999999999999999 blk_9999999999999999999 blk_9999999999999999999 blk_9999999999999999999 blk_-999999999999999999 blk_9999999999999999999 blk_9999999999999999999 blk_-9999999999999999999 blk_9999999999999999999 blk_-9999999999999999999
+Modell-Label: [0, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0]
+Echtes Label: [0, 0, 1, 0, 0, 0, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1]
+
+Logeintrag: BLOCK* ask 99.999.999.9:99999 to delete  blk_-9999999999999999999 blk_-9999999999999999999 blk_-9999999999999999999 blk_-9999999999999999999 blk_-9999999999999999999 blk_-999999999999999999 blk_999999999999999999 blk_9999999999999999999 blk_9999999999999999999
+Modell-Label: [0, 0, 1, 0, 0, 1, 1, 1, 1, 1, 1, 1, 1, 1, 0]
+Echtes Label: [0, 0, 1, 0, 0, 0, 1, 1, 1, 1, 1, 1, 1, 1, 1]
+

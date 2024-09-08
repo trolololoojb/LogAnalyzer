@@ -1,0 +1,400 @@
+switch_module error 9999999999 9 link errors remain current
+gige9 gige temperature 9999999999 9 warning
+warning
+node-D9 clusterfilesystem clusterfilesystem.not_served 9999999999 9 ClusterFileSystem: ServerFileSystem domain root9_local is no longer served by node node-99
+normal
+9 ServerFileSystem: ServerFileSystem domain root99_tmp is full
+ambient=99
+Component State Change: Component 999SCSI-WWID:99999999:9999-9fe9-9999-ed99-9999-9999-9999-999a999 is in the unavailable state (HWID=99)
+active
+Targeting domains:node-D9 and nodes:node-[999-999\ 999-999]
+9 ClusterFileSystem: ServerFileSystem domain cluster_root_backup is no longer served by node node-99
+Targeting domains:node-D9 and nodes:node-999
+ambient=99
+running
+9 ClusterFileSystem: ServerFileSystem domain root99_local is no longer served by node node-999
+unix.hw state_change.unavailable 9999999999 9 Component State Change: Component \999SCSI-WWID:99999999:9999-99b9-9999-9999-9999-b999-999f-9999\999 is in the unavailable state (HWID=9999)
+Linkerror event interval expired
+node temperature 9999999999 9 ambient=99
+Linkerror event interval expired
+node-99 unix.hw state_change.unavailable 9999999999 9 Component State Change: Component \999SCSI-WWID:99999999:9999-99b9-9999-999b-9999-d999-99bc-9999\999 is in the unavailable state (HWID=9999)
+Fan speeds ( 9999 9999 9999 **** 9999 9999 )
+ambient=99
+Linkerror event interval expired
+Fan speeds ( 9999 9999 9999 **** 9999 9999 )
+unix.hw net.niff.down 9999999999 9 NIFF: node node-99 detected a failed network connection on network 9.9.999.9 via interface alt9
+inconsistent nodesets node-999 9x999999fe <ok> node-999 9x999999fe <ok> node-999 9x9999e9fe <ok> node-999 9x9999e9fe <ok>
+Temperature (99C) exceeds warning threshold
+9 ServerFileSystem: ServerFileSystem domain storage9999 is full
+9 wait  (command 9999)
+gige9 gige temperature 9999999999 9 normal
+unix.hw state_change.unavailable 9999999999 9 Component State Change: Component \999SCSI-WWID:99999999:9999-99b9-9999-999f-9999-9999-999c-9999\999 is in the unavailable state (HWID=999)
+clusterfilesystem clusterfilesystem.not_served 9999999999 9 ClusterFileSystem: ServerFileSystem domain root9_local is no longer served by node node-99
+inconsistent nodesets node-999 9x99999999 <ok> node-999 9x9fffe999e <ok> node-999 9x9999999e <ok> node-999 9x9999999e <ok>
+normal
+Component State Change: Component \999SCSI-WWID:9c999999:99e9-9e99-9999-99c9\999 is in the unavailable state (HWID=9999)
+Fan speeds ( 9999 9999 9999 **** 9999 9999 )
+node-D9 clusterfilesystem fdmn.full 9999999999 9 ServerFileSystem: ServerFileSystem domain root99_tmp is full
+Targeting domains:node-D[9\ 9] and nodes:node-[9-99\ 999-999]
+normal
+node-99 node status 9999999999 9 not responding
+inconsistent nodesets node-99 9x9fffffffe <ok> node-9 9x9fffffffe <ok> node-9 9x9999999e <ok> node-9 9x9999999e <ok>
+node-D9 clusterfilesystem fdmn.panic 9999999999 9 ServerFileSystem: An ServerFileSystem domain panic has occurred on storage999
+Fan speeds ( 9999 9999 9999 **** 9999 9999 )
+node-999 unix.hw state_change.unavailable 9999999999 9 Component State Change: Component \999SCSI-WWID:99999999:9999-99b9-9999-9999-9999-e999-999a-9999\999 is in the unavailable state (HWID=999)
+node-D9 clusterfilesystem clusterfilesystem.not_served 9999999999 9 ClusterFileSystem: ServerFileSystem domain cluster_usr_backup is no longer served by node node-99
+NIFF: node node-99 has detected an available network connection on network 9.9.9.9 via interface alt9
+unix.hw net.niff.up 9999999999 9 NIFF: node node-99 has detected an available network connection on network 99.999.9.9 via interface ee9
+switch_module error 9999999999 9 Linkerror event interval expired
+Linkerror event interval expired
+warning
+ClusterFileSystem: ServerFileSystem domain domain_dsk9a is no longer served by node node-9
+normal
+Component State Change: Component \999alt9\999 is in the unavailable state (HWID=9999)
+normal
+Targeting domains:node-D9 and nodes:node-[99-99] child of command 9999
+9 ambient=99
+node-999 node temperature 9999999999 9 ambient=99
+Targeting domains:node-D9 and nodes:node-[9-9]
+node-99 node status 9999999999 9 configured out
+inconsistent nodesets node-999 9x999999aa <ok> node-999 9x999999aa <ok> node-999 9x9999fdaa <ok> node-999 9x9999fdaa <ok> node-999 9x9999fdaa <ok>
+boot_cmd error 9999999999 9 Failed subcommands 9999
+warning
+Linkerror event interval expired
+node-999 node temperature 9999999999 9 ambient=99
+ClusterFileSystem: ServerFileSystem domain root9_local is no longer served by node node-999
+inconsistent nodesets node-9 9x9999999e <ok> node-9 9x9999999e <ok> node-9 9x9999999e <ok> node-9 9x99999fee <ok>
+Component State Change: Component \999SCSI-WWID:99999999:9999-99b9-9999-9999-9999-9999-999b-9999\999 is in the unavailable state (HWID=9999)
+switch_module error 9999999999 9 Linkerror event interval expired
+node-99 unix.hw state_change.unavailable 9999999999 9 Component State Change: Component \999alt9\999 is in the unavailable state (HWID=9999)
+ambient=99
+unix.hw state_change.unavailable 9999999999 9 Component State Change: Component \999SCSI-WWID:99999999:9999-99b9-9999-999e-9999-9999-99ad-9999\999 is in the unavailable state (HWID=9999)
+ClusterFileSystem: ServerFileSystem domain storage999 is no longer served by node node-999
+Component State Change: Component \999SCSI-WWID:99999999:9999-99b9-9999-9999-9999-9999-999d-9999\999 is in the unavailable state (HWID=99)
+node-D9 clusterfilesystem clusterfilesystem.not_served 9999999999 9 ClusterFileSystem: ServerFileSystem domain root9_domain is no longer served by node node-99
+Linkerror event interval expired
+domain status 9999999999 9 inconsistent nodesets node-99 9x99999fee <ok> node-99 9x99999fee <ok> node-99 9x99999fee <ok> node-99 9x99999fee <ok>
+node temperature 9999999999 9 ambient=99
+configured out
+switch_module error 9999999999 9 Linkerror event interval expired
+Fan speeds ( 9999 9999 9999 **** 9999 9999 )
+9 Component State Change: Component \999SCSI-WWID:99999999:9999-99b9-9999-99fc-9999-9999-9999-9999\999 is in the unavailable state (HWID=9999)
+Linkerror event interval expired
+ambient=99
+node-D9 domain status 9999999999 9 inconsistent nodesets node-99 9x99fffdfe <ok> node-99 9x999999fe <ok> node-99 9x9999fdfe <ok> node-99 9x9999fdfe <ok>
+normal
+NIFF: node node-999 has detected an available network connection on network 99.999.9.9 via interface ee9
+warning
+Component State Change: Component \999SCSI-WWID:9c999999:99e9-9e99-9fce-99ab\999 is in the unavailable state (HWID=99)
+node-D9 clusterfilesystem clusterfilesystem.not_served 9999999999 9 ClusterFileSystem: ServerFileSystem domain cluster_root_backup is no longer served by node node-999
+normal
+normal
+Link ok
+unix.hw state_change.unavailable 9999999999 9 Component State Change: Component \999SCSI-WWID:99999999:9999-99b9-9999-999b-9999-9999-999a-9999\999 is in the unavailable state (HWID=9999)
+Linkerror event interval expired
+ClusterFileSystem: ServerFileSystem domain root9_tmp_backup is no longer served by node node-99
+Linkerror event interval expired
+ambient=99
+NIFF: node node-999 has detected an available network connection on network 99.999.9.9 via interface ee9
+node-D9 clusterfilesystem clusterfilesystem.not_served 9999999999 9 ClusterFileSystem: ServerFileSystem domain root9_domain is no longer served by node node-9
+Fan speeds ( 9999 9999 9999 **** 9999 9999 )
+wait  (command 9999)
+configured out
+9 Component State Change: Component \999alt9\999 is in the unavailable state (HWID=9999)
+switch_module error 9999999999 9 Linkerror event interval expired
+Interconnect-9T99 switch_module bcast-error 9999999999 9 Link error on broadcast tree Interconnect-9T99:99:9:9
+wait  (command 9999)
+link errors remain current
+switch_module error 9999999999 9 link errors remain current
+Command has completed successfully
+Linkerror event interval expired
+ambient=99
+ClusterFileSystem: ServerFileSystem domain root99_tmp is no longer served by node node-99
+Linkerror event interval expired
+switch_module error 9999999999 9 Linkerror event interval expired
+critical
+unix.hw state_change.unavailable 9999999999 9 Component State Change: Component \999SCSI-WWID:99999999:9999-99b9-9999-999f-9999-9999-999c-9999\999 is in the unavailable state (HWID=9999)
+unix.hw state_change.unavailable 9999999999 9 Component State Change: Component \999SCSI-WWID:99999999:9999-99b9-9999-9999-9999-b999-9999-9999\999 is in the unavailable state (HWID=9999)
+9 NIFF: node node-99 detected a failed network connection on network 9.9.999.9 via interface alt9
+Link ok
+warning
+inconsistent nodesets node-999 9x9fffffffe <ok> node-999 9x99fffffe <ok> node-999 9x999bfffe <ok> node-999 9x999bfffe <ok> node-999 9x999bfffe <ok>
+node-D9 clusterfilesystem clusterfilesystem.not_served 9999999999 9 ClusterFileSystem: ServerFileSystem domain root9_local is no longer served by node node-9
+Linkerror event interval expired
+9 ClusterFileSystem: There is no server for ServerFileSystem domain storage9999
+link errors remain current
+9 NIFF: node node-999 has detected an available network connection on network 99.999.9.9 via interface ee9
+NIFF: node node-99 has detected an available network connection on network 9.9.999.9 via interface alt9
+9 NIFF: node node-99 has detected an available network connection on network 9.9.999.9 via interface alt9
+ambient=99
+Linkerror event interval expired
+Component State Change: Component \999SCSI-WWID:99999999:9999-99b9-9999-c99e-9999-9999-9999-9999\999 is in the unavailable state (HWID=9999)
+9 NIFF: node node-999 has detected an available network connection on network 9.9.999.9 via interface alt9
+node-999 node status 9999999999 9 active
+NIFF: node node-99 has detected an available network connection on network 9.9.999.9 via interface alt9
+switch_module error 9999999999 9 Link error
+unix.hw state_change.unavailable 9999999999 9 Component State Change: Component \999SCSI-WWID:99999999:9999-99b9-9999-9999-9999-e999-999f-9999\999 is in the unavailable state (HWID=9999)
+9 Link error
+warning
+Interconnect-9N99 switch_module fan 9999999999 9 Fan speeds ( 9999 9999 9999 **** 9999 9999 )
+node-999 action error 9999999999 9 boot (command 9999) Error: HALT asserted\  cannot continue
+node-D9 clusterfilesystem clusterfilesystem.not_served 9999999999 9 ClusterFileSystem: ServerFileSystem domain root99_domain is no longer served by node node-999
+link errors remain current
+normal
+ambient=99
+ambient=99
+9 closing
+9999 boot_cmd new 9999999999 9 Targeting domains:node-D9 and nodes:node-[999-999] child of command 9999
+warning
+ambient=99
+full partition status 9999999999 9 starting
+warning
+NIFF: node node-999 has detected an available network connection on network 9.9.999.9 via interface alt9
+configured out
+9 ClusterFileSystem: ServerFileSystem domain cluster_usr_backup is no longer served by node node-999
+Component State Change: Component \999SCSI-WWID:99999999:9999-99b9-9999-9d99-9999-9999-999f-9999\999 is in the unavailable state (HWID=9999)
+ClusterFileSystem: ServerFileSystem domain root9_local is no longer served by node node-9
+NIFF: node node-999 has detected an available network connection on network 9.9.9.9 via interface alt9
+9 ClusterFileSystem: ServerFileSystem domain root9_tmp is no longer served by node node-9
+warning
+warning
+ClusterFileSystem: ServerFileSystem domain storage999 is no longer served by node node-9
+Linkerror event interval expired
+node-99 action start 9999999999 9 boot  (command 9999)
+normal
+node-D9 clusterfilesystem clusterfilesystem.not_served 9999999999 9 ClusterFileSystem: ServerFileSystem domain root_domain is no longer served by node node-999
+NIFF: node node-9 detected a failed network connection on network 9.9.999.9 via interface alt9
+node-9 unix.hw state_change.unavailable 9999999999 9 Component State Change: Component \999SCSI-WWID:99999999:9999-99b9-9999-9999-9999-9999-999d-9999\999 is in the unavailable state (HWID=9999)
+normal
+Targeting domains:node-D[9-9] and nodes:node-[999-999\ 999-999\ 999-999]
+Interconnect-9N99 switch_module fan 9999999999 9 Fan speeds ( 9999 9999 9999 **** 9999 9999 )
+9 Linkerror event interval expired
+Link error
+switch_module error 9999999999 9 link errors remain current
+inconsistent nodesets node-999 9x9fffe999e <ok> node-999 9x99999999 <ok> node-999 9x9999999e <ok> node-999 9x9999999e <ok>
+unix.hw state_change.unavailable 9999999999 9 Component State Change: Component \999alt9\999 is in the unavailable state (HWID=9999)
+node status 9999999999 9 running
+normal
+Component State Change: Component \999SCSI-WWID:99999999:9999-99b9-9999-c99e-9999-9999-999c-9999\999 is in the unavailable state (HWID=9999)
+Component State Change: Component \999SCSI-WWID:99999999:9999-99b9-9999-99cf-9999-9999-999b-9999\999 is in the unavailable state (HWID=99)
+warning
+bootGenvmunix  (command 9999)
+ambient=99
+normal
+Link error
+ServerFileSystem: ServerFileSystem domain root99_tmp is full
+normal
+clusterfilesystem fdmn.full 9999999999 9 ServerFileSystem: ServerFileSystem domain root_domain is full
+Linkerror event interval expired
+ServerFileSystem: ServerFileSystem domain give_domain is full
+node--tc9 tserver status 9999999999 9 not-responding
+Fan speeds ( 9999 9999 9999 **** 9999 9999 )
+ambient=99
+normal
+node-999 action start 9999999999 9 wait  (command 9999)
+ambient=99
+action start 9999999999 9 wait  (command 9999)
+Linkerror event interval expired
+shutdown_cmd abort 9999999999 9 Command has been aborted
+node-D9 clusterfilesystem clusterfilesystem.not_served 9999999999 9 ClusterFileSystem: ServerFileSystem domain cluster_var_backup is no longer served by node node-99
+9999 shutdown_cmd new 9999999999 9 Targeting domains:node-D9 and nodes:node-9
+inconsistent nodesets node-99 9x99999999 <ok> node-99 9x9999999e <ok> node-99 9x9999999e <ok> node-99 9x9999999e <ok> node-999 9x9999999e <ok>
+Component State Change: Component \999SCSI-WWID:99999999:9999-99b9-9999-99fc-9999-9999-999f-9999\999 is in the unavailable state (HWID=9999)
+NIFF: node node-999 has detected an available network connection on network 99.999.9.9 via interface ee9
+boot_cmd new 9999999999 9 Targeting domains:node-D9 and nodes:node-[99-99]
+switch_module error 9999999999 9 Linkerror event interval expired
+9 normal
+critical
+NIFF: node node-99 has detected an available network connection on network 9.9.999.9 via interface alt9
+node-999 unix.hw net.niff.up 9999999999 9 NIFF: node node-999 has detected an available network connection on network 99.999.9.9 via interface ee9
+node-9 unix.hw net.niff.up 9999999999 9 NIFF: node node-9 has detected an available network connection on network 9.9.999.9 via interface alt9
+Linkerror event interval expired
+9 ambient=99
+node-999 unix.hw net.niff.up 9999999999 9 NIFF: node node-999 has detected an available network connection on network 99.999.9.9 via interface ee9
+Fan speeds ( 9999 9999 9999 **** 9999 9999 )
+Interconnect-9T99 switch_module error 9999999999 9 Linkerror event interval expired
+node-99 unix.hw state_change.unavailable 9999999999 9 Component State Change: Component \999SCSI-WWID:99999999:9999-99b9-9999-999b-9999-d999-99b9-9999\999 is in the unavailable state (HWID=9999)
+Fan speeds ( 9999 9999 9999 **** 9999 9999 )
+switch_module error 9999999999 9 Linkerror event interval expired
+halt  (command 9999)
+Targeting domains:node-D9 and nodes:node-[999-999] child of command 9999
+configured out
+node-999 node temperature 9999999999 9 ambient=99
+configured out
+switch_module error 9999999999 9 Linkerror event interval expired
+node-99 node temperature 9999999999 9 ambient=99
+switch_module error 9999999999 9 Linkerror event interval expired
+warning
+ambient=99
+ClusterFileSystem: There is no server for ServerFileSystem domain storage9999
+ambient=99
+ambient=99
+switch_module error 9999999999 9 Linkerror event interval expired
+9999 boot_cmd new 9999999999 9 Targeting domains:node-D[9-9] and nodes:node-[9-999]
+action start 9999999999 9 boot  (command 9999)
+starting
+9 ClusterFileSystem: ServerFileSystem domain root99_domain is no longer served by node node-999
+ambient=99
+9 Linkerror event interval expired
+domain status 9999999999 9 inconsistent nodesets node-99 9x9fffffffe <ok> node-99 9x9ffffff9e <ok> node-99 9x9ffffff9e <ok> node-99 9x9ffffff9e <ok>
+action error 9999999999 9 risBoot (command 9999) Error: Timed out while waiting for SRM prompt: <ABORT code completed>
+Fan speeds ( 9999 9999 9999 **** 9999 9999 )
+normal
+NIFF: node node-999 has detected an available network connection on network 99.999.9.9 via interface ee9
+Component State Change: Component \999SCSI-WWID:99999999:9999-99b9-9999-999f-9999-9999-999c-9999\999 is in the unavailable state (HWID=9999)
+running
+9999 boot_cmd abort 9999999999 9 Command has been aborted
+inconsistent nodesets node-99 9x9fffffffe <ok> node-9 9xfffffffe <ok> node-9 9xfffffffe <ok> node-9 9xfffffffe <ok> node-99 9xfffffffe <ok>
+unix.hw net.niff.up 9999999999 9 NIFF: node node-99 has detected an available network connection on network 9.9.999.9 via interface alt9
+Interconnect-9T99 switch_module error 9999999999 9 Link error
+running
+9 Component State Change: Component \999SCSI-WWID:99999999:9999-99b9-9999-9999-9999-a999-9999-9999\999 is in the unavailable state (HWID=9999)
+warning
+node-999 node status 9999999999 -9 configured out
+Targeting domains:node-D9 and nodes:node-[999-999]
+Targeting domains:node-D9 and nodes:node-[9-9] child of command 9999
+Linkerror event interval expired
+9 Linkerror event interval expired
+normal
+switch_module error 9999999999 9 Linkerror event interval expired
+ClusterFileSystem: ServerFileSystem domain domain_dsk99e is no longer served by node node-999
+Linkerror event interval expired
+Linkerror event interval expired
+switch_module error 9999999999 9 Linkerror event interval expired
+running
+9 Linkerror event interval expired
+psu failure\ ambient=99
+Component State Change: Component \999SCSI-WWID:99999999:9999-99b9-9999-999d-9999-c999-999e-9999\999 is in the unavailable state (HWID=9999)
+9 ambient=99
+Component State Change: Component \999SCSI-WWID:99999999:9999-99b9-9999-c999-9999-c999-999b-9999\999 is in the unavailable state (HWID=99)
+gige9 gige temperature 9999999999 9 warning
+Component State Change: Component \999SCSI-WWID:99999999:9999-99b9-9999-c999-9999-9999-99bf-9999\999 is in the unavailable state (HWID=9999)
+9 NIFF: node node-999 has detected an available network connection on network 9.9.999.9 via interface alt9
+inconsistent nodesets node-9 9x9999999e <ok> node-99 9x9fffffffe <ok> node-9 9x9999999e <ok> node-9 9x9999999e <ok>
+NIFF: node node-999 has detected an available network connection on network 9.9.999.9 via interface alt9
+Linkerror event interval expired
+ClusterFileSystem: ServerFileSystem domain root9_domain_backup is no longer served by node node-999
+not responding
+link errors remain current
+not responding
+ClusterFileSystem: ServerFileSystem domain usr_domain is no longer served by node node-99
+node-D9 clusterfilesystem clusterfilesystem.not_served 9999999999 9 ClusterFileSystem: ServerFileSystem domain sc_cluster_backup is no longer served by node node-999
+node-999 node temperature 9999999999 9 ambient=99
+Linkerror event interval expired
+boot_cmd abort 9999999999 9 Command has been aborted
+switch_module error 9999999999 9 Linkerror event interval expired
+ambient=99
+warning
+switch_module error 9999999999 9 link errors remain current
+node-999 unix.hw state_change.unavailable 9999999999 9 Component State Change: Component \999SCSI-WWID:99999999:9999-99b9-9999-99c9-9999-9999-999d-9999\999 is in the unavailable state (HWID=9999)
+running
+normal
+gige9 gige temperature 9999999999 9 warning
+Targeting domains:node-D9 and nodes:node-[999-999]
+warning
+9999 boot_cmd new 9999999999 9 Targeting domains:node-D9 and nodes:node-[999-999]
+boot_cmd new 9999999999 9 Targeting domains:node-D9 and nodes:node-[99-99] child of command 9999
+node temperature 9999999999 9 ambient=99
+Link error
+shutdown_cmd new 9999999999 9 Targeting domains:node-D9 and nodes:node-999
+running
+switch_module error 9999999999 9 Linkerror event interval expired
+Interconnect-9N99 switch_module error 9999999999 9 link errors remain current
+9 Targeting domains:node-D9 and nodes:node-[999-999] child of command 9999
+Fan speeds ( 9999 9999 9999 **** 9999 9999 )
+Linkerror event interval expired
+unix.hw net.niff.up 9999999999 9 NIFF: node node-9 has detected an available network connection on network 9.9.999.9 via interface alt9
+ServerFileSystem: ServerFileSystem domain root99_local is full
+9 inconsistent nodesets node-9 9x9999999e <ok> node-9 9x9999999e <ok> node-9 9x9999999e <ok> node-99 9x99999fee <ok>
+ClusterFileSystem: There is no server for ServerFileSystem domain storage9999
+ClusterFileSystem: ServerFileSystem domain storage9999 is no longer served by node node-999
+switch_module error 9999999999 9 Linkerror event interval expired
+normal
+node status 9999999999 9 running
+Interconnect-9N99 switch_module error 9999999999 9 Linkerror event interval expired
+9 Component State Change: Component \999alt9\999 is in the unavailable state (HWID=9999)
+Linkerror event interval expired
+Interconnect-9N99 switch_module error 9999999999 9 Linkerror event interval expired
+ambient=99
+shutdown_cmd new 9999999999 9 Targeting domains:node-D9 and nodes:node-[999-999]
+clusterfilesystem clusterfilesystem.not_served 9999999999 9 ClusterFileSystem: ServerFileSystem domain root9_tmp is no longer served by node node-99
+Component State Change: Component \999SCSI-WWID:99999999:9999-99b9-9999-9999-9999-e999-9999-9999\999 is in the unavailable state (HWID=999)
+9 Targeting domains:node-D9 and nodes:node-[9-9] child of command 9999
+9 ClusterFileSystem: ServerFileSystem domain root9_tmp is no longer served by node node-99
+full partition status 9999999999 -9 running
+ClusterFileSystem: ServerFileSystem domain root9_local is no longer served by node node-999
+warning
+Linkerror event interval expired
+Linkerror event interval expired
+gige9 gige temperature 9999999999 9 normal
+NIFF: node node-99 detected a failed network connection on network 9.9.999.9 via interface alt9
+ambient=99
+Linkerror event interval expired
+9 not responding
+unix.hw state_change.unavailable 9999999999 9 Component State Change: Component \999SCSI-WWID:99999999:9999-99b9-9999-9999-9999-a999-9999-9999\999 is in the unavailable state (HWID=9999)
+running
+Linkerror event interval expired
+ClusterFileSystem: ServerFileSystem domain root9_domain is no longer served by node node-999
+full partition status 9999999999 9 blocked
+Component State Change: Component \999SCSI-WWID:99999999:9999-99b9-9999-999b-9999-9999-99db-9999\999 is in the unavailable state (HWID=9999)
+node-D9 clusterfilesystem clusterfilesystem.not_served 9999999999 9 ClusterFileSystem: ServerFileSystem domain root99_tmp is no longer served by node node-99
+action start 9999999999 9 risBoot  (command 9999)
+switch_module error 9999999999 9 Linkerror event interval expired
+ClusterFileSystem: ServerFileSystem domain domain_dsk9a is no longer served by node node-999
+blocked
+ClusterFileSystem: ServerFileSystem domain root9_tmp_backup is no longer served by node node-999
+running
+warning
+Linkerror event interval expired
+9 NIFF: node node-999 has detected an available network connection on network 99.999.9.9 via interface ee9
+node-D9 clusterfilesystem fdmn.full 9999999999 9 ServerFileSystem: ServerFileSystem domain storage9999 is full
+Interconnect-9N99 switch_module error 9999999999 9 Linkerror event interval expired
+Linkerror event interval expired
+Linkerror event interval expired
+Linkerror event interval expired
+switch_module error 9999999999 9 Linkerror event interval expired
+node-9 unix.hw net.niff.up 9999999999 9 NIFF: node node-9 has detected an available network connection on network 9.9.9.9 via interface alt9
+ambient=99
+gige9 gige temperature 9999999999 9 normal
+switch_module error 9999999999 9 Linkerror event interval expired
+switch_module error 9999999999 9 Linkerror event interval expired
+Linkerror event interval expired
+link errors remain current
+inconsistent nodesets node-999 9x9999999e <ok> node-999 9x9999999e <ok> node-999 9x9999999e <ok> node-999 9x9f999999e <ok>
+critical
+inconsistent nodesets node-999 9x9fffffffe <ok> node-999 9x9ffeeeefe <ok> node-999 9x9eeeeeeee <ok> node-999 9x9eeeeeeee <ok> node-999 9x9eeeeeeee <ok>
+9 ServerFileSystem: ServerFileSystem domain give_domain is full
+Linkerror event interval expired
+NIFF: node node-99 has detected an available network connection on network 9.9.999.9 via interface alt9
+Component State Change: Component \999SCSI-WWID:99999999:9999-99b9-9999-999c-9999-9999-999f-9999\999 is in the unavailable state (HWID=999)
+node-D9 domain status 9999999999 9 inconsistent nodesets node-999 9x9fffe999e <ok> node-999 9x9999999e <ok> node-999 9x9999999e <ok> node-999 9x99999999 <ok>
+node-999 node temperature 99.999 9 ambient=99
+running
+Linkerror event interval expired
+ambient=99
+running
+Component State Change: Component \999SCSI-WWID:99999999:9999-99b9-9999-c999-9999-9999-9999-9999\999 is in the unavailable state (HWID=9999)
+inconsistent nodesets node-999 9x9fffff99e <ok> node-999 9x9fffffbfe <ok> node-999 9x9fffffbfe <ok> node-999 9x9fffffbfe <ok>
+inconsistent nodesets node-999 9x9fffffffe <ok> node-999 9x999fffffe <ok> node-999 9x999fffffe <ok> node-999 9x999fffffe <ok>
+clusterfilesystem clusterfilesystem.not_served 9999999999 9 ClusterFileSystem: ServerFileSystem domain cluster_usr_backup is no longer served by node node-99
+running
+inconsistent nodesets node-999 9x99ffffffe <ok> node-999 9x9ffffeffe <ok> node-999 9x9ffffeffe <ok> node-999 9x9ffffeffe <ok> node-999 9x9ffffeffe <ok>
+-9 running
+9999 install_cmd new 9999999999 9 Targeting domains:node-D9 and nodes:node-[99-999]
+ambient=99
+boot_cmd new 9999999999 9 Targeting domains:node-D9 and nodes:node-999
+node-99 action start 9999999999 9 wait  (command 9999)
+9 Linkerror event interval expired
+warning
+unix.hw state_change.unavailable 9999999999 9 Component State Change: Component \999SCSI-WWID:99999999:9999-99b9-9999-c999-9999-9999-999d-9999\999 is in the unavailable state (HWID=9999)
+node-D9 clusterfilesystem clusterfilesystem.not_served 9999.9 9 ClusterFileSystem: ServerFileSystem domain root9_local_backup is no longer served by node node-999
+switch_module error 9999999999 9 link errors remain current
+node-D9 clusterfilesystem clusterfilesystem.not_served 9999999999 9 ClusterFileSystem: ServerFileSystem domain root_domain is no longer served by node node-9
+ambient=99
+warning
+Fan speeds ( 9999 9999 9999 **** 9999 9999 )
+node status 9999999999 9 running
+inconsistent nodesets node-99 9x9fffffffe <ok> node-99 9x9999999e <ok> node-99 9x9999999e <ok> node-99 9x9999999e <ok>
+9 Command has been aborted
+normal
+node-ms9 unix.hw state_change.unavailable 9999999999 9 Component State Change: Component \999ee9\999 is in the unavailable state (HWID=99)

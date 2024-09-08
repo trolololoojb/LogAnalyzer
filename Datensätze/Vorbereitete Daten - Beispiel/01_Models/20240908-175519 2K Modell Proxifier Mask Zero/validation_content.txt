@@ -1,0 +1,400 @@
+999.999.99.99:999 open through proxy proxy.cse.cuhk.edu.hk:9999 HTTPS
+client-cf.dropbox.com:999 open through proxy proxy.cse.cuhk.edu.hk:9999 HTTPS
+timg99.bdimg.com:999 open through proxy proxy.cse.cuhk.edu.hk:9999 HTTPS
+www.googleapis.com:999 open through proxy proxy.cse.cuhk.edu.hk:9999 HTTPS
+analytics.twitter.com:999 open through proxy proxy.cse.cuhk.edu.hk:9999 HTTPS
+proxy.cse.cuhk.edu.hk:9999 open through proxy proxy.cse.cuhk.edu.hk:9999 HTTPS
+c.cnzz.com:99 close, 9999 bytes (9.99 KB) sent, 9999 bytes (9.99 KB) received, lifetime 99:99
+passport.weibo.com:999 close, 9999 bytes (9.99 KB) sent, 9999 bytes (9.99 KB) received, lifetime 99:99
+upload.9999.com:99 open through proxy proxy.cse.cuhk.edu.hk:9999 HTTPS
+tp9.beap.gemini.yahoo.com:999 close, 9999 bytes (9.99 KB) sent, 9999 bytes (9.99 KB) received, lifetime <9 sec
+cpro.baidustatic.com:999 open through proxy proxy.cse.cuhk.edu.hk:9999 HTTPS
+mail.google.com:999 close, 9999 bytes (9.99 KB) sent, 9999 bytes (9.99 KB) received, lifetime 99:99
+i9.baidu.com:99 close, 9999 bytes (9.99 KB) sent, 99999 bytes (99.9 KB) received, lifetime 99:99
+tc.dl.pinyin.sogoucdn.com:99 open through proxy proxy.cse.cuhk.edu.hk:9999 HTTPS
+video-hkg9-9.xx.fbcdn.net:999 open through proxy proxy.cse.cuhk.edu.hk:9999 HTTPS
+gmail.com:999 open through proxy proxy.cse.cuhk.edu.hk:9999 HTTPS
+beacon.dropbox.com:999 close, 99999 bytes (99.9 KB) sent, 99999 bytes (99.9 KB) received, lifetime 99:99
+proxy.cse.cuhk.edu.hk:9999 open through proxy proxy.cse.cuhk.edu.hk:9999 HTTPS
+api.github.com:999 open through proxy proxy.cse.cuhk.edu.hk:9999 HTTPS
+cnzz.mmstat.com:99 open through proxy proxy.cse.cuhk.edu.hk:9999 HTTPS
+pixel.quantserve.com:999 close, 9999 bytes (9.99 KB) sent, 9999 bytes (9.99 KB) received, lifetime <9 sec
+dict.youdao.com:99 open through proxy proxy.cse.cuhk.edu.hk:9999 HTTPS
+tel.avatars.manhuaren.com:99 open through proxy proxy.cse.cuhk.edu.hk:9999 HTTPS
+i9.itc.cn:99 open through proxy proxy.cse.cuhk.edu.hk:9999 HTTPS
+res.ishuhui.com:99 close, 9999 bytes (9.99 KB) sent, 99999 bytes (99.9 KB) received, lifetime 99:99
+cdn9.ime.sogou.com:99 open through proxy proxy.cse.cuhk.edu.hk:9999 HTTPS
+block.dropbox.com:999 open through proxy proxy.cse.cuhk.edu.hk:9999 HTTPS
+999.99.99.999:999 open through proxy proxy.cse.cuhk.edu.hk:9999 HTTPS
+99.client-channel.google.com:999 close, 99999 bytes (99.9 KB) sent, 99999 bytes (99.9 KB) received, lifetime 99:99:99
+proxy.cse.cuhk.edu.hk:9999 open through proxy proxy.cse.cuhk.edu.hk:9999 HTTPS
+ss.symcd.com:99 open through proxy proxy.cse.cuhk.edu.hk:9999 HTTPS
+999.999.99.999:9999 error : Could not connect to proxy proxy.cse.cuhk.edu.hk:9999 - Could not resolve proxy.cse.cuhk.edu.hk error 99999
+pubads.g.doubleclick.net:999 close, 99999 bytes (99.9 KB) sent, 99999 bytes (99.9 KB) received, lifetime 99:99
+proxy.cse.cuhk.edu.hk:9999 open through proxy proxy.cse.cuhk.edu.hk:9999 HTTPS
+api.github.com:999 open through proxy proxy.cse.cuhk.edu.hk:9999 HTTPS
+www.gmail.com:999 open through proxy proxy.cse.cuhk.edu.hk:9999 HTTPS
+adzerk-www.s9.amazonaws.com:999 open through proxy proxy.cse.cuhk.edu.hk:9999 HTTPS
+timg.baidu.com:99 close, 9999 bytes (9.99 KB) sent, 9999 bytes (9.99 KB) received, lifetime 99:99
+weibo.com:99 open through proxy proxy.cse.cuhk.edu.hk:9999 HTTPS
+proxy.cse.cuhk.edu.hk:9999 close, 9999 bytes (9.99 KB) sent, 9999 bytes (9.99 KB) received, lifetime <9 sec
+atanx9.alicdn.com:999 close, 9999 bytes (9.99 KB) sent, 999999 bytes (999 KB) received, lifetime 99:99
+tp9.sinaimg.cn:99 close, 9999 bytes (9.99 KB) sent, 999999 bytes (999 KB) received, lifetime 99:99
+www.google.com.hk:999 open through proxy proxy.cse.cuhk.edu.hk:9999 HTTPS
+tpc.googlesyndication.com:999 close, 99999 bytes (99.9 KB) sent, 999999 bytes (999 KB) received, lifetime 99:99
+ssum-sec.casalemedia.com:999 close, 99999 bytes (99.9 KB) sent, 99999 bytes (99.9 KB) received, lifetime 99:99
+q9.cnzz.com:99 open through proxy proxy.cse.cuhk.edu.hk:9999 HTTPS
+www.weibo.com:99 open through proxy proxy.cse.cuhk.edu.hk:9999 HTTPS
+hangouts.google.com:999 close, 99999 bytes (99.9 KB) sent, 99999 bytes (99.9 KB) received, lifetime 99:99
+c.trello.com:999 open through proxy proxy.cse.cuhk.edu.hk:9999 HTTPS
+collector.githubapp.com:999 open through proxy proxy.cse.cuhk.edu.hk:9999 HTTPS
+beacon.tingyun.com:99 open through proxy proxy.cse.cuhk.edu.hk:9999 HTTPS
+trc.taboola.com:99 open through proxy proxy.cse.cuhk.edu.hk:9999 HTTPS
+info.pinyin.sogou.com:99 open through proxy proxy.cse.cuhk.edu.hk:9999 HTTPS
+proxy.cse.cuhk.edu.hk:9999 open through proxy proxy.cse.cuhk.edu.hk:9999 HTTPS
+img.alicdn.com:999 close, 9999 bytes (9.99 KB) sent, 99999 bytes (99.9 KB) received, lifetime 99:99
+hm9.cnzz.com:99 open through proxy proxy.cse.cuhk.edu.hk:9999 HTTPS
+proxy.cse.cuhk.edu.hk:9999 close, 9999 bytes (9.99 KB) sent, 9999 bytes (9.99 KB) received, lifetime 99:99
+crl.microsoft.com:99 open through proxy proxy.cse.cuhk.edu.hk:9999 HTTPS
+dup.baidustatic.com:999 open through proxy proxy.cse.cuhk.edu.hk:9999 HTTPS
+proxy.cse.cuhk.edu.hk:9999 open through proxy proxy.cse.cuhk.edu.hk:9999 HTTPS
+proxy.cse.cuhk.edu.hk:9999 open through proxy proxy.cse.cuhk.edu.hk:9999 HTTPS
+d.dropbox.com:999 close, 9999 bytes (9.99 KB) sent, 9999 bytes (9.99 KB) received, lifetime 99:99
+proxy.cse.cuhk.edu.hk:9999 open through proxy proxy.cse.cuhk.edu.hk:9999 HTTPS
+clients9.google.com:999 close, 9999 bytes (9.99 KB) sent, 9999 bytes (9.99 KB) received, lifetime 99:99
+oimagec9.ydstatic.com:99 error : A connection request was canceled before the completion.
+r9---sn-9ualdn9l.googlevideo.com:999 close, 9999 bytes (9.99 KB) sent, 99999 bytes (99.9 KB) received, lifetime 99:99
+clients9.google.com:999 close, 999999 bytes (999 KB) sent, 999999 bytes (999 KB) received, lifetime 99:99:99
+impservice.dictapp.youdao.com:99 open through proxy proxy.cse.cuhk.edu.hk:9999 HTTPS
+cpro.baidustatic.com:999 close, 9999 bytes (9.99 KB) sent, 9999 bytes (9.99 KB) received, lifetime 99:99
+tenmax-static.cacafly.net:99 open through proxy proxy.cse.cuhk.edu.hk:9999 HTTPS
+qa.sockets.stackexchange.com:999 close, 9999 bytes (9.99 KB) sent, 9999 bytes (9.99 KB) received, lifetime 99:99
+999.999.999.999:999 open through proxy proxy.cse.cuhk.edu.hk:9999 HTTPS
+r99---sn-vgqsenes.googlevideo.com:999 close, 9999 bytes (9.99 KB) sent, 99999 bytes (99.9 KB) received, lifetime <9 sec
+cosy.smaato.net:99 open through proxy proxy.cse.cuhk.edu.hk:9999 HTTPS
+timgsa.baidu.com:999 open through proxy proxy.cse.cuhk.edu.hk:9999 HTTPS
+xueshu.baidu.com:99 close, 99999 bytes (9.99 KB) sent, 9999 bytes (9.99 KB) received, lifetime 99:99
+googleads.g.doubleclick.net:999 open through proxy proxy.cse.cuhk.edu.hk:9999 HTTPS
+gm.mmstat.com:99 open through proxy proxy.cse.cuhk.edu.hk:9999 HTTPS
+notifications.google.com:999 close, 99999 bytes (9.99 KB) sent, 9999 bytes (9.99 KB) received, lifetime 99:99
+proxy.cse.cuhk.edu.hk:9999 close, 9999 bytes (9.99 KB) sent, 9999 bytes (9.99 KB) received, lifetime 99:99
+www.qulishi.com:99 open through proxy proxy.cse.cuhk.edu.hk:9999 HTTPS
+strip.alicdn.com:999 open through proxy proxy.cse.cuhk.edu.hk:9999 HTTPS
+plus.google.com:999 close, 99999 bytes (99.9 KB) sent, 9999999 bytes (9.99 MB) received, lifetime 99:99
+proxy.cse.cuhk.edu.hk:9999 open through proxy proxy.cse.cuhk.edu.hk:9999 HTTPS
+proxy.cse.cuhk.edu.hk:9999 open through proxy proxy.cse.cuhk.edu.hk:9999 HTTPS
+proxy.cse.cuhk.edu.hk:9999 open through proxy proxy.cse.cuhk.edu.hk:9999 HTTPS
+mail.google.com:999 close, 9999999 bytes (9.99 MB) sent, 999999 bytes (999 KB) received, lifetime 99:99
+www.zhihu.com:999 open through proxy proxy.cse.cuhk.edu.hk:9999 HTTPS
+long.weixin.qq.com:9999 error : Could not connect through proxy proxy.cse.cuhk.edu.hk:9999 - Proxy server cannot establish a connection with the target, status code 999
+feeds.neosmart.net:99 open through proxy proxy.cse.cuhk.edu.hk:9999 HTTPS
+proxy.cse.cuhk.edu.hk:9999 open through proxy proxy.cse.cuhk.edu.hk:9999 HTTPS
+rs.sinajs.cn:99 open through proxy proxy.cse.cuhk.edu.hk:9999 HTTPS
+googleads.g.doubleclick.net:999 close, 999999 bytes (999 KB) sent, 999999 bytes (999 KB) received, lifetime 99:99
+res.wx.qq.com:999 close, 9999 bytes (9.99 KB) sent, 99999 bytes (99.9 KB) received, lifetime 99:99
+drive-thirdparty.googleusercontent.com:999 close, 9999 bytes (9.99 KB) sent, 9999 bytes (9.99 KB) received, lifetime 99:99
+proxy.cse.cuhk.edu.hk:9999 close, 9999 bytes (9.99 KB) sent, 9999 bytes (9.99 KB) received, lifetime 99:99
+client-lb.dropbox.com:999 error : A connection request was canceled before the completion.
+bolt.dropbox.com:999 open through proxy proxy.cse.cuhk.edu.hk:9999 HTTPS
+ss.bdimg.com:99 error : Could not connect to proxy proxy.cse.cuhk.edu.hk:9999 - Could not resolve proxy.cse.cuhk.edu.hk error 99999
+proxy.cse.cuhk.edu.hk:9999 open through proxy proxy.cse.cuhk.edu.hk:9999 HTTPS
+proxy.cse.cuhk.edu.hk:9999 open through proxy proxy.cse.cuhk.edu.hk:9999 HTTPS
+i9.baidu.com:99 close, 9999 bytes (9.99 KB) sent, 99999 bytes (9.99 KB) received, lifetime 99:99
+proxy.cse.cuhk.edu.hk:9999 open through proxy proxy.cse.cuhk.edu.hk:9999 HTTPS
+proxy.cse.cuhk.edu.hk:9999 open through proxy proxy.cse.cuhk.edu.hk:9999 HTTPS
+short.weixin.qq.com:99 error : A connection request was canceled before the completion.
+s.ytimg.com:999 close, 9999 bytes (9.99 KB) sent, 9999 bytes (9.99 KB) received, lifetime 99:99
+play.google.com:999 open through proxy proxy.cse.cuhk.edu.hk:9999 HTTPS
+ctldl.windowsupdate.com:99 open through proxy proxy.cse.cuhk.edu.hk:9999 HTTPS
+zhihu-web-analytics.zhihu.com:999 open through proxy proxy.cse.cuhk.edu.hk:9999 HTTPS
+play.google.com:999 open through proxy proxy.cse.cuhk.edu.hk:9999 HTTPS
+assets-cdn.github.com:999 close, 9999 bytes (9.99 KB) sent, 99999 bytes (99.9 KB) received, lifetime 99:99
+long.weixin.qq.com:999 open through proxy proxy.cse.cuhk.edu.hk:9999 HTTPS
+r9---sn-i9b9kn99.googlevideo.com:999 open through proxy proxy.cse.cuhk.edu.hk:9999 HTTPS
+proxy.cse.cuhk.edu.hk:9999 open through proxy proxy.cse.cuhk.edu.hk:9999 HTTPS
+proxy.cse.cuhk.edu.hk:9999 open through proxy proxy.cse.cuhk.edu.hk:9999 HTTPS
+trello.com:999 close, 9999 bytes (9.99 KB) sent, 99999 bytes (99.9 KB) received, lifetime 99:99
+trello.com:999 close, 9999 bytes (9.99 KB) sent, 999999 bytes (999 KB) received, lifetime 99:99
+fonts.gstatic.com:999 open through proxy proxy.cse.cuhk.edu.hk:9999 HTTPS
+puui.qpic.cn:99 open through proxy proxy.cse.cuhk.edu.hk:9999 HTTPS
+oimagea9.ydstatic.com:99 error : A connection request was canceled before the completion.
+go.trouter.io:999 close, 9999 bytes (9.99 KB) sent, 9999 bytes (9.99 KB) received, lifetime 99:99
+client-lb.dropbox.com:999 open through proxy proxy.cse.cuhk.edu.hk:9999 HTTPS
+t99.baidu.com:99 open through proxy proxy.cse.cuhk.edu.hk:9999 HTTPS
+c.baidu.com:99 error : Could not connect to proxy proxy.cse.cuhk.edu.hk:9999 - Could not resolve proxy.cse.cuhk.edu.hk error 99999
+proxy.cse.cuhk.edu.hk:9999 open through proxy proxy.cse.cuhk.edu.hk:9999 HTTPS
+proxy.cse.cuhk.edu.hk:9999 open through proxy proxy.cse.cuhk.edu.hk:9999 HTTPS
+www.wix.com:999 open through proxy proxy.cse.cuhk.edu.hk:9999 HTTPS
+www.google.com:999 close, 9999 bytes (9.99 KB) sent, 99999 bytes (99.9 KB) received, lifetime 99:99
+r9---sn-vgqskn9l.googlevideo.com:999 close, 9999 bytes (9.99 KB) sent, 99999 bytes (99.9 KB) received, lifetime 99:99
+client.dropbox.com:999 open through proxy proxy.cse.cuhk.edu.hk:9999 HTTPS
+r9---sn-i9b9kn9z.googlevideo.com:999 close, 9999 bytes (9.99 KB) sent, 999999 bytes (999 KB) received, lifetime 99:99
+notifications.google.com:999 close, 9999 bytes (9.99 KB) sent, 99999 bytes (99.9 KB) received, lifetime 99:99
+r9---sn-i9b9kn99.googlevideo.com:999 close, 99999 bytes (9.99 KB) sent, 9999999 bytes (9.99 MB) received, lifetime 99:99
+nmjylyjluykle:99 error : Could not connect to proxy proxy.cse.cuhk.edu.hk:9999 - Could not resolve proxy.cse.cuhk.edu.hk error 99999
+agent.aralego.com:99 open through proxy proxy.cse.cuhk.edu.hk:9999 HTTPS
+proxy.cse.cuhk.edu.hk:9999 close, 9999 bytes (9.99 KB) sent, 9999 bytes (9.99 KB) received, lifetime 99:99
+www.google-analytics.com:999 close, 9999 bytes (9.99 KB) sent, 9999 bytes (9.99 KB) received, lifetime 99:99
+proxy.cse.cuhk.edu.hk:9999 open through proxy proxy.cse.cuhk.edu.hk:9999 HTTPS
+cdn.aralego.net:99 open through proxy proxy.cse.cuhk.edu.hk:9999 HTTPS
+r9---sn-i9belnez.googlevideo.com:999 close, 999999 bytes (999 KB) sent, 99999999 bytes (99.9 MB) received, lifetime 99:99
+awqiizxequsixgr:99 error : Could not connect to proxy proxy.cse.cuhk.edu.hk:9999 - Could not resolve proxy.cse.cuhk.edu.hk error 99999
+ime.sogou.com:99 open through proxy proxy.cse.cuhk.edu.hk:9999 HTTPS
+proxy.cse.cuhk.edu.hk:9999 open through proxy proxy.cse.cuhk.edu.hk:9999 HTTPS
+mhfm9.us.cdndm9.com:99 open through proxy proxy.cse.cuhk.edu.hk:9999 HTTPS
+short.weixin.qq.com:99 open through proxy proxy.cse.cuhk.edu.hk:9999 HTTPS
+proxy.cse.cuhk.edu.hk:9999 close, 99999 bytes (9.99 KB) sent, 9999 bytes (9.99 KB) received, lifetime 99:99
+app.9999.cn:99 close, 9999 bytes (9.99 KB) sent, 99999 bytes (99.9 KB) received, lifetime 99:99
+i9.ytimg.com:999 close, 9999 bytes (9.99 KB) sent, 99999 bytes (99.9 KB) received, lifetime 99:99
+ssl.gstatic.com:999 open through proxy proxy.cse.cuhk.edu.hk:9999 HTTPS
+rules.quantcount.com:999 open through proxy proxy.cse.cuhk.edu.hk:9999 HTTPS
+fonts.gstatic.com:999 close, 9999 bytes (9.99 KB) sent, 99999 bytes (99.9 KB) received, lifetime 99:99
+proxy.cse.cuhk.edu.hk:9999 close, 9999 bytes (9.99 KB) sent, 9999 bytes (9.99 KB) received, lifetime 99:99
+proxy.cse.cuhk.edu.hk:9999 open through proxy proxy.cse.cuhk.edu.hk:9999 HTTPS
+cgi.find.qq.com:99 open through proxy proxy.cse.cuhk.edu.hk:9999 HTTPS
+scontent-hkg9-9.xx.fbcdn.net:999 close, 9999 bytes (9.99 KB) sent, 9999 bytes (9.99 KB) received, lifetime 99:99
+dmp.tenmax.io:999 close, 9999 bytes (9.99 KB) sent, 9999 bytes (9.99 KB) received, lifetime <9 sec
+r99---sn-9hne9n9r.googlevideo.com:999 close, 9999 bytes (9.99 KB) sent, 99999 bytes (99.9 KB) received, lifetime 99:99
+qa.sockets.stackexchange.com:999 close, 9999 bytes (9.99 KB) sent, 9999 bytes (9.99 KB) received, lifetime 99:99:99
+dsp.brand.sogou.com:99 open through proxy proxy.cse.cuhk.edu.hk:9999 HTTPS
+www.facebook.com:999 close, 999999 bytes (999 KB) sent, 9999999 bytes (9.99 MB) received, lifetime 99:99
+assets-cdn.github.com:999 close, 9999 bytes (9.99 KB) sent, 9999 bytes (9.99 KB) received, lifetime 99:99
+oimagea9.ydstatic.com:99 error : A connection request was canceled before the completion.
+static.doubleclick.net:999 open through proxy proxy.cse.cuhk.edu.hk:9999 HTTPS
+cpro.baidustatic.com:99 open through proxy proxy.cse.cuhk.edu.hk:9999 HTTPS
+manhua.999.com:999 close, 99999 bytes (99.9 KB) sent, 999999 bytes (999 KB) received, lifetime 99:99
+cm.g.doubleclick.net:99 close, 9999 bytes (9.99 KB) sent, 9999 bytes (9.99 KB) received, lifetime 99:99
+r9---sn-i9b9knel.gvt9.com:99 open through proxy proxy.cse.cuhk.edu.hk:9999 HTTPS
+m9999.oadz.com:99 open through proxy proxy.cse.cuhk.edu.hk:9999 HTTPS
+nos.netease.com:999 close, 9999 bytes (9.99 KB) sent, 999999 bytes (999 KB) received, lifetime 99:99
+cas.criteo.com:99 close, 9999 bytes (9.99 KB) sent, 9999 bytes (9.99 KB) received, lifetime 99:99
+www.google.com.hk:999 close, 99999 bytes (99.9 KB) sent, 999999 bytes (999 KB) received, lifetime 99:99
+match.adsrvr.org:999 close, 9999 bytes (9.99 KB) sent, 9999 bytes (9.99 KB) received, lifetime 99:99
+r9---sn-i9b9knl9.googlevideo.com:999 close, 9999 bytes (9.99 KB) sent, 999999 bytes (999 KB) received, lifetime 99:99
+bolt.dropbox.com:999 error : Could not connect to proxy proxy.cse.cuhk.edu.hk:9999 - connection attempt failed with error 99999
+lh9.googleusercontent.com:999 open through proxy proxy.cse.cuhk.edu.hk:9999 HTTPS
+proxy.cse.cuhk.edu.hk:9999 open through proxy proxy.cse.cuhk.edu.hk:9999 HTTPS
+proxy.cse.cuhk.edu.hk:9999 open through proxy proxy.cse.cuhk.edu.hk:9999 HTTPS
+img9.ph.999.net:99 open through proxy proxy.cse.cuhk.edu.hk:9999 HTTPS
+hangouts.google.com:999 close, 99999 bytes (99.9 KB) sent, 9999999 bytes (9.99 MB) received, lifetime 99:99
+dmp.tenmax.io:999 close, 9999 bytes (9.99 KB) sent, 9999 bytes (9.99 KB) received, lifetime <9 sec
+d.agkn.com:999 open through proxy proxy.cse.cuhk.edu.hk:9999 HTTPS
+proxy.cse.cuhk.edu.hk:9999 open through proxy proxy.cse.cuhk.edu.hk:9999 HTTPS
+proxy.cse.cuhk.edu.hk:9999 open through proxy proxy.cse.cuhk.edu.hk:9999 HTTPS
+q99.cnzz.com:99 open through proxy proxy.cse.cuhk.edu.hk:9999 HTTPS
+ping.pinyin.sogou.com:99 open through proxy proxy.cse.cuhk.edu.hk:9999 HTTPS
+s.weibo.com:99 close, 9999 bytes (9.99 KB) sent, 9999 bytes (9.99 KB) received, lifetime <9 sec
+i.stack.imgur.com:999 close, 9999 bytes (9.99 KB) sent, 99999 bytes (99.9 KB) received, lifetime 99:99
+tcpconn9.tencent.com:999 error : Could not connect through proxy proxy.cse.cuhk.edu.hk:9999 - Proxy closed the connection unexpectedly.
+www.google.com.hk:999 close, 9999 bytes (9.99 KB) sent, 99999 bytes (99.9 KB) received, lifetime 99:99
+qumccyndmsiwf:99 error : Could not connect through proxy proxy.cse.cuhk.edu.hk:9999 - Proxy server cannot establish a connection with the target, status code 999
+proxy.cse.cuhk.edu.hk:9999 close, 9999 bytes (9.99 KB) sent, 99999 bytes (99.9 KB) received, lifetime <9 sec
+bolt.dropbox.com:999 close, 99999 bytes (99.9 KB) sent, 99999 bytes (99.9 KB) received, lifetime 99:99:99
+proxy.cse.cuhk.edu.hk:9999 open through proxy proxy.cse.cuhk.edu.hk:9999 HTTPS
+BAYMSGR9999999.gateway.messenger.live.com:999 open through proxy proxy.cse.cuhk.edu.hk:9999 HTTPS
+biz.weibo.com:99 open through proxy proxy.cse.cuhk.edu.hk:9999 HTTPS
+i9.ytimg.com:999 close, 9999 bytes (9.99 KB) sent, 9999999 bytes (999 KB) received, lifetime 99:99
+s.youtube.com:999 open through proxy proxy.cse.cuhk.edu.hk:9999 HTTPS
+www.9999.cn:99 open through proxy proxy.cse.cuhk.edu.hk:9999 HTTPS
+p.inte.sogou.com:99 close, 9999 bytes (9.99 KB) sent, 9999 bytes (9.99 KB) received, lifetime 99:99
+shared.ydstatic.com:99 open through proxy proxy.cse.cuhk.edu.hk:9999 HTTPS
+ubmcmm.baidustatic.com:999 close, 9999 bytes (9.99 KB) sent, 99999 bytes (99.9 KB) received, lifetime 99:99
+www.facebook.com:999 open through proxy proxy.cse.cuhk.edu.hk:9999 HTTPS
+proxy.cse.cuhk.edu.hk:9999 open through proxy proxy.cse.cuhk.edu.hk:9999 HTTPS
+a.img9999.com:99 open through proxy proxy.cse.cuhk.edu.hk:9999 HTTPS
+ss.bdimg.com:99 open through proxy proxy.cse.cuhk.edu.hk:9999 HTTPS
+static.criteo.net:99 open through proxy proxy.cse.cuhk.edu.hk:9999 HTTPS
+api.github.com:999 close, 99999 bytes (99.9 KB) sent, 9999 bytes (9.99 KB) received, lifetime 99:99
+proxy.cse.cuhk.edu.hk:9999 open through proxy proxy.cse.cuhk.edu.hk:9999 HTTPS
+www.weibo.com:99 close, 9999 bytes (9.99 KB) sent, 9999 bytes (9.99 KB) received, lifetime 99:99
+i9.baidu.com:99 close, 9999 bytes (9.99 KB) sent, 9999 bytes (9.99 KB) received, lifetime 99:99
+proxy.cse.cuhk.edu.hk:9999 open through proxy proxy.cse.cuhk.edu.hk:9999 HTTPS
+collector.githubapp.com:999 open through proxy proxy.cse.cuhk.edu.hk:9999 HTTPS
+pcookie.cnzz.com:99 open through proxy proxy.cse.cuhk.edu.hk:9999 HTTPS
+m.news.9999.com:99 open through proxy proxy.cse.cuhk.edu.hk:9999 HTTPS
+secure.quantserve.com:999 open through proxy proxy.cse.cuhk.edu.hk:9999 HTTPS
+intf.zsall.mobilem.999.cn:99 open through proxy proxy.cse.cuhk.edu.hk:9999 HTTPS
+d.dropbox.com:999 open through proxy proxy.cse.cuhk.edu.hk:9999 HTTPS
+proxy.cse.cuhk.edu.hk:9999 open through proxy proxy.cse.cuhk.edu.hk:9999 HTTPS
+cidian.youdao.com:99 close, 9999 bytes (9.99 KB) sent, 9999 bytes (9.99 KB) received, lifetime 99:99
+as.innity.com:99 close, 9999 bytes (9.99 KB) sent, 9999 bytes (9.99 KB) received, lifetime <9 sec
+securepubads.g.doubleclick.net:999 open through proxy proxy.cse.cuhk.edu.hk:9999 HTTPS
+proxy.cse.cuhk.edu.hk:9999 open through proxy proxy.cse.cuhk.edu.hk:9999 HTTPS
+api.github.com:999 open through proxy proxy.cse.cuhk.edu.hk:9999 HTTPS
+query.hicloud.com:99 open through proxy proxy.cse.cuhk.edu.hk:9999 HTTPS
+list.video.qq.com:99 open through proxy proxy.cse.cuhk.edu.hk:9999 HTTPS
+wan99.sogoucdn.com:99 open through proxy proxy.cse.cuhk.edu.hk:9999 HTTPS
+proxy.cse.cuhk.edu.hk:9999 close, 9999 bytes (9.99 KB) sent, 9999 bytes (9.99 KB) received, lifetime <9 sec
+user-images.githubusercontent.com:999 open through proxy proxy.cse.cuhk.edu.hk:9999 HTTPS
+i.99999cdn.com:99 close, 9999 bytes (9.99 KB) sent, 99999 bytes (99.9 KB) received, lifetime 99:99
+ubmcmm.baidustatic.com:999 open through proxy proxy.cse.cuhk.edu.hk:9999 HTTPS
+proxy.cse.cuhk.edu.hk:9999 open through proxy proxy.cse.cuhk.edu.hk:9999 HTTPS
+xin.9999.cn:99 open through proxy proxy.cse.cuhk.edu.hk:9999 HTTPS
+img.9999.com:99 close, 9999 bytes (9.99 KB) sent, 99999 bytes (99.9 KB) received, lifetime 99:99
+www.weibo.com:99 close, 9999 bytes (9.99 KB) sent, 99999 bytes (99.9 KB) received, lifetime 99:99
+yuedust.yuedu.999.net:999 open through proxy proxy.cse.cuhk.edu.hk:9999 HTTPS
+dblp.uni-trier.de:99 close, 9999 bytes (9.99 KB) sent, 99999 bytes (99.9 KB) received, lifetime 99:99
+9999999.fls.doubleclick.net:999 open through proxy proxy.cse.cuhk.edu.hk:9999 HTTPS
+cdn.doublemax.net:99 close, 9999 bytes (9.99 KB) sent, 9999 bytes (9.99 KB) received, lifetime 99:99
+p.tanx.com:999 close, 9999 bytes (9.99 KB) sent, 9999 bytes (9.99 KB) received, lifetime 99:99
+sync.outbrain.com:99 open through proxy proxy.cse.cuhk.edu.hk:9999 HTTPS
+www.gravatar.com:999 close, 9999 bytes (9.99 KB) sent, 99999 bytes (99.9 KB) received, lifetime 99:99
+rssgov.windows.microsoft.com:99 open through proxy proxy.cse.cuhk.edu.hk:9999 HTTPS
+proxy.cse.cuhk.edu.hk:9999 close, 9999 bytes (9.99 KB) sent, 99999 bytes (99.9 KB) received, lifetime 99:99
+dl.pinyin.sogou.com:99 open through proxy proxy.cse.cuhk.edu.hk:9999 HTTPS
+geo9.ggpht.com:999 open through proxy proxy.cse.cuhk.edu.hk:9999 HTTPS
+securepubads.g.doubleclick.net:999 open through proxy proxy.cse.cuhk.edu.hk:9999 HTTPS
+pr-bh.ybp.yahoo.com:99 close, 9999 bytes (9.99 KB) sent, 9999 bytes (9.99 KB) received, lifetime 99:99
+login.sina.com.cn:999 close, 9999 bytes (9.99 KB) sent, 99999 bytes (99.9 KB) received, lifetime 99:99
+proxy.cse.cuhk.edu.hk:9999 close, 99999 bytes (99.9 KB) sent, 999999 bytes (999 KB) received, lifetime 99:99
+dns.weixin.qq.com:999 open through proxy proxy.cse.cuhk.edu.hk:9999 HTTPS
+999.99.999.999:99 close, 99999 bytes (99.9 KB) sent, 99999 bytes (99.9 KB) received, lifetime 99:99:99
+hm9.cnzz.com:99 open through proxy proxy.cse.cuhk.edu.hk:9999 HTTPS
+short.weixin.qq.com:99 open through proxy proxy.cse.cuhk.edu.hk:9999 HTTPS
+dict.youdao.com:99 error : Could not connect to proxy proxy.cse.cuhk.edu.hk:9999 - Could not resolve proxy.cse.cuhk.edu.hk error 99999
+sestat.baidu.com:99 open through proxy proxy.cse.cuhk.edu.hk:9999 HTTPS
+proxy.cse.cuhk.edu.hk:9999 open through proxy proxy.cse.cuhk.edu.hk:9999 HTTPS
+proxy.cse.cuhk.edu.hk:9999 open through proxy proxy.cse.cuhk.edu.hk:9999 HTTPS
+x.bidswitch.net:999 open through proxy proxy.cse.cuhk.edu.hk:9999 HTTPS
+www.gstatic.com:999 close, 99999 bytes (99.9 KB) sent, 999999 bytes (999 KB) received, lifetime 99:99
+999.999.999.999:999 close, 9999 bytes (9.99 KB) sent, 99999 bytes (99.9 KB) received, lifetime 99:99
+beacon.sina.com.cn:99 close, 9999 bytes (9.99 KB) sent, 9999 bytes (9.99 KB) received, lifetime 99:99
+proxy.cse.cuhk.edu.hk:9999 open through proxy proxy.cse.cuhk.edu.hk:9999 HTTPS
+proxy.cse.cuhk.edu.hk:9999 open through proxy proxy.cse.cuhk.edu.hk:9999 HTTPS
+r9---sn-i9belnez.googlevideo.com:999 close, 9999 bytes (9.99 KB) sent, 999999 bytes (999 KB) received, lifetime 99:99
+proxy.cse.cuhk.edu.hk:9999 open through proxy proxy.cse.cuhk.edu.hk:9999 HTTPS
+passport.csdn.net:999 open through proxy proxy.cse.cuhk.edu.hk:9999 HTTPS
+proxy.cse.cuhk.edu.hk:9999 open through proxy proxy.cse.cuhk.edu.hk:9999 HTTPS
+999.9.9.9:999 error : Could not connect through proxy proxy.cse.cuhk.edu.hk:9999 - Proxy server cannot establish a connection with the target, status code 999
+r9---sn-i9b9kn9k.googlevideo.com:999 open through proxy proxy.cse.cuhk.edu.hk:9999 HTTPS
+proxy.cse.cuhk.edu.hk:9999 open through proxy proxy.cse.cuhk.edu.hk:9999 HTTPS
+mini.cpc.sogou.com:99 close, 9999 bytes (9.99 KB) sent, 99999 bytes (99.9 KB) received, lifetime 99:99
+proxy.cse.cuhk.edu.hk:9999 open through proxy proxy.cse.cuhk.edu.hk:9999 HTTPS
+sclick.baidu.com:99 open through proxy proxy.cse.cuhk.edu.hk:9999 HTTPS
+99.999.999.99:99999 error : Could not connect through proxy proxy.cse.cuhk.edu.hk:9999 - Proxy server cannot establish a connection with the target, status code 999
+server99999.teamviewer.com:999 close, 9999 bytes (9.99 KB) sent, 99999 bytes (99.9 KB) received, lifetime 99:99
+ad.doublemax.net:99 close, 9999 bytes (9.99 KB) sent, 9999 bytes (9.99 KB) received, lifetime 99:99
+proxy.cse.cuhk.edu.hk:9999 open through proxy proxy.cse.cuhk.edu.hk:9999 HTTPS
+wn.pos.baidu.com:99 open through proxy proxy.cse.cuhk.edu.hk:9999 HTTPS
+googleads.g.doubleclick.net:999 close, 9999 bytes (9.99 KB) sent, 9999 bytes (9.99 KB) received, lifetime 99:99
+cidian.youdao.com:99 error : Could not connect to proxy proxy.cse.cuhk.edu.hk:9999 - Could not resolve proxy.cse.cuhk.edu.hk error 99999
+ads.yap.yahoo.com:999 open through proxy proxy.cse.cuhk.edu.hk:9999 HTTPS
+notifications.google.com:999 close, 99999 bytes (99.9 KB) sent, 999999 bytes (999 KB) received, lifetime 99:99
+proxy.cse.cuhk.edu.hk:9999 open through proxy proxy.cse.cuhk.edu.hk:9999 HTTPS
+pos.baidu.com:99 open through proxy proxy.cse.cuhk.edu.hk:9999 HTTPS
+oimagea9.ydstatic.com:99 open through proxy proxy.cse.cuhk.edu.hk:9999 HTTPS
+camo.githubusercontent.com:999 close, 9999 bytes (9.99 KB) sent, 9999 bytes (9.99 KB) received, lifetime 99:99
+drive.google.com:999 close, 99999 bytes (99.9 KB) sent, 999999 bytes (999 KB) received, lifetime 99:99
+proxy.cse.cuhk.edu.hk:9999 open through proxy proxy.cse.cuhk.edu.hk:9999 HTTPS
+r9---sn-9g9edn9e.googlevideo.com:999 close, 9999 bytes (9.99 KB) sent, 99999 bytes (99.9 KB) received, lifetime 99:99
+contentrecommend-out.uve.weibo.com:99 open through proxy proxy.cse.cuhk.edu.hk:9999 HTTPS
+proxy.cse.cuhk.edu.hk:9999 open through proxy proxy.cse.cuhk.edu.hk:9999 HTTPS
+api.dropboxapi.com:999 open through proxy proxy.cse.cuhk.edu.hk:9999 HTTPS
+client-cf.dropbox.com:999 error : Could not connect to proxy proxy.cse.cuhk.edu.hk:9999 - connection attempt failed with error 99999
+hm9.cnzz.com:99 open through proxy proxy.cse.cuhk.edu.hk:9999 HTTPS
+proxy.cse.cuhk.edu.hk:9999 open through proxy proxy.cse.cuhk.edu.hk:9999 HTTPS
+w.cnzz.com:99 open through proxy proxy.cse.cuhk.edu.hk:9999 HTTPS
+hm9.cnzz.com:99 open through proxy proxy.cse.cuhk.edu.hk:9999 HTTPS
+proxy.cse.cuhk.edu.hk:9999 open through proxy proxy.cse.cuhk.edu.hk:9999 HTTPS
+static-tagr.gd9.mookie9.com:999 open through proxy proxy.cse.cuhk.edu.hk:9999 HTTPS
+proxy.cse.cuhk.edu.hk:9999 open through proxy proxy.cse.cuhk.edu.hk:9999 HTTPS
+e.changyan.sohu.com:99 open through proxy proxy.cse.cuhk.edu.hk:9999 HTTPS
+pos.baidu.com:999 open through proxy proxy.cse.cuhk.edu.hk:9999 HTTPS
+sclick.baidu.com:99 open through proxy proxy.cse.cuhk.edu.hk:9999 HTTPS
+999.999.999.999:99999 error : Could not connect through proxy proxy.cse.cuhk.edu.hk:9999 - Proxy server cannot establish a connection with the target, status code 999
+proxy.cse.cuhk.edu.hk:9999 open through proxy proxy.cse.cuhk.edu.hk:9999 HTTPS
+i.ytimg.com:999 close, 99999 bytes (99.9 KB) sent, 9999999 bytes (9.99 MB) received, lifetime 99:99
+m.doublemax.net:999 close, 9999 bytes (9.99 KB) sent, 9999 bytes (9.99 KB) received, lifetime 99:99
+show.re.taobao.com:999 open through proxy proxy.cse.cuhk.edu.hk:9999 HTTPS
+zhihu-web-analytics.zhihu.com:999 open through proxy proxy.cse.cuhk.edu.hk:9999 HTTPS
+changyan.itc.cn:999 close, 9999 bytes (9.99 KB) sent, 99999 bytes (99.9 KB) received, lifetime 99:99
+proxy.cse.cuhk.edu.hk:9999 open through proxy proxy.cse.cuhk.edu.hk:9999 HTTPS
+proxy.cse.cuhk.edu.hk:9999 open through proxy proxy.cse.cuhk.edu.hk:9999 HTTPS
+login.sina.com.cn:999 open through proxy proxy.cse.cuhk.edu.hk:9999 HTTPS
+stats.g.doubleclick.net:999 open through proxy proxy.cse.cuhk.edu.hk:9999 HTTPS
+b9.bdstatic.com:99 open through proxy proxy.cse.cuhk.edu.hk:9999 HTTPS
+get.sogou.com:99 close, 9999 bytes (9.99 KB) sent, 9999 bytes (9.99 KB) received, lifetime 99:99
+proxy.cse.cuhk.edu.hk:9999 open through proxy proxy.cse.cuhk.edu.hk:9999 HTTPS
+proxy.cse.cuhk.edu.hk:9999 open through proxy proxy.cse.cuhk.edu.hk:9999 HTTPS
+capi.grammarly.com:999 open through proxy proxy.cse.cuhk.edu.hk:9999 HTTPS
+yt9.ggpht.com:999 close, 9999 bytes (9.99 KB) sent, 9999 bytes (9.99 KB) received, lifetime 99:99
+www.gstatic.com:999 close, 9999 bytes (9.99 KB) sent, 9999 bytes (9.99 KB) received, lifetime 99:99
+bzclk.baidu.com:99 open through proxy proxy.cse.cuhk.edu.hk:9999 HTTPS
+www.youtube.com:999 close, 999999 bytes (999 KB) sent, 9999999 bytes (9999 KB) received, lifetime 99:99
+proxy.cse.cuhk.edu.hk:9999 open through proxy proxy.cse.cuhk.edu.hk:9999 HTTPS
+apac-tw-ad-track.aralego.com:99 open through proxy proxy.cse.cuhk.edu.hk:9999 HTTPS
+r99---sn-9hne9n9r.googlevideo.com:999 open through proxy proxy.cse.cuhk.edu.hk:9999 HTTPS
+get.sogou.com:99 open through proxy proxy.cse.cuhk.edu.hk:9999 HTTPS
+live.github.com:999 open through proxy proxy.cse.cuhk.edu.hk:9999 HTTPS
+content.googleapis.com:999 open through proxy proxy.cse.cuhk.edu.hk:9999 HTTPS
+cas.criteo.com:99 open through proxy proxy.cse.cuhk.edu.hk:9999 HTTPS
+proxy.cse.cuhk.edu.hk:9999 close, 9999 bytes (9.99 KB) sent, 9999 bytes (9.99 KB) received, lifetime 99:99
+txt.go.sohu.com:99 open through proxy proxy.cse.cuhk.edu.hk:9999 HTTPS
+www.google.com:999 close, 99999 bytes (99.9 KB) sent, 9999 bytes (9.99 KB) received, lifetime 99:99
+fcmatch.youtube.com:999 open through proxy proxy.cse.cuhk.edu.hk:9999 HTTPS
+proxy.cse.cuhk.edu.hk:9999 open through proxy proxy.cse.cuhk.edu.hk:9999 HTTPS
+pagead9.googlesyndication.com:99 close, 9999 bytes (9.99 KB) sent, 99999 bytes (99.9 KB) received, lifetime 99:99
+geo.yahoo.com:999 open through proxy proxy.cse.cuhk.edu.hk:9999 HTTPS
+open.weixin.qq.com:999 close, 9999 bytes (9.99 KB) sent, 99999 bytes (99.9 KB) received, lifetime 99:99
+proxy.cse.cuhk.edu.hk:9999 open through proxy proxy.cse.cuhk.edu.hk:9999 HTTPS
+bolt.dropbox.com:999 error : A connection request was canceled before the completion.
+tcpconn9.tencent.com:99 error : A connection request was canceled before the completion.
+bolt.dropbox.com:999 error : A connection request was canceled before the completion.
+safebrowsing.googleapis.com:999 open through proxy proxy.cse.cuhk.edu.hk:9999 HTTPS
+proxy.cse.cuhk.edu.hk:9999 open through proxy proxy.cse.cuhk.edu.hk:9999 HTTPS
+s9.googleusercontent.com:999 close, 9999 bytes (9.99 KB) sent, 99999 bytes (99.9 KB) received, lifetime 99:99
+csi.gstatic.com:999 close, 9999 bytes (9.99 KB) sent, 9999 bytes (9.99 KB) received, lifetime 99:99
+q99.cnzz.com:99 open through proxy proxy.cse.cuhk.edu.hk:9999 HTTPS
+user-images.githubusercontent.com:999 open through proxy proxy.cse.cuhk.edu.hk:9999 HTTPS
+proxy.cse.cuhk.edu.hk:9999 open through proxy proxy.cse.cuhk.edu.hk:9999 HTTPS
+www.ishuhui.com:99 open through proxy proxy.cse.cuhk.edu.hk:9999 HTTPS
+proxy.cse.cuhk.edu.hk:9999 open through proxy proxy.cse.cuhk.edu.hk:9999 HTTPS
+proxy.cse.cuhk.edu.hk:9999 close, 99999 bytes (99.9 KB) sent, 999999 bytes (999 KB) received, lifetime 99:99:99
+r9---sn-a9mekned.googlevideo.com:999 close, 9999 bytes (9.99 KB) sent, 99999 bytes (99.9 KB) received, lifetime 99:99
+plus.google.com:999 close, 99999 bytes (99.9 KB) sent, 999999 bytes (999 KB) received, lifetime 99:99
+proxy.cse.cuhk.edu.hk:9999 open through proxy proxy.cse.cuhk.edu.hk:9999 HTTPS
+r9---sn-i9b9knl9.googlevideo.com:999 open through proxy proxy.cse.cuhk.edu.hk:9999 HTTPS
+cdn.doublemax.net:99 close, 9999 bytes (9.99 KB) sent, 9999 bytes (9.99 KB) received, lifetime 99:99
+ss9.bdstatic.com:999 close, 9999 bytes (9.99 KB) sent, 99999 bytes (99.9 KB) received, lifetime 99:99
+r9---sn-i9b9knez.googlevideo.com:999 open through proxy proxy.cse.cuhk.edu.hk:9999 HTTPS
+ask.csdn.net:99 open through proxy proxy.cse.cuhk.edu.hk:9999 HTTPS
+t99.baidu.com:99 close, 9999 bytes (9.99 KB) sent, 9999 bytes (9.99 KB) received, lifetime 99:99
+geo9.ggpht.com:999 close, 9999 bytes (9.99 KB) sent, 99999 bytes (99.9 KB) received, lifetime 99:99
+proxy.cse.cuhk.edu.hk:9999 close, 9999 bytes (9.99 KB) sent, 9999 bytes (9.99 KB) received, lifetime 99:99
+csdnimg.cn:99 close, 9999 bytes (9.99 KB) sent, 9999 bytes (9.99 KB) received, lifetime 99:99
+dl.pinyin.sogou.com:99 close, 9999 bytes (9.99 KB) sent, 99999 bytes (99.9 KB) received, lifetime 99:99
+bx.optimix.asia:999 open through proxy proxy.cse.cuhk.edu.hk:9999 HTTPS
+trello-logos.s9.amazonaws.com:999 open through proxy proxy.cse.cuhk.edu.hk:9999 HTTPS
+www.weibo.com:99 open through proxy proxy.cse.cuhk.edu.hk:9999 HTTPS
+999.99.99.999:999 close, 9999 bytes (9.99 KB) sent, 9999 bytes (9.99 KB) received, lifetime 99:99
+proxy.cse.cuhk.edu.hk:9999 open through proxy proxy.cse.cuhk.edu.hk:9999 HTTPS
+cpro.baidustatic.com:99 close, 9999 bytes (9.99 KB) sent, 9999 bytes (9.99 KB) received, lifetime 99:99
+proxy.cse.cuhk.edu.hk:9999 open through proxy proxy.cse.cuhk.edu.hk:9999 HTTPS
+tp9.beap.gemini.yahoo.com:999 open through proxy proxy.cse.cuhk.edu.hk:9999 HTTPS
+bolt.dropbox.com:999 open through proxy proxy.cse.cuhk.edu.hk:9999 HTTPS
+proxy.cse.cuhk.edu.hk:9999 open through proxy proxy.cse.cuhk.edu.hk:9999 HTTPS
+api.ishuhui.com:99 open through proxy proxy.cse.cuhk.edu.hk:9999 HTTPS
+auth.grammarly.com:999 open through proxy proxy.cse.cuhk.edu.hk:9999 HTTPS
+bolt.dropbox.com:999 close, 999999 bytes (99.9 KB) sent, 99999 bytes (99.9 KB) received, lifetime 99:99:99
+odr.mookie9.com:999 close, 9999 bytes (9.99 KB) sent, 9999 bytes (9.99 KB) received, lifetime 99:99
+mu9.sinaimg.cn:99 open through proxy proxy.cse.cuhk.edu.hk:9999 HTTPS
+r9---sn-9hne9n9r.googlevideo.com:999 close, 9999 bytes (9.99 KB) sent, 99999 bytes (99.9 KB) received, lifetime 99:99
+m.doublemax.net:999 open through proxy proxy.cse.cuhk.edu.hk:9999 HTTPS
+99.999.999.999:99999 error : Could not connect through proxy proxy.cse.cuhk.edu.hk:9999 - Proxy server cannot establish a connection with the target, status code 999
+passport.csdn.net:999 close, 9999 bytes (9.99 KB) sent, 9999 bytes (9.99 KB) received, lifetime 99:99
+cdn.innity.net:99 open through proxy proxy.cse.cuhk.edu.hk:9999 HTTPS
+proxy.cse.cuhk.edu.hk:9999 close, 9999 bytes (9.99 KB) sent, 999999 bytes (999 KB) received, lifetime 99:99
+tvax9.sinaimg.cn:99 close, 9999 bytes (9.99 KB) sent, 99999 bytes (99.9 KB) received, lifetime 99:99
+ping.pinyin.sogou.com:99 open through proxy proxy.cse.cuhk.edu.hk:9999 HTTPS
+wx9.sinaimg.cn:99 open through proxy proxy.cse.cuhk.edu.hk:9999 HTTPS
+www.evernote.com:999 open through proxy proxy.cse.cuhk.edu.hk:9999 HTTPS
+proxy.cse.cuhk.edu.hk:9999 close, 9999 bytes (9.99 KB) sent, 9999 bytes (9.99 KB) received, lifetime 99:99
+proxy.cse.cuhk.edu.hk:9999 close, 99999 bytes (99.9 KB) sent, 99999 bytes (99.9 KB) received, lifetime 99:99
+mtalk.google.com:999 open through proxy proxy.cse.cuhk.edu.hk:9999 HTTPS
+proxy.cse.cuhk.edu.hk:9999 open through proxy proxy.cse.cuhk.edu.hk:9999 HTTPS
+f-log-extension.grammarly.io:999 open through proxy proxy.cse.cuhk.edu.hk:9999 HTTPS
+client-cf.dropbox.com:999 open through proxy proxy.cse.cuhk.edu.hk:9999 HTTPS
+as.amanad.adtdp.com:99 close, 9999 bytes (9.99 KB) sent, 9999 bytes (9.99 KB) received, lifetime 99:99
+cidian.youdao.com:99 open through proxy proxy.cse.cuhk.edu.hk:9999 HTTPS
+client-cf.dropbox.com:999 open through proxy proxy.cse.cuhk.edu.hk:9999 HTTPS
+sstats.adobe.com:999 close, 9999 bytes (9.99 KB) sent, 9999 bytes (9.99 KB) received, lifetime 99:99

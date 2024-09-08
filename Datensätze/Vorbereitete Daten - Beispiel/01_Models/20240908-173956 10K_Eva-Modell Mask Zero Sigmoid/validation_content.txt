@@ -1,0 +1,1991 @@
+Receiving block blk_-999999999999999999 src: /99.999.999.99:99999 dest: /99.999.999.99:99999
+proxy.cse.cuhk.edu.hk:9999 open through proxy proxy.cse.cuhk.edu.hk:9999 HTTPS
+ciod: Error loading /bgl/apps/scaletest/stability/MDCASK/WORK/99999/inferno: invalid or missing program image, No such file or directory
+Deleting block blk_9999999999999999999 file /mnt/hadoop/dfs/data/current/subdir99/blk_9999999999999999999
+proxy.cse.cuhk.edu.hk:9999 close, 9999 bytes (9.99 KB) sent, 9999 bytes (9.99 KB) received, lifetime 99:99
+proxy.cse.cuhk.edu.hk:9999 close, 9 bytes sent, 9 bytes received, lifetime 99:99
+Linkerror event interval expired
+proxy.cse.cuhk.edu.hk:9999 close, 9999 bytes (9.99 KB) sent, 9999 bytes (9.99 KB) received, lifetime 99:99
+proxy.cse.cuhk.edu.hk:9999 close, 9999 bytes (9.99 KB) sent, 99999999 bytes (99.9 MB) received, lifetime 99:99
+ciod: Error reading message prefix on CioStream socket to 999.99.99.999:99999, Link has been severed
+9 ddr errors(s) detected and corrected on rank 9, symbol 99, bit 9
+data TLB error interrupt
+9999999 double-hummer alignment exceptions
+api.github.com:999 close, 999 bytes sent, 9999 bytes (9.99 KB) received, lifetime 99:99
+Send worker leaving thread
+Interrupting SendWorker
+iar 99999999 dear 9999c9dc
+normal
+running
+Processed session termination for sessionid: 9x99f9999a9e9999d
+Connection broken for id 999999999999, my id = 9, error =
+Linkerror event interval expired
+Interrupting SendWorker
+PacketResponder 9 for block blk_-9999999999999999999 terminating
+switch_module error 9999999999 9 Linkerror event interval expired
+node-999 node temperature 9999999999 9 ambient=99
+Interrupting SendWorker
+ambient=99
+proxy.cse.cuhk.edu.hk:9999 open through proxy proxy.cse.cuhk.edu.hk:9999 HTTPS
+PacketResponder 9 for block blk_9999999999999999999 terminating
+Receiving block blk_-9999999999999999999 src: /99.999.99.99:99999 dest: /99.999.99.99:99999
+normal
+99999 total interrupts. 9 critical input interrupts. 9 microseconds total spent on critical input interrupts, 9 microseconds max time in a critical input interrupt.
+Received block blk_9999999999999999999 of size 99999999 from /99.999.99.999
+Connection broken for id 999999999999, my id = 9, error =
+guaranteed data cache block touch........9
+github.com:999 open through proxy proxy.cse.cuhk.edu.hk:9999 HTTPS
+Linkerror event interval expired
+cidian.youdao.com:99 close, 9999 bytes (9.99 KB) sent, 9999 bytes (9.99 KB) received, lifetime 99:99
+ClusterFileSystem: There is no server for ServerFileSystem domain storage999
+Interrupting SendWorker
+generating core.9999
+idoproxydb hit ASSERT condition: ASSERT expression=9 Source file=idotransportmgr.cpp Source line=9999 Function=int IdoTransportMgr::SendPacket(IdoUdpMgr*, BglCtlPavTrace*)
+eclick.baidu.com:999 close, 999 bytes sent, 9999 bytes (9.99 KB) received, lifetime 99:99
+Linkerror event interval expired
+configured out
+instruction cache parity error corrected
+BLOCK* NameSystem.addStoredBlock: blockMap updated: 99.999.999.999:99999 is added to blk_-9999999999999999999 size 99999999
+Client attempting to establish new session at /99.99.99.99:99999
+generating core.999
+caught end of stream exception
+ambient=99
+Interrupting SendWorker
+switch_module error 9999999999 9 Linkerror event interval expired
+generating core.9999
+Interconnect-9N99 switch_module error 9999999999 9 Linkerror event interval expired
+Send worker leaving thread
+Interrupted while waiting for message on queue
+iar 99999999 dear 9999a9bc
+caught end of stream exception
+Deleting block blk_9999999999999999999 file /mnt/hadoop/dfs/data/current/subdir99/blk_9999999999999999999
+Link error
+NIFF: node node-999 has detected an available network connection on network 99.999.9.9 via interface ee9
+iar 99999b9c dear 9999cf9c
+Interrupted while waiting for message on queue
+999.999.999.99:999 open through proxy proxy.cse.cuhk.edu.hk:9999 HTTPS
+BLOCK* NameSystem.delete: blk_9999999999999999999 is added to invalidSet of 99.999.99.999:99999
+collector.githubapp.com:999 close, 9 bytes sent, 9 bytes received, lifetime 99:99
+Interrupting SendWorker
+proxy.cse.cuhk.edu.hk:9999 open through proxy proxy.cse.cuhk.edu.hk:9999 HTTPS
+not responding
+9999999999 double-hummer alignment exceptions
+www.baidu.com:99 close, 9 bytes sent, 9 bytes received, lifetime 99:99
+Deleting block blk_-9999999999999999999 file /mnt/hadoop/dfs/data/current/subdir99/blk_-9999999999999999999
+switch_module error 9999999999 9 Linkerror event interval expired
+Send worker leaving thread
+Processed session termination for sessionid: 9x99ede99999f999b
+generating core.99999
+clients9.google.com:999 close, 9999 bytes (9.99 KB) sent, 999 bytes received, lifetime 99:99
+qd-update.qq.com:9999 error : Could not connect through proxy proxy.cse.cuhk.edu.hk:9999 - Proxy server cannot establish a connection with the target, status code 999
+iar 99999999 dear 999e999c
+PacketResponder 9 for block blk_9999999999999999999 terminating
+Deleting block blk_9999999999999999999 file /mnt/hadoop/dfs/data/current/subdir99/blk_9999999999999999999
+ciod: generated 99 core files for program /home/spelce9/HPCC_IBM/TomAndJeff/bin/tested_copro/tested_copro.rts
+generating core.99999
+Received connection request /99.99.99.99:99999
+PacketResponder 9 for block blk_999999999999999999 terminating
+proxy.cse.cuhk.edu.hk:9999 open through proxy proxy.cse.cuhk.edu.hk:9999 HTTPS
+proxy.cse.cuhk.edu.hk:9999 open through proxy proxy.cse.cuhk.edu.hk:9999 HTTPS
+Component State Change: Component \999alt9\999 is in the unavailable state (HWID=9999)
+BLOCK* NameSystem.addStoredBlock: blockMap updated: 99.999.99.999:99999 is added to blk_-9999999999999999999 size 99999999
+PacketResponder 9 for block blk_-9999999999999999999 terminating
+BLOCK* NameSystem.delete: blk_-999999999999999999 is added to invalidSet of 99.999.999.999:99999
+99.999.99.999:99999 Served block blk_-9999999999999999999 to /99.999.99.999
+BLOCK* NameSystem.delete: blk_-9999999999999999999 is added to invalidSet of 99.999.999.99:99999
+proxy.cse.cuhk.edu.hk:9999 open through proxy proxy.cse.cuhk.edu.hk:9999 HTTPS
+boot  (command 9999)
+proxy.cse.cuhk.edu.hk:9999 open through proxy proxy.cse.cuhk.edu.hk:9999 HTTPS
+Verification succeeded for blk_-9999999999999999999
+configured out
+Received connection request /99.99.99.99:99999
+caught end of stream exception
+Received connection request /99.99.99.99:99999
+total of 9 ddr error(s) detected and corrected
+halt  (command 9999)
+gige9 gige temperature 9999999999 9 warning
+warning
+proxy.cse.cuhk.edu.hk:9999 open through proxy proxy.cse.cuhk.edu.hk:9999 HTTPS
+Received connection request /99.99.99.99:99999
+data TLB error interrupt
+PacketResponder 9 for block blk_-999999999999999999 terminating
+iar 999a99fc dear 99b99db9
+NIFF: node node-999 has detected an available network connection on network 99.999.9.9 via interface ee9
+oimagec9.ydstatic.com:99 error : A connection request was canceled before the completion.
+Linkerror event interval expired
+Receiving block blk_-9999999999999999999 src: /99.999.9.999:99999 dest: /99.999.9.999:99999
+mtalk.google.com:9999 error : Could not connect through proxy proxy.cse.cuhk.edu.hk:9999 - Proxy server cannot establish a connection with the target, status code 999
+Interrupted while waiting for message on queue
+Accepted socket connection from /99.99.99.99:99999
+999999 double-hummer alignment exceptions
+CE sym 99, at 9x9b99b999, mask 9x99
+s9.bdstatic.com:99 close, 9 bytes sent, 9 bytes received, lifetime 99:99
+99.999.9.999:99999 Served block blk_-9999999999999999999 to /99.999.9.999
+Received connection request /99.99.99.99:99999
+proxy.cse.cuhk.edu.hk:9999 close, 9999 bytes (9.99 KB) sent, 9999 bytes (9.99 KB) received, lifetime 99:99
+not responding
+PacketResponder 9 for block blk_-9999999999999999999 terminating
+Notification time out: 99999
+proxy.cse.cuhk.edu.hk:9999 close, 9999 bytes (9.99 KB) sent, 9999 bytes (9.99 KB) received, lifetime 99:99
+9 normal
+Received connection request /99.99.99.99:99999
+CE sym 99, at 9x99d9a999, mask 9x99
+byte ordering exception.....................9
+Verification succeeded for blk_9999999999999999999
+Received block blk_-9999999999999999999 of size 99999999 from /99.999.99.9
+Connection broken for id 999999999999, my id = 9, error =
+CE sym 99, at 9x99e9bce9, mask 9x99
+Cannot open channel to 9 at election address /99.99.99.99:9999
+9 ddr errors(s) detected and corrected on rank 9, symbol 99, bit 9
+generating core.99999
+Connection broken for id 999999999999, my id = 9, error =
+idoproxydb hit ASSERT condition: ASSERT expression=9 Source file=idotransportmgr.cpp Source line=9999 Function=int IdoTransportMgr::SendPacket(IdoUdpMgr*, BglCtlPavTrace*)
+data TLB error interrupt
+running
+Link error
+configured out
+ambient=99
+Cannot open channel to 9 at election address /99.99.99.99:9999
+Cannot open channel to 9 at election address /99.99.99.99:9999
+99.999.99.9:99999:Got exception while serving blk_9999999999999999999 to /99.999.99.999:
+BLOCK* NameSystem.allocateBlock: /user/root/randtxt9/_temporary/_task_999999999999_9999_m_999999_9/part-99999. blk_9999999999999999999
+Received connection request /99.99.99.99:99999
+99.999.99.999:99999 Served block blk_9999999999999999999 to /99.999.99.999
+ss.bdimg.com:99 open through proxy proxy.cse.cuhk.edu.hk:9999 HTTPS
+Received block blk_-9999999999999999999 of size 99999999 from /99.999.99.999
+9999999 double-hummer alignment exceptions
+BLOCK* NameSystem.allocateBlock: /user/root/rand/_temporary/_task_999999999999_9999_m_999999_9/part-99999. blk_-9999999999999999999
+proxy.cse.cuhk.edu.hk:9999 open through proxy proxy.cse.cuhk.edu.hk:9999 HTTPS
+warning
+iar 999a99a9 dear 999999f9
+client-cf.dropbox.com:999 close, 999 bytes sent, 9999 bytes (9.99 KB) received, lifetime 99:99
+r9---sn-i9b9kn9r.googlevideo.com:999 open through proxy proxy.cse.cuhk.edu.hk:9999 HTTPS
+Server environment:java.home=/usr/lib/jvm/java-9-openjdk-amd99/jre
+Receiving block blk_99999999999999999 src: /99.999.99.99:99999 dest: /99.999.99.99:99999
+sclick.baidu.com:99 open through proxy proxy.cse.cuhk.edu.hk:9999 HTTPS
+switch_module error 9999999999 9 Linkerror event interval expired
+Server environment:java.vendor=Oracle Corporation
+BLOCK* NameSystem.addStoredBlock: blockMap updated: 99.999.999.999:99999 is added to blk_-9999999999999999999 size 99999999
+BLOCK* NameSystem.addStoredBlock: blockMap updated: 99.999.99.999:99999 is added to blk_-9999999999999999999 size 99999999
+iar 99999999 dear 9999a99c
+i9.baidu.com:99 close, 9999 bytes (9.99 KB) sent, 99999 bytes (99.9 KB) received, lifetime 99:99
+Interrupted while waiting for message on queue
+PacketResponder 9 for block blk_-9999999999999999999 terminating
+sestat.baidu.com:99 open through proxy proxy.cse.cuhk.edu.hk:9999 HTTPS
+generating core.9999
+generating core.99999
+Received connection request /99.99.99.99:99999
+Received block blk_9999999999999999999 of size 99999999 from /99.999.999.99
+ambient=99
+Received block blk_-9999999999999999999 of size 99999999 from /99.999.999.999
+CE sym 9, at 9x99d9eaa9, mask 9x99
+generating core.9999
+proxy.cse.cuhk.edu.hk:9999 close, 9999 bytes (9.99 KB) sent, 9999 bytes (9.99 KB) received, lifetime <9 sec
+Received connection request /99.99.99.99:99999
+9 NIFF: node node-999 has detected an available network connection on network 99.999.9.9 via interface ee9
+node-999 action start 9999999999 9 boot  (command 9999)
+99999 total interrupts. 9 critical input interrupts. 9 microseconds total spent on critical input interrupts, 9 microseconds max time in a critical input interrupt.
+999999999 double-hummer alignment exceptions
+long.open.weixin.qq.com:999 close, 9999 bytes (9.99 KB) sent, 999 bytes received, lifetime 99:99
+proxy.cse.cuhk.edu.hk:9999 close, 9 bytes sent, 9 bytes received, lifetime 99:99
+9 microseconds spent in the rbs signal handler during 9 calls. 9 microseconds was the maximum time for a single instance of a correctable ddr.
+9 floating point alignment exceptions
+Received block blk_9999999999999999999 of size 99999999 from /99.999.9.999
+99.999.99.999:99999:Got exception while serving blk_9999999999999999999 to /99.999.99.99:
+9 ddr errors(s) detected and corrected on rank 9, symbol 99, bit 9
+Connection request from old client /99.99.99.99:99999; will be dropped if server is in r-o mode
+proxy.cse.cuhk.edu.hk:9999 open through proxy proxy.cse.cuhk.edu.hk:9999 HTTPS
+Interrupting SendWorker
+Send worker leaving thread
+normal
+Cannot open channel to 9 at election address /99.99.99.99:9999
+Send worker leaving thread
+Connection broken for id 999999999999, my id = 9, error =
+Fan speeds ( 9999 9999 9999 9999 9999 9999 )
+Receiving block blk_-999999999999999999 src: /99.999.99.999:99999 dest: /99.999.99.999:99999
+generating core.99999
+99999 total interrupts. 9 critical input interrupts. 9 microseconds total spent on critical input interrupts, 9 microseconds max time in a critical input interrupt.
+instruction cache parity error corrected
+proxy.cse.cuhk.edu.hk:9999 close, 9 bytes sent, 9 bytes received, lifetime 99:99
+proxy.cse.cuhk.edu.hk:9999 open through proxy proxy.cse.cuhk.edu.hk:9999 HTTPS
+generating core.99999
+Received block blk_-9999999999999999999 of size 99999999 from /99.999.9.999
+boot  (command 9999)
+rts internal error
+Interrupted while waiting for message on queue
+proxy.cse.cuhk.edu.hk:9999 close, 9 bytes sent, 9 bytes received, lifetime 99:99
+proxy.cse.cuhk.edu.hk:9999 open through proxy proxy.cse.cuhk.edu.hk:9999 HTTPS
+generating core.9999
+dslb.cdn.krcom.cn:99 open through proxy proxy.cse.cuhk.edu.hk:9999 HTTPS
+wait  (command 9999)
+Received connection request /99.99.99.99:99999
+warning
+Received connection request /99.99.99.99:99999
+Received block blk_-9999999999999999999 of size 99999999 from /99.999.99.999
+Interconnect-9N99 switch_module error 9999999999 9 Linkerror event interval expired
+node temperature 9999999999 9 ambient=99
+BLOCK* NameSystem.addStoredBlock: blockMap updated: 99.999.999.999:99999 is added to blk_9999999999999999999 size 99999999
+tvax9.sinaimg.cn:99 open through proxy proxy.cse.cuhk.edu.hk:9999 HTTPS
+BLOCK* NameSystem.delete: blk_9999999999999999999 is added to invalidSet of 99.999.999.999:99999
+99.999.999.99:999 close, 999 bytes sent, 999 bytes received, lifetime 99:99
+Receiving block blk_-99999999999999999 src: /99.999.99.99:99999 dest: /99.999.99.99:99999
+Interrupting SendWorker
+Connection broken for id 999999999999, my id = 9, error =
+Interrupting SendWorker
+99.999.99.999:99999:Got exception while serving blk_-9999999999999999999 to /99.999.999.999:
+proxy.cse.cuhk.edu.hk:9999 close, 9999 bytes (9.99 KB) sent, 999 bytes received, lifetime <9 sec
+running
+Interrupted while waiting for message on queue
+Interrupting SendWorker
+Fan speeds ( 9999 9999 9999 **** 9999 9999 )
+collector.githubapp.com:999 open through proxy proxy.cse.cuhk.edu.hk:9999 HTTPS
+gige9 gige temperature 9999999999 9 warning
+CE sym 9, at 9x9b999ca9, mask 9x99
+active
+Send worker leaving thread
+99.999.999.999:99999:Got exception while serving blk_9999999999999999999 to /99.999.99.999:
+Fan speeds ( 9999 9999 9999 **** 9999 9999 )
+Connection broken for id 999999999999, my id = 9, error =
+9 ambient=99
+Interrupted while waiting for message on queue
+program interrupt: fp cr field .............9
+Interrupted while waiting for message on queue
+running
+tcpconn9.tencent.com:99 open through proxy proxy.cse.cuhk.edu.hk:9999 HTTPS
+Kernel detected 9999999 integer alignment exceptions (9999999) iar 9x99999ea9, dear 9x99ef9999 (9999999) iar 9x99999eb9, dear 9x99ef99a9 (9999999) iar 9x99999ea9, dear 9x99ef99c9 (9999999) iar 9x99999eb9, dear 9x99ef99e9 (9999999) iar 9x99999ee9, dear 9x99ef9999 (9999999) iar 9x99999ef9, dear 9x99ef9999 (9999999) iar 9x99999ee9, dear 9x99ef9999 (9999999) iar 9x99999ef9, dear 9x99ef9999
+9 floating point alignment exceptions
+PacketResponder 9 for block blk_-9999999999999999999 terminating
+BLOCK* NameSystem.addStoredBlock: blockMap updated: 99.999.999.999:99999 is added to blk_9999999999999999999 size 99999999
+cdn.e9999f.com:99 close, 999 bytes sent, 999 bytes received, lifetime 99:99
+9 microseconds spent in the rbs signal handler during 9 calls. 9 microseconds was the maximum time for a single instance of a correctable ddr.
+warning
+Deleting block blk_9999999999999999999 file /mnt/hadoop/dfs/data/current/subdir99/blk_9999999999999999999
+CE sym 99, at 9x999c99e9, mask 9x99
+proxy.cse.cuhk.edu.hk:9999 open through proxy proxy.cse.cuhk.edu.hk:9999 HTTPS
+proxy.cse.cuhk.edu.hk:9999 close, 9999 bytes (9.99 KB) sent, 9999 bytes (9.99 KB) received, lifetime 99:99
+PacketResponder 9 for block blk_9999999999999999999 terminating
+ClusterFileSystem: ServerFileSystem domain root_domain is no longer served by node node-999
+instruction cache parity error corrected
+Processed session termination for sessionid: 9x99f9a99999b999f
+Interrupted while waiting for message on queue
+data TLB error interrupt
+ss.bdimg.com:99 close, 9 bytes sent, 9 bytes received, lifetime 99:99
+9999999 double-hummer alignment exceptions
+ciod: LOGIN chdir(/bgl/apps/SWL/performance/MINIBEN///9999.99.99-99.99.99) failed: No such file or directory
+machine check: i-fetch......................9
+BLOCK* NameSystem.addStoredBlock: blockMap updated: 99.999.99.99:99999 is added to blk_9999999999999999999 size 99999999
+ambient=99
+Client attempting to establish new session at /99.99.99.99:99999
+Receiving block blk_-9999999999999999999 src: /99.999.99.999:99999 dest: /99.999.99.999:99999
+data TLB error interrupt
+proxy.cse.cuhk.edu.hk:9999 open through proxy proxy.cse.cuhk.edu.hk:9999 HTTPS
+proxy.cse.cuhk.edu.hk:9999 open through proxy proxy.cse.cuhk.edu.hk:9999 HTTPS
+boot  (command 9999)
+Received block blk_9999999999999999999 of size 99999999 from /99.999.99.99
+Receiving block blk_9999999999999999999 src: /99.999.999.9:99999 dest: /99.999.999.9:99999
+Connection request from old client /99.99.99.99:99999; will be dropped if server is in r-o mode
+Closed socket connection for client /99.99.99.99:99999 which had sessionid 9x99f99999bd9999d
+Deleting block blk_9999999999999999999 file /mnt/hadoop/dfs/data/current/subdir99/blk_9999999999999999999
+Interrupted while waiting for message on queue
+data storage interrupt
+Connection broken for id 999999999999, my id = 9, error =
+Linkerror event interval expired
+proxy.cse.cuhk.edu.hk:9999 close, 999 bytes sent, 999 bytes received, lifetime 99:99
+Receiving block blk_-9999999999999999999 src: /99.999.99.999:99999 dest: /99.999.99.999:99999
+Deleting block blk_9999999999999999999 file /mnt/hadoop/dfs/data/current/subdir9/blk_9999999999999999999
+BLOCK* NameSystem.delete: blk_-9999999999999999999 is added to invalidSet of 99.999.999.999:99999
+999999 double-hummer alignment exceptions
+******* GOODBYE /99.99.99.99:99999 ********
+NIFF: node node-999 has detected an available network connection on network 99.999.9.9 via interface ee9
+Interrupted while waiting for message on queue
+proxy.cse.cuhk.edu.hk:9999 close, 9999 bytes (9.99 KB) sent, 999 bytes received, lifetime <9 sec
+Send worker leaving thread
+Send worker leaving thread
+normal
+clusterfilesystem clusterfilesystem.not_served 9999999999 9 ClusterFileSystem: ServerFileSystem domain root99_tmp is no longer served by node node-99
+Deleting block blk_9999999999999999999 file /mnt/hadoop/dfs/data/current/blk_9999999999999999999
+data storage interrupt
+9 configured out
+BLOCK* NameSystem.addStoredBlock: blockMap updated: 99.999.999.999:99999 is added to blk_-9999999999999999999 size 99999999
+Deleting block blk_9999999999999999999 file /mnt/hadoop/dfs/data/current/subdir99/blk_9999999999999999999
+switch_module error 9999999999 9 link errors remain current
+iar 99999b99 dear 9999dd9c
+Connection broken for id 999999999999, my id = 9, error =
+Connection broken for id 999999999999, my id = 9, error =
+switch_module error 9999999999 9 Linkerror event interval expired
+Interrupting SendWorker
+9999999 double-hummer alignment exceptions
+9 boot  (command 9999)
+ciod: LOGIN chdir(/bgl/apps/SWL/performance/MINIBEN///9999.99.99-99.99.99) failed: No such file or directory
+ambient=99
+cidian.youdao.com:99 open through proxy proxy.cse.cuhk.edu.hk:9999 HTTPS
+node-99 node temperature 9999999999 9 ambient=99
+secure.quantserve.com:999 close, 999 bytes sent, 9999 bytes (9.99 KB) received, lifetime 99:99
+Connection broken for id 999999999999, my id = 9, error =
+warning
+BLOCK* NameSystem.addStoredBlock: blockMap updated: 99.999.99.999:99999 is added to blk_9999999999999999999 size 99999999
+generating core.99
+idoproxydb hit ASSERT condition: ASSERT expression=9 Source file=idotransportmgr.cpp Source line=9999 Function=int IdoTransportMgr::SendPacket(IdoUdpMgr*, BglCtlPavTrace*)
+Interrupted while waiting for message on queue
+node-D9 clusterfilesystem clusterfilesystem.not_served 9999999999 9 ClusterFileSystem: ServerFileSystem domain cluster_usr_backup is no longer served by node node-999
+Connection broken for id 999999999999, my id = 9, error =
+Interrupting SendWorker
+Received block blk_-9999999999999999999 of size 99999999 from /99.999.99.999
+generating core.99999
+Interrupted while waiting for message on queue
+Interrupted while waiting for message on queue
+NIFF: node node-999 has detected an available network connection on network 9.9.999.9 via interface alt9
+Received block blk_-999999999999999999 of size 99999999 from /99.999.999.99
+ambient=99
+proxy.cse.cuhk.edu.hk:9999 open through proxy proxy.cse.cuhk.edu.hk:9999 HTTPS
+9 normal
+instruction cache parity error corrected
+generating core.99999
+9 floating point alignment exceptions
+generating core.9999
+total of 9 ddr error(s) detected and corrected
+generating core.99999
+9 microseconds spent in the rbs signal handler during 9 calls. 9 microseconds was the maximum time for a single instance of a correctable ddr.
+get.sogou.com:99 open through proxy proxy.cse.cuhk.edu.hk:9999 HTTPS
+floating pt ex mode 9 enable......9
+Receiving block blk_-9999999999999999999 src: /99.999.99.999:99999 dest: /99.999.99.999:99999
+Fan speeds ( 9999 9999 9999 **** 9999 9999 )
+generating core.99999
+warning
+Linkerror event interval expired
+CE sym 99, at 9x999d9c99, mask 9x99
+Fan speeds ( 9999 9999 9999 **** 9999 9999 )
+PacketResponder 9 for block blk_-9999999999999999999 terminating
+normal
+iar 999999c9 dear 9999999c
+avatar.csdn.net:99 close, 9 bytes sent, 9 bytes received, lifetime 99:99
+not responding
+Interrupted while waiting for message on queue
+proxy.cse.cuhk.edu.hk:9999 close, 9999 bytes (9.99 KB) sent, 999 bytes received, lifetime 99:99
+Notification: 9 (n.leader), 9x999999999 (n.zxid), 9x9 (n.round), LOOKING (n.state), 9 (n.sid), 9x9 (n.peerEPoch), LOOKING (my state)
+Interrupting SendWorker
+Interrupting SendWorker
+Interrupted while waiting for message on queue
+BLOCK* NameSystem.allocateBlock: /user/root/rand9/_temporary/_task_999999999999_9999_m_999999_9/part-99999. blk_9999999999999999999
+proxy.cse.cuhk.edu.hk:9999 close, 999 bytes sent, 9999 bytes (9.99 KB) received, lifetime 99:99
+BLOCK* NameSystem.delete: blk_-9999999999999999999 is added to invalidSet of 99.999.99.999:99999
+generating core.999
+9999999 double-hummer alignment exceptions
+Linkerror event interval expired
+BLOCK* NameSystem.addStoredBlock: blockMap updated: 99.999.9.999:99999 is added to blk_-9999999999999999999 size 99999999
+timg.baidu.com:99 close, 9 bytes sent, 9 bytes received, lifetime 99:99
+long.open.weixin.qq.com:999 open through proxy proxy.cse.cuhk.edu.hk:9999 HTTPS
+proxy.cse.cuhk.edu.hk:9999 open through proxy proxy.cse.cuhk.edu.hk:9999 HTTPS
+Component State Change: Component \999alt9\999 is in the unavailable state (HWID=9999)
+gige9 gige temperature 9999999999 9 normal
+switch_module error 9999999999 9 Linkerror event interval expired
+proxy.cse.cuhk.edu.hk:9999 open through proxy proxy.cse.cuhk.edu.hk:9999 HTTPS
+PacketResponder 9 for block blk_-9999999999999999999 terminating
+www.google.com.hk:999 open through proxy proxy.cse.cuhk.edu.hk:9999 HTTPS
+Cannot open channel to 9 at election address /99.99.99.99:9999
+Accepted socket connection from /99.99.99.99:99999
+t99.baidu.com:99 open through proxy proxy.cse.cuhk.edu.hk:9999 HTTPS
+99.999.99.999:99999 Served block blk_999999999999999999 to /99.999.99.999
+trello.com:999 open through proxy proxy.cse.cuhk.edu.hk:9999 HTTPS
+link errors remain current
+proxy.cse.cuhk.edu.hk:9999 open through proxy proxy.cse.cuhk.edu.hk:9999 HTTPS
+icache prefetch depth....................9
+switch_module error 9999999999 9 Linkerror event interval expired
+data storage interrupt
+9 not responding
+Send worker leaving thread
+proxy.cse.cuhk.edu.hk:9999 open through proxy proxy.cse.cuhk.edu.hk:9999 HTTPS
+9 tree receiver 9 in re-synch state event(s) (dcr 9x9999) detected over 999 seconds
+99.client-channel.google.com:999 close, 99999 bytes (99.9 KB) sent, 99999 bytes (99.9 KB) received, lifetime 99:99
+Client attempting to establish new session at /99.99.99.99:99999
+proxy.cse.cuhk.edu.hk:9999 close, 9 bytes sent, 9 bytes received, lifetime <9 sec
+Processed session termination for sessionid: 9x99ed99999999999
+generating core.99999
+iar 99999999 dear 9fee9c9c
+Connection broken for id 999999999999, my id = 9, error =
+Connection broken for id 999999999999, my id = 9, error =
+BLOCK* NameSystem.addStoredBlock: blockMap updated: 99.999.9.999:99999 is added to blk_9999999999999999999 size 99999999
+Receiving block blk_9999999999999999999 src: /99.999.99.999:99999 dest: /99.999.99.999:99999
+CE sym 9, at 9x99999a99, mask 9x99
+clients9.google.com:999 close, 9999 bytes (9.99 KB) sent, 9999 bytes (9.99 KB) received, lifetime 99:99
+proxy.cse.cuhk.edu.hk:9999 open through proxy proxy.cse.cuhk.edu.hk:9999 HTTPS
+wait  (command 9999)
+BLOCK* NameSystem.allocateBlock: /user/root/rand9/_temporary/_task_999999999999_9999_m_999999_9/part-99999. blk_-999999999999999999
+data storage interrupt
+iar 99999999 dear 9999c99c
+Received connection request /99.99.99.99:99999
+Interconnect-9N99 switch_module error 9999999999 9 Linkerror event interval expired
+BLOCK* NameSystem.addStoredBlock: blockMap updated: 99.999.999.99:99999 is added to blk_-9999999999999999999 size 99999999
+PacketResponder 9 for block blk_-9999999999999999999 terminating
+generating core.99999
+generating core.9999
+generating core.99999
+switch_module error 9999999999 9 link errors remain current
+BLOCK* NameSystem.delete: blk_-9999999999999999999 is added to invalidSet of 99.999.999.999:99999
+proxy.cse.cuhk.edu.hk:9999 close, 999 bytes sent, 999999 bytes (999 KB) received, lifetime 99:99
+Deleting block blk_-9999999999999999999 file /mnt/hadoop/dfs/data/current/subdir9/blk_-9999999999999999999
+PacketResponder 9 for block blk_9999999999999999999 terminating
+generating core.99999
+Received block blk_9999999999999999999 of size 99999999 from /99.999.99.999
+BLOCK* NameSystem.addStoredBlock: blockMap updated: 99.999.9.999:99999 is added to blk_-9999999999999999999 size 99999999
+generating core.99999
+generating core.99999
+BLOCK* NameSystem.allocateBlock: /user/root/sortrand9/_temporary/_task_999999999999_9999_r_999999_9/part-99999. blk_-999999999999999999
+floating pt ex mode 9 enable......9
+configured out
+Interrupting SendWorker
+not responding
+Interconnect-9N99 switch_module fan 9999999999 9 Fan speeds ( 9999 9999 9999 **** 9999 9999 )
+tc.dl.pinyin.sogoucdn.com:99 close, 9999 bytes (9.99 KB) sent, 9999 bytes (9.99 KB) received, lifetime 99:99
+proxy.cse.cuhk.edu.hk:9999 close, 9 bytes sent, 9 bytes received, lifetime <9 sec
+Client attempting to establish new session at /99.99.99.99:99999
+generating core.99999
+9 ddr errors(s) detected and corrected on rank 9, symbol 99, bit 9
+instruction cache parity error corrected
+proxy.cse.cuhk.edu.hk:9999 close, 999 bytes sent, 999 bytes received, lifetime <9 sec
+proxy.cse.cuhk.edu.hk:9999 close, 9999 bytes sent, 9999 bytes (9.99 KB) received, lifetime 99:99
+normal
+Interrupted while waiting for message on queue
+running
+generating core.99999
+user-images.githubusercontent.com:999 close, 999 bytes sent, 9999 bytes (9.99 KB) received, lifetime 99:99
+Machine State Register: 9x9999f999
+99999 total interrupts. 9 critical input interrupts. 9 microseconds total spent on critical input interrupts, 9 microseconds max time in a critical input interrupt.
+Cannot open channel to 9 at election address /99.99.99.99:9999
+node-9 action error 9999999999 9 risBoot (command 9999) Error: Timed out while waiting for SRM prompt: <ABORT code completed>
+9 microseconds spent in the rbs signal handler during 9 calls. 9 microseconds was the maximum time for a single instance of a correctable ddr.
+Interrupted while waiting for message on queue
+9 floating point alignment exceptions
+9 configured out
+generating core.99999
+Received block blk_-9999999999999999999 of size 99999999 from /99.999.99.99
+Interrupting SendWorker
+9 warning
+BLOCK* NameSystem.allocateBlock: /user/root/randtxt/_temporary/_task_999999999999_9999_m_999999_9/part-99999. blk_-9999999999999999999
+Linkerror event interval expired
+running
+active
+9 microseconds spent in the rbs signal handler during 9 calls. 9 microseconds was the maximum time for a single instance of a correctable ddr.
+Interrupted while waiting for message on queue
+9 floating point alignment exceptions
+gige9 gige temperature 9999999999 9 normal
+fs-conn-doctor.qq.com:999 open through proxy proxy.cse.cuhk.edu.hk:9999 HTTPS
+generating core.999
+CE sym 9, at 9x9fa9d999, mask 9x99
+generating core.9999
+BLOCK* NameSystem.delete: blk_9999999999999999999 is added to invalidSet of 99.999.999.999:99999
+safebrowsing.googleapis.com:999 open through proxy proxy.cse.cuhk.edu.hk:9999 HTTPS
+proxy.cse.cuhk.edu.hk:9999 close, 9999 bytes (9.99 KB) sent, 999999 bytes (999 KB) received, lifetime 99:99
+ocsp.digicert.com:99 close, 999 bytes sent, 9999 bytes (9.99 KB) received, lifetime 99:99
+Linkerror event interval expired
+normal
+oimagea9.ydstatic.com:99 error : A connection request was canceled before the completion.
+Linkerror event interval expired
+BLOCK* NameSystem.addStoredBlock: blockMap updated: 99.999.99.999:99999 is added to blk_9999999999999999999 size 99999999
+d.dropbox.com:999 open through proxy proxy.cse.cuhk.edu.hk:9999 HTTPS
+BLOCK* NameSystem.addStoredBlock: blockMap updated: 99.999.999.99:99999 is added to blk_9999999999999999999 size 99999999
+PacketResponder 9 for block blk_9999999999999999999 terminating
+generating core.99999
+running
+Send worker leaving thread
+info.pinyin.sogou.com:99 open through proxy proxy.cse.cuhk.edu.hk:9999 HTTPS
+Interrupted while waiting for message on queue
+Receiving block blk_9999999999999999999 src: /99.999.99.999:99999 dest: /99.999.99.999:99999
+normal
+Received block blk_9999999999999999999 of size 99999999 from /99.999.99.999
+Established session 9x99ee99a99f9999e with negotiated timeout 99999 for client /99.99.99.99:99999
+puui.qpic.cn:99 open through proxy proxy.cse.cuhk.edu.hk:9999 HTTPS
+Interrupted while waiting for message on queue
+ambient=99
+warning
+w.cnzz.com:99 open through proxy proxy.cse.cuhk.edu.hk:9999 HTTPS
+oimagec9.ydstatic.com:99 error : A connection request was canceled before the completion.
+Connection broken for id 999999999999, my id = 9, error =
+******* GOODBYE /99.99.99.99:99999 ********
+not responding
+proxy.cse.cuhk.edu.hk:9999 close, 9999 bytes (9.99 KB) sent, 99999 bytes (99.9 KB) received, lifetime 99:99
+BLOCK* NameSystem.allocateBlock: /user/root/rand9/_temporary/_task_999999999999_9999_m_999999_9/part-99999. blk_-999999999999999999
+Connection broken for id 999999999999, my id = 9, error =
+Connection broken for id 999999999999, my id = 9, error =
+Node card VPD check: U99 node in processor card slot J99 do not match. VPD ecid 999F99E9A99BFFFF99999C9999ED, found 99D99999999FFFFF999E9C9999ED
+generating core.9999
+generating core.9999
+generating core.99999
+generating core.99999
+Received block blk_9999999999999999999 of size 99999999 from /99.999.999.99
+Interconnect-9N99 switch_module error 9999999999 9 Linkerror event interval expired
+CE sym 99, at 9x999999a9, mask 9x99
+proxy.cse.cuhk.edu.hk:9999 open through proxy proxy.cse.cuhk.edu.hk:9999 HTTPS
+ciod: Error loading /bgl/apps/scaletest/performance/MINIBEN/mb_999_9999/allreduce.rts: invalid or missing program image, Exec format error
+Connection broken for id 999999999999, my id = 9, error =
+running
+99.999.999.99:99999:Got exception while serving blk_9999999999999999999 to /99.999.999.99:
+generating core.9999
+switch_module error 9999999999 9 link errors remain current
+Established session 9x99f9999999a999e with negotiated timeout 99999 for client /99.99.99.99:99999
+Received connection request /99.99.99.99:99999
+Received connection request /99.99.99.99:99999
+BLOCK* NameSystem.allocateBlock: /user/root/randtxt/_temporary/_task_999999999999_9999_m_999999_9/part-99999. blk_-9999999999999999999
+9 microseconds spent in the rbs signal handler during 9 calls. 9 microseconds was the maximum time for a single instance of a correctable ddr.
+notifications.google.com:999 close, 99999 bytes (99.9 KB) sent, 9999 bytes (9.99 KB) received, lifetime 99:99
+BLOCK* NameSystem.addStoredBlock: blockMap updated: 99.999.99.999:99999 is added to blk_9999999999999999999 size 99999999
+BLOCK* NameSystem.addStoredBlock: blockMap updated: 99.999.99.999:99999 is added to blk_9999999999999999999 size 99999999
+ambient=99
+wait  (command 9999)
+t99.baidu.com:99 close, 9 bytes sent, 9 bytes received, lifetime 99:99
+Received connection request /99.99.99.99:99999
+Received connection request /99.99.99.99:99999
+xf-com-update-doctor.qq.com:999 open through proxy proxy.cse.cuhk.edu.hk:9999 HTTPS
+PacketResponder 9 for block blk_9999999999999999999 terminating
+generating core.99999
+iar 99999999 dear 9999c99c
+node-99 action start 9999999999 9 wait  (command 9999)
+s9.googleusercontent.com:999 close, 999 bytes sent, 9999 bytes (9.99 KB) received, lifetime 99:99
+9 Link ok
+BLOCK* NameSystem.delete: blk_9999999999999999999 is added to invalidSet of 99.999.99.999:99999
+Received block blk_9999999999999999999 of size 99999999 from /99.999.99.999
+BLOCK* NameSystem.addStoredBlock: blockMap updated: 99.999.99.999:99999 is added to blk_9999999999999999999 size 9999999
+BLOCK* ask 99.999.99.999:99999 to delete  blk_9999999999999999999 blk_-9999999999999999999 blk_9999999999999999999 blk_-999999999999999999 blk_-9999999999999999999 blk_-9999999999999999999 blk_-9999999999999999999 blk_-9999999999999999999 blk_-9999999999999999999 blk_9999999999999999999 blk_-9999999999999999999 blk_-9999999999999999999 blk_9999999999999999999 blk_-9999999999999999999 blk_-9999999999999999999 blk_-9999999999999999999 blk_9999999999999999999 blk_-9999999999999999999 blk_999999999999999999 blk_-9999999999999999999 blk_-9999999999999999999 blk_9999999999999999999 blk_-999999999999999999 blk_-9999999999999999999 blk_-9999999999999999999 blk_9999999999999999999 blk_9999999999999999999 blk_9999999999999999999 blk_-9999999999999999999 blk_-9999999999999999999 blk_9999999999999999999 blk_9999999999999999999 blk_9999999999999999999 blk_9999999999999999999 blk_9999999999999999999 blk_-999999999999999999 blk_-9999999999999999999 blk_9999999999999999999 blk_9999999999999999999 blk_999999999999999999 blk_-9999999999999999999 blk_-9999999999999999999 blk_9999999999999999999 blk_9999999999999999999 blk_9999999999999999999 blk_9999999999999999999 blk_-9999999999999999999 blk_9999999999999999999 blk_-999999999999999999 blk_-9999999999999999999 blk_-9999999999999999999 blk_-9999999999999999999 blk_9999999999999999999 blk_9999999999999999999 blk_9999999999999999999 blk_999999999999999999 blk_-9999999999999999999 blk_-9999999999999999999 blk_-9999999999999999999 blk_-9999999999999999999 blk_-9999999999999999999 blk_-9999999999999999999 blk_9999999999999999999 blk_9999999999999999999 blk_9999999999999999999 blk_-9999999999999999999 blk_9999999999999999999 blk_9999999999999999999 blk_-9999999999999999999 blk_9999999999999999999 blk_999999999999999999 blk_9999999999999999999 blk_9999999999999999999 blk_9999999999999999999 blk_9999999999999999999 blk_9999999999999999999 blk_-9999999999999999999 blk_-9999999999999999999 blk_9999999999999999999 blk_9999999999999999999 blk_-9999999999999999999 blk_-9999999999999999999 blk_-9999999999999999999 blk_-9999999999999999999 blk_-9999999999999999999 blk_9999999999999999999 blk_-9999999999999999999 blk_-9999999999999999 blk_9999999999999999999 blk_-9999999999999999999 blk_-9999999999999999999 blk_9999999999999999999 blk_9999999999999999999 blk_9999999999999999999 blk_-999999999999999999 blk_9999999999999999999 blk_9999999999999999999 blk_-9999999999999999999 blk_9999999999999999999 blk_-9999999999999999999
+Interrupting SendWorker
+clients9.google.com:999 open through proxy proxy.cse.cuhk.edu.hk:9999 HTTPS
+BLOCK* NameSystem.allocateBlock: /user/root/randtxt9/_temporary/_task_999999999999_9999_m_999999_9/part-99999. blk_9999999999999999999
+Interrupting SendWorker
+proxy.cse.cuhk.edu.hk:9999 close, 9999 bytes (9.99 KB) sent, 9 bytes received, lifetime <9 sec
+Interrupted while waiting for message on queue
+iar 999a9999 dear 99c99c99
+proxy.cse.cuhk.edu.hk:9999 close, 9999 bytes sent, 9999 bytes (9.99 KB) received, lifetime 99:99
+block.dropbox.com:999 close, 9 bytes sent, 9 bytes received, lifetime <9 sec
+generating core.9999
+Deleting block blk_9999999999999999999 file /mnt/hadoop/dfs/data/current/subdir99/blk_9999999999999999999
+proxy.cse.cuhk.edu.hk:9999 close, 9 bytes sent, 9 bytes received, lifetime 99:99
+Established session 9x99ee99a99f9999f with negotiated timeout 99999 for client /99.99.99.99:99999
+www.zhihu.com:999 close, 9999 bytes (9.99 KB) sent, 99999 bytes (9.99 KB) received, lifetime 99:99
+program interrupt: illegal instruction......9
+9 warning
+Kernel detected 9999999 integer alignment exceptions (9999999) iar 9x99999ea9, dear 9x99ef9999 (9999999) iar 9x99999eb9, dear 9x99ef9999 (9999999) iar 9x99999ea9, dear 9x99ef99a9 (9999999) iar 9x99999eb9, dear 9x99ef99c9 (9999999) iar 9x99999ee9, dear 9x99ef99e9 (9999999) iar 9x99999ef9, dear 9x99ef9a99 (9999999) iar 9x99999ee9, dear 9x99ef9a99 (9999999) iar 9x99999ef9, dear 9x99ef9a99
+99999 floating point alignment exceptions
+generating core.9999
+iar 999999a9 dear 99f9bd9c
+BLOCK* NameSystem.allocateBlock: /user/root/randtxt9/_temporary/_task_999999999999_9999_m_999999_9/part-99999. blk_9999999999999999999
+BLOCK* NameSystem.addStoredBlock: blockMap updated: 99.999.99.99:99999 is added to blk_-9999999999999999999 size 99999999
+Received connection request /99.99.99.99:99999
+Fan speeds ( 9999 9999 9999 **** 9999 9999 )
+boot  (command 9999)
+www.google.com:999 open through proxy proxy.cse.cuhk.edu.hk:9999 HTTPS
+switch_module error 9999999999 9 link errors remain current
+Linkerror event interval expired
+Deleting block blk_-9999999999999999999 file /mnt/hadoop/dfs/data/current/subdir99/blk_-9999999999999999999
+boot  (command 9999)
+Receiving block blk_9999999999999999999 src: /99.999.999.999:99999 dest: /99.999.999.999:99999
+BLOCK* NameSystem.addStoredBlock: blockMap updated: 99.999.999.999:99999 is added to blk_9999999999999999999 size 99999999
+boot  (command 9999)
+Receiving block blk_9999999999999999999 src: /99.999.99.999:99999 dest: /99.999.99.999:99999
+Receiving block blk_-9999999999999999999 src: /99.999.99.999:99999 dest: /99.999.99.999:99999
+9 ddr errors(s) detected and corrected on rank 9, symbol 99, bit 9
+pubads.g.doubleclick.net:999 close, 999 bytes sent, 9999 bytes (9.99 KB) received, lifetime 99:99
+BLOCK* NameSystem.addStoredBlock: blockMap updated: 99.999.99.999:99999 is added to blk_9999999999999999999 size 99999999
+Interrupting SendWorker
+9 microseconds spent in the rbs signal handler during 9 calls. 9 microseconds was the maximum time for a single instance of a correctable ddr.
+proxy.cse.cuhk.edu.hk:9999 close, 9 bytes sent, 9 bytes received, lifetime <9 sec
+99.999.999.99:99999 Served block blk_-9999999999999999999 to /99.999.999.999
+Received connection request /99.99.99.99:99999
+qbwup.imtt.qq.com:99 close, 999 bytes sent, 999 bytes received, lifetime 99:99
+generating core.99999
+s9.img9999.com:99 close, 9 bytes sent, 9 bytes received, lifetime 99:99
+Send worker leaving thread
+oimagec9.ydstatic.com:99 error : A connection request was canceled before the completion.
+running
+Notification: 9 (n.leader), 9xb99999999 (n.zxid), 9x9 (n.round), LOOKING (n.state), 9 (n.sid), 9xb (n.peerEPoch), LOOKING (my state)
+Linkerror event interval expired
+PacketResponder 9 for block blk_999999999999999999 terminating
+NIFF: node node-99 has detected an available network connection on network 9.9.999.9 via interface alt9
+Interconnect-9N99 switch_module error 9999999999 9 Linkerror event interval expired
+9 microseconds spent in the rbs signal handler during 9 calls. 9 microseconds was the maximum time for a single instance of a correctable ddr.
+Deleting block blk_-9999999999999999999 file /mnt/hadoop/dfs/data/current/subdir99/blk_-9999999999999999999
+9999999 double-hummer alignment exceptions
+proxy.cse.cuhk.edu.hk:9999 close, 9999 bytes (9.99 KB) sent, 9999 bytes (9.99 KB) received, lifetime <9 sec
+dict.youdao.com:99 open through proxy proxy.cse.cuhk.edu.hk:9999 HTTPS
+generating core.999
+Received connection request /99.99.99.99:99999
+gige9 gige temperature 9999999999 9 warning
+Expiring session 9x99edfaa99f9999a, timeout of 99999ms exceeded
+proxy.cse.cuhk.edu.hk:9999 open through proxy proxy.cse.cuhk.edu.hk:9999 HTTPS
+wn.pos.baidu.com:999 close, 9 bytes sent, 9 bytes received, lifetime 99:99
+Verification succeeded for blk_9999999999999999999
+Receiving block blk_-9999999999999999999 src: /99.999.999.999:99999 dest: /99.999.999.999:99999
+running
+Receiving block blk_-9999999999999999999 src: /99.999.99.999:99999 dest: /99.999.99.999:99999
+eclick.baidu.com:999 open through proxy proxy.cse.cuhk.edu.hk:9999 HTTPS
+ciod: Error loading /g/g99/glosli/src/ddcMD/ddcMD9.9.99/bin/ddcMDbglV: invalid or missing program image, No such file or directory
+Connection broken for id 999999999999, my id = 9, error =
+normal
+99999999 torus sender z- retransmission error(s) (dcr 9x99f9) detected and corrected over 999 seconds
+node status 9999999999 9 running
+warning
+proxy.cse.cuhk.edu.hk:9999 open through proxy proxy.cse.cuhk.edu.hk:9999 HTTPS
+Received connection request /99.99.99.99:99999
+Interrupting SendWorker
+node-D9 clusterfilesystem clusterfilesystem.no_server 9999999999 9 ClusterFileSystem: There is no server for ServerFileSystem domain storage999
+Send worker leaving thread
+Accepted socket connection from /99.99.99.99:99999
+proxy.cse.cuhk.edu.hk:9999 open through proxy proxy.cse.cuhk.edu.hk:9999 HTTPS
+Interrupting SendWorker
+scontent-hkg9-9.xx.fbcdn.net:999 close, 9999 bytes (9.99 KB) sent, 999999 bytes (999 KB) received, lifetime 99:99
+Connection broken for id 999999999999, my id = 9, error =
+generating core.9999
+proxy.cse.cuhk.edu.hk:9999 open through proxy proxy.cse.cuhk.edu.hk:9999 HTTPS
+running
+instruction address: 9x99999ed9
+css.sohu.com:99 open through proxy proxy.cse.cuhk.edu.hk:9999 HTTPS
+warning
+data storage interrupt
+Send worker leaving thread
+iar 99999999 dear 9fee9c9c
+instruction cache parity error corrected
+proxy.cse.cuhk.edu.hk:9999 close, 9999 bytes (9.99 KB) sent, 99999 bytes (99.9 KB) received, lifetime 99:99
+Fan speeds ( 9999 9999 9999 **** 9999 9999 )
+t99.baidu.com:99 open through proxy proxy.cse.cuhk.edu.hk:9999 HTTPS
+Connection broken for id 999999999999, my id = 9, error =
+clusterfilesystem clusterfilesystem.not_served 9999999999 9 ClusterFileSystem: ServerFileSystem domain root9_domain is no longer served by node node-99
+Deleting block blk_999999999999999999 file /mnt/hadoop/dfs/data/current/subdir99/blk_999999999999999999
+99.999.99.99:99999 Served block blk_-999999999999999999 to /99.999.99.999
+proxy.cse.cuhk.edu.hk:9999 open through proxy proxy.cse.cuhk.edu.hk:9999 HTTPS
+Linkerror event interval expired
+client-lb.dropbox.com:999 close, 9 bytes sent, 9 bytes received, lifetime <9 sec
+999 floating point alignment exceptions
+CE sym 99, at 9x99d99aa9, mask 9x99
+9 floating point alignment exceptions
+Notification time out: 99999
+Interrupted while waiting for message on queue
+proxy.cse.cuhk.edu.hk:9999 open through proxy proxy.cse.cuhk.edu.hk:9999 HTTPS
+floating pt ex mode 9 enable......9
+9 floating point alignment exceptions
+configured out
+Received block blk_9999999999999999999 of size 99999999 from /99.999.999.99
+generating core.9999
+generating core.999
+drive-thirdparty.googleusercontent.com:999 open through proxy proxy.cse.cuhk.edu.hk:9999 HTTPS
+warning
+generating core.99999
+total of 9 ddr error(s) detected and corrected over 9999 seconds
+gige9 gige temperature 9999999999 9 warning
+clients9.google.com:999 open through proxy proxy.cse.cuhk.edu.hk:9999 HTTPS
+iar 99999e99 dear 99f9999c
+Connection broken for id 999999999999, my id = 9, error =
+avatars9.githubusercontent.com:999 close, 999 bytes sent, 9999 bytes (9.99 KB) received, lifetime 99:99
+secure.quantserve.com:999 open through proxy proxy.cse.cuhk.edu.hk:9999 HTTPS
+CE sym 99, at 9x99e99cc9, mask 9x99
+node-D9 clusterfilesystem fdmn.full 9999999999 9 ServerFileSystem: ServerFileSystem domain root99_local is full
+******* GOODBYE /99.99.99.99:99999 ********
+9 torus receiver z+ input pipe error(s) (dcr 9x99f9) detected and corrected
+Received connection request /99.99.99.99:99999
+Send worker leaving thread
+ambient=99
+ambient=99
+github.com:999 open through proxy proxy.cse.cuhk.edu.hk:9999 HTTPS
+ciod: Missing or invalid fields on line 9 of node map file /home/auselton/bgl/mapfiles/bgl.999mps.f99.map
+9 ambient=99
+Send worker leaving thread
+Interrupting SendWorker
+generating core.9999
+normal
+proxy.cse.cuhk.edu.hk:9999 close, 9999 bytes (9.99 KB) sent, 9999 bytes (9.99 KB) received, lifetime 99:99
+Deleting block blk_9999999999999999999 file /mnt/hadoop/dfs/data/current/subdir99/blk_9999999999999999999
+Connection request from old client /99.99.99.99:99999; will be dropped if server is in r-o mode
+c.baidu.com:99 close, 9999 bytes (9.99 KB) sent, 999 bytes received, lifetime <9 sec
+ss.bdimg.com:99 error : Could not connect to proxy proxy.cse.cuhk.edu.hk:9999 - Could not resolve proxy.cse.cuhk.edu.hk error 99999
+switch_module error 9999999999 9 Linkerror event interval expired
+update.googleapis.com:999 close, 999 bytes sent, 9999 bytes (9.99 KB) received, lifetime <9 sec
+running
+proxy.cse.cuhk.edu.hk:9999 close, 9 bytes sent, 9 bytes received, lifetime 99:99
+Interrupted while waiting for message on queue
+client.dropbox.com:999 error : Could not connect to proxy proxy.cse.cuhk.edu.hk:9999 - Could not resolve proxy.cse.cuhk.edu.hk error 99999
+generating core.9999
+Receiving block blk_-9999999999999999999 src: /99.999.999.999:99999 dest: /99.999.999.999:99999
+www.qq.com:99 error : Could not connect to proxy proxy.cse.cuhk.edu.hk:9999 - Could not resolve proxy.cse.cuhk.edu.hk error 99999
+BLOCK* NameSystem.addStoredBlock: blockMap updated: 99.999.999.99:99999 is added to blk_-9999999999999999999 size 99999999
+Received block blk_999999999999999999 of size 99999999 from /99.999.999.999
+BLOCK* NameSystem.allocateBlock: /user/root/rand9/_temporary/_task_999999999999_9999_m_999999_9/part-99999. blk_-9999999999999999999
+Received connection request /99.99.99.99:99999
+99.999.99.999:99999 Served block blk_9999999999999999999 to /99.999.99.999
+PacketResponder 9 for block blk_9999999999999999999 terminating
+Interrupting SendWorker
+data address space................9
+not responding
+instruction address: 9x99999ed9
+BLOCK* NameSystem.addStoredBlock: blockMap updated: 99.999.9.999:99999 is added to blk_-9999999999999999999 size 99999999
+Interrupting SendWorker
+Connection broken for id 999999999999, my id = 9, error =
+generating core.9999
+bolt.dropbox.com:999 close, 99999 bytes (99.9 KB) sent, 9999 bytes (9.99 KB) received, lifetime 99:99
+Receiving block blk_-9999999999999999999 src: /99.999.999.999:99999 dest: /99.999.999.999:99999
+idoproxydb hit ASSERT condition: ASSERT expression=9 Source file=idotransportmgr.cpp Source line=9999 Function=int IdoTransportMgr::SendPacket(IdoUdpMgr*, BglCtlPavTrace*)
+BLOCK* NameSystem.delete: blk_9999999999999999999 is added to invalidSet of 99.999.99.999:99999
+NIFF: node node-99 has detected an available network connection on network 99.999.9.9 via interface ee9
+9999999 double-hummer alignment exceptions
+Fan speeds ( 9999 9999 9999 9999 9999 9999 )
+PacketResponder 9 for block blk_9999999999999999999 terminating
+iar 99999999 dear 9999c99c
+switch_module error 9999999999 9 Linkerror event interval expired
+critical
+oimageb9.ydstatic.com:99 close, 999 bytes sent, 99999 bytes (99.9 KB) received, lifetime 99:99
+proxy.cse.cuhk.edu.hk:9999 open through proxy proxy.cse.cuhk.edu.hk:9999 HTTPS
+proxy.cse.cuhk.edu.hk:9999 close, 9999 bytes (9.99 KB) sent, 9999999 bytes (9.99 MB) received, lifetime 99:99
+proxy.cse.cuhk.edu.hk:9999 open through proxy proxy.cse.cuhk.edu.hk:9999 HTTPS
+gige9 gige temperature 9999999999 9 normal
+PacketResponder 9 for block blk_-99999999999999999 terminating
+9999 floating point alignment exceptions
+short.weixin.qq.com:99 close, 999 bytes sent, 999 bytes received, lifetime <9 sec
+normal
+s9.bdstatic.com:99 close, 9 bytes sent, 9 bytes received, lifetime 99:99
+Received connection request /99.99.99.99:99999
+PacketResponder 9 for block blk_-9999999999999999999 terminating
+99.999.999.999:99999 Served block blk_-9999999999999999999 to /99.999.99.999
+Receiving block blk_9999999999999999999 src: /99.999.999.999:99999 dest: /99.999.999.999:99999
+tcpconn.tencent.com:99 open through proxy proxy.cse.cuhk.edu.hk:9999 HTTPS
+CE sym 99, at 9x999ad999, mask 9x99
+generating core.9999
+BLOCK* NameSystem.addStoredBlock: blockMap updated: 99.999.999.999:99999 is added to blk_-9999999999999999999 size 99999999
+Interrupted while waiting for message on queue
+t99.baidu.com:99 open through proxy proxy.cse.cuhk.edu.hk:9999 HTTPS
+BLOCK* NameSystem.allocateBlock: /user/root/rand9/_temporary/_task_999999999999_9999_m_999999_9/part-99999. blk_-9999999999999999999
+timg.baidu.com:99 open through proxy proxy.cse.cuhk.edu.hk:9999 HTTPS
+generating core.99999
+9999999 floating point alignment exceptions
+Cannot open channel to 9 at election address /99.99.99.99:9999
+proxy.cse.cuhk.edu.hk:9999 open through proxy proxy.cse.cuhk.edu.hk:9999 HTTPS
+PacketResponder 9 for block blk_-9999999999999999999 terminating
+99 floating point alignment exceptions
+9 ambient=99
+switch_module error 9999999999 9 Linkerror event interval expired
+Receiving block blk_999999999999999999 src: /99.999.999.99:99999 dest: /99.999.999.99:99999
+BLOCK* NameSystem.addStoredBlock: blockMap updated: 99.999.999.999:99999 is added to blk_9999999999999999999 size 99999999
+999999999 double-hummer alignment exceptions
+Receiving block blk_-9999999999999999999 src: /99.999.999.99:99999 dest: /99.999.999.99:99999
+9 floating point alignment exceptions
+data TLB error interrupt
+generating core.99999
+node temperature 9999999999 9 ambient=99
+PacketResponder 9 for block blk_-9999999999999999999 terminating
+ambient=99
+Received connection request /99.99.99.99:99999
+proxy.cse.cuhk.edu.hk:9999 open through proxy proxy.cse.cuhk.edu.hk:9999 HTTPS
+configured out
+github.com:999 close, 9 bytes sent, 9 bytes received, lifetime 99:99
+Send worker leaving thread
+www.evernote.com:999 close, 9999 bytes (9.99 KB) sent, 9999 bytes (9.99 KB) received, lifetime 99:99
+Interrupting SendWorker
+mtalk.google.com:9999 error : Could not connect through proxy proxy.cse.cuhk.edu.hk:9999 - Proxy server cannot establish a connection with the target, status code 999
+Interrupted while waiting for message on queue
+generating core.99999
+ambient=99
+BLOCK* NameSystem.delete: blk_-9999999999999999999 is added to invalidSet of 99.999.999.999:99999
+generating core.99999
+Received block blk_9999999999999999999 of size 99999999 from /99.999.99.999
+BLOCK* NameSystem.addStoredBlock: blockMap updated: 99.999.99.999:99999 is added to blk_-9999999999999999999 size 99999999
+BLOCK* NameSystem.allocateBlock: /user/root/rand9/_temporary/_task_999999999999_9999_m_999999_9/part-99999. blk_-9999999999999999999
+Interrupting SendWorker
+Received connection request /99.99.99.99:99999
+Deleting block blk_9999999999999999999 file /mnt/hadoop/dfs/data/current/subdir99/blk_9999999999999999999
+Received connection request /99.99.99.99:99999
+Deleting block blk_9999999999999999999 file /mnt/hadoop/dfs/data/current/blk_9999999999999999999
+BLOCK* NameSystem.addStoredBlock: blockMap updated: 99.999.999.999:99999 is added to blk_9999999999999999999 size 99999999
+99 ddr error(s) detected and corrected on rank 9, symbol 99 over 99999 seconds
+normal
+Client attempting to establish new session at /99.99.99.99:99999
+BLOCK* NameSystem.delete: blk_-9999999999999999999 is added to invalidSet of 99.999.9.999:99999
+Closed socket connection for client /99.99.99.99:99999 which had sessionid 9x99ee9e999ed9999
+Receiving block blk_999999999999999999 src: /99.999.999.999:99999 dest: /99.999.999.999:99999
+BLOCK* NameSystem.delete: blk_9999999999999999999 is added to invalidSet of 99.999.99.99:99999
+Processed session termination for sessionid: 9x99f9999999a9999
+Send worker leaving thread
+iar 999a9999 dear 9999fc99
+running
+BLOCK* NameSystem.delete: blk_9999999999999999999 is added to invalidSet of 99.999.999.999:99999
+Connection broken for id 999999999999, my id = 9, error =
+Received block blk_9999999999999999999 of size 99999999 from /99.999.999.99
+oimagea9.ydstatic.com:99 error : A connection request was canceled before the completion.
+ambient=99
+proxy.cse.cuhk.edu.hk:9999 open through proxy proxy.cse.cuhk.edu.hk:9999 HTTPS
+iar 999999b9 dear 999999ac
+Interconnect-9N99 switch_module fan 9999999999 9 Fan speeds ( 9999 9999 9999 **** 9999 9999 )
+BLOCK* NameSystem.delete: blk_-9999999999999999999 is added to invalidSet of 99.999.999.999:99999
+Processed session termination for sessionid: 9x99f9fdae9ba9999
+99.999.99.999:99999:Got exception while serving blk_999999999999999999 to /99.999.999.999:
+ambient=99
+ciod: Error loading /bgl/apps/followup/RAPTOR/pre-study/raptor.newcomp.r9: invalid or missing program image, Permission denied
+Cannot open channel to 9 at election address /99.99.99.99:9999
+Send worker leaving thread
+iar 999a99a9 dear 99efd999
+ciod: Error reading message prefix on CioStream socket to 999.99.99.999:99999, Link has been severed
+Interrupted while waiting for message on queue
+tcpconn9.tencent.com:999 open through proxy proxy.cse.cuhk.edu.hk:9999 HTTPS
+www.evernote.com:999 close, 9999 bytes (9.99 KB) sent, 99999 bytes (99.9 KB) received, lifetime 99:99
+c.baidu.com:99 open through proxy proxy.cse.cuhk.edu.hk:9999 HTTPS
+Connection broken for id 999999999999, my id = 9, error =
+qa.sockets.stackexchange.com:999 error : Could not connect to proxy proxy.cse.cuhk.edu.hk:9999 - connection attempt failed with error 99999
+switch_module error 9999999999 9 Linkerror event interval expired
+Cannot open channel to 9 at election address /99.99.99.99:9999
+proxy.cse.cuhk.edu.hk:9999 close, 99999 bytes (99.9 KB) sent, 99999 bytes (99.9 KB) received, lifetime 99:99
+switch_module error 9999999999 9 Link ok
+t99.baidu.com:99 close, 9 bytes sent, 9 bytes received, lifetime 99:99
+Receiving block blk_-9999999999999999999 src: /99.999.999.99:99999 dest: /99.999.999.99:99999
+get.sogou.com:99 close, 999 bytes sent, 999 bytes received, lifetime <9 sec
+switch_module error 9999999999 9 Linkerror event interval expired
+BLOCK* NameSystem.delete: blk_9999999999999999999 is added to invalidSet of 99.999.99.99:99999
+Connection broken for id 999999999999, my id = 9, error =
+generating core.999
+9 floating point alignment exceptions
+Deleting block blk_-9999999999999999 file /mnt/hadoop/dfs/data/current/subdir99/blk_-9999999999999999
+Send worker leaving thread
+99.client-channel.google.com:999 error : Could not connect to proxy proxy.cse.cuhk.edu.hk:9999 - connection attempt failed with error 99999
+Processed session termination for sessionid: 9x99edfaa99f99999
+ciod: Error reading message prefix after LOAD_MESSAGE on CioStream socket to 999.99.99.999:99999: Link has been severed
+Connection request from old client /99.99.99.99:99999; will be dropped if server is in r-o mode
+Received connection request /99.99.99.99:99999
+BLOCK* NameSystem.delete: blk_999999999999999999 is added to invalidSet of 99.999.999.99:99999
+Closed socket connection for client /99.99.99.99:99999 which had sessionid 9x99ed9999999999f
+proxy.cse.cuhk.edu.hk:9999 close, 9999 bytes (9.99 KB) sent, 999 bytes received, lifetime 99:99
+i9.baidu.com:99 close, 9999 bytes (9.99 KB) sent, 99999 bytes (99.9 KB) received, lifetime 99:99
+generating core.99999
+PacketResponder 9 for block blk_9999999999999999999 terminating
+99.999.99.999:99999:Got exception while serving blk_-999999999999999999 to /99.999.99.99:
+Receiving block blk_9999999999999999999 src: /99.999.99.99:99999 dest: /99.999.99.99:99999
+ClusterFileSystem: ServerFileSystem domain root99_tmp is no longer served by node node-99
+Cannot open channel to 9 at election address /99.99.99.99:9999
+at.mct99.com:99 open through proxy proxy.cse.cuhk.edu.hk:9999 HTTPS
+proxy.cse.cuhk.edu.hk:9999 open through proxy proxy.cse.cuhk.edu.hk:9999 HTTPS
+generating core.99999
+Received block blk_-9999999999999999999 of size 99999999 from /99.999.99.999
+Send worker leaving thread
+wait  (command 9999)
+proxy.cse.cuhk.edu.hk:9999 open through proxy proxy.cse.cuhk.edu.hk:9999 HTTPS
+generating core.99999
+dc.csdn.net:99 open through proxy proxy.cse.cuhk.edu.hk:9999 HTTPS
+ambient=99
+Receiving block blk_9999999999999999999 src: /99.999.999.999:99999 dest: /99.999.999.999:99999
+BLOCK* NameSystem.allocateBlock: /user/root/rand9/_temporary/_task_999999999999_9999_m_999999_9/part-99999. blk_-9999999999999999999
+generating core.99999
+ciod: Error loading /bgl/apps/scaletest/performance/MINIBEN/mb_999_9999/allreduce.rts: invalid or missing program image, Exec format error
+proxy.cse.cuhk.edu.hk:9999 open through proxy proxy.cse.cuhk.edu.hk:9999 HTTPS
+iar 99999fc9 dear 99999d99
+Interrupted while waiting for message on queue
+generating core.9999
+Interrupted while waiting for message on queue
+caught end of stream exception
+generating core.99999
+clients9.google.com:999 open through proxy proxy.cse.cuhk.edu.hk:9999 HTTPS
+ciod: Received signal 99, code=9, errno=9, address=9x999999f9
+Deleting block blk_-9999999999999999999 file /mnt/hadoop/dfs/data/current/blk_-9999999999999999999
+Interrupted while waiting for message on queue
+Lustre mount FAILED : bglio999 : point /p/gb9
+PacketResponder 9 for block blk_-9999999999999999999 terminating
+proxy.cse.cuhk.edu.hk:9999 open through proxy proxy.cse.cuhk.edu.hk:9999 HTTPS
+CE sym 99, at 9x999999c9, mask 9x99
+Send worker leaving thread
+PacketResponder 9 for block blk_-9999999999999999999 terminating
+Interrupted while waiting for message on queue
+critical
+BLOCK* NameSystem.allocateBlock: /user/root/randtxt9/_temporary/_task_999999999999_9999_m_999999_9/part-99999. blk_9999999999999999999
+9 floating point alignment exceptions
+Deleting block blk_-9999999999999999999 file /mnt/hadoop/dfs/data/current/subdir99/blk_-9999999999999999999
+s.youtube.com:999 open through proxy proxy.cse.cuhk.edu.hk:9999 HTTPS
+generating core.99999
+Connection broken for id 999999999999, my id = 9, error =
+running
+Send worker leaving thread
+generating core.99999
+normal
+BLOCK* NameSystem.allocateBlock: /user/root/sortrand9/_temporary/_task_999999999999_9999_r_999999_9/part-99999. blk_9999999999999999999
+switch_module error 9999999999 9 Linkerror event interval expired
+Linkerror event interval expired
+generating core.9999
+PacketResponder 9 for block blk_-9999999999999999999 terminating
+Send worker leaving thread
+Interrupting SendWorker
+proxy.cse.cuhk.edu.hk:9999 open through proxy proxy.cse.cuhk.edu.hk:9999 HTTPS
+99.999.99.999:99999 Served block blk_9999999999999999999 to /99.999.99.999
+Received block blk_-9999999999999999999 of size 99999999 from /99.999.9.999
+get.sogou.com:99 open through proxy proxy.cse.cuhk.edu.hk:9999 HTTPS
+not responding
+BLOCK* NameSystem.addStoredBlock: blockMap updated: 99.999.999.99:99999 is added to blk_9999999999999999999 size 99999999
+BLOCK* NameSystem.allocateBlock: /user/root/rand9/_temporary/_task_999999999999_9999_m_999999_9/part-99999. blk_9999999999999999999
+999999999 double-hummer alignment exceptions
+99999 floating point alignment exceptions
+proxy.cse.cuhk.edu.hk:9999 close, 9 bytes sent, 9 bytes received, lifetime 99:99
+generating core.9999
+p9.qhimg.com:99 close, 999 bytes sent, 9999 bytes (9.99 KB) received, lifetime 99:99
+Established session 9x99ed999999999a9 with negotiated timeout 99999 for client /99.99.99.99:99999
+Interrupted while waiting for message on queue
+BLOCK* NameSystem.addStoredBlock: blockMap updated: 99.999.99.999:99999 is added to blk_-9999999999999999999 size 99999999
+999999999 double-hummer alignment exceptions
+mhfm9.us.cdndm9.com:99 open through proxy proxy.cse.cuhk.edu.hk:9999 HTTPS
+running
+Connection broken for id 999999999999, my id = 9, error =
+iar 99999999 dear 99999c9c
+BLOCK* NameSystem.allocateBlock: /user/root/rand9/_temporary/_task_999999999999_9999_m_999999_9/part-99999. blk_9999999999999999999
+node-D9 domain status 9999999999 9 inconsistent nodesets node-9 9x999999fc <ok> node-9 9x999999fc <ok> node-9 9x999999fc <ok> node-9 9x999999fc <ok> node-9 9x999999fc <ok> node-9 9x999999fc <ok> node-9 9x999999fc <ok> node-99 9x9999fdfc <ok> node-99 9x9999fdfc <ok> node-99 9x9999fdfc <ok> node-99 9x9999fdfc <ok> node-99 9x9999fdfc <ok> node-99 9x9999fdfc <ok>
+Connection broken for id 999999999999, my id = 9, error =
+9 NIFF: node node-999 has detected an available network connection on network 9.9.999.9 via interface alt9
+Linkerror event interval expired
+proxy.cse.cuhk.edu.hk:9999 open through proxy proxy.cse.cuhk.edu.hk:9999 HTTPS
+autopurge.purgeInterval set to 9
+Interrupting SendWorker
+BLOCK* NameSystem.delete: blk_-9999999999999999999 is added to invalidSet of 99.999.99.9:99999
+99.999.99.999:999 close, 999 bytes sent, 999 bytes received, lifetime 99:99
+f99.baidu.com:99 close, 9999 bytes (9.99 KB) sent, 999999 bytes (99.9 KB) received, lifetime 99:99
+99.999.999.999:99999 Served block blk_999999999999999999 to /99.999.999.999
+instruction cache parity error corrected
+iar 999a9999 dear 9999a9a9
+Deleting block blk_9999999999999999999 file /mnt/hadoop/dfs/data/current/subdir9/blk_9999999999999999999
+generating core.9999
+Cannot open channel to 9 at election address /99.99.99.99:9999
+proxy.cse.cuhk.edu.hk:9999 open through proxy proxy.cse.cuhk.edu.hk:9999 HTTPS
+Interrupted while waiting for message on queue
+BLOCK* NameSystem.addStoredBlock: blockMap updated: 99.999.999.999:99999 is added to blk_9999999999999999999 size 99999999
+Connection broken for id 999999999999, my id = 9, error =
+ClusterFileSystem: ServerFileSystem domain root99_local is no longer served by node node-999
+9 warning
+Linkerror event interval expired
+normal
+proxy.cse.cuhk.edu.hk:9999 close, 9999 bytes (9.99 KB) sent, 999 bytes received, lifetime <9 sec
+99999999 double-hummer alignment exceptions
+proxy.cse.cuhk.edu.hk:9999 close, 9999 bytes (9.99 KB) sent, 99999 bytes (99.9 KB) received, lifetime 99:99
+PrepareForService shutting down Node card(mLctn(R99-M9-N9), mCardSernum(999999999999999999999999999c99999b99999999999999), mLp(FF:F9:9F:99:E9:DA:99:9D:99:E9:9F:99), mIp(99.9.9.999), mType(9)) as part of Service Action 999
+Expiring session 9x99f9a999df99999, timeout of 99999ms exceeded
+gige9 gige temperature 9999999999 9 normal
+not responding
+PrepareForService shutting down NodeCard(mLctn(R99-M9-N9), mCardSernum(999999999999999999999999999c99999b99999999999999), mLp(FF:F9:9F:99:CF:9F:99:9D:99:E9:99:F9), mIp(99.9.9.99), mType(9)) as part of Service Action 999
+Linkerror event interval expired
+PacketResponder 9 for block blk_9999999999999999999 terminating
+warning
+r9---sn-i9b9kne9.googlevideo.com:999 open through proxy proxy.cse.cuhk.edu.hk:9999 HTTPS
+js.passport.qihucdn.com:99 close, 999 bytes sent, 999 bytes received, lifetime 99:99
+generating core.9999
+generating core.9999
+9 ambient=99
+generating core.9999
+halt  (command 9999)
+iar 999a99a9 dear 9999a999
+generating core.999
+client-cf.dropbox.com:999 error : A connection request was canceled before the completion.
+switch_module error 9999999999 9 Link ok
+generating core.99999
+oimagea9.ydstatic.com:99 error : A connection request was canceled before the completion.
+running
+proxy.cse.cuhk.edu.hk:9999 close, 9999 bytes (9.99 KB) sent, 9999 bytes (9.99 KB) received, lifetime 99:99
+ambient=99
+proxy.cse.cuhk.edu.hk:9999 open through proxy proxy.cse.cuhk.edu.hk:9999 HTTPS
+PacketResponder 9 for block blk_99999999999999999 terminating
+Linkerror event interval expired
+proxy.cse.cuhk.edu.hk:9999 close, 9999 bytes (9.99 KB) sent, 99999 bytes (99.9 KB) received, lifetime 99:99
+warning
+www.evernote.com:999 open through proxy proxy.cse.cuhk.edu.hk:9999 HTTPS
+www.google.com.hk:999 close, 999 bytes sent, 999 bytes received, lifetime 99:99
+Received connection request /99.99.99.99:99999
+99999 total interrupts. 9 critical input interrupts. 9 microseconds total spent on critical input interrupts, 9 microseconds max time in a critical input interrupt.
+Received block blk_-9999999999999999999 of size 99999999 from /99.999.999.999
+BLOCK* NameSystem.addStoredBlock: blockMap updated: 99.999.99.99:99999 is added to blk_999999999999999999 size 99999999
+switch_module error 9999999999 9 Linkerror event interval expired
+MACHINE CHECK DCR read timeout (mc=e99x iar 9x99999999 lr 9xc99999a9)
+BLOCK* NameSystem.addStoredBlock: blockMap updated: 99.999.999.999:99999 is added to blk_9999999999999999999 size 99999999
+Link in reset
+normal
+Receiving block blk_-9999999999999999999 src: /99.999.99.999:99999 dest: /99.999.99.999:99999
+not responding
+Send worker leaving thread
+9 microseconds spent in the rbs signal handler during 9 calls. 9 microseconds was the maximum time for a single instance of a correctable ddr.
+99 floating point alignment exceptions
+Receiving block blk_9999999999999999999 src: /99.999.999.999:99999 dest: /99.999.999.999:99999
+ambient=99
+proxy.cse.cuhk.edu.hk:9999 close, 9999 bytes (9.99 KB) sent, 999 bytes received, lifetime <9 sec
+proxy.cse.cuhk.edu.hk:9999 close, 9 bytes sent, 9 bytes received, lifetime 99:99
+CE sym 9, at 9x9d99f9c9, mask 9x99
+generating core.99999
+proxy.cse.cuhk.edu.hk:9999 close, 9 bytes sent, 9 bytes received, lifetime 99:99
+critical input interrupt (unit=9x9b bit=9x9b): warning for torus z- wire
+NIFF: node node-99 has detected an available network connection on network 9.9.999.9 via interface alt9
+generating core.99999
+normal
+running
+Receiving block blk_-9999999999999999999 src: /99.999.99.9:99999 dest: /99.999.99.9:99999
+qa.sockets.stackexchange.com:999 close, 9999 bytes (9.99 KB) sent, 999 bytes received, lifetime 99:99
+normal
+generating core.9999
+proxy.cse.cuhk.edu.hk:9999 close, 9999 bytes (9.99 KB) sent, 9999 bytes (9.99 KB) received, lifetime 99:99
+proxy.cse.cuhk.edu.hk:9999 close, 9999 bytes (9.99 KB) sent, 99999 bytes (99.9 KB) received, lifetime 99:99
+instruction cache parity error corrected
+Fan speeds ( 9999 9999 9999 **** 9999 9999 )
+proxy.cse.cuhk.edu.hk:9999 open through proxy proxy.cse.cuhk.edu.hk:9999 HTTPS
+Connection broken for id 999999999999, my id = 9, error =
+Receiving block blk_-9999999999999999999 src: /99.999.999.999:99999 dest: /99.999.999.999:99999
+generating core.9999
+Interrupted while waiting for message on queue
+999 total interrupts. 9 critical input interrupts. 9 microseconds total spent on critical input interrupts, 9 microseconds max time in a critical input interrupt.
+force load/store alignment...............9
+NIFF: node node-99 has detected an available network connection on network 9.9.999.9 via interface alt9
+Send worker leaving thread
+d.dropbox.com:999 close, 9999 bytes sent, 9999 bytes (9.99 KB) received, lifetime 99:99
+Receiving block blk_-9999999999999999999 src: /99.999.999.99:99999 dest: /99.999.999.99:99999
+www.evernote.com:999 close, 9 bytes sent, 9 bytes received, lifetime 99:99
+github.com:999 close, 9999 bytes (9.99 KB) sent, 99999 bytes (99.9 KB) received, lifetime 99:99
+iar 99999999 dear 9999c99c
+Interrupted while waiting for message on queue
+running
+critical input interrupt (unit=9x9b bit=9x99): warning for torus y+ wire
+Receiving block blk_-9999999999999999999 src: /99.999.99.999:99999 dest: /99.999.99.999:99999
+proxy.cse.cuhk.edu.hk:9999 open through proxy proxy.cse.cuhk.edu.hk:9999 HTTPS
+node-D9 clusterfilesystem clusterfilesystem.not_served 9999999999 9 ClusterFileSystem: ServerFileSystem domain storage9999 is no longer served by node node-999
+iar 99999999 dear 999e999c
+critical
+PacketResponder 9 for block blk_-9999999999999999999 terminating
+BLOCK* NameSystem.delete: blk_-9999999999999999999 is added to invalidSet of 99.999.999.99:99999
+Receiving block blk_-9999999999999999999 src: /99.999.99.999:99999 dest: /99.999.99.999:99999
+generating core.99999
+ciod: generated 99 core files for program IMB-MPI9.9MB_perf
+generating core.9999
+proxy.cse.cuhk.edu.hk:9999 close, 9999 bytes (9.99 KB) sent, 999 bytes received, lifetime 99:99
+proxy.cse.cuhk.edu.hk:9999 open through proxy proxy.cse.cuhk.edu.hk:9999 HTTPS
+PacketResponder 9 for block blk_-9999999999999999999 terminating
+Receiving block blk_9999999999999999999 src: /99.999.99.99:99999 dest: /99.999.99.99:99999
+data storage interrupt
+collector.githubapp.com:999 open through proxy proxy.cse.cuhk.edu.hk:9999 HTTPS
+9 not responding
+warning
+Deleting block blk_9999999999999999999 file /mnt/hadoop/dfs/data/current/subdir99/blk_9999999999999999999
+Received connection request /99.99.99.99:99999
+PacketResponder 9 for block blk_-999999999999999999 terminating
+BLOCK* NameSystem.addStoredBlock: blockMap updated: 99.999.999.99:99999 is added to blk_9999999999999999999 size 99999999
+normal
+proxy.cse.cuhk.edu.hk:9999 close, 9999 bytes (9.99 KB) sent, 99999 bytes (99.9 KB) received, lifetime <9 sec
+Node card VPD check: U99 node in processor card slot J99 do not match. VPD ecid 99DE9DB99D9BFFFF99999B99D9D9, found 99DE9DF9D99BFFFF99999B9999D9
+proxy.cse.cuhk.edu.hk:9999 open through proxy proxy.cse.cuhk.edu.hk:9999 HTTPS
+proxy.cse.cuhk.edu.hk:9999 close, 999 bytes sent, 999 bytes received, lifetime <9 sec
+switch_module error 9999999999 9 Linkerror event interval expired
+active
+data address space................9
+Received connection request /99.99.99.99:99999
+Interrupting SendWorker
+proxy.cse.cuhk.edu.hk:9999 close, 999 bytes sent, 999 bytes received, lifetime 99:99
+Connection broken for id 999999999999, my id = 9, error =
+Send worker leaving thread
+Received block blk_-9999999999999999999 of size 99999999 from /99.999.999.999
+Received connection request /99.99.99.99:99999
+Received connection request /99.99.99.99:99999
+9 floating point alignment exceptions
+CE sym 99, at 9x99999be9, mask 9x99
+9 ambient=99
+Lustre mount FAILED : bglio999 : point /p/gb9
+BLOCK* NameSystem.addStoredBlock: blockMap updated: 99.999.99.999:99999 is added to blk_-9999999999999999999 size 99999999
+9 Linkerror event interval expired
+ServerFileSystem: ServerFileSystem domain root99_local is full
+proxy.cse.cuhk.edu.hk:9999 open through proxy proxy.cse.cuhk.edu.hk:9999 HTTPS
+Interrupting SendWorker
+Connection broken for id 999999999999, my id = 9, error =
+client-lb.dropbox.com:999 open through proxy proxy.cse.cuhk.edu.hk:9999 HTTPS
+Client attempting to establish new session at /99.99.99.99:99999
+BLOCK* NameSystem.addStoredBlock: blockMap updated: 99.999.99.999:99999 is added to blk_9999999999999999999 size 9999999
+normal
+proxy.cse.cuhk.edu.hk:9999 open through proxy proxy.cse.cuhk.edu.hk:9999 HTTPS
+BLOCK* NameSystem.allocateBlock: /user/root/randtxt9/_temporary/_task_999999999999_9999_m_999999_9/part-99999. blk_999999999999999999
+client-cf.dropbox.com:999 close, 9999 bytes (9.99 KB) sent, 99999 bytes (99.9 KB) received, lifetime 99:99
+99.999.99.999:99999:Got exception while serving blk_9999999999999999999 to /99.999.999.999:
+boot  (command 9999)
+Established session 9x99ed99999f9999c with negotiated timeout 99999 for client /99.99.99.99:99999
+api.github.com:999 close, 999 bytes sent, 9999 bytes (9.99 KB) received, lifetime 99:99
+BLOCK* NameSystem.delete: blk_-9999999999999999999 is added to invalidSet of 99.999.99.99:99999
+Link error
+Received connection request /99.99.99.99:99999
+c.csdnimg.cn:99 close, 9999 bytes (9.99 KB) sent, 99999 bytes (99.9 KB) received, lifetime 99:99
+configured out
+www.evernote.com:999 close, 9999 bytes (9.99 KB) sent, 9999 bytes (9.99 KB) received, lifetime 99:99
+pv.mini.sohu.com:99 open through proxy proxy.cse.cuhk.edu.hk:9999 HTTPS
+ciod: Received signal 99, code=9, errno=9, address=9x999999b9
+generating core.9999
+Interrupting SendWorker
+Received block blk_-9999999999999999999 of size 99999999 from /99.999.99.999
+generating core.9999
+hangouts.google.com:999 open through proxy proxy.cse.cuhk.edu.hk:9999 HTTPS
+iar 9999a9e9 dear 9999e9c9
+proxy.cse.cuhk.edu.hk:9999 open through proxy proxy.cse.cuhk.edu.hk:9999 HTTPS
+generating core.99999
+wait  (command 9999)
+wait  (command 9999)
+oimageb9.ydstatic.com:99 error : A connection request was canceled before the completion.
+normal
+BLOCK* NameSystem.delete: blk_9999999999999999999 is added to invalidSet of 99.999.99.999:99999
+Verification succeeded for blk_9999999999999999999
+Connection broken for id 999999999999, my id = 9, error =
+switch_module error 9999999999 9 Linkerror event interval expired
+99.999.999.999:99999:Got exception while serving blk_9999999999999999999 to /99.999.999.999:
+9999999 double-hummer alignment exceptions
+proxy.cse.cuhk.edu.hk:9999 close, 999 bytes sent, 99999 bytes (99.9 KB) received, lifetime <9 sec
+switch_module error 9999999999 9 Linkerror event interval expired
+BLOCK* ask 99.999.99.999:99999 to delete  blk_-9999999999999999999 blk_-9999999999999999999 blk_-9999999999999999999 blk_9999999999999999999 blk_9999999999999999999 blk_9999999999999999999 blk_-9999999999999999999 blk_-9999999999999999999 blk_9999999999999999999 blk_9999999999999999999 blk_-9999999999999999999 blk_9999999999999999999 blk_999999999999999999 blk_-9999999999999999999 blk_-9999999999999999999 blk_-9999999999999999999 blk_-9999999999999999999 blk_9999999999999999999 blk_9999999999999999999 blk_-9999999999999999999 blk_9999999999999999999 blk_-9999999999999999999 blk_9999999999999999999 blk_-9999999999999999999 blk_999999999999999999 blk_999999999999999999 blk_-9999999999999999999 blk_-9999999999999999999 blk_-9999999999999999999 blk_-9999999999999999999 blk_9999999999999999999 blk_-9999999999999999999 blk_-9999999999999999999 blk_9999999999999999999 blk_-9999999999999999999 blk_-9999999999999999999 blk_9999999999999999999 blk_9999999999999999999 blk_-9999999999999999999 blk_9999999999999999999 blk_999999999999999999 blk_9999999999999999999 blk_9999999999999999999 blk_9999999999999999999 blk_-9999999999999999999 blk_-9999999999999999999 blk_999999999999999999 blk_9999999999999999999 blk_9999999999999999999 blk_9999999999999999999 blk_9999999999999999999 blk_-9999999999999999999 blk_9999999999999999999 blk_-9999999999999999999 blk_9999999999999999999 blk_9999999999999999999 blk_-999999999999999999 blk_9999999999999999999 blk_-9999999999999999999 blk_-9999999999999999999 blk_-9999999999999999999 blk_-9999999999999999999 blk_-9999999999999999999 blk_-9999999999999999999 blk_9999999999999999999 blk_9999999999999999999 blk_-9999999999999999999 blk_-9999999999999999999 blk_9999999999999999999 blk_9999999999999999999 blk_-9999999999999999999 blk_-9999999999999999999 blk_999999999999999999 blk_-9999999999999999999 blk_9999999999999999999 blk_-9999999999999999999 blk_-9999999999999999999 blk_9999999999999999999 blk_999999999999999999 blk_9999999999999999999 blk_9999999999999999999 blk_-9999999999999999999 blk_9999999999999999999 blk_999999999999999999 blk_-9999999999999999999 blk_-999999999999999999 blk_99999999999999999 blk_9999999999999999999 blk_-99999999999999999 blk_9999999999999999999 blk_-9999999999999999999 blk_-9999999999999999999 blk_-9999999999999999999 blk_-9999999999999999999 blk_9999999999999999999 blk_9999999999999999999 blk_-9999999999999999999 blk_999999999999999999 blk_9999999999999999999 blk_-9999999999999999999
+proxy.cse.cuhk.edu.hk:9999 open through proxy proxy.cse.cuhk.edu.hk:9999 HTTPS
+total of 9 ddr error(s) detected and corrected over 9999 seconds
+proxy.cse.cuhk.edu.hk:9999 open through proxy proxy.cse.cuhk.edu.hk:9999 HTTPS
+critical
+proxy.cse.cuhk.edu.hk:9999 close, 9999 bytes (9.99 KB) sent, 9999 bytes (9.99 KB) received, lifetime 99:99
+Send worker leaving thread
+client-lb.dropbox.com:999 error : Could not connect to proxy proxy.cse.cuhk.edu.hk:9999 - connection attempt failed with error 99999
+newsapp.9999999.com:99 open through proxy proxy.cse.cuhk.edu.hk:9999 HTTPS
+Received block blk_-9999999999999999999 of size 99999999 from /99.999.999.999
+proxy.cse.cuhk.edu.hk:9999 close, 9 bytes sent, 9 bytes received, lifetime <9 sec
+Deleting block blk_999999999999999999 file /mnt/hadoop/dfs/data/current/blk_999999999999999999
+proxy.cse.cuhk.edu.hk:9999 close, 999 bytes sent, 9999 bytes (9.99 KB) received, lifetime 99:99
+warning
+s9.bdstatic.com:99 error : Could not connect to proxy proxy.cse.cuhk.edu.hk:9999 - Could not resolve proxy.cse.cuhk.edu.hk error 99999
+Interrupting SendWorker
+get.sogou.com:99 open through proxy proxy.cse.cuhk.edu.hk:9999 HTTPS
+9 floating point alignment exceptions
+Received connection request /99.99.99.99:99999
+99.999.9.99:99999:Got exception while serving blk_-9999999999999999999 to /99.999.99.999:
+9 floating point alignment exceptions
+Interrupting SendWorker
+Deleting block blk_-9999999999999999999 file /mnt/hadoop/dfs/data/current/subdir99/blk_-9999999999999999999
+iar 99999999 dear 99999bcc
+warning
+not responding
+PacketResponder 9 for block blk_9999999999999999999 terminating
+proxy.cse.cuhk.edu.hk:9999 open through proxy proxy.cse.cuhk.edu.hk:9999 HTTPS
+9 Linkerror event interval expired
+******* GOODBYE /99.99.99.99:99999 ********
+BLOCK* NameSystem.addStoredBlock: blockMap updated: 99.999.99.99:99999 is added to blk_9999999999999999999 size 99999999
+Cannot open channel to 9 at election address /99.99.99.99:9999
+generating core.99999
+PacketResponder 9 for block blk_9999999999999999999 terminating
+proxy.cse.cuhk.edu.hk:9999 open through proxy proxy.cse.cuhk.edu.hk:9999 HTTPS
+Kernel detected 9999999 integer alignment exceptions (9999999) iar 9x99999ea9, dear 9x99fc9ba9 (9999999) iar 9x99999eb9, dear 9x99fc9bc9 (9999999) iar 9x99999ea9, dear 9x99fc9be9 (9999999) iar 9x99999eb9, dear 9x99fc9c99 (9999999) iar 9x99999ee9, dear 9x99fc9c99 (9999999) iar 9x99999ef9, dear 9x99fc9c99 (9999999) iar 9x99999ee9, dear 9x99fc9c99 (9999999) iar 9x99999ef9, dear 9x99fc9c99
+ambient=99
+Expiring session 9x99ede99a99b9999, timeout of 99999ms exceeded
+generating core.99999
+Processed session termination for sessionid: 9x99ed9ac9c9e9999
+normal
+Received block blk_9999999999999999999 of size 99999999 from /99.999.99.999
+switch_module error 9999999999 9 Linkerror event interval expired
+Exception causing close of session 9x9 due to java.io.IOException: ZooKeeperServer not running
+NIFF: node node-9 has detected an available network connection on network 99.999.9.9 via interface ee9
+ambient=99
+Interrupted while waiting for message on queue
+node temperature 9999999999 9 ambient=99
+BLOCK* NameSystem.addStoredBlock: blockMap updated: 99.999.99.999:99999 is added to blk_9999999999999999999 size 99999999
+proxy.cse.cuhk.edu.hk:9999 close, 9999 bytes (9.99 KB) sent, 9999 bytes (9.99 KB) received, lifetime 99:99
+proxy.cse.cuhk.edu.hk:9999 close, 9 bytes sent, 9 bytes received, lifetime 99:99
+Received connection request /99.99.99.99:99999
+9999999 floating point alignment exceptions
+configured out
+Accepted socket connection from /99.99.99.99:99999
+Received block blk_-9999999999999999999 of size 9999999 from /99.999.99.999
+ambient=99
+Linkerror event interval expired
+Send worker leaving thread
+Interrupting SendWorker
+generating core.99999
+PacketResponder 9 for block blk_-9999999999999999999 terminating
+boot  (command 9999)
+clients9.google.com:999 open through proxy proxy.cse.cuhk.edu.hk:9999 HTTPS
+api.github.com:999 close, 999 bytes sent, 9999 bytes (9.99 KB) received, lifetime 99:99
+Accepted socket connection from /99.99.99.99:99999
+Received connection request /99.99.99.99:99999
+Interrupting SendWorker
+generating core.9999
+Deleting block blk_-9999999999999999999 file /mnt/hadoop/dfs/data/current/subdir99/blk_-9999999999999999999
+generating core.9999
+BLOCK* NameSystem.delete: blk_999999999999999999 is added to invalidSet of 99.999.999.99:99999
+cm.g.doubleclick.net:999 open through proxy proxy.cse.cuhk.edu.hk:9999 HTTPS
+generating core.99999
+Send worker leaving thread
+data store interrupt caused by icbi.........9
+Expiring session 9x99ed99999f9999f, timeout of 99999ms exceeded
+switch_module error 9999999999 9 link errors remain current
+warning
+generating core.999
+generating core.99999
+Processed session termination for sessionid: 9x99edfaa99f9999d
+switch_module error 9999999999 9 Linkerror event interval expired
+rts: kernel terminated for reason 9999rts: bad message header: invalid cpu, type=99999, cpu=999, index=9999999999, total=9999999
+warning
+security.ie.sogou.com:99 close, 999 bytes sent, 999 bytes received, lifetime 99:99
+warning
+9 ambient=99
+BLOCK* NameSystem.delete: blk_9999999999999999999 is added to invalidSet of 99.999.999.99:99999
+api.github.com:999 open through proxy proxy.cse.cuhk.edu.hk:9999 HTTPS
+configured out
+www.google-analytics.com:999 open through proxy proxy.cse.cuhk.edu.hk:9999 HTTPS
+Interrupting SendWorker
+ciod: Error loading /bgl/apps/SWL/stability/NEWS99/news99_DD: invalid or missing program image, Permission denied
+proxy.cse.cuhk.edu.hk:9999 open through proxy proxy.cse.cuhk.edu.hk:9999 HTTPS
+Accepted socket connection from /99.99.99.99:99999
+BLOCK* NameSystem.delete: blk_9999999999999999999 is added to invalidSet of 99.999.99.99:99999
+generating core.9999
+iar 99999999 dear 99999bfc
+Connection broken for id 999999999999, my id = 9, error =
+99.999.99.999:99999 Served block blk_-9999999999999999999 to /99.999.99.999
+Interconnect-9T99 switch_module error 9999999999 9 Linkerror event interval expired
+BLOCK* NameSystem.allocateBlock: /user/root/rand/_temporary/_task_999999999999_9999_m_999999_9/part-99999. blk_-9999999999999999999
+pic99.ishuhui.com:99 open through proxy proxy.cse.cuhk.edu.hk:9999 HTTPS
+iar 99999999 dear 9999c99c
+Unexpected exception causing shutdown while sock still open
+normal
+iar 9999999c dear 9999ccfc
+iar 999999b9 dear 9999999c
+oimageb9.ydstatic.com:99 error : A connection request was canceled before the completion.
+PacketResponder 9 for block blk_9999999999999999999 terminating
+proxy.cse.cuhk.edu.hk:9999 open through proxy proxy.cse.cuhk.edu.hk:9999 HTTPS
+collector.githubapp.com:999 open through proxy proxy.cse.cuhk.edu.hk:9999 HTTPS
+Receiving block blk_-9999999999999999999 src: /99.999.99.999:99999 dest: /99.999.99.999:99999
+generating core.9999
+Received connection request /99.99.99.99:99999
+9 microseconds spent in the rbs signal handler during 9 calls. 9 microseconds was the maximum time for a single instance of a correctable ddr.
+Fan speeds ( 9999 9999 9999 **** 9999 9999 )
+Receiving block blk_9999999999999999999 src: /99.999.9.999:99999 dest: /99.999.9.999:99999
+ambient=99
+PacketResponder 9 for block blk_9999999999999999999 terminating
+warning
+play.google.com:999 open through proxy proxy.cse.cuhk.edu.hk:9999 HTTPS
+block-edge.dropbox.com:999 open through proxy proxy.cse.cuhk.edu.hk:9999 HTTPS
+Linkerror event interval expired
+node-D9 clusterfilesystem clusterfilesystem.not_served 9999999999 9 ClusterFileSystem: ServerFileSystem domain root99_domain is no longer served by node node-99
+Interrupted while waiting for message on queue
+Closed socket connection for client /99.99.99.99:99999 which had sessionid 9x99ed9ac9c9e99a9
+proxy.cse.cuhk.edu.hk:9999 close, 9999 bytes (9.99 KB) sent, 99999 bytes (99.9 KB) received, lifetime 99:99
+Deleting block blk_999999999999999999 file /mnt/hadoop/dfs/data/current/subdir9/blk_999999999999999999
+avatars9.githubusercontent.com:999 open through proxy proxy.cse.cuhk.edu.hk:9999 HTTPS
+data address: 9x99999999
+Deleting block blk_-9999999999999999999 file /mnt/hadoop/dfs/data/current/subdir99/blk_-9999999999999999999
+CE sym 99, at 9x999cd9e9, mask 9x99
+warning
+Interrupting SendWorker
+PacketResponder 9 for block blk_999999999999999999 terminating
+auxiliary processor.........................9
+proxy.cse.cuhk.edu.hk:9999 close, 9999 bytes (9.99 KB) sent, 999 bytes received, lifetime 99:99
+proxy.cse.cuhk.edu.hk:9999 open through proxy proxy.cse.cuhk.edu.hk:9999 HTTPS
+Received block blk_9999999999999999999 of size 99999999 from /99.999.99.999
+generating core.9999
+Received connection request /99.99.99.99:99999
+9 ddr errors(s) detected and corrected on rank 9, symbol 99, bit 9
+Send worker leaving thread
+Receiving block blk_-9999999999999999999 src: /99.999.99.9:99999 dest: /99.999.99.9:99999
+proxy.cse.cuhk.edu.hk:9999 close, 9999 bytes (9.99 KB) sent, 99999 bytes (99.9 KB) received, lifetime 99:99
+proxy.cse.cuhk.edu.hk:9999 close, 999 bytes sent, 9999 bytes (9.99 KB) received, lifetime <9 sec
+get.sogou.com:99 close, 999 bytes sent, 999 bytes received, lifetime 99:99
+switch_module error 9999999999 9 link errors remain current
+9 ambient=99
+play.google.com:999 close, 9999 bytes (9.99 KB) sent, 9999 bytes received, lifetime 99:99
+9 ambient=99
+CE sym 9, at 9x9999f9e9, mask 9x99
+tcpconn.tencent.com:99 close, 999 bytes sent, 9 bytes received, lifetime <9 sec
+9 configured out
+www.googleapis.com:999 open through proxy proxy.cse.cuhk.edu.hk:9999 HTTPS
+video.9999999.com:99 open through proxy proxy.cse.cuhk.edu.hk:9999 HTTPS
+ciod: LOGIN chdir(pwd) failed: No such file or directory
+switch_module error 9999999999 9 Link error
+short.weixin.qq.com:99 open through proxy proxy.cse.cuhk.edu.hk:9999 HTTPS
+Receiving block blk_-9999999999999999999 src: /99.999.999.999:99999 dest: /99.999.999.999:99999
+normal
+proxy.cse.cuhk.edu.hk:9999 open through proxy proxy.cse.cuhk.edu.hk:9999 HTTPS
+gige9 gige temperature 9999999999 9 normal
+node-99 node temperature 9999999999 9 ambient=99
+Client attempting to establish new session at /99.99.99.99:99999
+proxy.cse.cuhk.edu.hk:9999 open through proxy proxy.cse.cuhk.edu.hk:9999 HTTPS
+Interrupted while waiting for message on queue
+r99---sn-p9qlsn99.googlevideo.com:999 close, 9999 bytes (9.99 KB) sent, 99999 bytes (99.9 KB) received, lifetime 99:99
+switch_module error 9999999999 9 Linkerror event interval expired
+proxy.cse.cuhk.edu.hk:9999 open through proxy proxy.cse.cuhk.edu.hk:9999 HTTPS
+proxy.cse.cuhk.edu.hk:9999 close, 9 bytes sent, 9 bytes received, lifetime 99:99
+proxy.cse.cuhk.edu.hk:9999 close, 9999 bytes sent, 99999 bytes (99.9 KB) received, lifetime 99:99
+iar 99999bc9 dear 9999cdec
+Interrupted while waiting for message on queue
+generating core.9999
+proxy.cse.cuhk.edu.hk:9999 close, 9999 bytes (9.99 KB) sent, 9999 bytes (9.99 KB) received, lifetime <9 sec
+suggestion.baidu.com:99 close, 9999 bytes (9.99 KB) sent, 999 bytes received, lifetime 99:99
+iar 99999999 dear 9999a99c
+generating core.9999
+Connection broken for id 999999999999, my id = 9, error =
+qd-update.qq.com:9999 error : Could not connect through proxy proxy.cse.cuhk.edu.hk:9999 - Proxy server cannot establish a connection with the target, status code 999
+Received block blk_9999999999999999999 of size 99999999 from /99.999.999.999
+iar 99999999 dear 9999c9ec
+Received connection request /99.99.99.99:99999
+switch_module error 9999999999 9 Linkerror event interval expired
+BLOCK* NameSystem.delete: blk_9999999999999999999 is added to invalidSet of 99.999.99.9:99999
+proxy.cse.cuhk.edu.hk:9999 close, 999 bytes sent, 999 bytes received, lifetime <9 sec
+iar 9999999c dear 99f999fc
+Received connection request /99.99.99.99:99999
+short.weixin.qq.com:99 close, 999 bytes sent, 999 bytes received, lifetime <9 sec
+instruction address: 9x99999ed9
+99.999.99.999:99999 Served block blk_-9999999999999999999 to /99.999.99.999
+Interrupted while waiting for message on queue
+configured out
+Connection broken for id 999999999999, my id = 9, error =
+Received connection request /99.99.99.99:99999
+Send worker leaving thread
+proxy.cse.cuhk.edu.hk:9999 open through proxy proxy.cse.cuhk.edu.hk:9999 HTTPS
+data TLB error interrupt
+ambient=99
+Linkerror event interval expired
+generating core.99999
+Interconnect-9N99 switch_module error 9999999999 9 Linkerror event interval expired
+ambient=99
+PacketResponder 9 for block blk_9999999999999999999 terminating
+Cannot open channel to 9 at election address /99.99.99.99:9999
+wait  (command 9999)
+9 microseconds spent in the rbs signal handler during 9 calls. 9 microseconds was the maximum time for a single instance of a correctable ddr.
+Deleting block blk_999999999999999999 file /mnt/hadoop/dfs/data/current/subdir99/blk_999999999999999999
+9 ddr error(s) detected and corrected on rank 9, symbol 99 over 9999 seconds
+ciod: generated 999 core files for program /home/germann9/BGL-demo/SPaSM_mpi
+PacketResponder 9 for block blk_9999999999999999999 terminating
+normal
+generating core.99999
+www.google.com.hk:999 open through proxy proxy.cse.cuhk.edu.hk:9999 HTTPS
+configured out
+BLOCK* NameSystem.addStoredBlock: blockMap updated: 99.999.999.99:99999 is added to blk_-9999999999999999999 size 99999999
+data store interrupt caused by icbi.........9
+9 Linkerror event interval expired
+proxy.cse.cuhk.edu.hk:9999 close, 999 bytes sent, 9999 bytes (9.99 KB) received, lifetime 99:99
+PacketResponder 9 for block blk_-9999999999999999999 terminating
+clients9.google.com:999 open through proxy proxy.cse.cuhk.edu.hk:9999 HTTPS
+generating core.9999
+Interrupted while waiting for message on queue
+PacketResponder 9 for block blk_9999999999999999999 terminating
+Send worker leaving thread
+99.999.999.99:99999 Served block blk_9999999999999999999 to /99.999.999.99
+Fan speeds ( 9999 9999 9999 **** 9999 9999 )
+qbwup.imtt.qq.com:99 close, 999 bytes sent, 999 bytes received, lifetime 99:99
+BLOCK* NameSystem.addStoredBlock: blockMap updated: 99.999.999.999:99999 is added to blk_9999999999999999999 size 99999999
+BLOCK* NameSystem.delete: blk_-9999999999999999999 is added to invalidSet of 99.999.999.99:99999
+Established session 9x99ed99999f99999 with negotiated timeout 99999 for client /99.99.99.99:99999
+ambient=99
+generating core.999
+99.999.99.999:99999 Served block blk_9999999999999999999 to /99.999.99.99
+Interrupted while waiting for message on queue
+generating core.9999
+999999 floating point alignment exceptions
+9 floating point alignment exceptions
+mtalk.google.com:999 open through proxy proxy.cse.cuhk.edu.hk:9999 HTTPS
+i9.itc.cn:99 close, 9999 bytes (9.99 KB) sent, 99999 bytes (99.9 KB) received, lifetime 99:99
+generating core.9999
+warning
+proxy.cse.cuhk.edu.hk:9999 close, 9999 bytes (9.99 KB) sent, 99999 bytes (99.9 KB) received, lifetime 99:99
+PacketResponder 9 for block blk_9999999999999999999 terminating
+switch_module error 9999999999 9 Linkerror event interval expired
+NIFF: node node-99 has detected an available network connection on network 9.9.9.9 via interface alt9
+Linkerror event interval expired
+wait  (command 9999)
+wpad:99 error : Could not connect to proxy proxy.cse.cuhk.edu.hk:9999 - Could not resolve proxy.cse.cuhk.edu.hk error 99999
+Received connection request /99.99.99.99:99999
+generating core.99999
+proxy.cse.cuhk.edu.hk:9999 close, 9999 bytes (9.99 KB) sent, 999 bytes received, lifetime <9 sec
+Received connection request /99.99.99.99:99999
+short.weixin.qq.com:99 open through proxy proxy.cse.cuhk.edu.hk:9999 HTTPS
+proxy.cse.cuhk.edu.hk:9999 open through proxy proxy.cse.cuhk.edu.hk:9999 HTTPS
+9 ddr error(s) detected and corrected on rank 9, symbol 99 over 9999 seconds
+proxy.cse.cuhk.edu.hk:9999 open through proxy proxy.cse.cuhk.edu.hk:9999 HTTPS
+Received block blk_-9999999999999999999 of size 99999999 from /99.999.99.99
+proxy.cse.cuhk.edu.hk:9999 open through proxy proxy.cse.cuhk.edu.hk:9999 HTTPS
+warning
+switch_module error 9999999999 9 link errors remain current
+Deleting block blk_-9999999999999999999 file /mnt/hadoop/dfs/data/current/subdir99/blk_-9999999999999999999
+Receiving block blk_9999999999999999999 src: /99.999.9.999:99999 dest: /99.999.9.999:99999
+generating core.9999
+generating core.99999
+Interrupted while waiting for message on queue
+proxy.cse.cuhk.edu.hk:9999 open through proxy proxy.cse.cuhk.edu.hk:9999 HTTPS
+oimagec9.ydstatic.com:99 close, 999 bytes sent, 99999 bytes (99.9 KB) received, lifetime 99:99
+normal
+CE sym 99, at 9x99e99e99, mask 9x99
+total of 99 ddr error(s) detected and corrected
+Interrupting SendWorker
+Client attempting to establish new session at /99.99.99.99:99999
+Receiving block blk_9999999999999999999 src: /99.999.99.999:99999 dest: /99.999.99.999:99999
+i9.ytimg.com:999 open through proxy proxy.cse.cuhk.edu.hk:9999 HTTPS
+generating core.9999
+ss.bdimg.com:99 error : Could not connect to proxy proxy.cse.cuhk.edu.hk:9999 - Could not resolve proxy.cse.cuhk.edu.hk error 99999
+PacketResponder 9 for block blk_9999999999999999999 terminating
+Deleting block blk_9999999999999999999 file /mnt/hadoop/dfs/data/current/subdir99/blk_9999999999999999999
+ciod: Error reading message prefix on CioStream socket to 999.99.99.999:99999, Link has been severed
+Linkerror event interval expired
+running
+Closed socket connection for client /99.99.99.99:99999 which had sessionid 9x99ede99a99b999e
+Accepted socket connection from /99.99.99.99:99999
+Interrupted while waiting for message on queue
+999999 floating point alignment exceptions
+generating core.99999
+switch_module error 9999999999 9 Linkerror event interval expired
+Received block blk_-9999999999999999999 of size 99999999 from /99.999.999.999
+Linkerror event interval expired
+fraction rounded.........................9
+PacketResponder 9 for block blk_-9999999999999999999 terminating
+proxy.cse.cuhk.edu.hk:9999 close, 999 bytes sent, 999 bytes received, lifetime 99:99
+notifications.google.com:999 open through proxy proxy.cse.cuhk.edu.hk:9999 HTTPS
+9 configured out
+BLOCK* NameSystem.delete: blk_-9999999999999999999 is added to invalidSet of 99.999.999.9:99999
+9 normal
+Connection broken for id 999999999999, my id = 9, error =
+switch_module error 9999999999 9 Linkerror event interval expired
+PacketResponder 9 for block blk_9999999999999999999 terminating
+ciod: Error loading /bgl/apps/scaletest/performance/MINIBEN/mb_999_9999/allreduce.rts: invalid or missing program image, Exec format error
+9 floating point alignment exceptions
+Interrupted while waiting for message on queue
+Receiving block blk_9999999999999999999 src: /99.999.999.999:99999 dest: /99.999.999.999:99999
+99.client-channel.google.com:999 close, 99999 bytes (99.9 KB) sent, 99999 bytes (99.9 KB) received, lifetime 99:99:99
+99.999.99.999:99999 Served block blk_9999999999999999999 to /99.999.99.999
+Received block blk_-9999999999999999999 of size 99999999 from /99.999.999.999
+Interrupted while waiting for message on queue
+generating core.99999
+99.999.999.999:99999 Served block blk_-9999999999999999999 to /99.999.999.99
+9 microseconds spent in the rbs signal handler during 9 calls. 9 microseconds was the maximum time for a single instance of a correctable ddr.
+Established session 9x99f9a999df99999 with negotiated timeout 99999 for client /99.99.99.99:99999
+get.sogou.com:99 open through proxy proxy.cse.cuhk.edu.hk:9999 HTTPS
+node-D9 clusterfilesystem clusterfilesystem.no_server 9999999999 9 ClusterFileSystem: There is no server for ServerFileSystem domain storage999
+Interrupting SendWorker
+Receiving block blk_-9999999999999999999 src: /99.999.99.999:99999 dest: /99.999.99.999:99999
+BLOCK* NameSystem.delete: blk_9999999999999999999 is added to invalidSet of 99.999.99.999:99999
+pic9.zhimg.com:999 open through proxy proxy.cse.cuhk.edu.hk:9999 HTTPS
+proxy.cse.cuhk.edu.hk:9999 close, 9999 bytes (9.99 KB) sent, 9999 bytes (9.99 KB) received, lifetime <9 sec
+Received block blk_-9999999999999999999 of size 99999999 from /99.999.999.99
+Interrupted while waiting for message on queue
+data TLB error interrupt
+dslb.cdn.krcom.cn:99 close, 999 bytes sent, 999999 bytes (999 KB) received, lifetime 99:99
+generating core.99999
+Received connection request /99.99.99.99:99999
+999999999 double-hummer alignment exceptions
+running
+timg.baidu.com:99 close, 9999 bytes (9.99 KB) sent, 9999 bytes (9.99 KB) received, lifetime 99:99
+idoproxydb hit ASSERT condition: ASSERT expression=9 Source file=idotransportmgr.cpp Source line=9999 Function=int IdoTransportMgr::SendPacket(IdoUdpMgr*, BglCtlPavTrace*)
+get.sogou.com:99 close, 999 bytes sent, 99999 bytes (99.9 KB) received, lifetime 99:99
+Received block blk_999999999999999999 of size 99999999 from /99.999.99.999
+Received connection request /99.99.99.99:99999
+Send worker leaving thread
+Connection request from old client /99.99.99.99:99999; will be dropped if server is in r-o mode
+99999 total interrupts. 9 critical input interrupts. 9 microseconds total spent on critical input interrupts, 9 microseconds max time in a critical input interrupt.
+generating core.99
+clients9.google.com:999 close, 9999 bytes (9.99 KB) sent, 9999 bytes (9.99 KB) received, lifetime 99:99
+9 Linkerror event interval expired
+Linkerror event interval expired
+wait  (command 9999)
+normal
+node-99 node status 9999999999 9 configured out
+9999.flash9-http.qq.com:99 close, 999 bytes sent, 999999 bytes (999 KB) received, lifetime <9 sec
+Interrupting SendWorker
+BLOCK* NameSystem.delete: blk_999999999999999999 is added to invalidSet of 99.999.99.99:99999
+BLOCK* NameSystem.allocateBlock: /user/root/sortrand/_temporary/_task_999999999999_9999_r_999999_9/part-99999. blk_-999999999999999999
+PacketResponder 9 for block blk_9999999999999999999 terminating
+go.microsoft.com:99 open through proxy proxy.cse.cuhk.edu.hk:9999 HTTPS
+iar 99999999 dear 9999dbbc
+Interrupted while waiting for message on queue
+switch_module error 9999999999 9 Linkerror event interval expired
+Send worker leaving thread
+Connection broken for id 999999999999, my id = 9, error =
+Ido chip status changed: FF:F9:9F:99:DC:99:99:9D:99:E9:99:9E ip=99.9.9.999 v=99 t=9 status=M Tue Aug 99 99:99:99 PDT 9999
+Connection broken for id 999999999999, my id = 9, error =
+Received connection request /99.99.99.99:99999
+running
+BLOCK* NameSystem.delete: blk_-9999999999999999999 is added to invalidSet of 99.999.999.999:99999
+Received block blk_-9999999999999999999 of size 99999999 from /99.999.999.999
+normal
+data TLB error interrupt
+proxy.cse.cuhk.edu.hk:9999 close, 9 bytes sent, 9 bytes received, lifetime 99:99
+sclick.baidu.com:99 open through proxy proxy.cse.cuhk.edu.hk:9999 HTTPS
+Component State Change: Component \999alt9\999 is in the unavailable state (HWID=9999)
+proxy.cse.cuhk.edu.hk:9999 close, 9999 bytes (9.99 KB) sent, 999 bytes received, lifetime 99:99
+Received block blk_9999999999999999999 of size 99999999 from /99.999.999.999
+Linkerror event interval expired
+Connection broken for id 999999999999, my id = 9, error =
+action start 9999999999 9 wait  (command 9999)
+iar 99999999 dear 9999c9ec
+normal
+Send worker leaving thread
+PacketResponder 9 for block blk_9999999999999999999 terminating
+Link error
+generating core.99
+Received block blk_9999999999999999999 of size 99999999 from /99.999.99.99
+BLOCK* NameSystem.allocateBlock: /user/root/sortrand9/_temporary/_task_999999999999_9999_r_999999_9/part-99999. blk_999999999999999999
+iar 99999fd9 dear 9999a99c
+Receiving block blk_9999999999999999999 src: /99.999.999.999:99999 dest: /99.999.999.999:99999
+BLOCK* NameSystem.delete: blk_999999999999999999 is added to invalidSet of 99.999.99.999:99999
+Connection broken for id 999999999999, my id = 9, error =
+BLOCK* NameSystem.addStoredBlock: blockMap updated: 99.999.99.999:99999 is added to blk_-9999999999999999999 size 99999999
+blocked
+9 not responding
+99.999.999.99:99999 Served block blk_-9999999999999999999 to /99.999.999.99
+generating core.99999
+generating core.9999
+www.google.com.hk:999 open through proxy proxy.cse.cuhk.edu.hk:9999 HTTPS
+BLOCK* NameSystem.delete: blk_9999999999999999999 is added to invalidSet of 99.999.9.999:99999
+99.client-channel.google.com:999 close, 999 bytes sent, 9999 bytes (9.99 KB) received, lifetime <9 sec
+ciod: Received signal 99, code=9, errno=9, address=9x999999b9
+proxy.cse.cuhk.edu.hk:9999 close, 9 bytes sent, 9 bytes received, lifetime 99:99
+ciod: Received signal 99, code=9, errno=9, address=9x999999f9
+client-cf.dropbox.com:999 close, 9999 bytes (9.99 KB) sent, 9999 bytes (9.99 KB) received, lifetime 99:99
+Receiving block blk_-9999999999999999999 src: /99.999.99.999:99999 dest: /99.999.99.999:99999
+instruction cache parity error corrected
+Received block blk_9999999999999999999 of size 99999999 from /99.999.999.99
+Linkerror event interval expired
+Received connection request /99.99.99.99:99999
+proxy.cse.cuhk.edu.hk:9999 close, 9999 bytes (9.99 KB) sent, 9999 bytes (9.99 KB) received, lifetime 99:99
+generating core.99999
+generating core.999
+Received block blk_-9999999999999999999 of size 99999999 from /99.999.99.999
+Interrupted while waiting for message on queue
+proxy.cse.cuhk.edu.hk:9999 open through proxy proxy.cse.cuhk.edu.hk:9999 HTTPS
+www.googleapis.com:999 close, 9999 bytes (9.99 KB) sent, 9999 bytes (9.99 KB) received, lifetime 99:99
+formi.baidu.com:999 error : Could not connect through proxy proxy.cse.cuhk.edu.hk:9999 - Proxy server cannot establish a connection with the target, status code 999
+Received connection request /99.99.99.99:99999
+boot  (command 9999)
+999 double-hummer alignment exceptions
+BLOCK* NameSystem.delete: blk_999999999999999999 is added to invalidSet of 99.999.99.999:99999
+generating core.9999
+generating core.99999
+proxy.cse.cuhk.edu.hk:9999 close, 9 bytes sent, 9 bytes received, lifetime 99:99
+pv.mini.sohu.com:99 close, 9999 bytes (9.99 KB) sent, 9999 bytes (9.99 KB) received, lifetime 99:99
+Connection broken for id 999999999999, my id = 9, error =
+Received block blk_-999999999999999999 of size 99999999 from /99.999.99.99
+proxy.cse.cuhk.edu.hk:9999 open through proxy proxy.cse.cuhk.edu.hk:9999 HTTPS
+tvax9.sinaimg.cn:99 open through proxy proxy.cse.cuhk.edu.hk:9999 HTTPS
+generating core.9999
+generating core.9999
+generating core.9999
+warning
+generating core.9999
+Closed socket connection for client /99.99.99.99:99999 which had sessionid 9x99edfaa99999999
+proxy.cse.cuhk.edu.hk:9999 close, 9999 bytes (9.99 KB) sent, 99999 bytes (99.9 KB) received, lifetime 99:99
+notifications.google.com:999 close, 999 bytes sent, 9999 bytes (9.99 KB) received, lifetime 99:99
+Send worker leaving thread
+iar 999a9999 dear 99ef99b9
+Closed socket connection for client /99.99.99.99:99999 which had sessionid 9x99edfaa9c999999
+generating core.99999
+Receiving block blk_-9999999999999999999 src: /99.999.999.999:99999 dest: /99.999.999.999:99999
+proxy.cse.cuhk.edu.hk:9999 open through proxy proxy.cse.cuhk.edu.hk:9999 HTTPS
+warning
+PacketResponder 9 for block blk_-9999999999999999999 terminating
+generating core.99999
+9 floating point alignment exceptions
+Connection broken for id 999999999999, my id = 9, error =
+Processed session termination for sessionid: 9x99ed9999999999c
+Interrupted while waiting for message on queue
+Interconnect-9T99 switch_module error 9999999999 9 Linkerror event interval expired
+generating core.9999
+Connection request from old client /99.99.99.99:99999; will be dropped if server is in r-o mode
+running
+proxy.cse.cuhk.edu.hk:9999 open through proxy proxy.cse.cuhk.edu.hk:9999 HTTPS
+total of 9 ddr error(s) detected and corrected
+normal
+iar 9999999c dear 99f9999c
+Receiving block blk_9999999999999999999 src: /99.999.999.999:99999 dest: /99.999.999.999:99999
+generating core.99999
+generating core.9999
+iar 99999999 dear 99f99cfc
+Connection broken for id 999999999999, my id = 9, error =
+Interrupted while waiting for message on queue
+www.evernote.com:999 open through proxy proxy.cse.cuhk.edu.hk:9999 HTTPS
+proxy.cse.cuhk.edu.hk:9999 open through proxy proxy.cse.cuhk.edu.hk:9999 HTTPS
+block.dropbox.com:999 open through proxy proxy.cse.cuhk.edu.hk:9999 HTTPS
+proxy.cse.cuhk.edu.hk:9999 close, 9 bytes sent, 9 bytes received, lifetime <9 sec
+BLOCK* NameSystem.delete: blk_9999999999999999999 is added to invalidSet of 99.999.99.999:99999
+Receiving block blk_-9999999999999999999 src: /99.999.999.999:99999 dest: /99.999.999.999:99999
+Processed session termination for sessionid: 9x99ede99999f9999
+PacketResponder 9 for block blk_-9999999999999999999 terminating
+normal
+Send worker leaving thread
+ClusterFileSystem: There is no server for ServerFileSystem domain storage9999
+Interrupted while waiting for message on queue
+Send worker leaving thread
+Expiring session 9x99edfaa9c999999, timeout of 99999ms exceeded
+Deleting block blk_9999999999999999999 file /mnt/hadoop/dfs/data/current/subdir99/blk_9999999999999999999
+Deleting block blk_-9999999999999999999 file /mnt/hadoop/dfs/data/current/subdir99/blk_-9999999999999999999
+Connection request from old client /99.99.99.99:99999; will be dropped if server is in r-o mode
+Received block blk_-9999999999999999999 of size 99999999 from /99.999.999.999
+Send worker leaving thread
+node-999 node temperature 9999999999 9 ambient=99
+program interrupt: illegal instruction......9
+Received block blk_-9999999999999999999 of size 99999999 from /99.999.99.999
+Connection broken for id 999999999999, my id = 9, error =
+Fan speeds ( 9999 9999 9999 **** 9999 9999 )
+Receiving block blk_-999999999999999999 src: /99.999.9.99:99999 dest: /99.999.9.99:99999
+Cannot open channel to 9 at election address /99.99.99.99:9999
+BLOCK* NameSystem.delete: blk_-9999999999999999999 is added to invalidSet of 99.999.99.999:99999
+normal
+puui.qpic.cn:99 close, 999 bytes sent, 9999 bytes (9.99 KB) received, lifetime <9 sec
+Received block blk_-9999999999999999999 of size 99999999 from /99.999.999.999
+NIFF: node node-999 has detected an available network connection on network 9.9.999.9 via interface alt9
+proxy.cse.cuhk.edu.hk:9999 open through proxy proxy.cse.cuhk.edu.hk:9999 HTTPS
+Send worker leaving thread
+BLOCK* NameSystem.allocateBlock: /user/root/randtxt/_temporary/_task_999999999999_9999_m_999999_9/part-99999. blk_9999999999999999999
+Send worker leaving thread
+puui.qpic.cn:99 close, 999 bytes sent, 9999 bytes (9.99 KB) received, lifetime <9 sec
+generating core.9999
+Send worker leaving thread
+Received connection request /99.99.99.99:99999
+gige9 gige temperature 9999999999 9 warning
+switch_module error 9999999999 9 Linkerror event interval expired
+iar 999999b9 dear 999999dc
+Fan speeds ( 9999 9999 9999 **** 9999 9999 )
+not responding
+api.github.com:999 open through proxy proxy.cse.cuhk.edu.hk:9999 HTTPS
+normal
+Interconnect-9N99 switch_module error 9999999999 9 Linkerror event interval expired
+BLOCK* NameSystem.allocateBlock: /user/root/randtxt9/_temporary/_task_999999999999_9999_m_999999_9/part-99999. blk_-999999999999999999
+Deleting block blk_9999999999999999999 file /mnt/hadoop/dfs/data/current/subdir99/blk_9999999999999999999
+generating core.9999
+ambient=99
+gige9 gige temperature 9999999999 9 normal
+normal
+d.dropbox.com:999 close, 9999 bytes (9.99 KB) sent, 9999 bytes (9.99 KB) received, lifetime 99:99
+normal
+warning
+Fan speeds ( 9999 9999 9999 **** 9999 9999 )
+BLOCK* NameSystem.addStoredBlock: blockMap updated: 99.999.99.999:99999 is added to blk_-9999999999999999999 size 99999999
+PacketResponder 9 for block blk_9999999999999999999 terminating
+proxy.cse.cuhk.edu.hk:9999 close, 9999 bytes (9.99 KB) sent, 9999 bytes (9.99 KB) received, lifetime 99:99
+pubads.g.doubleclick.net:999 close, 999 bytes sent, 9999 bytes (9.99 KB) received, lifetime 99:99
+Closed socket connection for client /99.99.99.99:99999 (no session established for client)
+9 floating point alignment exceptions
+99 floating point alignment exceptions
+Connection broken for id 999999999999, my id = 9, error =
+Receiving block blk_9999999999999999999 src: /99.999.99.99:99999 dest: /99.999.99.99:99999
+switch_module error 9999999999 9 Linkerror event interval expired
+Interrupting SendWorker
+Interrupted while waiting for message on queue
+BLOCK* NameSystem.addStoredBlock: blockMap updated: 99.999.99.999:99999 is added to blk_-9999999999999999999 size 99999999
+Send worker leaving thread
+iar 99999999 dear 9999da9c
+generating core.99999
+Received block blk_-9999999999999999999 of size 99999999 from /99.999.999.999
+proxy.cse.cuhk.edu.hk:9999 open through proxy proxy.cse.cuhk.edu.hk:9999 HTTPS
+ciod: Error loading /bgl/apps/scaletest/performance/MINIBEN/mb_999_9999/allreduce.rts: invalid or missing program image, Exec format error
+Notification time out: 99999
+www.google.com:999 close, 9999 bytes (9.99 KB) sent, 9999 bytes (9.99 KB) received, lifetime 99:99
+link errors remain current
+generating core.9999
+Interrupting SendWorker
+Interrupted while waiting for message on queue
+running
+generating core.999
+generating core.9999
+normal
+tcpconn9.tencent.com:999 close, 9 bytes sent, 9 bytes received, lifetime <9 sec
+normal
+Send worker leaving thread
+intf.zsall.mobilem.999.cn:99 close, 999 bytes sent, 9999 bytes (9.99 KB) received, lifetime 99:99
+generating core.99999
+99999 total interrupts. 9 critical input interrupts. 9 microseconds total spent on critical input interrupts, 9 microseconds max time in a critical input interrupt.
+generating core.99999
+Interrupting SendWorker
+Interrupted while waiting for message on queue
+Accepted socket connection from /99.99.99.99:99999
+generating core.9999
+ambient=99
+Interrupting SendWorker
+generating core.99999
+normal
+clients9.google.com:999 close, 9999 bytes (9.99 KB) sent, 9999 bytes (9.99 KB) received, lifetime 99:99
+Receiving block blk_-9999999999999999999 src: /99.999.99.99:99999 dest: /99.999.99.99:99999
+generating core.99999
+running
+switch_module error 9999999999 9 Linkerror event interval expired
+Connection broken for id 999999999999, my id = 9, error =
+generating core.9999
+Linkerror event interval expired
+Interrupting SendWorker
+Received block blk_9999999999999999999 of size 99999999 from /99.999.99.999
+Received block blk_9999999999999999999 of size 99999999 from /99.999.99.99
+iar 99999999 dear 9999b99c
+warning
+data TLB error interrupt
+Notification time out: 99999
+block.dropbox.com:999 open through proxy proxy.cse.cuhk.edu.hk:9999 HTTPS
+node temperature 9999999999 9 ambient=99
+Receiving block blk_-9999999999999999999 src: /99.999.999.99:99999 dest: /99.999.999.99:99999
+warning
+Closed socket connection for client /99.99.99.99:99999 which had sessionid 9x99ed99999f999d9
+running
+Connection broken for id 999999999999, my id = 9, error =
+BLOCK* NameSystem.addStoredBlock: blockMap updated: 99.999.999.999:99999 is added to blk_9999999999999999999 size 99999999
+Established session 9x99ed99999999999 with negotiated timeout 99999 for client /99.99.99.99:99999
+Closed socket connection for client /99.99.99.99:99999 which had sessionid 9x99ee99a9c999999
+proxy.cse.cuhk.edu.hk:9999 open through proxy proxy.cse.cuhk.edu.hk:9999 HTTPS
+proxy.cse.cuhk.edu.hk:9999 open through proxy proxy.cse.cuhk.edu.hk:9999 HTTPS
+Received block blk_-9999999999999999999 of size 99999999 from /99.999.9.999
+iar 99999999 dear 9999b99c
+9 ambient=99
+generating core.9999
+switch_module error 9999999999 9 Linkerror event interval expired
+proxy.cse.cuhk.edu.hk:9999 open through proxy proxy.cse.cuhk.edu.hk:9999 HTTPS
+NIFF: node node-99 has detected an available network connection on network 99.999.9.9 via interface ee9
+clusterfilesystem fdmn.full 9999999999 9 ServerFileSystem: ServerFileSystem domain root99_local is full
+proxy.cse.cuhk.edu.hk:9999 open through proxy proxy.cse.cuhk.edu.hk:9999 HTTPS
+normal
+Notification: 9 (n.leader), 9x999999999 (n.zxid), 9x9 (n.round), FOLLOWING (n.state), 9 (n.sid), 9x9 (n.peerEPoch), FOLLOWING (my state)
+generating core.9999
+generating core.9999
+active
+sclick.baidu.com:99 open through proxy proxy.cse.cuhk.edu.hk:9999 HTTPS
+short.weixin.qq.com:99 close, 999 bytes sent, 999 bytes received, lifetime <9 sec
+instruction address: 9x99999ed9
+Closed socket connection for client /99.99.99.99:99999 which had sessionid 9x99ed99999f999cd
+Notification: 9 (n.leader), 9xb9999999b (n.zxid), 9x9 (n.round), LOOKING (n.state), 9 (n.sid), 9xb (n.peerEPoch), LEADING (my state)
+Interrupting SendWorker
+generating core.99999
+Received block blk_-9999999999999999999 of size 99999999 from /99.999.999.99
+node-99 node status 9999999999 9 configured out
+node-999 node status 9999999999 9 running
+Fan speeds ( 9999 9999 9999 **** 9999 9999 )
+switch_module error 9999999999 9 Linkerror event interval expired
+proxy.cse.cuhk.edu.hk:9999 close, 9999 bytes (9.99 KB) sent, 999 bytes received, lifetime <9 sec
+BLOCK* NameSystem.allocateBlock: /user/root/sortrand9/_temporary/_task_999999999999_9999_r_999999_9/part-99999. blk_-9999999999999999999
+9 microseconds spent in the rbs signal handler during 9 calls. 9 microseconds was the maximum time for a single instance of a correctable ddr.
+switch_module error 9999999999 9 Linkerror event interval expired
+not responding
+Deleting block blk_-9999999999999999999 file /mnt/hadoop/dfs/data/current/subdir99/blk_-9999999999999999999
+running
+Accepted socket connection from /99.99.99.99:99999
+Deleting block blk_-9999999999999999999 file /mnt/hadoop/dfs/data/current/subdir99/blk_-9999999999999999999
+Interrupted while waiting for message on queue
+BLOCK* NameSystem.addStoredBlock: blockMap updated: 99.999.99.999:99999 is added to blk_-9999999999999999999 size 99999999
+PacketResponder 9 for block blk_-9999999999999999999 terminating
+ciod: Error loading /bgl/apps/SWL/performance/MINIBEN//torus-latency.rts: invalid or missing program image, No such file or directory
+99.999.99.999:99999:Got exception while serving blk_9999999999999999999 to /99.999.999.999:
+tva9.sinaimg.cn:99 open through proxy proxy.cse.cuhk.edu.hk:9999 HTTPS
+generating core.99999
+9999999 floating point alignment exceptions
+Interrupting SendWorker
+iar 99999999 dear 99999bcc
+PacketResponder 9 for block blk_-9999999999999999999 terminating
+bolt.dropbox.com:999 close, 9 bytes sent, 9 bytes received, lifetime <9 sec
+99.999.999.99:99999 Served block blk_-9999999999999999999 to /99.999.999.99
+BLOCK* NameSystem.delete: blk_9999999999999999999 is added to invalidSet of 99.999.999.999:99999
+9 floating point alignment exceptions
+proxy.cse.cuhk.edu.hk:9999 close, 9 bytes sent, 9 bytes received, lifetime 99:99
+Interrupted while waiting for message on queue
+Receiving block blk_9999999999999999999 src: /99.999.999.99:99999 dest: /99.999.999.99:99999
+ambient=99
+PacketResponder 9 for block blk_-9999999999999999999 terminating
+proxy.cse.cuhk.edu.hk:9999 close, 9999 bytes (9.99 KB) sent, 9999 bytes (9.99 KB) received, lifetime <9 sec
+Interrupted while waiting for message on queue
+******* GOODBYE /99.99.99.99:99999 ********
+lh9.googleusercontent.com:999 close, 999 bytes sent, 9999 bytes (9.99 KB) received, lifetime 99:99
+Connection broken for id 999999999999, my id = 9, error =
+idoproxydb hit ASSERT condition: ASSERT expression=9 Source file=idotransportmgr.cpp Source line=9999 Function=int IdoTransportMgr::SendPacket(IdoUdpMgr*, BglCtlPavTrace*)
+Interrupted while waiting for message on queue
+Received connection request /99.99.99.99:99999
+Deleting block blk_-9999999999999999999 file /mnt/hadoop/dfs/data/current/subdir99/blk_-9999999999999999999
+generating core.9999
+generating core.999
+proxy.cse.cuhk.edu.hk:9999 open through proxy proxy.cse.cuhk.edu.hk:9999 HTTPS
+99.999.999.999:99999 Served block blk_999999999999999999 to /99.999.999.999
+FOLLOWING
+BLOCK* NameSystem.allocateBlock: /user/root/randtxt/_temporary/_task_999999999999_9999_m_999999_9/part-99999. blk_-999999999999999999
+BLOCK* NameSystem.delete: blk_-9999999999999999999 is added to invalidSet of 99.999.99.99:99999
+NIFF: node node-99 has detected an available network connection on network 9.9.9.9 via interface alt9
+PacketResponder 9 for block blk_-999999999999999999 terminating
+BLOCK* NameSystem.allocateBlock: /user/root/rand9/_temporary/_task_999999999999_9999_m_999999_9/part-99999. blk_9999999999999999999
+Can not get assembly information for node card
+BLOCK* NameSystem.addStoredBlock: blockMap updated: 99.999.999.999:99999 is added to blk_-9999999999999999999 size 99999999
+proxy.cse.cuhk.edu.hk:9999 close, 9999 bytes (9.99 KB) sent, 999 bytes received, lifetime 99:99
+js.t.sinajs.cn:99 open through proxy proxy.cse.cuhk.edu.hk:9999 HTTPS
+proxy.cse.cuhk.edu.hk:9999 close, 999 bytes sent, 9999 bytes (9.99 KB) received, lifetime 99:99
+proxy.cse.cuhk.edu.hk:9999 close, 999 bytes sent, 9999 bytes (9.99 KB) received, lifetime <9 sec
+proxy.cse.cuhk.edu.hk:9999 close, 9999 bytes (9.99 KB) sent, 999 bytes received, lifetime 99:99
+Received block blk_9999999999999999999 of size 99999999 from /99.999.999.9
+Received connection request /99.99.99.99:99999
+BLOCK* NameSystem.delete: blk_9999999999999999999 is added to invalidSet of 99.999.999.999:99999
+boot  (command 9999)
+proxy.cse.cuhk.edu.hk:9999 open through proxy proxy.cse.cuhk.edu.hk:9999 HTTPS
+Connection broken for id 999999999999, my id = 9, error =
+BLOCK* NameSystem.addStoredBlock: blockMap updated: 99.999.99.999:99999 is added to blk_9999999999999999999 size 99999999
+generating core.9999
+api.github.com:999 close, 999 bytes sent, 9999 bytes (9.99 KB) received, lifetime 99:99
+BLOCK* NameSystem.addStoredBlock: blockMap updated: 99.999.9.99:99999 is added to blk_9999999999999999999 size 99999999
+node-999 unix.hw net.niff.up 9999999999 9 NIFF: node node-999 has detected an available network connection on network 9.9.999.9 via interface alt9
+generating core.9999
+ambient=99
+iar 9999999c dear 9999a99c
+BLOCK* NameSystem.addStoredBlock: blockMap updated: 99.999.99.99:99999 is added to blk_-9999999999999999999 size 99999999
+proxy.cse.cuhk.edu.hk:9999 open through proxy proxy.cse.cuhk.edu.hk:9999 HTTPS
+normal
+99999999 floating point alignment exceptions
+Deleting block blk_-999999999999999999 file /mnt/hadoop/dfs/data/current/subdir99/blk_-999999999999999999
+running
+Received connection request /99.99.99.99:99999
+proxy.cse.cuhk.edu.hk:9999 open through proxy proxy.cse.cuhk.edu.hk:9999 HTTPS
+ciod: Error loading /home/spelce9/HPCC_IBM/Urgent/COP/99K/vnm.rts: invalid or missing program image, Permission denied
+boot  (command 9999)
+99.999.999.99:99999 Served block blk_-9999999999999999999 to /99.999.999.99
+Processed session termination for sessionid: 9x99ed9ac9c9e9999
+Connection broken for id 999999999999, my id = 9, error =
+avatars9.githubusercontent.com:999 open through proxy proxy.cse.cuhk.edu.hk:9999 HTTPS
+clients9.google.com:999 close, 999 bytes sent, 999 bytes received, lifetime 99:99
+generating core.99
+My election bind port: 9.9.9.9/9.9.9.9:9999
+Connection broken for id 999999999999, my id = 9, error =
+Deleting block blk_-9999999999999999999 file /mnt/hadoop/dfs/data/current/subdir99/blk_-9999999999999999999
+block-edge.dropbox.com:999 open through proxy proxy.cse.cuhk.edu.hk:9999 HTTPS
+Interrupted while waiting for message on queue
+ambient=99
+BLOCK* NameSystem.addStoredBlock: blockMap updated: 99.999.999.99:99999 is added to blk_-9999999999999999999 size 99999999
+t99.baidu.com:99 close, 9 bytes sent, 9 bytes received, lifetime 99:99
+data TLB error interrupt
+999999999 double-hummer alignment exceptions
+warning
+generating core.99999
+Connection broken for id 999999999999, my id = 9, error =
+Receiving block blk_9999999999999999999 src: /99.999.999.999:99999 dest: /99.999.999.999:99999
+Send worker leaving thread
+9 running
+proxy.cse.cuhk.edu.hk:9999 close, 9999 bytes (9.99 KB) sent, 99999 bytes (99.9 KB) received, lifetime 99:99
+node-99 unix.hw state_change.unavailable 9999999999 9 Component State Change: Component \999alt9\999 is in the unavailable state (HWID=9999)
+warning
+generating core.99999
+qd-update.qq.com:9999 error : Could not connect through proxy proxy.cse.cuhk.edu.hk:9999 - Proxy server cannot establish a connection with the target, status code 999
+Interrupted while waiting for message on queue
+idoproxydb hit ASSERT condition: ASSERT expression=9 Source file=idotransportmgr.cpp Source line=9999 Function=int IdoTransportMgr::SendPacket(IdoUdpMgr*, BglCtlPavTrace*)
+configured out
+Received block blk_-999999999999999999 of size 99999999 from /99.999.99.999
+data TLB error interrupt
+Deleting block blk_-9999999999999999999 file /mnt/hadoop/dfs/data/current/subdir9/blk_-9999999999999999999
+Server environment:java.vendor=Oracle Corporation
+Connection broken for id 999999999999, my id = 9, error =
+Interrupting SendWorker
+Connection broken for id 999999999999, my id = 9, error =
+cpro.baidustatic.com:999 close, 999 bytes sent, 9999 bytes (9.99 KB) received, lifetime 99:99
+proxy.cse.cuhk.edu.hk:9999 open through proxy proxy.cse.cuhk.edu.hk:9999 HTTPS
+ciod: generated 99 core files for program /bgl/apps/followup/hellow/a.out.9999
+www.evernote.com:999 open through proxy proxy.cse.cuhk.edu.hk:9999 HTTPS
+Received block blk_9999999999999999999 of size 99999999 from /99.999.999.9
+proxy.cse.cuhk.edu.hk:9999 close, 9999 bytes (9.99 KB) sent, 9999 bytes (9.99 KB) received, lifetime 99:99
+proxy.cse.cuhk.edu.hk:9999 close, 999 bytes sent, 999 bytes received, lifetime <9 sec
+Receiving block blk_-9999999999999999999 src: /99.999.999.999:99999 dest: /99.999.999.999:99999
+Receiving block blk_-9999999999999999999 src: /99.999.999.999:99999 dest: /99.999.999.999:99999
+Receiving block blk_9999999999999999999 src: /99.999.999.99:99999 dest: /99.999.999.99:99999
+switch_module error 9999999999 9 Linkerror event interval expired
+BLOCK* NameSystem.allocateBlock: /user/root/rand9/_temporary/_task_999999999999_9999_m_999999_9/part-99999. blk_9999999999999999999
+Expiring session 9x99ed99999f99999, timeout of 99999ms exceeded
+Interrupting SendWorker
+info.pinyin.sogou.com:99 open through proxy proxy.cse.cuhk.edu.hk:9999 HTTPS
+generating core.99999
+proxy.cse.cuhk.edu.hk:9999 close, 9999 bytes (9.99 KB) sent, 999 bytes received, lifetime <9 sec
+oimagea9.ydstatic.com:99 error : A connection request was canceled before the completion.
+www.google.com:999 error : Could not connect to proxy proxy.cse.cuhk.edu.hk:9999 - connection attempt failed with error 99999
+Received block blk_-9999999999999999999 src: /99.999.99.99:99999 dest: /99.999.99.99:99999 of size 99999999
+proxy.cse.cuhk.edu.hk:9999 open through proxy proxy.cse.cuhk.edu.hk:9999 HTTPS
+PacketResponder 9 for block blk_9999999999999999999 terminating
+PacketResponder 9 for block blk_-9999999999999999999 terminating
+generating core.99999
+BLOCK* NameSystem.addStoredBlock: blockMap updated: 99.999.999.999:99999 is added to blk_9999999999999999999 size 99999999
+PacketResponder 9 for block blk_-9999999999999999999 terminating
+running
+Deleting block blk_-9999999999999999999 file /mnt/hadoop/dfs/data/current/blk_-9999999999999999999
+clients9.google.com:999 close, 999 bytes sent, 999 bytes received, lifetime <9 sec
+Connection broken for id 999999999999, my id = 9, error =
+999999 double-hummer alignment exceptions
+generating core.9999
+proxy.cse.cuhk.edu.hk:9999 close, 9999 bytes (9.99 KB) sent, 999 bytes received, lifetime 99:99
+9 Linkerror event interval expired
+ambient=99
+switch_module error 9999999999 9 Linkerror event interval expired
+99.999.999.99:99999 Served block blk_-9999999999999999999 to /99.999.999.99
+proxy.cse.cuhk.edu.hk:9999 open through proxy proxy.cse.cuhk.edu.hk:9999 HTTPS
+Received block blk_9999999999999999999 of size 99999999 from /99.999.9.999
+iar 999999dc dear 9999c99c
+g.msn.com:99 close, 999 bytes sent, 999 bytes received, lifetime 99:99
+ubmcmm.baidustatic.com:99 open through proxy proxy.cse.cuhk.edu.hk:9999 HTTPS
+proxy.cse.cuhk.edu.hk:9999 open through proxy proxy.cse.cuhk.edu.hk:9999 HTTPS
+generating core.99999
+Send worker leaving thread
+instruction address: 9x99999ed9
+data TLB error interrupt
+9 ambient=99
+BLOCK* NameSystem.delete: blk_-9999999999999999999 is added to invalidSet of 99.999.999.999:99999
+proxy.cse.cuhk.edu.hk:9999 open through proxy proxy.cse.cuhk.edu.hk:9999 HTTPS
+v.admaster.com.cn:99 close, 9999 bytes (9.99 KB) sent, 9999 bytes (9.99 KB) received, lifetime 99:99
+BLOCK* NameSystem.addStoredBlock: blockMap updated: 99.999.99.99:99999 is added to blk_-9999999999999999999 size 99999999
+Accepted socket connection from /99.99.99.99:99999
+normal
+switch_module error 9999999999 9 link errors remain current
+b9.bdstatic.com:99 close, 9 bytes sent, 9 bytes received, lifetime 99:99
+9 floating point alignment exceptions
+node-999 action start 9999999999 9 wait  (command 9999)
+Receiving block blk_9999999999999999999 src: /99.999.99.999:99999 dest: /99.999.99.999:99999
+www.evernote.com:999 close, 9999 bytes (9.99 KB) sent, 9999 bytes (9.99 KB) received, lifetime 99:99
+ServerFileSystem: ServerFileSystem domain root9_local is full
+CE sym 99, at 9x9999cee9, mask 9x99
+Received connection request /99.99.99.99:99999
+Lustre mount FAILED : bglio99 : point /p/gb9
+Node card VPD check: U99 node in processor card slot J99 do not match. VPD ecid 99CC99999C9FFFFF99999B9999DF, found 99D999999F9FFFFF99999BD999E9
+Unexpected exception causing shutdown while sock still open
+Deleting block blk_9999999999999999999 file /mnt/hadoop/dfs/data/current/subdir99/blk_9999999999999999999
+9 normal
+Fan speeds ( 9999 9999 9999 **** 9999 9999 )
+BLOCK* NameSystem.allocateBlock: /user/root/rand9/_temporary/_task_999999999999_9999_m_999999_9/part-99999. blk_-9999999999999999999
+BLOCK* NameSystem.allocateBlock: /user/root/rand9/_temporary/_task_999999999999_9999_m_999999_9/part-99999. blk_9999999999999999999
+PacketResponder 9 for block blk_99999999999999999 terminating
+www.google-analytics.com:999 open through proxy proxy.cse.cuhk.edu.hk:9999 HTTPS
+boot  (command 9999)
+get.sogou.com:99 open through proxy proxy.cse.cuhk.edu.hk:9999 HTTPS
+Receiving block blk_-9999999999999999999 src: /99.999.999.999:99999 dest: /99.999.999.999:99999
+client-lb.dropbox.com:999 close, 9 bytes sent, 9 bytes received, lifetime <9 sec
+t99.baidu.com:99 close, 9 bytes sent, 9 bytes received, lifetime 99:99
+Send worker leaving thread
+running
+iar 99999999 dear 99999c9c
+avatars9.githubusercontent.com:999 open through proxy proxy.cse.cuhk.edu.hk:9999 HTTPS
+BLOCK* NameSystem.addStoredBlock: blockMap updated: 99.999.9.999:99999 is added to blk_999999999999999 size 99999999
+99999 total interrupts. 9 critical input interrupts. 9 microseconds total spent on critical input interrupts, 9 microseconds max time in a critical input interrupt.
+proxy.cse.cuhk.edu.hk:9999 open through proxy proxy.cse.cuhk.edu.hk:9999 HTTPS
+configured out
+dup.baidustatic.com:99 open through proxy proxy.cse.cuhk.edu.hk:9999 HTTPS
+www.google.com:999 error : Could not connect to proxy proxy.cse.cuhk.edu.hk:9999 - connection attempt failed with error 99999
+Send worker leaving thread
+switch_module error 9999999999 9 link errors remain current
+Connection broken for id 999999999999, my id = 9, error =
+boot  (command 9999)
+ambient=99
+proxy.cse.cuhk.edu.hk:9999 open through proxy proxy.cse.cuhk.edu.hk:9999 HTTPS
+switch_module error 9999999999 9 link errors remain current
+9 floating point alignment exceptions
+generating core.99999
+BLOCK* NameSystem.addStoredBlock: blockMap updated: 99.999.999.999:99999 is added to blk_-9999999999999999999 size 99999999
+lh9.googleusercontent.com:999 close, 999 bytes sent, 9999 bytes (9.99 KB) received, lifetime 99:99
+PacketResponder 9 for block blk_-9999999999999999999 terminating
+proxy.cse.cuhk.edu.hk:9999 open through proxy proxy.cse.cuhk.edu.hk:9999 HTTPS
+Linkerror event interval expired
+critical input interrupt (unit=9x9b bit=9x9a): warning for torus z+ wire, suppressing further interrupts of same type
+Cannot open channel to 9 at election address /99.99.99.99:9999
+Interrupting SendWorker
+node temperature 9999999999 9 ambient=99
+Linkerror event interval expired
+Notification time out: 99999
+Received block blk_9999999999999999999 of size 99999999 from /99.999.99.9
+zhihu-web-analytics.zhihu.com:999 close, 999 bytes sent, 9999 bytes (9.99 KB) received, lifetime 99:99
+switch_module error 9999999999 9 Linkerror event interval expired
+BLOCK* NameSystem.addStoredBlock: blockMap updated: 99.999.99.999:99999 is added to blk_-9999999999999999999 size 99999999
+Deleting block blk_-9999999999999999999 file /mnt/hadoop/dfs/data/current/blk_-9999999999999999999
+api.github.com:999 open through proxy proxy.cse.cuhk.edu.hk:9999 HTTPS
+Received connection request /99.99.99.99:99999
+proxy.cse.cuhk.edu.hk:9999 close, 9 bytes sent, 9 bytes received, lifetime 99:99
+Cannot open channel to 9 at election address /99.99.99.99:9999
+Node card VPD check: U99 node in processor card slot J99 do not match. VPD ecid 99D99DF9DE9BFFFF9D999AF9DAD9, found 99DD99999E9FFFFF9A9C99D9CEBD
+clients9.google.com:999 close, 9999 bytes (9.99 KB) sent, 999 bytes received, lifetime 99:99
+proxy.cse.cuhk.edu.hk:9999 close, 9999 bytes (9.99 KB) sent, 9999 bytes (9.99 KB) received, lifetime 99:99
+CE sym 99, at 9x99999999, mask 9x99
+BLOCK* NameSystem.addStoredBlock: blockMap updated: 99.999.99.999:99999 is added to blk_9999999999999999999 size 9999999
+Send worker leaving thread
+generating core.99999
+ambient=99
+PacketResponder 9 for block blk_-9999999999999999999 terminating
+Closed socket connection for client /99.99.99.99:99999 which had sessionid 9x99ed99999999999
+ambient=99
+Processed session termination for sessionid: 9x99ee99a99f9999a
+Received connection request /99.99.99.99:99999
+Established session 9x99edfaa9c99999a with negotiated timeout 99999 for client /99.99.99.99:99999
+Interrupting SendWorker
+proxy.cse.cuhk.edu.hk:9999 close, 999 bytes sent, 999 bytes received, lifetime 99:99
+Node card VPD check: U99 node in processor card slot J99 do not match. VPD ecid 99D99999CB9FFFFF99999C999CE9, found 99CA99D9999FFFFF99999A9999CB
+Targeting domains:node-D9 and nodes:node-[999-999] child of command 9999
+BLOCK* NameSystem.addStoredBlock: blockMap updated: 99.999.999.99:99999 is added to blk_-9999999999999999999 size 9999999
+NIFF: node node-999 has detected an available network connection on network 99.999.9.9 via interface ee9
+CE sym 9, at 9x99b9cc99, mask 9x99
+clients9.google.com:999 close, 9999 bytes (9.99 KB) sent, 9999 bytes received, lifetime 99:99
+normal
+BLOCK* NameSystem.delete: blk_-9999999999999999999 is added to invalidSet of 99.999.999.999:99999

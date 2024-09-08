@@ -28,8 +28,8 @@ def load_labels(file_path):
     return labels
 
 # Pfade zu den Daten
-logs_file_path = r"Datensätze/Vorbereitete Daten - Beispiel/bgl_v1/unique_data/content_list_bgl_unique.txt"
-labels_file_path = r"Datensätze/Vorbereitete Daten - Beispiel/bgl_v1/unique_data/label_list_bgl_unique.csv"
+logs_file_path = path.twok_evaluate_content_list[0]
+labels_file_path = path.twok_evaluate_label_list[0]
 
 current_time = datetime.now().strftime("%Y%m%d-%H%M%S")
 epochs = 10
@@ -55,7 +55,7 @@ labels = load_labels(labels_file_path)
 # Laden der Daten
 logs = []
 labels = []
-for log_file_path, label_file_path in zip(path.twok_evaluate_content_list, path.twok_evaluate_label_list):
+for log_file_path, label_file_path in zip(path.unique_content_path_list, path.unique_label_path_list):
     logs += load_logs(log_file_path)
     labels += load_labels(label_file_path)
 

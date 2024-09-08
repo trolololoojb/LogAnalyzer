@@ -1,3 +1,4 @@
+
 import csv
 import json
 import os
@@ -7,11 +8,11 @@ from tensorflow.keras.preprocessing.sequence import pad_sequences
 from tensorflow.keras.models import Sequential
 from tensorflow.keras.layers import Embedding, Bidirectional, GRU, Dense, TimeDistributed, Dropout, Masking
 from tensorflow.keras.callbacks import ModelCheckpoint
-from tensorflow.keras.utils import to_categorical
 from sklearn.model_selection import train_test_split
 import BytePairEncoding as BPE
 from datetime import datetime
 import path
+
 
 # Laden der Logeinträge aus einer TXT-Datei
 def load_logs(file_path):
@@ -29,13 +30,18 @@ def load_labels(file_path):
     return labels
 
 # Pfade zu den Daten
+logs_file_path = r"Datensätze/Vorbereitete Daten - Beispiel/bgl_v1/unique_data/content_list_bgl_unique.txt"
+labels_file_path = r"Datensätze/Vorbereitete Daten - Beispiel/bgl_v1/unique_data/label_list_bgl_unique.csv"
+
 current_time = datetime.now().strftime("%Y%m%d-%H%M%S")
-epochs = 15
+epochs = 10
 log_examples_bgl = ["9 ddr errors(s) detected and corrected on rank 9, symbol 9, bit 9", "instruction cache parity error corrected", "total of 99 ddr error(s) detected and corrected"]
 log_examples_hdfs = ["99.999.9.9:99999 Served block blk_-99999999999999999 to /99.999.9.9", "BLOCK* NameSystem.allocateBlock: /mnt/hadoop/mapred/system/job_999999999999_9999/job.jar. blk_9999999999999999999", "99.999.99.999:99999 Starting thread to transfer block blk_-9999999999999999999 to 99.999.999.999:99999, 99.999.99.999:99999"]
 log_examples_proxifier = ["rs.sinajs.cn:99 open through proxy proxy.cse.cuhk.edu.hk:9999 HTTPS", "pic9.zhimg.com:999 close, 9999 bytes (9.99 KB) sent, 9999 bytes (9.99 KB) received, lifetime 99:99", "ping9.teamviewer.com:999 (IPv9) error : Could not connect through proxy proxy.cse.cuhk.edu.hk:9999 - Proxy server cannot establish a connection with the target, status code 999"]
+log_examples_hpc = ["Component State Change: Component \999alt9\999 is in the unavailable state (HWID=9999)", "unix.hw state_change.unavailable 9999999999 9 Component State Change: Component \999alt9\999 is in the unavailable state (HWID=9999)", "node-999 node status 9999999999 9 configured out"]
+log_examples_zookeeper = ["My election bind port: 9.9.9.9/9.9.9.9:9999", "Closed socket connection for client /99.99.99.99:99999 which had sessionid 9x99f9a99999b999e", "caught end of stream exception"]
 
-log_examples = [log_examples_bgl, log_examples_hdfs, log_examples_proxifier]
+log_examples = [log_examples_bgl, log_examples_hdfs, log_examples_proxifier, log_examples_hpc, log_examples_zookeeper]
 
 # Erstelle den gesamten Pfad
 directory_path = f'Datensätze/Vorbereitete Daten - Beispiel/01_Models/{current_time}'
@@ -45,63 +51,107 @@ model_name = directory_path + '/tokenizedModel.keras'
 os.makedirs(directory_path, exist_ok=True)
 
 # Laden der Daten
+logs = load_logs(logs_file_path)
+labels = load_labels(labels_file_path)
+
+# Laden der Daten
 logs = []
 labels = []
+for log_file_path, label_file_path in zip(path.twok_evaluate_content_list, path.twok_evaluate_label_list):
+    logs += load_logs(log_file_path)
+    labels += load_labels(label_file_path)
 
-for logs_file_path, labels_file_path in zip(path.unique_content_path_list, path.unique_label_path_list):
-    logs += load_logs(logs_file_path)
-    labels += load_labels(labels_file_path)
+# Aufteilen in Trainings- und Testdaten
+logs_train, logs_test, labels_train, labels_test = train_test_split(logs, labels, test_size=0.2, random_state=25)
 
-print(len(logs))
-print(len(labels))
+with open(directory_path + '/validation_content.txt', 'w') as val_file:
+    for line in logs_test:
+        val_file.write(line +"\n")
 
-# BPE-Teil
-tokenizer = BPE.generateTokenizer_BPE(logs, 300)
+with open(directory_path + '/validation_labels.csv', 'w', newline='') as file:
+    writer = csv.writer(file)
+    for label in labels_test:
+        writer.writerow(label)
+
+
+# BPE Teil für Trainingsdaten
+tokenizer = BPE.generateTokenizer_BPE(logs_train, 10000)
 tokenizer.save(directory_path + '/tokenizer.json')
-sequences = [tokenizer.encode(log).ids for log in logs]
-tokens = [tokenizer.encode(log).tokens for log in logs]
+sequences_train = [tokenizer.encode(log).ids for log in logs_train]
+tokens_train = [tokenizer.encode(log).tokens for log in logs_train]
 word_index = tokenizer.get_vocab()
 
-# Padding der Sequenzen
-max_length = max(len(seq) for seq in sequences)
-sequences_padded = pad_sequences(sequences, maxlen=max_length, padding='post')
+# Labels an subword encoding anpassen für Trainingsdaten
+labels_train_new = []
+for sequence, label in zip(tokens_train, labels_train):
+    labels_train_new.append(BPE.BPE_labels(sequence, label))
+labels_train = labels_train_new
 
-# Umwandeln der Labels von -1 und 1 zu 0 und 1
-labels_transformed = [[(label + 1) // 2 for label in sequence] for sequence in labels]
+# Padding der Sequenzen für Trainingsdaten
+max_length = max(len(seq) for seq in sequences_train)
+with open(directory_path + '/max_length.txt', 'w') as file:
+    file.write(str(max_length))
+sequences_train_padded = pad_sequences(sequences_train, maxlen=max_length, padding='post')
+labels_train_padded = pad_sequences(labels_train, maxlen=max_length, padding='post')
 
-# One-hot-Encoding der Labels
-num_classes = 2  # Annahme: 2 Klassen (statisch und variabel)
-labels_onehot = [[to_categorical(label, num_classes=num_classes) for label in sequence] for sequence in labels_transformed]
+# BPE Teil für Testdaten
+sequences_test = [tokenizer.encode(log).ids for log in logs_test]
+tokens_test = [tokenizer.encode(log).tokens for log in logs_test]
 
-# Padding der Labels
-labels_padded = pad_sequences(labels_onehot, maxlen=max_length, padding='post', dtype='float32')
+# Labels an subword encoding anpassen für Testdaten
+labels_test_new = []
+for sequence, label in zip(tokens_test, labels_test):
+    labels_test_new.append(BPE.BPE_labels(sequence, label))
+labels_test = labels_test_new
 
-# Aufteilung in Trainings- und Testdaten
-X_train, X_test, y_train, y_test = train_test_split(sequences_padded, labels_padded, test_size=0.2, random_state=25)
+# Padding der Sequenzen für Testdaten
+sequences_test_padded = pad_sequences(sequences_test, maxlen=max_length, padding='post')
+labels_test_padded = pad_sequences(labels_test, maxlen=max_length, padding='post')
 
+
+# Erstellung des Datensets für Trainingsdaten
 batch_size = 64
-dataset = tf.data.Dataset.from_tensor_slices((X_train, y_train))
-dataset = dataset.shuffle(buffer_size=len(X_train))
+dataset = tf.data.Dataset.from_tensor_slices((sequences_train_padded, labels_train_padded))
+dataset = dataset.shuffle(buffer_size=len(sequences_train_padded))
 dataset = dataset.batch(batch_size)
+
+def custom_loss_function(y_true, y_pred, target_token):
+    # Finde die Positionen des Ziel-Tokens in y_true
+    token_positions = tf.where(tf.equal(y_true, target_token))
+    
+    # Extrahiere die Werte von y_pred an den Positionen des Tokens
+    y_pred_token = tf.gather_nd(y_pred, token_positions)
+    
+    # Erstelle einen Tensor von Nullen, der dieselbe Form wie y_pred_token hat
+    zeros = tf.zeros_like(y_pred_token)
+    
+    # Berechne den Mean Squared Error zwischen y_pred_token und Null
+    loss = tf.reduce_mean(tf.square(y_pred_token - zeros))
+    
+    return loss
 
 # Erstellung des Modells
 model = Sequential()
-model.add(Embedding(input_dim=len(word_index) + 1, output_dim=128, input_length=max_length))
-model.add(Bidirectional(GRU(100, return_sequences=True)))
-model.add(Bidirectional(GRU(100, return_sequences=True)))
-model.add(TimeDistributed(Dense(64, activation='relu')))
+model.add(Embedding(input_dim=len(word_index), output_dim=64, input_length=max_length))
+model.add(Bidirectional(GRU(128, return_sequences=True)))
+model.add(TimeDistributed(Dense(128, activation='relu')))
 model.add(Dropout(0.5))
-model.add(TimeDistributed(Dense(num_classes, activation='softmax')))  # Softmax für mehrklassige Klassifikation
+model.add(TimeDistributed(Dense(1, activation='tanh')))
 
 # Kompilierung des Modells
-model.compile(optimizer='adam', loss='categorical_crossentropy', metrics=['accuracy'])
+target_token = 2  # Beispiel-Token, der als 0 klassifiziert werden soll
+model.compile(optimizer='adam', loss=lambda y_true, y_pred: custom_loss_function(y_true, y_pred, target_token), metrics=['accuracy'])
+
 
 # Training des Modells
 checkpoint = ModelCheckpoint(model_name, save_best_only=True, monitor='val_accuracy', mode='max')
-history = model.fit(dataset, epochs=epochs, batch_size=batch_size, validation_data=(X_test, y_test), callbacks=[checkpoint])
+history = model.fit(dataset, epochs=epochs, batch_size=batch_size, validation_data=(sequences_test_padded, labels_test_padded), callbacks=[checkpoint])
 
 # Evaluation des Modells
-loss, accuracy = model.evaluate(X_test, y_test)
+loss, accuracy = model.evaluate(sequences_test_padded, labels_test_padded)
+
+with open(directory_path + '/training_results.txt', 'a') as file:
+    file.write(f'Loss: {loss}, Accuracy: {accuracy}\n')
 print(f'Loss: {loss}, Accuracy: {accuracy}')
 
 # Funktion zur Ausgabe der Vorhersagen
@@ -110,21 +160,50 @@ def predict_and_display(log):
         sequence = [tokenizer.encode(log).ids]
         sequence_padded = pad_sequences(sequence, maxlen=max_length, padding='post')
         print(sequence_padded[0])
+        file.write("\nLog: " + log +"\n")
         file.write(str(sequence_padded[0]) + "\n")
         prediction = model.predict(sequence_padded)[0]
         
-        # An BPE angepasste Labels:
+        #Nicht an BPE angepasste Labels:
+        #words = log.split()
+        
+        #An BPE angepasste labels:
         words = tokenizer.encode(log).tokens
-        for word, pred in zip(words, prediction):
-            label = 'variabel' if pred[1] > 0.5 else 'statisch'
-            print(f'Wort: {word}, Vorhersage: {label}, Wert: {pred}')
-            file.write(str(f'Wort: {word}, Vorhersage: {label}, Wert: {pred}\n'))
+        result = []
+        current_label = 'variabel' if prediction[0] > 0 else 'statisch'
+        current_words = [words[0]]
+        current_values = [prediction[0]]
+
+        for word, pred in zip(words[1:], prediction[1:]):
+            label = 'variabel' if pred > 0 else 'statisch'
+            if label == current_label:
+                current_words.append(word)
+                current_values.append(pred)
+            else:
+                result.append((current_words, current_label, current_values))
+                current_words = [word]
+                current_values = [pred]
+                current_label = label
+
+        # Letzte Gruppe hinzufügen
+        if current_words:
+            result.append((current_words, current_label, current_values))
+
+        # Ausgabe und Schreiben in Datei
+        for group, label, values in result:
+            text = ''.join(group)
+            values_str = ', '.join(map(str, values))
+            print(f'Wörter: {text}, Vorhersage: {label}, Werte: {values_str}')
+            file.write(f'Wörter: {text}, Vorhersage: {label}, Werte: {values_str}\n')
 
 # Beispielvorhersage
+
 print("\nVorhersagen für neuen Logeintrag:")
+
 for log_list in log_examples:
     for log in log_list:
         predict_and_display(log)
+
 
 with open(directory_path + '/training_results.txt', 'a') as file:
     model.summary(print_fn=lambda x: file.write(x + '\n'))
@@ -132,7 +211,10 @@ with open(directory_path + '/training_results.txt', 'a') as file:
     accuracy = history.history['accuracy']
     val_loss = history.history['val_loss']
     val_accuracy = history.history['val_accuracy']
+    file.write("Training auf folgende Datei: " + str(logs_file_path) + "\n")
     file.write(f'Total Trainings-Loss: {loss}\n')
     file.write(f'Total Trainings-Accuracy: {accuracy}\n')
     file.write(f'Total Validierungs-Loss: {val_loss}\n')
     file.write(f'Total Validierungs-Accuracy: {val_accuracy}\n')
+
+

@@ -1,0 +1,616 @@
+Model: tokenizedModel.keras
+ Evaluierungsdaten: content_list_hpc.txt
+ Sonstige Infos: Evaluierung des GroundZero modells auf die 2k datensätze von drain3
+Durchschnittlicher F1-Score: 0.938028716555491
+Ergebnisse: 
+    -Gleiche Zeilen: 1803 (92.23%)
+    -Unterschiedliche Zeilen: 152 (7.77%)
+Falsch interpretierte Zeilen:
+Logeintrag: clusterAddMember  (command 9999)
+Modell-Label: [-1, -1, 1, -1]
+Echtes Label: [-1, -1, -1, 1]
+
+Logeintrag: clusterAddMember  (command 9999)
+Modell-Label: [-1, -1, 1, -1]
+Echtes Label: [-1, -1, -1, 1]
+
+Logeintrag: 9 risBoot  (command 9999)
+Modell-Label: [1, -1, -1, 1, -1]
+Echtes Label: [1, -1, -1, -1, 1]
+
+Logeintrag: bootGenvmunix  (command 9999)
+Modell-Label: [-1, -1, 1, -1]
+Echtes Label: [-1, -1, -1, 1]
+
+Logeintrag: boot  (command 9999)
+Modell-Label: [-1, -1, 1, -1]
+Echtes Label: [-1, -1, -1, 1]
+
+Logeintrag: action start 9999999999 9 boot  (command 9999)
+Modell-Label: [1, 1, 1, 1, -1, -1, 1, -1]
+Echtes Label: [1, 1, 1, 1, -1, -1, -1, 1]
+
+Logeintrag: boot  (command 9999)
+Modell-Label: [-1, -1, 1, -1]
+Echtes Label: [-1, -1, -1, 1]
+
+Logeintrag: boot  (command 9999)
+Modell-Label: [-1, -1, 1, -1]
+Echtes Label: [-1, -1, -1, 1]
+
+Logeintrag: node-999 action start 9999999999 9 wait  (command 9999)
+Modell-Label: [1, 1, 1, 1, 1, -1, -1, 1, -1]
+Echtes Label: [1, 1, 1, 1, 1, -1, -1, -1, 1]
+
+Logeintrag: boot  (command 9999)
+Modell-Label: [-1, -1, 1, -1]
+Echtes Label: [-1, -1, -1, 1]
+
+Logeintrag: halt  (command 9999)
+Modell-Label: [-1, -1, 1, -1]
+Echtes Label: [-1, -1, -1, 1]
+
+Logeintrag: boot  (command 9999)
+Modell-Label: [-1, -1, 1, -1]
+Echtes Label: [-1, -1, -1, 1]
+
+Logeintrag: boot  (command 9999)
+Modell-Label: [-1, -1, 1, -1]
+Echtes Label: [-1, -1, -1, 1]
+
+Logeintrag: wait  (command 9999)
+Modell-Label: [-1, -1, 1, -1]
+Echtes Label: [-1, -1, -1, 1]
+
+Logeintrag: wait  (command 9999)
+Modell-Label: [-1, -1, 1, -1]
+Echtes Label: [-1, -1, -1, 1]
+
+Logeintrag: boot  (command 9999)
+Modell-Label: [-1, -1, 1, -1]
+Echtes Label: [-1, -1, -1, 1]
+
+Logeintrag: wait  (command 9999)
+Modell-Label: [-1, -1, 1, -1]
+Echtes Label: [-1, -1, -1, 1]
+
+Logeintrag: 9 boot  (command 9999)
+Modell-Label: [1, -1, -1, 1, -1]
+Echtes Label: [1, -1, -1, -1, 1]
+
+Logeintrag: action start 9999999999 9 boot  (command 9999)
+Modell-Label: [1, 1, 1, 1, -1, -1, 1, -1]
+Echtes Label: [1, 1, 1, 1, -1, -1, -1, 1]
+
+Logeintrag: boot  (command 9999)
+Modell-Label: [-1, -1, 1, -1]
+Echtes Label: [-1, -1, -1, 1]
+
+Logeintrag: halt  (command 9999)
+Modell-Label: [-1, -1, 1, -1]
+Echtes Label: [-1, -1, -1, 1]
+
+Logeintrag: wait  (command 9999)
+Modell-Label: [-1, -1, 1, -1]
+Echtes Label: [-1, -1, -1, 1]
+
+Logeintrag: wait  (command 9999)
+Modell-Label: [-1, -1, 1, -1]
+Echtes Label: [-1, -1, -1, 1]
+
+Logeintrag: wait  (command 9999)
+Modell-Label: [-1, -1, 1, -1]
+Echtes Label: [-1, -1, -1, 1]
+
+Logeintrag: node-999 action start 9999999999 9 wait  (command 9999)
+Modell-Label: [1, 1, 1, 1, 1, -1, -1, 1, -1]
+Echtes Label: [1, 1, 1, 1, 1, -1, -1, -1, 1]
+
+Logeintrag: boot  (command 9999)
+Modell-Label: [-1, -1, 1, -1]
+Echtes Label: [-1, -1, -1, 1]
+
+Logeintrag: wait  (command 9999)
+Modell-Label: [-1, -1, 1, -1]
+Echtes Label: [-1, -1, -1, 1]
+
+Logeintrag: wait  (command 9999)
+Modell-Label: [-1, -1, 1, -1]
+Echtes Label: [-1, -1, -1, 1]
+
+Logeintrag: wait  (command 9999)
+Modell-Label: [-1, -1, 1, -1]
+Echtes Label: [-1, -1, -1, 1]
+
+Logeintrag: wait  (command 9999)
+Modell-Label: [-1, -1, 1, -1]
+Echtes Label: [-1, -1, -1, 1]
+
+Logeintrag: boot  (command 9999)
+Modell-Label: [-1, -1, 1, -1]
+Echtes Label: [-1, -1, -1, 1]
+
+Logeintrag: boot  (command 9999)
+Modell-Label: [-1, -1, 1, -1]
+Echtes Label: [-1, -1, -1, 1]
+
+Logeintrag: boot  (command 9999)
+Modell-Label: [-1, -1, 1, -1]
+Echtes Label: [-1, -1, -1, 1]
+
+Logeintrag: wait  (command 9999)
+Modell-Label: [-1, -1, 1, -1]
+Echtes Label: [-1, -1, -1, 1]
+
+Logeintrag: wait  (command 9999)
+Modell-Label: [-1, -1, 1, -1]
+Echtes Label: [-1, -1, -1, 1]
+
+Logeintrag: wait  (command 9999)
+Modell-Label: [-1, -1, 1, -1]
+Echtes Label: [-1, -1, -1, 1]
+
+Logeintrag: boot  (command 9999)
+Modell-Label: [-1, -1, 1, -1]
+Echtes Label: [-1, -1, -1, 1]
+
+Logeintrag: boot  (command 9999)
+Modell-Label: [-1, -1, 1, -1]
+Echtes Label: [-1, -1, -1, 1]
+
+Logeintrag: boot  (command 9999)
+Modell-Label: [-1, -1, 1, -1]
+Echtes Label: [-1, -1, -1, 1]
+
+Logeintrag: boot  (command 9999)
+Modell-Label: [-1, -1, 1, -1]
+Echtes Label: [-1, -1, -1, 1]
+
+Logeintrag: 9 boot  (command 9999)
+Modell-Label: [1, -1, -1, 1, -1]
+Echtes Label: [1, -1, -1, -1, 1]
+
+Logeintrag: wait  (command 9999)
+Modell-Label: [-1, -1, 1, -1]
+Echtes Label: [-1, -1, -1, 1]
+
+Logeintrag: wait  (command 9999)
+Modell-Label: [-1, -1, 1, -1]
+Echtes Label: [-1, -1, -1, 1]
+
+Logeintrag: boot  (command 9999)
+Modell-Label: [-1, -1, 1, -1]
+Echtes Label: [-1, -1, -1, 1]
+
+Logeintrag: wait  (command 9999)
+Modell-Label: [-1, -1, 1, -1]
+Echtes Label: [-1, -1, -1, 1]
+
+Logeintrag: boot  (command 9999)
+Modell-Label: [-1, -1, 1, -1]
+Echtes Label: [-1, -1, -1, 1]
+
+Logeintrag: action start 9999999999 9 wait  (command 9999)
+Modell-Label: [1, 1, 1, 1, -1, -1, 1, -1]
+Echtes Label: [1, 1, 1, 1, -1, -1, -1, 1]
+
+Logeintrag: boot  (command 9999)
+Modell-Label: [-1, -1, 1, -1]
+Echtes Label: [-1, -1, -1, 1]
+
+Logeintrag: wait  (command 9999)
+Modell-Label: [-1, -1, 1, -1]
+Echtes Label: [-1, -1, -1, 1]
+
+Logeintrag: wait  (command 9999)
+Modell-Label: [-1, -1, 1, -1]
+Echtes Label: [-1, -1, -1, 1]
+
+Logeintrag: action start 9999999999 9 boot  (command 9999)
+Modell-Label: [1, 1, 1, 1, -1, -1, 1, -1]
+Echtes Label: [1, 1, 1, 1, -1, -1, -1, 1]
+
+Logeintrag: node-99 action start 9999999999 9 wait  (command 9999)
+Modell-Label: [1, 1, 1, 1, 1, -1, -1, 1, -1]
+Echtes Label: [1, 1, 1, 1, 1, -1, -1, -1, 1]
+
+Logeintrag: boot  (command 9999)
+Modell-Label: [-1, -1, 1, -1]
+Echtes Label: [-1, -1, -1, 1]
+
+Logeintrag: node-99 action start 9999999999 9 wait  (command 9999)
+Modell-Label: [1, 1, 1, 1, 1, -1, -1, 1, -1]
+Echtes Label: [1, 1, 1, 1, 1, -1, -1, -1, 1]
+
+Logeintrag: boot  (command 9999)
+Modell-Label: [-1, -1, 1, -1]
+Echtes Label: [-1, -1, -1, 1]
+
+Logeintrag: boot  (command 9999)
+Modell-Label: [-1, -1, 1, -1]
+Echtes Label: [-1, -1, -1, 1]
+
+Logeintrag: boot  (command 9999)
+Modell-Label: [-1, -1, 1, -1]
+Echtes Label: [-1, -1, -1, 1]
+
+Logeintrag: boot  (command 9999)
+Modell-Label: [-1, -1, 1, -1]
+Echtes Label: [-1, -1, -1, 1]
+
+Logeintrag: boot  (command 9999)
+Modell-Label: [-1, -1, 1, -1]
+Echtes Label: [-1, -1, -1, 1]
+
+Logeintrag: wait  (command 9999)
+Modell-Label: [-1, -1, 1, -1]
+Echtes Label: [-1, -1, -1, 1]
+
+Logeintrag: boot  (command 9999)
+Modell-Label: [-1, -1, 1, -1]
+Echtes Label: [-1, -1, -1, 1]
+
+Logeintrag: wait  (command 9999)
+Modell-Label: [-1, -1, 1, -1]
+Echtes Label: [-1, -1, -1, 1]
+
+Logeintrag: boot  (command 9999)
+Modell-Label: [-1, -1, 1, -1]
+Echtes Label: [-1, -1, -1, 1]
+
+Logeintrag: boot  (command 9999)
+Modell-Label: [-1, -1, 1, -1]
+Echtes Label: [-1, -1, -1, 1]
+
+Logeintrag: boot  (command 9999)
+Modell-Label: [-1, -1, 1, -1]
+Echtes Label: [-1, -1, -1, 1]
+
+Logeintrag: wait  (command 9999)
+Modell-Label: [-1, -1, 1, -1]
+Echtes Label: [-1, -1, -1, 1]
+
+Logeintrag: boot  (command 9999)
+Modell-Label: [-1, -1, 1, -1]
+Echtes Label: [-1, -1, -1, 1]
+
+Logeintrag: node-999 action start 9999999999 9 wait  (command 9999)
+Modell-Label: [1, 1, 1, 1, 1, -1, -1, 1, -1]
+Echtes Label: [1, 1, 1, 1, 1, -1, -1, -1, 1]
+
+Logeintrag: wait  (command 9999)
+Modell-Label: [-1, -1, 1, -1]
+Echtes Label: [-1, -1, -1, 1]
+
+Logeintrag: action start 9999999999 9 wait  (command 9999)
+Modell-Label: [1, 1, 1, 1, -1, -1, 1, -1]
+Echtes Label: [1, 1, 1, 1, -1, -1, -1, 1]
+
+Logeintrag: 9 boot  (command 9999)
+Modell-Label: [1, -1, -1, 1, -1]
+Echtes Label: [1, -1, -1, -1, 1]
+
+Logeintrag: node-9 action start 9999999999 9 wait  (command 9999)
+Modell-Label: [1, 1, 1, 1, 1, -1, -1, 1, -1]
+Echtes Label: [1, 1, 1, 1, 1, -1, -1, -1, 1]
+
+Logeintrag: wait  (command 9999)
+Modell-Label: [-1, -1, 1, -1]
+Echtes Label: [-1, -1, -1, 1]
+
+Logeintrag: wait  (command 9999)
+Modell-Label: [-1, -1, 1, -1]
+Echtes Label: [-1, -1, -1, 1]
+
+Logeintrag: wait  (command 9999)
+Modell-Label: [-1, -1, 1, -1]
+Echtes Label: [-1, -1, -1, 1]
+
+Logeintrag: 9 wait  (command 9999)
+Modell-Label: [1, -1, -1, 1, -1]
+Echtes Label: [1, -1, -1, -1, 1]
+
+Logeintrag: wait  (command 9999)
+Modell-Label: [-1, -1, 1, -1]
+Echtes Label: [-1, -1, -1, 1]
+
+Logeintrag: boot  (command 9999)
+Modell-Label: [-1, -1, 1, -1]
+Echtes Label: [-1, -1, -1, 1]
+
+Logeintrag: wait  (command 9999)
+Modell-Label: [-1, -1, 1, -1]
+Echtes Label: [-1, -1, -1, 1]
+
+Logeintrag: node-99 action start 9999999999 9 boot  (command 9999)
+Modell-Label: [1, 1, 1, 1, 1, -1, -1, 1, -1]
+Echtes Label: [1, 1, 1, 1, 1, -1, -1, -1, 1]
+
+Logeintrag: halt  (command 9999)
+Modell-Label: [-1, -1, 1, -1]
+Echtes Label: [-1, -1, -1, 1]
+
+Logeintrag: wait  (command 9999)
+Modell-Label: [-1, -1, 1, -1]
+Echtes Label: [-1, -1, -1, 1]
+
+Logeintrag: 9 wait  (command 9999)
+Modell-Label: [1, -1, -1, 1, -1]
+Echtes Label: [1, -1, -1, -1, 1]
+
+Logeintrag: wait  (command 9999)
+Modell-Label: [-1, -1, 1, -1]
+Echtes Label: [-1, -1, -1, 1]
+
+Logeintrag: wait  (command 9999)
+Modell-Label: [-1, -1, 1, -1]
+Echtes Label: [-1, -1, -1, 1]
+
+Logeintrag: 9 boot  (command 9999)
+Modell-Label: [1, -1, -1, 1, -1]
+Echtes Label: [1, -1, -1, -1, 1]
+
+Logeintrag: 9 boot  (command 9999)
+Modell-Label: [1, -1, -1, 1, -1]
+Echtes Label: [1, -1, -1, -1, 1]
+
+Logeintrag: node-99 action start 9999999999 9 boot  (command 9999)
+Modell-Label: [1, 1, 1, 1, 1, -1, -1, 1, -1]
+Echtes Label: [1, 1, 1, 1, 1, -1, -1, -1, 1]
+
+Logeintrag: boot  (command 9999)
+Modell-Label: [-1, -1, 1, -1]
+Echtes Label: [-1, -1, -1, 1]
+
+Logeintrag: boot  (command 9999)
+Modell-Label: [-1, -1, 1, -1]
+Echtes Label: [-1, -1, -1, 1]
+
+Logeintrag: boot  (command 9999)
+Modell-Label: [-1, -1, 1, -1]
+Echtes Label: [-1, -1, -1, 1]
+
+Logeintrag: boot  (command 9999)
+Modell-Label: [-1, -1, 1, -1]
+Echtes Label: [-1, -1, -1, 1]
+
+Logeintrag: 9 wait  (command 9999)
+Modell-Label: [1, -1, -1, 1, -1]
+Echtes Label: [1, -1, -1, -1, 1]
+
+Logeintrag: node-99 action start 9999999999 9 wait  (command 9999)
+Modell-Label: [1, 1, 1, 1, 1, -1, -1, 1, -1]
+Echtes Label: [1, 1, 1, 1, 1, -1, -1, -1, 1]
+
+Logeintrag: boot  (command 9999)
+Modell-Label: [-1, -1, 1, -1]
+Echtes Label: [-1, -1, -1, 1]
+
+Logeintrag: wait  (command 9999)
+Modell-Label: [-1, -1, 1, -1]
+Echtes Label: [-1, -1, -1, 1]
+
+Logeintrag: boot  (command 9999)
+Modell-Label: [-1, -1, 1, -1]
+Echtes Label: [-1, -1, -1, 1]
+
+Logeintrag: boot  (command 9999)
+Modell-Label: [-1, -1, 1, -1]
+Echtes Label: [-1, -1, -1, 1]
+
+Logeintrag: wait  (command 9999)
+Modell-Label: [-1, -1, 1, -1]
+Echtes Label: [-1, -1, -1, 1]
+
+Logeintrag: wait  (command 9999)
+Modell-Label: [-1, -1, 1, -1]
+Echtes Label: [-1, -1, -1, 1]
+
+Logeintrag: wait  (command 9999)
+Modell-Label: [-1, -1, 1, -1]
+Echtes Label: [-1, -1, -1, 1]
+
+Logeintrag: action start 9999999999 9 boot  (command 9999)
+Modell-Label: [1, 1, 1, 1, -1, -1, 1, -1]
+Echtes Label: [1, 1, 1, 1, -1, -1, -1, 1]
+
+Logeintrag: action start 9999999999 9 boot  (command 9999)
+Modell-Label: [1, 1, 1, 1, -1, -1, 1, -1]
+Echtes Label: [1, 1, 1, 1, -1, -1, -1, 1]
+
+Logeintrag: boot  (command 9999)
+Modell-Label: [-1, -1, 1, -1]
+Echtes Label: [-1, -1, -1, 1]
+
+Logeintrag: boot  (command 9999)
+Modell-Label: [-1, -1, 1, -1]
+Echtes Label: [-1, -1, -1, 1]
+
+Logeintrag: boot  (command 9999)
+Modell-Label: [-1, -1, 1, -1]
+Echtes Label: [-1, -1, -1, 1]
+
+Logeintrag: wait  (command 9999)
+Modell-Label: [-1, -1, 1, -1]
+Echtes Label: [-1, -1, -1, 1]
+
+Logeintrag: node-999 action start 9999999999 9 boot  (command 9999)
+Modell-Label: [1, 1, 1, 1, 1, -1, -1, 1, -1]
+Echtes Label: [1, 1, 1, 1, 1, -1, -1, -1, 1]
+
+Logeintrag: node-99 action start 9999999999 9 wait  (command 9999)
+Modell-Label: [1, 1, 1, 1, 1, -1, -1, 1, -1]
+Echtes Label: [1, 1, 1, 1, 1, -1, -1, -1, 1]
+
+Logeintrag: boot  (command 9999)
+Modell-Label: [-1, -1, 1, -1]
+Echtes Label: [-1, -1, -1, 1]
+
+Logeintrag: wait  (command 9999)
+Modell-Label: [-1, -1, 1, -1]
+Echtes Label: [-1, -1, -1, 1]
+
+Logeintrag: boot  (command 9999)
+Modell-Label: [-1, -1, 1, -1]
+Echtes Label: [-1, -1, -1, 1]
+
+Logeintrag: wait  (command 9999)
+Modell-Label: [-1, -1, 1, -1]
+Echtes Label: [-1, -1, -1, 1]
+
+Logeintrag: boot  (command 9999)
+Modell-Label: [-1, -1, 1, -1]
+Echtes Label: [-1, -1, -1, 1]
+
+Logeintrag: wait  (command 9999)
+Modell-Label: [-1, -1, 1, -1]
+Echtes Label: [-1, -1, -1, 1]
+
+Logeintrag: wait  (command 9999)
+Modell-Label: [-1, -1, 1, -1]
+Echtes Label: [-1, -1, -1, 1]
+
+Logeintrag: wait  (command 9999)
+Modell-Label: [-1, -1, 1, -1]
+Echtes Label: [-1, -1, -1, 1]
+
+Logeintrag: wait  (command 9999)
+Modell-Label: [-1, -1, 1, -1]
+Echtes Label: [-1, -1, -1, 1]
+
+Logeintrag: boot  (command 9999)
+Modell-Label: [-1, -1, 1, -1]
+Echtes Label: [-1, -1, -1, 1]
+
+Logeintrag: boot  (command 9999)
+Modell-Label: [-1, -1, 1, -1]
+Echtes Label: [-1, -1, -1, 1]
+
+Logeintrag: action start 9999999999 9 boot  (command 9999)
+Modell-Label: [1, 1, 1, 1, -1, -1, 1, -1]
+Echtes Label: [1, 1, 1, 1, -1, -1, -1, 1]
+
+Logeintrag: boot  (command 9999)
+Modell-Label: [-1, -1, 1, -1]
+Echtes Label: [-1, -1, -1, 1]
+
+Logeintrag: wait  (command 9999)
+Modell-Label: [-1, -1, 1, -1]
+Echtes Label: [-1, -1, -1, 1]
+
+Logeintrag: wait  (command 9999)
+Modell-Label: [-1, -1, 1, -1]
+Echtes Label: [-1, -1, -1, 1]
+
+Logeintrag: node-999 action start 9999999999 9 wait  (command 9999)
+Modell-Label: [1, 1, 1, 1, 1, -1, -1, 1, -1]
+Echtes Label: [1, 1, 1, 1, 1, -1, -1, -1, 1]
+
+Logeintrag: boot  (command 9999)
+Modell-Label: [-1, -1, 1, -1]
+Echtes Label: [-1, -1, -1, 1]
+
+Logeintrag: wait  (command 9999)
+Modell-Label: [-1, -1, 1, -1]
+Echtes Label: [-1, -1, -1, 1]
+
+Logeintrag: action start 9999999999 9 wait  (command 9999)
+Modell-Label: [1, 1, 1, 1, -1, -1, 1, -1]
+Echtes Label: [1, 1, 1, 1, -1, -1, -1, 1]
+
+Logeintrag: boot  (command 9999)
+Modell-Label: [-1, -1, 1, -1]
+Echtes Label: [-1, -1, -1, 1]
+
+Logeintrag: wait  (command 9999)
+Modell-Label: [-1, -1, 1, -1]
+Echtes Label: [-1, -1, -1, 1]
+
+Logeintrag: wait  (command 9999)
+Modell-Label: [-1, -1, 1, -1]
+Echtes Label: [-1, -1, -1, 1]
+
+Logeintrag: boot  (command 9999)
+Modell-Label: [-1, -1, 1, -1]
+Echtes Label: [-1, -1, -1, 1]
+
+Logeintrag: wait  (command 9999)
+Modell-Label: [-1, -1, 1, -1]
+Echtes Label: [-1, -1, -1, 1]
+
+Logeintrag: 9 boot  (command 9999)
+Modell-Label: [1, -1, -1, 1, -1]
+Echtes Label: [1, -1, -1, -1, 1]
+
+Logeintrag: boot  (command 9999)
+Modell-Label: [-1, -1, 1, -1]
+Echtes Label: [-1, -1, -1, 1]
+
+Logeintrag: wait  (command 9999)
+Modell-Label: [-1, -1, 1, -1]
+Echtes Label: [-1, -1, -1, 1]
+
+Logeintrag: node-999 action start 9999999999 9 wait  (command 9999)
+Modell-Label: [1, 1, 1, 1, 1, -1, -1, 1, -1]
+Echtes Label: [1, 1, 1, 1, 1, -1, -1, -1, 1]
+
+Logeintrag: bootGenvmunix  (command 9999)
+Modell-Label: [-1, -1, 1, -1]
+Echtes Label: [-1, -1, -1, 1]
+
+Logeintrag: action start 9999999999 9 boot  (command 9999)
+Modell-Label: [1, 1, 1, 1, -1, -1, 1, -1]
+Echtes Label: [1, 1, 1, 1, -1, -1, -1, 1]
+
+Logeintrag: wait  (command 9999)
+Modell-Label: [-1, -1, 1, -1]
+Echtes Label: [-1, -1, -1, 1]
+
+Logeintrag: wait  (command 9999)
+Modell-Label: [-1, -1, 1, -1]
+Echtes Label: [-1, -1, -1, 1]
+
+Logeintrag: psu failure\ ambient=99
+Modell-Label: [1, 1, 1]
+Echtes Label: [-1, -1, 1]
+
+Logeintrag: psu failure\ ambient=99
+Modell-Label: [1, 1, 1]
+Echtes Label: [-1, -1, 1]
+
+Logeintrag: 9 psu failure\ ambient=99
+Modell-Label: [1, 1, 1, 1]
+Echtes Label: [1, -1, -1, 1]
+
+Logeintrag: 9 psu failure\ ambient=99
+Modell-Label: [1, 1, 1, 1]
+Echtes Label: [1, -1, -1, 1]
+
+Logeintrag: psu failure\ ambient=99
+Modell-Label: [1, 1, 1]
+Echtes Label: [-1, -1, 1]
+
+Logeintrag: Interconnect-9T99 switch_module bcast-error 9999999999 9 Link error on broadcast tree Interconnect-9T99:99:9:9
+Modell-Label: [1, 1, 1, 1, 1, -1, -1, -1, -1, 1, 1]
+Echtes Label: [1, 1, 1, 1, 1, -1, 1, 1, 1, 1, 1]
+
+Logeintrag: Link error on broadcast tree Interconnect-9T99:99:9:9
+Modell-Label: [-1, -1, -1, -1, 1, 1]
+Echtes Label: [-1, 1, 1, 1, 1, 1]
+
+Logeintrag: Link error on broadcast tree Interconnect-9T99:99:9:9
+Modell-Label: [-1, -1, -1, -1, 1, 1]
+Echtes Label: [-1, 1, 1, 1, 1, 1]
+
+Logeintrag: Interconnect-9T99 switch_module bcast-error 9999999999 9 Link error on broadcast tree Interconnect-9T99:99:9:9
+Modell-Label: [1, 1, 1, 1, 1, -1, -1, -1, -1, 1, 1]
+Echtes Label: [1, 1, 1, 1, 1, -1, 1, 1, 1, 1, 1]
+
+Logeintrag: node-D9 domain status 9999999999 9 inconsistent nodesets node-9 9x999999fc <ok> node-9 9x999999fc <ok> node-9 9x999999fc <ok> node-9 9x999999fc <ok> node-9 9x999999fc <ok> node-9 9x999999fc <ok> node-9 9x999999fc <ok> node-99 9x9999fdfc <ok> node-99 9x9999fdfc <ok> node-99 9x9999fdfc <ok> node-99 9x9999fdfc <ok> node-99 9x9999fdfc <ok> node-99 9x9999fdfc <ok>
+Modell-Label: [-1, 1, 1, 1, 1, 1, -1, -1, 1, 1, 1, -1, -1, 1, 1, 1, -1, -1, 1, 1, 1, -1, 1, 1, 1, -1, 1, 1, 1, -1, 1, 1, 1, 1, 1, 1, -1, 1, 1, 1, -1, 1, 1, 1, -1, 1, 1, 1, -1, 1, 1, 1, 1, 1, 1]
+Echtes Label: [1, 1, 1, 1, 1, -1, -1, 1, 1, -1, 1, 1, -1, 1, 1, -1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, -1, -1, 1, -1, -1, -1, -1, -1, -1]
+
+Logeintrag: boot (command 9999) Error: HALT asserted\  cannot continue
+Modell-Label: [-1, -1, 1, -1, -1, -1, -1, -1, 1]
+Echtes Label: [-1, -1, 1, -1, -1, -1, -1, -1, -1]
+

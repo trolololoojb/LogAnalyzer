@@ -1,0 +1,1300 @@
+Model: tokenizedModel.keras
+ Evaluierungsdaten: HPC_2k_evaluate_content.txt
+ Sonstige Infos: Evaluierung des 10K-Eva-Modells auf die 2k Datensätze von Drain3
+Durchschnittlicher F1-Score: 0.9505781129354668
+Ergebnisse: 
+    -Gleiche Zeilen: 1677 (83.85%)
+    -Unterschiedliche Zeilen: 323 (16.15%)
+Falsch interpretierte Zeilen:
+Logeintrag: boot  (command 9999)
+Modell-Label: [-1, -1, 1, -1]
+Echtes Label: [-1, -1, -1, 1]
+
+Logeintrag: wait  (command 9999)
+Modell-Label: [-1, -1, 1, -1]
+Echtes Label: [-1, -1, -1, 1]
+
+Logeintrag: action start 9999999999 9 boot  (command 9999)
+Modell-Label: [1, 1, 1, 1, -1, -1, 1, -1]
+Echtes Label: [1, 1, 1, 1, -1, -1, -1, 1]
+
+Logeintrag: Link error on broadcast tree Interconnect-9T99:99:9:9
+Modell-Label: [-1, -1, -1, 1, 1, 1]
+Echtes Label: [-1, 1, 1, 1, 1, 1]
+
+Logeintrag: node-9 action start 9999999999 9 boot  (command 9999)
+Modell-Label: [1, 1, 1, 1, 1, -1, -1, 1, -1]
+Echtes Label: [1, 1, 1, 1, 1, -1, -1, -1, 1]
+
+Logeintrag: 9 boot  (command 9999)
+Modell-Label: [1, -1, -1, 1, -1]
+Echtes Label: [1, -1, -1, -1, 1]
+
+Logeintrag: action start 9999999999 9 wait  (command 9999)
+Modell-Label: [1, 1, 1, 1, -1, -1, 1, -1]
+Echtes Label: [1, 1, 1, 1, -1, -1, -1, 1]
+
+Logeintrag: switch_module temphigh 9999999999 9 Temperature (99C) exceeds warning threshold
+Modell-Label: [1, 1, 1, 1, 1, 1, 1, -1, -1]
+Echtes Label: [1, 1, 1, 1, -1, 1, 1, 1, 1]
+
+Logeintrag: node-999 action start 9999999999 9 boot  (command 9999)
+Modell-Label: [1, 1, 1, 1, 1, -1, -1, 1, -1]
+Echtes Label: [1, 1, 1, 1, 1, -1, -1, -1, 1]
+
+Logeintrag: Targeting domains:node-D9 and nodes:node-[999-999] child of command 9999
+Modell-Label: [-1, 1, 1, 1, 1, -1, -1, 1]
+Echtes Label: [-1, 1, -1, 1, -1, -1, -1, 1]
+
+Logeintrag: 9 wait  (command 9999)
+Modell-Label: [1, -1, -1, 1, -1]
+Echtes Label: [1, -1, -1, -1, 1]
+
+Logeintrag: Temperature (99C) exceeds warning threshold
+Modell-Label: [1, 1, 1, -1, -1]
+Echtes Label: [-1, 1, 1, 1, 1]
+
+Logeintrag: Interconnect-9T99 switch_module bcast-error 9999999999 9 Link error
+Modell-Label: [1, 1, 1, 1, 1, 1, -1]
+Echtes Label: [1, 1, 1, 1, 1, -1, -1]
+
+Logeintrag: Interconnect-9N99 switch_module temphigh 9999999999 9 Temperature (99C) exceeds warning threshold
+Modell-Label: [1, 1, 1, 1, 1, 1, 1, 1, -1, -1]
+Echtes Label: [1, 1, 1, 1, 1, -1, 1, 1, 1, 1]
+
+Logeintrag: halt  (command 9999)
+Modell-Label: [-1, -1, 1, -1]
+Echtes Label: [-1, -1, -1, 1]
+
+Logeintrag: node-999 action start 9999999999 9 wait  (command 9999)
+Modell-Label: [1, 1, 1, 1, 1, -1, -1, 1, -1]
+Echtes Label: [1, 1, 1, 1, 1, -1, -1, -1, 1]
+
+Logeintrag: Targeting domains:node-D9 and nodes:node-[9-99] child of command 9999
+Modell-Label: [-1, 1, 1, 1, 1, -1, -1, 1]
+Echtes Label: [-1, 1, -1, 1, -1, -1, -1, 1]
+
+Logeintrag: Targeting domains:node-D9 and nodes:node-[99-99] child of command 9999
+Modell-Label: [-1, 1, 1, 1, 1, -1, -1, 1]
+Echtes Label: [-1, 1, -1, 1, -1, -1, -1, 1]
+
+Logeintrag: node-99 action start 9999999999 9 bootGenvmunix  (command 9999)
+Modell-Label: [1, 1, 1, 1, 1, -1, -1, 1, -1]
+Echtes Label: [1, 1, 1, 1, 1, -1, -1, -1, 1]
+
+Logeintrag: Targeting domains:node-D9 and nodes:node-[9-9] child of command 9999
+Modell-Label: [-1, 1, 1, 1, 1, -1, -1, 1]
+Echtes Label: [-1, 1, -1, 1, -1, -1, -1, 1]
+
+Logeintrag: node-99 action start 9999999999 9 boot  (command 9999)
+Modell-Label: [1, 1, 1, 1, 1, -1, -1, 1, -1]
+Echtes Label: [1, 1, 1, 1, 1, -1, -1, -1, 1]
+
+Logeintrag: Interconnect-9T99 switch_module error 9999999999 9 Link error
+Modell-Label: [1, 1, 1, 1, 1, 1, -1]
+Echtes Label: [1, 1, 1, 1, 1, -1, -1]
+
+Logeintrag: psu failure\ ambient=99
+Modell-Label: [-1, -1, 1]
+Echtes Label: [1, 1, 1]
+
+Logeintrag: Command has been aborted
+Modell-Label: [-1, -1, 1, -1]
+Echtes Label: [-1, -1, -1, -1]
+
+Logeintrag: Interconnect-9N99 switch_module error 9999999999 9 Link ok
+Modell-Label: [1, 1, 1, 1, 1, 1, -1]
+Echtes Label: [1, 1, 1, 1, 1, -1, -1]
+
+Logeintrag: node-999 action start 9999999999 9 halt  (command 9999)
+Modell-Label: [1, 1, 1, 1, 1, -1, -1, 1, -1]
+Echtes Label: [1, 1, 1, 1, 1, -1, -1, -1, 1]
+
+Logeintrag: power/control problem
+Modell-Label: [1, -1]
+Echtes Label: [-1, -1]
+
+Logeintrag: node-99 action start 9999999999 9 wait  (command 9999)
+Modell-Label: [1, 1, 1, 1, 1, -1, -1, 1, -1]
+Echtes Label: [1, 1, 1, 1, 1, -1, -1, -1, 1]
+
+Logeintrag: inconsistent nodesets node-99 9x99999999 <ok> node-99 9x9999999e <ok> node-99 9x9999999e <ok> node-99 9x9999999e <ok> node-99 9x9999999e <ok>
+Modell-Label: [-1, -1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1]
+Echtes Label: [-1, -1, 1, 1, -1, 1, 1, -1, 1, 1, -1, 1, 1, 1, 1, 1, 1]
+
+Logeintrag: inconsistent nodesets node-999 9x9fffffffe <ok> node-999 9x9999999e <ok> node-999 9x9999999e <ok> node-999 9x9999999e <ok>
+Modell-Label: [-1, -1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1]
+Echtes Label: [-1, -1, 1, 1, -1, 1, 1, -1, 1, 1, -1, 1, 1, 1]
+
+Logeintrag: bootGenvmunix  (command 9999)
+Modell-Label: [-1, -1, 1, -1]
+Echtes Label: [-1, -1, -1, 1]
+
+Logeintrag: action start 9999999999 9 risBoot  (command 9999)
+Modell-Label: [1, 1, 1, 1, -1, -1, 1, -1]
+Echtes Label: [1, 1, 1, 1, -1, -1, -1, 1]
+
+Logeintrag: 9999 boot_cmd new 9999999999 9 Targeting domains:node-D9 and nodes:node-[99-99] child of command 9999
+Modell-Label: [1, 1, 1, 1, 1, -1, 1, 1, 1, 1, -1, -1, 1]
+Echtes Label: [1, 1, 1, 1, 1, -1, 1, -1, 1, -1, -1, -1, 1]
+
+Logeintrag: switch_module control 9999999999 9 power/control problem
+Modell-Label: [1, 1, 1, 1, 1, -1]
+Echtes Label: [1, 1, 1, 1, -1, -1]
+
+Logeintrag: action start 9999999999 9 halt  (command 9999)
+Modell-Label: [1, 1, 1, 1, -1, -1, 1, -1]
+Echtes Label: [1, 1, 1, 1, -1, -1, -1, 1]
+
+Logeintrag: risBoot  (command 9999)
+Modell-Label: [-1, -1, 1, -1]
+Echtes Label: [-1, -1, -1, 1]
+
+Logeintrag: node-D9 domain status 9999999999 9 inconsistent nodesets node-9 9x9999999e <ok> node-99 9x9fffffffe <ok> node-9 9x9999999e <ok> node-9 9x9999999e <ok>
+Modell-Label: [1, 1, 1, 1, 1, -1, -1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1]
+Echtes Label: [1, 1, 1, 1, 1, -1, -1, 1, 1, -1, 1, 1, -1, 1, 1, -1, 1, 1, 1]
+
+Logeintrag: domain status 9999999999 9 inconsistent nodesets node-99 9x9fffffffe <ok> node-99 9x9999999e <ok> node-99 9x9999999e <ok> node-99 9x9999999e <ok>
+Modell-Label: [1, 1, 1, 1, -1, -1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1]
+Echtes Label: [1, 1, 1, 1, -1, -1, 1, 1, -1, 1, 1, -1, 1, 1, -1, 1, 1, 1]
+
+Logeintrag: 9 power/control problem
+Modell-Label: [1, 1, -1]
+Echtes Label: [1, -1, -1]
+
+Logeintrag: Interconnect-9T99 switch_module bcast-error 9999999999 9 Link error on broadcast tree Interconnect-9T99:99:9:9
+Modell-Label: [1, 1, 1, 1, 1, -1, -1, -1, 1, 1, 1]
+Echtes Label: [1, 1, 1, 1, 1, -1, 1, 1, 1, 1, 1]
+
+Logeintrag: 9 Targeting domains:node-D9 and nodes:node-[999-999] child of command 9999
+Modell-Label: [1, -1, 1, 1, 1, 1, -1, -1, 1]
+Echtes Label: [1, -1, 1, -1, 1, -1, -1, -1, 1]
+
+Logeintrag: node-9 action start 9999999999 9 wait  (command 9999)
+Modell-Label: [1, 1, 1, 1, 1, -1, -1, 1, -1]
+Echtes Label: [1, 1, 1, 1, 1, -1, -1, -1, 1]
+
+Logeintrag: node-99 action start 9999999999 9 clusterAddMember  (command 9999)
+Modell-Label: [1, 1, 1, 1, 1, -1, -1, 1, -1]
+Echtes Label: [1, 1, 1, 1, 1, -1, -1, -1, 1]
+
+Logeintrag: clusterAddMember  (command 9999)
+Modell-Label: [-1, -1, 1, -1]
+Echtes Label: [-1, -1, -1, 1]
+
+Logeintrag: boot_cmd new 9999999999 9 Targeting domains:node-D9 and nodes:node-[99-99] child of command 9999
+Modell-Label: [1, 1, 1, 1, -1, 1, 1, 1, 1, -1, -1, 1]
+Echtes Label: [1, 1, 1, 1, -1, 1, -1, 1, -1, -1, -1, 1]
+
+Logeintrag: 9 psu failure\ ambient=99
+Modell-Label: [1, -1, -1, 1]
+Echtes Label: [1, 1, 1, 1]
+
+Logeintrag: inconsistent nodesets node-99 9x9fffffffe <ok> node-9 9x9fffffefe <ok> node-9 9x9fffffffe <ok> node-9 9x9fffffffe <ok> node-9 9x9fffffffe <ok>
+Modell-Label: [-1, -1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1]
+Echtes Label: [-1, -1, 1, 1, -1, 1, 1, -1, 1, 1, -1, 1, 1, 1, 1, 1, 1]
+
+Logeintrag: Interconnect-9T99 switch_module temphigh 9999999999 9 Temperature (99C) exceeds warning threshold
+Modell-Label: [1, 1, 1, 1, 1, 1, 1, 1, -1, -1]
+Echtes Label: [1, 1, 1, 1, 1, -1, 1, 1, 1, 1]
+
+Logeintrag: Interconnect-9N99 switch_module error 9999999999 9 Link error
+Modell-Label: [1, 1, 1, 1, 1, 1, -1]
+Echtes Label: [1, 1, 1, 1, 1, -1, -1]
+
+Logeintrag: Targeting domains:node-D9 and nodes:node-[99-999] child of command 9999
+Modell-Label: [-1, 1, 1, 1, 1, -1, -1, 1]
+Echtes Label: [-1, 1, -1, 1, -1, -1, -1, 1]
+
+Logeintrag: Interconnect-9T99 switch_module control 9999999999 9 power/control problem
+Modell-Label: [1, 1, 1, 1, 1, 1, -1]
+Echtes Label: [1, 1, 1, 1, 1, -1, -1]
+
+Logeintrag: 9 Link error on broadcast tree Interconnect-9T99:99:9:9
+Modell-Label: [1, -1, -1, -1, 1, 1, 1]
+Echtes Label: [1, -1, 1, 1, 1, 1, 1]
+
+Logeintrag: 9 Targeting domains:node-D9 and nodes:node-[99-99] child of command 9999
+Modell-Label: [1, -1, 1, 1, 1, 1, -1, -1, 1]
+Echtes Label: [1, -1, 1, -1, 1, -1, -1, -1, 1]
+
+Logeintrag: action start 9999999999 9 bootGenvmunix  (command 9999)
+Modell-Label: [1, 1, 1, 1, -1, -1, 1, -1]
+Echtes Label: [1, 1, 1, 1, -1, -1, -1, 1]
+
+Logeintrag: node-D9 domain status 9999999999 9 inconsistent nodesets node-999 9x9fffffffe <ok> node-999 9x9999999e <ok> node-999 9x9999999e <ok> node-999 9x9999999e <ok>
+Modell-Label: [1, 1, 1, 1, 1, -1, -1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1]
+Echtes Label: [1, 1, 1, 1, 1, -1, -1, 1, 1, -1, 1, 1, -1, 1, 1, -1, 1, 1, 1]
+
+Logeintrag: boot (command 9999) Error: HALT asserted\  cannot continue
+Modell-Label: [-1, -1, 1, -1, -1, -1, -1, -1, 1]
+Echtes Label: [-1, -1, 1, -1, -1, -1, -1, -1, -1]
+
+Logeintrag: clusterAddMember  (command 9999)
+Modell-Label: [-1, -1, 1, -1]
+Echtes Label: [-1, -1, -1, 1]
+
+Logeintrag: inconsistent nodesets node-99 9x9fffffffe <ok> node-9 9x9999999e <ok> node-9 9x9999999e <ok> node-9 9x9999999e <ok>
+Modell-Label: [-1, -1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1]
+Echtes Label: [-1, -1, 1, 1, -1, 1, 1, -1, 1, 1, -1, 1, 1, 1]
+
+Logeintrag: 9999 boot_cmd new 9999999999 9 Targeting domains:node-D9 and nodes:node-[999-999] child of command 9999
+Modell-Label: [1, 1, 1, 1, 1, -1, 1, 1, 1, 1, -1, -1, 1]
+Echtes Label: [1, 1, 1, 1, 1, -1, 1, -1, 1, -1, -1, -1, 1]
+
+Logeintrag: inconsistent nodesets node-99 9x999999fe <ok> node-99 9x9999fdfe <ok> node-99 9x9999fdfe <ok> node-999 9x9999fdfe <ok>
+Modell-Label: [-1, -1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1]
+Echtes Label: [-1, -1, 1, 1, -1, 1, 1, -1, 1, 1, -1, 1, 1, 1]
+
+Logeintrag: inconsistent nodesets node-999 9x9fffff99e <ok> node-999 9x9fffffbfe <ok> node-999 9x9fffffbfe <ok> node-999 9x9fffffbfe <ok>
+Modell-Label: [-1, -1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1]
+Echtes Label: [-1, -1, 1, 1, -1, 1, 1, -1, 1, 1, -1, 1, 1, 1]
+
+Logeintrag: switch_module bcast-error 9999999999 9 Link error on broadcast tree Interconnect-9N99:99:9:9
+Modell-Label: [1, 1, 1, 1, -1, -1, -1, 1, 1, 1]
+Echtes Label: [1, 1, 1, 1, -1, 1, 1, 1, 1, 1]
+
+Logeintrag: 9 boot (command 9999) Error: HALT asserted\  cannot continue
+Modell-Label: [1, -1, -1, 1, -1, -1, -1, -1, -1, 1]
+Echtes Label: [1, -1, -1, 1, -1, -1, -1, -1, -1, -1]
+
+Logeintrag: Interconnect-9N99 switch_module control 9999999999 9 power/control problem
+Modell-Label: [1, 1, 1, 1, 1, 1, -1]
+Echtes Label: [1, 1, 1, 1, 1, -1, -1]
+
+Logeintrag: inconsistent nodesets node-99 9x9fffffffe <ok> node-9 9xfffffffe <ok> node-9 9xfffffffe <ok> node-9 9xfffffffe <ok> node-99 9xfffffffe <ok>
+Modell-Label: [-1, -1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1]
+Echtes Label: [-1, -1, 1, 1, -1, 1, 1, -1, 1, 1, -1, 1, 1, 1, 1, 1, 1]
+
+Logeintrag: 9 Command has been aborted
+Modell-Label: [1, -1, -1, 1, -1]
+Echtes Label: [1, -1, -1, -1, -1]
+
+Logeintrag: 9999 boot_cmd abort 9999999999 9 Command has been aborted
+Modell-Label: [1, 1, 1, 1, 1, -1, -1, 1, -1]
+Echtes Label: [1, 1, 1, 1, 1, -1, -1, -1, -1]
+
+Logeintrag: node-999 action start 9999999999 9 clusterAddMember  (command 9999)
+Modell-Label: [1, 1, 1, 1, 1, -1, -1, 1, -1]
+Echtes Label: [1, 1, 1, 1, 1, -1, -1, -1, 1]
+
+Logeintrag: 9999 boot_cmd new 9999999999 9 Targeting domains:node-D9 and nodes:node-[99-999] child of command 9999
+Modell-Label: [1, 1, 1, 1, 1, -1, 1, 1, 1, 1, -1, -1, 1]
+Echtes Label: [1, 1, 1, 1, 1, -1, 1, -1, 1, -1, -1, -1, 1]
+
+Logeintrag: action start 9999999999 9 clusterAddMember  (command 9999)
+Modell-Label: [1, 1, 1, 1, -1, -1, 1, -1]
+Echtes Label: [1, 1, 1, 1, -1, -1, -1, 1]
+
+Logeintrag: Link error on broadcast tree Interconnect-9N99:99:9:9
+Modell-Label: [-1, -1, -1, 1, 1, 1]
+Echtes Label: [-1, 1, 1, 1, 1, 1]
+
+Logeintrag: 9 halt  (command 9999)
+Modell-Label: [1, -1, -1, 1, -1]
+Echtes Label: [1, -1, -1, -1, 1]
+
+Logeintrag: 9999 boot_cmd new 9999999999 9 Targeting domains:node-D9 and nodes:node-[9-9] child of command 9999
+Modell-Label: [1, 1, 1, 1, 1, -1, 1, 1, 1, 1, -1, -1, 1]
+Echtes Label: [1, 1, 1, 1, 1, -1, 1, -1, 1, -1, -1, -1, 1]
+
+Logeintrag: 9 Temperature (99C) exceeds warning threshold
+Modell-Label: [1, 1, 1, 1, -1, -1]
+Echtes Label: [1, -1, 1, 1, 1, 1]
+
+Logeintrag: node-D9 domain status 9999999999 9 inconsistent nodesets node-999 9x9f99ffffe <ok> node-999 9x9fffffffe <ok> node-999 9x9fffffffe <ok> node-999 9x9fffffffe <ok>
+Modell-Label: [1, 1, 1, 1, 1, -1, -1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1]
+Echtes Label: [1, 1, 1, 1, 1, -1, -1, 1, 1, -1, 1, 1, -1, 1, 1, -1, 1, 1, 1]
+
+Logeintrag: boot_cmd abort 9999999999 9 Command has been aborted
+Modell-Label: [1, 1, 1, 1, -1, -1, 1, -1]
+Echtes Label: [1, 1, 1, 1, -1, -1, -1, -1]
+
+Logeintrag: 9999 boot_cmd new 9999999999 9 Targeting domains:node-D9 and nodes:node-[9-99] child of command 9999
+Modell-Label: [1, 1, 1, 1, 1, -1, 1, 1, 1, 1, -1, -1, 1]
+Echtes Label: [1, 1, 1, 1, 1, -1, 1, -1, 1, -1, -1, -1, 1]
+
+Logeintrag: inconsistent nodesets node-99 9x999999fe <ok> node-99 9x999999fe <ok> node-99 9x9999fdfe <ok> node-99 9x9999fdfe <ok>
+Modell-Label: [-1, -1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1]
+Echtes Label: [-1, -1, 1, 1, -1, 1, 1, -1, 1, 1, -1, 1, 1, 1]
+
+Logeintrag: inconsistent nodesets node-999 9x999999fe <ok> node-999 9x9999fdfe <ok> node-999 9x9999fdfe <ok> node-999 9x9999fdfe <ok> node-999 9x9999fdfe <ok>
+Modell-Label: [-1, -1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1]
+Echtes Label: [-1, -1, 1, 1, -1, 1, 1, -1, 1, 1, -1, 1, 1, 1, 1, 1, 1]
+
+Logeintrag: node-999 action start 9999999999 9 risBoot  (command 9999)
+Modell-Label: [1, 1, 1, 1, 1, -1, -1, 1, -1]
+Echtes Label: [1, 1, 1, 1, 1, -1, -1, -1, 1]
+
+Logeintrag: Interconnect-9N99 switch_module bcast-error 9999999999 9 Link error on broadcast tree Interconnect-9N99:99:9:9
+Modell-Label: [1, 1, 1, 1, 1, -1, -1, -1, 1, 1, 1]
+Echtes Label: [1, 1, 1, 1, 1, -1, 1, 1, 1, 1, 1]
+
+Logeintrag: boot_cmd new 9999999999 9 Targeting domains:node-D9 and nodes:node-[999-999] child of command 9999
+Modell-Label: [1, 1, 1, 1, -1, 1, 1, 1, 1, -1, -1, 1]
+Echtes Label: [1, 1, 1, 1, -1, 1, -1, 1, -1, -1, -1, 1]
+
+Logeintrag: node-99 action start 9999999999 9 halt  (command 9999)
+Modell-Label: [1, 1, 1, 1, 1, -1, -1, 1, -1]
+Echtes Label: [1, 1, 1, 1, 1, -1, -1, -1, 1]
+
+Logeintrag: 9 inconsistent nodesets node-999 9x9fffffffe <ok> node-999 9xfffffffe <ok> node-999 9xfffffffe <ok> node-999 9xfffffffe <ok> node-999 9xfffffffe <ok>
+Modell-Label: [1, -1, -1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1]
+Echtes Label: [1, -1, -1, 1, 1, -1, 1, 1, -1, 1, 1, -1, 1, 1, 1, 1, 1, 1]
+
+Logeintrag: inconsistent nodesets node-999 9x9999999e <ok> node-999 9x9fffffffe <ok> node-999 9x9999999e <ok> node-999 9x9999999e <ok>
+Modell-Label: [-1, -1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1]
+Echtes Label: [-1, -1, 1, 1, -1, 1, 1, -1, 1, 1, -1, 1, 1, 1]
+
+Logeintrag: domain status 9999999999 9 inconsistent nodesets node-99 9x999999fe <ok> node-99 9x999999fe <ok> node-99 9x999999fe <ok> node-99 9x9999e9fe <ok>
+Modell-Label: [1, 1, 1, 1, -1, -1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1]
+Echtes Label: [1, 1, 1, 1, -1, -1, 1, 1, -1, 1, 1, -1, 1, 1, -1, 1, 1, 1]
+
+Logeintrag: 9 risBoot  (command 9999)
+Modell-Label: [1, -1, -1, 1, -1]
+Echtes Label: [1, -1, -1, -1, 1]
+
+Logeintrag: inconsistent nodesets node-999 9x9fffffffe <ok> node-999 9xfffffffe <ok> node-999 9xfffffffe <ok> node-999 9xfffffffe <ok> node-999 9xfffffffe <ok>
+Modell-Label: [-1, -1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1]
+Echtes Label: [-1, -1, 1, 1, -1, 1, 1, -1, 1, 1, -1, 1, 1, 1, 1, 1, 1]
+
+Logeintrag: inconsistent nodesets node-999 9x9fffffffe <ok> node-999 9x9ffffeffe <ok> node-999 9x9ffffeffe <ok> node-999 9x9ffffeffe <ok> node-999 9x9ffffeffe <ok>
+Modell-Label: [-1, -1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1]
+Echtes Label: [-1, -1, 1, 1, -1, 1, 1, -1, 1, 1, -1, 1, 1, 1, 1, 1, 1]
+
+Logeintrag: shutdown_cmd new 9999999999 9 Targeting domains:node-D9 and nodes:node-[999\ 999-999\ 999-999\ 999-999] child of command 9999
+Modell-Label: [1, 1, 1, 1, -1, 1, 1, 1, 1, 1, 1, 1, -1, -1, 1]
+Echtes Label: [1, 1, 1, 1, -1, 1, -1, 1, 1, 1, 1, -1, -1, -1, 1]
+
+Logeintrag: inconsistent nodesets node-99 9x9fffffc9e <ok> node-99 9x9999999e <ok> node-99 9x9999999e <ok> node-99 9x9999999e <ok>
+Modell-Label: [-1, -1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1]
+Echtes Label: [-1, -1, 1, 1, -1, 1, 1, -1, 1, 1, -1, 1, 1, 1]
+
+Logeintrag: 9 bootGenvmunix  (command 9999)
+Modell-Label: [1, -1, -1, 1, -1]
+Echtes Label: [1, -1, -1, -1, 1]
+
+Logeintrag: inconsistent nodesets node-999 9x9fffffffe <ok> node-99 9x9999999e <ok> node-99 9x9999999e <ok> node-99 9x9999999e <ok>
+Modell-Label: [-1, -1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1]
+Echtes Label: [-1, -1, 1, 1, -1, 1, 1, -1, 1, 1, -1, 1, 1, 1]
+
+Logeintrag: boot  (command 9999)
+Modell-Label: [-1, -1, 1, -1]
+Echtes Label: [-1, -1, -1, 1]
+
+Logeintrag: node-99 action start 9999999999 9 risBoot  (command 9999)
+Modell-Label: [1, 1, 1, 1, 1, -1, -1, 1, -1]
+Echtes Label: [1, 1, 1, 1, 1, -1, -1, -1, 1]
+
+Logeintrag: ambient=99  threshold exceeded
+Modell-Label: [1, 1, 1, -1]
+Echtes Label: [1, 1, 1, 1]
+
+Logeintrag: inconsistent nodesets node-99 9x9fffffffe <ok> node-99 9x9fffffffe <ok> node-99 9x9fffffffe <ok> node-999 9x9fbfffffe <ok> node-999 9x9fffffffe <ok>
+Modell-Label: [-1, -1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1]
+Echtes Label: [-1, -1, 1, 1, -1, 1, 1, -1, 1, 1, -1, 1, 1, 1, 1, 1, 1]
+
+Logeintrag: inconsistent nodesets node-999 9x999999fe <ok> node-999 9x999999fe <ok> node-999 9x999999fe <ok> node-999 9x9999fdfe <ok> node-999 9x9999fdfe <ok>
+Modell-Label: [-1, -1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1]
+Echtes Label: [-1, -1, 1, 1, -1, 1, 1, -1, 1, 1, -1, 1, 1, 1, 1, 1, 1]
+
+Logeintrag: inconsistent nodesets node-99 9x99999999 <ok> node-99 9x9999999e <ok> node-99 9x9999999e <ok> node-99 9x9999999e <ok> node-999 9x9999999e <ok>
+Modell-Label: [-1, -1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1]
+Echtes Label: [-1, -1, 1, 1, -1, 1, 1, -1, 1, 1, -1, 1, 1, 1, 1, 1, 1]
+
+Logeintrag: node-D9 domain status 9999999999 9 inconsistent nodesets node-99 9x999999fe <ok> node-99 9x999999fe <ok> node-99 9x9999fdfe <ok> node-99 9x9999fdfe <ok> node-99 9x9999fdfe <ok>
+Modell-Label: [1, 1, 1, 1, 1, -1, -1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1]
+Echtes Label: [1, 1, 1, 1, 1, -1, -1, 1, 1, -1, 1, 1, -1, 1, 1, -1, 1, 1, 1, 1, 1, 1]
+
+Logeintrag: 9 clusterAddMember  (command 9999)
+Modell-Label: [1, -1, -1, 1, -1]
+Echtes Label: [1, -1, -1, -1, 1]
+
+Logeintrag: inconsistent nodesets node-999 9x99d9fe9e <ok> node-999 9x99999999 <ok> node-999 9x9999999e <ok> node-999 9x9999999e <ok>
+Modell-Label: [-1, -1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1]
+Echtes Label: [-1, -1, 1, 1, -1, 1, 1, -1, 1, 1, -1, 1, 1, 1]
+
+Logeintrag: 9 Targeting domains:node-D9 and nodes:node-[9-99] child of command 9999
+Modell-Label: [1, -1, 1, 1, 1, 1, -1, -1, 1]
+Echtes Label: [1, -1, 1, -1, 1, -1, -1, -1, 1]
+
+Logeintrag: inconsistent nodesets node-999 9x999999fe <ok> node-999 9x999999fe <ok> node-999 9x999999fe <ok> node-999 9x9999fdfe <ok>
+Modell-Label: [-1, -1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1]
+Echtes Label: [-1, -1, 1, 1, -1, 1, 1, -1, 1, 1, -1, 1, 1, 1]
+
+Logeintrag: action error 9999999999 9 boot (command 9999) Error: HALT asserted\  cannot continue
+Modell-Label: [1, 1, 1, 1, -1, -1, 1, -1, -1, -1, -1, -1, 1]
+Echtes Label: [1, 1, 1, 1, -1, -1, 1, -1, -1, -1, -1, -1, -1]
+
+Logeintrag: inconsistent nodesets node-99 9x9fffffffe <ok> node-9 9x9fffffffe <ok> node-9 9x9999999e <ok> node-9 9x9999999e <ok>
+Modell-Label: [-1, -1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1]
+Echtes Label: [-1, -1, 1, 1, -1, 1, 1, -1, 1, 1, -1, 1, 1, 1]
+
+Logeintrag: 9999 shutdown_cmd new 9999999999 9 Targeting domains:node-D9 and nodes:node-[999-999] child of command 9999
+Modell-Label: [1, 1, 1, 1, 1, -1, 1, 1, 1, 1, -1, -1, 1]
+Echtes Label: [1, 1, 1, 1, 1, -1, 1, -1, 1, -1, -1, -1, 1]
+
+Logeintrag: node-999 action error 9999999999 9 boot (command 9999) Error: HALT asserted\  cannot continue
+Modell-Label: [1, 1, 1, 1, 1, -1, -1, 1, -1, -1, -1, -1, -1, 1]
+Echtes Label: [1, 1, 1, 1, 1, -1, -1, 1, -1, -1, -1, -1, -1, -1]
+
+Logeintrag: Targeting domains:node-D9 and nodes:node-[99-99\ 99] child of command 9999
+Modell-Label: [-1, 1, 1, 1, 1, 1, -1, -1, 1]
+Echtes Label: [-1, 1, -1, 1, 1, -1, -1, -1, 1]
+
+Logeintrag: node-9 action start 9999999999 9 bootGenvmunix  (command 9999)
+Modell-Label: [1, 1, 1, 1, 1, -1, -1, 1, -1]
+Echtes Label: [1, 1, 1, 1, 1, -1, -1, -1, 1]
+
+Logeintrag: 9999 shutdown_cmd abort 9999999999 9 Command has been aborted
+Modell-Label: [1, 1, 1, 1, 1, -1, -1, 1, -1]
+Echtes Label: [1, 1, 1, 1, 1, -1, -1, -1, -1]
+
+Logeintrag: node-999 action start 9999999999 9 bootGenvmunix  (command 9999)
+Modell-Label: [1, 1, 1, 1, 1, -1, -1, 1, -1]
+Echtes Label: [1, 1, 1, 1, 1, -1, -1, -1, 1]
+
+Logeintrag: inconsistent nodesets node-99 9x999999fe <ok> node-99 9x9999fdfe <ok> node-99 9x9999fdfe <ok> node-99 9x9999fdfe <ok>
+Modell-Label: [-1, -1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1]
+Echtes Label: [-1, -1, 1, 1, -1, 1, 1, -1, 1, 1, -1, 1, 1, 1]
+
+Logeintrag: inconsistent nodesets node-99 9x9fffffffe <ok> node-99 9x99fffffe <ok> node-9 9x999bfffe <ok> node-9 9x999bfffe <ok> node-99 9x99fffffe <ok>
+Modell-Label: [-1, -1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1]
+Echtes Label: [-1, -1, 1, 1, -1, 1, 1, -1, 1, 1, -1, 1, 1, 1, 1, 1, 1]
+
+Logeintrag: inconsistent nodesets node-999 9x9999999e <ok> node-999 9x9e999999e <ok> node-999 9x9999999e <ok> node-999 9x9999999e <ok>
+Modell-Label: [-1, -1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1]
+Echtes Label: [-1, -1, 1, 1, -1, 1, 1, -1, 1, 1, -1, 1, 1, 1]
+
+Logeintrag: node-D9 domain status 9999999999 9 inconsistent nodesets node-999 9x9fffffffe <ok> node-999 9xfffffffe <ok> node-999 9xfffffffe <ok> node-999 9xfffffffe <ok> node-999 9xfffffffe <ok>
+Modell-Label: [1, 1, 1, 1, 1, -1, -1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1]
+Echtes Label: [1, 1, 1, 1, 1, -1, -1, 1, 1, -1, 1, 1, -1, 1, 1, -1, 1, 1, 1, 1, 1, 1]
+
+Logeintrag: Interconnect-9T99 switch_module bcast-error 9999999999 9 Link ok
+Modell-Label: [1, 1, 1, 1, 1, 1, -1]
+Echtes Label: [1, 1, 1, 1, 1, -1, -1]
+
+Logeintrag: Interconnect-9N99 switch_module bcast-error 9999999999 9 Link error
+Modell-Label: [1, 1, 1, 1, 1, 1, -1]
+Echtes Label: [1, 1, 1, 1, 1, -1, -1]
+
+Logeintrag: inconsistent nodesets node-99 9x9fffffffe <ok> node-99 9x9999999e <ok> node-99 9x9999999e <ok> node-99 9x9999999e <ok>
+Modell-Label: [-1, -1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1]
+Echtes Label: [-1, -1, 1, 1, -1, 1, 1, -1, 1, 1, -1, 1, 1, 1]
+
+Logeintrag: 9 Link error on broadcast tree Interconnect-9N99:99:9:9
+Modell-Label: [1, -1, -1, -1, 1, 1, 1]
+Echtes Label: [1, -1, 1, 1, 1, 1, 1]
+
+Logeintrag: inconsistent nodesets node-999 9x999fffffe <ok> node-999 9x9fffffffe <ok> node-999 9x9fffffffe <ok> node-999 9x9fffffffe <ok>
+Modell-Label: [-1, -1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1]
+Echtes Label: [-1, -1, 1, 1, -1, 1, 1, -1, 1, 1, -1, 1, 1, 1]
+
+Logeintrag: inconsistent nodesets node-999 9x999999fe <ok> node-999 9x999999fe <ok> node-999 9x9999fdfe <ok> node-999 9x9999fdfe <ok> node-999 9x9999fdfe <ok>
+Modell-Label: [-1, -1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1]
+Echtes Label: [-1, -1, 1, 1, -1, 1, 1, -1, 1, 1, -1, 1, 1, 1, 1, 1, 1]
+
+Logeintrag: domain status 9999999999 9 inconsistent nodesets node-99 9x9fffffffe <ok> node-99 9x9ffffff9e <ok> node-99 9x9ffffff9e <ok> node-99 9x9ffffff9e <ok>
+Modell-Label: [1, 1, 1, 1, -1, -1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1]
+Echtes Label: [1, 1, 1, 1, -1, -1, 1, 1, -1, 1, 1, -1, 1, 1, -1, 1, 1, 1]
+
+Logeintrag: boot  (command 9999)
+Modell-Label: [-1, -1, 1, -1]
+Echtes Label: [-1, -1, -1, 1]
+
+Logeintrag: inconsistent nodesets node-999 9x9fc99999e <ok> node-999 9x99999999e <ok> node-999 9x99999999e <ok> node-999 9x99999999e <ok>
+Modell-Label: [-1, -1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1]
+Echtes Label: [-1, -1, 1, 1, -1, 1, 1, -1, 1, 1, -1, 1, 1, 1]
+
+Logeintrag: boot_cmd new 9999999999 9 Targeting domains:node-D9 and nodes:node-[9-99] child of command 9999
+Modell-Label: [1, 1, 1, 1, -1, 1, 1, 1, 1, -1, -1, 1]
+Echtes Label: [1, 1, 1, 1, -1, 1, -1, 1, -1, -1, -1, 1]
+
+Logeintrag: inconsistent nodesets node-99 9x999999fe <ok> node-999 9x999999fe <ok> node-99 9x99999ffe <ok> node-99 9x99999ffe <ok> node-99 9x99999ffe <ok>
+Modell-Label: [-1, -1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1]
+Echtes Label: [-1, -1, 1, 1, -1, 1, 1, -1, 1, 1, -1, 1, 1, 1, 1, 1, 1]
+
+Logeintrag: inconsistent nodesets node-999 9x9fffffffe <ok> node-999 9x9ffeeeefe <ok> node-999 9x9eeeeeeee <ok> node-999 9x9eeeeeeee <ok> node-999 9x9eeeeeeee <ok>
+Modell-Label: [-1, -1, 1, 1, 1, 1, 1, -1, -1, 1, 1, -1, -1, 1, 1, -1, -1, 1, 1, -1, -1]
+Echtes Label: [-1, -1, 1, 1, -1, 1, 1, -1, 1, 1, -1, 1, 1, 1, 1, 1, 1, -1, -1, 1, 1]
+
+Logeintrag: inconsistent nodesets node-999 9x9fffffffe <ok> node-999 9x99fffffe <ok> node-999 9x99fffffe <ok> node-999 9x99fffffe <ok>
+Modell-Label: [-1, -1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1]
+Echtes Label: [-1, -1, 1, 1, -1, 1, 1, -1, 1, 1, -1, 1, 1, 1]
+
+Logeintrag: inconsistent nodesets node-999 9x9fffffffe <ok> node-999 9x9f99ffffe <ok> node-999 9x9f99ffffe <ok> node-999 9x9f99ffffe <ok>
+Modell-Label: [-1, -1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1]
+Echtes Label: [-1, -1, 1, 1, -1, 1, 1, -1, 1, 1, -1, 1, 1, 1]
+
+Logeintrag: boot_cmd new 9999999999 9 Targeting domains:node-D9 and nodes:node-[9-9] child of command 9999
+Modell-Label: [1, 1, 1, 1, -1, 1, 1, 1, 1, -1, -1, 1]
+Echtes Label: [1, 1, 1, 1, -1, 1, -1, 1, -1, -1, -1, 1]
+
+Logeintrag: shutdown_cmd abort 9999999999 9 Command has been aborted
+Modell-Label: [1, 1, 1, 1, -1, -1, 1, -1]
+Echtes Label: [1, 1, 1, 1, -1, -1, -1, -1]
+
+Logeintrag: 9999 boot_cmd new 9999999999 9 Targeting domains:node-D9 and nodes:node-[999\ 999-999\ 999-999] child of command 9999
+Modell-Label: [1, 1, 1, 1, 1, -1, 1, 1, 1, 1, 1, 1, -1, -1, 1]
+Echtes Label: [1, 1, 1, 1, 1, -1, 1, -1, 1, 1, 1, -1, -1, -1, 1]
+
+Logeintrag: domain status 9999999999 9 inconsistent nodesets node-99 9x9ffffe99e <ok> node-99 9x9fffffffe <ok> node-99 9x9ffffe99e <ok> node-99 9x9ffffe99e <ok>
+Modell-Label: [1, 1, 1, 1, -1, -1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1]
+Echtes Label: [1, 1, 1, 1, -1, -1, 1, 1, -1, 1, 1, -1, 1, 1, -1, 1, 1, 1]
+
+Logeintrag: Interconnect-9T99 switch_module error 9999999999 9 Link ok
+Modell-Label: [1, 1, 1, 1, 1, 1, -1]
+Echtes Label: [1, 1, 1, 1, 1, -1, -1]
+
+Logeintrag: boot  (command 9999)
+Modell-Label: [-1, -1, 1, -1]
+Echtes Label: [-1, -1, -1, 1]
+
+Logeintrag: boot_cmd new 9999999999 9 Targeting domains:node-D9 and nodes:node-[99-999] child of command 9999
+Modell-Label: [1, 1, 1, 1, -1, 1, 1, 1, 1, -1, -1, 1]
+Echtes Label: [1, 1, 1, 1, -1, 1, -1, 1, -1, -1, -1, 1]
+
+Logeintrag: inconsistent nodesets node-999 9x9fffffffe <ok> node-999 9x9ffffffbe <ok> node-999 9x9ffffffbe <ok> node-999 9x9ffffffbe <ok> node-999 9x9ffffffbe <ok>
+Modell-Label: [-1, -1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1]
+Echtes Label: [-1, -1, 1, 1, -1, 1, 1, -1, 1, 1, -1, 1, 1, 1, 1, 1, 1]
+
+Logeintrag: inconsistent nodesets node-999 9x99999999 <ok> node-999 9x999999fe <ok> node-999 9x999999fe <ok> node-999 9x999999fe <ok>
+Modell-Label: [-1, -1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1]
+Echtes Label: [-1, -1, 1, 1, -1, 1, 1, -1, 1, 1, -1, 1, 1, 1]
+
+Logeintrag: inconsistent nodesets node-999 9x9fffffffe <ok> node-99 9x9fe99999e <ok> node-99 9x9fe99999e <ok> node-99 9x9fe99999e <ok>
+Modell-Label: [-1, -1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1]
+Echtes Label: [-1, -1, 1, 1, -1, 1, 1, -1, 1, 1, -1, 1, 1, 1]
+
+Logeintrag: halt  (command 9999)
+Modell-Label: [-1, -1, 1, -1]
+Echtes Label: [-1, -1, -1, 1]
+
+Logeintrag: domain status 9999999999 9 inconsistent nodesets node-99 9x999999fe <ok> node-99 9x9999999e <ok> node-99 9x999999fe <ok> node-99 9x999999fe <ok>
+Modell-Label: [1, 1, 1, 1, -1, -1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1]
+Echtes Label: [1, 1, 1, 1, -1, -1, 1, 1, -1, 1, 1, -1, 1, 1, -1, 1, 1, 1]
+
+Logeintrag: inconsistent nodesets node-999 9x9fffffffe <ok> node-999 9x99fffffe <ok> node-999 9x99fffffe <ok> node-999 9x99fffffe <ok> node-999 9x99fffffe <ok>
+Modell-Label: [-1, -1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1]
+Echtes Label: [-1, -1, 1, 1, -1, 1, 1, -1, 1, 1, -1, 1, 1, 1, 1, 1, 1]
+
+Logeintrag: 9 Targeting domains:node-D9 and nodes:node-[9-9] child of command 9999
+Modell-Label: [1, -1, 1, 1, 1, 1, -1, -1, 1]
+Echtes Label: [1, -1, 1, -1, 1, -1, -1, -1, 1]
+
+Logeintrag: node-99 action error 9999999999 9 boot (command 9999) Error: HALT asserted\  cannot continue
+Modell-Label: [1, 1, 1, 1, 1, -1, -1, 1, -1, -1, -1, -1, -1, 1]
+Echtes Label: [1, 1, 1, 1, 1, -1, -1, 1, -1, -1, -1, -1, -1, -1]
+
+Logeintrag: 9 inconsistent nodesets node-999 9x9fffffffe <ok> node-999 9x9999999e <ok> node-999 9x9999999e <ok> node-999 9x9999999e <ok>
+Modell-Label: [1, -1, -1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1]
+Echtes Label: [1, -1, -1, 1, 1, -1, 1, 1, -1, 1, 1, -1, 1, 1, 1]
+
+Logeintrag: node-D9 domain status 9999999999 9 inconsistent nodesets node-99 9x9fffffffe <ok> node-99 9x9999999e <ok> node-99 9x9999999e <ok> node-99 9x9999999e <ok>
+Modell-Label: [1, 1, 1, 1, 1, -1, -1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1]
+Echtes Label: [1, 1, 1, 1, 1, -1, -1, 1, 1, -1, 1, 1, -1, 1, 1, -1, 1, 1, 1]
+
+Logeintrag: 9 inconsistent nodesets node-9 9x9999affe <ok> node-9 9x9999999e <ok> node-9 9x9999999e <ok> node-9 9x9999999e <ok>
+Modell-Label: [1, -1, -1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1]
+Echtes Label: [1, -1, -1, 1, 1, -1, 1, 1, -1, 1, 1, -1, 1, 1, 1]
+
+Logeintrag: wait  (command 9999)
+Modell-Label: [-1, -1, 1, -1]
+Echtes Label: [-1, -1, -1, 1]
+
+Logeintrag: wait  (command 9999)
+Modell-Label: [-1, -1, 1, -1]
+Echtes Label: [-1, -1, -1, 1]
+
+Logeintrag: inconsistent nodesets node-99 9x999999fe <ok> node-999 9x999999fe <ok> node-99 9x9999fdfe <ok> node-99 9x9999fdfe <ok> node-999 9x9999fdfe <ok>
+Modell-Label: [-1, -1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1]
+Echtes Label: [-1, -1, 1, 1, -1, 1, 1, -1, 1, 1, -1, 1, 1, 1, 1, 1, 1]
+
+Logeintrag: wait  (command 9999)
+Modell-Label: [-1, -1, 1, -1]
+Echtes Label: [-1, -1, -1, 1]
+
+Logeintrag: inconsistent nodesets node-999 9x9fffffffe <ok> node-999 9x999fffffe <ok> node-999 9x999fffffe <ok> node-999 9x999fffffe <ok>
+Modell-Label: [-1, -1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1]
+Echtes Label: [-1, -1, 1, 1, -1, 1, 1, -1, 1, 1, -1, 1, 1, 1]
+
+Logeintrag: node-9 action start 9999999999 9 halt  (command 9999)
+Modell-Label: [1, 1, 1, 1, 1, -1, -1, 1, -1]
+Echtes Label: [1, 1, 1, 1, 1, -1, -1, -1, 1]
+
+Logeintrag: tserver status 9999999999 9 not-responding
+Modell-Label: [1, -1, 1, 1, 1, -1]
+Echtes Label: [1, 1, 1, 1, -1, 1]
+
+Logeintrag: action start 9999999999 9 wait  (command 9999)
+Modell-Label: [1, 1, 1, 1, -1, -1, 1, -1]
+Echtes Label: [1, 1, 1, 1, -1, -1, -1, 1]
+
+Logeintrag: inconsistent nodesets node-999 9x9ffffe9fe <ok> node-999 9x9fffffffe <ok> node-999 9x9fffffffe <ok> node-999 9x9fffffffe <ok>
+Modell-Label: [-1, -1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1]
+Echtes Label: [-1, -1, 1, 1, -1, 1, 1, -1, 1, 1, -1, 1, 1, 1]
+
+Logeintrag: inconsistent nodesets node-99 9x9fffffffe <ok> node-99 9x9fffffffc <ok> node-9 9x9fffffffc <ok> node-9 9x9fffffffc <ok>
+Modell-Label: [-1, -1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1]
+Echtes Label: [-1, -1, 1, 1, -1, 1, 1, -1, 1, 1, -1, 1, 1, 1]
+
+Logeintrag: inconsistent nodesets node-999 9x9fffffffe <ok> node-99 9x9ffffbffe <ok> node-99 9x9ffffbffe <ok> node-99 9x9ffffbffe <ok>
+Modell-Label: [-1, -1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1]
+Echtes Label: [-1, -1, 1, 1, -1, 1, 1, -1, 1, 1, -1, 1, 1, 1]
+
+Logeintrag: shutdown_cmd new 9999999999 9 Targeting domains:node-D9 and nodes:node-[99-99] child of command 9999
+Modell-Label: [1, 1, 1, 1, -1, 1, 1, 1, 1, -1, -1, 1]
+Echtes Label: [1, 1, 1, 1, -1, 1, -1, 1, -1, -1, -1, 1]
+
+Logeintrag: inconsistent nodesets node-999 9x9fffe999e <ok> node-999 9x9fffff99e <ok> node-999 9x9fffe999e <ok> node-999 9x9fffe999e <ok>
+Modell-Label: [-1, -1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1]
+Echtes Label: [-1, -1, 1, 1, -1, 1, 1, -1, 1, 1, -1, 1, 1, 1]
+
+Logeintrag: wait  (command 9999)
+Modell-Label: [-1, -1, 1, -1]
+Echtes Label: [-1, -1, -1, 1]
+
+Logeintrag: inconsistent nodesets node-999 9x9ffffe99e <ok> node-999 9x9ffff999e <ok> node-999 9x9ffff999e <ok> node-999 9x9ffff999e <ok>
+Modell-Label: [-1, -1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1]
+Echtes Label: [-1, -1, 1, 1, -1, 1, 1, -1, 1, 1, -1, 1, 1, 1]
+
+Logeintrag: inconsistent nodesets node-999 9x9fe99999e <ok> node-999 9x9ffe9999e <ok> node-999 9x9fe99999e <ok> node-999 9x9fffe999e <ok>
+Modell-Label: [-1, -1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1]
+Echtes Label: [-1, -1, 1, 1, -1, 1, 1, -1, 1, 1, -1, 1, 1, 1]
+
+Logeintrag: inconsistent nodesets node-99 9x9999999e <ok> node-999 9x9fffffffe <ok> node-99 9x9999999e <ok> node-99 9x9999999e <ok>
+Modell-Label: [-1, -1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1]
+Echtes Label: [-1, -1, 1, 1, -1, 1, 1, -1, 1, 1, -1, 1, 1, 1]
+
+Logeintrag: boot  (command 9999)
+Modell-Label: [-1, -1, 1, -1]
+Echtes Label: [-1, -1, -1, 1]
+
+Logeintrag: inconsistent nodesets node-999 9x999999fe <ok> node-999 9x999999fe <ok> node-999 9x9999fdfe <ok> node-999 9x9999fdfe <ok>
+Modell-Label: [-1, -1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1]
+Echtes Label: [-1, -1, 1, 1, -1, 1, 1, -1, 1, 1, -1, 1, 1, 1]
+
+Logeintrag: inconsistent nodesets node-999 9x999999fe <ok> node-999 9x9999fdfe <ok> node-999 9x9999fdfe <ok> node-999 9x9999fdfe <ok>
+Modell-Label: [-1, -1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1]
+Echtes Label: [-1, -1, 1, 1, -1, 1, 1, -1, 1, 1, -1, 1, 1, 1]
+
+Logeintrag: inconsistent nodesets node-999 9xfffffffe <ok> node-999 9x9fffffffe <ok> node-999 9xfffffffe <ok> node-999 9xfffffffe <ok> node-999 9xfffffffe <ok>
+Modell-Label: [-1, -1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1]
+Echtes Label: [-1, -1, 1, 1, -1, 1, 1, -1, 1, 1, -1, 1, 1, 1, 1, 1, 1]
+
+Logeintrag: 9 wait  (command 9999)
+Modell-Label: [1, -1, -1, 1, -1]
+Echtes Label: [1, -1, -1, -1, 1]
+
+Logeintrag: inconsistent nodesets node-999 9x9999999e <ok> node-999 9x9999999e <ok> node-999 9x9999999e <ok> node-999 9x99999fee <ok> node-999 9x99999fee <ok>
+Modell-Label: [-1, -1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1]
+Echtes Label: [-1, -1, 1, 1, -1, 1, 1, -1, 1, 1, -1, 1, 1, 1, 1, 1, 1]
+
+Logeintrag: inconsistent nodesets node-999 9x99999999e <ok> node-999 9x9999999e <ok> node-999 9x9999999e <ok> node-999 9x9999999e <ok>
+Modell-Label: [-1, -1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1]
+Echtes Label: [-1, -1, 1, 1, -1, 1, 1, -1, 1, 1, -1, 1, 1, 1]
+
+Logeintrag: boot  (command 9999)
+Modell-Label: [-1, -1, 1, -1]
+Echtes Label: [-1, -1, -1, 1]
+
+Logeintrag: inconsistent nodesets node-999 9x9fffffff9 <ok> node-999 9x9fffffffe <ok> node-999 9x9fffffffe <ok> node-999 9x9fffffff9 <ok>
+Modell-Label: [-1, -1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1]
+Echtes Label: [-1, -1, 1, 1, -1, 1, 1, -1, 1, 1, -1, 1, 1, 1]
+
+Logeintrag: inconsistent nodesets node-999 9x9fffffffe <ok> node-999 9x99999bfe <ok> node-999 9x99999bfe <ok> node-999 9x99999bfe <ok>
+Modell-Label: [-1, -1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1]
+Echtes Label: [-1, -1, 1, 1, -1, 1, 1, -1, 1, 1, -1, 1, 1, 1]
+
+Logeintrag: inconsistent nodesets node-99 9x9fffffffe <ok> node-99 9xfffffffe <ok> node-99 9xfffffffe <ok> node-99 9xfffffffe <ok> node-99 9xfffffffe <ok>
+Modell-Label: [-1, -1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1]
+Echtes Label: [-1, -1, 1, 1, -1, 1, 1, -1, 1, 1, -1, 1, 1, 1, 1, 1, 1]
+
+Logeintrag: wait  (command 9999)
+Modell-Label: [-1, -1, 1, -1]
+Echtes Label: [-1, -1, -1, 1]
+
+Logeintrag: node-999 action start 9999999999 9 wait  (command 9999)
+Modell-Label: [1, 1, 1, 1, 1, -1, -1, 1, -1]
+Echtes Label: [1, 1, 1, 1, 1, -1, -1, -1, 1]
+
+Logeintrag: wait  (command 9999)
+Modell-Label: [-1, -1, 1, -1]
+Echtes Label: [-1, -1, -1, 1]
+
+Logeintrag: inconsistent nodesets node-9 9x9999999e <ok> node-9 9x9999999e <ok> node-9 9x9999999e <ok> node-9 9x99999fee <ok>
+Modell-Label: [-1, -1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1]
+Echtes Label: [-1, -1, 1, 1, -1, 1, 1, -1, 1, 1, -1, 1, 1, 1]
+
+Logeintrag: 9 inconsistent nodesets node-999 9x9fffffffe <ok> node-999 9x9fffffe9e <ok> node-999 9x9fffffe9e <ok> node-999 9x9fffffe9e <ok>
+Modell-Label: [1, -1, -1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1]
+Echtes Label: [1, -1, -1, 1, 1, -1, 1, 1, -1, 1, 1, -1, 1, 1, 1]
+
+Logeintrag: inconsistent nodesets node-999 9x99999999 <ok> node-999 9x9fffe999e <ok> node-999 9x9999999e <ok> node-999 9x9999999e <ok>
+Modell-Label: [-1, -1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1]
+Echtes Label: [-1, -1, 1, 1, -1, 1, 1, -1, 1, 1, -1, 1, 1, 1]
+
+Logeintrag: inconsistent nodesets node-999 9x99999999 <ok> node-999 9x9999999e <ok> node-999 9x9999999e <ok> node-999 9x9999999e <ok> node-999 9x9999999e <ok>
+Modell-Label: [-1, -1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1]
+Echtes Label: [-1, -1, 1, 1, -1, 1, 1, -1, 1, 1, -1, 1, 1, 1, 1, 1, 1]
+
+Logeintrag: clusterAddMember  (command 9999)
+Modell-Label: [-1, -1, 1, -1]
+Echtes Label: [-1, -1, -1, 1]
+
+Logeintrag: inconsistent nodesets node-999 9x9999edfe <ok> node-999 9x9999fdfe <ok> node-999 9x9999fdfe <ok> node-999 9x9999fdfe <ok>
+Modell-Label: [-1, -1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1]
+Echtes Label: [-1, -1, 1, 1, -1, 1, 1, -1, 1, 1, -1, 1, 1, 1]
+
+Logeintrag: inconsistent nodesets node-999 9x9fffffffe <ok> node-999 9x99fffffe <ok> node-999 9x999bfffe <ok> node-999 9x999bfffe <ok> node-999 9x999bfffe <ok>
+Modell-Label: [-1, -1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1]
+Echtes Label: [-1, -1, 1, 1, -1, 1, 1, -1, 1, 1, -1, 1, 1, 1, 1, 1, 1]
+
+Logeintrag: domain status 9999999999 9 inconsistent nodesets node-99 9x99999999e <ok> node-99 9x999999fee <ok> node-99 9x999999fee <ok> node-99 9x999999fee <ok>
+Modell-Label: [1, 1, 1, 1, -1, -1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1]
+Echtes Label: [1, 1, 1, 1, -1, -1, 1, 1, -1, 1, 1, -1, 1, 1, -1, 1, 1, 1]
+
+Logeintrag: switch_module temphigh 9999999999 9 Temperature (99C) exceeds warning threshold
+Modell-Label: [1, 1, 1, 1, 1, 1, 1, -1, -1]
+Echtes Label: [1, 1, 1, 1, -1, 1, 1, 1, 1]
+
+Logeintrag: domain status 9999999999 9 inconsistent nodesets node-99 9x9fffffffe <ok> node-99 9x9999fffe <ok> node-99 9x9999fffe <ok> node-99 9x9999fffe <ok> node-99 9x99fffffe <ok>
+Modell-Label: [1, 1, 1, 1, -1, -1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1]
+Echtes Label: [1, 1, 1, 1, -1, -1, 1, 1, -1, 1, 1, -1, 1, 1, -1, 1, 1, 1, 1, 1, 1]
+
+Logeintrag: wait  (command 9999)
+Modell-Label: [-1, -1, 1, -1]
+Echtes Label: [-1, -1, -1, 1]
+
+Logeintrag: 9 inconsistent nodesets node-9 9x9999999e <ok> node-9 9x9999999e <ok> node-9 9x9999999e <ok> node-99 9x99999fee <ok>
+Modell-Label: [1, -1, -1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1]
+Echtes Label: [1, -1, -1, 1, 1, -1, 1, 1, -1, 1, 1, -1, 1, 1, 1]
+
+Logeintrag: 9 Targeting domains:node-D9 and nodes:node-[99-999] child of command 9999
+Modell-Label: [1, -1, 1, 1, 1, 1, -1, -1, 1]
+Echtes Label: [1, -1, 1, -1, 1, -1, -1, -1, 1]
+
+Logeintrag: psu failure\ ambient=99
+Modell-Label: [-1, -1, 1]
+Echtes Label: [1, 1, 1]
+
+Logeintrag: 9 inconsistent nodesets node-99 9x9fffffffe <ok> node-99 9x9999999e <ok> node-99 9x9999999e <ok> node-99 9x9999999e <ok>
+Modell-Label: [1, -1, -1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1]
+Echtes Label: [1, -1, -1, 1, 1, -1, 1, 1, -1, 1, 1, -1, 1, 1, 1]
+
+Logeintrag: inconsistent nodesets node-999 9x99ffffffe <ok> node-999 9x9ffffeffe <ok> node-999 9x9ffffeffe <ok> node-999 9x9ffffeffe <ok> node-999 9x9ffffeffe <ok>
+Modell-Label: [-1, -1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1]
+Echtes Label: [-1, -1, 1, 1, -1, 1, 1, -1, 1, 1, -1, 1, 1, 1, 1, 1, 1]
+
+Logeintrag: inconsistent nodesets node-999 9x9fffffffe <ok> node-999 9x9ff9ffffe <ok> node-999 9x9ff9ffffe <ok> node-999 9x9ff9ffffe <ok>
+Modell-Label: [-1, -1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1]
+Echtes Label: [-1, -1, 1, 1, -1, 1, 1, -1, 1, 1, -1, 1, 1, 1]
+
+Logeintrag: 9999 shutdown_cmd new 9999999999 9 Targeting domains:node-D9 and nodes:node-[99-99] child of command 9999
+Modell-Label: [1, 1, 1, 1, 1, -1, 1, 1, 1, 1, -1, -1, 1]
+Echtes Label: [1, 1, 1, 1, 1, -1, 1, -1, 1, -1, -1, -1, 1]
+
+Logeintrag: inconsistent nodesets node-99 9x9fffffffe <ok> node-99 9x99fdfffe <ok> node-99 9x99f9fffe <ok> node-99 9x99fdfffe <ok>
+Modell-Label: [-1, -1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1]
+Echtes Label: [-1, -1, 1, 1, -1, 1, 1, -1, 1, 1, -1, 1, 1, 1]
+
+Logeintrag: action start 9999999999 9 wait  (command 9999)
+Modell-Label: [1, 1, 1, 1, -1, -1, 1, -1]
+Echtes Label: [1, 1, 1, 1, -1, -1, -1, 1]
+
+Logeintrag: inconsistent nodesets node-999 9x9fffffffe <ok> node-999 9x9e999999e <ok> node-999 9x9e999999e <ok> node-999 9x9e999999e <ok>
+Modell-Label: [-1, -1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1]
+Echtes Label: [-1, -1, 1, 1, -1, 1, 1, -1, 1, 1, -1, 1, 1, 1]
+
+Logeintrag: inconsistent nodesets node-999 9x9fffffffe <ok> node-999 9x9999fffe <ok> node-999 9x9999fffe <ok> node-999 9x9999fffe <ok> node-999 9x99fffffe <ok>
+Modell-Label: [-1, -1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1]
+Echtes Label: [-1, -1, 1, 1, -1, 1, 1, -1, 1, 1, -1, 1, 1, 1, 1, 1, 1]
+
+Logeintrag: domain status 9999999999 9 inconsistent nodesets node-99 9x99999999 <ok> node-99 9x9999999e <ok> node-99 9x9999999e <ok> node-99 9x9999999e <ok> node-99 9x9999999e <ok>
+Modell-Label: [1, 1, 1, 1, -1, -1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1]
+Echtes Label: [1, 1, 1, 1, -1, -1, 1, 1, -1, 1, 1, -1, 1, 1, -1, 1, 1, 1, 1, 1, 1]
+
+Logeintrag: domain status 9999999999 9 inconsistent nodesets node-99 9x99999999 <ok> node-99 9x999999fe <ok> node-99 9x999999fe <ok> node-99 9x999999fe <ok>
+Modell-Label: [1, 1, 1, 1, -1, -1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1]
+Echtes Label: [1, 1, 1, 1, -1, -1, 1, 1, -1, 1, 1, -1, 1, 1, -1, 1, 1, 1]
+
+Logeintrag: inconsistent nodesets node-999 9x9fffffffe <ok> node-999 9x9fffffffe <ok> node-999 9x9fffffffe <ok> node-999 9x9fffffffc <ok> node-999 9x9fffffffe <ok>
+Modell-Label: [-1, -1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1]
+Echtes Label: [-1, -1, 1, 1, -1, 1, 1, -1, 1, 1, -1, 1, 1, 1, 1, 1, 1]
+
+Logeintrag: inconsistent nodesets node-999 9x9fffffffe <ok> node-99 9x999999fe <ok> node-99 9x999999fe <ok> node-99 9x999999fe <ok>
+Modell-Label: [-1, -1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1]
+Echtes Label: [-1, -1, 1, 1, -1, 1, 1, -1, 1, 1, -1, 1, 1, 1]
+
+Logeintrag: inconsistent nodesets node-99 9xfffffffe <ok> node-99 9x9fffffffe <ok> node-99 9xfffffffe <ok> node-99 9xfffffffe <ok> node-99 9xfffffffe <ok>
+Modell-Label: [-1, -1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1]
+Echtes Label: [-1, -1, 1, 1, -1, 1, 1, -1, 1, 1, -1, 1, 1, 1, 1, 1, 1]
+
+Logeintrag: inconsistent nodesets node-99 9x9fffffffe <ok> node-99 9x9fffffc9e <ok> node-99 9x9fffffc9e <ok> node-99 9x9fffffc9e <ok>
+Modell-Label: [-1, -1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1]
+Echtes Label: [-1, -1, 1, 1, -1, 1, 1, -1, 1, 1, -1, 1, 1, 1]
+
+Logeintrag: inconsistent nodesets node-999 9x999999fe <ok> node-999 9x999999fe <ok> node-999 9x9999e9fe <ok> node-999 9x9999e9fe <ok>
+Modell-Label: [-1, -1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1]
+Echtes Label: [-1, -1, 1, 1, -1, 1, 1, -1, 1, 1, -1, 1, 1, 1]
+
+Logeintrag: boot_cmd new 9999999999 9 Targeting domains:node-D9 and nodes:node-[999-999] child of command 9999
+Modell-Label: [1, 1, 1, 1, -1, 1, 1, 1, 1, -1, -1, 1]
+Echtes Label: [1, 1, 1, 1, -1, 1, -1, 1, -1, -1, -1, 1]
+
+Logeintrag: inconsistent nodesets node-999 9x99ffffffe <ok> node-999 9x9fffffffe <ok> node-999 9x9fffffffe <ok> node-999 9x9fffffffe <ok> node-999 9x9fffffffe <ok>
+Modell-Label: [-1, -1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1]
+Echtes Label: [-1, -1, 1, 1, -1, 1, 1, -1, 1, 1, -1, 1, 1, 1, 1, 1, 1]
+
+Logeintrag: shutdown_cmd new 9999999999 9 Targeting domains:node-D9 and nodes:node-[99-999] child of command 9999
+Modell-Label: [1, 1, 1, 1, -1, 1, 1, 1, 1, -1, -1, 1]
+Echtes Label: [1, 1, 1, 1, -1, 1, -1, 1, -1, -1, -1, 1]
+
+Logeintrag: wait  (command 9999)
+Modell-Label: [-1, -1, 1, -1]
+Echtes Label: [-1, -1, -1, 1]
+
+Logeintrag: node-9 action start 9999999999 9 clusterAddMember  (command 9999)
+Modell-Label: [1, 1, 1, 1, 1, -1, -1, 1, -1]
+Echtes Label: [1, 1, 1, 1, 1, -1, -1, -1, 1]
+
+Logeintrag: inconsistent nodesets node-999 9x9fffffffe <ok> node-999 9x9999fdfe <ok> node-999 9x9fffffffe <ok> node-999 9x9fffffffe <ok> node-999 9x9fffffffe <ok>
+Modell-Label: [-1, -1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1]
+Echtes Label: [-1, -1, 1, 1, -1, 1, 1, -1, 1, 1, -1, 1, 1, 1, 1, 1, 1]
+
+Logeintrag: Interconnect-9N99 switch_module error 9999999999 9 Link error
+Modell-Label: [1, 1, 1, 1, 1, 1, -1]
+Echtes Label: [1, 1, 1, 1, 1, -1, -1]
+
+Logeintrag: node-D9 domain status 9999999999 9 inconsistent nodesets node-99 9x999999fe <ok> node-99 9x999999fe <ok> node-99 9x999999fe <ok> node-99 9x999999fe <ok>
+Modell-Label: [1, 1, 1, 1, 1, -1, -1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1]
+Echtes Label: [1, 1, 1, 1, 1, -1, -1, 1, 1, -1, 1, 1, -1, 1, 1, -1, 1, 1, 1]
+
+Logeintrag: inconsistent nodesets node-999 9x9c9fffffe <ok> node-999 9x999fffffe <ok> node-999 9x999fffffe <ok> node-999 9x999fffffe <ok>
+Modell-Label: [-1, -1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1]
+Echtes Label: [-1, -1, 1, 1, -1, 1, 1, -1, 1, 1, -1, 1, 1, 1]
+
+Logeintrag: inconsistent nodesets node-99 9x9fffffffe <ok> node-99 9x9bffffffe <ok> node-9 9x9bffffffe <ok> node-9 9x9bffffffe <ok> node-9 9x9bffffffe <ok>
+Modell-Label: [-1, -1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1]
+Echtes Label: [-1, -1, 1, 1, -1, 1, 1, -1, 1, 1, -1, 1, 1, 1, 1, 1, 1]
+
+Logeintrag: inconsistent nodesets node-999 9x99999999 <ok> node-999 9x9999999e <ok> node-999 9x9999999e <ok> node-999 9x9999999e <ok>
+Modell-Label: [-1, -1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1]
+Echtes Label: [-1, -1, 1, 1, -1, 1, 1, -1, 1, 1, -1, 1, 1, 1]
+
+Logeintrag: wait  (command 9999)
+Modell-Label: [-1, -1, 1, -1]
+Echtes Label: [-1, -1, -1, 1]
+
+Logeintrag: inconsistent nodesets node-999 9x9999bffe <ok> node-999 9x9ffffbffe <ok> node-999 9x9999bffe <ok> node-999 9x9999bffe <ok> node-999 9x99ffbffe <ok>
+Modell-Label: [-1, -1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1]
+Echtes Label: [-1, -1, 1, 1, -1, 1, 1, -1, 1, 1, -1, 1, 1, 1, 1, 1, 1]
+
+Logeintrag: node-D9 domain status 9999999999 9 inconsistent nodesets node-99 9x9fffffffe <ok> node-99 9x99999999 <ok> node-99 9x999999fe <ok> node-99 9x999999fe <ok> node-99 9x9999fffe <ok>
+Modell-Label: [1, 1, 1, 1, 1, -1, -1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1]
+Echtes Label: [1, 1, 1, 1, 1, -1, -1, 1, 1, -1, 1, 1, -1, 1, 1, -1, 1, 1, 1, 1, 1, 1]
+
+Logeintrag: inconsistent nodesets node-9 9x9ffffffe <ok> node-99 9x9fffffffe <ok> node-9 9x9ffffffe <ok> node-9 9x9ffffffe <ok> node-99 9x9ffffffe <ok>
+Modell-Label: [-1, -1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1]
+Echtes Label: [-1, -1, 1, 1, -1, 1, 1, -1, 1, 1, -1, 1, 1, 1, 1, 1, 1]
+
+Logeintrag: domain status 9999999999 9 inconsistent nodesets node-99 9x999999fe <ok> node-99 9x9999fdfe <ok> node-99 9x9999fdfe <ok> node-99 9x9999fdfe <ok> node-99 9x9999fdfe <ok>
+Modell-Label: [1, 1, 1, 1, -1, -1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1]
+Echtes Label: [1, 1, 1, 1, -1, -1, 1, 1, -1, 1, 1, -1, 1, 1, -1, 1, 1, 1, 1, 1, 1]
+
+Logeintrag: inconsistent nodesets node-99 9x9fffffffe <ok> node-9 9x9bffffdfe <ok> node-9 9x9bffffdfe <ok> node-9 9x9bffffdfe <ok>
+Modell-Label: [-1, -1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1]
+Echtes Label: [-1, -1, 1, 1, -1, 1, 1, -1, 1, 1, -1, 1, 1, 1]
+
+Logeintrag: node-D9 domain status 9999999999 9 inconsistent nodesets node-999 9x9fffffffe <ok> node-999 9x9999999e <ok> node-999 9x99999999 <ok> node-999 9x9999999e <ok>
+Modell-Label: [1, 1, 1, 1, 1, -1, -1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1]
+Echtes Label: [1, 1, 1, 1, 1, -1, -1, 1, 1, -1, 1, 1, -1, 1, 1, -1, 1, 1, 1]
+
+Logeintrag: action start 9999999999 9 boot  (command 9999)
+Modell-Label: [1, 1, 1, 1, -1, -1, 1, -1]
+Echtes Label: [1, 1, 1, 1, -1, -1, -1, 1]
+
+Logeintrag: inconsistent nodesets node-999 9x9ffffffee <ok> node-999 9x9fffffe9e <ok> node-999 9x9fffffe9e <ok> node-999 9x9fffffe9e <ok>
+Modell-Label: [-1, -1, 1, 1, 1, -1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1]
+Echtes Label: [-1, -1, 1, 1, -1, 1, 1, -1, 1, 1, -1, 1, 1, 1, -1, -1]
+
+Logeintrag: Targeting domains:node-D9 and nodes:node-[99\ 99-99\ 99-99\ 99] child of command 9999
+Modell-Label: [-1, 1, 1, 1, 1, 1, 1, 1, -1, -1, 1]
+Echtes Label: [-1, 1, -1, 1, 1, 1, 1, -1, -1, -1, 1]
+
+Logeintrag: domain status 9999999999 9 inconsistent nodesets node-99 9x99999fee <ok> node-99 9x99999fee <ok> node-99 9x99999fee <ok> node-99 9x99999fee <ok>
+Modell-Label: [1, 1, 1, 1, -1, -1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1]
+Echtes Label: [1, 1, 1, 1, -1, -1, 1, 1, -1, 1, 1, -1, 1, 1, -1, 1, 1, 1]
+
+Logeintrag: domain status 9999999999 9 inconsistent nodesets node-99 9x9ffffff9e <ok> node-99 9x9999999e <ok> node-99 9x9999999e <ok> node-99 9x99999999 <ok>
+Modell-Label: [1, 1, 1, 1, -1, -1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1]
+Echtes Label: [1, 1, 1, 1, -1, -1, 1, 1, -1, 1, 1, -1, 1, 1, -1, 1, 1, 1]
+
+Logeintrag: clusterAddMember  (command 9999)
+Modell-Label: [-1, -1, 1, -1]
+Echtes Label: [-1, -1, -1, 1]
+
+Logeintrag: node-D9 domain status 9999999999 9 inconsistent nodesets node-999 9x9fffffffe <ok> node-999 9x9999bffe <ok> node-999 9x9999bffe <ok> node-999 9x9999bffe <ok>
+Modell-Label: [1, 1, 1, 1, 1, -1, -1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1]
+Echtes Label: [1, 1, 1, 1, 1, -1, -1, 1, 1, -1, 1, 1, -1, 1, 1, -1, 1, 1, 1]
+
+Logeintrag: inconsistent nodesets node-999 9x9fffff9fe <ok> node-999 9x9fffffffe <ok> node-999 9x9fffffffe <ok> node-999 9x9fffffffe <ok>
+Modell-Label: [-1, -1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1]
+Echtes Label: [-1, -1, 1, 1, -1, 1, 1, -1, 1, 1, -1, 1, 1, 1]
+
+Logeintrag: inconsistent nodesets node-99 9x9fffffffe <ok> node-9 9x9ffffebfe <ok> node-9 9x9ffffebfe <ok> node-9 9x9ffffebfe <ok>
+Modell-Label: [-1, -1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1]
+Echtes Label: [-1, -1, 1, 1, -1, 1, 1, -1, 1, 1, -1, 1, 1, 1]
+
+Logeintrag: wait  (command 9999)
+Modell-Label: [-1, -1, 1, -1]
+Echtes Label: [-1, -1, -1, 1]
+
+Logeintrag: node-D9 domain status 9999999999 9 inconsistent nodesets node-999 9x9fffffffe <ok> node-999 9x9fffff99e <ok> node-999 9x9fffff99e <ok> node-999 9x9fffff99e <ok>
+Modell-Label: [1, 1, 1, 1, 1, -1, -1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1]
+Echtes Label: [1, 1, 1, 1, 1, -1, -1, 1, 1, -1, 1, 1, -1, 1, 1, -1, 1, 1, 1]
+
+Logeintrag: node-999 action start 9999999999 9 wait  (command 9999)
+Modell-Label: [1, 1, 1, 1, 1, -1, -1, 1, -1]
+Echtes Label: [1, 1, 1, 1, 1, -1, -1, -1, 1]
+
+Logeintrag: inconsistent nodesets node-999 9x9fffffffa <ok> node-99 9x9fffffffa <ok> node-99 9x9fffffffe <ok> node-99 9x9fffffffe <ok>
+Modell-Label: [-1, -1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1]
+Echtes Label: [-1, -1, 1, 1, -1, 1, 1, -1, 1, 1, -1, 1, 1, 1]
+
+Logeintrag: wait  (command 9999)
+Modell-Label: [-1, -1, 1, -1]
+Echtes Label: [-1, -1, -1, 1]
+
+Logeintrag: node-D9 domain status 9999999999 9 inconsistent nodesets node-99 9x999999fe <ok> node-99 9x999999fe <ok> node-99 9x9999fdfe <ok> node-99 9x9999fdfe <ok>
+Modell-Label: [1, 1, 1, 1, 1, -1, -1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1]
+Echtes Label: [1, 1, 1, 1, 1, -1, -1, 1, 1, -1, 1, 1, -1, 1, 1, -1, 1, 1, 1]
+
+Logeintrag: wait  (command 9999)
+Modell-Label: [-1, -1, 1, -1]
+Echtes Label: [-1, -1, -1, 1]
+
+Logeintrag: node-D9 domain status 9999999999 9 inconsistent nodesets node-99 9x999999fe <ok> node-99 9x999999fe <ok> node-99 9x999999fe <ok> node-99 9x9999e9fe <ok> node-99 9x9999e9fe <ok>
+Modell-Label: [1, 1, 1, 1, 1, -1, -1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1]
+Echtes Label: [1, 1, 1, 1, 1, -1, -1, 1, 1, -1, 1, 1, -1, 1, 1, -1, 1, 1, 1, 1, 1, 1]
+
+Logeintrag: 9 wait  (command 9999)
+Modell-Label: [1, -1, -1, 1, -1]
+Echtes Label: [1, -1, -1, -1, 1]
+
+Logeintrag: domain status 9999999999 9 inconsistent nodesets node-99 9x9999999e <ok> node-99 9x9fffffffe <ok> node-99 9x9999999e <ok> node-99 9x9999999e <ok>
+Modell-Label: [1, 1, 1, 1, -1, -1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1]
+Echtes Label: [1, 1, 1, 1, -1, -1, 1, 1, -1, 1, 1, -1, 1, 1, -1, 1, 1, 1]
+
+Logeintrag: boot  (command 9999)
+Modell-Label: [-1, -1, 1, -1]
+Echtes Label: [-1, -1, -1, 1]
+
+Logeintrag: Targeting domains:node-D9 and nodes:node-[999\ 999-999\ 999-999] child of command 9999
+Modell-Label: [-1, 1, 1, 1, 1, 1, 1, -1, -1, 1]
+Echtes Label: [-1, 1, -1, 1, 1, 1, -1, -1, -1, 1]
+
+Logeintrag: inconsistent nodesets node-999 9x9fffffffe <ok> node-999 9x9fffffffe <ok> node-999 9x9fffffffe <ok> node-999 9x9999999e <ok>
+Modell-Label: [-1, -1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1]
+Echtes Label: [-1, -1, 1, 1, -1, 1, 1, -1, 1, 1, -1, 1, 1, 1]
+
+Logeintrag: domain status 9999999999 9 inconsistent nodesets node-99 9x9999999e <ok> node-99 9x9fffe999e <ok> node-99 9x9999999e <ok> node-99 9x9999999e <ok>
+Modell-Label: [1, 1, 1, 1, -1, -1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1]
+Echtes Label: [1, 1, 1, 1, -1, -1, 1, 1, -1, 1, 1, -1, 1, 1, -1, 1, 1, 1]
+
+Logeintrag: wait  (command 9999)
+Modell-Label: [-1, -1, 1, -1]
+Echtes Label: [-1, -1, -1, 1]
+
+Logeintrag: Targeting domains:node-D9 and nodes:node-[999\ 999\ 999\ 999-999] child of command 9999
+Modell-Label: [-1, 1, 1, 1, 1, 1, 1, 1, -1, -1, 1]
+Echtes Label: [-1, 1, -1, 1, 1, 1, 1, -1, -1, -1, 1]
+
+Logeintrag: inconsistent nodesets node-999 9x999999aa <ok> node-999 9x999999aa <ok> node-999 9x9999fdaa <ok> node-999 9x9999fdaa <ok> node-999 9x9999fdaa <ok>
+Modell-Label: [-1, -1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1]
+Echtes Label: [-1, -1, 1, 1, -1, 1, 1, -1, 1, 1, -1, 1, 1, 1, 1, 1, 1]
+
+Logeintrag: inconsistent nodesets node-999 9x9fffffffe <ok> node-999 9x9999fffe <ok> node-999 9x9999fffe <ok> node-999 9x9999fffe <ok> node-999 9x9999fffe <ok>
+Modell-Label: [-1, -1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1]
+Echtes Label: [-1, -1, 1, 1, -1, 1, 1, -1, 1, 1, -1, 1, 1, 1, 1, 1, 1]
+
+Logeintrag: inconsistent nodesets node-999 9x9fffe999e <ok> node-999 9x9999999e <ok> node-999 9x99999999 <ok> node-999 9x9999999e <ok>
+Modell-Label: [-1, -1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1]
+Echtes Label: [-1, -1, 1, 1, -1, 1, 1, -1, 1, 1, -1, 1, 1, 1]
+
+Logeintrag: Targeting domains:node-D9 and nodes:node-[999-999\ 999-999] child of command 9999
+Modell-Label: [-1, 1, 1, 1, 1, 1, -1, -1, 1]
+Echtes Label: [-1, 1, -1, 1, 1, -1, -1, -1, 1]
+
+Logeintrag: node-D9 domain status 9999999999 9 inconsistent nodesets node-999 9x9fbfffffe <ok> node-999 9x9fbfffffe <ok> node-999 9x9fbfffffe <ok> node-999 9x9fbfffffe <ok> node-999 9x9999fdfe <ok>
+Modell-Label: [1, 1, 1, 1, 1, -1, -1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1]
+Echtes Label: [1, 1, 1, 1, 1, -1, -1, 1, 1, -1, 1, 1, -1, 1, 1, -1, 1, 1, 1, 1, 1, 1]
+
+Logeintrag: inconsistent nodesets node-9 9x999999fe <ok> node-9 9x9999e9fe <ok> node-9 9x9999e9fe <ok> node-9 9x9999e9fe <ok> node-9 9x9999e9fe <ok>
+Modell-Label: [-1, -1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1]
+Echtes Label: [-1, -1, 1, 1, -1, 1, 1, -1, 1, 1, -1, 1, 1, 1, 1, 1, 1]
+
+Logeintrag: inconsistent nodesets node-99 9x9fffffd9e <ok> node-99 9x9fffffffe <ok> node-99 9x9fffffffe <ok> node-99 9x9fffffffe <ok>
+Modell-Label: [-1, -1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1]
+Echtes Label: [-1, -1, 1, 1, -1, 1, 1, -1, 1, 1, -1, 1, 1, 1]
+
+Logeintrag: node-99 action start 9999999999 9 boot  (command 9999)
+Modell-Label: [1, 1, 1, 1, 1, -1, -1, 1, -1]
+Echtes Label: [1, 1, 1, 1, 1, -1, -1, -1, 1]
+
+Logeintrag: inconsistent nodesets node-99 9x9fffffffe <ok> node-99 9x9dfffffe <ok> node-99 9x9dfffffe <ok> node-99 9x9dfffffe <ok>
+Modell-Label: [-1, -1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1]
+Echtes Label: [-1, -1, 1, 1, -1, 1, 1, -1, 1, 1, -1, 1, 1, 1]
+
+Logeintrag: wait  (command 9999)
+Modell-Label: [-1, -1, 1, -1]
+Echtes Label: [-1, -1, -1, 1]
+
+Logeintrag: inconsistent nodesets node-999 9x999999fe <ok> node-999 9x9999e9fe <ok> node-999 9x9999e9fe <ok> node-999 9x9999e9fe <ok>
+Modell-Label: [-1, -1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1]
+Echtes Label: [-1, -1, 1, 1, -1, 1, 1, -1, 1, 1, -1, 1, 1, 1]
+
+Logeintrag: action start 9999999999 9 boot  (command 9999)
+Modell-Label: [1, 1, 1, 1, -1, -1, 1, -1]
+Echtes Label: [1, 1, 1, 1, -1, -1, -1, 1]
+
+Logeintrag: inconsistent nodesets node-9 9x9fffffffc <ok> node-9 9x9fffffffe <ok> node-9 9x9fffffffc <ok> node-99 9x9fffffffe <ok> node-99 9x9fffffffc <ok>
+Modell-Label: [-1, -1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1]
+Echtes Label: [-1, -1, 1, 1, -1, 1, 1, -1, 1, 1, -1, 1, 1, 1, 1, 1, 1]
+
+Logeintrag: wait  (command 9999)
+Modell-Label: [-1, -1, 1, -1]
+Echtes Label: [-1, -1, -1, 1]
+
+Logeintrag: 9 ambient=99  threshold exceeded
+Modell-Label: [1, 1, 1, 1, -1]
+Echtes Label: [1, 1, 1, 1, 1]
+
+Logeintrag: Command has been aborted
+Modell-Label: [-1, -1, 1, -1]
+Echtes Label: [-1, -1, -1, -1]
+
+Logeintrag: psu failure\ ambient=99
+Modell-Label: [-1, -1, 1]
+Echtes Label: [1, 1, 1]
+
+Logeintrag: inconsistent nodesets node-999 9x9999e9ee <ok> node-999 9x9999fdee <ok> node-999 9x9999fdee <ok> node-999 9x9999fdee <ok> node-999 9x9999fdee <ok>
+Modell-Label: [-1, -1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1]
+Echtes Label: [-1, -1, 1, 1, -1, 1, 1, -1, 1, 1, -1, 1, 1, 1, 1, 1, 1]
+
+Logeintrag: inconsistent nodesets node-999 9x9ffffbc99 <ok> node-999 9x9fffffffe <ok> node-999 9x9fffffffe <ok> node-999 9x9fffffffe <ok>
+Modell-Label: [-1, -1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1]
+Echtes Label: [-1, -1, 1, 1, -1, 1, 1, -1, 1, 1, -1, 1, 1, 1]
+
+Logeintrag: node-D9 domain status 9999999999 9 inconsistent nodesets node-999 9x9fffe999e <ok> node-999 9x9999999e <ok> node-999 9x9999999e <ok> node-999 9x99999999 <ok>
+Modell-Label: [1, 1, 1, 1, 1, -1, -1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1]
+Echtes Label: [1, 1, 1, 1, 1, -1, -1, 1, 1, -1, 1, 1, -1, 1, 1, -1, 1, 1, 1]
+
+Logeintrag: action start 9999999999 9 wait  (command 9999)
+Modell-Label: [1, 1, 1, 1, -1, -1, 1, -1]
+Echtes Label: [1, 1, 1, 1, -1, -1, -1, 1]
+
+Logeintrag: inconsistent nodesets node-999 9x99ffbffe <ok> node-999 9x9ffffbffe <ok> node-999 9x99ffbffe <ok> node-999 9x99ffbffe <ok> node-999 9x99ffbffe <ok>
+Modell-Label: [-1, -1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1]
+Echtes Label: [-1, -1, 1, 1, -1, 1, 1, -1, 1, 1, -1, 1, 1, 1, 1, 1, 1]
+
+Logeintrag: wait  (command 9999)
+Modell-Label: [-1, -1, 1, -1]
+Echtes Label: [-1, -1, -1, 1]
+
+Logeintrag: inconsistent nodesets node-999 9x9fffffffe <ok> node-999 9x9999dffe <ok> node-999 9x9999dffe <ok> node-999 9x9999dffe <ok>
+Modell-Label: [-1, -1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1]
+Echtes Label: [-1, -1, 1, 1, -1, 1, 1, -1, 1, 1, -1, 1, 1, 1]
+
+Logeintrag: Command has been aborted
+Modell-Label: [-1, -1, 1, -1]
+Echtes Label: [-1, -1, -1, -1]
+
+Logeintrag: boot  (command 9999)
+Modell-Label: [-1, -1, 1, -1]
+Echtes Label: [-1, -1, -1, 1]
+
+Logeintrag: boot  (command 9999)
+Modell-Label: [-1, -1, 1, -1]
+Echtes Label: [-1, -1, -1, 1]
+
+Logeintrag: node-9 action start 9999999999 9 risBoot  (command 9999)
+Modell-Label: [1, 1, 1, 1, 1, -1, -1, 1, -1]
+Echtes Label: [1, 1, 1, 1, 1, -1, -1, -1, 1]
+
+Logeintrag: Targeting domains:node-D9 and nodes:node-[9-99\ 99\ 99-99] child of command 9999
+Modell-Label: [-1, 1, 1, 1, 1, 1, 1, -1, -1, 1]
+Echtes Label: [-1, 1, -1, 1, 1, 1, -1, -1, -1, 1]
+
+Logeintrag: inconsistent nodesets node-99 9x9999999e <ok> node-99 9x9fffffffe <ok> node-99 9x9999999e <ok> node-99 9x9999999e <ok>
+Modell-Label: [-1, -1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1]
+Echtes Label: [-1, -1, 1, 1, -1, 1, 1, -1, 1, 1, -1, 1, 1, 1]
+
+Logeintrag: 9 Command has been aborted
+Modell-Label: [1, -1, -1, 1, -1]
+Echtes Label: [1, -1, -1, -1, -1]
+
+Logeintrag: inconsistent nodesets node-999 9x999999a9 <ok> node-999 9x9fffffffe <ok> node-999 9x999999fe <ok> node-999 9x999999fe <ok> node-999 9x9999fffe <ok>
+Modell-Label: [-1, -1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1]
+Echtes Label: [-1, -1, 1, 1, -1, 1, 1, -1, 1, 1, -1, 1, 1, 1, 1, 1, 1]
+
+Logeintrag: wait  (command 9999)
+Modell-Label: [-1, -1, 1, -1]
+Echtes Label: [-1, -1, -1, 1]
+
+Logeintrag: inconsistent nodesets node-999 9x9fffffffe <ok> node-99 9x9fffc9ffe <ok> node-99 9x9fffc9ffe <ok> node-99 9x9fffc9ffe <ok>
+Modell-Label: [-1, -1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1]
+Echtes Label: [-1, -1, 1, 1, -1, 1, 1, -1, 1, 1, -1, 1, 1, 1]
+
+Logeintrag: clusterAddMember  (command 9999)
+Modell-Label: [-1, -1, 1, -1]
+Echtes Label: [-1, -1, -1, 1]
+
+Logeintrag: boot  (command 9999)
+Modell-Label: [-1, -1, 1, -1]
+Echtes Label: [-1, -1, -1, 1]
+
+Logeintrag: inconsistent nodesets node-9 9x9999affe <ok> node-9 9x9999affe <ok> node-9 9x9999affe <ok> node-99 9x99fffffe <ok> node-9 9x9999affe <ok>
+Modell-Label: [-1, -1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1]
+Echtes Label: [-1, -1, 1, 1, -1, 1, 1, -1, 1, 1, -1, 1, 1, 1, 1, 1, 1]
+
+Logeintrag: boot  (command 9999)
+Modell-Label: [-1, -1, 1, -1]
+Echtes Label: [-1, -1, -1, 1]
+
+Logeintrag: inconsistent nodesets node-999 9x9fffffffe <ok> node-999 9x9eeeeeeee <ok> node-999 9x9eeeeeeee <ok> node-999 9x9eeeeeeee <ok> node-999 9x9eeeeeeee <ok>
+Modell-Label: [-1, -1, 1, 1, 1, 1, 1, -1, -1, 1, 1, -1, -1, 1, 1, -1, -1, 1, 1, -1, -1]
+Echtes Label: [-1, -1, 1, 1, -1, 1, 1, -1, 1, 1, -1, 1, 1, 1, 1, 1, 1, -1, -1, 1, 1]
+
+Logeintrag: wait  (command 9999)
+Modell-Label: [-1, -1, 1, -1]
+Echtes Label: [-1, -1, -1, 1]
+
+Logeintrag: domain status 9999999999 9 inconsistent nodesets node-99 9x9c999999e <ok> node-99 9x9c9999fee <ok> node-99 9x9c9999fee <ok> node-99 9x9c9999fee <ok>
+Modell-Label: [1, 1, 1, 1, -1, -1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1]
+Echtes Label: [1, 1, 1, 1, -1, -1, 1, 1, -1, 1, 1, -1, 1, 1, -1, 1, 1, 1]
+
+Logeintrag: action start 9999999999 9 wait  (command 9999)
+Modell-Label: [1, 1, 1, 1, -1, -1, 1, -1]
+Echtes Label: [1, 1, 1, 1, -1, -1, -1, 1]
+
+Logeintrag: inconsistent nodesets node-999 9x9999999e <ok> node-999 9x9999999e <ok> node-999 9x9999999e <ok> node-999 9x9f999999e <ok>
+Modell-Label: [-1, -1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1]
+Echtes Label: [-1, -1, 1, 1, -1, 1, 1, -1, 1, 1, -1, 1, 1, 1]
+
+Logeintrag: node-D9 domain status 9999999999 9 inconsistent nodesets node-999 9x99999999 <ok> node-999 9x9999999e <ok> node-999 9x9999999e <ok> node-999 9x9999999e <ok> node-999 9x9999999e <ok>
+Modell-Label: [1, 1, 1, 1, 1, -1, -1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1]
+Echtes Label: [1, 1, 1, 1, 1, -1, -1, 1, 1, -1, 1, 1, -1, 1, 1, -1, 1, 1, 1, 1, 1, 1]
+
+Logeintrag: 9 boot  (command 9999)
+Modell-Label: [1, -1, -1, 1, -1]
+Echtes Label: [1, -1, -1, -1, 1]
+
+Logeintrag: inconsistent nodesets node-9 9x9999999e <ok> node-99 9x9fffffffe <ok> node-9 9x9999999e <ok> node-9 9x9999999e <ok>
+Modell-Label: [-1, -1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1]
+Echtes Label: [-1, -1, 1, 1, -1, 1, 1, -1, 1, 1, -1, 1, 1, 1]
+
+Logeintrag: boot  (command 9999)
+Modell-Label: [-1, -1, 1, -1]
+Echtes Label: [-1, -1, -1, 1]
+
+Logeintrag: wait  (command 9999)
+Modell-Label: [-1, -1, 1, -1]
+Echtes Label: [-1, -1, -1, 1]
+
+Logeintrag: action start 9999999999 9 boot  (command 9999)
+Modell-Label: [1, 1, 1, 1, -1, -1, 1, -1]
+Echtes Label: [1, 1, 1, 1, -1, -1, -1, 1]
+
+Logeintrag: bootGenvmunix  (command 9999)
+Modell-Label: [-1, -1, 1, -1]
+Echtes Label: [-1, -1, -1, 1]
+
+Logeintrag: boot  (command 9999)
+Modell-Label: [-1, -1, 1, -1]
+Echtes Label: [-1, -1, -1, 1]
+
+Logeintrag: inconsistent nodesets node-999 9x9fffe999e <ok> node-999 9x99999999 <ok> node-999 9x9999999e <ok> node-999 9x9999999e <ok>
+Modell-Label: [-1, -1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1]
+Echtes Label: [-1, -1, 1, 1, -1, 1, 1, -1, 1, 1, -1, 1, 1, 1]
+
+Logeintrag: shutdown_cmd new 9999999999 9 Targeting domains:node-D9 and nodes:node-[999-999] child of command 9999
+Modell-Label: [1, 1, 1, 1, -1, 1, 1, 1, 1, -1, -1, 1]
+Echtes Label: [1, 1, 1, 1, -1, 1, -1, 1, -1, -1, -1, 1]
+
+Logeintrag: Targeting domains:node-D9 and nodes:node-[999-999] child of command 9999
+Modell-Label: [-1, 1, 1, 1, 1, -1, -1, 1]
+Echtes Label: [-1, 1, -1, 1, -1, -1, -1, 1]
+
+Logeintrag: boot  (command 9999)
+Modell-Label: [-1, -1, 1, -1]
+Echtes Label: [-1, -1, -1, 1]
+
+Logeintrag: boot  (command 9999)
+Modell-Label: [-1, -1, 1, -1]
+Echtes Label: [-1, -1, -1, 1]
+
+Logeintrag: boot (command 9999) Error: HALT asserted\  cannot continue
+Modell-Label: [-1, -1, 1, -1, -1, -1, -1, -1, 1]
+Echtes Label: [-1, -1, 1, -1, -1, -1, -1, -1, -1]
+
+Logeintrag: node-999 action start 9999999999 9 boot  (command 9999)
+Modell-Label: [1, 1, 1, 1, 1, -1, -1, 1, -1]
+Echtes Label: [1, 1, 1, 1, 1, -1, -1, -1, 1]
+
+Logeintrag: inconsistent nodesets node-999 9x9fffffe9e <ok> node-999 9x9fffffffe <ok> node-999 9x9fffffffe <ok> node-999 9x9fffffffe <ok>
+Modell-Label: [-1, -1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1]
+Echtes Label: [-1, -1, 1, 1, -1, 1, 1, -1, 1, 1, -1, 1, 1, 1]
+
+Logeintrag: inconsistent nodesets node-999 9x9ffe9999e <ok> node-999 9x9fc99999e <ok> node-999 9x9fc99999e <ok> node-999 9x9fc99999e <ok>
+Modell-Label: [-1, -1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1]
+Echtes Label: [-1, -1, 1, 1, -1, 1, 1, -1, 1, 1, -1, 1, 1, 1]
+
+Logeintrag: Targeting domains:node-D9 and nodes:node-[99-99] child of command 9999
+Modell-Label: [-1, 1, 1, 1, 1, -1, -1, 1]
+Echtes Label: [-1, 1, -1, 1, -1, -1, -1, 1]
+
+Logeintrag: inconsistent nodesets node-999 9x999999fe <ok> node-999 9x999999fe <ok> node-999 9x9999e9fe <ok> node-999 9x9999e9fe <ok> node-999 9x9999e9fe <ok>
+Modell-Label: [-1, -1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1]
+Echtes Label: [-1, -1, 1, 1, -1, 1, 1, -1, 1, 1, -1, 1, 1, 1, 1, 1, 1]
+
+Logeintrag: wait  (command 9999)
+Modell-Label: [-1, -1, 1, -1]
+Echtes Label: [-1, -1, -1, 1]
+
+Logeintrag: boot  (command 9999)
+Modell-Label: [-1, -1, 1, -1]
+Echtes Label: [-1, -1, -1, 1]
+
+Logeintrag: node-D9 domain status 9999999999 9 inconsistent nodesets node-99 9x99fffdfe <ok> node-99 9x999999fe <ok> node-99 9x9999fdfe <ok> node-99 9x9999fdfe <ok>
+Modell-Label: [1, 1, 1, 1, 1, -1, -1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1]
+Echtes Label: [1, 1, 1, 1, 1, -1, -1, 1, 1, -1, 1, 1, -1, 1, 1, -1, 1, 1, 1]
+
+Logeintrag: boot  (command 9999)
+Modell-Label: [-1, -1, 1, -1]
+Echtes Label: [-1, -1, -1, 1]
+
+Logeintrag: inconsistent nodesets node-99 9x9fffffffe <ok> node-9 9x9fdfffdfe <ok> node-9 9x9fdfffdfe <ok> node-9 9x9fdfffdfe <ok>
+Modell-Label: [-1, -1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1]
+Echtes Label: [-1, -1, 1, 1, -1, 1, 1, -1, 1, 1, -1, 1, 1, 1]
+
+Logeintrag: 9 Link error on broadcast tree Interconnect-9T99:99:9:9
+Modell-Label: [1, -1, -1, -1, 1, 1, 1]
+Echtes Label: [1, -1, 1, 1, 1, 1, 1]
+
+Logeintrag: boot_cmd new 9999999999 9 Targeting domains:node-D9 and nodes:node-[999-999] child of command 9999
+Modell-Label: [1, 1, 1, 1, -1, 1, 1, 1, 1, -1, -1, 1]
+Echtes Label: [1, 1, 1, 1, -1, 1, -1, 1, -1, -1, -1, 1]
+
+Logeintrag: wait  (command 9999)
+Modell-Label: [-1, -1, 1, -1]
+Echtes Label: [-1, -1, -1, 1]
+
+Logeintrag: wait  (command 9999)
+Modell-Label: [-1, -1, 1, -1]
+Echtes Label: [-1, -1, -1, 1]
+
+Logeintrag: boot  (command 9999)
+Modell-Label: [-1, -1, 1, -1]
+Echtes Label: [-1, -1, -1, 1]
+

@@ -1,0 +1,1213 @@
+99.999.999.999:99999 Served block blk_99999999999999999 to /99.999.999.999
+99.999.999.9:99999 Served block blk_-9999999999999999999 to /99.999.999.9
+BLOCK* NameSystem.delete: blk_-99999999999999999 is added to invalidSet of 99.999.9.9:99999
+domain status 9999999999 9 not responding
+99.999.99.999:99999 Served block blk_-99999999999999999 to /99.999.9.9
+99.999.99.99:99999 Starting thread to transfer block blk_-9999999999999999999 to 99.999.99.999:99999
+play.google.com:999 close, 99999 bytes (99.9 KB) sent, 99999 bytes (99.9 KB) received, lifetime 99:99
+PacketResponder blk_-9999999999999999999 9 Exception java.nio.channels.ClosedByInterruptException
+BLOCK* ask 99.999.999.99:99999 to replicate blk_99999999999999999 to datanode(s) 99.999.999.999:99999
+Processed session termination for sessionid: 9x99f9a99999b999b
+99.999.999.99:99999 Starting thread to transfer block blk_-9999999999999999999 to 99.999.9.99:99999
+99.999.9.9:99999:Transmitted block blk_-9999999999999999999 to /99.999.99.999:99999
+Component State Change: Component \999SCSI-WWID:99999999:9999-99b9-9999-c999-9999-c999-999b-9999\999 is in the unavailable state (HWID=99)
+Deleting block blk_999999999999999 file /mnt/hadoop/dfs/data/current/subdir99/blk_999999999999999
+s.yimg.com:999 open through proxy proxy.cse.cuhk.edu.hk:9999 HTTPS
+99.client-channel.google.com:999 close, 9999 bytes (9.99 KB) sent, 99999 bytes (99.9 KB) received, lifetime 99:99
+Processed session termination for sessionid: 9x99ede99a99b999e
+Closed socket connection for client /99.99.99.99:99999 which had sessionid 9x99ede99a9a9999d
+BLOCK* ask 99.999.99.999:99999 to replicate blk_-9999999999999999999 to datanode(s) 99.999.99.99:99999
+node-99 unix.hw state_change.unavailable 9999999999 9 Component State Change: Component \999SCSI-WWID:99999999:9999-99b9-9999-999a-9999-9999-999f-9999\999 is in the unavailable state (HWID=9999)
+99.999.99.9:99999 Served block blk_99999999999999999 to /99.999.99.999
+static-tagr.gd9.mookie9.com:999 open through proxy proxy.cse.cuhk.edu.hk:9999 HTTPS
+Received block blk_-99999999999999999 of size 9999999 from /99.999.999.999
+Established session 9x99f9999b9af9999 with negotiated timeout 99999 for client /99.99.99.99:99999
+BLOCK* ask 99.999.9.999:99999 to replicate blk_-9999999999999999999 to datanode(s) 99.999.99.99:99999
+Received block blk_-999999999999999999 of size 9999999 from /99.999.9.999
+Notification time out: 99999
+inconsistent nodesets node-99 9x9fffffffe <ok> node-99 9x99fffffe <ok> node-9 9x999bfffe <ok> node-9 9x999bfffe <ok> node-99 9x99fffffe <ok>
+99.999.999.99:99999 Served block blk_999999999999999 to /99.999.999.99
+99.999.999.999:99999 Served block blk_9999999999999999999 to /99.999.999.9
+i.ytimg.com:999 open through proxy proxy.cse.cuhk.edu.hk:9999 HTTPS
+Failed subcommands 9999\ 9999\ 9999\ 9999
+99.999.9.999:99999:Transmitted block blk_9999999999999999999 to /99.999.99.99:99999
+Got user-level KeeperException when processing sessionid:9x99ed99999999999 type:create cxid:9x99b9baff zxid:9x999999999 txntype:-9 reqpath:n/a Error Path:/home Error:KeeperErrorCode = NodeExists for /home
+Expiring session 9x99f9a999df9999b, timeout of 99999ms exceeded
+tvax9.sinaimg.cn:99 open through proxy proxy.cse.cuhk.edu.hk:9999 HTTPS
+Processed session termination for sessionid: 9x99ede99999f999f
+99.999.99.9:99999 Served block blk_-99999999999999999 to /99.999.999.999
+99.999.99.9:99999:Transmitted block blk_-9999999999999999999 to /99.999.9.99:99999
+Processed session termination for sessionid: 9x99ede99a9a99999
+login.sina.com.cn:999 close, 9999 bytes (9.99 KB) sent, 99999 bytes (99.9 KB) received, lifetime 99:99
+clusterfilesystem clusterfilesystem.not_served 9999999999 9 ClusterFileSystem: ServerFileSystem domain root99_domain is no longer served by node node-99
+Closed socket connection for client /99.99.99.99:99999 which had sessionid 9x99ed9ac9c9e99bf
+Received block blk_-999999999999999999 src: /99.999.9.9:99999 dest: /99.999.9.9:99999 of size 99999999
+Expiring session 9x99f9999999e999e, timeout of 99999ms exceeded
+Expiring session 9x99ed99999f999db, timeout of 99999ms exceeded
+BLOCK* ask 99.999.999.99:99999 to replicate blk_9999999999999999999 to datanode(s) 99.999.9.999:99999
+99.999.9.999:99999 Starting thread to transfer block blk_9999999999999999999 to 99.999.99.9:99999
+BLOCK* ask 99.999.99.99:99999 to replicate blk_999999999999999999 to datanode(s) 99.999.99.99:99999
+www.zhihu.com:999 close, 9999 bytes (9.99 KB) sent, 99999 bytes (9.99 KB) received, lifetime 99:99
+BLOCK* NameSystem.addStoredBlock: Redundant addStoredBlock request received for blk_999999999999999999 on 99.999.99.999:99999 size 99999999
+Processed session termination for sessionid: 9x99ed99999f9999d
+Processed session termination for sessionid: 9x99f9999a9e99999
+99.999.9.99:99999 Served block blk_-99999999999999999 to /99.999.9.99
+Established session 9x99ee99a99f9999e with negotiated timeout 99999 for client /99.99.99.99:99999
+99.999.99.999:99999:Transmitted block blk_-99999999999999999 to /99.999.99.999:99999
+Receiving block blk_-999999999999999999 src: /99.999.999.9:99999 dest: /99.999.999.9:99999
+Received block blk_-99999999999999999 of size 9999999 from /99.999.9.9
+Received block blk_-9999999999999999999 src: /99.999.9.99:99999 dest: /99.999.9.99:99999 of size 99999
+Client attempting to establish new session at /99.99.99.99:99999
+hpd.baidu.com:999 close, 9999 bytes (9.99 KB) sent, 9999 bytes (9.99 KB) received, lifetime 99:99
+Receiving block blk_9999999999999999999 src: /99.999.999.99:99999 dest: /99.999.999.99:99999
+clusterfilesystem clusterfilesystem.not_served 9999999999 9 ClusterFileSystem: ServerFileSystem domain root9_local is no longer served by node node-99
+rs.sinajs.cn:99 open through proxy proxy.cse.cuhk.edu.hk:9999 HTTPS
+99.999.99.9:99999 Served block blk_-9999999999999999999 to /99.999.99.999
+Targeting domains:node-D9 and nodes:node-[9\ 99]
+99.999.999.999:99999 Starting thread to transfer block blk_999999999999999999 to 99.999.99.99:99999
+Closed socket connection for client /99.99.99.99:99999 which had sessionid 9x99edfaa99f9999b
+Component State Change: Component \999SCSI-WWID:99999999:9999-9fe9-9999-ed99-9999-9999-9999-999a\999 is in the unavailable state (HWID=99)
+99.999.9.99:99999 Starting thread to transfer block blk_9999999999999999999 to 99.999.99.9:99999
+baijiahao.baidu.com:999 open through proxy proxy.cse.cuhk.edu.hk:9999 HTTPS
+99.999.9.9:99999 Starting thread to transfer block blk_999999999999999999 to 99.999.99.9:99999
+ServerFileSystem: ServerFileSystem domain root99_tmp is full
+boot_cmd new 9999999999 9 Targeting domains:node-D9 and nodes:node-99
+Expiring session 9x99f9a9999b9999c, timeout of 99999ms exceeded
+BLOCK* NameSystem.addStoredBlock: blockMap updated: 99.999.9.9:99999 is added to blk_-999999999999999999 size 9999999
+Processed session termination for sessionid: 9x99ed9ac9c9e9999
+99.999.999.9:99999 Served block blk_-9999999999999999999 to /99.999.9.9
+99.999.99.999:99999 Served block blk_9999999999999999 to /99.999.99.999
+Received block blk_9999999999999999999 of size 9999999 from /99.999.99.99
+Component State Change: Component \999SCSI-WWID:99999999:9999-99b9-9999-c99e-9999-9999-9999-9999\999 is in the unavailable state (HWID=9999)
+video-hkg9-9.xx.fbcdn.net:999 open through proxy proxy.cse.cuhk.edu.hk:9999 HTTPS
+Received block blk_99999999999999999 of size 99999999 from /99.999.999.9
+Expiring session 9x99ed99999f999be, timeout of 99999ms exceeded
+99.999.999.999:99999 Served block blk_-9999999999999999 to /99.999.999.9
+Expiring session 9x99ed999999999cf, timeout of 99999ms exceeded
+99.999.9.999:99999:Transmitted block blk_-9999999999999999999 to /99.999.999.9:99999
+pos.baidu.com:99 close, 9999 bytes (9.99 KB) sent, 99999 bytes (99.9 KB) received, lifetime 99:99
+node-9 action error 9999999999 9 risBoot (command 9999) Error: Timed out while waiting for SRM prompt: <ABORT code completed>
+BLOCK* NameSystem.allocateBlock: /user/root/randtxt9/_temporary/_task_999999999999_9999_m_999999_9/part-99999. blk_9999999999999999
+nmjylyjluykle:99 error : Could not connect to proxy proxy.cse.cuhk.edu.hk:9999 - Could not resolve proxy.cse.cuhk.edu.hk error 99999
+BLOCK* ask 99.999.999.99:99999 to replicate blk_-9999999999999999999 to datanode(s) 99.999.99.99:99999 99.999.999.99:99999
+Expiring session 9x99ed99999f999c9, timeout of 99999ms exceeded
+play.google.com:999 close, 9999 bytes (9.99 KB) sent, 9999 bytes (9.99 KB) received, lifetime 99:99
+99.999.99.999:99999:Transmitted block blk_99999999999999999 to /99.999.99.99:99999
+99.999.999.999:99999 Served block blk_-99999999999999999 to /99.999.99.999
+s9.qhres.com:99 open through proxy proxy.cse.cuhk.edu.hk:9999 HTTPS
+Established session 9x99ede99999f999a with negotiated timeout 99999 for client /99.99.99.99:99999
+99.999.99.999:99999 Starting thread to transfer block blk_-99999999999999999 to 99.999.99.999:99999
+99.999.999.999:99999 Served block blk_99999999999999999 to /99.999.9.9
+9 ServerFileSystem: ServerFileSystem domain root99_tmp is full
+txt.go.sohu.com:99 open through proxy proxy.cse.cuhk.edu.hk:9999 HTTPS
+Established session 9x99f9999a99e9999 with negotiated timeout 99999 for client /99.99.99.99:99999
+Exception in receiveBlock for block blk_-9999999999999999999 java.io.IOException: Connection reset by peer
+BLOCK* NameSystem.allocateBlock: /user/root/rand9/_temporary/_task_999999999999_9999_m_999999_9/part-99999. blk_9999999999999999999
+ClusterFileSystem: ServerFileSystem domain cluster_usr_backup is no longer served by node node-9
+99.999.999.999:99999 Starting thread to transfer block blk_-9999999999999999999 to 99.999.999.999:99999
+passport.weibo.cn:999 close, 9999 bytes (9.99 KB) sent, 9999 bytes (9.99 KB) received, lifetime 99:99
+unix.hw state_change.unavailable 9999999999 9 Component State Change: Component \999SCSI-WWID:99999999:9999-99b9-9999-999b-9999-9999-9999-9999\999 is in the unavailable state (HWID=9999)
+99.999.99.999:99999 Served block blk_-9999999999999999 to /99.999.99.999
+media.innity.net:99 close, 99999 bytes (99.9 KB) sent, 99999 bytes (99.9 KB) received, lifetime 99:99
+99.999.9.9:99999 Starting thread to transfer block blk_999999999999999999 to 99.999.999.999:99999
+Component State Change: Component \999SCSI-WWID:99999999:9999-99b9-9999-c999-9999-9999-99c9-9999\999 is in the unavailable state (HWID=9999)
+Processed session termination for sessionid: 9x99f9fdae9ba9999
+Received block blk_-99999999999999999 of size 9999999 from /99.999.999.9
+BLOCK* NameSystem.addStoredBlock: blockMap updated: 99.999.99.999:99999 is added to blk_-999999999999999 size 99999999
+assets-cdn.github.com:999 close, 9999 bytes (9.99 KB) sent, 99999 bytes (99.9 KB) received, lifetime 99:99
+changyan.itc.cn:999 open through proxy proxy.cse.cuhk.edu.hk:9999 HTTPS
+node-999 node status 9999999999 -9 configured out
+99.999.9.9:99999 Served block blk_9999999999999999999 to /99.999.9.99
+9999 shutdown_cmd success 9999999999 9 Command has completed successfully
+BLOCK* NameSystem.allocateBlock: /mnt/hadoop/mapred/system/job_999999999999_9999/job.split. blk_-9999999999999999999
+Closed socket connection for client /99.99.99.99:99999 which had sessionid 9x99ed99999f999bd
+live.github.com:999 close, 9999 bytes (9.99 KB) sent, 9999 bytes (9.99 KB) received, lifetime 99:99:99
+maxSessionTimeout set to -9
+9 Targeting domains:node-D[9\ 9] and nodes:node-[9-99\ 999-999]
+Component State Change: Component \999SCSI-WWID:99999999:9999-99b9-9999-99c9-9999-9999-999b-9999\999 is in the unavailable state (HWID=99)
+BLOCK* NameSystem.addStoredBlock: Redundant addStoredBlock request received for blk_9999999999999999999 on 99.999.9.9:99999 size 99999999
+bdimg.share.baidu.com:99 close, 9999 bytes (9.99 KB) sent, 99999 bytes (99.9 KB) received, lifetime 99:99
+img.alicdn.com:999 close, 9999 bytes (9.99 KB) sent, 99999 bytes (99.9 KB) received, lifetime 99:99
+clusterfilesystem clusterfilesystem.not_served 9999999999 9 ClusterFileSystem: ServerFileSystem domain root9_domain is no longer served by node node-99
+99.999.9.99:99999 Served block blk_9999999999999999999 to /99.999.99.99
+Receiving block blk_9999999999999999999 src: /99.999.9.99:99999 dest: /99.999.9.99:99999
+99.999.99.99:99999 Served block blk_999999999999999999 to /99.999.999.9
+link errors remain current
+99.999.999.999:99999 Served block blk_999999999999999999 to /99.999.99.999
+Reading snapshot /var/lib/zookeeper/version-9/snapshot.99999999e
+Revalidating client: 9x99f9fdb9f999999
+9 inconsistent nodesets node-99 9x9fffffffe <ok> node-99 9x9999999e <ok> node-99 9x9999999e <ok> node-99 9x9999999e <ok>
+Closed socket connection for client /99.99.99.99:99999 which had sessionid 9x99ee99a99f99999
+Expiring session 9x99f99999bd9999d, timeout of 99999ms exceeded
+trello.com:999 close, 9999 bytes (9.99 KB) sent, 9999 bytes (9.99 KB) received, lifetime 99:99
+Expiring session 9x99f9999b9af999b, timeout of 99999ms exceeded
+r99---sn-i9b9knez.googlevideo.com:999 open through proxy proxy.cse.cuhk.edu.hk:9999 HTTPS
+Established session 9x99f9999999e999a with negotiated timeout 99999 for client /99.99.99.99:99999
+clusterfilesystem clusterfilesystem.not_served 9999999999 9 ClusterFileSystem: ServerFileSystem domain cluster_usr_backup is no longer served by node node-99
+BLOCK* ask 99.999.99.9:99999 to replicate blk_-9999999999999999999 to datanode(s) 99.999.9.999:99999
+99.999.9.999:99999 Starting thread to transfer block blk_-9999999999999999999 to 99.999.9.9:99999
+99.999.99.999:99999:Transmitted block blk_-9999999999999999999 to /99.999.999.9:99999
+NIFF: node node-999 has detected an available network connection on network 99.999.9.9 via interface ee9
+99.999.9.99:99999:Transmitted block blk_9999999999999999999 to /99.999.99.99:99999
+Processed session termination for sessionid: 9x99ed99999f999a9
+99.999.9.9:99999 Starting thread to transfer block blk_9999999999999999999 to 99.999.99.99:99999
+Sending DIFF
+info.pinyin.sogou.com:99 close, 9999 bytes (9.99 KB) sent, 99999 bytes (99.9 KB) received, lifetime 99:99
+Receiving block blk_-9999999999999999 src: /99.999.99.999:99999 dest: /99.999.99.999:99999
+Component State Change: Component 999SCSI-WWID:99999999:9999-9fe9-9999-ed99-9999-9999-9999-999f999 is in the unavailable state (HWID=99)
+BLOCK* NameSystem.addStoredBlock: Redundant addStoredBlock request received for blk_9999999999999999999 on 99.999.999.9:99999 size 99999999
+Received block blk_-9999999999999999 of size 9999999 from /99.999.9.999
+Component State Change: Component \999SCSI-WWID:99999999:9999-99b9-9999-9999-9999-f999-999d-9999\999 is in the unavailable state (HWID=9999)
+99.999.99.999:99999 Starting thread to transfer block blk_9999999999999999999 to 99.999.9.999:99999
+BLOCK* ask 99.999.99.999:99999 to replicate blk_-99999999999999999 to datanode(s) 99.999.99.99:99999
+dmp.tenmax.io:999 close, 9999 bytes (9.99 KB) sent, 9999 bytes (9.99 KB) received, lifetime <9 sec
+BLOCK* ask 99.999.999.999:99999 to replicate blk_99999999999999999 to datanode(s) 99.999.999.999:99999
+Established session 9x99ede99a9a99999 with negotiated timeout 99999 for client /99.99.99.99:99999
+Expiring session 9x99f9a9999b9999a, timeout of 99999ms exceeded
+Received block blk_99999999999999999 of size 9999999 from /99.999.999.9
+writeBlock blk_999999999999999999 received exception java.io.IOException: Connection reset by peer
+99.999.999.999:99999 Starting thread to transfer block blk_-9999999999999999 to 99.999.999.999:99999
+dis.criteo.com:99 open through proxy proxy.cse.cuhk.edu.hk:9999 HTTPS
+PacketResponder blk_-999999999999999999 9 Exception java.io.EOFException
+Established session 9x99ed9ac9c9e99c9 with negotiated timeout 99999 for client /99.99.99.99:99999
+Have quorum of supporters; starting up and setting last processed zxid: 9xb99999999
+cm.e.qq.com:999 open through proxy proxy.cse.cuhk.edu.hk:9999 HTTPS
+Received block blk_9999999999999999 of size 99999999 from /99.999.9.99
+Fan speeds ( 9999 9999 9999 99999 9999 9999 )
+New election. My id =  9, proposed zxid=9xd9999999b
+99.999.999.99:99999 Served block blk_-999999999999999999 to /99.999.99.99
+99.999.99.999:99999 Served block blk_-999999999999999999 to /99.999.99.9
+BLOCK* NameSystem.addStoredBlock: Redundant addStoredBlock request received for blk_9999999999999999999 on 99.999.999.999:99999 size 99999999
+BLOCK* NameSystem.delete: blk_-99999999999999999 is added to invalidSet of 99.999.99.9:99999
+Received block blk_9999999999999999999 of size 99 from /99.999.999.99
+wn.pos.baidu.com:999 open through proxy proxy.cse.cuhk.edu.hk:9999 HTTPS
+Closed socket connection for client /99.99.99.99:99999 which had sessionid 9x99ed999999999de
+Processed session termination for sessionid: 9x99f9fdaf999999e
+Receiving block blk_-99999999999999999 src: /99.999.9.999:99999 dest: /99.999.9.999:99999
+Processed session termination for sessionid: 9x99ed999999999ac
+weibo.com:99 open through proxy proxy.cse.cuhk.edu.hk:9999 HTTPS
+googleads.g.doubleclick.net:999 close, 9999 bytes (9.99 KB) sent, 9999 bytes (9.99 KB) received, lifetime 99:99
+Received block blk_-99999999999999999 of size 9999999 from /99.999.99.9
+Processed session termination for sessionid: 9x99f9fdb9f99999d
+99.999.99.9:99999 Served block blk_-9999999999999999999 to /99.999.9.999
+inconsistent nodesets node-99 9x9fffffffe <ok> node-9 9x9999999e <ok> node-9 9x9999999e <ok> node-9 9x9999999e <ok>
+99.999.99.9:99999 Starting thread to transfer block blk_-9999999999999999999 to 99.999.999.99:99999
+qa.sockets.stackexchange.com:999 open through proxy proxy.cse.cuhk.edu.hk:9999 HTTPS
+Received block blk_9999999999999999999 src: /99.999.99.99:99999 dest: /99.999.99.99:99999 of size 9999999
+mail-attachment.googleusercontent.com:999 open through proxy proxy.cse.cuhk.edu.hk:9999 HTTPS
+99.999.99.999:99999 Starting thread to transfer block blk_9999999999999999999 to 99.999.99.999:99999, 99.999.99.999:99999
+Component State Change: Component \999SCSI-WWID:99999999:9999-99b9-9999-9999-9999-9999-9999-9999\999 is in the unavailable state (HWID=99)
+Interconnect-9N99 switch_module error 9999999999 9 link errors remain current
+sclick.baidu.com:99 open through proxy proxy.cse.cuhk.edu.hk:9999 HTTPS
+99.999.99.999:99999:Transmitted block blk_-999999999999999999 to /99.999.999.99:99999
+agent.aralego.com:99 open through proxy proxy.cse.cuhk.edu.hk:9999 HTTPS
+BLOCK* NameSystem.delete: blk_999999999999999 is added to invalidSet of 99.999.999.999:99999
+99.999.999.9:99999 Served block blk_-99999999999999 to /99.999.999.9
+Closed socket connection for client /99.99.99.99:99999 which had sessionid 9x99ed9ac9c9e9999
+Expiring session 9x99ed99999f999ef, timeout of 99999ms exceeded
+BLOCK* NameSystem.addStoredBlock: Redundant addStoredBlock request received for blk_9999999999999999999 on 99.999.99.9:99999 size 99999999
+99.999.99.99:99999:Transmitted block blk_999999999999999999 to /99.999.99.999:99999
+Established session 9x99ee99a9c99999b with negotiated timeout 99999 for client /99.99.99.99:99999
+www.google.com:999 open through proxy proxy.cse.cuhk.edu.hk:9999 HTTPS
+BLOCK* NameSystem.addStoredBlock: blockMap updated: 99.999.99.99:99999 is added to blk_-9999999999999999999 size 99999999
+node-9 action start 9999999999 9 wait  (command 9999)
+inconsistent nodesets node-999 9x99999999 <ok> node-999 9x9999999e <ok> node-999 9x9999999e <ok> node-999 9x9999999e <ok>
+Server environment:user.home=/var/lib/zookeeper
+BLOCK* NameSystem.delete: blk_99999999999999 is added to invalidSet of 99.999.99.999:99999
+Client attempting to renew session 9x99f9fdae9ba999f at /99.99.99.99:99999
+Expiring session 9x99ee99a9c99999d, timeout of 99999ms exceeded
+Closed socket connection for client /99.99.99.99:99999 which had sessionid 9x99ed9ac9c9e999d
+99.999.99.9:99999 Served block blk_999999999999999999 to /99.999.9.99
+r9---sn-i9belnez.googlevideo.com:999 close, 999999 bytes (999 KB) sent, 99999999 bytes (99.9 MB) received, lifetime 99:99
+Command has completed successfully
+node-D9 domain status 9999999999 9 inconsistent nodesets node-999 9x99999999 <ok> node-999 9x9999999e <ok> node-999 9x9999999e <ok> node-999 9x9999999e <ok> node-999 9x9999999e <ok>
+99.999.999.99:99999 Starting thread to transfer block blk_-999999999999999999 to 99.999.99.99:99999
+writeBlock blk_9999999999999999999 received exception java.io.IOException: Could not read from stream
+BLOCK* NameSystem.allocateBlock: /user/root/grep-temp-9999999999/_logs/history/ip-99-999-99-999.ec9.internal_9999999999999_job_999999999999_9999_root_grep-search. blk_-999999999999999999
+99.999.9.999:99999 Served block blk_-999999999999999999 to /99.999.99.9
+Received block blk_99999999999999999 src: /99.999.999.999:99999 dest: /99.999.999.999:99999 of size 99999
+99.999.999.999:99999 Starting thread to transfer block blk_999999999999999999 to 99.999.99.9:99999
+Closed socket connection for client /99.99.99.99:99999 which had sessionid 9x99ed999999999c9
+Established session 9x99f9a999df9999d with negotiated timeout 99999 for client /99.99.99.99:99999
+99.999.99.999:99999 Served block blk_9999999999999999999 to /99.999.999.999
+Linkerror event interval expired
+Established session 9x99f9fdb9f99999e with negotiated timeout 99999 for client /99.99.99.99:99999
+BLOCK* NameSystem.delete: blk_-9999999999999999 is added to invalidSet of 99.999.99.9:99999
+Processed session termination for sessionid: 9x99ede99a99b999f
+wbpctips.uve.weibo.com:99 open through proxy proxy.cse.cuhk.edu.hk:9999 HTTPS
+Closed socket connection for client /99.99.99.99:99999 which had sessionid 9x99ed99999f999de
+9999 boot_cmd new 9999999999 9 Targeting domains:node-D9 and nodes:node-[9-99]
+inconsistent nodesets node-9 9x9999999e <ok> node-99 9x9fffffffe <ok> node-9 9x9999999e <ok> node-9 9x9999999e <ok>
+Received block blk_-9999999999999999999 src: /99.999.999.9:99999 dest: /99.999.999.9:99999 of size 99999999
+cpro.baidustatic.com:99 open through proxy proxy.cse.cuhk.edu.hk:9999 HTTPS
+BLOCK* ask 99.999.999.999:99999 to replicate blk_-9999999999999999 to datanode(s) 99.999.999.999:99999
+99.999.999.999:99999 Served block blk_-999999999999999999 to /99.999.99.9
+timg.baidu.com:99 close, 9999 bytes (9.99 KB) sent, 9999 bytes (9.99 KB) received, lifetime 99:99
+99.999.99.99:99999 Starting thread to transfer block blk_-9999999999999999999 to 99.999.999.999:99999
+Received block blk_9999999999999999999 of size 999999 from /99.999.99.9
+pcookie.cnzz.com:99 open through proxy proxy.cse.cuhk.edu.hk:9999 HTTPS
+Received block blk_-9999999999999999999 src: /99.999.99.9:99999 dest: /99.999.99.9:99999 of size 99999999
+99.999.999.99:99999 Served block blk_99999999999999999 to /99.999.999.99
+BLOCK* ask 99.999.9.9:99999 to replicate blk_999999999999999999 to datanode(s) 99.999.99.9:99999
+PacketResponder blk_-9999999999999999999 9 Exception java.io.IOException: The stream is closed
+9 starting
+Processed session termination for sessionid: 9x99ed9ac9c9e99bc
+as.amanad.adtdp.com:99 close, 9999 bytes (9.99 KB) sent, 9999 bytes (9.99 KB) received, lifetime 99:99
+99.999.9.9:99999 Served block blk_999999999999999999 to /99.999.99.99
+node-D9 domain status 9999999999 9 inconsistent nodesets node-999 9x9999fdfe <ok> node-999 9x9999e9fe <ok> node-999 9x9999fdfe <ok> node-999 9x9999fdfe <ok>
+99.999.99.9:99999 Served block blk_-999999999999999999 to /99.999.99.99
+unix.hw net.niff.down 9999999999 9 NIFF: node node-999 detected a failed network connection on network 9.9.9.9 via interface alt9
+Expiring session 9x99ed999999999db, timeout of 99999ms exceeded
+99.999.99.9:99999 Served block blk_999999999999999999 to /99.999.9.999
+www.qulishi.com:99 close, 9999 bytes (9.99 KB) sent, 999999 bytes (999 KB) received, lifetime 99:99
+tcpconn9.tencent.com:99 open through proxy proxy.cse.cuhk.edu.hk:9999 HTTPS
+BLOCK* NameSystem.addStoredBlock: Redundant addStoredBlock request received for blk_-999999999999999999 on 99.999.99.99:99999 size 99999999
+pr-bh.ybp.yahoo.com:99 close, 9999 bytes (9.99 KB) sent, 9999 bytes (9.99 KB) received, lifetime 99:99
+99.999.999.999:99999 Served block blk_99999999999999999 to /99.999.99.9
+Processed session termination for sessionid: 9x99ed9ac9c9e99ae
+Closed socket connection for client /99.99.99.99:99999 which had sessionid 9x99f9a999df9999a
+showxml.qq.com:99 open through proxy proxy.cse.cuhk.edu.hk:9999 HTTPS
+m.news.9999.com:99 open through proxy proxy.cse.cuhk.edu.hk:9999 HTTPS
+ClusterFileSystem: ServerFileSystem domain root99_domain is no longer served by node node-999
+cm.g.doubleclick.net:999 close, 99999 bytes (99.9 KB) sent, 9999 bytes (9.99 KB) received, lifetime 99:99
+99.999.99.99:99999 Served block blk_-999999999999999999 to /99.999.9.999
+BLOCK* ask 99.999.999.999:99999 to replicate blk_9999999999999999999 to datanode(s) 99.999.999.9:99999
+99.999.9.9:99999 Served block blk_-999999999999999999 to /99.999.99.999
+Received block blk_-9999999999999999 src: /99.999.999.999:99999 dest: /99.999.999.999:99999 of size 99999999
+99.999.99.99:99999 Served block blk_-9999999999999999 to /99.999.99.99
+99.999.9.999:99999:Transmitted block blk_-999999999999999999 to /99.999.999.99:99999
+Processed session termination for sessionid: 9x99f99999bd9999e
+Established session 9x99ed999999999ba with negotiated timeout 99999 for client /99.99.99.99:99999
+Follower sid: 9 : info : org.apache.zookeeper.server.quorum.QuorumPeer$QuorumServer@99b99ca9
+Have quorum of supporters; starting up and setting last processed zxid: 9xc99999999
+Received block blk_9999999999999999999 of size 999999 from /99.999.999.999
+BLOCK* ask 99.999.99.999:99999 to replicate blk_9999999999999999999 to datanode(s) 99.999.999.999:99999 99.999.99.999:99999
+Closed socket connection for client /99.99.99.99:99999 which had sessionid 9x99ee99a99f9999a
+Component State Change: Component \999SCSI-WWID:99999999:9999-99b9-9999-99cf-9999-9999-9999-9999\999 is in the unavailable state (HWID=99)
+Processed session termination for sessionid: 9x99f9999999a999a
+cdn.doublemax.net:99 open through proxy proxy.cse.cuhk.edu.hk:9999 HTTPS
+Changing block file offset of block blk_999999999999999999 from 9 to 99999999 meta file offset to 999999
+BLOCK* ask 99.999.9.99:99999 to replicate blk_9999999999999999999 to datanode(s) 99.999.9.9:99999
+99.999.9.99:99999 Served block blk_9999999999999999999 to /99.999.999.999
+unix.hw net.niff.up 9999999999 9 NIFF: node node-9 has detected an available network connection on network 99.999.9.9 via interface ee9
+BLOCK* ask 99.999.99.999:99999 to replicate blk_999999999999999999 to datanode(s) 99.999.99.999:99999 99.999.99.9:99999
+node-9 unix.hw net.niff.down 9999999999 9 NIFF: node node-9 detected a failed network connection on network 9.9.999.9 via interface alt9
+BLOCK* ask 99.999.99.999:99999 to replicate blk_999999999999999999 to datanode(s) 99.999.9.999:99999
+Established session 9x99ed999999999be with negotiated timeout 99999 for client /99.99.99.99:99999
+Established session 9x99edfaa99f9999a with negotiated timeout 99999 for client /99.99.99.99:99999
+imgsrc.baidu.com:99 open through proxy proxy.cse.cuhk.edu.hk:9999 HTTPS
+Established session 9x99ed9ac9c9e999f with negotiated timeout 99999 for client /99.99.99.99:99999
+node-99 unix.hw state_change.unavailable 9999999999 9 Component State Change: Component \999SCSI-WWID:99999999:9999-99b9-9999-9999-9999-9999-999a-9999\999 is in the unavailable state (HWID=9999)
+99.999.99.99:99999 Served block blk_-9999999999999999999 to /99.999.9.999
+99.999.9.9:99999 Starting thread to transfer block blk_999999999999999999 to 99.999.99.999:99999
+99.999.999.999:99999 Starting thread to transfer block blk_9999999999999999999 to 99.999.99.9:99999
+BLOCK* ask 99.999.99.999:99999 to replicate blk_-999999999999999999 to datanode(s) 99.999.99.9:99999
+Received block blk_999999999999999999 src: /99.999.999.99:99999 dest: /99.999.999.99:99999 of size 99999999
+99.999.999.99:99999:Transmitted block blk_-999999999999999999 to /99.999.99.9:99999
+node-D9 clusterfilesystem clusterfilesystem.not_served 9999999999 9 ClusterFileSystem: ServerFileSystem domain storage999 is no longer served by node node-99
+Established session 9x99ed99999f999ea with negotiated timeout 99999 for client /99.99.99.99:99999
+99.999.99.999:99999 Served block blk_99999999999999999 to /99.999.999.999
+gige9 gige temperature 9999999999 9 normal
+BLOCK* NameSystem.addStoredBlock: addStoredBlock request received for blk_999999999999999999 on 99.999.999.99:99999 size 9999999 But it does not belong to any file.
+99.999.99.999:99999 Served block blk_99999999999999999 to /99.999.9.999
+Processed session termination for sessionid: 9x99ed999999999ca
+geo9.ggpht.com:999 open through proxy proxy.cse.cuhk.edu.hk:9999 HTTPS
+people-pa.clients9.google.com:999 open through proxy proxy.cse.cuhk.edu.hk:9999 HTTPS
+sohu.wrating.com:99 open through proxy proxy.cse.cuhk.edu.hk:9999 HTTPS
+99.999.9.999:99999 Served block blk_9999999999999999999 to /99.999.9.999
+Expiring session 9x99f9a999df99999, timeout of 99999ms exceeded
+BLOCK* ask 99.999.99.9:99999 to replicate blk_-9999999999999999999 to datanode(s) 99.999.999.9:99999
+9 Targeting domains:node-D9 and nodes:node-999
+Closed socket connection for client /99.99.99.99:99999 which had sessionid 9x99ed99999f999ab
+Expiring session 9x99ed999999999bc, timeout of 99999ms exceeded
+local-p9p.qq.com:999 error : Could not connect through proxy proxy.cse.cuhk.edu.hk:9999 - Proxy server cannot establish a connection with the target, status code 999
+log.getdropbox.com:99 open through proxy proxy.cse.cuhk.edu.hk:9999 HTTPS
+99.999.9.99:99999:Transmitted block blk_-9999999999999999999 to /99.999.999.999:99999
+trc.taboola.com:99 open through proxy proxy.cse.cuhk.edu.hk:9999 HTTPS
+BLOCK* NameSystem.addStoredBlock: blockMap updated: 99.999.999.9:99999 is added to blk_999999999999999 size 99999999
+99.999.9.9:99999 Served block blk_999999999999999999 to /99.999.9.999
+BLOCK* NameSystem.delete: blk_-9999999999999999 is added to invalidSet of 99.999.99.99:99999
+ade.googlesyndication.com:999 open through proxy proxy.cse.cuhk.edu.hk:9999 HTTPS
+BLOCK* NameSystem.addStoredBlock: blockMap updated: 99.999.9.999:99999 is added to blk_-999999999999999999 size 9999999
+BLOCK* ask 99.999.999.999:99999 to replicate blk_9999999999999999999 to datanode(s) 99.999.99.9:99999
+Received block blk_999999999999999999 of size 9999999 from /99.999.999.999
+Closed socket connection for client /99.99.99.99:99999 which had sessionid 9x99ed9ac9c9e99af
+99.999.99.999:99999 Served block blk_9999999999999999 to /99.999.999.9
+js.kiwihk.net:999 open through proxy proxy.cse.cuhk.edu.hk:9999 HTTPS
+Established session 9x99ed99999f999ec with negotiated timeout 99999 for client /99.99.99.99:99999
+Follower sid: 9 : info : org.apache.zookeeper.server.quorum.QuorumPeer$QuorumServer@999a99e9
+99.999.9.999:99999:Transmitted block blk_9999999999999999999 to /99.999.99.999:99999
+node-999 unix.hw state_change.unavailable 9999999999 9 Component State Change: Component \999SCSI-WWID:99999999:9999-99b9-9999-9999-9999-e999-9999-9999\999 is in the unavailable state (HWID=999)
+Received block blk_9999999999999999999 of size 99 from /99.999.99.99
+clusterAddMember  (command 9999)
+Expiring session 9x99ede99999f999d, timeout of 99999ms exceeded
+99.999.9.99:99999:Transmitted block blk_999999999999999999 to /99.999.999.999:99999
+BLOCK* ask 99.999.99.999:99999 to replicate blk_-9999999999999999999 to datanode(s) 99.999.999.999:99999 99.999.99.999:99999
+99.999.99.999:99999:Transmitted block blk_-999999999999999999 to /99.999.99.99:99999
+ServerFileSystem: ServerFileSystem domain give_domain is full
+cgi.qqweb.qq.com:99 open through proxy proxy.cse.cuhk.edu.hk:9999 HTTPS
+Processed session termination for sessionid: 9x99ede99999f9999
+Snapshotting: 9x9 to /var/lib/zookeeper/version-9/snapshot.9
+99.999.99.999:99999 Served block blk_-9999999999999999 to /99.999.999.999
+BLOCK* NameSystem.addStoredBlock: blockMap updated: 99.999.99.999:99999 is added to blk_99999999999999999 size 9999999
+Processed session termination for sessionid: 9x99f99999bd99999
+Targeting domains:node-D9 and nodes:node-[99\ 99]
+Established session 9x99edfaa9999999f with negotiated timeout 99999 for client /99.99.99.99:99999
+Established session 9x99f9fdae9ba999c with negotiated timeout 99999 for client /99.99.99.99:99999
+BLOCK* ask 99.999.999.999:99999 to replicate blk_9999999999999999999 to datanode(s) 99.999.99.99:99999
+Expiring session 9x99f9999999e9999, timeout of 99999ms exceeded
+99.999.999.99:99999 Served block blk_-999999999999999 to /99.999.999.999
+99.999.99.9:99999 Served block blk_9999999999999999999 to /99.999.999.999
+Expiring session 9x99ee9e999ed999d, timeout of 99999ms exceeded
+Expiring session 9x99ee99a9c99999c, timeout of 99999ms exceeded
+dpm.demdex.net:999 open through proxy proxy.cse.cuhk.edu.hk:9999 HTTPS
+BLOCK* NameSystem.addStoredBlock: blockMap updated: 99.999.9.9:99999 is added to blk_999999999999999 size 99999999
+drive-thirdparty.googleusercontent.com:999 close, 9999 bytes (9.99 KB) sent, 9999 bytes (9.99 KB) received, lifetime 99:99
+Received block blk_9999999999999999999 src: /99.999.9.9:99999 dest: /99.999.9.9:99999 of size 99999999
+Expiring session 9x99ed999999999ca, timeout of 99999ms exceeded
+Expiring session 9x99ed999999999dc, timeout of 99999ms exceeded
+Received block blk_-99999999999999999 of size 9999999 from /99.999.9.999
+node-999 unix.hw state_change.unavailable 9999999999 9 Component State Change: Component \999SCSI-WWID:99999999:9999-99b9-9999-99c9-9999-9999-9999-9999\999 is in the unavailable state (HWID=99)
+api.github.com:999 close, 9999 bytes (9.99 KB) sent, 9999 bytes (9.99 KB) received, lifetime 99:99
+Closed socket connection for client /99.99.99.99:99999 which had sessionid 9x99f9a999df9999e
+action start 9999999999 9 halt  (command 9999)
+wx9.sinaimg.cn:99 open through proxy proxy.cse.cuhk.edu.hk:9999 HTTPS
+tcpconn9.tencent.com:999 error : Could not connect through proxy proxy.cse.cuhk.edu.hk:9999 - Proxy closed the connection unexpectedly.
+NIFF: node node-99 has detected an available network connection on network 99.99.9.9 via interface scip9
+Targeting domains:node-D9 and nodes:node-[99\ 99-99\ 99-99\ 99]
+ServerFileSystem: ServerFileSystem domain cluster_var is full
+node-D9 domain status 9999999999 9 inconsistent nodesets node-99 9x999999fe <ok> node-99 9x999999fe <ok> node-99 9x9999fdfe <ok> node-99 9x9999fdfe <ok>
+node-D9 clusterfilesystem fdmn.full 9999999999 9 ServerFileSystem: ServerFileSystem domain storage9999 is full
+99.999.9.9:99999 Starting thread to transfer block blk_-9999999999999999999 to 99.999.999.99:99999
+99.999.9.99:99999 Served block blk_999999999999999999 to /99.999.9.999
+99.999.99.999:99999 Served block blk_-9999999999999999999 to /99.999.99.9
+BLOCK* NameSystem.allocateBlock: /user/root/randtxt/_temporary/_task_999999999999_9999_m_999999_9/part-99999. blk_-9999999999999999999
+99.999.99.99:99999:Transmitted block blk_-999999999999999999 to /99.999.999.999:99999
+BLOCK* NameSystem.delete: blk_-999999999999999 is added to invalidSet of 99.999.99.99:99999
+Closed socket connection for client /99.99.99.99:99999 which had sessionid 9x99ede99a9a99999
+BLOCK* NameSystem.addStoredBlock: blockMap updated: 99.999.99.999:99999 is added to blk_9999999999999999999 size 99999999
+99.999.9.999:99999:Transmitted block blk_9999999999999999999 to /99.999.9.999:99999
+github.com:999 close, 9999 bytes (9.99 KB) sent, 99999 bytes (99.9 KB) received, lifetime 99:99
+Received block blk_999999999999999999 of size 99999999 from /99.999.9.999
+BLOCK* ask 99.999.999.99:99999 to replicate blk_999999999999999999 to datanode(s) 99.999.999.99:99999
+node-D9 clusterfilesystem clusterfilesystem.not_served 9999999999 9 ClusterFileSystem: ServerFileSystem domain root9_tmp_backup is no longer served by node node-99
+writeBlock blk_9999999999999999999 received exception java.net.SocketTimeoutException
+Getting a snapshot from leader
+99.999.99.999:99999 Served block blk_999999999999999 to /99.999.999.999
+Receiving block blk_-9999999999999999 src: /99.999.999.9:99999 dest: /99.999.999.9:99999
+99.999.999.99:99999:Transmitted block blk_-9999999999999999999 to /99.999.9.99:99999
+99.999.9.999:99999 Starting thread to transfer block blk_9999999999999999999 to 99.999.999.999:99999
+manhua9999.99-999-99-99.cdndm9.com:99 close, 9999 bytes (9.99 KB) sent, 9999 bytes (9.99 KB) received, lifetime 99:99
+99.999.999.99:99999 Served block blk_-99999999999999999 to /99.999.99.9
+tcpconn9.tencent.com:99 close, 9999 bytes (9.99 KB) sent, 99999 bytes (99.9 KB) received, lifetime 99:99
+Processed session termination for sessionid: 9x99edfaa9c99999b
+suggestion.baidu.com:99 close, 99999 bytes (99.9 KB) sent, 9999 bytes (9.99 KB) received, lifetime 99:99
+BLOCK* NameSystem.addStoredBlock: blockMap updated: 99.999.9.99:99999 is added to blk_9999999999999999999 size 999999
+www.evernote.com:999 close, 9999 bytes (9.99 KB) sent, 99999 bytes (9.99 KB) received, lifetime 99:99
+BLOCK* NameSystem.addStoredBlock: blockMap updated: 99.999.99.99:99999 is added to blk_9999999999999999 size 99999999
+BLOCK* ask 99.999.999.999:99999 to replicate blk_-9999999999999999999 to datanode(s) 99.999.99.99:99999
+99.999.99.999:99999:Transmitted block blk_-999999999999999999 to /99.999.99.9:99999
+Established session 9x99f9a99999b999b with negotiated timeout 99999 for client /99.99.99.99:99999
+node status 9999999999 9 configured out
+update.hicloud.com:9999 error : Could not connect through proxy proxy.cse.cuhk.edu.hk:9999 - Proxy server cannot establish a connection with the target, status code 999
+Changing block file offset of block blk_-9999999999999999999 from 9 to 9999999 meta file offset to 99999
+99.999.999.999:99999 Served block blk_-999999999999999999 to /99.999.999.9
+BLOCK* NameSystem.addStoredBlock: blockMap updated: 99.999.99.99:99999 is added to blk_-999999999999999999 size 99999999
+BLOCK* NameSystem.delete: blk_9999999999999999999 is added to invalidSet of 99.999.99.9:99999
+Closed socket connection for client /99.99.99.99:99999 which had sessionid 9x99ed9999999999c
+99.999.99.999:99999:Transmitted block blk_-9999999999999999999 to /99.999.9.999:99999
+Receiving block blk_999999999999999 src: /99.999.99.99:99999 dest: /99.999.99.99:99999
+writeBlock blk_999999999999999999 received exception java.io.IOException: Interrupted receiveBlock
+securepubads.g.doubleclick.net:999 close, 9999 bytes (9.99 KB) sent, 9999 bytes (9.99 KB) received, lifetime 99:99
+secure.quantserve.com:999 close, 9999 bytes (9.99 KB) sent, 9999 bytes (9.99 KB) received, lifetime 99:99
+BLOCK* ask 99.999.999.999:99999 to replicate blk_-999999999999999999 to datanode(s) 99.999.999.99:99999 99.999.9.999:99999
+Established session 9x99ed9ac9c9e99ae with negotiated timeout 99999 for client /99.99.99.99:99999
+node-D9 clusterfilesystem clusterfilesystem.not_served 9999999999 9 ClusterFileSystem: ServerFileSystem domain cluster_root_backup is no longer served by node node-99
+mail.google.com:999 close, 9999999 bytes (9.99 MB) sent, 999999 bytes (999 KB) received, lifetime 99:99
+99.999.999.999:99999 Starting thread to transfer block blk_-9999999999999999999 to 99.999.99.99:99999, 99.999.99.999:99999
+BLOCK* NameSystem.addStoredBlock: blockMap updated: 99.999.999.999:99999 is added to blk_99999999999999999 size 99999999
+BLOCK* NameSystem.addStoredBlock: blockMap updated: 99.999.9.99:99999 is added to blk_-9999999999999999999 size 9999999
+BLOCK* ask 99.999.99.9:99999 to replicate blk_9999999999999999999 to datanode(s) 99.999.9.999:99999
+r9---sn-i9b9kn99.googlevideo.com:999 open through proxy proxy.cse.cuhk.edu.hk:9999 HTTPS
+Follower sid: 9 : info : org.apache.zookeeper.server.quorum.QuorumPeer$QuorumServer@99b9ac99
+node-999 node status 9999999999 9 configured out
+Established session 9x99ede99a99b999b with negotiated timeout 99999 for client /99.99.99.99:99999
+mini.cpc.sogou.com:99 open through proxy proxy.cse.cuhk.edu.hk:9999 HTTPS
+99.999.999.99:99999 Starting thread to transfer block blk_9999999999999999999 to 99.999.999.9:99999
+www.qq.com:99 error : Could not connect to proxy proxy.cse.cuhk.edu.hk:9999 - Could not resolve proxy.cse.cuhk.edu.hk error 99999
+ClusterFileSystem: ServerFileSystem domain storage999 is no longer served by node node-999
+99.999.999.99:99999 Starting thread to transfer block blk_9999999999999999999 to 99.999.999.999:99999, 99.999.99.999:99999
+ClusterFileSystem: ServerFileSystem domain root_domain is no longer served by node node-999
+BLOCK* NameSystem.addStoredBlock: blockMap updated: 99.999.99.999:99999 is added to blk_9999999999999999999 size 999999
+wn.pos.baidu.com:99 open through proxy proxy.cse.cuhk.edu.hk:9999 HTTPS
+clusterfilesystem clusterfilesystem.not_served 9999999999 9 ClusterFileSystem: ServerFileSystem domain root9_domain_backup is no longer served by node node-99
+Expiring session 9x99ee9e999ed999a, timeout of 99999ms exceeded
+999.99.99.999:999 open through proxy proxy.cse.cuhk.edu.hk:9999 HTTPS
+BLOCK* ask 99.999.99.99:99999 to replicate blk_99999999999999999 to datanode(s) 99.999.999.99:99999
+full partition status 9999999999 9 closing
+inconsistent nodesets node-999 9x9fffffff9 <ok> node-999 9x9fffffffe <ok> node-999 9x9fffffffe <ok> node-999 9x9fffffff9 <ok>
+999.999.999.99:999 close, 99999 bytes (99.9 KB) sent, 9999999 bytes (9.99 MB) received, lifetime 99:99
+Expiring session 9x99ed99999f9999c, timeout of 99999ms exceeded
+Received block blk_999999999999999999 src: /99.999.99.9:99999 dest: /99.999.99.9:99999 of size 9999999
+BLOCK* NameSystem.addStoredBlock: blockMap updated: 99.999.999.999:99999 is added to blk_9999999999999999 size 9999999
+99.999.99.999:99999 Starting thread to transfer block blk_-9999999999999999999 to 99.999.999.999:99999, 99.999.99.999:99999
+99.999.99.99:99999 Served block blk_-999999999999999 to /99.999.99.99
+cdn.doublemax.net:999 close, 9999 bytes (9.99 KB) sent, 9999 bytes (9.99 KB) received, lifetime 99:99
+writeBlock blk_-9999999999999999999 received exception java.io.EOFException
+-9 configured out
+node-99 unix.hw net.niff.down 9999999999 9 NIFF: node node-99 detected a failed network connection on network 9.9.9.9 via interface alt9
+99.999.99.99:99999 Served block blk_99999999999999999 to /99.999.999.99
+99.999.99.9:99999:Transmitted block blk_-9999999999999999999 to /99.999.99.999:99999
+Closed socket connection for client /99.99.99.99:99999 which had sessionid 9x99edfaa9c99999d
+Established session 9x99ede99a99b999f with negotiated timeout 99999 for client /99.99.99.99:99999
+Component State Change: Component \999SCSI-WWID:99999999:9999-99b9-9999-9999-9999-9999-99bc-9999\999 is in the unavailable state (HWID=9999)
+manhua.999.com:999 close, 9999 bytes (9.99 KB) sent, 9999 bytes (9.99 KB) received, lifetime <9 sec
+99.999.999.99:99999 Starting thread to transfer block blk_-9999999999999999999 to 99.999.99.999:99999, 99.999.999.99:99999
+BAYMSGR9999999.gateway.messenger.live.com:999 close, 99999 bytes (99.9 KB) sent, 99999 bytes (99.9 KB) received, lifetime 99:99
+99.999.99.999:99999 Served block blk_999999999999999999 to /99.999.99.99
+dslb.cdn.krcom.cn:99 open through proxy proxy.cse.cuhk.edu.hk:9999 HTTPS
+99.999.999.999:99999 Starting thread to transfer block blk_9999999999999999999 to 99.999.9.9:99999
+c.trello.com:999 close, 99999 bytes (99.9 KB) sent, 99999 bytes (99.9 KB) received, lifetime 99:99
+Received block blk_999999999999999999 of size 99999999 from /99.999.9.99
+Received block blk_-9999999999999999999 src: /99.999.99.99:99999 dest: /99.999.99.99:99999 of size 99999
+clusterfilesystem clusterfilesystem.not_served 9999999999 9 ClusterFileSystem: ServerFileSystem domain root9_local_backup is no longer served by node node-99
+Established session 9x99f9a99999b999a with negotiated timeout 99999 for client /99.99.99.99:99999
+99.999.99.99:99999:Transmitted block blk_-999999999999999999 to /99.999.99.999:99999
+www.google.com:999 error : Could not connect to proxy proxy.cse.cuhk.edu.hk:9999 - Could not resolve proxy.cse.cuhk.edu.hk error 99999
+99.999.99.99:99999 Served block blk_-9999999999999999999 to /99.999.99.999
+analytics.twitter.com:999 close, 9999 bytes (9.99 KB) sent, 9999 bytes (9.99 KB) received, lifetime 99:99
+BLOCK* Removing block blk_-9999999999999999999 from neededReplications as it does not belong to any file.
+Received block blk_9999999999999999999 src: /99.999.99.999:99999 dest: /99.999.99.999:99999 of size 99999999
+Received block blk_-9999999999999999999 of size 99999999 from /99.999.9.99
+BLOCK* ask 99.999.999.99:99999 to replicate blk_-9999999999999999999 to datanode(s) 99.999.9.9:99999
+sb.scorecardresearch.com:999 close, 9999 bytes (9.99 KB) sent, 9999 bytes (9.99 KB) received, lifetime 99:99
+99.999.999.99:99999 Starting thread to transfer block blk_-999999999999999999 to 99.999.999.9:99999
+99.999.999.9:99999 Served block blk_9999999999999999999 to /99.999.9.999
+imp.go.sohu.com:99 close, 9999 bytes (9.99 KB) sent, 9999 bytes (9.99 KB) received, lifetime 99:99
+BLOCK* NameSystem.addStoredBlock: Redundant addStoredBlock request received for blk_-99999999999999999 on 99.999.9.999:99999 size 99999999
+timgsa.baidu.com:999 open through proxy proxy.cse.cuhk.edu.hk:9999 HTTPS
+img.9999.com:99 close, 9999 bytes (9.99 KB) sent, 99999 bytes (99.9 KB) received, lifetime 99:99
+action start 9999999999 9 boot  (command 9999)
+BLOCK* ask 99.999.999.99:99999 to replicate blk_9999999999999999999 to datanode(s) 99.999.99.9:99999
+clientservices.googleapis.com:999 close, 9999 bytes (9.99 KB) sent, 9999 bytes (9.99 KB) received, lifetime 99:99
+PacketResponder 9 for block blk_-999999999999999 terminating
+shutdown of request processor complete
+stackoverflow.com:999 open through proxy proxy.cse.cuhk.edu.hk:9999 HTTPS
+99.999.999.999:99999 Served block blk_9999999999999999999 to /99.999.9.999
+99.999.99.99:99999:Transmitted block blk_-999999999999999999 to /99.999.999.99:99999
+sclick.baidu.com:99 error : Could not connect to proxy proxy.cse.cuhk.edu.hk:9999 - Could not resolve proxy.cse.cuhk.edu.hk error 99999
+p.tanx.com:999 close, 9999 bytes (9.99 KB) sent, 9999 bytes (9.99 KB) received, lifetime 99:99
+Client attempting to renew session 9x99f99999bd9999d at /99.99.99.99:99999
+99.999.999.99:99999:Transmitted block blk_-9999999999999999999 to /99.999.99.9:99999
+r9---sn-i9b9knez.googlevideo.com:999 close, 9999 bytes (9.99 KB) sent, 99999 bytes (99.9 KB) received, lifetime 99:99
+inconsistent nodesets node-999 9x9ffe9999e <ok> node-999 9x9fc99999e <ok> node-999 9x9fc99999e <ok> node-999 9x9fc99999e <ok>
+99.999.999.999:99999 Starting thread to transfer block blk_99999999999999999 to 99.999.99.9:99999
+unix.hw state_change.unavailable 9999999999 9 Component State Change: Component \999SCSI-WWID:99999999:9999-99b9-9999-c999-9999-9999-999b-9999\999 is in the unavailable state (HWID=9999)
+Received block blk_999999999999999999 of size 99999 from /99.999.999.999
+unix.hw net.niff.up 9999999999 9 NIFF: node node-99 has detected an available network connection on network 9.9.9.9 via interface alt9
+New election. My id =  9, proposed zxid=9x999999dcd
+99.999.9.9:99999 Served block blk_9999999999999999999 to /99.999.99.999
+Follower sid: 9 : info : org.apache.zookeeper.server.quorum.QuorumPeer$QuorumServer@99ecaa9f
+node-999 unix.hw state_change.unavailable 9999999999 9 Component State Change: Component \999SCSI-WWID:99999999:9999-99b9-9999-99cf-9999-9999-999b-9999\999 is in the unavailable state (HWID=99)
+client-lb.dropbox.com:999 error : Could not connect to proxy proxy.cse.cuhk.edu.hk:9999 - connection attempt failed with error 99999
+Expiring session 9x99edfaa99f9999b, timeout of 99999ms exceeded
+BLOCK* ask 99.999.999.999:99999 to replicate blk_9999999999999999999 to datanode(s) 99.999.9.999:99999
+Established session 9x99ede99a99b999c with negotiated timeout 99999 for client /99.99.99.99:99999
+BLOCK* ask 99.999.999.99:99999 to replicate blk_99999999999999999 to datanode(s) 99.999.99.999:99999
+Established session 9x99ed99999999999 with negotiated timeout 99999 for client /99.99.99.99:99999
+99.999.99.999:99999 Served block blk_-999999999999999 to /99.999.9.999
+qa.sockets.stackexchange.com:999 error : Could not connect to proxy proxy.cse.cuhk.edu.hk:9999 - connection attempt failed with error 99999
+99.999.9.999:99999:Transmitted block blk_9999999999999999999 to /99.999.9.99:99999
+node-99 unix.hw state_change.unavailable 9999999999 9 Component State Change: Component \999SCSI-WWID:99999999:9999-99b9-9999-9999-9999-9999-99af-9999\999 is in the unavailable state (HWID=9999)
+Processed session termination for sessionid: 9x99f9fdb9f99999c
+99.999.9.999:99999 Served block blk_-99999999999999999 to /99.999.9.9
+BLOCK* ask 99.999.999.99:99999 to replicate blk_999999999999999999 to datanode(s) 99.999.999.999:99999
+99.999.999.999:99999:Transmitted block blk_-999999999999999999 to /99.999.999.999:99999
+Closed socket connection for client /99.99.99.99:99999 which had sessionid 9x99ed999999999a9
+My election bind port: 9.9.9.9/9.9.9.9:9999
+9 Link error on broadcast tree Interconnect-9T99:99:9:9
+BLOCK* NameSystem.addStoredBlock: Redundant addStoredBlock request received for blk_-99999999999999999 on 99.999.99.999:99999 size 9999999
+dblp.uni-trier.de:99 open through proxy proxy.cse.cuhk.edu.hk:9999 HTTPS
+99.999.999.99:99999 Served block blk_-9999999999999999999 to /99.999.99.9
+9 ClusterFileSystem: ServerFileSystem domain root9_domain_backup is no longer served by node node-999
+Processed session termination for sessionid: 9x99ede99999f999a
+BLOCK* NameSystem.addStoredBlock: blockMap updated: 99.999.999.9:99999 is added to blk_-999999999999999999 size 99999999
+inconsistent nodesets node-99 9x9999999e <ok> node-999 9x9fffffffe <ok> node-99 9x9999999e <ok> node-99 9x9999999e <ok>
+bolt.dropbox.com:999 close, 99999 bytes (99.9 KB) sent, 9999 bytes (9.99 KB) received, lifetime 99:99
+ClusterFileSystem: ServerFileSystem domain root99_domain is no longer served by node node-99
+r9---sn-i9beln9k.googlevideo.com:999 open through proxy proxy.cse.cuhk.edu.hk:9999 HTTPS
+Received block blk_-999999999999999 of size 99999999 from /99.999.999.9
+Processed session termination for sessionid: 9x99ed9ac9c9e99cb
+99.999.9.99:99999 Starting thread to transfer block blk_9999999999999999999 to 99.999.99.99:99999
+99.999.999.999:99999:Transmitted block blk_9999999999999999999 to /99.999.9.9:99999
+PacketResponder blk_999999999999999999 9 Exception java.io.IOException: Connection reset by peer
+Received block blk_-9999999999999999999 src: /99.999.99.9:99999 dest: /99.999.99.9:99999 of size 9999999
+BLOCK* ask 99.999.999.999:99999 to replicate blk_-99999999999999999 to datanode(s) 99.999.99.99:99999
+BLOCK* NameSystem.addStoredBlock: blockMap updated: 99.999.999.999:99999 is added to blk_-999999999999999999 size 99
+Established session 9x99ed99999f999cf with negotiated timeout 99999 for client /99.99.99.99:99999
+99.999.99.999:99999:Transmitted block blk_-9999999999999999999 to /99.999.999.99:99999
+Closed socket connection for client /99.99.99.99:99999 which had sessionid 9x99ee99a9c99999e
+99.999.99.99:99999 Served block blk_-999999999999999999 to /99.999.999.9
+99.999.99.99:99999 Served block blk_9999999999999999999 to /99.999.9.99
+99.999.99.99:99999 Served block blk_-9999999999999999999 to /99.999.999.999
+img.9999.com:99 open through proxy proxy.cse.cuhk.edu.hk:9999 HTTPS
+Receiving block blk_999999999999999999 src: /99.999.999.999:99999 dest: /99.999.999.999:99999
+BLOCK* NameSystem.addStoredBlock: blockMap updated: 99.999.999.999:99999 is added to blk_-99999999999999999 size 9999999
+BLOCK* NameSystem.allocateBlock: /user/root/sortrand/_temporary/_task_999999999999_9999_r_999999_9/part-99999. blk_999999999999999
+BLOCK* NameSystem.addStoredBlock: blockMap updated: 99.999.99.9:99999 is added to blk_-9999999999999999999 size 99999
+strip.alicdn.com:99 close, 9999 bytes (9.99 KB) sent, 99999 bytes (99.9 KB) received, lifetime 99:99
+js9.t.sinajs.cn:99 open through proxy proxy.cse.cuhk.edu.hk:9999 HTTPS
+tpc.googlesyndication.com:999 close, 9999 bytes (9.99 KB) sent, 999999 bytes (999 KB) received, lifetime 99:99
+get.sogou.com:99 error : Could not connect to proxy proxy.cse.cuhk.edu.hk:9999 - Could not resolve proxy.cse.cuhk.edu.hk error 99999
+BLOCK* NameSystem.delete: blk_999999999999999 is added to invalidSet of 99.999.9.999:99999
+99.999.999.9:99999 Served block blk_-9999999999999999999 to /99.999.9.99
+99.999.99.999:99999 Served block blk_999999999999999999 to /99.999.999.99
+Processed session termination for sessionid: 9x99edfaa99999999
+s.youtube.com:999 close, 99999 bytes (99.9 KB) sent, 9999999 bytes (9.99 MB) received, lifetime 99:99
+99.client-channel.google.com:999 open through proxy proxy.cse.cuhk.edu.hk:9999 HTTPS
+99.999.999.999:99999 Starting thread to transfer block blk_99999999999999999 to 99.999.99.999:99999, 99.999.999.99:99999
+BLOCK* NameSystem.addStoredBlock: blockMap updated: 99.999.9.99:99999 is added to blk_9999999999999999 size 99999999
+99.999.9.999:99999 Served block blk_-99999999999999999 to /99.999.99.99
+Received block blk_-999999999999999999 of size 99999 from /99.999.999.99
+99.999.99.99:99999 Served block blk_9999999999999999 to /99.999.99.999
+BLOCK* ask 99.999.9.9:99999 to replicate blk_-999999999999999999 to datanode(s) 99.999.999.999:99999
+99.999.999.999:99999 Starting thread to transfer block blk_9999999999999999999 to 99.999.99.999:99999, 99.999.999.999:99999
+Received block blk_999999999999999999 src: /99.999.999.999:99999 dest: /99.999.999.999:99999 of size 99999999
+Received block blk_9999999999999999 of size 99999999 from /99.999.99.99
+9 NIFF: node node-9 has detected an available network connection on network 9.9.999.9 via interface alt9
+99.999.999.999:99999 Served block blk_-99999999999999 to /99.999.999.99
+yuedust.yuedu.999.net:999 open through proxy proxy.cse.cuhk.edu.hk:9999 HTTPS
+BLOCK* ask 99.999.9.999:99999 to replicate blk_9999999999999999999 to datanode(s) 99.999.99.9:99999 99.999.99.99:99999
+s9.bdstatic.com:99 error : Could not connect to proxy proxy.cse.cuhk.edu.hk:9999 - Could not resolve proxy.cse.cuhk.edu.hk error 99999
+BLOCK* NameSystem.addStoredBlock: blockMap updated: 99.999.999.999:99999 is added to blk_99999999999999 size 99999999
+clusterfilesystem fdmn.full 9999999999 9 ServerFileSystem: ServerFileSystem domain give_domain is full
+inconsistent nodesets node-99 9x9fffffffe <ok> node-99 9x9dfffffe <ok> node-99 9x9dfffffe <ok> node-99 9x9dfffffe <ok>
+Established session 9x99ed99999f999af with negotiated timeout 99999 for client /99.99.99.99:99999
+99.999.999.999:99999 Served block blk_9999999999999999 to /99.999.99.999
+Established session 9x99ed9ac9c9e99ca with negotiated timeout 99999 for client /99.99.99.99:99999
+99.999.99.9:99999:Transmitted block blk_999999999999999999 to /99.999.99.999:99999
+BLOCK* NameSystem.addStoredBlock: blockMap updated: 99.999.9.9:99999 is added to blk_-99999999999999999 size 999999
+Received block blk_-9999999999999999999 of size 99999 from /99.999.9.999
+Received block blk_99999999999999999 of size 99999999 from /99.999.99.999
+node-99 action start 9999999999 9 clusterAddMember  (command 9999)
+manhua.999.com:999 close, 9999 bytes (9.99 KB) sent, 99999 bytes (99.9 KB) received, lifetime 99:99
+Expiring session 9x99ed9ac9c9e999d, timeout of 99999ms exceeded
+drive.google.com:999 close, 9999 bytes (9.99 KB) sent, 999999 bytes (999 KB) received, lifetime 99:99
+www.ieeeconfpublishing.org:99 open through proxy proxy.cse.cuhk.edu.hk:9999 HTTPS
+Receiving block blk_999999999999999 src: /99.999.9.999:99999 dest: /99.999.9.999:99999
+i9.itc.cn:99 close, 9999 bytes (9.99 KB) sent, 99999 bytes (99.9 KB) received, lifetime 99:99
+BLOCK* NameSystem.delete: blk_999999999999999 is added to invalidSet of 99.999.99.999:99999
+Expiring session 9x99f9fdae9ba999a, timeout of 99999ms exceeded
+shutdown_cmd new 9999999999 9 Targeting domains:node-D9 and nodes:node-[99-999] child of command 9999
+99.999.999.999:99999 Served block blk_-9999999999999999 to /99.999.99.999
+Receiving block blk_-9999999999999999999 src: /99.999.999.99:99999 dest: /99.999.999.99:99999
+unix.hw net.niff.up 9999999999 9 NIFF: node node-9 has detected an available network connection on network 9.9.9.9 via interface alt9
+Processed session termination for sessionid: 9x99f9999b9af999d
+PacketResponder blk_-999999999999999999 9 Exception java.io.IOException: Connection reset by peer
+inconsistent nodesets node-999 9x9fffffffe <ok> node-99 9x9fffc9ffe <ok> node-99 9x9fffc9ffe <ok> node-99 9x9fffc9ffe <ok>
+Closed socket connection for client /99.99.99.99:99999 which had sessionid 9x99f9fdaf999999c
+9-edge-chat.facebook.com:999 close, 99999 bytes (99.9 KB) sent, 9999 bytes (9.99 KB) received, lifetime 99:99
+upload.9999.com:99 close, 9999 bytes (9.99 KB) sent, 999999 bytes (999 KB) received, lifetime 99:99
+99.999.99.999:99999 Served block blk_9999999999999999 to /99.999.999.999
+99.999.9.99:99999 Served block blk_-9999999999999999999 to /99.999.99.99
+99.999.9.999:99999 Starting thread to transfer block blk_-999999999999999999 to 99.999.99.999:99999
+trello.com:999 close, 9999 bytes (9.99 KB) sent, 99999 bytes (99.9 KB) received, lifetime 99:99
+99.999.9.9:99999:Transmitted block blk_9999999999999999999 to /99.999.99.9:99999
+tcpconn9.tencent.com:999 close, 9999 bytes (9.99 KB) sent, 99999 bytes (99.9 KB) received, lifetime 99:99
+9 Component State Change: Component \999SCSI-WWID:99999999:9999-99b9-9999-99c9-9999-9999-9999-9999\999 is in the unavailable state (HWID=99)
+BLOCK* NameSystem.addStoredBlock: blockMap updated: 99.999.99.999:99999 is added to blk_999999999999999999 size 999999
+Expiring session 9x99f9a999df9999f, timeout of 99999ms exceeded
+BLOCK* ask 99.999.99.999:99999 to replicate blk_-999999999999999999 to datanode(s) 99.999.99.99:99999
+Server environment:java.library.path=/usr/java/packages/lib/amd99:/usr/lib/x99_99-linux-gnu/jni:/lib/x99_99-linux-gnu:/usr/lib/x99_99-linux-gnu:/usr/lib/jni:/lib:/usr/lib
+Deleting block blk_-99999999999999 file /mnt/hadoop/dfs/data/current/subdir99/blk_-99999999999999
+node-9 unix.hw state_change.unavailable 9999999999 9 Component State Change: Component \999SCSI-WWID:99999999:9999-99b9-9999-999b-9999-9999-999c-9999\999 is in the unavailable state (HWID=9999)
+Established session 9x99ed9999999999f with negotiated timeout 99999 for client /99.99.99.99:99999
+Expiring session 9x99ed99999f999bb, timeout of 99999ms exceeded
+99.999.99.99:99999 Starting thread to transfer block blk_9999999999999999999 to 99.999.999.99:99999
+Closed socket connection for client /99.99.99.99:99999 which had sessionid 9x99f9999999a999e
+Received block blk_-9999999999999999999 of size 99999999 from /99.999.9.999
+BLOCK* NameSystem.allocateBlock: /user/root/sortrand9/_temporary/_task_999999999999_9999_r_999999_9/part-99999. blk_-9999999999999999999
+Receiving block blk_99999999999999999 src: /99.999.999.9:99999 dest: /99.999.999.9:99999
+node-9 unix.hw state_change.unavailable 9999999999 9 Component State Change: Component \999SCSI-WWID:99999999:9999-99b9-9999-9999-9999-a999-9999-9999\999 is in the unavailable state (HWID=9999)
+passport.99999.com:999 close, 9999 bytes (9.99 KB) sent, 9999 bytes (9.99 KB) received, lifetime 99:99
+99.999.99.99:99999 Served block blk_-99999999999999999 to /99.999.999.99
+ping9.teamviewer.com:999 open through proxy proxy.cse.cuhk.edu.hk:9999 HTTPS
+99.999.999.99:99999 Starting thread to transfer block blk_-99999999999999999 to 99.999.99.999:99999
+BLOCK* NameSystem.delete: blk_999999999999999999 is added to invalidSet of 99.999.999.999:99999
+Processed session termination for sessionid: 9x99ed999999999c9
+99.999.9.999:99999 Served block blk_-999999999999999999 to /99.999.9.99
+Received block blk_-9999999999999999 src: /99.999.99.99:99999 dest: /99.999.99.99:99999 of size 99999999
+BLOCK* NameSystem.addStoredBlock: blockMap updated: 99.999.999.999:99999 is added to blk_-999999999999999999 size 9999999
+99.999.99.99:99999 Starting thread to transfer block blk_-9999999999999999999 to 99.999.99.999:99999, 99.999.9.99:99999
+Interconnect-9T99 switch_module bcast-error 9999999999 9 Link error
+Component State Change: Component \999SCSI-WWID:99999999:9999-99b9-9999-999a-9999-9999-9999-9999\999 is in the unavailable state (HWID=9999)
+9 boot  (command 9999)
+Receiving block blk_-99999999999999999 src: /99.999.99.99:99999 dest: /99.999.99.99:99999
+Closed socket connection for client /99.99.99.99:99999 which had sessionid 9x99ed999999999d9
+9 Failed subcommands 9999
+Established session 9x99ed999999999d9 with negotiated timeout 99999 for client /99.99.99.99:99999
+Component State Change: Component \999SCSI-WWID:99999999:9999-99b9-9999-9999-9999-a999-9999-9999\999 is in the unavailable state (HWID=9999)
+99.999.9.999:99999 Served block blk_9999999999999999999 to /99.999.99.99
+cpro.baidustatic.com:99 close, 9999 bytes (9.99 KB) sent, 9999 bytes (9.99 KB) received, lifetime 99:99
+r99---sn-p9qlsn99.googlevideo.com:999 close, 9999 bytes (9.99 KB) sent, 99999 bytes (99.9 KB) received, lifetime 99:99
+js.t.sinajs.cn:99 close, 9999 bytes (9.99 KB) sent, 99999 bytes (99.9 KB) received, lifetime 99:99
+node-99 unix.hw state_change.unavailable 9999999999 9 Component State Change: Component \999SCSI-WWID:99999999:9999-99b9-9999-99fc-9999-9999-9999-9999\999 is in the unavailable state (HWID=9999)
+Processed session termination for sessionid: 9x99ed999999999bf
+Component State Change: Component \999SCSI-WWID:99999999:9999-99b9-9999-c999-9999-9999-99bf-9999\999 is in the unavailable state (HWID=9999)
+9 ClusterFileSystem: ServerFileSystem domain cluster_usr_backup is no longer served by node node-999
+Deleting block blk_-9999999999999999 file /mnt/hadoop/dfs/data/current/subdir9/blk_-9999999999999999
+99.999.99.99:99999:Transmitted block blk_9999999999999999999 to /99.999.999.99:99999
+Expiring session 9x99ee99a99f9999e, timeout of 99999ms exceeded
+proxy.cse.cuhk.edu.hk:9999 close, 9999 bytes (9.99 KB) sent, 99999 bytes (99.9 KB) received, lifetime 99:99
+Interrupting SendWorker
+BLOCK* ask 99.999.999.99:99999 to replicate blk_-9999999999999999999 to datanode(s) 99.999.99.9:99999
+Component State Change: Component \999SCSI-WWID:99999999:9999-99b9-9999-9999-9999-c999-999b-9999\999 is in the unavailable state (HWID=9999)
+Expiring session 9x99ee9e999ed999e, timeout of 99999ms exceeded
+client-cf.dropbox.com:999 error : Could not connect to proxy proxy.cse.cuhk.edu.hk:9999 - Could not resolve proxy.cse.cuhk.edu.hk error 99999
+node-D9 clusterfilesystem clusterfilesystem.not_served 9999999999 9 ClusterFileSystem: ServerFileSystem domain root9_local_backup is no longer served by node node-999
+Expiring session 9x99f9999999e999f, timeout of 99999ms exceeded
+99.999.999.99:99999 Starting thread to transfer block blk_999999999999999999 to 99.999.9.999:99999
+Receiving block blk_-999999999999999999 src: /99.999.99.9:99999 dest: /99.999.99.9:99999
+Snapshotting: 9xc9999999f to /var/lib/zookeeper/version-9/snapshot.c9999999f
+r9---sn-vgqskn9l.googlevideo.com:999 open through proxy proxy.cse.cuhk.edu.hk:9999 HTTPS
+BLOCK* NameSystem.allocateBlock: /user/root/sortrand9/_temporary/_task_999999999999_9999_r_999999_9/part-99999. blk_-9999999999999999
+Received block blk_999999999999999999 of size 99999999 from /99.999.999.99
+99.999.99.9:99999 Served block blk_-999999999999999999 to /99.999.9.99
+Component State Change: Component \999SCSI-WWID:99999999:9999-99b9-9999-99fc-9999-9999-9999-9999\999 is in the unavailable state (HWID=9999)
+Expiring session 9x99edfaa99f9999d, timeout of 99999ms exceeded
+Expiring session 9x99ed999999999ba, timeout of 99999ms exceeded
+Closed socket connection for client /99.99.99.99:99999 which had sessionid 9x99ee99a99f9999e
+p9p.sogou.com:99 open through proxy proxy.cse.cuhk.edu.hk:9999 HTTPS
+writeBlock blk_999999999999999999 received exception java.io.EOFException
+bolt.dropbox.com:999 error : A connection request was canceled before the completion.
+cnzz.mmstat.com:99 open through proxy proxy.cse.cuhk.edu.hk:9999 HTTPS
+s.zkcdn.net:999 open through proxy proxy.cse.cuhk.edu.hk:9999 HTTPS
+Closed socket connection for client /99.99.99.99:99999 which had sessionid 9x99f9fdae9ba999d
+tcpconn.tencent.com:99 open through proxy proxy.cse.cuhk.edu.hk:9999 HTTPS
+Received block blk_9999999999999999999 of size 9999 from /99.999.99.99
+99.999.999.999:99999 Starting thread to transfer block blk_-99999999999999999 to 99.999.99.99:99999
+app.9999.cn:99 open through proxy proxy.cse.cuhk.edu.hk:9999 HTTPS
+proxy.cse.cuhk.edu.hk:9999 close, 9999 bytes (9.99 KB) sent, 99999 bytes (9.99 KB) received, lifetime 99:99
+99.client-channel.google.com:999 close, 99999 bytes (99.9 KB) sent, 99999 bytes (99.9 KB) received, lifetime 99:99:99
+Established session 9x99f9999b9af999a with negotiated timeout 99999 for client /99.99.99.99:99999
+rtax.criteo.com:99 close, 99999 bytes (99.9 KB) sent, 9999 bytes (9.99 KB) received, lifetime <9 sec
+BLOCK* NameSystem.addStoredBlock: blockMap updated: 99.999.99.9:99999 is added to blk_999999999999999 size 99999999
+99.999.9.999:99999 Served block blk_-9999999999999999 to /99.999.999.99
+node-9 action start 9999999999 9 bootGenvmunix  (command 9999)
+BLOCK* NameSystem.delete: blk_9999999999999999999 is added to invalidSet of 99.999.9.9:99999
+Exception in receiveBlock for block blk_9999999999999999999 java.nio.channels.ClosedByInterruptException
+writeBlock blk_99999999999999999 received exception java.io.IOException: Could not read from stream
+Closed socket connection for client /99.99.99.99:99999 which had sessionid 9x99ed9999999999a
+99.999.999.9:99999 Starting thread to transfer block blk_-9999999999999999999 to 99.999.99.9:99999
+BLOCK* NameSystem.delete: blk_9999999999999999 is added to invalidSet of 99.999.9.9:99999
+node-D9 domain status 9999999999 9 inconsistent nodesets node-99 9x9fffffffe <ok> node-9 9xfffffffe <ok> node-9 9xfffffffe <ok> node-9 9xfffffffe <ok> node-99 9xfffffffe <ok>
+Receiving empty packet for block blk_9999999999999999
+Received block blk_999999999999999999 src: /99.999.9.999:99999 dest: /99.999.9.999:99999 of size 99999999
+Expiring session 9x99ee99a99f99999, timeout of 99999ms exceeded
+Received block blk_-99999999999999999 src: /99.999.99.9:99999 dest: /99.999.99.9:99999 of size 99999999
+Follower sid: 9 : info : org.apache.zookeeper.server.quorum.QuorumPeer$QuorumServer@999999f9
+PendingReplicationMonitor timed out block blk_99999999999999999
+99.999.999.9:99999 Served block blk_-9999999999999999999 to /99.999.99.9
+node-9 unix.hw state_change.unavailable 9999999999 9 Component State Change: Component \999SCSI-WWID:99999999:9999-99b9-9999-c999-9999-9999-999d-9999\999 is in the unavailable state (HWID=9999)
+Processed session termination for sessionid: 9x99ed99999f999ea
+99.999.999.999:99 open through proxy proxy.cse.cuhk.edu.hk:9999 HTTPS
+9 ClusterFileSystem: ServerFileSystem domain root9_local_backup is no longer served by node node-99
+Closed socket connection for client /99.99.99.99:99999 which had sessionid 9x99ed999999999dd
+boot_cmd abort 9999999999 9 Failed subcommands 9999\ 9999\ 9999
+Established session 9x99f9999999a999b with negotiated timeout 99999 for client /99.99.99.99:99999
+99.999.9.999:99999 Served block blk_9999999999999999999 to /99.999.9.9
+99.999.999.99:99999 Starting thread to transfer block blk_9999999999999999999 to 99.999.999.999:99999, 99.999.999.999:99999
+inconsistent nodesets node-999 9x9999e9ee <ok> node-999 9x9999fdee <ok> node-999 9x9999fdee <ok> node-999 9x9999fdee <ok> node-999 9x9999fdee <ok>
+inconsistent nodesets node-9 9x9999999e <ok> node-9 9x9999999e <ok> node-9 9x999999fe <ok> node-9 9x999999fe <ok>
+unix.hw state_change.unavailable 9999999999 9 Component State Change: Component \999SCSI-WWID:99999999:9999-99b9-9999-9999-9999-b999-999f-9999\999 is in the unavailable state (HWID=9999)
+bolt.dropbox.com:999 error : Could not connect to proxy proxy.cse.cuhk.edu.hk:9999 - Could not resolve proxy.cse.cuhk.edu.hk error 99999
+Processed session termination for sessionid: 9x99f9999999e999b
+99.999.999.99:99999 Starting thread to transfer block blk_999999999999999999 to 99.999.9.99:99999
+BLOCK* NameSystem.allocateBlock: /user/root/rand9/_logs/history/ip-99-999-99-999.ec9.internal_9999999999999_job_999999999999_9999_conf.xml. blk_-999999999999999999
+99.999.9.9:99999 Served block blk_99999999999999999 to /99.999.999.99
+99.999.999.99:99999 Starting thread to transfer block blk_-999999999999999999 to 99.999.999.99:99999
+BLOCK* NameSystem.allocateBlock: /user/root/rand9/_logs/history/ip-99-999-99-999.ec9.internal_9999999999999_job_999999999999_9999_root_random-writer. blk_9999999999999999999
+Established session 9x99ede99a9a9999b with negotiated timeout 99999 for client /99.99.99.99:99999
+Closed socket connection for client /99.99.99.99:99999 which had sessionid 9x99f9999999a999b
+BLOCK* ask 99.999.999.999:99999 to replicate blk_99999999999999999 to datanode(s) 99.999.99.9:99999
+BLOCK* NameSystem.delete: blk_9999999999999999 is added to invalidSet of 99.999.999.9:99999
+BLOCK* NameSystem.addStoredBlock: addStoredBlock request received for blk_9999999999999999999 on 99.999.999.999:99999 size 99999999 But it does not belong to any file.
+99.999.99.9:99999:Transmitted block blk_9999999999999999999 to /99.999.999.999:99999
+Received block blk_999999999999999999 src: /99.999.99.999:99999 dest: /99.999.99.999:99999 of size 99999
+s.ytimg.com:999 close, 9999 bytes (9.99 KB) sent, 9999 bytes (9.99 KB) received, lifetime 99:99
+Received block blk_-9999999999999999999 of size 999999 from /99.999.99.9
+Interconnect-9N99 switch_module error 9999999999 9 Linkerror event interval expired
+99.999.9.999:99999 Served block blk_-9999999999999999 to /99.999.999.999
+BLOCK* ask 99.999.9.999:99999 to replicate blk_-9999999999999999999 to datanode(s) 99.999.99.9:99999 99.999.999.999:99999
+content.googleapis.com:999 open through proxy proxy.cse.cuhk.edu.hk:9999 HTTPS
+plus.google.com:999 close, 9999 bytes (9.99 KB) sent, 99999 bytes (99.9 KB) received, lifetime 99:99
+avd.innity.net:999 open through proxy proxy.cse.cuhk.edu.hk:9999 HTTPS
+BLOCK* ask 99.999.999.999:99999 to replicate blk_999999999999999999 to datanode(s) 99.999.99.9:99999
+99.999.99.999:99999:Transmitted block blk_-9999999999999999999 to /99.999.999.999:99999
+9 Component State Change: Component \999ee9\999 is in the unavailable state (HWID=99)
+99.999.9.999:99999:Transmitted block blk_-9999999999999999999 to /99.999.9.99:99999
+9 running
+BLOCK* NameSystem.addStoredBlock: blockMap updated: 99.999.999.99:99999 is added to blk_99999999999999999 size 99999999
+ClusterFileSystem: There is no server for ServerFileSystem domain storage999
+short.weixin.qq.com:99 error : A connection request was canceled before the completion.
+www.googleapis.com:999 error : Could not connect to proxy proxy.cse.cuhk.edu.hk:9999 - Could not resolve proxy.cse.cuhk.edu.hk error 99999
+BLOCK* ask 99.999.999.99:99999 to replicate blk_9999999999999999999 to datanode(s) 99.999.999.99:99999 99.999.999.99:99999
+PacketResponder 9 for block blk_9999999999999999 terminating
+99.999.999.99:99999 Served block blk_999999999999999999 to /99.999.99.9
+BLOCK* NameSystem.addStoredBlock: addStoredBlock request received for blk_9999999999999999999 on 99.999.999.99:99999 size 9999999 But it does not belong to any file.
+BLOCK* NameSystem.addStoredBlock: blockMap updated: 99.999.99.99:99999 is added to blk_99999999999999999 size 9999999
+BLOCK* ask 99.999.99.999:99999 to replicate blk_-9999999999999999999 to datanode(s) 99.999.999.9:99999
+BLOCK* NameSystem.addStoredBlock: blockMap updated: 99.999.99.999:99999 is added to blk_99999999999999999 size 99999
+99.999.999.999:99999 Served block blk_999999999999999999 to /99.999.99.99
+BLOCK* NameSystem.allocateBlock: /user/root/rand9/_temporary/_task_999999999999_9999_m_999999_9/part-99999. blk_999999999999999999
+Receiving block blk_9999999999999999 src: /99.999.999.9:99999 dest: /99.999.999.9:99999
+Expiring session 9x99ee99a9c99999e, timeout of 99999ms exceeded
+node-999 unix.hw state_change.unavailable 9999999999 9 Component State Change: Component \999SCSI-WWID:99999999:9999-99b9-9999-9999-9999-9999-999d-9999\999 is in the unavailable state (HWID=9999)
+99.999.999.999:99999 Starting thread to transfer block blk_999999999999999999 to 99.999.99.999:99999
+Failed subcommands 9999\ 9999\ 9999\ 9999\ 9999\ 9999
+99.999.99.999:99999 Starting thread to transfer block blk_-9999999999999999999 to 99.999.9.9:99999
+99.999.999.999:99999 Starting thread to transfer block blk_999999999999999999 to 99.999.99.9:99999, 99.999.99.999:99999
+Expiring session 9x99f9fdae9ba999e, timeout of 99999ms exceeded
+Deleting block blk_-999999999999999999 file /mnt/hadoop/dfs/data/current/blk_-999999999999999999
+data.grammarly.com:999 open through proxy proxy.cse.cuhk.edu.hk:9999 HTTPS
+Received block blk_-9999999999999999999 src: /99.999.9.99:99999 dest: /99.999.9.99:99999 of size 99999999
+99.999.999.999:99999 Served block blk_-999999999999999999 to /99.999.9.99
+inconsistent nodesets node-999 9x9fffffffe <ok> node-999 9x9999dffe <ok> node-999 9x9999dffe <ok> node-999 9x9999dffe <ok>
+99.999.9.999:99999 Starting thread to transfer block blk_-999999999999999999 to 99.999.999.999:99999
+Closed socket connection for client /99.99.99.99:99999 which had sessionid 9x99f9fdb9f99999a
+Received block blk_9999999999999999999 src: /99.999.9.999:99999 dest: /99.999.9.999:99999 of size 99999999
+BLOCK* NameSystem.addStoredBlock: blockMap updated: 99.999.999.99:99999 is added to blk_-99999999999999 size 99999999
+99.999.9.999:99999 Starting thread to transfer block blk_-9999999999999999999 to 99.999.9.99:99999
+Established session 9x99ed9999999999a with negotiated timeout 99999 for client /99.99.99.99:99999
+inconsistent nodesets node-99 9x99999999 <ok> node-99 9x9999999e <ok> node-99 9x9999999e <ok> node-99 9x9999999e <ok> node-99 9x9999999e <ok>
+BLOCK* NameSystem.allocateBlock: /user/root/rand/_logs/history/ip-99-999-99-999.ec9.internal_9999999999999_job_999999999999_9999_conf.xml. blk_9999999999999999999
+BLOCK* NameSystem.addStoredBlock: blockMap updated: 99.999.9.9:99999 is added to blk_9999999999999999999 size 99999999
+999.999.999.999:99 error : Could not connect to proxy proxy.cse.cuhk.edu.hk:9999 - Could not resolve proxy.cse.cuhk.edu.hk error 99999
+NIFF: node node-9 has detected an available network connection on network 99.999.9.9 via interface ee9
+BLOCK* NameSystem.addStoredBlock: Redundant addStoredBlock request received for blk_-9999999999999999999 on 99.999.9.99:99999 size 99999999
+BLOCK* ask 99.999.999.999:99999 to replicate blk_-9999999999999999999 to datanode(s) 99.999.999.999:99999
+9 Command has completed successfully
+99.999.99.99:99999:Transmitted block blk_-999999999999999999 to /99.999.99.9:99999
+Expiring session 9x99ed999999999da, timeout of 99999ms exceeded
+Component State Change: Component \999SCSI-WWID:99999999:9999-99b9-9999-999f-9999-9999-999a-9999\999 is in the unavailable state (HWID=9999)
+BLOCK* ask 99.999.99.999:99999 to replicate blk_9999999999999999999 to datanode(s) 99.999.99.9:99999
+Established session 9x99ed999999999cb with negotiated timeout 99999 for client /99.99.99.99:99999
+99.999.9.99:99999 Served block blk_99999999999999999 to /99.999.99.999
+url-quality-stat.xf.qq.com:99 open through proxy proxy.cse.cuhk.edu.hk:9999 HTTPS
+news.sina.com.cn:99 open through proxy proxy.cse.cuhk.edu.hk:9999 HTTPS
+config.pinyin.sogou.com:99 close, 9999 bytes (9.99 KB) sent, 9999 bytes (9.99 KB) received, lifetime 99:99
+go.microsoft.com:99 open through proxy proxy.cse.cuhk.edu.hk:9999 HTTPS
+BLOCK* NameSystem.addStoredBlock: blockMap updated: 99.999.999.99:99999 is added to blk_-9999999999999999 size 99999999
+BLOCK* NameSystem.addStoredBlock: Redundant addStoredBlock request received for blk_9999999999999999999 on 99.999.999.999:99999 size 9999999
+BLOCK* ask 99.999.999.999:99999 to replicate blk_999999999999999999 to datanode(s) 99.999.9.999:99999
+99.999.999.999:99999 Served block blk_-99999999999999 to /99.999.999.999
+scholar.google.com.hk:999 close, 9999 bytes (9.99 KB) sent, 99999 bytes (99.9 KB) received, lifetime 99:99
+proxy.cse.cuhk.edu.hk:9999 close, 999999 bytes (999 KB) sent, 999999 bytes (999 KB) received, lifetime 99:99
+99.999.999.99:99999 Served block blk_-9999999999999999999 to /99.999.99.99
+fcmatch.youtube.com:999 close, 9999 bytes (9.99 KB) sent, 9999 bytes (9.99 KB) received, lifetime 99:99
+9 Fan speeds ( 9999 9999 9999 99999 9999 9999 )
+Received block blk_9999999999999999999 of size 99999999 from /99.999.9.999
+BLOCK* ask 99.999.99.999:99999 to replicate blk_9999999999999999999 to datanode(s) 99.999.999.9:99999
+BLOCK* ask 99.999.999.9:99999 to replicate blk_9999999999999999999 to datanode(s) 99.999.99.99:99999
+node-999 unix.hw net.niff.up 9999999999 9 NIFF: node node-999 has detected an available network connection on network 9.9.999.9 via interface alt9
+r9---sn-i9b9kn9r.googlevideo.com:999 open through proxy proxy.cse.cuhk.edu.hk:9999 HTTPS
+Established session 9x99ed9ac9c9e99cb with negotiated timeout 99999 for client /99.99.99.99:99999
+BLOCK* NameSystem.addStoredBlock: Redundant addStoredBlock request received for blk_-999999999999999999 on 99.999.9.999:99999 size 99999999
+Targeting domains:node-D9 and nodes:node-[999-999]
+long.weixin.qq.com:999 open through proxy proxy.cse.cuhk.edu.hk:9999 HTTPS
+99.999.999.9:99999 Served block blk_999999999999999999 to /99.999.9.99
+Processed session termination for sessionid: 9x99ed999999999aa
+BLOCK* NameSystem.allocateBlock: /user/root/grep-temp-999999999/_logs/history/ip-99-999-99-999.ec9.internal_9999999999999_job_999999999999_9999_conf.xml. blk_9999999999999999999
+BLOCK* NameSystem.allocateBlock: /user/root/rand/_temporary/_task_999999999999_9999_m_999999_9/part-99999. blk_-99999999999999999
+writeBlock blk_-999999999999999999 received exception java.io.IOException: Interrupted receiveBlock
+odr.mookie9.com:999 close, 9999 bytes (9.99 KB) sent, 9999 bytes (9.99 KB) received, lifetime 99:99
+99.999.9.99:99999:Transmitted block blk_-9999999999999999999 to /99.999.999.99:99999
+BLOCK* NameSystem.allocateBlock: /user/root/sortrand/_temporary/_task_999999999999_9999_r_999999_9/part-99999. blk_-9999999999999999
+99.999.999.99:99999 Starting thread to transfer block blk_9999999999999999999 to 99.999.99.9:99999
+9 ServerFileSystem: ServerFileSystem domain storage9999 is full
+Established session 9x99ee99a99f9999c with negotiated timeout 99999 for client /99.99.99.99:99999
+beacon.dropbox.com:999 open through proxy proxy.cse.cuhk.edu.hk:9999 HTTPS
+Established session 9x99f9a9999b9999f with negotiated timeout 99999 for client /99.99.99.99:99999
+NIFF: node node-99 has detected an available network connection on network 9.9.9.9 via interface alt9
+Receiving block blk_-9999999999999999 src: /99.999.9.999:99999 dest: /99.999.9.999:99999
+99.999.9.999:99999 Served block blk_-9999999999999999999 to /99.999.999.999
+Component State Change: Component \999SCSI-WWID:9c999999:99e9-9e99-9999-99df\999 is in the unavailable state (HWID=9999)
+99.999.9.9:99999 Served block blk_-9999999999999999999 to /99.999.999.99
+Revalidating client: 9x99f9999999a999d
+Processed session termination for sessionid: 9x99f9a99999b999e
+99.999.999.99:99999:Transmitted block blk_9999999999999999999 to /99.999.99.999:99999
+imageplus.baidu.com:99 open through proxy proxy.cse.cuhk.edu.hk:9999 HTTPS
+Established session 9x99f9fdb9f99999a with negotiated timeout 99999 for client /99.99.99.99:99999
+fcmatch.google.com:999 close, 9999 bytes (9.99 KB) sent, 9999 bytes (9.99 KB) received, lifetime 99:99
+node-9 node status 9999999999 9 running
+9999 shutdown_cmd new 9999999999 9 Targeting domains:node-D9 and nodes:node-9
+i.ytimg.com:999 close, 99999 bytes (99.9 KB) sent, 9999999 bytes (9.99 MB) received, lifetime 99:99
+wpad:99 error : Could not connect through proxy proxy.cse.cuhk.edu.hk:9999 - Proxy server cannot establish a connection with the target, status code 999
+Expiring session 9x99ee99a99f9999d, timeout of 99999ms exceeded
+Established session 9x99ee99a9c99999c with negotiated timeout 99999 for client /99.99.99.99:99999
+BLOCK* NameSystem.addStoredBlock: addStoredBlock request received for blk_99999999999999999 on 99.999.999.99:99999 size 99999999 But it does not belong to any file.
+BLOCK* ask 99.999.9.999:99999 to replicate blk_-9999999999999999999 to datanode(s) 99.999.99.99:99999 99.999.999.99:99999
+Processed session termination for sessionid: 9x99ed99999f999bf
+csi.gstatic.com:999 open through proxy proxy.cse.cuhk.edu.hk:9999 HTTPS
+Processed session termination for sessionid: 9x99ed99999f999de
+Closed socket connection for client /99.99.99.99:99999 which had sessionid 9x99ed99999f999e9
+open.weixin.qq.com:999 open through proxy proxy.cse.cuhk.edu.hk:9999 HTTPS
+BLOCK* NameSystem.addStoredBlock: blockMap updated: 99.999.9.999:99999 is added to blk_9999999999999999999 size 99999
+BLOCK* ask 99.999.99.999:99999 to replicate blk_-9999999999999999999 to datanode(s) 99.999.99.99:99999 99.999.99.999:99999
+Targeting domains:node-D[9-9] and nodes:node-[9-999]
+99.999.999.999:99999:Transmitted block blk_-99999999999999999 to /99.999.999.99:99999
+Processed session termination for sessionid: 9x99ed99999f999ce
+99.999.9.999:99999 Starting thread to transfer block blk_9999999999999999999 to 99.999.9.999:99999
+99.999.99.999:99999:Transmitted block blk_-99999999999999999 to /99.999.999.99:99999
+PacketResponder blk_-9999999999999999999 9 Exception java.io.EOFException
+passport.csdn.net:999 close, 9999 bytes (9.99 KB) sent, 9999 bytes (9.99 KB) received, lifetime 99:99
+r9---sn-i9b9kn9r.googlevideo.com:999 close, 9999 bytes (9.99 KB) sent, 9999999 bytes (9.99 MB) received, lifetime 99:99
+99.999.9.999:99999 Starting thread to transfer block blk_-9999999999999999999 to 99.999.99.9:99999, 99.999.999.999:99999
+d9.biz.itc.cn:99 open through proxy proxy.cse.cuhk.edu.hk:9999 HTTPS
+Received block blk_-99999999999999999 src: /99.999.999.999:99999 dest: /99.999.999.999:99999 of size 99999999
+Closed socket connection for client /99.99.99.99:99999 which had sessionid 9x99ed9ac9c9e99b9
+t.co:999 open through proxy proxy.cse.cuhk.edu.hk:9999 HTTPS
+BLOCK* NameSystem.delete: blk_99999999999999999 is added to invalidSet of 99.999.9.99:99999
+p.tanx.com:999 open through proxy proxy.cse.cuhk.edu.hk:9999 HTTPS
+notifications.google.com:999 open through proxy proxy.cse.cuhk.edu.hk:9999 HTTPS
+Receiving empty packet for block blk_9999999999999999999
+inconsistent nodesets node-99 9x9fffffd9e <ok> node-99 9x9fffffffe <ok> node-99 9x9fffffffe <ok> node-99 9x9fffffffe <ok>
+BLOCK* NameSystem.delete: blk_999999999999999999 is added to invalidSet of 99.999.99.9:99999
+Expiring session 9x99ed9ac9c9e99ad, timeout of 99999ms exceeded
+Expiring session 9x99f999999999999, timeout of 99999ms exceeded
+Received block blk_99999999999999999 src: /99.999.9.999:99999 dest: /99.999.9.999:99999 of size 99999999
+passport.csdn.net:99 open through proxy proxy.cse.cuhk.edu.hk:9999 HTTPS
+First is 9x9
+Deleting block blk_9999999999999999999 file /mnt/hadoop/dfs/data/current/subdir9/blk_9999999999999999999
+ServerFileSystem: ServerFileSystem domain lsf_domain is full
+m.addthis.com:999 close, 9999 bytes (9.99 KB) sent, 9999 bytes (9.99 KB) received, lifetime 99:99
+Received block blk_-9999999999999999999 of size 9999999 from /99.999.9.99
+BLOCK* ask 99.999.99.99:99999 to replicate blk_-999999999999999999 to datanode(s) 99.999.999.99:99999
+9 Targeting domains:node-D9 and nodes:node-[999-999] child of command 9999
+99.999.999.999:99999:Transmitted block blk_99999999999999999 to /99.999.9.999:99999
+New election. My id =  9, proposed zxid=9xc9999999f
+yt9.ggpht.com:999 open through proxy proxy.cse.cuhk.edu.hk:9999 HTTPS
+99.999.999.999:99999 Starting thread to transfer block blk_-9999999999999999999 to 99.999.999.99:99999, 99.999.99.99:99999
+Expiring session 9x99ed99999f999f9, timeout of 99999ms exceeded
+inconsistent nodesets node-9 9x9999affe <ok> node-9 9x9999affe <ok> node-9 9x9999affe <ok> node-99 9x99fffffe <ok> node-9 9x9999affe <ok>
+99.999.9.999:99999 Served block blk_99999999999999999 to /99.999.999.999
+www.gravatar.com:999 close, 9999 bytes (9.99 KB) sent, 9999 bytes (9.99 KB) received, lifetime 99:99
+99.999.9.99:99999 Served block blk_99999999999999999 to /99.999.9.99
+node-99 unix.hw state_change.unavailable 9999999999 9 Component State Change: Component \999alt9\999 is in the unavailable state (HWID=99)
+Processed session termination for sessionid: 9x99ee9e999ed999d
+Established session 9x99ed9ac9c9e99cf with negotiated timeout 99999 for client /99.99.99.99:99999
+BLOCK* ask 99.999.99.9:99999 to replicate blk_-999999999999999999 to datanode(s) 99.999.999.999:99999
+Reading snapshot /var/lib/zookeeper/version-9/snapshot.c99999999
+Expiring session 9x99ed9ac9c9e99aa, timeout of 99999ms exceeded
+99.999.999.99:99999 Starting thread to transfer block blk_9999999999999999999 to 99.999.9.99:99999
+BLOCK* NameSystem.addStoredBlock: blockMap updated: 99.999.9.999:99999 is added to blk_99999999999999999 size 99999
+ask.csdn.net:99 open through proxy proxy.cse.cuhk.edu.hk:9999 HTTPS
+Interconnect-9T99 switch_module error 9999999999 9 Linkerror event interval expired
+writeBlock blk_-9999999999999999999 received exception java.nio.channels.ClosedByInterruptException
+BLOCK* ask 99.999.99.99:99999 to replicate blk_999999999999999999 to datanode(s) 99.999.9.999:99999 99.999.999.999:99999
+BLOCK* ask 99.999.9.999:99999 to replicate blk_99999999999999999 to datanode(s) 99.999.999.999:99999
+BLOCK* NameSystem.addStoredBlock: blockMap updated: 99.999.9.9:99999 is added to blk_9999999999999999999 size 999999
+Received block blk_-999999999999999999 src: /99.999.99.999:99999 dest: /99.999.99.999:99999 of size 99999999
+us.avatars.manhuaren.com:99 open through proxy proxy.cse.cuhk.edu.hk:9999 HTTPS
+Targeting domains:node-D9 and nodes:node-[99-99] child of command 9999
+Targeting domains:node-D9 and nodes:node-[9-99\ 99\ 99-99] child of command 9999
+BLOCK* ask 99.999.99.999:99999 to replicate blk_99999999999999999 to datanode(s) 99.999.9.999:99999 99.999.99.999:99999
+9 ClusterFileSystem: ServerFileSystem domain root9_tmp is no longer served by node node-999
+99.999.99.99:99999:Transmitted block blk_999999999999999999 to /99.999.99.9:99999
+99.999.999.99:99999 Starting thread to transfer block blk_9999999999999999999 to 99.999.99.9:99999, 99.999.999.99:99999
+domain status 9999999999 9 inconsistent nodesets node-99 9x999999fe <ok> node-99 9x9999999e <ok> node-99 9x999999fe <ok> node-99 9x999999fe <ok>
+h9.sinaimg.cn:99 open through proxy proxy.cse.cuhk.edu.hk:9999 HTTPS
+99.999.999.999:99999 Served block blk_-9999999999999999 to /99.999.999.99
+node-D9 clusterfilesystem clusterfilesystem.not_served 9999999999 9 ClusterFileSystem: ServerFileSystem domain storage999 is no longer served by node node-999
+www.dm9.com:99 close, 99999 bytes (99.9 KB) sent, 999999 bytes (999 KB) received, lifetime 99:99
+ads.yahoo.com:99 close, 9999 bytes (9.99 KB) sent, 9999 bytes (9.99 KB) received, lifetime 99:99
+99.999.99.999:99999 Starting thread to transfer block blk_-99999999999999999 to 99.999.9.999:99999
+99.999.999.9:99999 Starting thread to transfer block blk_-999999999999999999 to 99.999.99.999:99999
+Expiring session 9x99ed99999f999d9, timeout of 99999ms exceeded
+BLOCK* NameSystem.addStoredBlock: addStoredBlock request received for blk_-99999999999999999 on 99.999.999.99:99999 size 99999999 But it does not belong to any file.
+BLOCK* NameSystem.addStoredBlock: Redundant addStoredBlock request received for blk_999999999999999999 on 99.999.9.999:99999 size 99999999
+99.999.99.9:99999 Starting thread to transfer block blk_-999999999999999999 to 99.999.99.999:99999
+99.999.99.999:99999 Starting thread to transfer block blk_-9999999999999999999 to 99.999.99.999:99999, 99.999.999.99:99999
+Expiring session 9x99ed99999f999cb, timeout of 99999ms exceeded
+99.999.9.999:99999 Served block blk_-999999999999999999 to /99.999.999.999
+security.ie.sogou.com:99 open through proxy proxy.cse.cuhk.edu.hk:9999 HTTPS
+xf.stat-doctor.qq.com:999 error : Could not connect through proxy proxy.cse.cuhk.edu.hk:9999 - Proxy server cannot establish a connection with the target, status code 999
+99.999.999.9:99999 Starting thread to transfer block blk_9999999999999999999 to 99.999.999.9:99999
+mtalk.google.com:9999 error : Could not connect to proxy proxy.cse.cuhk.edu.hk:9999 - Could not resolve proxy.cse.cuhk.edu.hk error 99999
+BLOCK* NameSystem.addStoredBlock: blockMap updated: 99.999.9.99:99999 is added to blk_99999999999999999 size 99999999
+99.999.99.999:99999:Transmitted block blk_9999999999999999999 to /99.999.9.99:99999
+99.999.999.9:99999 Starting thread to transfer block blk_-9999999999999999999 to 99.999.9.999:99999
+BLOCK* NameSystem.delete: blk_-9999999999999999999 is added to invalidSet of 99.999.9.99:99999
+node-99 unix.hw net.niff.up 9999999999 9 NIFF: node node-99 has detected an available network connection on network 99.999.9.9 via interface ee9
+shutdown_cmd new 9999999999 9 Targeting domains:node-D9 and nodes:node-999
+Interconnect-9N99 switch_module fan 9999999999 9 Fan speeds ( 9999 9999 9999 9999 9999 9999 )
+node-D9 clusterfilesystem clusterfilesystem.not_served 9999999999 9 ClusterFileSystem: ServerFileSystem domain cluster_root_backup is no longer served by node node-9
+Adding an already existing block blk_-9999999999999999999
+99.999.99.999:99999 Served block blk_-9999999999999999999 to /99.999.999.99
+domain status 9999999999 9 inconsistent nodesets node-99 9x9c99dfffe <ok> node-99 9x9cffffffe <ok> node-99 9x9c9fffffe <ok> node-99 9x9cffffffe <ok>
+PacketResponder 9 for block blk_9999999999999999999 terminating
+BLOCK* NameSystem.allocateBlock: /user/root/rand9/_temporary/_task_999999999999_9999_m_999999_9/part-99999. blk_99999999999999999
+w.cnzz.com:99 open through proxy proxy.cse.cuhk.edu.hk:9999 HTTPS
+99.999.999.999:99999 Served block blk_99999999999999999 to /99.999.999.99
+manhua.999.com:999 close, 99999 bytes (99.9 KB) sent, 99999 bytes (99.9 KB) received, lifetime 99:99
+node-D9 clusterfilesystem clusterfilesystem.not_served 9999999999 9 ClusterFileSystem: ServerFileSystem domain sc_cluster_backup is no longer served by node node-999
+Expiring session 9x99f9999999e999b, timeout of 99999ms exceeded
+Targeting domains:node-D[9\ 9] and nodes:node-[9\ 99\ 999]
+99.999.999.99:99999 Starting thread to transfer block blk_-999999999999999999 to 99.999.99.999:99999
+Expiring session 9x99ed99999f999aa, timeout of 99999ms exceeded
+BLOCK* ask 99.999.99.999:99999 to replicate blk_99999999999999999 to datanode(s) 99.999.999.999:99999
+inconsistent nodesets node-99 9x999999fe <ok> node-999 9x999999fe <ok> node-99 9x9999fdfe <ok> node-99 9x9999fdfe <ok> node-999 9x9999fdfe <ok>
+Component State Change: Component \999SCSI-WWID:9c999999:99e9-9e99-999d-af99\999 is in the unavailable state (HWID=999)
+99.999.9.999:99999 Served block blk_-99999999999999999 to /99.999.99.999
+Closed socket connection for client /99.99.99.99:99999 which had sessionid 9x99f9a99999b999d
+Established session 9x99ede99a99b9999 with negotiated timeout 99999 for client /99.99.99.99:99999
+boot  (command 9999)
+node-ms9 node temperature 9999999999 9 ambient=99
+BLOCK* ask 99.999.999.99:99999 to replicate blk_-999999999999999999 to datanode(s) 99.999.999.999:99999 99.999.99.999:99999
+news.9999.com:99 close, 9999 bytes (9.99 KB) sent, 99999 bytes (99.9 KB) received, lifetime 99:99
+Processed session termination for sessionid: 9x99edfaa9c999999
+writeBlock blk_9999999999999999999 received exception java.io.IOException: Broken pipe
+9999 install_cmd new 9999999999 9 Targeting domains:node-D9 and nodes:node-[99-999]
+9 ClusterFileSystem: ServerFileSystem domain root99_domain is no longer served by node node-99
+Component State Change: Component \999SCSI-WWID:99999999:9999-99b9-9999-c999-9999-c999-9999-9999\999 is in the unavailable state (HWID=99)
+Expiring session 9x99edfaa9c99999e, timeout of 99999ms exceeded
+BLOCK* NameSystem.addStoredBlock: blockMap updated: 99.999.999.999:99999 is added to blk_999999999999999999 size 9999999
+Exception in receiveBlock for block blk_9999999999999999999 java.io.IOException: Broken pipe
+99.999.9.999:99999:Transmitted block blk_9999999999999999999 to /99.999.99.9:99999
+BLOCK* ask 99.999.9.99:99999 to replicate blk_-999999999999999999 to datanode(s) 99.999.99.999:99999
+99.999.99.999:999 open through proxy proxy.cse.cuhk.edu.hk:9999 HTTPS
+Expiring session 9x99ed999999999aa, timeout of 99999ms exceeded
+c.trello.com:999 open through proxy proxy.cse.cuhk.edu.hk:9999 HTTPS
+Component State Change: Component \999SCSI-WWID:99999999:9999-99b9-9999-9999-9999-b999-999f-9999\999 is in the unavailable state (HWID=9999)
+99.999.999.999:99999 Served block blk_-9999999999999999999 to /99.999.99.9
+Established session 9x99f9999b9af999f with negotiated timeout 99999 for client /99.99.99.99:99999
+Established session 9x99ed999999999ce with negotiated timeout 99999 for client /99.99.99.99:99999
+Established session 9x99ed9ac9c9e99b9 with negotiated timeout 99999 for client /99.99.99.99:99999
+switch_module bcast-error 9999999999 9 Link error on broadcast tree Interconnect-9N99:99:9:9
+Closed socket connection for client /99.99.99.99:99999 which had sessionid 9x99ed999999999cb
+99.999.99.9:99999 Starting thread to transfer block blk_9999999999999999999 to 99.999.9.99:99999
+BLOCK* ask 99.999.999.99:99999 to replicate blk_-999999999999999999 to datanode(s) 99.999.99.99:99999
+99.999.99.9:99999 Starting thread to transfer block blk_9999999999999999999 to 99.999.999.9:99999
+unix.hw state_change.unavailable 9999999999 9 Component State Change: Component \999SCSI-WWID:99999999:9999-99b9-9999-c999-9999-9999-99bf-9999\999 is in the unavailable state (HWID=9999)
+BLOCK* NameSystem.addStoredBlock: blockMap updated: 99.999.999.99:99999 is added to blk_999999999999999999 size 99999
+hangouts.google.com:999 close, 99999 bytes (99.9 KB) sent, 9999 bytes (9.99 KB) received, lifetime 99:99
+99.999.99.99:99999 Served block blk_99999999999999999 to /99.999.9.999
+api.weibo.com:99 close, 9999 bytes (9.99 KB) sent, 99999 bytes (99.9 KB) received, lifetime <9 sec
+99.999.99.99:99999:Transmitted block blk_999999999999999999 to /99.999.999.9:99999
+inconsistent nodesets node-999 9x9fffffffe <ok> node-99 9x9ffffbffe <ok> node-99 9x9ffffbffe <ok> node-99 9x9ffffbffe <ok>
+inconsistent nodesets node-9 9x9fffffffc <ok> node-9 9x9fffffffe <ok> node-9 9x9fffffffc <ok> node-99 9x9fffffffe <ok> node-99 9x9fffffffc <ok>
+BLOCK* ask 99.999.9.9:99999 to replicate blk_999999999999999999 to datanode(s) 99.999.999.999:99999
+Received block blk_-9999999999999999 of size 99999999 from /99.999.9.999
+s9.googleusercontent.com:999 close, 9999 bytes (9.99 KB) sent, 99999 bytes (99.9 KB) received, lifetime 99:99
+99.999.999.999:99999 Starting thread to transfer block blk_-9999999999999999 to 99.999.99.99:99999
+Received block blk_-999999999999999999 src: /99.999.9.999:99999 dest: /99.999.9.999:99999 of size 99999999
+99.999.99.9:99999 Served block blk_99999999999999999 to /99.999.9.999
+NIFF: node node-99 detected a failed network connection on network 9.9.999.9 via interface alt9
+Established session 9x99ede99a99b999d with negotiated timeout 99999 for client /99.99.99.99:99999
+PendingReplicationMonitor timed out block blk_-99999999999999999
+BLOCK* NameSystem.addStoredBlock: blockMap updated: 99.999.999.99:99999 is added to blk_-999999999999999999 size 999999
+BLOCK* ask 99.999.999.99:99999 to replicate blk_999999999999999999 to datanode(s) 99.999.99.999:99999
+PacketResponder blk_-9999999999999999999 9 Exception java.io.IOException: Connection reset by peer
+node-D9 clusterfilesystem fdmn.full 9999999999 9 ServerFileSystem: ServerFileSystem domain root99_local is full
+shutdown_cmd abort 9999999999 9 Command has been aborted
+Closed socket connection for client /99.99.99.99:99999 which had sessionid 9x99ed99999f999da
+BLOCK* NameSystem.addStoredBlock: blockMap updated: 99.999.9.99:99999 is added to blk_-9999999999999999999 size 99999999
+BLOCK* ask 99.999.99.9:99999 to replicate blk_-999999999999999999 to datanode(s) 99.999.99.99:99999
+Established session 9x99ed99999f999be with negotiated timeout 99999 for client /99.99.99.99:99999
+BLOCK* NameSystem.addStoredBlock: blockMap updated: 99.999.999.999:99999 is added to blk_9999999999999999999 size 999999
+node-9 node status 9999999999 9 not responding
+Received block blk_-9999999999999999999 src: /99.999.99.999:99999 dest: /99.999.99.999:99999 of size 99999
+99.999.99.99:99999 Served block blk_-999999999999999999 to /99.999.99.99
+Component State Change: Component \999SCSI-WWID:99999999:9999-99b9-9999-999f-9999-9999-999c-9999\999 is in the unavailable state (HWID=9999)
+Receiving block blk_-9999999999999999999 src: /99.999.999.999:99999 dest: /99.999.999.999:99999
+secure.quantserve.com:999 open through proxy proxy.cse.cuhk.edu.hk:9999 HTTPS
+99.999.99.999:99999 Starting thread to transfer block blk_9999999999999999999 to 99.999.999.999:99999, 99.999.999.999:99999
+clusterfilesystem fdmn.full 9999999999 9 ServerFileSystem: ServerFileSystem domain root99_local is full
+9 ClusterFileSystem: ServerFileSystem domain root_domain is no longer served by node node-9
+api.github.com:999 close, 999999 bytes (999 KB) sent, 9999 bytes (9.99 KB) received, lifetime 99:99
+node-D9 clusterfilesystem clusterfilesystem.not_served 9999999999 9 ClusterFileSystem: ServerFileSystem domain root9_domain is no longer served by node node-99
+switch_module error 9999999999 9 Linkerror event interval expired
+BLOCK* NameSystem.addStoredBlock: blockMap updated: 99.999.9.999:99999 is added to blk_-9999999999999999999 size 9999999
+Received block blk_-9999999999999999999 of size 99999 from /99.999.99.9
+BLOCK* NameSystem.addStoredBlock: blockMap updated: 99.999.99.9:99999 is added to blk_-999999999999999 size 99999999
+BLOCK* ask 99.999.99.9:99999 to replicate blk_999999999999999999 to datanode(s) 99.999.999.99:99999
+www.dm9.com:99 open through proxy proxy.cse.cuhk.edu.hk:9999 HTTPS
+proxy.cse.cuhk.edu.hk:9999 close, 99999 bytes (99.9 KB) sent, 9999999 bytes (9.99 MB) received, lifetime 99:99
+lg.doublemax.net:99 open through proxy proxy.cse.cuhk.edu.hk:9999 HTTPS
+BLOCK* ask 99.999.99.9:99999 to replicate blk_-999999999999999999 to datanode(s) 99.999.999.9:99999
+99.999.999.99:99999 Starting thread to transfer block blk_9999999999999999999 to 99.999.9.999:99999
+99.999.999.9:99999 Starting thread to transfer block blk_9999999999999999999 to 99.999.99.99:99999
+BLOCK* ask 99.999.999.999:99999 to replicate blk_9999999999999999999 to datanode(s) 99.999.999.99:99999 99.999.999.999:99999
+Component State Change: Component \999SCSI-WWID:99999999:9999-99b9-9999-999c-9999-9999-9999-9999\999 is in the unavailable state (HWID=999)
+BLOCK* NameSystem.addStoredBlock: blockMap updated: 99.999.9.99:99999 is added to blk_-99999999999999999 size 99999999
+Received block blk_99999999999999999 of size 99999999 from /99.999.999.99
+99.999.99.999:99999 Served block blk_-999999999999999999 to /99.999.999.999
+Processed session termination for sessionid: 9x99f9999b9af999c
+BLOCK* NameSystem.addStoredBlock: blockMap updated: 99.999.999.99:99999 is added to blk_-999999999999999999 size 99999999
+inconsistent nodesets node-999 9x9fffffffe <ok> node-999 9x9ffeeeefe <ok> node-999 9x9eeeeeeee <ok> node-999 9x9eeeeeeee <ok> node-999 9x9eeeeeeee <ok>
+shutdown_cmd new 9999999999 9 Targeting domains:node-D9 and nodes:node-[999\ 999-999\ 999-999\ 999-999] child of command 9999
+Processed session termination for sessionid: 9x99ed9ac9c9e999f
+dis.criteo.com:99 close, 99999 bytes (99.9 KB) sent, 9999 bytes (9.99 KB) received, lifetime 99:99
+clusterfilesystem clusterfilesystem.not_served 9999999999 9 ClusterFileSystem: ServerFileSystem domain cluster_var_backup is no longer served by node node-99
+Established session 9x99ede99a9a9999e with negotiated timeout 99999 for client /99.99.99.99:99999
+BLOCK* NameSystem.addStoredBlock: blockMap updated: 99.999.9.999:99999 is added to blk_9999999999999999 size 9999999
+BLOCK* NameSystem.addStoredBlock: blockMap updated: 99.999.999.99:99999 is added to blk_9999999999999999999 size 9999999
+node-99 unix.hw net.niff.up 9999999999 9 NIFF: node node-99 has detected an available network connection on network 99.99.9.9 via interface scip9
+Received block blk_9999999999999999999 of size 999 from /99.999.99.999
+www.baidu.com:99 close, 99999 bytes (99.9 KB) sent, 9999 bytes (9.99 KB) received, lifetime 99:99
+get.sogou.com:99 close, 9999 bytes (9.99 KB) sent, 9999 bytes (9.99 KB) received, lifetime 99:99
+99.999.999.99:99999:Transmitted block blk_-9999999999999999 to /99.999.9.999:99999
+shutdown_cmd new 9999999999 9 Targeting domains:node-D9 and nodes:node-[99-99] child of command 9999
+99.999.999.99:99999 Starting thread to transfer block blk_9999999999999999999 to 99.999.99.999:99999
+pos.baidu.com:999 close, 9999 bytes (9.99 KB) sent, 9999 bytes (9.99 KB) received, lifetime 99:99
+99.999.999.99:99999 Served block blk_99999999999999999 to /99.999.99.9
+r99---sn-9hne9n9r.googlevideo.com:999 close, 9999 bytes (9.99 KB) sent, 99999 bytes (99.9 KB) received, lifetime 99:99
+99.999.999.999:99999 Starting thread to transfer block blk_999999999999999999 to 99.999.999.9:99999
+news.99999.com:99 open through proxy proxy.cse.cuhk.edu.hk:9999 HTTPS
+99.999.999.99:99999 Served block blk_9999999999999999999 to /99.999.999.99
+99.999.9.999:99999:Transmitted block blk_999999999999999999 to /99.999.99.99:99999
+inconsistent nodesets node-9 9x9ffffffe <ok> node-99 9x9fffffffe <ok> node-9 9x9ffffffe <ok> node-9 9x9ffffffe <ok> node-99 9x9ffffffe <ok>
+tp9.beap.gemini.yahoo.com:999 open through proxy proxy.cse.cuhk.edu.hk:9999 HTTPS
+99.999.99.999:99999:Transmitted block blk_999999999999999999 to /99.999.999.9:99999
+Follower sid: 9 : info : org.apache.zookeeper.server.quorum.QuorumPeer$QuorumServer@99edbbb9
+unix.hw state_change.unavailable 9999999999 9 Component State Change: Component \999SCSI-WWID:99999999:9999-99b9-9999-9999-9999-d999-9999-9999\999 is in the unavailable state (HWID=9999)
+Processed session termination for sessionid: 9x99ed9ac9c9e99be
+99.999.999.999:99999 Starting thread to transfer block blk_-99999999999999999 to 99.999.999.999:99999
+99.999.9.99:99999 Served block blk_-9999999999999999999 to /99.999.9.999
+BLOCK* NameSystem.addStoredBlock: blockMap updated: 99.999.99.999:99999 is added to blk_99999999999999 size 99999999
+Closed socket connection for client /99.99.99.99:99999 which had sessionid 9x99f9a9999b9999e
+Established session 9x99ed9ac9c9e99cc with negotiated timeout 99999 for client /99.99.99.99:99999
+99.999.99.99:99999:Transmitted block blk_-9999999999999999999 to /99.999.99.999:99999
+kdpic.pchome.com.tw:999 close, 9999 bytes (9.99 KB) sent, 9999 bytes (9.99 KB) received, lifetime 99:99
+beacon.dropbox.com:999 close, 99999 bytes (99.9 KB) sent, 99999 bytes (99.9 KB) received, lifetime 99:99
+Closed socket connection for client /99.99.99.99:99999 which had sessionid 9x99ed999999999cd
+Expiring session 9x99f9999a9e9999b, timeout of 99999ms exceeded
+Changing block file offset of block blk_-9999999999999999999 from 9 to 99999999 meta file offset to 999999
+99.999.999.999:99999 Starting thread to transfer block blk_-9999999999999999999 to 99.999.999.999:99999, 99.999.99.999:99999
+inconsistent nodesets node-999 9x9999999e <ok> node-999 9x9999999e <ok> node-999 9x9999999e <ok> node-999 9x99999fee <ok> node-999 9x99999fee <ok>
+BLOCK* ask 99.999.999.99:99999 to replicate blk_-999999999999999999 to datanode(s) 99.999.999.999:99999
+Processed session termination for sessionid: 9x99ede99a99b9999
+inconsistent nodesets node-999 9x9fffffffe <ok> node-999 9x9999999e <ok> node-999 9x9999999e <ok> node-999 9x9999999e <ok>
+Established session 9x99ed99999f999ce with negotiated timeout 99999 for client /99.99.99.99:99999
+Revalidating client: 9x99ed9999999999f
+node-D9 clusterfilesystem clusterfilesystem.not_served 9999999999 9 ClusterFileSystem: ServerFileSystem domain root99_local is no longer served by node node-9
+Established session 9x99ed999999999dc with negotiated timeout 99999 for client /99.99.99.99:99999
+BLOCK* ask 99.999.99.99:99999 to replicate blk_9999999999999999999 to datanode(s) 99.999.999.999:99999
+BLOCK* NameSystem.allocateBlock: /user/root/randtxt/_temporary/_task_999999999999_9999_m_999999_9/part-99999. blk_99999999999999999
+Established session 9x99f99999e999999 with negotiated timeout 99999 for client /99.99.99.99:99999
+99.999.99.999:99999 Served block blk_-99999999999999999 to /99.999.99.999
+Established session 9x99ed99999f999c9 with negotiated timeout 99999 for client /99.99.99.99:99999
+99.999.99.9:99999 Served block blk_9999999999999999 to /99.999.99.9
+Received block blk_999999999999999999 src: /99.999.99.999:99999 dest: /99.999.99.999:99999 of size 9999999
+BLOCK* ask 99.999.99.999:99999 to replicate blk_-9999999999999999999 to datanode(s) 99.999.9.99:99999
+BLOCK* NameSystem.allocateBlock: /user/root/randtxt9/_temporary/_task_999999999999_9999_m_999999_9/part-99999. blk_-99999999999999
+99.999.9.999:99999 Served block blk_-9999999999999999999 to /99.999.9.9
+manhua.999.com:999 close, 9999 bytes (9.99 KB) sent, 9999 bytes (9.99 KB) received, lifetime 99:99
+www.googleadservices.com:999 open through proxy proxy.cse.cuhk.edu.hk:9999 HTTPS
+Unexpected error trying to delete block blk_-99999999999999999. BlockInfo not found in volumeMap.
+99.999.999.99:99999 Served block blk_999999999999999999 to /99.999.9.9
+rtax.criteo.com:99 close, 99999 bytes (99.9 KB) sent, 9999 bytes (9.99 KB) received, lifetime 99:99
+www.wix.com:999 close, 9999 bytes (9.99 KB) sent, 9999 bytes (9.99 KB) received, lifetime 99:99
+pan.baidu.com:99 open through proxy proxy.cse.cuhk.edu.hk:9999 HTTPS
+geo.yahoo.com:999 close, 9999 bytes (9.99 KB) sent, 9999 bytes (9.99 KB) received, lifetime 99:99
+node-ms9 unix.hw state_change.unavailable 9999999999 9 Component State Change: Component \999alt9\999 is in the unavailable state (HWID=99)
+99.999.999.99:99999 Starting thread to transfer block blk_-9999999999999999999 to 99.999.999.99:99999, 99.999.999.99:99999
+BLOCK* ask 99.999.9.99:99999 to replicate blk_-9999999999999999999 to datanode(s) 99.999.99.99:99999
+99.999.99.9:99999 Served block blk_999999999999999999 to /99.999.999.99
+99.999.99.99:99999 Served block blk_999999999999999999 to /99.999.999.99
+Received block blk_-999999999999999999 of size 9999999 from /99.999.999.99
+BLOCK* ask 99.999.999.9:99999 to replicate blk_-9999999999999999999 to datanode(s) 99.999.99.9:99999
+r9---sn-9g9edn9e.googlevideo.com:999 open through proxy proxy.cse.cuhk.edu.hk:9999 HTTPS
+node-9 node temperature 9999999999 9 ambient=99
+Established session 9x99ee99a9c99999d with negotiated timeout 99999 for client /99.99.99.99:99999
+Expiring session 9x99ed99999f9999e, timeout of 99999ms exceeded
+99.999.999.99:99999 Served block blk_-99999999999999999 to /99.999.9.99
+Closed socket connection for client /99.99.99.99:99999 which had sessionid 9x99ed99999f999af
+Receiving block blk_-9999999999999999999 src: /99.999.99.9:99999 dest: /99.999.99.9:99999
+boot (command 9999) Error: HALT asserted\  cannot continue
+99.999.999.9:99999:Transmitted block blk_999999999999999999 to /99.999.999.99:99999
+safebrowsing.googleapis.com:999 open through proxy proxy.cse.cuhk.edu.hk:9999 HTTPS
+99.999.99.99:99999 Starting thread to transfer block blk_-9999999999999999999 to 99.999.99.999:99999, 99.999.99.999:99999
+99.999.9.99:99999 Served block blk_9999999999999999999 to /99.999.999.99
+Component State Change: Component \999SCSI-WWID:99999999:9999-99b9-9999-99d9-9999-a999-9999-9999\999 is in the unavailable state (HWID=9999)
+plus.google.com:999 close, 99999 bytes (99.9 KB) sent, 99999 bytes (99.9 KB) received, lifetime 99:99:99
+BLOCK* NameSystem.delete: blk_-999999999999999 is added to invalidSet of 99.999.999.999:99999
+download.microsoft.com:99 open through proxy proxy.cse.cuhk.edu.hk:9999 HTTPS
+Expiring session 9x99ee9e999ed999c, timeout of 99999ms exceeded
+99.999.999.999:99999 Starting thread to transfer block blk_999999999999999 to 99.999.99.999:99999
+Closed socket connection for client /99.99.99.99:99999 which had sessionid 9x99ed999999999b9
+BLOCK* NameSystem.addStoredBlock: blockMap updated: 99.999.999.9:99999 is added to blk_-999999999999999999 size 999999
+Expiring session 9x99ed99999f999dc, timeout of 99999ms exceeded
+BLOCK* ask 99.999.9.99:99999 to replicate blk_9999999999999999999 to datanode(s) 99.999.999.999:99999
+Received block blk_99999999999999999 of size 9999999 from /99.999.99.99
+cm.g.doubleclick.net:99 open through proxy proxy.cse.cuhk.edu.hk:9999 HTTPS
+Processed session termination for sessionid: 9x99f9999a9e9999c
+Received block blk_-9999999999999999999 of size 999 from /99.999.99.999
+PacketResponder blk_9999999999999999999 9 Exception java.nio.channels.ClosedByInterruptException
+Deleting block blk_-999999999999999 file /mnt/hadoop/dfs/data/current/subdir99/blk_-999999999999999
+Snapshotting: 9xd9999999b to /var/lib/zookeeper/version-9/snapshot.d9999999b
+node-9 unix.hw net.niff.up 9999999999 9 NIFF: node node-9 has detected an available network connection on network 99.999.9.9 via interface ee9
+Expiring session 9x99ee99a9c99999f, timeout of 99999ms exceeded
+BLOCK* ask 99.999.9.999:99999 to replicate blk_-999999999999999999 to datanode(s) 99.999.99.9:99999
+Established session 9x99f9999999a999d with negotiated timeout 99999 for client /99.99.99.99:99999
+99.999.999.9:99999:Transmitted block blk_999999999999999999 to /99.999.999.999:99999
+node-99 unix.hw net.niff.down 9999999999 9 NIFF: node node-99 detected a failed network connection on network 9.9.999.9 via interface alt9
+BLOCK* ask 99.999.999.99:99999 to replicate blk_-9999999999999999999 to datanode(s) 99.999.999.99:99999 99.999.999.99:99999
+client.dropbox.com:999 open through proxy proxy.cse.cuhk.edu.hk:9999 HTTPS
+github.com:999 close, 99999999 bytes (99.9 MB) sent, 99999 bytes (99.9 KB) received, lifetime 99:99
+history.google.com:999 open through proxy proxy.cse.cuhk.edu.hk:9999 HTTPS
+Established session 9x99f9a99999b9999 with negotiated timeout 99999 for client /99.99.99.99:99999
+BLOCK* ask 99.999.999.999:99999 to replicate blk_9999999999999999999 to datanode(s) 99.999.999.99:99999 99.999.9.99:99999
+proxy.cse.cuhk.edu.hk:9999 open through proxy proxy.cse.cuhk.edu.hk:9999 HTTPS
+BLOCK* ask 99.999.99.999:99999 to replicate blk_-99999999999999999 to datanode(s) 99.999.999.99:99999
+Established session 9x99f9fdaf999999f with negotiated timeout 99999 for client /99.99.99.99:99999
+99.999.99.9:99999 Starting thread to transfer block blk_-9999999999999999999 to 99.999.9.999:99999
+Processed session termination for sessionid: 9x99f9a9999b9999b
+BLOCK* ask 99.999.9.999:99999 to replicate blk_9999999999999999999 to datanode(s) 99.999.99.99:99999
+9999 shutdown_cmd new 9999999999 9 Targeting domains:node-D9 and nodes:node-99
+BLOCK* NameSystem.addStoredBlock: blockMap updated: 99.999.99.9:99999 is added to blk_9999999999999999999 size 99999999
+sync.outbrain.com:99 open through proxy proxy.cse.cuhk.edu.hk:9999 HTTPS
+99.999.99.99:99999 Starting thread to transfer block blk_-9999999999999999 to 99.999.99.999:99999
+99.999.9.99:99999 Served block blk_9999999999999999999 to /99.999.99.999
+99.999.9.99:99999 Served block blk_-9999999999999999999 to /99.999.999.9
+apac-tw-ad-track.aralego.com:99 open through proxy proxy.cse.cuhk.edu.hk:9999 HTTPS
+BLOCK* NameSystem.delete: blk_-999999999999999999 is added to invalidSet of 99.999.999.999:99999
+99.999.99.999:99999 Served block blk_-9999999999999999999 to /99.999.99.999
+BLOCK* NameSystem.addStoredBlock: blockMap updated: 99.999.99.999:99999 is added to blk_-999999999999999999 size 99999999
+Established session 9x99f9999a99e999a with negotiated timeout 99999 for client /99.99.99.99:99999
+BLOCK* NameSystem.addStoredBlock: blockMap updated: 99.999.99.99:99999 is added to blk_-999999999999999999 size 999999
+Received block blk_9999999999999999 of size 99999999 from /99.999.99.9
+99.999.99.99:99999:Transmitted block blk_-999999999999999999 to /99.999.99.99:99999
+switch_module error 9999999999 9 Link error
+node-D9 clusterfilesystem clusterfilesystem.not_served 9999999999 9 ClusterFileSystem: ServerFileSystem domain storage999 is no longer served by node node-9
+Received block blk_99999999999999999 src: /99.999.999.999:99999 dest: /99.999.999.999:99999 of size 99999999
+Received block blk_9999999999999999999 src: /99.999.999.9:99999 dest: /99.999.999.9:99999 of size 99999999
+99.999.99.9:99999 Starting thread to transfer block blk_-99999999999999999 to 99.999.99.9:99999
+99.999.99.999:99999 Served block blk_-9999999999999999 to /99.999.999.9
+boot_cmd abort 9999999999 9 Command has been aborted
+9 active
+Receiving block blk_9999999999999999 src: /99.999.9.9:99999 dest: /99.999.9.9:99999
+PendingReplicationMonitor timed out block blk_-9999999999999999999
+ClusterFileSystem: ServerFileSystem domain root9_local_backup is no longer served by node node-99
+Processed session termination for sessionid: 9x99ed9ac9c9e99cd
+Closed socket connection for client /99.99.99.99:99999 which had sessionid 9x99ee9e999ed999c
+unix.hw state_change.unavailable 9999999999 9 Component State Change: Component \999SCSI-WWID:99999999:9999-99b9-9999-c999-9999-9999-99c9-9999\999 is in the unavailable state (HWID=9999)
+99.999.99.99:99999 Served block blk_-99999999999999999 to /99.999.99.999
+BLOCK* NameSystem.addStoredBlock: blockMap updated: 99.999.999.99:99999 is added to blk_999999999999999999 size 999999
+ClusterFileSystem: ServerFileSystem domain sc_cluster_backup is no longer served by node node-99
+99.999.9.99:99999:Transmitted block blk_-999999999999999999 to /99.999.9.999:99999
+inconsistent nodesets node-999 9x9fffffffe <ok> node-999 9x99fffffe <ok> node-999 9x99fffffe <ok> node-999 9x99fffffe <ok> node-999 9x99fffffe <ok>
+noavatar.csdn.net:99 open through proxy proxy.cse.cuhk.edu.hk:9999 HTTPS
+googleads.g.doubleclick.net:999 close, 999999 bytes (999 KB) sent, 999999 bytes (999 KB) received, lifetime 99:99
+999.999.999.99:99 error : Could not connect to proxy proxy.cse.cuhk.edu.hk:9999 - Could not resolve proxy.cse.cuhk.edu.hk error 99999
+BLOCK* NameSystem.delete: blk_999999999999999999 is added to invalidSet of 99.999.9.99:99999
+Received block blk_999999999999999 of size 99999999 from /99.999.999.999
+BLOCK* ask 99.999.9.999:99999 to replicate blk_999999999999999999 to datanode(s) 99.999.999.99:99999
+99.999.99.99:99999:Transmitted block blk_-9999999999999999999 to /99.999.9.999:99999
+Received block blk_-9999999999999999999 of size 9999999 from /99.999.99.9
+ums.adtech.de:99 open through proxy proxy.cse.cuhk.edu.hk:9999 HTTPS
+Received block blk_-999999999999999999 of size 9999999 from /99.999.99.9
+scholar.google.com.hk:999 open through proxy proxy.cse.cuhk.edu.hk:9999 HTTPS
+99.999.999.99:99999 Starting thread to transfer block blk_-9999999999999999999 to 99.999.99.999:99999, 99.999.99.99:99999
+Expiring session 9x99f99999bd9999e, timeout of 99999ms exceeded
+sp.analytics.yahoo.com:99 open through proxy proxy.cse.cuhk.edu.hk:9999 HTTPS

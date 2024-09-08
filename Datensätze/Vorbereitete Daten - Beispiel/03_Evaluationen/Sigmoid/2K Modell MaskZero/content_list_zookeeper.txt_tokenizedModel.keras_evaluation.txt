@@ -1,0 +1,1436 @@
+Model: tokenizedModel.keras
+ Evaluierungsdaten: content_list_zookeeper.txt
+ Sonstige Infos: 2K Zookeeper MaskZero
+Durchschnittlicher F1-Score: 0.8984300072707178
+Ergebnisse: 
+    -Gleiche Zeilen: 1643 (82.15%)
+    -Unterschiedliche Zeilen: 357 (17.85%)
+Falsch interpretierte Zeilen:
+Logeintrag: Connection broken for id 999999999999, my id = 9, error =
+Modell-Label: [0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 1, 0, 0]
+Echtes Label: [0, 0, 0, 0, 1, 1, 1, 1, 1, 1, 1, 0, 0]
+
+Logeintrag: Connection broken for id 999999999999, my id = 9, error =
+Modell-Label: [0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 1, 0, 0]
+Echtes Label: [0, 0, 0, 0, 1, 1, 1, 1, 1, 1, 1, 0, 0]
+
+Logeintrag: Connection broken for id 999999999999, my id = 9, error =
+Modell-Label: [0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 1, 0, 0]
+Echtes Label: [0, 0, 0, 0, 1, 1, 1, 1, 1, 1, 1, 0, 0]
+
+Logeintrag: Connection broken for id 999999999999, my id = 9, error =
+Modell-Label: [0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 1, 0, 0]
+Echtes Label: [0, 0, 0, 0, 1, 1, 1, 1, 1, 1, 1, 0, 0]
+
+Logeintrag: Connection broken for id 999999999999, my id = 9, error =
+Modell-Label: [0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 1, 0, 0]
+Echtes Label: [0, 0, 0, 0, 1, 1, 1, 1, 1, 1, 1, 0, 0]
+
+Logeintrag: Connection broken for id 999999999999, my id = 9, error =
+Modell-Label: [0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 1, 0, 0]
+Echtes Label: [0, 0, 0, 0, 1, 1, 1, 1, 1, 1, 1, 0, 0]
+
+Logeintrag: Connection broken for id 999999999999, my id = 9, error =
+Modell-Label: [0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 1, 0, 0]
+Echtes Label: [0, 0, 0, 0, 1, 1, 1, 1, 1, 1, 1, 0, 0]
+
+Logeintrag: Connection broken for id 999999999999, my id = 9, error =
+Modell-Label: [0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 1, 0, 0]
+Echtes Label: [0, 0, 0, 0, 1, 1, 1, 1, 1, 1, 1, 0, 0]
+
+Logeintrag: Connection broken for id 999999999999, my id = 9, error =
+Modell-Label: [0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 1, 0, 0]
+Echtes Label: [0, 0, 0, 0, 1, 1, 1, 1, 1, 1, 1, 0, 0]
+
+Logeintrag: Connection broken for id 999999999999, my id = 9, error =
+Modell-Label: [0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 1, 0, 0]
+Echtes Label: [0, 0, 0, 0, 1, 1, 1, 1, 1, 1, 1, 0, 0]
+
+Logeintrag: Connection broken for id 999999999999, my id = 9, error =
+Modell-Label: [0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 1, 0, 0]
+Echtes Label: [0, 0, 0, 0, 1, 1, 1, 1, 1, 1, 1, 0, 0]
+
+Logeintrag: Connection broken for id 999999999999, my id = 9, error =
+Modell-Label: [0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 1, 0, 0]
+Echtes Label: [0, 0, 0, 0, 1, 1, 1, 1, 1, 1, 1, 0, 0]
+
+Logeintrag: Connection broken for id 999999999999, my id = 9, error =
+Modell-Label: [0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 1, 0, 0]
+Echtes Label: [0, 0, 0, 0, 1, 1, 1, 1, 1, 1, 1, 0, 0]
+
+Logeintrag: Connection broken for id 999999999999, my id = 9, error =
+Modell-Label: [0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 1, 0, 0]
+Echtes Label: [0, 0, 0, 0, 1, 1, 1, 1, 1, 1, 1, 0, 0]
+
+Logeintrag: Connection broken for id 999999999999, my id = 9, error =
+Modell-Label: [0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 1, 0, 0]
+Echtes Label: [0, 0, 0, 0, 1, 1, 1, 1, 1, 1, 1, 0, 0]
+
+Logeintrag: Connection broken for id 999999999999, my id = 9, error =
+Modell-Label: [0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 1, 0, 0]
+Echtes Label: [0, 0, 0, 0, 1, 1, 1, 1, 1, 1, 1, 0, 0]
+
+Logeintrag: Connection broken for id 999999999999, my id = 9, error =
+Modell-Label: [0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 1, 0, 0]
+Echtes Label: [0, 0, 0, 0, 1, 1, 1, 1, 1, 1, 1, 0, 0]
+
+Logeintrag: Connection broken for id 999999999999, my id = 9, error =
+Modell-Label: [0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 1, 0, 0]
+Echtes Label: [0, 0, 0, 0, 1, 1, 1, 1, 1, 1, 1, 0, 0]
+
+Logeintrag: Connection broken for id 999999999999, my id = 9, error =
+Modell-Label: [0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 1, 0, 0]
+Echtes Label: [0, 0, 0, 0, 1, 1, 1, 1, 1, 1, 1, 0, 0]
+
+Logeintrag: Connection broken for id 999999999999, my id = 9, error =
+Modell-Label: [0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 1, 0, 0]
+Echtes Label: [0, 0, 0, 0, 1, 1, 1, 1, 1, 1, 1, 0, 0]
+
+Logeintrag: Connection broken for id 999999999999, my id = 9, error =
+Modell-Label: [0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 1, 0, 0]
+Echtes Label: [0, 0, 0, 0, 1, 1, 1, 1, 1, 1, 1, 0, 0]
+
+Logeintrag: Connection broken for id 999999999999, my id = 9, error =
+Modell-Label: [0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 1, 0, 0]
+Echtes Label: [0, 0, 0, 0, 1, 1, 1, 1, 1, 1, 1, 0, 0]
+
+Logeintrag: Connection broken for id 999999999999, my id = 9, error =
+Modell-Label: [0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 1, 0, 0]
+Echtes Label: [0, 0, 0, 0, 1, 1, 1, 1, 1, 1, 1, 0, 0]
+
+Logeintrag: Connection broken for id 999999999999, my id = 9, error =
+Modell-Label: [0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 1, 0, 0]
+Echtes Label: [0, 0, 0, 0, 1, 1, 1, 1, 1, 1, 1, 0, 0]
+
+Logeintrag: Connection broken for id 999999999999, my id = 9, error =
+Modell-Label: [0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 1, 0, 0]
+Echtes Label: [0, 0, 0, 0, 1, 1, 1, 1, 1, 1, 1, 0, 0]
+
+Logeintrag: Connection broken for id 999999999999, my id = 9, error =
+Modell-Label: [0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 1, 0, 0]
+Echtes Label: [0, 0, 0, 0, 1, 1, 1, 1, 1, 1, 1, 0, 0]
+
+Logeintrag: Connection broken for id 999999999999, my id = 9, error =
+Modell-Label: [0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 1, 0, 0]
+Echtes Label: [0, 0, 0, 0, 1, 1, 1, 1, 1, 1, 1, 0, 0]
+
+Logeintrag: Connection broken for id 999999999999, my id = 9, error =
+Modell-Label: [0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 1, 0, 0]
+Echtes Label: [0, 0, 0, 0, 1, 1, 1, 1, 1, 1, 1, 0, 0]
+
+Logeintrag: Connection broken for id 999999999999, my id = 9, error =
+Modell-Label: [0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 1, 0, 0]
+Echtes Label: [0, 0, 0, 0, 1, 1, 1, 1, 1, 1, 1, 0, 0]
+
+Logeintrag: Connection broken for id 999999999999, my id = 9, error =
+Modell-Label: [0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 1, 0, 0]
+Echtes Label: [0, 0, 0, 0, 1, 1, 1, 1, 1, 1, 1, 0, 0]
+
+Logeintrag: Connection broken for id 999999999999, my id = 9, error =
+Modell-Label: [0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 1, 0, 0]
+Echtes Label: [0, 0, 0, 0, 1, 1, 1, 1, 1, 1, 1, 0, 0]
+
+Logeintrag: Connection broken for id 999999999999, my id = 9, error =
+Modell-Label: [0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 1, 0, 0]
+Echtes Label: [0, 0, 0, 0, 1, 1, 1, 1, 1, 1, 1, 0, 0]
+
+Logeintrag: Connection broken for id 999999999999, my id = 9, error =
+Modell-Label: [0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 1, 0, 0]
+Echtes Label: [0, 0, 0, 0, 1, 1, 1, 1, 1, 1, 1, 0, 0]
+
+Logeintrag: Connection broken for id 999999999999, my id = 9, error =
+Modell-Label: [0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 1, 0, 0]
+Echtes Label: [0, 0, 0, 0, 1, 1, 1, 1, 1, 1, 1, 0, 0]
+
+Logeintrag: Connection broken for id 999999999999, my id = 9, error =
+Modell-Label: [0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 1, 0, 0]
+Echtes Label: [0, 0, 0, 0, 1, 1, 1, 1, 1, 1, 1, 0, 0]
+
+Logeintrag: Connection broken for id 999999999999, my id = 9, error =
+Modell-Label: [0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 1, 0, 0]
+Echtes Label: [0, 0, 0, 0, 1, 1, 1, 1, 1, 1, 1, 0, 0]
+
+Logeintrag: Connection broken for id 999999999999, my id = 9, error =
+Modell-Label: [0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 1, 0, 0]
+Echtes Label: [0, 0, 0, 0, 1, 1, 1, 1, 1, 1, 1, 0, 0]
+
+Logeintrag: Connection broken for id 999999999999, my id = 9, error =
+Modell-Label: [0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 1, 0, 0]
+Echtes Label: [0, 0, 0, 0, 1, 1, 1, 1, 1, 1, 1, 0, 0]
+
+Logeintrag: Connection broken for id 999999999999, my id = 9, error =
+Modell-Label: [0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 1, 0, 0]
+Echtes Label: [0, 0, 0, 0, 1, 1, 1, 1, 1, 1, 1, 0, 0]
+
+Logeintrag: Connection broken for id 999999999999, my id = 9, error =
+Modell-Label: [0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 1, 0, 0]
+Echtes Label: [0, 0, 0, 0, 1, 1, 1, 1, 1, 1, 1, 0, 0]
+
+Logeintrag: Connection broken for id 999999999999, my id = 9, error =
+Modell-Label: [0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 1, 0, 0]
+Echtes Label: [0, 0, 0, 0, 1, 1, 1, 1, 1, 1, 1, 0, 0]
+
+Logeintrag: Connection broken for id 999999999999, my id = 9, error =
+Modell-Label: [0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 1, 0, 0]
+Echtes Label: [0, 0, 0, 0, 1, 1, 1, 1, 1, 1, 1, 0, 0]
+
+Logeintrag: Connection broken for id 999999999999, my id = 9, error =
+Modell-Label: [0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 1, 0, 0]
+Echtes Label: [0, 0, 0, 0, 1, 1, 1, 1, 1, 1, 1, 0, 0]
+
+Logeintrag: Connection broken for id 999999999999, my id = 9, error =
+Modell-Label: [0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 1, 0, 0]
+Echtes Label: [0, 0, 0, 0, 1, 1, 1, 1, 1, 1, 1, 0, 0]
+
+Logeintrag: Connection broken for id 999999999999, my id = 9, error =
+Modell-Label: [0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 1, 0, 0]
+Echtes Label: [0, 0, 0, 0, 1, 1, 1, 1, 1, 1, 1, 0, 0]
+
+Logeintrag: Connection broken for id 999999999999, my id = 9, error =
+Modell-Label: [0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 1, 0, 0]
+Echtes Label: [0, 0, 0, 0, 1, 1, 1, 1, 1, 1, 1, 0, 0]
+
+Logeintrag: Connection broken for id 999999999999, my id = 9, error =
+Modell-Label: [0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 1, 0, 0]
+Echtes Label: [0, 0, 0, 0, 1, 1, 1, 1, 1, 1, 1, 0, 0]
+
+Logeintrag: Connection broken for id 999999999999, my id = 9, error =
+Modell-Label: [0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 1, 0, 0]
+Echtes Label: [0, 0, 0, 0, 1, 1, 1, 1, 1, 1, 1, 0, 0]
+
+Logeintrag: Connection broken for id 999999999999, my id = 9, error =
+Modell-Label: [0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 1, 0, 0]
+Echtes Label: [0, 0, 0, 0, 1, 1, 1, 1, 1, 1, 1, 0, 0]
+
+Logeintrag: Connection broken for id 999999999999, my id = 9, error =
+Modell-Label: [0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 1, 0, 0]
+Echtes Label: [0, 0, 0, 0, 1, 1, 1, 1, 1, 1, 1, 0, 0]
+
+Logeintrag: Connection broken for id 999999999999, my id = 9, error =
+Modell-Label: [0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 1, 0, 0]
+Echtes Label: [0, 0, 0, 0, 1, 1, 1, 1, 1, 1, 1, 0, 0]
+
+Logeintrag: Connection broken for id 999999999999, my id = 9, error =
+Modell-Label: [0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 1, 0, 0]
+Echtes Label: [0, 0, 0, 0, 1, 1, 1, 1, 1, 1, 1, 0, 0]
+
+Logeintrag: Connection broken for id 999999999999, my id = 9, error =
+Modell-Label: [0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 1, 0, 0]
+Echtes Label: [0, 0, 0, 0, 1, 1, 1, 1, 1, 1, 1, 0, 0]
+
+Logeintrag: Connection broken for id 999999999999, my id = 9, error =
+Modell-Label: [0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 1, 0, 0]
+Echtes Label: [0, 0, 0, 0, 1, 1, 1, 1, 1, 1, 1, 0, 0]
+
+Logeintrag: Connection broken for id 999999999999, my id = 9, error =
+Modell-Label: [0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 1, 0, 0]
+Echtes Label: [0, 0, 0, 0, 1, 1, 1, 1, 1, 1, 1, 0, 0]
+
+Logeintrag: Connection broken for id 999999999999, my id = 9, error =
+Modell-Label: [0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 1, 0, 0]
+Echtes Label: [0, 0, 0, 0, 1, 1, 1, 1, 1, 1, 1, 0, 0]
+
+Logeintrag: Connection broken for id 999999999999, my id = 9, error =
+Modell-Label: [0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 1, 0, 0]
+Echtes Label: [0, 0, 0, 0, 1, 1, 1, 1, 1, 1, 1, 0, 0]
+
+Logeintrag: Connection broken for id 999999999999, my id = 9, error =
+Modell-Label: [0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 1, 0, 0]
+Echtes Label: [0, 0, 0, 0, 1, 1, 1, 1, 1, 1, 1, 0, 0]
+
+Logeintrag: Connection broken for id 999999999999, my id = 9, error =
+Modell-Label: [0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 1, 0, 0]
+Echtes Label: [0, 0, 0, 0, 1, 1, 1, 1, 1, 1, 1, 0, 0]
+
+Logeintrag: Connection broken for id 999999999999, my id = 9, error =
+Modell-Label: [0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 1, 0, 0]
+Echtes Label: [0, 0, 0, 0, 1, 1, 1, 1, 1, 1, 1, 0, 0]
+
+Logeintrag: Connection broken for id 999999999999, my id = 9, error =
+Modell-Label: [0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 1, 0, 0]
+Echtes Label: [0, 0, 0, 0, 1, 1, 1, 1, 1, 1, 1, 0, 0]
+
+Logeintrag: Connection broken for id 999999999999, my id = 9, error =
+Modell-Label: [0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 1, 0, 0]
+Echtes Label: [0, 0, 0, 0, 1, 1, 1, 1, 1, 1, 1, 0, 0]
+
+Logeintrag: Connection broken for id 999999999999, my id = 9, error =
+Modell-Label: [0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 1, 0, 0]
+Echtes Label: [0, 0, 0, 0, 1, 1, 1, 1, 1, 1, 1, 0, 0]
+
+Logeintrag: Connection broken for id 999999999999, my id = 9, error =
+Modell-Label: [0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 1, 0, 0]
+Echtes Label: [0, 0, 0, 0, 1, 1, 1, 1, 1, 1, 1, 0, 0]
+
+Logeintrag: Connection broken for id 999999999999, my id = 9, error =
+Modell-Label: [0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 1, 0, 0]
+Echtes Label: [0, 0, 0, 0, 1, 1, 1, 1, 1, 1, 1, 0, 0]
+
+Logeintrag: Connection broken for id 999999999999, my id = 9, error =
+Modell-Label: [0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 1, 0, 0]
+Echtes Label: [0, 0, 0, 0, 1, 1, 1, 1, 1, 1, 1, 0, 0]
+
+Logeintrag: Connection broken for id 999999999999, my id = 9, error =
+Modell-Label: [0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 1, 0, 0]
+Echtes Label: [0, 0, 0, 0, 1, 1, 1, 1, 1, 1, 1, 0, 0]
+
+Logeintrag: Connection broken for id 999999999999, my id = 9, error =
+Modell-Label: [0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 1, 0, 0]
+Echtes Label: [0, 0, 0, 0, 1, 1, 1, 1, 1, 1, 1, 0, 0]
+
+Logeintrag: Connection broken for id 999999999999, my id = 9, error =
+Modell-Label: [0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 1, 0, 0]
+Echtes Label: [0, 0, 0, 0, 1, 1, 1, 1, 1, 1, 1, 0, 0]
+
+Logeintrag: Connection broken for id 999999999999, my id = 9, error =
+Modell-Label: [0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 1, 0, 0]
+Echtes Label: [0, 0, 0, 0, 1, 1, 1, 1, 1, 1, 1, 0, 0]
+
+Logeintrag: Connection broken for id 999999999999, my id = 9, error =
+Modell-Label: [0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 1, 0, 0]
+Echtes Label: [0, 0, 0, 0, 1, 1, 1, 1, 1, 1, 1, 0, 0]
+
+Logeintrag: Connection broken for id 999999999999, my id = 9, error =
+Modell-Label: [0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 1, 0, 0]
+Echtes Label: [0, 0, 0, 0, 1, 1, 1, 1, 1, 1, 1, 0, 0]
+
+Logeintrag: Connection broken for id 999999999999, my id = 9, error =
+Modell-Label: [0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 1, 0, 0]
+Echtes Label: [0, 0, 0, 0, 1, 1, 1, 1, 1, 1, 1, 0, 0]
+
+Logeintrag: Connection broken for id 999999999999, my id = 9, error =
+Modell-Label: [0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 1, 0, 0]
+Echtes Label: [0, 0, 0, 0, 1, 1, 1, 1, 1, 1, 1, 0, 0]
+
+Logeintrag: Connection broken for id 999999999999, my id = 9, error =
+Modell-Label: [0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 1, 0, 0]
+Echtes Label: [0, 0, 0, 0, 1, 1, 1, 1, 1, 1, 1, 0, 0]
+
+Logeintrag: Connection broken for id 999999999999, my id = 9, error =
+Modell-Label: [0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 1, 0, 0]
+Echtes Label: [0, 0, 0, 0, 1, 1, 1, 1, 1, 1, 1, 0, 0]
+
+Logeintrag: Connection broken for id 999999999999, my id = 9, error =
+Modell-Label: [0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 1, 0, 0]
+Echtes Label: [0, 0, 0, 0, 1, 1, 1, 1, 1, 1, 1, 0, 0]
+
+Logeintrag: Connection broken for id 999999999999, my id = 9, error =
+Modell-Label: [0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 1, 0, 0]
+Echtes Label: [0, 0, 0, 0, 1, 1, 1, 1, 1, 1, 1, 0, 0]
+
+Logeintrag: Connection broken for id 999999999999, my id = 9, error =
+Modell-Label: [0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 1, 0, 0]
+Echtes Label: [0, 0, 0, 0, 1, 1, 1, 1, 1, 1, 1, 0, 0]
+
+Logeintrag: Connection broken for id 999999999999, my id = 9, error =
+Modell-Label: [0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 1, 0, 0]
+Echtes Label: [0, 0, 0, 0, 1, 1, 1, 1, 1, 1, 1, 0, 0]
+
+Logeintrag: Connection broken for id 999999999999, my id = 9, error =
+Modell-Label: [0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 1, 0, 0]
+Echtes Label: [0, 0, 0, 0, 1, 1, 1, 1, 1, 1, 1, 0, 0]
+
+Logeintrag: Connection broken for id 999999999999, my id = 9, error =
+Modell-Label: [0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 1, 0, 0]
+Echtes Label: [0, 0, 0, 0, 1, 1, 1, 1, 1, 1, 1, 0, 0]
+
+Logeintrag: Connection broken for id 999999999999, my id = 9, error =
+Modell-Label: [0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 1, 0, 0]
+Echtes Label: [0, 0, 0, 0, 1, 1, 1, 1, 1, 1, 1, 0, 0]
+
+Logeintrag: Connection broken for id 999999999999, my id = 9, error =
+Modell-Label: [0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 1, 0, 0]
+Echtes Label: [0, 0, 0, 0, 1, 1, 1, 1, 1, 1, 1, 0, 0]
+
+Logeintrag: Connection broken for id 999999999999, my id = 9, error =
+Modell-Label: [0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 1, 0, 0]
+Echtes Label: [0, 0, 0, 0, 1, 1, 1, 1, 1, 1, 1, 0, 0]
+
+Logeintrag: Connection broken for id 999999999999, my id = 9, error =
+Modell-Label: [0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 1, 0, 0]
+Echtes Label: [0, 0, 0, 0, 1, 1, 1, 1, 1, 1, 1, 0, 0]
+
+Logeintrag: Connection broken for id 999999999999, my id = 9, error =
+Modell-Label: [0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 1, 0, 0]
+Echtes Label: [0, 0, 0, 0, 1, 1, 1, 1, 1, 1, 1, 0, 0]
+
+Logeintrag: Connection broken for id 999999999999, my id = 9, error =
+Modell-Label: [0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 1, 0, 0]
+Echtes Label: [0, 0, 0, 0, 1, 1, 1, 1, 1, 1, 1, 0, 0]
+
+Logeintrag: Connection broken for id 999999999999, my id = 9, error =
+Modell-Label: [0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 1, 0, 0]
+Echtes Label: [0, 0, 0, 0, 1, 1, 1, 1, 1, 1, 1, 0, 0]
+
+Logeintrag: Connection broken for id 999999999999, my id = 9, error =
+Modell-Label: [0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 1, 0, 0]
+Echtes Label: [0, 0, 0, 0, 1, 1, 1, 1, 1, 1, 1, 0, 0]
+
+Logeintrag: Connection broken for id 999999999999, my id = 9, error =
+Modell-Label: [0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 1, 0, 0]
+Echtes Label: [0, 0, 0, 0, 1, 1, 1, 1, 1, 1, 1, 0, 0]
+
+Logeintrag: Connection broken for id 999999999999, my id = 9, error =
+Modell-Label: [0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 1, 0, 0]
+Echtes Label: [0, 0, 0, 0, 1, 1, 1, 1, 1, 1, 1, 0, 0]
+
+Logeintrag: Connection broken for id 999999999999, my id = 9, error =
+Modell-Label: [0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 1, 0, 0]
+Echtes Label: [0, 0, 0, 0, 1, 1, 1, 1, 1, 1, 1, 0, 0]
+
+Logeintrag: Connection broken for id 999999999999, my id = 9, error =
+Modell-Label: [0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 1, 0, 0]
+Echtes Label: [0, 0, 0, 0, 1, 1, 1, 1, 1, 1, 1, 0, 0]
+
+Logeintrag: Connection request from old client /99.99.99.99:99999; will be dropped if server is in r-o mode
+Modell-Label: [0, 0, 0, 0, 1, 0, 1, 1, 0, 0, 0, 1, 1, 1, 0, 0, 0, 1, 0]
+Echtes Label: [0, 0, 0, 0, 0, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 0, 0, 0, 0]
+
+Logeintrag: Connection request from old client /99.99.99.99:99999; will be dropped if server is in r-o mode
+Modell-Label: [0, 0, 0, 0, 1, 0, 1, 1, 0, 0, 0, 1, 1, 1, 0, 0, 0, 1, 0]
+Echtes Label: [0, 0, 0, 0, 0, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 0, 0, 0, 0]
+
+Logeintrag: Connection request from old client /99.99.99.99:99999; will be dropped if server is in r-o mode
+Modell-Label: [0, 0, 0, 0, 1, 0, 1, 1, 0, 0, 0, 1, 1, 1, 0, 0, 0, 1, 0]
+Echtes Label: [0, 0, 0, 0, 0, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 0, 0, 0, 0]
+
+Logeintrag: Connection request from old client /99.99.99.99:99999; will be dropped if server is in r-o mode
+Modell-Label: [0, 0, 0, 0, 1, 0, 1, 1, 0, 0, 0, 1, 1, 1, 0, 0, 0, 1, 0]
+Echtes Label: [0, 0, 0, 0, 0, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 0, 0, 0, 0]
+
+Logeintrag: Connection request from old client /99.99.99.99:99999; will be dropped if server is in r-o mode
+Modell-Label: [0, 0, 0, 0, 1, 0, 1, 1, 0, 0, 0, 1, 1, 1, 0, 0, 0, 1, 0]
+Echtes Label: [0, 0, 0, 0, 0, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 0, 0, 0, 0]
+
+Logeintrag: Connection request from old client /99.99.99.99:99999; will be dropped if server is in r-o mode
+Modell-Label: [0, 0, 0, 0, 1, 0, 1, 1, 0, 0, 0, 1, 1, 1, 0, 0, 0, 1, 0]
+Echtes Label: [0, 0, 0, 0, 0, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 0, 0, 0, 0]
+
+Logeintrag: Connection request from old client /99.99.99.99:99999; will be dropped if server is in r-o mode
+Modell-Label: [0, 0, 0, 0, 1, 0, 1, 1, 0, 0, 0, 1, 1, 1, 0, 0, 0, 1, 0]
+Echtes Label: [0, 0, 0, 0, 0, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 0, 0, 0, 0]
+
+Logeintrag: Connection request from old client /99.99.99.99:99999; will be dropped if server is in r-o mode
+Modell-Label: [0, 0, 0, 0, 1, 0, 1, 1, 0, 0, 0, 1, 1, 1, 0, 0, 0, 1, 0]
+Echtes Label: [0, 0, 0, 0, 0, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 0, 0, 0, 0]
+
+Logeintrag: Connection request from old client /99.99.99.99:99999; will be dropped if server is in r-o mode
+Modell-Label: [0, 0, 0, 0, 1, 0, 1, 1, 0, 0, 0, 1, 1, 1, 0, 0, 0, 1, 0]
+Echtes Label: [0, 0, 0, 0, 0, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 0, 0, 0, 0]
+
+Logeintrag: Connection request from old client /99.99.99.99:99999; will be dropped if server is in r-o mode
+Modell-Label: [0, 0, 0, 0, 1, 0, 1, 1, 0, 0, 0, 1, 1, 1, 0, 0, 0, 1, 0]
+Echtes Label: [0, 0, 0, 0, 0, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 0, 0, 0, 0]
+
+Logeintrag: Connection request from old client /99.99.99.99:99999; will be dropped if server is in r-o mode
+Modell-Label: [0, 0, 0, 0, 1, 0, 1, 1, 0, 0, 0, 1, 1, 1, 0, 0, 0, 1, 0]
+Echtes Label: [0, 0, 0, 0, 0, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 0, 0, 0, 0]
+
+Logeintrag: Connection request from old client /99.99.99.99:99999; will be dropped if server is in r-o mode
+Modell-Label: [0, 0, 0, 0, 1, 0, 1, 1, 0, 0, 0, 1, 1, 1, 0, 0, 0, 1, 0]
+Echtes Label: [0, 0, 0, 0, 0, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 0, 0, 0, 0]
+
+Logeintrag: Connection request from old client /99.99.99.99:99999; will be dropped if server is in r-o mode
+Modell-Label: [0, 0, 0, 0, 1, 0, 1, 1, 0, 0, 0, 1, 1, 1, 0, 0, 0, 1, 0]
+Echtes Label: [0, 0, 0, 0, 0, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 0, 0, 0, 0]
+
+Logeintrag: My election bind port: 9.9.9.9/9.9.9.9:9999
+Modell-Label: [0, 0, 0, 1, 1, 0, 1]
+Echtes Label: [0, 0, 0, 0, 1, 0, 0]
+
+Logeintrag: Have smaller server identifier, so dropping the connection: (9, 9)
+Modell-Label: [0, 0, 0, 0, 1, 1, 0, 0, 1, 0, 0, 1, 1]
+Echtes Label: [0, 0, 0, 0, 0, 0, 0, 0, 1, 1, 0, 0, 0]
+
+Logeintrag: New election. My id =  9, proposed zxid=9x999999999
+Modell-Label: [0, 0, 0, 0, 0, 1, 1, 1, 0]
+Echtes Label: [0, 0, 0, 0, 0, 0, 1, 1, 1]
+
+Logeintrag: FOLLOWING - LEADER ELECTION TOOK - 99
+Modell-Label: [0, 0, 0, 0, 0, 1, 1]
+Echtes Label: [1, 1, 1, 1, 1, 1, 1]
+
+Logeintrag: Connection request from old client /99.99.99.99:99999; will be dropped if server is in r-o mode
+Modell-Label: [0, 0, 0, 0, 1, 0, 1, 1, 0, 0, 0, 1, 1, 1, 0, 0, 0, 1, 0]
+Echtes Label: [0, 0, 0, 0, 0, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 0, 0, 0, 0]
+
+Logeintrag: Connection request from old client /99.99.99.99:99999; will be dropped if server is in r-o mode
+Modell-Label: [0, 0, 0, 0, 1, 0, 1, 1, 0, 0, 0, 1, 1, 1, 0, 0, 0, 1, 0]
+Echtes Label: [0, 0, 0, 0, 0, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 0, 0, 0, 0]
+
+Logeintrag: Notification: 9 (n.leader), 9x999999999 (n.zxid), 9x9 (n.round), LEADING (n.state), 9 (n.sid), 9x9 (n.peerEPoch), LOOKING (my state)
+Modell-Label: [0, 1, 0, 1, 1, 1, 1, 1, 1, 0, 1, 1, 1, 0, 1, 1, 1, 0, 1, 1, 0, 0]
+Echtes Label: [1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 0, 0, 0, 0, 0, 0]
+
+Logeintrag: FOLLOWING - LEADER ELECTION TOOK - 999
+Modell-Label: [0, 0, 0, 0, 0, 0, 1]
+Echtes Label: [1, 1, 1, 1, 1, 1, 1]
+
+Logeintrag: Connection request from old client /99.99.99.99:99999; will be dropped if server is in r-o mode
+Modell-Label: [0, 0, 0, 0, 1, 0, 1, 1, 0, 0, 0, 1, 1, 1, 0, 0, 0, 1, 0]
+Echtes Label: [0, 0, 0, 0, 0, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 0, 0, 0, 0]
+
+Logeintrag: Server environment:java.vendor=Oracle Corporation
+Modell-Label: [0, 1, 0, 1, 1, 0]
+Echtes Label: [0, 1, 1, 0, 0, 0]
+
+Logeintrag: Server environment:zookeeper.version=9.9.9--9, built on 99/99/9999 99:99 GMT
+Modell-Label: [0, 1, 1, 0, 1, 1, 1]
+Echtes Label: [0, 1, 1, 1, 1, 1, 1]
+
+Logeintrag: Exception causing close of session 9x9 due to java.io.IOException: ZooKeeperServer not running
+Modell-Label: [0, 0, 0, 0, 0, 1, 1, 0, 0, 1, 0, 0, 0, 0]
+Echtes Label: [0, 0, 0, 0, 0, 1, 0, 0, 0, 0, 0, 0, 0, 0]
+
+Logeintrag: Notification: 9 (n.leader), 9xb99999999 (n.zxid), 9x9 (n.round), LOOKING (n.state), 9 (n.sid), 9xb (n.peerEPoch), LOOKING (my state)
+Modell-Label: [0, 1, 0, 1, 1, 0, 1, 1, 1, 1, 0, 1, 1, 1, 0, 1, 1, 0, 1, 1, 0, 0]
+Echtes Label: [1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 0, 0, 0, 0, 0, 0]
+
+Logeintrag: Notification: 9 (n.leader), 9xb9999999b (n.zxid), 9x9 (n.round), LOOKING (n.state), 9 (n.sid), 9xb (n.peerEPoch), FOLLOWING (my state)
+Modell-Label: [0, 1, 0, 1, 1, 0, 1, 1, 1, 1, 0, 1, 1, 1, 0, 1, 1, 0, 1, 0, 0, 0]
+Echtes Label: [1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 0, 0, 0, 0, 0, 0]
+
+Logeintrag: Connection request from old client /99.99.99.99:99999; will be dropped if server is in r-o mode
+Modell-Label: [0, 0, 0, 0, 1, 0, 1, 1, 0, 0, 0, 1, 1, 1, 0, 0, 0, 1, 0]
+Echtes Label: [0, 0, 0, 0, 0, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 0, 0, 0, 0]
+
+Logeintrag: Connection broken for id 9, my id = 9, error =
+Modell-Label: [0, 1, 0, 0, 0, 1, 0, 0, 0, 1, 0, 0]
+Echtes Label: [0, 0, 0, 0, 1, 1, 1, 1, 1, 1, 1, 0]
+
+Logeintrag: Server environment:java.vendor=Oracle Corporation
+Modell-Label: [0, 1, 0, 1, 1, 0]
+Echtes Label: [0, 1, 1, 0, 0, 0]
+
+Logeintrag: Connection broken for id 999999999999, my id = 9, error =
+Modell-Label: [0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 1, 0, 0]
+Echtes Label: [0, 0, 0, 0, 1, 1, 1, 1, 1, 1, 1, 0, 0]
+
+Logeintrag: Connection broken for id 999999999999, my id = 9, error =
+Modell-Label: [0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 1, 0, 0]
+Echtes Label: [0, 0, 0, 0, 1, 1, 1, 1, 1, 1, 1, 0, 0]
+
+Logeintrag: Connection broken for id 999999999999, my id = 9, error =
+Modell-Label: [0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 1, 0, 0]
+Echtes Label: [0, 0, 0, 0, 1, 1, 1, 1, 1, 1, 1, 0, 0]
+
+Logeintrag: Connection broken for id 999999999999, my id = 9, error =
+Modell-Label: [0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 1, 0, 0]
+Echtes Label: [0, 0, 0, 0, 1, 1, 1, 1, 1, 1, 1, 0, 0]
+
+Logeintrag: Connection broken for id 999999999999, my id = 9, error =
+Modell-Label: [0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 1, 0, 0]
+Echtes Label: [0, 0, 0, 0, 1, 1, 1, 1, 1, 1, 1, 0, 0]
+
+Logeintrag: Connection broken for id 999999999999, my id = 9, error =
+Modell-Label: [0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 1, 0, 0]
+Echtes Label: [0, 0, 0, 0, 1, 1, 1, 1, 1, 1, 1, 0, 0]
+
+Logeintrag: Connection broken for id 999999999999, my id = 9, error =
+Modell-Label: [0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 1, 0, 0]
+Echtes Label: [0, 0, 0, 0, 1, 1, 1, 1, 1, 1, 1, 0, 0]
+
+Logeintrag: Connection broken for id 999999999999, my id = 9, error =
+Modell-Label: [0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 1, 0, 0]
+Echtes Label: [0, 0, 0, 0, 1, 1, 1, 1, 1, 1, 1, 0, 0]
+
+Logeintrag: Connection broken for id 999999999999, my id = 9, error =
+Modell-Label: [0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 1, 0, 0]
+Echtes Label: [0, 0, 0, 0, 1, 1, 1, 1, 1, 1, 1, 0, 0]
+
+Logeintrag: Connection broken for id 999999999999, my id = 9, error =
+Modell-Label: [0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 1, 0, 0]
+Echtes Label: [0, 0, 0, 0, 1, 1, 1, 1, 1, 1, 1, 0, 0]
+
+Logeintrag: Connection broken for id 999999999999, my id = 9, error =
+Modell-Label: [0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 1, 0, 0]
+Echtes Label: [0, 0, 0, 0, 1, 1, 1, 1, 1, 1, 1, 0, 0]
+
+Logeintrag: Connection broken for id 999999999999, my id = 9, error =
+Modell-Label: [0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 1, 0, 0]
+Echtes Label: [0, 0, 0, 0, 1, 1, 1, 1, 1, 1, 1, 0, 0]
+
+Logeintrag: Connection broken for id 999999999999, my id = 9, error =
+Modell-Label: [0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 1, 0, 0]
+Echtes Label: [0, 0, 0, 0, 1, 1, 1, 1, 1, 1, 1, 0, 0]
+
+Logeintrag: Connection broken for id 999999999999, my id = 9, error =
+Modell-Label: [0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 1, 0, 0]
+Echtes Label: [0, 0, 0, 0, 1, 1, 1, 1, 1, 1, 1, 0, 0]
+
+Logeintrag: Connection broken for id 999999999999, my id = 9, error =
+Modell-Label: [0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 1, 0, 0]
+Echtes Label: [0, 0, 0, 0, 1, 1, 1, 1, 1, 1, 1, 0, 0]
+
+Logeintrag: Connection broken for id 999999999999, my id = 9, error =
+Modell-Label: [0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 1, 0, 0]
+Echtes Label: [0, 0, 0, 0, 1, 1, 1, 1, 1, 1, 1, 0, 0]
+
+Logeintrag: Connection broken for id 999999999999, my id = 9, error =
+Modell-Label: [0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 1, 0, 0]
+Echtes Label: [0, 0, 0, 0, 1, 1, 1, 1, 1, 1, 1, 0, 0]
+
+Logeintrag: Connection broken for id 999999999999, my id = 9, error =
+Modell-Label: [0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 1, 0, 0]
+Echtes Label: [0, 0, 0, 0, 1, 1, 1, 1, 1, 1, 1, 0, 0]
+
+Logeintrag: Connection broken for id 999999999999, my id = 9, error =
+Modell-Label: [0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 1, 0, 0]
+Echtes Label: [0, 0, 0, 0, 1, 1, 1, 1, 1, 1, 1, 0, 0]
+
+Logeintrag: Connection broken for id 999999999999, my id = 9, error =
+Modell-Label: [0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 1, 0, 0]
+Echtes Label: [0, 0, 0, 0, 1, 1, 1, 1, 1, 1, 1, 0, 0]
+
+Logeintrag: Connection broken for id 999999999999, my id = 9, error =
+Modell-Label: [0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 1, 0, 0]
+Echtes Label: [0, 0, 0, 0, 1, 1, 1, 1, 1, 1, 1, 0, 0]
+
+Logeintrag: Connection broken for id 999999999999, my id = 9, error =
+Modell-Label: [0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 1, 0, 0]
+Echtes Label: [0, 0, 0, 0, 1, 1, 1, 1, 1, 1, 1, 0, 0]
+
+Logeintrag: Connection broken for id 999999999999, my id = 9, error =
+Modell-Label: [0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 1, 0, 0]
+Echtes Label: [0, 0, 0, 0, 1, 1, 1, 1, 1, 1, 1, 0, 0]
+
+Logeintrag: Connection broken for id 999999999999, my id = 9, error =
+Modell-Label: [0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 1, 0, 0]
+Echtes Label: [0, 0, 0, 0, 1, 1, 1, 1, 1, 1, 1, 0, 0]
+
+Logeintrag: Connection broken for id 999999999999, my id = 9, error =
+Modell-Label: [0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 1, 0, 0]
+Echtes Label: [0, 0, 0, 0, 1, 1, 1, 1, 1, 1, 1, 0, 0]
+
+Logeintrag: Connection broken for id 999999999999, my id = 9, error =
+Modell-Label: [0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 1, 0, 0]
+Echtes Label: [0, 0, 0, 0, 1, 1, 1, 1, 1, 1, 1, 0, 0]
+
+Logeintrag: Connection broken for id 999999999999, my id = 9, error =
+Modell-Label: [0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 1, 0, 0]
+Echtes Label: [0, 0, 0, 0, 1, 1, 1, 1, 1, 1, 1, 0, 0]
+
+Logeintrag: Connection broken for id 999999999999, my id = 9, error =
+Modell-Label: [0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 1, 0, 0]
+Echtes Label: [0, 0, 0, 0, 1, 1, 1, 1, 1, 1, 1, 0, 0]
+
+Logeintrag: Connection broken for id 999999999999, my id = 9, error =
+Modell-Label: [0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 1, 0, 0]
+Echtes Label: [0, 0, 0, 0, 1, 1, 1, 1, 1, 1, 1, 0, 0]
+
+Logeintrag: Connection broken for id 999999999999, my id = 9, error =
+Modell-Label: [0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 1, 0, 0]
+Echtes Label: [0, 0, 0, 0, 1, 1, 1, 1, 1, 1, 1, 0, 0]
+
+Logeintrag: Connection broken for id 999999999999, my id = 9, error =
+Modell-Label: [0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 1, 0, 0]
+Echtes Label: [0, 0, 0, 0, 1, 1, 1, 1, 1, 1, 1, 0, 0]
+
+Logeintrag: Connection broken for id 999999999999, my id = 9, error =
+Modell-Label: [0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 1, 0, 0]
+Echtes Label: [0, 0, 0, 0, 1, 1, 1, 1, 1, 1, 1, 0, 0]
+
+Logeintrag: Connection broken for id 999999999999, my id = 9, error =
+Modell-Label: [0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 1, 0, 0]
+Echtes Label: [0, 0, 0, 0, 1, 1, 1, 1, 1, 1, 1, 0, 0]
+
+Logeintrag: Connection broken for id 999999999999, my id = 9, error =
+Modell-Label: [0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 1, 0, 0]
+Echtes Label: [0, 0, 0, 0, 1, 1, 1, 1, 1, 1, 1, 0, 0]
+
+Logeintrag: Connection broken for id 999999999999, my id = 9, error =
+Modell-Label: [0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 1, 0, 0]
+Echtes Label: [0, 0, 0, 0, 1, 1, 1, 1, 1, 1, 1, 0, 0]
+
+Logeintrag: Connection broken for id 999999999999, my id = 9, error =
+Modell-Label: [0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 1, 0, 0]
+Echtes Label: [0, 0, 0, 0, 1, 1, 1, 1, 1, 1, 1, 0, 0]
+
+Logeintrag: Connection broken for id 999999999999, my id = 9, error =
+Modell-Label: [0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 1, 0, 0]
+Echtes Label: [0, 0, 0, 0, 1, 1, 1, 1, 1, 1, 1, 0, 0]
+
+Logeintrag: Connection broken for id 999999999999, my id = 9, error =
+Modell-Label: [0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 1, 0, 0]
+Echtes Label: [0, 0, 0, 0, 1, 1, 1, 1, 1, 1, 1, 0, 0]
+
+Logeintrag: Connection broken for id 999999999999, my id = 9, error =
+Modell-Label: [0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 1, 0, 0]
+Echtes Label: [0, 0, 0, 0, 1, 1, 1, 1, 1, 1, 1, 0, 0]
+
+Logeintrag: Connection broken for id 999999999999, my id = 9, error =
+Modell-Label: [0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 1, 0, 0]
+Echtes Label: [0, 0, 0, 0, 1, 1, 1, 1, 1, 1, 1, 0, 0]
+
+Logeintrag: Connection broken for id 999999999999, my id = 9, error =
+Modell-Label: [0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 1, 0, 0]
+Echtes Label: [0, 0, 0, 0, 1, 1, 1, 1, 1, 1, 1, 0, 0]
+
+Logeintrag: Connection broken for id 999999999999, my id = 9, error =
+Modell-Label: [0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 1, 0, 0]
+Echtes Label: [0, 0, 0, 0, 1, 1, 1, 1, 1, 1, 1, 0, 0]
+
+Logeintrag: Connection broken for id 999999999999, my id = 9, error =
+Modell-Label: [0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 1, 0, 0]
+Echtes Label: [0, 0, 0, 0, 1, 1, 1, 1, 1, 1, 1, 0, 0]
+
+Logeintrag: Connection broken for id 999999999999, my id = 9, error =
+Modell-Label: [0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 1, 0, 0]
+Echtes Label: [0, 0, 0, 0, 1, 1, 1, 1, 1, 1, 1, 0, 0]
+
+Logeintrag: Connection broken for id 999999999999, my id = 9, error =
+Modell-Label: [0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 1, 0, 0]
+Echtes Label: [0, 0, 0, 0, 1, 1, 1, 1, 1, 1, 1, 0, 0]
+
+Logeintrag: Connection broken for id 999999999999, my id = 9, error =
+Modell-Label: [0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 1, 0, 0]
+Echtes Label: [0, 0, 0, 0, 1, 1, 1, 1, 1, 1, 1, 0, 0]
+
+Logeintrag: Connection broken for id 999999999999, my id = 9, error =
+Modell-Label: [0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 1, 0, 0]
+Echtes Label: [0, 0, 0, 0, 1, 1, 1, 1, 1, 1, 1, 0, 0]
+
+Logeintrag: Connection broken for id 999999999999, my id = 9, error =
+Modell-Label: [0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 1, 0, 0]
+Echtes Label: [0, 0, 0, 0, 1, 1, 1, 1, 1, 1, 1, 0, 0]
+
+Logeintrag: Connection broken for id 999999999999, my id = 9, error =
+Modell-Label: [0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 1, 0, 0]
+Echtes Label: [0, 0, 0, 0, 1, 1, 1, 1, 1, 1, 1, 0, 0]
+
+Logeintrag: Connection broken for id 999999999999, my id = 9, error =
+Modell-Label: [0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 1, 0, 0]
+Echtes Label: [0, 0, 0, 0, 1, 1, 1, 1, 1, 1, 1, 0, 0]
+
+Logeintrag: Connection broken for id 999999999999, my id = 9, error =
+Modell-Label: [0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 1, 0, 0]
+Echtes Label: [0, 0, 0, 0, 1, 1, 1, 1, 1, 1, 1, 0, 0]
+
+Logeintrag: Connection broken for id 999999999999, my id = 9, error =
+Modell-Label: [0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 1, 0, 0]
+Echtes Label: [0, 0, 0, 0, 1, 1, 1, 1, 1, 1, 1, 0, 0]
+
+Logeintrag: Connection broken for id 999999999999, my id = 9, error =
+Modell-Label: [0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 1, 0, 0]
+Echtes Label: [0, 0, 0, 0, 1, 1, 1, 1, 1, 1, 1, 0, 0]
+
+Logeintrag: Connection broken for id 999999999999, my id = 9, error =
+Modell-Label: [0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 1, 0, 0]
+Echtes Label: [0, 0, 0, 0, 1, 1, 1, 1, 1, 1, 1, 0, 0]
+
+Logeintrag: Connection broken for id 999999999999, my id = 9, error =
+Modell-Label: [0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 1, 0, 0]
+Echtes Label: [0, 0, 0, 0, 1, 1, 1, 1, 1, 1, 1, 0, 0]
+
+Logeintrag: Connection broken for id 999999999999, my id = 9, error =
+Modell-Label: [0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 1, 0, 0]
+Echtes Label: [0, 0, 0, 0, 1, 1, 1, 1, 1, 1, 1, 0, 0]
+
+Logeintrag: Connection broken for id 999999999999, my id = 9, error =
+Modell-Label: [0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 1, 0, 0]
+Echtes Label: [0, 0, 0, 0, 1, 1, 1, 1, 1, 1, 1, 0, 0]
+
+Logeintrag: Connection broken for id 999999999999, my id = 9, error =
+Modell-Label: [0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 1, 0, 0]
+Echtes Label: [0, 0, 0, 0, 1, 1, 1, 1, 1, 1, 1, 0, 0]
+
+Logeintrag: Connection broken for id 999999999999, my id = 9, error =
+Modell-Label: [0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 1, 0, 0]
+Echtes Label: [0, 0, 0, 0, 1, 1, 1, 1, 1, 1, 1, 0, 0]
+
+Logeintrag: Connection broken for id 999999999999, my id = 9, error =
+Modell-Label: [0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 1, 0, 0]
+Echtes Label: [0, 0, 0, 0, 1, 1, 1, 1, 1, 1, 1, 0, 0]
+
+Logeintrag: Connection broken for id 999999999999, my id = 9, error =
+Modell-Label: [0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 1, 0, 0]
+Echtes Label: [0, 0, 0, 0, 1, 1, 1, 1, 1, 1, 1, 0, 0]
+
+Logeintrag: Connection broken for id 999999999999, my id = 9, error =
+Modell-Label: [0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 1, 0, 0]
+Echtes Label: [0, 0, 0, 0, 1, 1, 1, 1, 1, 1, 1, 0, 0]
+
+Logeintrag: Connection broken for id 999999999999, my id = 9, error =
+Modell-Label: [0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 1, 0, 0]
+Echtes Label: [0, 0, 0, 0, 1, 1, 1, 1, 1, 1, 1, 0, 0]
+
+Logeintrag: Connection broken for id 999999999999, my id = 9, error =
+Modell-Label: [0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 1, 0, 0]
+Echtes Label: [0, 0, 0, 0, 1, 1, 1, 1, 1, 1, 1, 0, 0]
+
+Logeintrag: Connection broken for id 999999999999, my id = 9, error =
+Modell-Label: [0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 1, 0, 0]
+Echtes Label: [0, 0, 0, 0, 1, 1, 1, 1, 1, 1, 1, 0, 0]
+
+Logeintrag: Connection broken for id 999999999999, my id = 9, error =
+Modell-Label: [0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 1, 0, 0]
+Echtes Label: [0, 0, 0, 0, 1, 1, 1, 1, 1, 1, 1, 0, 0]
+
+Logeintrag: Connection broken for id 999999999999, my id = 9, error =
+Modell-Label: [0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 1, 0, 0]
+Echtes Label: [0, 0, 0, 0, 1, 1, 1, 1, 1, 1, 1, 0, 0]
+
+Logeintrag: Connection broken for id 999999999999, my id = 9, error =
+Modell-Label: [0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 1, 0, 0]
+Echtes Label: [0, 0, 0, 0, 1, 1, 1, 1, 1, 1, 1, 0, 0]
+
+Logeintrag: Connection broken for id 999999999999, my id = 9, error =
+Modell-Label: [0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 1, 0, 0]
+Echtes Label: [0, 0, 0, 0, 1, 1, 1, 1, 1, 1, 1, 0, 0]
+
+Logeintrag: Connection broken for id 999999999999, my id = 9, error =
+Modell-Label: [0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 1, 0, 0]
+Echtes Label: [0, 0, 0, 0, 1, 1, 1, 1, 1, 1, 1, 0, 0]
+
+Logeintrag: Connection broken for id 999999999999, my id = 9, error =
+Modell-Label: [0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 1, 0, 0]
+Echtes Label: [0, 0, 0, 0, 1, 1, 1, 1, 1, 1, 1, 0, 0]
+
+Logeintrag: Connection broken for id 999999999999, my id = 9, error =
+Modell-Label: [0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 1, 0, 0]
+Echtes Label: [0, 0, 0, 0, 1, 1, 1, 1, 1, 1, 1, 0, 0]
+
+Logeintrag: Connection broken for id 999999999999, my id = 9, error =
+Modell-Label: [0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 1, 0, 0]
+Echtes Label: [0, 0, 0, 0, 1, 1, 1, 1, 1, 1, 1, 0, 0]
+
+Logeintrag: Connection broken for id 999999999999, my id = 9, error =
+Modell-Label: [0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 1, 0, 0]
+Echtes Label: [0, 0, 0, 0, 1, 1, 1, 1, 1, 1, 1, 0, 0]
+
+Logeintrag: Connection broken for id 999999999999, my id = 9, error =
+Modell-Label: [0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 1, 0, 0]
+Echtes Label: [0, 0, 0, 0, 1, 1, 1, 1, 1, 1, 1, 0, 0]
+
+Logeintrag: Connection broken for id 999999999999, my id = 9, error =
+Modell-Label: [0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 1, 0, 0]
+Echtes Label: [0, 0, 0, 0, 1, 1, 1, 1, 1, 1, 1, 0, 0]
+
+Logeintrag: Connection broken for id 999999999999, my id = 9, error =
+Modell-Label: [0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 1, 0, 0]
+Echtes Label: [0, 0, 0, 0, 1, 1, 1, 1, 1, 1, 1, 0, 0]
+
+Logeintrag: Connection broken for id 999999999999, my id = 9, error =
+Modell-Label: [0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 1, 0, 0]
+Echtes Label: [0, 0, 0, 0, 1, 1, 1, 1, 1, 1, 1, 0, 0]
+
+Logeintrag: Connection broken for id 999999999999, my id = 9, error =
+Modell-Label: [0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 1, 0, 0]
+Echtes Label: [0, 0, 0, 0, 1, 1, 1, 1, 1, 1, 1, 0, 0]
+
+Logeintrag: Connection broken for id 999999999999, my id = 9, error =
+Modell-Label: [0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 1, 0, 0]
+Echtes Label: [0, 0, 0, 0, 1, 1, 1, 1, 1, 1, 1, 0, 0]
+
+Logeintrag: Connection broken for id 999999999999, my id = 9, error =
+Modell-Label: [0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 1, 0, 0]
+Echtes Label: [0, 0, 0, 0, 1, 1, 1, 1, 1, 1, 1, 0, 0]
+
+Logeintrag: Connection broken for id 999999999999, my id = 9, error =
+Modell-Label: [0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 1, 0, 0]
+Echtes Label: [0, 0, 0, 0, 1, 1, 1, 1, 1, 1, 1, 0, 0]
+
+Logeintrag: Connection broken for id 999999999999, my id = 9, error =
+Modell-Label: [0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 1, 0, 0]
+Echtes Label: [0, 0, 0, 0, 1, 1, 1, 1, 1, 1, 1, 0, 0]
+
+Logeintrag: Connection broken for id 999999999999, my id = 9, error =
+Modell-Label: [0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 1, 0, 0]
+Echtes Label: [0, 0, 0, 0, 1, 1, 1, 1, 1, 1, 1, 0, 0]
+
+Logeintrag: Connection broken for id 999999999999, my id = 9, error =
+Modell-Label: [0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 1, 0, 0]
+Echtes Label: [0, 0, 0, 0, 1, 1, 1, 1, 1, 1, 1, 0, 0]
+
+Logeintrag: Connection broken for id 999999999999, my id = 9, error =
+Modell-Label: [0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 1, 0, 0]
+Echtes Label: [0, 0, 0, 0, 1, 1, 1, 1, 1, 1, 1, 0, 0]
+
+Logeintrag: Connection broken for id 999999999999, my id = 9, error =
+Modell-Label: [0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 1, 0, 0]
+Echtes Label: [0, 0, 0, 0, 1, 1, 1, 1, 1, 1, 1, 0, 0]
+
+Logeintrag: Connection broken for id 999999999999, my id = 9, error =
+Modell-Label: [0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 1, 0, 0]
+Echtes Label: [0, 0, 0, 0, 1, 1, 1, 1, 1, 1, 1, 0, 0]
+
+Logeintrag: Connection broken for id 999999999999, my id = 9, error =
+Modell-Label: [0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 1, 0, 0]
+Echtes Label: [0, 0, 0, 0, 1, 1, 1, 1, 1, 1, 1, 0, 0]
+
+Logeintrag: Connection broken for id 999999999999, my id = 9, error =
+Modell-Label: [0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 1, 0, 0]
+Echtes Label: [0, 0, 0, 0, 1, 1, 1, 1, 1, 1, 1, 0, 0]
+
+Logeintrag: Connection broken for id 999999999999, my id = 9, error =
+Modell-Label: [0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 1, 0, 0]
+Echtes Label: [0, 0, 0, 0, 1, 1, 1, 1, 1, 1, 1, 0, 0]
+
+Logeintrag: Connection broken for id 999999999999, my id = 9, error =
+Modell-Label: [0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 1, 0, 0]
+Echtes Label: [0, 0, 0, 0, 1, 1, 1, 1, 1, 1, 1, 0, 0]
+
+Logeintrag: Connection broken for id 999999999999, my id = 9, error =
+Modell-Label: [0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 1, 0, 0]
+Echtes Label: [0, 0, 0, 0, 1, 1, 1, 1, 1, 1, 1, 0, 0]
+
+Logeintrag: Connection broken for id 999999999999, my id = 9, error =
+Modell-Label: [0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 1, 0, 0]
+Echtes Label: [0, 0, 0, 0, 1, 1, 1, 1, 1, 1, 1, 0, 0]
+
+Logeintrag: Connection broken for id 999999999999, my id = 9, error =
+Modell-Label: [0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 1, 0, 0]
+Echtes Label: [0, 0, 0, 0, 1, 1, 1, 1, 1, 1, 1, 0, 0]
+
+Logeintrag: Connection broken for id 999999999999, my id = 9, error =
+Modell-Label: [0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 1, 0, 0]
+Echtes Label: [0, 0, 0, 0, 1, 1, 1, 1, 1, 1, 1, 0, 0]
+
+Logeintrag: Connection request from old client /99.99.99.99:99999; will be dropped if server is in r-o mode
+Modell-Label: [0, 0, 0, 0, 1, 0, 1, 1, 0, 0, 0, 1, 1, 1, 0, 0, 0, 1, 0]
+Echtes Label: [0, 0, 0, 0, 0, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 0, 0, 0, 0]
+
+Logeintrag: Notification: 9 (n.leader), 9x99999999b (n.zxid), 9x9 (n.round), LOOKING (n.state), 9 (n.sid), 9x9 (n.peerEPoch), LEADING (my state)
+Modell-Label: [0, 1, 0, 1, 1, 1, 1, 1, 1, 0, 1, 1, 1, 0, 1, 1, 1, 1, 0, 0]
+Echtes Label: [1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 0, 0, 0, 0]
+
+Logeintrag: Connection request from old client /99.99.99.99:99999; will be dropped if server is in r-o mode
+Modell-Label: [0, 0, 0, 0, 1, 0, 1, 1, 0, 0, 0, 1, 1, 1, 0, 0, 0, 1, 0]
+Echtes Label: [0, 0, 0, 0, 0, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 0, 0, 0, 0]
+
+Logeintrag: Connection request from old client /99.99.99.99:99999; will be dropped if server is in r-o mode
+Modell-Label: [0, 0, 0, 0, 1, 0, 1, 1, 0, 0, 0, 1, 1, 1, 0, 0, 0, 1, 0]
+Echtes Label: [0, 0, 0, 0, 0, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 0, 0, 0, 0]
+
+Logeintrag: Connection request from old client /99.99.99.99:99999; will be dropped if server is in r-o mode
+Modell-Label: [0, 0, 0, 0, 1, 0, 1, 1, 0, 0, 0, 1, 1, 1, 0, 0, 0, 1, 0]
+Echtes Label: [0, 0, 0, 0, 0, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 0, 0, 0, 0]
+
+Logeintrag: Connection request from old client /99.99.99.99:99999; will be dropped if server is in r-o mode
+Modell-Label: [0, 0, 0, 0, 1, 0, 1, 1, 0, 0, 0, 1, 1, 1, 0, 0, 0, 1, 0]
+Echtes Label: [0, 0, 0, 0, 0, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 0, 0, 0, 0]
+
+Logeintrag: Connection request from old client /99.99.99.99:99999; will be dropped if server is in r-o mode
+Modell-Label: [0, 0, 0, 0, 1, 0, 1, 1, 0, 0, 0, 1, 1, 1, 0, 0, 0, 1, 0]
+Echtes Label: [0, 0, 0, 0, 0, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 0, 0, 0, 0]
+
+Logeintrag: Connection request from old client /99.99.99.99:99999; will be dropped if server is in r-o mode
+Modell-Label: [0, 0, 0, 0, 1, 0, 1, 1, 0, 0, 0, 1, 1, 1, 0, 0, 0, 1, 0]
+Echtes Label: [0, 0, 0, 0, 0, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 0, 0, 0, 0]
+
+Logeintrag: Connection request from old client /99.99.99.99:99999; will be dropped if server is in r-o mode
+Modell-Label: [0, 0, 0, 0, 1, 0, 1, 1, 0, 0, 0, 1, 1, 1, 0, 0, 0, 1, 0]
+Echtes Label: [0, 0, 0, 0, 0, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 0, 0, 0, 0]
+
+Logeintrag: Connection request from old client /99.99.99.99:99999; will be dropped if server is in r-o mode
+Modell-Label: [0, 0, 0, 0, 1, 0, 1, 1, 0, 0, 0, 1, 1, 1, 0, 0, 0, 1, 0]
+Echtes Label: [0, 0, 0, 0, 0, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 0, 0, 0, 0]
+
+Logeintrag: Connection request from old client /99.99.99.99:99999; will be dropped if server is in r-o mode
+Modell-Label: [0, 0, 0, 0, 1, 0, 1, 1, 0, 0, 0, 1, 1, 1, 0, 0, 0, 1, 0]
+Echtes Label: [0, 0, 0, 0, 0, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 0, 0, 0, 0]
+
+Logeintrag: Connection request from old client /99.99.99.99:99999; will be dropped if server is in r-o mode
+Modell-Label: [0, 0, 0, 0, 1, 0, 1, 1, 0, 0, 0, 1, 1, 1, 0, 0, 0, 1, 0]
+Echtes Label: [0, 0, 0, 0, 0, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 0, 0, 0, 0]
+
+Logeintrag: maxSessionTimeout set to -9
+Modell-Label: [0, 0, 0, 0, 1]
+Echtes Label: [0, 0, 0, 1, 0]
+
+Logeintrag: Connection request from old client /99.99.99.99:99999; will be dropped if server is in r-o mode
+Modell-Label: [0, 0, 0, 0, 1, 0, 1, 1, 0, 0, 0, 1, 1, 1, 0, 0, 0, 1, 0]
+Echtes Label: [0, 0, 0, 0, 0, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 0, 0, 0, 0]
+
+Logeintrag: Notification: 9 (n.leader), 9xa9999999a (n.zxid), 9x9 (n.round), FOLLOWING (n.state), 9 (n.sid), 9xa (n.peerEPoch), LEADING (my state)
+Modell-Label: [0, 1, 0, 1, 1, 0, 1, 1, 1, 1, 0, 1, 1, 1, 0, 1, 1, 0, 1, 1, 0, 0]
+Echtes Label: [1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 0, 0, 0, 0, 0, 0]
+
+Logeintrag: shutdown of request processor complete
+Modell-Label: [0, 0, 0, 0, 0, 1, 0, 1]
+Echtes Label: [0, 0, 0, 0, 0, 0, 0, 0]
+
+Logeintrag: Exception causing close of session 9x9 due to java.io.IOException: ZooKeeperServer not running
+Modell-Label: [0, 0, 0, 0, 0, 1, 1, 0, 0, 1, 0, 0, 0, 0]
+Echtes Label: [0, 0, 0, 0, 0, 1, 0, 0, 0, 0, 0, 0, 0, 0]
+
+Logeintrag: Exception causing close of session 9x9 due to java.io.IOException: ZooKeeperServer not running
+Modell-Label: [0, 0, 0, 0, 0, 1, 1, 0, 0, 1, 0, 0, 0, 0]
+Echtes Label: [0, 0, 0, 0, 0, 1, 0, 0, 0, 0, 0, 0, 0, 0]
+
+Logeintrag: Notification: 9 (n.leader), 9xb9999999b (n.zxid), 9x9 (n.round), LOOKING (n.state), 9 (n.sid), 9xb (n.peerEPoch), LEADING (my state)
+Modell-Label: [0, 1, 0, 1, 1, 0, 1, 1, 1, 1, 0, 1, 1, 1, 0, 1, 1, 0, 1, 1, 0, 0]
+Echtes Label: [1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 0, 0, 0, 0, 0, 0]
+
+Logeintrag: Notification: 9 (n.leader), 9xb9999999b (n.zxid), 9x9 (n.round), LOOKING (n.state), 9 (n.sid), 9xb (n.peerEPoch), LEADING (my state)
+Modell-Label: [0, 1, 0, 1, 1, 0, 1, 1, 1, 1, 0, 1, 1, 1, 0, 1, 1, 0, 1, 1, 0, 0]
+Echtes Label: [1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 0, 0, 0, 0, 0, 0]
+
+Logeintrag: Connection request from old client /99.99.99.99:99999; will be dropped if server is in r-o mode
+Modell-Label: [0, 0, 0, 0, 1, 0, 1, 1, 0, 0, 0, 1, 1, 1, 0, 0, 0, 1, 0]
+Echtes Label: [0, 0, 0, 0, 0, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 0, 0, 0, 0]
+
+Logeintrag: Notification: 9 (n.leader), 9x9 (n.zxid), 9x9 (n.round), LOOKING (n.state), 9 (n.sid), 9x9 (n.peerEPoch), LOOKING (my state)
+Modell-Label: [0, 1, 0, 1, 1, 1, 1, 1, 1, 0, 1, 1, 1, 0, 1, 1, 1, 0, 1, 1, 0, 0]
+Echtes Label: [1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 0, 0, 0, 0, 0, 0]
+
+Logeintrag: Notification: 9 (n.leader), 9x9 (n.zxid), 9x9 (n.round), LOOKING (n.state), 9 (n.sid), 9x9 (n.peerEPoch), LOOKING (my state)
+Modell-Label: [0, 1, 0, 1, 1, 1, 1, 1, 1, 0, 1, 1, 1, 0, 1, 1, 1, 0, 1, 1, 0, 0]
+Echtes Label: [1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 0, 0, 0, 0, 0, 0]
+
+Logeintrag: Connection broken for id 999999999999, my id = 9, error =
+Modell-Label: [0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 1, 0, 0]
+Echtes Label: [0, 0, 0, 0, 1, 1, 1, 1, 1, 1, 1, 0, 0]
+
+Logeintrag: Connection broken for id 999999999999, my id = 9, error =
+Modell-Label: [0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 1, 0, 0]
+Echtes Label: [0, 0, 0, 0, 1, 1, 1, 1, 1, 1, 1, 0, 0]
+
+Logeintrag: Connection broken for id 999999999999, my id = 9, error =
+Modell-Label: [0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 1, 0, 0]
+Echtes Label: [0, 0, 0, 0, 1, 1, 1, 1, 1, 1, 1, 0, 0]
+
+Logeintrag: Connection broken for id 999999999999, my id = 9, error =
+Modell-Label: [0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 1, 0, 0]
+Echtes Label: [0, 0, 0, 0, 1, 1, 1, 1, 1, 1, 1, 0, 0]
+
+Logeintrag: Connection broken for id 999999999999, my id = 9, error =
+Modell-Label: [0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 1, 0, 0]
+Echtes Label: [0, 0, 0, 0, 1, 1, 1, 1, 1, 1, 1, 0, 0]
+
+Logeintrag: Connection broken for id 999999999999, my id = 9, error =
+Modell-Label: [0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 1, 0, 0]
+Echtes Label: [0, 0, 0, 0, 1, 1, 1, 1, 1, 1, 1, 0, 0]
+
+Logeintrag: Connection broken for id 999999999999, my id = 9, error =
+Modell-Label: [0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 1, 0, 0]
+Echtes Label: [0, 0, 0, 0, 1, 1, 1, 1, 1, 1, 1, 0, 0]
+
+Logeintrag: Connection broken for id 999999999999, my id = 9, error =
+Modell-Label: [0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 1, 0, 0]
+Echtes Label: [0, 0, 0, 0, 1, 1, 1, 1, 1, 1, 1, 0, 0]
+
+Logeintrag: Connection broken for id 999999999999, my id = 9, error =
+Modell-Label: [0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 1, 0, 0]
+Echtes Label: [0, 0, 0, 0, 1, 1, 1, 1, 1, 1, 1, 0, 0]
+
+Logeintrag: Connection broken for id 999999999999, my id = 9, error =
+Modell-Label: [0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 1, 0, 0]
+Echtes Label: [0, 0, 0, 0, 1, 1, 1, 1, 1, 1, 1, 0, 0]
+
+Logeintrag: Connection broken for id 999999999999, my id = 9, error =
+Modell-Label: [0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 1, 0, 0]
+Echtes Label: [0, 0, 0, 0, 1, 1, 1, 1, 1, 1, 1, 0, 0]
+
+Logeintrag: Connection broken for id 999999999999, my id = 9, error =
+Modell-Label: [0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 1, 0, 0]
+Echtes Label: [0, 0, 0, 0, 1, 1, 1, 1, 1, 1, 1, 0, 0]
+
+Logeintrag: Connection broken for id 999999999999, my id = 9, error =
+Modell-Label: [0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 1, 0, 0]
+Echtes Label: [0, 0, 0, 0, 1, 1, 1, 1, 1, 1, 1, 0, 0]
+
+Logeintrag: Connection broken for id 999999999999, my id = 9, error =
+Modell-Label: [0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 1, 0, 0]
+Echtes Label: [0, 0, 0, 0, 1, 1, 1, 1, 1, 1, 1, 0, 0]
+
+Logeintrag: Connection broken for id 999999999999, my id = 9, error =
+Modell-Label: [0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 1, 0, 0]
+Echtes Label: [0, 0, 0, 0, 1, 1, 1, 1, 1, 1, 1, 0, 0]
+
+Logeintrag: Connection broken for id 999999999999, my id = 9, error =
+Modell-Label: [0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 1, 0, 0]
+Echtes Label: [0, 0, 0, 0, 1, 1, 1, 1, 1, 1, 1, 0, 0]
+
+Logeintrag: Connection broken for id 999999999999, my id = 9, error =
+Modell-Label: [0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 1, 0, 0]
+Echtes Label: [0, 0, 0, 0, 1, 1, 1, 1, 1, 1, 1, 0, 0]
+
+Logeintrag: Connection broken for id 999999999999, my id = 9, error =
+Modell-Label: [0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 1, 0, 0]
+Echtes Label: [0, 0, 0, 0, 1, 1, 1, 1, 1, 1, 1, 0, 0]
+
+Logeintrag: Connection broken for id 999999999999, my id = 9, error =
+Modell-Label: [0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 1, 0, 0]
+Echtes Label: [0, 0, 0, 0, 1, 1, 1, 1, 1, 1, 1, 0, 0]
+
+Logeintrag: Connection broken for id 999999999999, my id = 9, error =
+Modell-Label: [0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 1, 0, 0]
+Echtes Label: [0, 0, 0, 0, 1, 1, 1, 1, 1, 1, 1, 0, 0]
+
+Logeintrag: Connection broken for id 999999999999, my id = 9, error =
+Modell-Label: [0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 1, 0, 0]
+Echtes Label: [0, 0, 0, 0, 1, 1, 1, 1, 1, 1, 1, 0, 0]
+
+Logeintrag: Connection broken for id 999999999999, my id = 9, error =
+Modell-Label: [0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 1, 0, 0]
+Echtes Label: [0, 0, 0, 0, 1, 1, 1, 1, 1, 1, 1, 0, 0]
+
+Logeintrag: Connection broken for id 999999999999, my id = 9, error =
+Modell-Label: [0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 1, 0, 0]
+Echtes Label: [0, 0, 0, 0, 1, 1, 1, 1, 1, 1, 1, 0, 0]
+
+Logeintrag: Connection broken for id 999999999999, my id = 9, error =
+Modell-Label: [0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 1, 0, 0]
+Echtes Label: [0, 0, 0, 0, 1, 1, 1, 1, 1, 1, 1, 0, 0]
+
+Logeintrag: Connection broken for id 999999999999, my id = 9, error =
+Modell-Label: [0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 1, 0, 0]
+Echtes Label: [0, 0, 0, 0, 1, 1, 1, 1, 1, 1, 1, 0, 0]
+
+Logeintrag: Connection broken for id 999999999999, my id = 9, error =
+Modell-Label: [0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 1, 0, 0]
+Echtes Label: [0, 0, 0, 0, 1, 1, 1, 1, 1, 1, 1, 0, 0]
+
+Logeintrag: Connection broken for id 999999999999, my id = 9, error =
+Modell-Label: [0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 1, 0, 0]
+Echtes Label: [0, 0, 0, 0, 1, 1, 1, 1, 1, 1, 1, 0, 0]
+
+Logeintrag: Connection broken for id 999999999999, my id = 9, error =
+Modell-Label: [0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 1, 0, 0]
+Echtes Label: [0, 0, 0, 0, 1, 1, 1, 1, 1, 1, 1, 0, 0]
+
+Logeintrag: Connection broken for id 999999999999, my id = 9, error =
+Modell-Label: [0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 1, 0, 0]
+Echtes Label: [0, 0, 0, 0, 1, 1, 1, 1, 1, 1, 1, 0, 0]
+
+Logeintrag: Connection broken for id 999999999999, my id = 9, error =
+Modell-Label: [0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 1, 0, 0]
+Echtes Label: [0, 0, 0, 0, 1, 1, 1, 1, 1, 1, 1, 0, 0]
+
+Logeintrag: Connection broken for id 999999999999, my id = 9, error =
+Modell-Label: [0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 1, 0, 0]
+Echtes Label: [0, 0, 0, 0, 1, 1, 1, 1, 1, 1, 1, 0, 0]
+
+Logeintrag: Connection broken for id 999999999999, my id = 9, error =
+Modell-Label: [0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 1, 0, 0]
+Echtes Label: [0, 0, 0, 0, 1, 1, 1, 1, 1, 1, 1, 0, 0]
+
+Logeintrag: Connection broken for id 999999999999, my id = 9, error =
+Modell-Label: [0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 1, 0, 0]
+Echtes Label: [0, 0, 0, 0, 1, 1, 1, 1, 1, 1, 1, 0, 0]
+
+Logeintrag: Connection broken for id 999999999999, my id = 9, error =
+Modell-Label: [0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 1, 0, 0]
+Echtes Label: [0, 0, 0, 0, 1, 1, 1, 1, 1, 1, 1, 0, 0]
+
+Logeintrag: Connection broken for id 999999999999, my id = 9, error =
+Modell-Label: [0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 1, 0, 0]
+Echtes Label: [0, 0, 0, 0, 1, 1, 1, 1, 1, 1, 1, 0, 0]
+
+Logeintrag: Connection broken for id 999999999999, my id = 9, error =
+Modell-Label: [0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 1, 0, 0]
+Echtes Label: [0, 0, 0, 0, 1, 1, 1, 1, 1, 1, 1, 0, 0]
+
+Logeintrag: Connection broken for id 999999999999, my id = 9, error =
+Modell-Label: [0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 1, 0, 0]
+Echtes Label: [0, 0, 0, 0, 1, 1, 1, 1, 1, 1, 1, 0, 0]
+
+Logeintrag: Connection broken for id 999999999999, my id = 9, error =
+Modell-Label: [0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 1, 0, 0]
+Echtes Label: [0, 0, 0, 0, 1, 1, 1, 1, 1, 1, 1, 0, 0]
+
+Logeintrag: Connection broken for id 999999999999, my id = 9, error =
+Modell-Label: [0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 1, 0, 0]
+Echtes Label: [0, 0, 0, 0, 1, 1, 1, 1, 1, 1, 1, 0, 0]
+
+Logeintrag: Connection broken for id 999999999999, my id = 9, error =
+Modell-Label: [0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 1, 0, 0]
+Echtes Label: [0, 0, 0, 0, 1, 1, 1, 1, 1, 1, 1, 0, 0]
+
+Logeintrag: Connection broken for id 999999999999, my id = 9, error =
+Modell-Label: [0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 1, 0, 0]
+Echtes Label: [0, 0, 0, 0, 1, 1, 1, 1, 1, 1, 1, 0, 0]
+
+Logeintrag: Connection broken for id 999999999999, my id = 9, error =
+Modell-Label: [0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 1, 0, 0]
+Echtes Label: [0, 0, 0, 0, 1, 1, 1, 1, 1, 1, 1, 0, 0]
+
+Logeintrag: Connection broken for id 999999999999, my id = 9, error =
+Modell-Label: [0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 1, 0, 0]
+Echtes Label: [0, 0, 0, 0, 1, 1, 1, 1, 1, 1, 1, 0, 0]
+
+Logeintrag: Connection broken for id 999999999999, my id = 9, error =
+Modell-Label: [0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 1, 0, 0]
+Echtes Label: [0, 0, 0, 0, 1, 1, 1, 1, 1, 1, 1, 0, 0]
+
+Logeintrag: Connection broken for id 999999999999, my id = 9, error =
+Modell-Label: [0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 1, 0, 0]
+Echtes Label: [0, 0, 0, 0, 1, 1, 1, 1, 1, 1, 1, 0, 0]
+
+Logeintrag: Connection broken for id 999999999999, my id = 9, error =
+Modell-Label: [0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 1, 0, 0]
+Echtes Label: [0, 0, 0, 0, 1, 1, 1, 1, 1, 1, 1, 0, 0]
+
+Logeintrag: Connection broken for id 999999999999, my id = 9, error =
+Modell-Label: [0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 1, 0, 0]
+Echtes Label: [0, 0, 0, 0, 1, 1, 1, 1, 1, 1, 1, 0, 0]
+
+Logeintrag: Connection broken for id 999999999999, my id = 9, error =
+Modell-Label: [0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 1, 0, 0]
+Echtes Label: [0, 0, 0, 0, 1, 1, 1, 1, 1, 1, 1, 0, 0]
+
+Logeintrag: Connection broken for id 999999999999, my id = 9, error =
+Modell-Label: [0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 1, 0, 0]
+Echtes Label: [0, 0, 0, 0, 1, 1, 1, 1, 1, 1, 1, 0, 0]
+
+Logeintrag: Connection broken for id 999999999999, my id = 9, error =
+Modell-Label: [0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 1, 0, 0]
+Echtes Label: [0, 0, 0, 0, 1, 1, 1, 1, 1, 1, 1, 0, 0]
+
+Logeintrag: Connection broken for id 999999999999, my id = 9, error =
+Modell-Label: [0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 1, 0, 0]
+Echtes Label: [0, 0, 0, 0, 1, 1, 1, 1, 1, 1, 1, 0, 0]
+
+Logeintrag: Connection broken for id 999999999999, my id = 9, error =
+Modell-Label: [0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 1, 0, 0]
+Echtes Label: [0, 0, 0, 0, 1, 1, 1, 1, 1, 1, 1, 0, 0]
+
+Logeintrag: Connection broken for id 999999999999, my id = 9, error =
+Modell-Label: [0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 1, 0, 0]
+Echtes Label: [0, 0, 0, 0, 1, 1, 1, 1, 1, 1, 1, 0, 0]
+
+Logeintrag: Connection broken for id 999999999999, my id = 9, error =
+Modell-Label: [0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 1, 0, 0]
+Echtes Label: [0, 0, 0, 0, 1, 1, 1, 1, 1, 1, 1, 0, 0]
+
+Logeintrag: Connection broken for id 999999999999, my id = 9, error =
+Modell-Label: [0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 1, 0, 0]
+Echtes Label: [0, 0, 0, 0, 1, 1, 1, 1, 1, 1, 1, 0, 0]
+
+Logeintrag: Connection broken for id 999999999999, my id = 9, error =
+Modell-Label: [0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 1, 0, 0]
+Echtes Label: [0, 0, 0, 0, 1, 1, 1, 1, 1, 1, 1, 0, 0]
+
+Logeintrag: Connection broken for id 999999999999, my id = 9, error =
+Modell-Label: [0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 1, 0, 0]
+Echtes Label: [0, 0, 0, 0, 1, 1, 1, 1, 1, 1, 1, 0, 0]
+
+Logeintrag: Connection broken for id 999999999999, my id = 9, error =
+Modell-Label: [0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 1, 0, 0]
+Echtes Label: [0, 0, 0, 0, 1, 1, 1, 1, 1, 1, 1, 0, 0]
+
+Logeintrag: Connection broken for id 999999999999, my id = 9, error =
+Modell-Label: [0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 1, 0, 0]
+Echtes Label: [0, 0, 0, 0, 1, 1, 1, 1, 1, 1, 1, 0, 0]
+
+Logeintrag: Connection broken for id 999999999999, my id = 9, error =
+Modell-Label: [0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 1, 0, 0]
+Echtes Label: [0, 0, 0, 0, 1, 1, 1, 1, 1, 1, 1, 0, 0]
+
+Logeintrag: Connection broken for id 999999999999, my id = 9, error =
+Modell-Label: [0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 1, 0, 0]
+Echtes Label: [0, 0, 0, 0, 1, 1, 1, 1, 1, 1, 1, 0, 0]
+
+Logeintrag: Connection broken for id 999999999999, my id = 9, error =
+Modell-Label: [0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 1, 0, 0]
+Echtes Label: [0, 0, 0, 0, 1, 1, 1, 1, 1, 1, 1, 0, 0]
+
+Logeintrag: Connection broken for id 999999999999, my id = 9, error =
+Modell-Label: [0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 1, 0, 0]
+Echtes Label: [0, 0, 0, 0, 1, 1, 1, 1, 1, 1, 1, 0, 0]
+
+Logeintrag: Connection broken for id 999999999999, my id = 9, error =
+Modell-Label: [0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 1, 0, 0]
+Echtes Label: [0, 0, 0, 0, 1, 1, 1, 1, 1, 1, 1, 0, 0]
+
+Logeintrag: Connection broken for id 999999999999, my id = 9, error =
+Modell-Label: [0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 1, 0, 0]
+Echtes Label: [0, 0, 0, 0, 1, 1, 1, 1, 1, 1, 1, 0, 0]
+
+Logeintrag: Connection broken for id 999999999999, my id = 9, error =
+Modell-Label: [0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 1, 0, 0]
+Echtes Label: [0, 0, 0, 0, 1, 1, 1, 1, 1, 1, 1, 0, 0]
+
+Logeintrag: Connection broken for id 999999999999, my id = 9, error =
+Modell-Label: [0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 1, 0, 0]
+Echtes Label: [0, 0, 0, 0, 1, 1, 1, 1, 1, 1, 1, 0, 0]
+
+Logeintrag: Connection broken for id 999999999999, my id = 9, error =
+Modell-Label: [0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 1, 0, 0]
+Echtes Label: [0, 0, 0, 0, 1, 1, 1, 1, 1, 1, 1, 0, 0]
+
+Logeintrag: Connection broken for id 999999999999, my id = 9, error =
+Modell-Label: [0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 1, 0, 0]
+Echtes Label: [0, 0, 0, 0, 1, 1, 1, 1, 1, 1, 1, 0, 0]
+
+Logeintrag: Connection broken for id 999999999999, my id = 9, error =
+Modell-Label: [0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 1, 0, 0]
+Echtes Label: [0, 0, 0, 0, 1, 1, 1, 1, 1, 1, 1, 0, 0]
+
+Logeintrag: Connection broken for id 999999999999, my id = 9, error =
+Modell-Label: [0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 1, 0, 0]
+Echtes Label: [0, 0, 0, 0, 1, 1, 1, 1, 1, 1, 1, 0, 0]
+
+Logeintrag: Connection broken for id 999999999999, my id = 9, error =
+Modell-Label: [0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 1, 0, 0]
+Echtes Label: [0, 0, 0, 0, 1, 1, 1, 1, 1, 1, 1, 0, 0]
+
+Logeintrag: Connection broken for id 999999999999, my id = 9, error =
+Modell-Label: [0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 1, 0, 0]
+Echtes Label: [0, 0, 0, 0, 1, 1, 1, 1, 1, 1, 1, 0, 0]
+
+Logeintrag: Connection broken for id 999999999999, my id = 9, error =
+Modell-Label: [0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 1, 0, 0]
+Echtes Label: [0, 0, 0, 0, 1, 1, 1, 1, 1, 1, 1, 0, 0]
+
+Logeintrag: Connection broken for id 999999999999, my id = 9, error =
+Modell-Label: [0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 1, 0, 0]
+Echtes Label: [0, 0, 0, 0, 1, 1, 1, 1, 1, 1, 1, 0, 0]
+
+Logeintrag: Connection broken for id 999999999999, my id = 9, error =
+Modell-Label: [0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 1, 0, 0]
+Echtes Label: [0, 0, 0, 0, 1, 1, 1, 1, 1, 1, 1, 0, 0]
+
+Logeintrag: Connection broken for id 999999999999, my id = 9, error =
+Modell-Label: [0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 1, 0, 0]
+Echtes Label: [0, 0, 0, 0, 1, 1, 1, 1, 1, 1, 1, 0, 0]
+
+Logeintrag: Connection broken for id 999999999999, my id = 9, error =
+Modell-Label: [0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 1, 0, 0]
+Echtes Label: [0, 0, 0, 0, 1, 1, 1, 1, 1, 1, 1, 0, 0]
+
+Logeintrag: Connection broken for id 999999999999, my id = 9, error =
+Modell-Label: [0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 1, 0, 0]
+Echtes Label: [0, 0, 0, 0, 1, 1, 1, 1, 1, 1, 1, 0, 0]
+
+Logeintrag: Connection broken for id 999999999999, my id = 9, error =
+Modell-Label: [0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 1, 0, 0]
+Echtes Label: [0, 0, 0, 0, 1, 1, 1, 1, 1, 1, 1, 0, 0]
+
+Logeintrag: Connection broken for id 999999999999, my id = 9, error =
+Modell-Label: [0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 1, 0, 0]
+Echtes Label: [0, 0, 0, 0, 1, 1, 1, 1, 1, 1, 1, 0, 0]
+
+Logeintrag: Connection broken for id 999999999999, my id = 9, error =
+Modell-Label: [0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 1, 0, 0]
+Echtes Label: [0, 0, 0, 0, 1, 1, 1, 1, 1, 1, 1, 0, 0]
+
+Logeintrag: Connection broken for id 999999999999, my id = 9, error =
+Modell-Label: [0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 1, 0, 0]
+Echtes Label: [0, 0, 0, 0, 1, 1, 1, 1, 1, 1, 1, 0, 0]
+
+Logeintrag: Connection broken for id 999999999999, my id = 9, error =
+Modell-Label: [0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 1, 0, 0]
+Echtes Label: [0, 0, 0, 0, 1, 1, 1, 1, 1, 1, 1, 0, 0]
+
+Logeintrag: Connection broken for id 999999999999, my id = 9, error =
+Modell-Label: [0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 1, 0, 0]
+Echtes Label: [0, 0, 0, 0, 1, 1, 1, 1, 1, 1, 1, 0, 0]
+
+Logeintrag: Connection broken for id 999999999999, my id = 9, error =
+Modell-Label: [0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 1, 0, 0]
+Echtes Label: [0, 0, 0, 0, 1, 1, 1, 1, 1, 1, 1, 0, 0]
+
+Logeintrag: Connection broken for id 999999999999, my id = 9, error =
+Modell-Label: [0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 1, 0, 0]
+Echtes Label: [0, 0, 0, 0, 1, 1, 1, 1, 1, 1, 1, 0, 0]
+
+Logeintrag: Connection broken for id 999999999999, my id = 9, error =
+Modell-Label: [0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 1, 0, 0]
+Echtes Label: [0, 0, 0, 0, 1, 1, 1, 1, 1, 1, 1, 0, 0]
+
+Logeintrag: Connection broken for id 999999999999, my id = 9, error =
+Modell-Label: [0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 1, 0, 0]
+Echtes Label: [0, 0, 0, 0, 1, 1, 1, 1, 1, 1, 1, 0, 0]
+
+Logeintrag: Connection broken for id 999999999999, my id = 9, error =
+Modell-Label: [0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 1, 0, 0]
+Echtes Label: [0, 0, 0, 0, 1, 1, 1, 1, 1, 1, 1, 0, 0]
+
+Logeintrag: Connection broken for id 999999999999, my id = 9, error =
+Modell-Label: [0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 1, 0, 0]
+Echtes Label: [0, 0, 0, 0, 1, 1, 1, 1, 1, 1, 1, 0, 0]
+
+Logeintrag: Connection broken for id 999999999999, my id = 9, error =
+Modell-Label: [0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 1, 0, 0]
+Echtes Label: [0, 0, 0, 0, 1, 1, 1, 1, 1, 1, 1, 0, 0]
+
+Logeintrag: Connection broken for id 999999999999, my id = 9, error =
+Modell-Label: [0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 1, 0, 0]
+Echtes Label: [0, 0, 0, 0, 1, 1, 1, 1, 1, 1, 1, 0, 0]
+
+Logeintrag: Connection broken for id 999999999999, my id = 9, error =
+Modell-Label: [0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 1, 0, 0]
+Echtes Label: [0, 0, 0, 0, 1, 1, 1, 1, 1, 1, 1, 0, 0]
+
+Logeintrag: Connection broken for id 999999999999, my id = 9, error =
+Modell-Label: [0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 1, 0, 0]
+Echtes Label: [0, 0, 0, 0, 1, 1, 1, 1, 1, 1, 1, 0, 0]
+
+Logeintrag: Connection broken for id 999999999999, my id = 9, error =
+Modell-Label: [0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 1, 0, 0]
+Echtes Label: [0, 0, 0, 0, 1, 1, 1, 1, 1, 1, 1, 0, 0]
+
+Logeintrag: Connection broken for id 999999999999, my id = 9, error =
+Modell-Label: [0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 1, 0, 0]
+Echtes Label: [0, 0, 0, 0, 1, 1, 1, 1, 1, 1, 1, 0, 0]
+
+Logeintrag: Connection broken for id 999999999999, my id = 9, error =
+Modell-Label: [0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 1, 0, 0]
+Echtes Label: [0, 0, 0, 0, 1, 1, 1, 1, 1, 1, 1, 0, 0]
+
+Logeintrag: Connection broken for id 999999999999, my id = 9, error =
+Modell-Label: [0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 1, 0, 0]
+Echtes Label: [0, 0, 0, 0, 1, 1, 1, 1, 1, 1, 1, 0, 0]
+
+Logeintrag: Notification: 9 (n.leader), 9x99999999b (n.zxid), 9x9 (n.round), LOOKING (n.state), 9 (n.sid), 9x9 (n.peerEPoch), LOOKING (my state)
+Modell-Label: [0, 1, 0, 1, 1, 1, 1, 1, 1, 0, 1, 1, 1, 0, 1, 1, 1, 0, 1, 1, 0, 0]
+Echtes Label: [1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 0, 0, 0, 0, 0, 0]
+
+Logeintrag: Connection request from old client /99.99.99.99:99999; will be dropped if server is in r-o mode
+Modell-Label: [0, 0, 0, 0, 1, 0, 1, 1, 0, 0, 0, 1, 1, 1, 0, 0, 0, 1, 0]
+Echtes Label: [0, 0, 0, 0, 0, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 0, 0, 0, 0]
+
+Logeintrag: Connection request from old client /99.99.99.99:99999; will be dropped if server is in r-o mode
+Modell-Label: [0, 0, 0, 0, 1, 0, 1, 1, 0, 0, 0, 1, 1, 1, 0, 0, 0, 1, 0]
+Echtes Label: [0, 0, 0, 0, 0, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 0, 0, 0, 0]
+
+Logeintrag: Connection request from old client /99.99.99.99:99999; will be dropped if server is in r-o mode
+Modell-Label: [0, 0, 0, 0, 1, 0, 1, 1, 0, 0, 0, 1, 1, 1, 0, 0, 0, 1, 0]
+Echtes Label: [0, 0, 0, 0, 0, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 0, 0, 0, 0]
+
+Logeintrag: Connection request from old client /99.99.99.99:99999; will be dropped if server is in r-o mode
+Modell-Label: [0, 0, 0, 0, 1, 0, 1, 1, 0, 0, 0, 1, 1, 1, 0, 0, 0, 1, 0]
+Echtes Label: [0, 0, 0, 0, 0, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 0, 0, 0, 0]
+
+Logeintrag: Connection broken for id 9, my id = 9, error =
+Modell-Label: [0, 1, 0, 0, 0, 1, 0, 0, 0, 1, 0, 0]
+Echtes Label: [0, 0, 0, 0, 1, 1, 1, 1, 1, 1, 1, 0]
+
+Logeintrag: Notification: 9 (n.leader), 9x999999999 (n.zxid), 9x9 (n.round), FOLLOWING (n.state), 9 (n.sid), 9x9 (n.peerEPoch), FOLLOWING (my state)
+Modell-Label: [0, 1, 0, 1, 1, 1, 1, 1, 1, 0, 1, 1, 1, 0, 1, 1, 1, 0, 1, 0, 0, 0]
+Echtes Label: [1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 0, 0, 0, 0, 0, 0]
+
+Logeintrag: Connection request from old client /99.99.99.99:99999; will be dropped if server is in r-o mode
+Modell-Label: [0, 0, 0, 0, 1, 0, 1, 1, 0, 0, 0, 1, 1, 1, 0, 0, 0, 1, 0]
+Echtes Label: [0, 0, 0, 0, 0, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 0, 0, 0, 0]
+
+Logeintrag: Connection request from old client /99.99.99.99:99999; will be dropped if server is in r-o mode
+Modell-Label: [0, 0, 0, 0, 1, 0, 1, 1, 0, 0, 0, 1, 1, 1, 0, 0, 0, 1, 0]
+Echtes Label: [0, 0, 0, 0, 0, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 0, 0, 0, 0]
+
+Logeintrag: Connection request from old client /99.99.99.99:99999; will be dropped if server is in r-o mode
+Modell-Label: [0, 0, 0, 0, 1, 0, 1, 1, 0, 0, 0, 1, 1, 1, 0, 0, 0, 1, 0]
+Echtes Label: [0, 0, 0, 0, 0, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 0, 0, 0, 0]
+
+Logeintrag: minSessionTimeout set to -9
+Modell-Label: [0, 0, 0, 0, 1]
+Echtes Label: [0, 0, 0, 1, 0]
+
+Logeintrag: Connection request from old client /99.99.99.99:99999; will be dropped if server is in r-o mode
+Modell-Label: [0, 0, 0, 0, 1, 0, 1, 1, 0, 0, 0, 1, 1, 1, 0, 0, 0, 1, 0]
+Echtes Label: [0, 0, 0, 0, 0, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 0, 0, 0, 0]
+
+Logeintrag: Connection request from old client /99.99.99.99:99999; will be dropped if server is in r-o mode
+Modell-Label: [0, 0, 0, 0, 1, 0, 1, 1, 0, 0, 0, 1, 1, 1, 0, 0, 0, 1, 0]
+Echtes Label: [0, 0, 0, 0, 0, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 0, 0, 0, 0]
+
+Logeintrag: minSessionTimeout set to -9
+Modell-Label: [0, 0, 0, 0, 1]
+Echtes Label: [0, 0, 0, 1, 0]
+
+Logeintrag: Notification: 9 (n.leader), 9x999999999 (n.zxid), 9x9 (n.round), LOOKING (n.state), 9 (n.sid), 9x9 (n.peerEPoch), LOOKING (my state)
+Modell-Label: [0, 1, 0, 1, 1, 1, 1, 1, 1, 0, 1, 1, 1, 0, 1, 1, 1, 0, 1, 1, 0, 0]
+Echtes Label: [1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 0, 0, 0, 0, 0, 0]
+

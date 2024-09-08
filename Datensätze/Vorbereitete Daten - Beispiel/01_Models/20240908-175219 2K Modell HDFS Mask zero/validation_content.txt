@@ -1,0 +1,400 @@
+BLOCK* NameSystem.delete: blk_9999999999999999 is added to invalidSet of 99.999.99.99:99999
+Receiving block blk_-9999999999999999999 src: /99.999.99.999:99999 dest: /99.999.99.999:99999
+BLOCK* NameSystem.delete: blk_9999999999999999999 is added to invalidSet of 99.999.999.99:99999
+99.999.999.999:99999:Transmitted block blk_-9999999999999999999 to /99.999.99.99:99999
+Received block blk_-999999999999999999 src: /99.999.99.99:99999 dest: /99.999.99.99:99999 of size 9999999
+Received block blk_-9999999999999999999 of size 99999999 from /99.999.99.999
+Received block blk_999999999999999999 of size 9999999 from /99.999.9.999
+99.999.99.999:99999 Served block blk_-999999999999999999 to /99.999.99.9
+99.999.9.999:99999 Served block blk_-99999999999999999 to /99.999.999.9
+99.999.9.9:99999 Served block blk_-9999999999999999999 to /99.999.999.99
+Received block blk_-999999999999999999 of size 9999999 from /99.999.999.999
+Receiving empty packet for block blk_9999999999999999999
+Receiving block blk_9999999999999999999 src: /99.999.999.99:99999 dest: /99.999.999.99:99999
+Receiving block blk_-9999999999999999999 src: /99.999.99.999:99999 dest: /99.999.99.999:99999
+99.999.999.999:99999 Served block blk_-9999999999999999999 to /99.999.99.99
+99.999.99.9:99999 Served block blk_-999999999999999999 to /99.999.99.999
+Received block blk_9999999999999999999 of size 99999999 from /99.999.99.99
+PacketResponder 9 for block blk_-9999999999999999999 terminating
+BLOCK* NameSystem.delete: blk_9999999999999999999 is added to invalidSet of 99.999.99.999:99999
+Received block blk_9999999999999999999 of size 99999999 from /99.999.99.999
+BLOCK* NameSystem.addStoredBlock: blockMap updated: 99.999.99.999:99999 is added to blk_-9999999999999999999 size 999999
+Received block blk_9999999999999999999 of size 99999999 from /99.999.99.9
+99.999.99.999:99999 Served block blk_-9999999999999999 to /99.999.99.999
+PacketResponder 9 for block blk_9999999999999999999 terminating
+99.999.999.99:99999 Starting thread to transfer block blk_-9999999999999999999 to 99.999.99.999:99999
+Deleting block blk_-9999999999999999999 file /mnt/hadoop/dfs/data/current/subdir99/blk_-9999999999999999999
+BLOCK* NameSystem.allocateBlock: /user/root/rand/_temporary/_task_999999999999_9999_m_999999_9/part-99999. blk_-9999999999999999999
+Receiving block blk_999999999999999999 src: /99.999.999.999:99999 dest: /99.999.999.999:99999
+99.999.9.99:99999 Served block blk_-999999999999999999 to /99.999.999.99
+PacketResponder 9 for block blk_-9999999999999999999 terminating
+99.999.99.999:99999 Starting thread to transfer block blk_-999999999999999999 to 99.999.99.999:99999
+BLOCK* NameSystem.addStoredBlock: blockMap updated: 99.999.999.99:99999 is added to blk_9999999999999999999 size 9999999
+BLOCK* NameSystem.addStoredBlock: blockMap updated: 99.999.9.999:99999 is added to blk_-9999999999999999999 size 99999999
+Received block blk_-9999999999999999999 src: /99.999.999.99:99999 dest: /99.999.999.99:99999 of size 9999999
+BLOCK* ask 99.999.99.999:99999 to replicate blk_-999999999999999999 to datanode(s) 99.999.99.9:99999
+99.999.99.99:99999:Transmitted block blk_999999999999999999 to /99.999.9.999:99999
+Received block blk_9999999999999999999 of size 999 from /99.999.999.999
+Receiving block blk_-99999999999999999 src: /99.999.9.99:99999 dest: /99.999.9.99:99999
+99.999.99.999:99999:Transmitted block blk_9999999999999999999 to /99.999.999.999:99999
+Received block blk_-9999999999999999999 of size 99999999 from /99.999.9.999
+BLOCK* NameSystem.addStoredBlock: blockMap updated: 99.999.99.9:99999 is added to blk_-9999999999999999 size 99999999
+99.999.99.999:99999 Served block blk_9999999999999999999 to /99.999.99.999
+99.999.99.999:99999:Transmitted block blk_999999999999999999 to /99.999.99.99:99999
+99.999.99.9:99999 Served block blk_-9999999999999999999 to /99.999.9.99
+Deleting block blk_99999999999999999 file /mnt/hadoop/dfs/data/current/subdir9/blk_99999999999999999
+BLOCK* NameSystem.addStoredBlock: blockMap updated: 99.999.99.9:99999 is added to blk_9999999999999999999 size 99999999
+Deleting block blk_-9999999999999999999 file /mnt/hadoop/dfs/data/current/subdir9/blk_-9999999999999999999
+99.999.99.999:99999 Served block blk_9999999999999999999 to /99.999.9.99
+BLOCK* ask 99.999.999.999:99999 to replicate blk_-9999999999999999999 to datanode(s) 99.999.9.999:99999
+Deleting block blk_-9999999999999999999 file /mnt/hadoop/dfs/data/current/subdir99/blk_-9999999999999999999
+99.999.999.999:99999 Served block blk_9999999999999999999 to /99.999.999.9
+Received block blk_9999999999999999999 src: /99.999.99.999:99999 dest: /99.999.99.999:99999 of size 99999
+writeBlock blk_-9999999999999999999 received exception java.io.IOException: Could not read from stream
+BLOCK* NameSystem.addStoredBlock: blockMap updated: 99.999.999.99:99999 is added to blk_-9999999999999999999 size 99999999
+99.999.999.999:99999 Served block blk_-9999999999999999999 to /99.999.99.9
+PacketResponder 9 for block blk_9999999999999999999 terminating
+BLOCK* NameSystem.addStoredBlock: blockMap updated: 99.999.99.999:99999 is added to blk_9999999999999999999 size 99999999
+Receiving block blk_9999999999999999 src: /99.999.99.999:99999 dest: /99.999.99.999:99999
+99.999.999.999:99999 Served block blk_-9999999999999999999 to /99.999.999.999
+BLOCK* NameSystem.delete: blk_-9999999999999999999 is added to invalidSet of 99.999.99.999:99999
+Deleting block blk_-9999999999999999999 file /mnt/hadoop/dfs/data/current/subdir99/blk_-9999999999999999999
+Receiving block blk_999999999999999999 src: /99.999.999.9:99999 dest: /99.999.999.9:99999
+99.999.99.99:99999 Served block blk_-9999999999999999999 to /99.999.99.99
+BLOCK* ask 99.999.999.99:99999 to replicate blk_9999999999999999999 to datanode(s) 99.999.999.9:99999
+99.999.999.99:99999 Served block blk_9999999999999999 to /99.999.999.99
+BLOCK* NameSystem.addStoredBlock: blockMap updated: 99.999.999.999:99999 is added to blk_-9999999999999999999 size 99999999
+BLOCK* ask 99.999.999.99:99999 to replicate blk_9999999999999999999 to datanode(s) 99.999.999.99:99999
+Received block blk_9999999999999999999 of size 99999999 from /99.999.999.9
+99.999.999.999:99999 Served block blk_999999999999999999 to /99.999.99.99
+99.999.999.99:99999 Starting thread to transfer block blk_-999999999999999999 to 99.999.999.999:99999
+BLOCK* NameSystem.addStoredBlock: Redundant addStoredBlock request received for blk_-9999999999999999999 on 99.999.99.999:99999 size 99999999
+99.999.99.999:99999 Served block blk_-9999999999999999999 to /99.999.999.99
+BLOCK* ask 99.999.99.999:99999 to replicate blk_999999999999999999 to datanode(s) 99.999.99.999:99999
+99.999.99.9:99999 Served block blk_-9999999999999999999 to /99.999.999.9
+99.999.99.99:99999 Served block blk_-999999999999999999 to /99.999.99.999
+99.999.99.99:99999 Starting thread to transfer block blk_999999999999999999 to 99.999.999.999:99999
+Received block blk_-9999999999999999999 of size 99999999 from /99.999.99.999
+Received block blk_999999999999999999 of size 99999999 from /99.999.99.99
+Received block blk_9999999999999999999 of size 99999999 from /99.999.999.99
+BLOCK* ask 99.999.999.999:99999 to replicate blk_999999999999999999 to datanode(s) 99.999.99.999:99999
+BLOCK* NameSystem.delete: blk_-9999999999999999999 is added to invalidSet of 99.999.999.999:99999
+99.999.99.999:99999:Transmitted block blk_999999999999999999 to /99.999.999.999:99999
+99.999.9.999:99999 Served block blk_9999999999999999999 to /99.999.99.9
+Receiving block blk_-9999999999999999999 src: /99.999.99.999:99999 dest: /99.999.99.999:99999
+99.999.999.99:99999:Transmitted block blk_-9999999999999999999 to /99.999.999.9:99999
+Exception in receiveBlock for block blk_-9999999999999999999 java.io.EOFException
+99.999.9.9:99999 Served block blk_9999999999999999999 to /99.999.99.9
+BLOCK* NameSystem.delete: blk_99999999999999999 is added to invalidSet of 99.999.9.99:99999
+BLOCK* NameSystem.addStoredBlock: blockMap updated: 99.999.999.99:99999 is added to blk_999999999999999999 size 9999999
+99.999.9.999:99999 Served block blk_999999999999999999 to /99.999.99.99
+BLOCK* NameSystem.addStoredBlock: blockMap updated: 99.999.99.9:99999 is added to blk_9999999999999999 size 99999999
+BLOCK* ask 99.999.99.99:99999 to replicate blk_-9999999999999999999 to datanode(s) 99.999.99.999:99999 99.999.99.999:99999
+Receiving block blk_-9999999999999999 src: /99.999.999.99:99999 dest: /99.999.999.99:99999
+99.999.99.9:99999 Served block blk_999999999999999999 to /99.999.99.99
+BLOCK* NameSystem.addStoredBlock: blockMap updated: 99.999.9.99:99999 is added to blk_999999999999999999 size 99999999
+BLOCK* NameSystem.delete: blk_9999999999999999999 is added to invalidSet of 99.999.99.999:99999
+BLOCK* NameSystem.delete: blk_-9999999999999999999 is added to invalidSet of 99.999.999.99:99999
+99.999.999.9:99999 Served block blk_-99999999999999999 to /99.999.99.999
+99.999.99.99:99999 Served block blk_9999999999999999999 to /99.999.99.9
+PacketResponder 9 for block blk_9999999999999999999 terminating
+99.999.999.999:99999 Served block blk_-9999999999999999 to /99.999.999.999
+BLOCK* NameSystem.allocateBlock: /user/root/sortrand9/_temporary/_task_999999999999_9999_r_999999_9/part-99999. blk_9999999999999999999
+Received block blk_-9999999999999999999 of size 99999999 from /99.999.99.99
+BLOCK* ask 99.999.999.9:99999 to replicate blk_-9999999999999999999 to datanode(s) 99.999.999.99:99999
+BLOCK* NameSystem.delete: blk_9999999999999999999 is added to invalidSet of 99.999.9.99:99999
+BLOCK* NameSystem.addStoredBlock: blockMap updated: 99.999.99.99:99999 is added to blk_-9999999999999999999 size 99999999
+Deleting block blk_-9999999999999999999 file /mnt/hadoop/dfs/data/current/subdir99/blk_-9999999999999999999
+BLOCK* NameSystem.addStoredBlock: blockMap updated: 99.999.99.999:99999 is added to blk_99999999999999999 size 9999999
+99.999.999.9:99999 Served block blk_-99999999999999999 to /99.999.999.999
+BLOCK* NameSystem.allocateBlock: /user/root/randtxt9/_temporary/_task_999999999999_9999_m_999999_9/part-99999. blk_9999999999999999999
+BLOCK* NameSystem.addStoredBlock: blockMap updated: 99.999.99.999:99999 is added to blk_9999999999999999999 size 99999999
+99.999.99.999:99999 Served block blk_-999999999999999999 to /99.999.999.999
+BLOCK* ask 99.999.999.99:99999 to replicate blk_9999999999999999999 to datanode(s) 99.999.9.999:99999
+Deleting block blk_9999999999999999999 file /mnt/hadoop/dfs/data/current/subdir99/blk_9999999999999999999
+BLOCK* NameSystem.delete: blk_9999999999999999999 is added to invalidSet of 99.999.99.999:99999
+99.999.999.99:99999 Starting thread to transfer block blk_9999999999999999999 to 99.999.99.99:99999
+Deleting block blk_999999999999999999 file /mnt/hadoop/dfs/data/current/subdir9/blk_999999999999999999
+99.999.99.99:99999 Served block blk_-9999999999999999999 to /99.999.999.99
+99.999.999.999:99999 Served block blk_9999999999999999999 to /99.999.999.999
+BLOCK* NameSystem.addStoredBlock: Redundant addStoredBlock request received for blk_-9999999999999999999 on 99.999.999.999:99999 size 9999999
+PacketResponder 9 for block blk_-999999999999999999 terminating
+99.999.99.9:99999 Served block blk_-9999999999999999999 to /99.999.99.9
+Deleting block blk_9999999999999999999 file /mnt/hadoop/dfs/data/current/subdir9/blk_9999999999999999999
+Verification succeeded for blk_-9999999999999999999
+Deleting block blk_9999999999999999999 file /mnt/hadoop/dfs/data/current/subdir9/blk_9999999999999999999
+Received block blk_9999999999999999999 of size 99999999 from /99.999.99.999
+99.999.999.99:99999:Transmitted block blk_9999999999999999999 to /99.999.99.999:99999
+Receiving block blk_999999999999999999 src: /99.999.9.999:99999 dest: /99.999.9.999:99999
+BLOCK* NameSystem.addStoredBlock: blockMap updated: 99.999.999.99:99999 is added to blk_9999999999999999 size 99999999
+BLOCK* NameSystem.addStoredBlock: blockMap updated: 99.999.99.99:99999 is added to blk_-999999999999999999 size 9999999
+99.999.99.999:99999 Starting thread to transfer block blk_-9999999999999999999 to 99.999.99.999:99999, 99.999.999.99:99999
+99.999.999.99:99999 Starting thread to transfer block blk_9999999999999999999 to 99.999.999.999:99999
+BLOCK* NameSystem.allocateBlock: /user/root/wcnt9/_temporary/_task_999999999999_9999_r_999999_9/part-99999. blk_-9999999999999999999
+99.999.99.9:99999 Served block blk_-99999999999999999 to /99.999.99.999
+Deleting block blk_-999999999999999999 file /mnt/hadoop/dfs/data/current/subdir99/blk_-999999999999999999
+PacketResponder 9 for block blk_-999999999999999999 terminating
+99.999.99.99:99999 Served block blk_-9999999999999999999 to /99.999.99.99
+99.999.99.9:99999:Transmitted block blk_-999999999999999999 to /99.999.999.9:99999
+Receiving block blk_9999999999999999999 src: /99.999.99.99:99999 dest: /99.999.99.99:99999
+99.999.999.999:99999 Served block blk_-99999999999999999 to /99.999.999.999
+99.999.999.99:99999 Starting thread to transfer block blk_9999999999999999999 to 99.999.99.9:99999
+99.999.99.9:99999 Starting thread to transfer block blk_9999999999999999999 to 99.999.999.999:99999
+BLOCK* NameSystem.addStoredBlock: blockMap updated: 99.999.999.999:99999 is added to blk_-9999999999999999999 size 99999999
+BLOCK* NameSystem.addStoredBlock: Redundant addStoredBlock request received for blk_-999999999999999999 on 99.999.999.999:99999 size 99999999
+99.999.999.999:99999 Starting thread to transfer block blk_-9999999999999999999 to 99.999.999.99:99999
+99.999.9.9:99999 Served block blk_-9999999999999999999 to /99.999.99.9
+BLOCK* ask 99.999.99.99:99999 to replicate blk_-9999999999999999999 to datanode(s) 99.999.99.999:99999
+99.999.999.999:99999 Served block blk_-9999999999999999999 to /99.999.99.999
+99.999.999.999:99999 Served block blk_999999999999999999 to /99.999.999.9
+Receiving empty packet for block blk_999999999999999999
+Received block blk_-999999999999999999 of size 9999999 from /99.999.99.999
+99.999.999.9:99999 Served block blk_999999999999999999 to /99.999.999.99
+Receiving block blk_-9999999999999999999 src: /99.999.99.99:99999 dest: /99.999.99.99:99999
+Received block blk_-9999999999999999999 src: /99.999.99.999:99999 dest: /99.999.99.999:99999 of size 99999999
+BLOCK* NameSystem.delete: blk_-9999999999999999 is added to invalidSet of 99.999.99.99:99999
+99.999.999.9:99999 Served block blk_-9999999999999999999 to /99.999.99.999
+Received block blk_9999999999999999999 of size 99999999 from /99.999.99.999
+Receiving block blk_999999999999999999 src: /99.999.99.9:99999 dest: /99.999.99.9:99999
+Received block blk_-9999999999999999 of size 99999999 from /99.999.999.99
+99.999.999.99:99999 Starting thread to transfer block blk_9999999999999999999 to 99.999.999.99:99999
+BLOCK* NameSystem.allocateBlock: /user/root/rand/_temporary/_task_999999999999_9999_m_999999_9/part-99999. blk_999999999999999999
+99.999.999.99:99999 Served block blk_-9999999999999999 to /99.999.999.999
+99.999.99.999:99999 Served block blk_99999999999999999 to /99.999.99.9
+Receiving block blk_-9999999999999999999 src: /99.999.99.9:99999 dest: /99.999.99.9:99999
+99.999.99.9:99999 Served block blk_9999999999999999999 to /99.999.9.999
+BLOCK* ask 99.999.999.999:99999 to replicate blk_9999999999999999999 to datanode(s) 99.999.999.9:99999
+99.999.99.99:99999 Starting thread to transfer block blk_-9999999999999999999 to 99.999.99.999:99999
+Received block blk_-9999999999999999999 of size 9999999 from /99.999.99.9
+BLOCK* ask 99.999.99.9:99999 to replicate blk_999999999999999999 to datanode(s) 99.999.99.99:99999
+BLOCK* NameSystem.delete: blk_-9999999999999999999 is added to invalidSet of 99.999.999.99:99999
+Received block blk_-999999999999999999 src: /99.999.99.999:99999 dest: /99.999.99.999:99999 of size 99999999
+Receiving block blk_-9999999999999999 src: /99.999.9.999:99999 dest: /99.999.9.999:99999
+BLOCK* ask 99.999.999.9:99999 to replicate blk_-999999999999999999 to datanode(s) 99.999.99.999:99999
+PacketResponder 9 for block blk_9999999999999999999 terminating
+99.999.9.999:99999 Served block blk_-9999999999999999999 to /99.999.99.999
+Received block blk_-9999999999999999999 of size 99999999 from /99.999.99.99
+BLOCK* NameSystem.addStoredBlock: blockMap updated: 99.999.99.9:99999 is added to blk_-9999999999999999999 size 99999
+99.999.99.999:99999 Starting thread to transfer block blk_9999999999999999999 to 99.999.999.99:99999
+PacketResponder 9 for block blk_9999999999999999999 terminating
+BLOCK* NameSystem.addStoredBlock: blockMap updated: 99.999.99.999:99999 is added to blk_-9999999999999999999 size 99999999
+Received block blk_999999999999999999 of size 99999999 from /99.999.99.99
+Deleting block blk_-9999999999999999999 file /mnt/hadoop/dfs/data/current/subdir99/blk_-9999999999999999999
+99.999.99.999:99999:Transmitted block blk_999999999999999999 to /99.999.99.999:99999
+Received block blk_-9999999999999999999 of size 99999999 from /99.999.99.99
+PacketResponder 9 for block blk_9999999999999999999 terminating
+99.999.99.9:99999 Served block blk_-999999999999999999 to /99.999.99.99
+BLOCK* NameSystem.allocateBlock: /user/root/rand/_temporary/_task_999999999999_9999_m_999999_9/part-99999. blk_-9999999999999999
+Received block blk_-999999999999999999 of size 9999999 from /99.999.999.9
+99.999.99.99:99999 Served block blk_999999999999999999 to /99.999.999.99
+BLOCK* NameSystem.addStoredBlock: blockMap updated: 99.999.9.999:99999 is added to blk_99999999999999999 size 99999999
+99.999.999.99:99999 Served block blk_999999999999999999 to /99.999.999.9
+BLOCK* NameSystem.delete: blk_-999999999999999999 is added to invalidSet of 99.999.99.99:99999
+Receiving block blk_-9999999999999999999 src: /99.999.99.999:99999 dest: /99.999.99.999:99999
+99.999.9.999:99999:Transmitted block blk_9999999999999999999 to /99.999.999.99:99999
+Received block blk_-9999999999999999999 of size 99999999 from /99.999.999.999
+Receiving block blk_9999999999999999999 src: /99.999.99.99:99999 dest: /99.999.99.99:99999
+99.999.99.999:99999 Served block blk_-99999999999999999 to /99.999.99.999
+BLOCK* NameSystem.addStoredBlock: blockMap updated: 99.999.99.9:99999 is added to blk_999999999999999999 size 9999999
+Deleting block blk_9999999999999999999 file /mnt/hadoop/dfs/data/current/subdir9/blk_9999999999999999999
+99.999.999.99:99999 Served block blk_99999999999999999 to /99.999.99.999
+Received block blk_999999999999999999 src: /99.999.99.999:99999 dest: /99.999.99.999:99999 of size 99999999
+99.999.999.99:99999 Served block blk_99999999999999999 to /99.999.99.99
+BLOCK* NameSystem.delete: blk_9999999999999999999 is added to invalidSet of 99.999.999.99:99999
+Received block blk_-9999999999999999999 of size 99999999 from /99.999.99.999
+99.999.999.99:99999 Starting thread to transfer block blk_999999999999999999 to 99.999.99.999:99999
+99.999.999.999:99999:Transmitted block blk_9999999999999999999 to /99.999.9.99:99999
+Received block blk_-9999999999999999999 of size 99999999 from /99.999.999.999
+99.999.9.99:99999 Served block blk_999999999999999999 to /99.999.999.99
+PacketResponder 9 for block blk_9999999999999999999 terminating
+Verification succeeded for blk_-999999999999999999
+Deleting block blk_9999999999999999999 file /mnt/hadoop/dfs/data/current/subdir99/blk_9999999999999999999
+BLOCK* NameSystem.addStoredBlock: blockMap updated: 99.999.9.999:99999 is added to blk_9999999999999999999 size 99999
+Received block blk_-999999999999999999 of size 99999999 from /99.999.99.999
+PacketResponder 9 for block blk_-9999999999999999999 terminating
+BLOCK* NameSystem.allocateBlock: /user/root/rand9/_temporary/_task_999999999999_9999_m_999999_9/part-99999. blk_-9999999999999999999
+99.999.9.999:99999 Served block blk_-9999999999999999999 to /99.999.999.99
+Received block blk_-9999999999999999999 of size 99999999 from /99.999.99.999
+BLOCK* NameSystem.addStoredBlock: addStoredBlock request received for blk_-9999999999999999999 on 99.999.99.99:99999 size 99999999 But it does not belong to any file.
+BLOCK* NameSystem.delete: blk_999999999999999999 is added to invalidSet of 99.999.99.999:99999
+BLOCK* NameSystem.addStoredBlock: blockMap updated: 99.999.999.999:99999 is added to blk_9999999999999999999 size 9999999
+PacketResponder 9 for block blk_9999999999999999999 terminating
+99.999.999.9:99999 Served block blk_-9999999999999999999 to /99.999.9.99
+PacketResponder 9 for block blk_-9999999999999999999 terminating
+Received block blk_-99999999999999999 of size 99999999 from /99.999.9.9
+Received block blk_9999999999999999999 of size 9999999 from /99.999.99.9
+99.999.999.999:99999:Transmitted block blk_-999999999999999999 to /99.999.999.999:99999
+BLOCK* NameSystem.addStoredBlock: blockMap updated: 99.999.99.99:99999 is added to blk_-9999999999999999999 size 99999999
+BLOCK* ask 99.999.99.9:99999 to replicate blk_9999999999999999999 to datanode(s) 99.999.99.99:99999 99.999.99.999:99999
+BLOCK* NameSystem.addStoredBlock: blockMap updated: 99.999.9.99:99999 is added to blk_999999999999999999 size 9999999
+Received block blk_-999999999999999999 of size 99999999 from /99.999.99.99
+Receiving block blk_9999999999999999999 src: /99.999.999.999:99999 dest: /99.999.999.999:99999
+Receiving block blk_9999999999999999999 src: /99.999.999.99:99999 dest: /99.999.999.99:99999
+Receiving block blk_99999999999999999 src: /99.999.999.999:99999 dest: /99.999.999.999:99999
+99.999.99.9:99999 Served block blk_-99999999999999999 to /99.999.99.9
+BLOCK* NameSystem.allocateBlock: /user/root/rand9/_temporary/_task_999999999999_9999_m_999999_9/part-99999. blk_-99999999999999999
+Receiving block blk_9999999999999999999 src: /99.999.9.999:99999 dest: /99.999.9.999:99999
+BLOCK* NameSystem.delete: blk_-9999999999999999999 is added to invalidSet of 99.999.999.999:99999
+Received block blk_-9999999999999999999 src: /99.999.9.999:99999 dest: /99.999.9.999:99999 of size 9999999
+99.999.999.9:99999 Served block blk_9999999999999999999 to /99.999.99.999
+BLOCK* ask 99.999.999.99:99999 to replicate blk_-9999999999999999999 to datanode(s) 99.999.999.99:99999
+Deleting block blk_9999999999999999999 file /mnt/hadoop/dfs/data/current/subdir99/blk_9999999999999999999
+BLOCK* NameSystem.addStoredBlock: blockMap updated: 99.999.999.999:99999 is added to blk_-99999999999999999 size 9999999
+BLOCK* ask 99.999.9.999:99999 to replicate blk_9999999999999999999 to datanode(s) 99.999.99.99:99999
+Received block blk_-9999999999999999999 of size 99999999 from /99.999.99.999
+Received block blk_9999999999999999999 of size 99999999 from /99.999.999.999
+BLOCK* NameSystem.delete: blk_99999999999999999 is added to invalidSet of 99.999.9.999:99999
+Deleting block blk_-99999999999999999 file /mnt/hadoop/dfs/data/current/subdir9/blk_-99999999999999999
+99.999.9.9:99999 Served block blk_9999999999999999999 to /99.999.99.999
+Receiving block blk_-999999999999999999 src: /99.999.99.99:99999 dest: /99.999.99.99:99999
+99.999.999.99:99999 Served block blk_999999999999999999 to /99.999.9.99
+Receiving block blk_-9999999999999999999 src: /99.999.999.999:99999 dest: /99.999.999.999:99999
+Deleting block blk_9999999999999999999 file /mnt/hadoop/dfs/data/current/subdir99/blk_9999999999999999999
+Receiving block blk_9999999999999999999 src: /99.999.99.999:99999 dest: /99.999.99.999:99999
+Receiving block blk_-9999999999999999999 src: /99.999.99.999:99999 dest: /99.999.99.999:99999
+Received block blk_9999999999999999999 of size 99999999 from /99.999.9.999
+99.999.9.999:99999 Starting thread to transfer block blk_9999999999999999999 to 99.999.999.99:99999
+99.999.99.9:99999:Transmitted block blk_-9999999999999999999 to /99.999.99.9:99999
+Received block blk_99999999999999999 src: /99.999.999.99:99999 dest: /99.999.999.99:99999 of size 99999999
+99.999.99.99:99999 Starting thread to transfer block blk_-9999999999999999999 to 99.999.99.99:99999
+99.999.99.99:99999:Transmitted block blk_-9999999999999999999 to /99.999.999.99:99999
+BLOCK* NameSystem.addStoredBlock: blockMap updated: 99.999.999.999:99999 is added to blk_9999999999999999999 size 99999999
+Deleting block blk_9999999999999999 file /mnt/hadoop/dfs/data/current/blk_9999999999999999
+Received block blk_9999999999999999999 of size 99999999 from /99.999.999.999
+99.999.9.99:99999 Served block blk_-999999999999999999 to /99.999.9.999
+99.999.99.9:99999 Served block blk_-99999999999999999 to /99.999.999.99
+99.999.99.999:99999 Served block blk_9999999999999999 to /99.999.99.999
+BLOCK* NameSystem.addStoredBlock: blockMap updated: 99.999.999.99:99999 is added to blk_-9999999999999999999 size 99999999
+Receiving block blk_9999999999999999999 src: /99.999.999.999:99999 dest: /99.999.999.999:99999
+Received block blk_-999999999999999999 of size 99999999 from /99.999.99.99
+Received block blk_999999999999999999 src: /99.999.99.99:99999 dest: /99.999.99.99:99999 of size 9999999
+99.999.999.999:99999 Served block blk_-999999999999999999 to /99.999.99.99
+BLOCK* NameSystem.delete: blk_-9999999999999999999 is added to invalidSet of 99.999.99.999:99999
+BLOCK* ask 99.999.99.999:99999 to replicate blk_-9999999999999999999 to datanode(s) 99.999.999.9:99999
+99.999.999.999:99999 Served block blk_-9999999999999999999 to /99.999.9.999
+BLOCK* NameSystem.delete: blk_99999999999999999 is added to invalidSet of 99.999.9.9:99999
+BLOCK* NameSystem.addStoredBlock: blockMap updated: 99.999.999.9:99999 is added to blk_-9999999999999999999 size 99999999
+PacketResponder 9 for block blk_9999999999999999999 terminating
+99.999.9.99:99999 Served block blk_-9999999999999999999 to /99.999.9.99
+99.999.999.999:99999:Transmitted block blk_9999999999999999999 to /99.999.9.999:99999
+BLOCK* ask 99.999.99.999:99999 to replicate blk_9999999999999999999 to datanode(s) 99.999.999.99:99999
+Deleting block blk_-9999999999999999999 file /mnt/hadoop/dfs/data/current/subdir99/blk_-9999999999999999999
+PacketResponder 9 for block blk_9999999999999999999 terminating
+BLOCK* NameSystem.delete: blk_-9999999999999999999 is added to invalidSet of 99.999.999.99:99999
+BLOCK* NameSystem.addStoredBlock: Redundant addStoredBlock request received for blk_-999999999999999999 on 99.999.99.999:99999 size 99999999
+99.999.9.999:99999 Served block blk_999999999999999999 to /99.999.999.99
+99.999.999.99:99999 Served block blk_9999999999999999999 to /99.999.99.99
+BLOCK* NameSystem.delete: blk_9999999999999999999 is added to invalidSet of 99.999.99.999:99999
+BLOCK* NameSystem.addStoredBlock: blockMap updated: 99.999.99.999:99999 is added to blk_9999999999999999999 size 99999999
+99.999.999.99:99999 Served block blk_-999999999999999999 to /99.999.99.99
+Received block blk_999999999999999999 src: /99.999.99.9:99999 dest: /99.999.99.9:99999 of size 99999999
+99.999.9.999:99999 Served block blk_-9999999999999999 to /99.999.9.999
+99.999.999.9:99999 Starting thread to transfer block blk_-9999999999999999999 to 99.999.999.999:99999
+99.999.99.9:99999 Served block blk_-9999999999999999999 to /99.999.99.999
+PacketResponder 9 for block blk_999999999999999999 terminating
+99.999.9.999:99999 Starting thread to transfer block blk_9999999999999999999 to 99.999.999.999:99999
+Received block blk_9999999999999999 of size 99999999 from /99.999.99.999
+BLOCK* NameSystem.addStoredBlock: blockMap updated: 99.999.99.999:99999 is added to blk_-9999999999999999999 size 99999999
+Receiving block blk_-9999999999999999999 src: /99.999.999.999:99999 dest: /99.999.999.999:99999
+BLOCK* ask 99.999.999.999:99999 to replicate blk_-999999999999999999 to datanode(s) 99.999.99.999:99999
+Receiving block blk_9999999999999999999 src: /99.999.99.999:99999 dest: /99.999.99.999:99999
+BLOCK* ask 99.999.999.999:99999 to replicate blk_999999999999999999 to datanode(s) 99.999.999.999:99999
+Deleting block blk_-99999999999999999 file /mnt/hadoop/dfs/data/current/subdir99/blk_-99999999999999999
+99.999.999.99:99999 Served block blk_999999999999999999 to /99.999.999.99
+BLOCK* NameSystem.addStoredBlock: Redundant addStoredBlock request received for blk_9999999999999999999 on 99.999.9.9:99999 size 99999999
+PacketResponder 9 for block blk_9999999999999999999 terminating
+Received block blk_-9999999999999999999 of size 99999999 from /99.999.99.999
+99.999.99.9:99999 Served block blk_-999999999999999999 to /99.999.99.9
+Receiving block blk_9999999999999999999 src: /99.999.99.999:99999 dest: /99.999.99.999:99999
+BLOCK* NameSystem.delete: blk_-9999999999999999999 is added to invalidSet of 99.999.999.999:99999
+Received block blk_-9999999999999999999 of size 99999999 from /99.999.99.9
+Receiving block blk_999999999999999999 src: /99.999.99.999:99999 dest: /99.999.99.999:99999
+Receiving block blk_9999999999999999999 src: /99.999.99.999:99999 dest: /99.999.99.999:99999
+PacketResponder 9 for block blk_999999999999999999 terminating
+BLOCK* ask 99.999.999.999:99999 to replicate blk_999999999999999999 to datanode(s) 99.999.999.99:99999
+Receiving block blk_9999999999999999999 src: /99.999.9.99:99999 dest: /99.999.9.99:99999
+BLOCK* NameSystem.allocateBlock: /user/root/randtxt9/_temporary/_task_999999999999_9999_m_999999_9/part-99999. blk_9999999999999999999
+99.999.9.999:99999 Served block blk_99999999999999999 to /99.999.9.999
+Received block blk_-9999999999999999 of size 9999999 from /99.999.999.999
+BLOCK* NameSystem.allocateBlock: /user/root/randtxt/_temporary/_task_999999999999_9999_m_999999_9/part-99999. blk_-9999999999999999999
+99.999.99.999:99999 Served block blk_9999999999999999999 to /99.999.999.9
+99.999.999.99:99999 Served block blk_-9999999999999999999 to /99.999.9.9
+99.999.9.999:99999:Transmitted block blk_9999999999999999999 to /99.999.99.999:99999
+99.999.999.9:99999 Served block blk_-9999999999999999999 to /99.999.99.99
+BLOCK* NameSystem.addStoredBlock: blockMap updated: 99.999.999.99:99999 is added to blk_9999999999999999999 size 99999999
+BLOCK* NameSystem.addStoredBlock: blockMap updated: 99.999.99.99:99999 is added to blk_-9999999999999999999 size 99999999
+99.999.999.9:99999:Transmitted block blk_-999999999999999999 to /99.999.999.999:99999
+PacketResponder 9 for block blk_-99999999999999999 terminating
+BLOCK* NameSystem.delete: blk_9999999999999999999 is added to invalidSet of 99.999.999.99:99999
+Received block blk_-9999999999999999999 src: /99.999.99.99:99999 dest: /99.999.99.99:99999 of size 99999999
+Received block blk_-999999999999999999 of size 99999999 from /99.999.9.999
+BLOCK* ask 99.999.99.999:99999 to replicate blk_-999999999999999999 to datanode(s) 99.999.99.999:99999
+99.999.99.9:99999 Served block blk_-999999999999999999 to /99.999.999.999
+Received block blk_99999999999999999 of size 99999999 from /99.999.9.999
+Receiving block blk_99999999999999999 src: /99.999.999.9:99999 dest: /99.999.999.9:99999
+99.999.999.99:99999 Starting thread to transfer block blk_999999999999999999 to 99.999.99.99:99999
+BLOCK* NameSystem.addStoredBlock: blockMap updated: 99.999.9.9:99999 is added to blk_9999999999999999999 size 9999999
+BLOCK* NameSystem.delete: blk_-9999999999999999999 is added to invalidSet of 99.999.999.9:99999
+BLOCK* NameSystem.addStoredBlock: blockMap updated: 99.999.99.99:99999 is added to blk_9999999999999999999 size 99999999
+BLOCK* NameSystem.delete: blk_9999999999999999999 is added to invalidSet of 99.999.999.99:99999
+99.999.99.9:99999 Served block blk_-9999999999999999999 to /99.999.99.99
+99.999.99.999:99999 Served block blk_9999999999999999999 to /99.999.99.9
+99.999.99.99:99999 Served block blk_-99999999999999999 to /99.999.999.999
+99.999.99.9:99999 Starting thread to transfer block blk_9999999999999999999 to 99.999.9.999:99999
+Receiving block blk_9999999999999999999 src: /99.999.99.999:99999 dest: /99.999.99.999:99999
+BLOCK* NameSystem.addStoredBlock: blockMap updated: 99.999.9.999:99999 is added to blk_-9999999999999999 size 99999999
+Deleting block blk_9999999999999999999 file /mnt/hadoop/dfs/data/current/subdir99/blk_9999999999999999999
+Deleting block blk_-9999999999999999999 file /mnt/hadoop/dfs/data/current/subdir99/blk_-9999999999999999999
+BLOCK* NameSystem.addStoredBlock: blockMap updated: 99.999.99.999:99999 is added to blk_-9999999999999999999 size 99999999
+BLOCK* NameSystem.delete: blk_-9999999999999999999 is added to invalidSet of 99.999.9.999:99999
+BLOCK* NameSystem.addStoredBlock: blockMap updated: 99.999.999.9:99999 is added to blk_-9999999999999999999 size 9999999
+BLOCK* ask 99.999.99.999:99999 to replicate blk_-999999999999999999 to datanode(s) 99.999.9.99:99999
+99.999.999.99:99999:Transmitted block blk_-9999999999999999999 to /99.999.99.999:99999
+Deleting block blk_999999999999999999 file /mnt/hadoop/dfs/data/current/subdir99/blk_999999999999999999
+Deleting block blk_9999999999999999999 file /mnt/hadoop/dfs/data/current/subdir99/blk_9999999999999999999
+BLOCK* NameSystem.addStoredBlock: blockMap updated: 99.999.99.999:99999 is added to blk_9999999999999999999 size 99999999
+BLOCK* NameSystem.delete: blk_-9999999999999999999 is added to invalidSet of 99.999.99.999:99999
+Deleting block blk_-9999999999999999999 file /mnt/hadoop/dfs/data/current/subdir99/blk_-9999999999999999999
+99.999.99.999:99999 Starting thread to transfer block blk_999999999999999999 to 99.999.99.9:99999
+Deleting block blk_-9999999999999999999 file /mnt/hadoop/dfs/data/current/subdir99/blk_-9999999999999999999
+99.999.999.999:99999 Served block blk_999999999999999999 to /99.999.9.99
+99.999.999.999:99999:Transmitted block blk_-999999999999999999 to /99.999.99.999:99999
+Deleting block blk_-9999999999999999999 file /mnt/hadoop/dfs/data/current/subdir99/blk_-9999999999999999999
+Receiving block blk_9999999999999999999 src: /99.999.99.999:99999 dest: /99.999.99.999:99999
+Received block blk_-999999999999999999 of size 9999999 from /99.999.9.999
+Deleting block blk_-99999999999999999 file /mnt/hadoop/dfs/data/current/blk_-99999999999999999
+99.999.99.9:99999 Starting thread to transfer block blk_-9999999999999999999 to 99.999.99.999:99999
+Received block blk_9999999999999999 of size 99999999 from /99.999.999.99
+BLOCK* NameSystem.addStoredBlock: blockMap updated: 99.999.999.999:99999 is added to blk_-999999999999999999 size 99999
+BLOCK* NameSystem.addStoredBlock: Redundant addStoredBlock request received for blk_-9999999999999999999 on 99.999.99.99:99999 size 99999999
+Verification succeeded for blk_9999999999999999999
+99.999.99.99:99999 Starting thread to transfer block blk_-9999999999999999999 to 99.999.9.999:99999
+Received block blk_9999999999999999999 of size 99999999 from /99.999.99.999
+99.999.99.99:99999:Transmitted block blk_9999999999999999999 to /99.999.99.99:99999
+99.999.99.9:99999 Served block blk_-9999999999999999999 to /99.999.999.99
+PacketResponder 9 for block blk_999999999999999999 terminating
+BLOCK* NameSystem.addStoredBlock: blockMap updated: 99.999.999.999:99999 is added to blk_9999999999999999999 size 99999999
+Received block blk_9999999999999999999 src: /99.999.99.999:99999 dest: /99.999.99.999:99999 of size 99999999
+BLOCK* NameSystem.allocateBlock: /user/root/wcnt9/_temporary/_task_999999999999_9999_r_999999_9/part-99999. blk_-999999999999999999
+Receiving block blk_-9999999999999999 src: /99.999.99.999:99999 dest: /99.999.99.999:99999
+Received block blk_-9999999999999999999 of size 99999999 from /99.999.99.999
+Received block blk_-99999999999999999 of size 9999999 from /99.999.999.999
+Receiving block blk_999999999999999999 src: /99.999.9.99:99999 dest: /99.999.9.99:99999
+BLOCK* ask 99.999.99.999:99999 to replicate blk_-9999999999999999999 to datanode(s) 99.999.99.99:99999
+Receiving block blk_99999999999999999 src: /99.999.9.99:99999 dest: /99.999.9.99:99999
+Receiving empty packet for block blk_-999999999999999999
+BLOCK* NameSystem.allocateBlock: /user/root/sortrand/_temporary/_task_999999999999_9999_r_999999_9/part-99999. blk_-9999999999999999999
+BLOCK* NameSystem.addStoredBlock: blockMap updated: 99.999.999.999:99999 is added to blk_9999999999999999999 size 99999999
+99.999.999.99:99999 Served block blk_99999999999999999 to /99.999.999.999
+Deleting block blk_-9999999999999999999 file /mnt/hadoop/dfs/data/current/subdir99/blk_-9999999999999999999
+writeBlock blk_-9999999999999999999 received exception java.nio.channels.ClosedByInterruptException
+BLOCK* NameSystem.addStoredBlock: blockMap updated: 99.999.9.999:99999 is added to blk_-9999999999999999999 size 99999999
+BLOCK* NameSystem.addStoredBlock: blockMap updated: 99.999.99.99:99999 is added to blk_-9999999999999999999 size 99999999
+99.999.99.9:99999 Served block blk_-9999999999999999999 to /99.999.9.9
+99.999.99.9:99999 Served block blk_-9999999999999999 to /99.999.99.9
+99.999.99.9:99999 Served block blk_99999999999999999 to /99.999.99.999
+Received block blk_-999999999999999999 of size 99999999 from /99.999.99.99
+Receiving block blk_99999999999999999 src: /99.999.99.99:99999 dest: /99.999.99.99:99999
+PacketResponder 9 for block blk_9999999999999999999 terminating
+Receiving block blk_9999999999999999999 src: /99.999.99.999:99999 dest: /99.999.99.999:99999
+99.999.99.99:99999 Starting thread to transfer block blk_-9999999999999999999 to 99.999.999.99:99999

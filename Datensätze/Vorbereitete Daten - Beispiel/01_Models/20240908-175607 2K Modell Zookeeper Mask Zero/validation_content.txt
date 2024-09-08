@@ -1,0 +1,400 @@
+Processed session termination for sessionid: 9x99ed9ac9c9e99af
+Interrupted while waiting for message on queue
+Received connection request /99.99.99.99:99999
+Established session 9x99ee99a9c999999 with negotiated timeout 99999 for client /99.99.99.99:99999
+Interrupting SendWorker
+Client attempting to establish new session at /99.99.99.99:99999
+New election. My id =  9, proposed zxid=9x9
+Processed session termination for sessionid: 9x99ede99999f999a
+Interrupted while waiting for message on queue
+Send worker leaving thread
+Established session 9x99ede99a9a9999a with negotiated timeout 99999 for client /99.99.99.99:99999
+Closed socket connection for client /99.99.99.99:99999 which had sessionid 9x99ee9e999ed9999
+Received connection request /99.99.99.99:99999
+Interrupted while waiting for message on queue
+Processed session termination for sessionid: 9x99ee9e999ed999f
+Received connection request /99.99.99.99:99999
+Received connection request /99.99.99.99:99999
+Closed socket connection for client /99.99.99.99:99999 which had sessionid 9x99f9a9999b99999
+Processed session termination for sessionid: 9x99ed99999f999ca
+Accepted socket connection from /99.99.99.99:99999
+Send worker leaving thread
+caught end of stream exception
+Processed session termination for sessionid: 9x99f9999a9e9999b
+Expiring session 9x99ed9ac9c9e99af, timeout of 99999ms exceeded
+Expiring session 9x99ed9ac9c9e99b9, timeout of 99999ms exceeded
+Expiring session 9x99f9fdae9ba999c, timeout of 99999ms exceeded
+Processed session termination for sessionid: 9x99f9a99999b999f
+Closed socket connection for client /99.99.99.99:99999 which had sessionid 9x99ed9ac9c9e999c
+Send worker leaving thread
+Interrupted while waiting for message on queue
+Closed socket connection for client /99.99.99.99:99999 which had sessionid 9x99f9999b9af999b
+Server environment:os.version=9.99.9-99-generic
+Closed socket connection for client /99.99.99.99:99999 which had sessionid 9x99f9999999a999b
+Established session 9x99f9999a9e9999c with negotiated timeout 99999 for client /99.99.99.99:99999
+Send worker leaving thread
+Interrupting SendWorker
+Send worker leaving thread
+Established session 9x99f9a99999b999d with negotiated timeout 99999 for client /99.99.99.99:99999
+Processed session termination for sessionid: 9x99ed999999999bc
+Interrupted while waiting for message on queue
+Processed session termination for sessionid: 9x99ed9ac9c9e99d9
+Notification time out: 99999
+Established session 9x99ed9ac9c9e99ce with negotiated timeout 99999 for client /99.99.99.99:99999
+Have smaller server identifier, so dropping the connection: (9, 9)
+Established session 9x99ede99a99b999b with negotiated timeout 99999 for client /99.99.99.99:99999
+Send worker leaving thread
+Established session 9x99edfaa99999999 with negotiated timeout 99999 for client /99.99.99.99:99999
+Expiring session 9x99ed99999f999d9, timeout of 99999ms exceeded
+Send worker leaving thread
+Closed socket connection for client /99.99.99.99:99999 which had sessionid 9x99ee99a9c99999d
+Closed socket connection for client /99.99.99.99:99999 which had sessionid 9x99ee99a99f9999f
+Closed socket connection for client /99.99.99.99:99999 which had sessionid 9x99ed999999999cd
+Expiring session 9x99edfaa99f99999, timeout of 99999ms exceeded
+Closed socket connection for client /99.99.99.99:99999 which had sessionid 9x99ed999999999aa
+Closed socket connection for client /99.99.99.99:99999 which had sessionid 9x99ede99a99b999d
+Accepted socket connection from /99.99.99.99:99999
+Interrupting SendWorker
+shutdown of request processor complete
+Established session 9x99f9a9999b99999 with negotiated timeout 99999 for client /99.99.99.99:99999
+Received connection request /99.99.99.99:99999
+Client attempting to establish new session at /99.99.99.99:99999
+Established session 9x99ed9ac9c9e99ca with negotiated timeout 99999 for client /99.99.99.99:99999
+Send worker leaving thread
+Unexpected exception causing shutdown while sock still open
+Client attempting to establish new session at /99.99.99.99:99999
+Established session 9x99ed99999f999ee with negotiated timeout 99999 for client /99.99.99.99:99999
+Processed session termination for sessionid: 9x99ed99999f999db
+Closed socket connection for client /99.99.99.99:99999 which had sessionid 9x99ed999999999cf
+Established session 9x99f9fdb9f99999d with negotiated timeout 99999 for client /99.99.99.99:99999
+Interrupting SendWorker
+Processed session termination for sessionid: 9x99f9999999a999a
+Closed socket connection for client /99.99.99.99:99999 which had sessionid 9x99ed99999f999b9
+Closed socket connection for client /99.99.99.99:99999 which had sessionid 9x99f9999999e999a
+Snapshotting: 9x9 to /var/lib/zookeeper/version-9/snapshot.9
+Closed socket connection for client /99.99.99.99:99999 which had sessionid 9x99f9999999a999a
+Expiring session 9x99f9999999e999f, timeout of 99999ms exceeded
+Interrupting SendWorker
+Expiring session 9x99f9999b9af999b, timeout of 99999ms exceeded
+Established session 9x99f9999a99e999d with negotiated timeout 99999 for client /99.99.99.99:99999
+Received connection request /99.99.99.99:99999
+Interrupted while waiting for message on queue
+Established session 9x99f99999bd9999a with negotiated timeout 99999 for client /99.99.99.99:99999
+Expiring session 9x99f99999bd9999f, timeout of 99999ms exceeded
+Established session 9x99ede99a99b999e with negotiated timeout 99999 for client /99.99.99.99:99999
+Received connection request /99.99.99.99:99999
+Received connection request /99.99.99.99:99999
+Interrupting SendWorker
+Interrupted while waiting for message on queue
+Closed socket connection for client /99.99.99.99:99999 which had sessionid 9x99ed99999f999dd
+Established session 9x99f9a99999b999a with negotiated timeout 99999 for client /99.99.99.99:99999
+Interrupting SendWorker
+Follower sid: 9 : info : org.apache.zookeeper.server.quorum.QuorumPeer$QuorumServer@99edbbb9
+Reading snapshot /var/lib/zookeeper/version-9/snapshot.9
+Closed socket connection for client /99.99.99.99:99999 which had sessionid 9x99ed99999f999bc
+Expiring session 9x99f9a999df9999b, timeout of 99999ms exceeded
+Interrupted while waiting for message on queue
+Cannot open channel to 9 at election address /99.99.99.99:9999
+Received connection request /99.99.99.99:99999
+Closed socket connection for client /99.99.99.99:99999 which had sessionid 9x99ede99a99b999e
+Send worker leaving thread
+Interrupted while waiting for message on queue
+Established session 9x99ed9ac9c9e99ad with negotiated timeout 99999 for client /99.99.99.99:99999
+Interrupted while waiting for message on queue
+Send worker leaving thread
+Established session 9x99ee99a9c99999c with negotiated timeout 99999 for client /99.99.99.99:99999
+Send worker leaving thread
+Send worker leaving thread
+Established session 9x99ed999999999cb with negotiated timeout 99999 for client /99.99.99.99:99999
+Received connection request /99.99.99.99:99999
+Established session 9x99ed99999f999ad with negotiated timeout 99999 for client /99.99.99.99:99999
+Interrupting SendWorker
+Processed session termination for sessionid: 9x99ede99999f999f
+Interrupting SendWorker
+Received connection request /99.99.99.99:99999
+Established session 9x99ed99999f9999a with negotiated timeout 99999 for client /99.99.99.99:99999
+Interrupted while waiting for message on queue
+Processed session termination for sessionid: 9x99f9999b9af999c
+Established session 9x99ed99999f999b9 with negotiated timeout 99999 for client /99.99.99.99:99999
+Expiring session 9x99ed9ac9c9e99bb, timeout of 99999ms exceeded
+Interrupting SendWorker
+Interrupting SendWorker
+Expiring session 9x99f9fdae9ba9999, timeout of 99999ms exceeded
+Interrupting SendWorker
+Expiring session 9x99f9fdaf9999999, timeout of 99999ms exceeded
+Client attempting to establish new session at /99.99.99.99:99999
+Interrupted while waiting for message on queue
+Established session 9x99f9999b9af999b with negotiated timeout 99999 for client /99.99.99.99:99999
+Processed session termination for sessionid: 9x99ee99a9c99999e
+Expiring session 9x99edfaa99f9999a, timeout of 99999ms exceeded
+Expiring session 9x99f99999bd9999c, timeout of 99999ms exceeded
+Closed socket connection for client /99.99.99.99:99999 which had sessionid 9x99f9a999df9999c
+Follower sid: 9 : info : org.apache.zookeeper.server.quorum.QuorumPeer$QuorumServer@9b99999d
+caught end of stream exception
+Cannot open channel to 9 at election address /99.99.99.99:9999
+Expiring session 9x99f9a999df99999, timeout of 99999ms exceeded
+Interrupted while waiting for message on queue
+Established session 9x99f99999bd99999 with negotiated timeout 99999 for client /99.99.99.99:99999
+Send worker leaving thread
+Received connection request /99.99.99.99:99999
+Expiring session 9x99f9999999a999b, timeout of 99999ms exceeded
+Closed socket connection for client /99.99.99.99:99999 which had sessionid 9x99edfaa9999999f
+Accepted socket connection from /99.99.99.99:99999
+caught end of stream exception
+Received connection request /99.99.99.99:99999
+Processed session termination for sessionid: 9x99ed99999f999e9
+Established session 9x99ed99999f9999c with negotiated timeout 99999 for client /99.99.99.99:99999
+Processed session termination for sessionid: 9x99f9a9999b9999f
+Expiring session 9x99f9fdaf9999999, timeout of 99999ms exceeded
+Processed session termination for sessionid: 9x99f9a999df9999d
+Revalidating client: 9x99f99999bd9999e
+Established session 9x99ed9ac9c9e999f with negotiated timeout 99999 for client /99.99.99.99:99999
+Expiring session 9x99ed9999999999f, timeout of 99999ms exceeded
+Send worker leaving thread
+Interrupting SendWorker
+Processed session termination for sessionid: 9x99f9a999df9999c
+Snapshotting: 9x999999dcd to /var/lib/zookeeper/version-9/snapshot.999999dcd
+Got user-level KeeperException when processing sessionid:9x99ed99999999999 type:create cxid:9x99b9bb9b zxid:9x99999999c txntype:-9 reqpath:n/a Error Path:/home/curi Error:KeeperErrorCode = NodeExists for /home/curi
+Closed socket connection for client /99.99.99.99:99999 which had sessionid 9x99f9999b9af999c
+Expiring session 9x99f9999a99e999b, timeout of 99999ms exceeded
+Expiring session 9x99ed999999999db, timeout of 99999ms exceeded
+Established session 9x99ede99a9a9999e with negotiated timeout 99999 for client /99.99.99.99:99999
+Interrupted while waiting for message on queue
+Established session 9x99ed9999999999c with negotiated timeout 99999 for client /99.99.99.99:99999
+Notification time out: 99999
+Got user-level KeeperException when processing sessionid:9x99ed99999999999 type:create cxid:9x99b9bb9d zxid:9x99999999e txntype:-9 reqpath:n/a Error Path:/home/curi/.zookeeper Error:KeeperErrorCode = NodeExists for /home/curi/.zookeeper
+Closed socket connection for client /99.99.99.99:99999 which had sessionid 9x99ed99999f999af
+Established session 9x99ed999999999dc with negotiated timeout 99999 for client /99.99.99.99:99999
+Closed socket connection for client /99.99.99.99:99999 which had sessionid 9x99ede99a99b999c
+Expiring session 9x99ed999999999af, timeout of 99999ms exceeded
+Cannot open channel to 9 at election address /99.99.99.99:9999
+Expiring session 9x99ed99999f999e9, timeout of 99999ms exceeded
+Processed session termination for sessionid: 9x99f9fdb9f99999b
+Expiring session 9x99ed9ac9c9e99ca, timeout of 99999ms exceeded
+Received connection request /99.99.99.99:99999
+Closed socket connection for client /99.99.99.99:99999 which had sessionid 9x99edfaa9999999a
+Interrupted while waiting for message on queue
+Revalidating client: 9x99ed9999999999f
+Processed session termination for sessionid: 9x99ee99a99f9999e
+Interrupted while waiting for message on queue
+Received connection request /99.99.99.99:99999
+Expiring session 9x99ed9ac9c9e999b, timeout of 99999ms exceeded
+Client attempting to establish new session at /99.99.99.99:99999
+Client attempting to establish new session at /99.99.99.99:99999
+Send worker leaving thread
+Established session 9x99edfaa9999999a with negotiated timeout 99999 for client /99.99.99.99:99999
+Interrupted while waiting for message on queue
+Processed session termination for sessionid: 9x99ed999999999a9
+Send worker leaving thread
+Processed session termination for sessionid: 9x99f9999b9af9999
+Established session 9x99f99999e999999 with negotiated timeout 99999 for client /99.99.99.99:99999
+Send worker leaving thread
+Closed socket connection for client /99.99.99.99:99999 which had sessionid 9x99ed999999999ac
+Interrupted while waiting for message on queue
+Reading snapshot /var/lib/zookeeper/version-9/snapshot.a9999999a
+Interrupting SendWorker
+Client attempting to establish new session at /99.99.99.99:99999
+Revalidating client: 9x99f9fdae9ba9999
+Established session 9x99f9999999e999a with negotiated timeout 99999 for client /99.99.99.99:99999
+Established session 9x99ed999999999bd with negotiated timeout 99999 for client /99.99.99.99:99999
+Expiring session 9x99ed99999f999dc, timeout of 99999ms exceeded
+Processed session termination for sessionid: 9x99ed9ac9c9e999c
+Closed socket connection for client /99.99.99.99:99999 which had sessionid 9x99ed999999999bb
+Closed socket connection for client /99.99.99.99:99999 which had sessionid 9x99f9a9999b99999
+Interrupting SendWorker
+Expiring session 9x99ed999999999bf, timeout of 99999ms exceeded
+Processed session termination for sessionid: 9x99ed99999f999ee
+Received connection request /99.99.99.99:99999
+Received connection request /99.99.99.99:99999
+Received connection request /99.99.99.99:99999
+Closed socket connection for client /99.99.99.99:99999 which had sessionid 9x99ed9ac9c9e99bf
+Interrupting SendWorker
+Received connection request /99.99.99.99:99999
+Processed session termination for sessionid: 9x99ede99999f999d
+Processed session termination for sessionid: 9x99f9999b9af999b
+Expiring session 9x99ed99999f999a9, timeout of 99999ms exceeded
+Established session 9x99ed99999f999bd with negotiated timeout 99999 for client /99.99.99.99:99999
+Interrupting SendWorker
+Received connection request /99.99.99.99:99999
+My election bind port: 9.9.9.9/9.9.9.9:9999
+Closed socket connection for client /99.99.99.99:99999 which had sessionid 9x99f9fdb9f999999
+Received connection request /99.99.99.99:99999
+Interrupted while waiting for message on queue
+Received connection request /99.99.99.99:99999
+Expiring session 9x99f9999a99e999e, timeout of 99999ms exceeded
+Closed socket connection for client /99.99.99.99:99999 which had sessionid 9x99ed9ac9c9e99d9
+Processed session termination for sessionid: 9x99f9fdaf999999a
+Received connection request /99.99.99.99:99999
+Processed session termination for sessionid: 9x99f9999b9af9999
+Closed socket connection for client /99.99.99.99:99999 which had sessionid 9x99f9a99999b999d
+Send worker leaving thread
+Client attempting to establish new session at /99.99.99.99:99999
+Interrupted while waiting for message on queue
+Expiring session 9x99ed99999f999b9, timeout of 99999ms exceeded
+Send worker leaving thread
+Established session 9x99f9999999a9999 with negotiated timeout 99999 for client /99.99.99.99:99999
+Expiring session 9x99ed99999f9999e, timeout of 99999ms exceeded
+Received connection request /99.99.99.99:99999
+Received connection request /99.99.99.99:99999
+Expiring session 9x99f9999999e999c, timeout of 99999ms exceeded
+Expiring session 9x99ede99a9a9999c, timeout of 99999ms exceeded
+Established session 9x99ed9ac9c9e99bc with negotiated timeout 99999 for client /99.99.99.99:99999
+Expiring session 9x99f9999999e999b, timeout of 99999ms exceeded
+Expiring session 9x99f9fdae9ba999f, timeout of 99999ms exceeded
+Closed socket connection for client /99.99.99.99:99999 which had sessionid 9x99ed9ac9c9e99ac
+Expiring session 9x99ed999999999ce, timeout of 99999ms exceeded
+Expiring session 9x99ee9e999ed9999, timeout of 99999ms exceeded
+Processed session termination for sessionid: 9x99f9a9999b9999c
+Processed session termination for sessionid: 9x99edfaa9999999c
+Expiring session 9x99ed9ac9c9e99a9, timeout of 99999ms exceeded
+Expiring session 9x99ee9e999ed999c, timeout of 99999ms exceeded
+Established session 9x99f9999999e999e with negotiated timeout 99999 for client /99.99.99.99:99999
+Interrupted while waiting for message on queue
+Expiring session 9x99edfaa9999999c, timeout of 99999ms exceeded
+Send worker leaving thread
+Closed socket connection for client /99.99.99.99:99999 which had sessionid 9x99ed9ac9c9e999f
+Received connection request /99.99.99.99:99999
+Interrupting SendWorker
+Follower sid: 9 : info : org.apache.zookeeper.server.quorum.QuorumPeer$QuorumServer@999999f9
+Expiring session 9x99ed9ac9c9e99d9, timeout of 99999ms exceeded
+Established session 9x99f9999b9af999d with negotiated timeout 99999 for client /99.99.99.99:99999
+Established session 9x99ed999999999de with negotiated timeout 99999 for client /99.99.99.99:99999
+Interrupting SendWorker
+Send worker leaving thread
+Got user-level KeeperException when processing sessionid:9x99ed99999999999 type:create cxid:9x99b9baff zxid:9x999999999 txntype:-9 reqpath:n/a Error Path:/home Error:KeeperErrorCode = NodeExists for /home
+Interrupted while waiting for message on queue
+Follower sid: 9 : info : org.apache.zookeeper.server.quorum.QuorumPeer$QuorumServer@9999f999
+Closed socket connection for client /99.99.99.99:99999 which had sessionid 9x99ed99999999999
+Processed session termination for sessionid: 9x99ed9ac9c9e9999
+Processed session termination for sessionid: 9x99ed99999f999ec
+Interrupted while waiting for message on queue
+Established session 9x99f9a9999b9999f with negotiated timeout 99999 for client /99.99.99.99:99999
+Interrupted while waiting for message on queue
+Send worker leaving thread
+Expiring session 9x99ed99999f999ad, timeout of 99999ms exceeded
+Notification time out: 9999
+Established session 9x99ed99999f9999a with negotiated timeout 99999 for client /99.99.99.99:99999
+Send worker leaving thread
+Closed socket connection for client /99.99.99.99:99999 which had sessionid 9x99ede99999f9999
+Received connection request /99.99.99.99:99999
+Send worker leaving thread
+Expiring session 9x99ed9ac9c9e99ae, timeout of 99999ms exceeded
+Processed session termination for sessionid: 9x99ed99999f999cd
+Send worker leaving thread
+Established session 9x99edfaa9c99999e with negotiated timeout 99999 for client /99.99.99.99:99999
+Interrupted while waiting for message on queue
+Closed socket connection for client /99.99.99.99:99999 which had sessionid 9x99ed99999f999cc
+Received connection request /99.99.99.99:99999
+Send worker leaving thread
+Established session 9x99edfaa99f9999c with negotiated timeout 99999 for client /99.99.99.99:99999
+Expiring session 9x99ed99999f999ce, timeout of 99999ms exceeded
+Received connection request /99.99.99.99:99999
+Interrupted while waiting for message on queue
+Established session 9x99f99999bd9999c with negotiated timeout 99999 for client /99.99.99.99:99999
+Send worker leaving thread
+Expiring session 9x99ed9ac9c9e99cc, timeout of 99999ms exceeded
+Closed socket connection for client /99.99.99.99:99999 which had sessionid 9x99edfaa9999999c
+Interrupted while waiting for message on queue
+Send worker leaving thread
+Got user-level KeeperException when processing sessionid:9x99ed99999999999 type:create cxid:9x99b9c9f9 zxid:9x9999999bd txntype:-9 reqpath:n/a Error Path:/hdfs-mesos Error:KeeperErrorCode = NodeExists for /hdfs-mesos
+Interrupted while waiting for message on queue
+Closed socket connection for client /99.99.99.99:99999 which had sessionid 9x99ed99999f999df
+Processed session termination for sessionid: 9x99ee9e999ed9999
+Established session 9x99f9a999df99999 with negotiated timeout 99999 for client /99.99.99.99:99999
+Expiring session 9x99ed99999f999cd, timeout of 99999ms exceeded
+Interrupting SendWorker
+Closed socket connection for client /99.99.99.99:99999 which had sessionid 9x99ede99a9a9999a
+Client attempting to renew session 9x99f9999999a999c at /99.99.99.99:99999
+Expiring session 9x99f9fdaf999999b, timeout of 99999ms exceeded
+Server environment:java.vendor=Oracle Corporation
+Processed session termination for sessionid: 9x99ed99999f999d9
+Interrupted while waiting for message on queue
+Closed socket connection for client /99.99.99.99:99999 which had sessionid 9x99f99999bd99999
+Processed session termination for sessionid: 9x99f9fdb9f99999d
+Established session 9x99f9999a9e9999a with negotiated timeout 99999 for client /99.99.99.99:99999
+Processed session termination for sessionid: 9x99ede99999f999c
+Interrupted while waiting for message on queue
+Accepted socket connection from /99.99.99.99:99999
+Interrupted while waiting for message on queue
+Expiring session 9x99f9a999df9999c, timeout of 99999ms exceeded
+Established session 9x99ed999999999af with negotiated timeout 99999 for client /99.99.99.99:99999
+Established session 9x99ede99a99b999f with negotiated timeout 99999 for client /99.99.99.99:99999
+Established session 9x99ed99999f999de with negotiated timeout 99999 for client /99.99.99.99:99999
+Expiring session 9x99edfaa9c99999f, timeout of 99999ms exceeded
+Send worker leaving thread
+Established session 9x99ed9999999999e with negotiated timeout 99999 for client /99.99.99.99:99999
+Processed session termination for sessionid: 9x99edfaa9c99999d
+Closed socket connection for client /99.99.99.99:99999 which had sessionid 9x99ed9ac9c9e99cd
+Interrupting SendWorker
+Interrupting SendWorker
+Established session 9x99f9999999a999d with negotiated timeout 99999 for client /99.99.99.99:99999
+Received connection request /99.99.99.99:99999
+Closed socket connection for client /99.99.99.99:99999 which had sessionid 9x99f9a99999b999e
+Closed socket connection for client /99.99.99.99:99999 which had sessionid 9x99f9999b9af999a
+Expiring session 9x99ed9ac9c9e99ad, timeout of 99999ms exceeded
+Received connection request /99.99.99.99:99999
+Established session 9x99ee9e999ed999e with negotiated timeout 99999 for client /99.99.99.99:99999
+Established session 9x99ed9ac9c9e99b9 with negotiated timeout 99999 for client /99.99.99.99:99999
+Notification time out: 999
+Interrupting SendWorker
+Expiring session 9x99ed999999999bc, timeout of 99999ms exceeded
+Closed socket connection for client /99.99.99.99:99999 which had sessionid 9x99ee9e999ed999b
+Send worker leaving thread
+Received connection request /99.99.99.99:99999
+Accepted socket connection from /99.99.99.99:99999
+Closed socket connection for client /99.99.99.99:99999 which had sessionid 9x99ed999999999de
+maxSessionTimeout set to -9
+Send worker leaving thread
+Interrupted while waiting for message on queue
+Established session 9x99edfaa99f9999b with negotiated timeout 99999 for client /99.99.99.99:99999
+Received connection request /99.99.99.99:99999
+Interrupted while waiting for message on queue
+Follower sid: 9 : info : org.apache.zookeeper.server.quorum.QuorumPeer$QuorumServer@99999fe9
+Expiring session 9x99f9999a9e99999, timeout of 99999ms exceeded
+Interrupting SendWorker
+Interrupting SendWorker
+Expiring session 9x99ed99999f9999a, timeout of 99999ms exceeded
+Processed session termination for sessionid: 9x99ed9ac9c9e99cd
+Interrupted while waiting for message on queue
+Interrupting SendWorker
+Received connection request /99.99.99.99:99999
+Established session 9x99ed99999f999ee with negotiated timeout 99999 for client /99.99.99.99:99999
+Interrupted while waiting for message on queue
+Received connection request /99.99.99.99:99999
+Expiring session 9x99ed99999f999cf, timeout of 99999ms exceeded
+Established session 9x99f9a9999b9999c with negotiated timeout 99999 for client /99.99.99.99:99999
+Expiring session 9x99ed99999f999ca, timeout of 99999ms exceeded
+Closed socket connection for client /99.99.99.99:99999 which had sessionid 9x99f9fdb9f99999a
+Accepted socket connection from /99.99.99.99:99999
+Closed socket connection for client /99.99.99.99:99999 which had sessionid 9x99f99999bd9999b
+Interrupting SendWorker
+Expiring session 9x99ed9ac9c9e99aa, timeout of 99999ms exceeded
+Interrupted while waiting for message on queue
+Expiring session 9x99ede99999f999b, timeout of 99999ms exceeded
+Closed socket connection for client /99.99.99.99:99999 which had sessionid 9x99ede99a9a99999
+Accepted socket connection from /99.99.99.99:99999
+Accepted socket connection from /99.99.99.99:99999
+Expiring session 9x99edfaa99f9999e, timeout of 99999ms exceeded
+Follower sid: 9 : info : org.apache.zookeeper.server.quorum.QuorumPeer$QuorumServer@99b99ca9
+Processed session termination for sessionid: 9x99ede99999f999b
+Interrupting SendWorker
+Accepted socket connection from /99.99.99.99:99999
+Expiring session 9x99ede99999f999c, timeout of 99999ms exceeded
+Processed session termination for sessionid: 9x99ed999999999bf
+Interrupted while waiting for message on queue
+Got user-level KeeperException when processing sessionid:9x99ed99999999999 type:create cxid:9x99b9c9f9 zxid:9x9999999bb txntype:-9 reqpath:n/a Error Path:/hdfs-mesos/hdfs Error:KeeperErrorCode = NodeExists for /hdfs-mesos/hdfs
+Closed socket connection for client /99.99.99.99:99999 which had sessionid 9x99ede99a99b999b
+Follower sid: 9 : info : org.apache.zookeeper.server.quorum.QuorumPeer$QuorumServer@99ac9999
+Closed socket connection for client /99.99.99.99:99999 which had sessionid 9x99f9999999e999f
+Client attempting to establish new session at /99.99.99.99:99999
+Interrupted while waiting for message on queue
+Client attempting to renew session 9x99ed9999999999b at /99.99.99.99:99999
+Interrupting SendWorker
+Expiring session 9x99ed9ac9c9e9999, timeout of 99999ms exceeded
+Accepted socket connection from /99.99.99.99:99999
+Accepted socket connection from /99.99.99.99:99999
+Established session 9x99ede99999f9999 with negotiated timeout 99999 for client /99.99.99.99:99999
+Closed socket connection for client /99.99.99.99:99999 which had sessionid 9x99edfaa99f9999a
+caught end of stream exception
+Interrupting SendWorker
+Processed session termination for sessionid: 9x99f9a99999b999c
