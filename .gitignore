@@ -4,6 +4,6 @@
 label_list_big.*
 content_list_big.*
 *.zip
-!Datensätze/Vorbereitete\ Daten\ -\ Beispiel/03_Evaluationen
-!Datensätze/Vorbereitete\ Daten\ -\ Beispiel
-Datensätze/Vorbereitete\ Daten\ -\ Beispiel/*_v1
+!Datensätze/Vorbereitete\ Daten/03_Evaluationen
+!Datensätze/Vorbereitete\ Daten
+Datensätze/Vorbereitete\ Daten/*_v1
