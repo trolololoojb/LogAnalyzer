@@ -150,7 +150,7 @@ def evaluate(eval_file, eval_label, additional_infos=""):
         gleiche_prozent = (gleiche_zeilen / gesamt_zeilen) * 100
         unterschiedliche_prozent = (unterschiedliche_zeilen / gesamt_zeilen) * 100
         
-        with open(f"Datensätze/Vorbereitete Daten - Beispiel/03_Evaluationen/{file_name}_{model_name}_evaluation.txt", 'w') as infos:
+        with open(f"Datensätze/Vorbereitete Daten/03_Evaluationen/{file_name}_{model_name}_evaluation.txt", 'w') as infos:
             infos.write(f"Model: {model_name}\n Evaluierungsdaten: {file_name}\n Sonstige Infos: {additional_infos}\n")
             average_f1 = sum(f1_scores) / len(f1_scores)
             infos.write(f"Durchschnittlicher F1-Score: {average_f1}\n")
@@ -165,7 +165,9 @@ def evaluate(eval_file, eval_label, additional_infos=""):
         print(f"Gleiche Zeilen: {gleiche_zeilen} ({gleiche_prozent:.2f}%)")
         print(f"Unterschiedliche Zeilen: {unterschiedliche_zeilen} ({unterschiedliche_prozent:.2f}%)")
 
-# Beispielaufruf der Funktion
+#Aufruf der Funktion
 add_infos = input("Sonstige Infos hinzufügen:")
-for content, label in zip(path.twok_content_path_list, path.twok_label_path_list):
-    evaluate(content, label, add_infos)
+# for content, label in zip(path.twok_content_path_list, path.twok_label_path_list):
+#     evaluate(content, label, add_infos)
+
+evaluate("Datensätze/Vorbereitete Daten/01_Models/20240908-183342 Baseline Modell MaskZero/validation_content.txt", "Datensätze/Vorbereitete Daten/01_Models/20240908-183342 Baseline Modell MaskZero/validation_labels.csv", add_infos)

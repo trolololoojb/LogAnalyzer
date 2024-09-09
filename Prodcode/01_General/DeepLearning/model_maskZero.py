@@ -42,7 +42,7 @@ log_examples_zookeeper = ["My election bind port: 9.9.9.9/9.9.9.9:9999", "Closed
 log_examples = [log_examples_bgl, log_examples_hdfs, log_examples_proxifier, log_examples_hpc, log_examples_zookeeper]
 
 # Erstelle den gesamten Pfad
-directory_path = f'Datensätze/Vorbereitete Daten - Beispiel/01_Models/{current_time}'
+directory_path = f'Datensätze/Vorbereitete Daten/01_Models/{current_time}'
 model_name = directory_path + '/tokenizedModel.keras'
 
 # Stelle sicher, dass das Verzeichnis existiert

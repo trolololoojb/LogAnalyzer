@@ -7,70 +7,70 @@ from tensorflow.keras.preprocessing.text import Tokenizer as KerasTokenizer
 from tokenizers.pre_tokenizers import Split
 
 # Lade vorhandene Tokenizer
-BPE_tokenizer = Tokenizer.from_file(r"/home/johann/github/LogAnalyzer/Datensätze/Vorbereitete Daten - Beispiel/02_Tokenizer/tokenizer_BPE.json")
-tokenizer = Tokenizer.from_file(r"/home/johann/github/LogAnalyzer/Datensätze/Vorbereitete Daten - Beispiel/02_Tokenizer/tokenizer.json")
+BPE_tokenizer = Tokenizer.from_file(r"/home/johann/github/LogAnalyzer/Datensätze/Vorbereitete Daten/02_Tokenizer/tokenizer_BPE.json")
+tokenizer = Tokenizer.from_file(r"/home/johann/github/LogAnalyzer/Datensätze/Vorbereitete Daten/02_Tokenizer/tokenizer.json")
 
 # Dateipfade für verschiedene Datensätze
 content_file_path_list = [
-    r'/home/johann/github/LogAnalyzer/Datensätze/Vorbereitete Daten - Beispiel/bgl_v1/content_list_bgl.txt',
-    r"/home/johann/github/LogAnalyzer/Datensätze/Vorbereitete Daten - Beispiel/hdfs_v1/content_list_hdfs.txt",
-    r"/home/johann/github/LogAnalyzer/Datensätze/Vorbereitete Daten - Beispiel/hpc_v1/content_list_hpc.txt",
-    r"/home/johann/github/LogAnalyzer/Datensätze/Vorbereitete Daten - Beispiel/proxifier_v1/content_list_proxifier.txt",
-    r"/home/johann/github/LogAnalyzer/Datensätze/Vorbereitete Daten - Beispiel/zookeeper_v1/content_list_zookeeper.txt"
+    r'/home/johann/github/LogAnalyzer/Datensätze/Vorbereitete Daten/bgl_v1/content_list_bgl.txt',
+    r"/home/johann/github/LogAnalyzer/Datensätze/Vorbereitete Daten/hdfs_v1/content_list_hdfs.txt",
+    r"/home/johann/github/LogAnalyzer/Datensätze/Vorbereitete Daten/hpc_v1/content_list_hpc.txt",
+    r"/home/johann/github/LogAnalyzer/Datensätze/Vorbereitete Daten/proxifier_v1/content_list_proxifier.txt",
+    r"/home/johann/github/LogAnalyzer/Datensätze/Vorbereitete Daten/zookeeper_v1/content_list_zookeeper.txt"
 ]
 
 # Pfade für tokenisierte Dateien
 tokenized_file_path_list = [
-    r'/home/johann/github/LogAnalyzer/Datensätze/Vorbereitete Daten - Beispiel/bgl_v1/tokenized_list_bgl.csv',
-    r"/home/johann/github/LogAnalyzer/Datensätze/Vorbereitete Daten - Beispiel/hdfs_v1/tokenized_list_hdfs.csv",
-    r"/home/johann/github/LogAnalyzer/Datensätze/Vorbereitete Daten - Beispiel/hpc_v1/tokenized_list_hpc.csv",
-    r"/home/johann/github/LogAnalyzer/Datensätze/Vorbereitete Daten - Beispiel/proxifier_v1/tokenized_list_proxifier.csv",
-    r"/home/johann/github/LogAnalyzer/Datensätze/Vorbereitete Daten - Beispiel/zookeeper_v1/tokenized_list_zookeeper.csv"
+    r'/home/johann/github/LogAnalyzer/Datensätze/Vorbereitete Daten/bgl_v1/tokenized_list_bgl.csv',
+    r"/home/johann/github/LogAnalyzer/Datensätze/Vorbereitete Daten/hdfs_v1/tokenized_list_hdfs.csv",
+    r"/home/johann/github/LogAnalyzer/Datensätze/Vorbereitete Daten/hpc_v1/tokenized_list_hpc.csv",
+    r"/home/johann/github/LogAnalyzer/Datensätze/Vorbereitete Daten/proxifier_v1/tokenized_list_proxifier.csv",
+    r"/home/johann/github/LogAnalyzer/Datensätze/Vorbereitete Daten/zookeeper_v1/tokenized_list_zookeeper.csv"
 ]
 
 # Pfade für BPE-tokenisierte Dateien
 BPE_tokenized_file_path_list = [
-    r'/home/johann/github/LogAnalyzer/Datensätze/Vorbereitete Daten - Beispiel/bgl_v1/BPE_tokenized_list_bgl.csv',
-    r"/home/johann/github/LogAnalyzer/Datensätze/Vorbereitete Daten - Beispiel/hdfs_v1/BPE_tokenized_list_hdfs.csv",
-    r"/home/johann/github/LogAnalyzer/Datensätze/Vorbereitete Daten - Beispiel/hpc_v1/BPE_tokenized_list_hpc.csv",
-    r"/home/johann/github/LogAnalyzer/Datensätze/Vorbereitete Daten - Beispiel/proxifier_v1/BPE_tokenized_list_proxifier.csv",
-    r"/home/johann/github/LogAnalyzer/Datensätze/Vorbereitete Daten - Beispiel/zookeeper_v1/BPE_tokenized_list_zookeeper.csv"
+    r'/home/johann/github/LogAnalyzer/Datensätze/Vorbereitete Daten/bgl_v1/BPE_tokenized_list_bgl.csv',
+    r"/home/johann/github/LogAnalyzer/Datensätze/Vorbereitete Daten/hdfs_v1/BPE_tokenized_list_hdfs.csv",
+    r"/home/johann/github/LogAnalyzer/Datensätze/Vorbereitete Daten/hpc_v1/BPE_tokenized_list_hpc.csv",
+    r"/home/johann/github/LogAnalyzer/Datensätze/Vorbereitete Daten/proxifier_v1/BPE_tokenized_list_proxifier.csv",
+    r"/home/johann/github/LogAnalyzer/Datensätze/Vorbereitete Daten/zookeeper_v1/BPE_tokenized_list_zookeeper.csv"
 ]
 
 # Pfade für gepolsterte Dateien
 padded_file_path_list= [
-    r'/home/johann/github/LogAnalyzer/Datensätze/Vorbereitete Daten - Beispiel/bgl_v1/padded_list_bgl.csv',
-    r"/home/johann/github/LogAnalyzer/Datensätze/Vorbereitete Daten - Beispiel/hdfs_v1/padded_list_hdfs.csv",
-    r"/home/johann/github/LogAnalyzer/Datensätze/Vorbereitete Daten - Beispiel/hpc_v1/padded_list_hpc.csv",
-    r"/home/johann/github/LogAnalyzer/Datensätze/Vorbereitete Daten - Beispiel/proxifier_v1/padded_list_proxifier.csv",
-    r"/home/johann/github/LogAnalyzer/Datensätze/Vorbereitete Daten - Beispiel/zookeeper_v1/padded_list_zookeeper.csv"
+    r'/home/johann/github/LogAnalyzer/Datensätze/Vorbereitete Daten/bgl_v1/padded_list_bgl.csv',
+    r"/home/johann/github/LogAnalyzer/Datensätze/Vorbereitete Daten/hdfs_v1/padded_list_hdfs.csv",
+    r"/home/johann/github/LogAnalyzer/Datensätze/Vorbereitete Daten/hpc_v1/padded_list_hpc.csv",
+    r"/home/johann/github/LogAnalyzer/Datensätze/Vorbereitete Daten/proxifier_v1/padded_list_proxifier.csv",
+    r"/home/johann/github/LogAnalyzer/Datensätze/Vorbereitete Daten/zookeeper_v1/padded_list_zookeeper.csv"
 ]
 
 # Pfade für Label-Dateien
 label_list_path_list = [
-    r'Datensätze/Vorbereitete Daten - Beispiel/bgl_v1/label_list_bgl.csv',
-    r"Datensätze/Vorbereitete Daten - Beispiel/hdfs_v1/label_list_hdfs.csv",
-    r"Datensätze/Vorbereitete Daten - Beispiel/hpc_v1/label_list_hpc.csv",
-    r"Datensätze/Vorbereitete Daten - Beispiel/proxifier_v1/label_list_proxifier.csv",
-    r"Datensätze/Vorbereitete Daten - Beispiel/zookeeper_v1/label_list_zookeeper.csv"
+    r'Datensätze/Vorbereitete Daten/bgl_v1/label_list_bgl.csv',
+    r"Datensätze/Vorbereitete Daten/hdfs_v1/label_list_hdfs.csv",
+    r"Datensätze/Vorbereitete Daten/hpc_v1/label_list_hpc.csv",
+    r"Datensätze/Vorbereitete Daten/proxifier_v1/label_list_proxifier.csv",
+    r"Datensätze/Vorbereitete Daten/zookeeper_v1/label_list_zookeeper.csv"
 ]
 
 # Pfade für eindeutige Labels
 unique_label_path_list = [
-    r'Datensätze/Vorbereitete Daten - Beispiel/bgl_v1/unique_data/label_list_bgl_unique.csv',
-    r"Datensätze/Vorbereitete Daten - Beispiel/hdfs_v1/unique_data/label_list_hdfs.csv",
-    r"Datensätze/Vorbereitete Daten - Beispiel/hpc_v1/unique_data/label_list_hpc.csv",
-    r"Datensätze/Vorbereitete Daten - Beispiel/proxifier_v1/unique_data/label_list_proxifier.csv",
-    r"Datensätze/Vorbereitete Daten - Beispiel/zookeeper_v1/unique_data/label_list_zookeeper.csv"
+    r'Datensätze/Vorbereitete Daten/bgl_v1/unique_data/label_list_bgl_unique.csv',
+    r"Datensätze/Vorbereitete Daten/hdfs_v1/unique_data/label_list_hdfs.csv",
+    r"Datensätze/Vorbereitete Daten/hpc_v1/unique_data/label_list_hpc.csv",
+    r"Datensätze/Vorbereitete Daten/proxifier_v1/unique_data/label_list_proxifier.csv",
+    r"Datensätze/Vorbereitete Daten/zookeeper_v1/unique_data/label_list_zookeeper.csv"
 ]
 
 # Pfade für eindeutige Inhalte
 unique_content_path_list = [
-    r'Datensätze/Vorbereitete Daten - Beispiel/bgl_v1/unique_data/content_list_bgl_unique.txt',
-    r"Datensätze/Vorbereitete Daten - Beispiel/hdfs_v1/unique_data/content_list_hdfs.txt",
-    r"Datensätze/Vorbereitete Daten - Beispiel/hpc_v1/unique_data/content_list_hpc.txt",
-    r"Datensätze/Vorbereitete Daten - Beispiel/proxifier_v1/unique_data/content_list_proxifier.txt",
-    r"Datensätze/Vorbereitete Daten - Beispiel/zookeeper_v1/unique_data/content_list_zookeeper.txt"
+    r'Datensätze/Vorbereitete Daten/bgl_v1/unique_data/content_list_bgl_unique.txt',
+    r"Datensätze/Vorbereitete Daten/hdfs_v1/unique_data/content_list_hdfs.txt",
+    r"Datensätze/Vorbereitete Daten/hpc_v1/unique_data/content_list_hpc.txt",
+    r"Datensätze/Vorbereitete Daten/proxifier_v1/unique_data/content_list_proxifier.txt",
+    r"Datensätze/Vorbereitete Daten/zookeeper_v1/unique_data/content_list_zookeeper.txt"
 ]
 
 def generateTokenizer_BPE():
@@ -82,7 +82,7 @@ def generateTokenizer_BPE():
     trainer = trainers.BpeTrainer(vocab_size=1000, special_tokens=["<pad>", "<cls>", "<sep>", "<unk>"])
     tokenizer.train(files=content_file_path_list, trainer=trainer)
     print(tokenizer.get_vocab())
-    tokenizer.save(r"/home/johann/github/LogAnalyzer/Datensätze/Vorbereitete Daten - Beispiel/Tokenizer/tokenizer_BPE.json")
+    tokenizer.save(r"/home/johann/github/LogAnalyzer/Datensätze/Vorbereitete Daten/Tokenizer/tokenizer_BPE.json")
 
 def generateTokenizer():
     """
@@ -94,7 +94,7 @@ def generateTokenizer():
     trainer = trainers.WordLevelTrainer(min_frequency=1, special_tokens=["[PAD]", "[UNK]"])
     tokenizer.train(files=content_file_path_list, trainer=trainer)
     print(tokenizer.get_vocab())
-    tokenizer.save(r"/home/johann/github/LogAnalyzer/Datensätze/Vorbereitete Daten - Beispiel/Tokenizer/tokenizer.json")
+    tokenizer.save(r"/home/johann/github/LogAnalyzer/Datensätze/Vorbereitete Daten/Tokenizer/tokenizer.json")
 
 def delete_file(file_path):
     """

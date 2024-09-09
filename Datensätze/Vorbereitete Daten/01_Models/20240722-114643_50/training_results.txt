@@ -1,20 +1,20 @@
-Training auf folgende Datei: /home/johann/github/LogAnalyzer/Datensätze/Vorbereitete Daten - Beispiel/bgl_v1/tokenized_list_bgl.csvTotal Trainings-Loss: None
+Training auf folgende Datei: /home/johann/github/LogAnalyzer/Datensätze/Vorbereitete Daten/bgl_v1/tokenized_list_bgl.csvTotal Trainings-Loss: None
 Total Trainings-Accuracy: None
 Total Validierungs-Loss: None
 Total Validierungs-Accuracy: None
-Training auf folgende Datei: /home/johann/github/LogAnalyzer/Datensätze/Vorbereitete Daten - Beispiel/hdfs_v1/tokenized_list_hdfs.csvTotal Trainings-Loss: None
+Training auf folgende Datei: /home/johann/github/LogAnalyzer/Datensätze/Vorbereitete Daten/hdfs_v1/tokenized_list_hdfs.csvTotal Trainings-Loss: None
 Total Trainings-Accuracy: None
 Total Validierungs-Loss: None
 Total Validierungs-Accuracy: None
-Training auf folgende Datei: /home/johann/github/LogAnalyzer/Datensätze/Vorbereitete Daten - Beispiel/hpc_v1/tokenized_list_hpc.csvTotal Trainings-Loss: None
+Training auf folgende Datei: /home/johann/github/LogAnalyzer/Datensätze/Vorbereitete Daten/hpc_v1/tokenized_list_hpc.csvTotal Trainings-Loss: None
 Total Trainings-Accuracy: None
 Total Validierungs-Loss: None
 Total Validierungs-Accuracy: None
-Training auf folgende Datei: /home/johann/github/LogAnalyzer/Datensätze/Vorbereitete Daten - Beispiel/proxifier_v1/tokenized_list_proxifier.csvTotal Trainings-Loss: None
+Training auf folgende Datei: /home/johann/github/LogAnalyzer/Datensätze/Vorbereitete Daten/proxifier_v1/tokenized_list_proxifier.csvTotal Trainings-Loss: None
 Total Trainings-Accuracy: None
 Total Validierungs-Loss: None
 Total Validierungs-Accuracy: None
-Training auf folgende Datei: /home/johann/github/LogAnalyzer/Datensätze/Vorbereitete Daten - Beispiel/zookeeper_v1/tokenized_list_zookeeper.csvTotal Trainings-Loss: None
+Training auf folgende Datei: /home/johann/github/LogAnalyzer/Datensätze/Vorbereitete Daten/zookeeper_v1/tokenized_list_zookeeper.csvTotal Trainings-Loss: None
 Total Trainings-Accuracy: None
 Total Validierungs-Loss: None
 Total Validierungs-Accuracy: None

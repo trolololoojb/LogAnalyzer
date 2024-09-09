@@ -491,7 +491,7 @@ Model: "sequential"
  Non-trainable params: 0 (0.00 B)
  Optimizer params: 1,349,892 (5.15 MB)
 
-Training auf folgende Datei: Datensätze/Vorbereitete Daten - Beispiel/bgl_v1/content_list_bgl.txt
+Training auf folgende Datei: Datensätze/Vorbereitete Daten/bgl_v1/content_list_bgl.txt
 Total Trainings-Loss: [0.03429481387138367, 0.03427453339099884]
 Total Trainings-Accuracy: [0.9657158255577087, 0.9657216668128967]
 Total Validierungs-Loss: [0.034342650324106216, 0.034342650324106216]

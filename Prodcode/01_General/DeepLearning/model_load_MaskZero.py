@@ -3,8 +3,8 @@ from tokenizers import Tokenizer
 from tensorflow.keras.models import load_model # type: ignore
 from tensorflow.keras.preprocessing.sequence import pad_sequences # type: ignore
 
-model_path = r'Datensätze/Vorbereitete Daten - Beispiel/01_Models/20240908-185940 Exclude Modell Zookeeper MaskZero/tokenizedModel.keras'
-tokenizer_path = r"Datensätze/Vorbereitete Daten - Beispiel/01_Models/20240908-185940 Exclude Modell Zookeeper MaskZero/tokenizer.json"
+model_path = r'Datensätze/Vorbereitete Daten/01_Models/20240908-183342 Baseline Modell MaskZero/tokenizedModel.keras'
+tokenizer_path = r"Datensätze/Vorbereitete Daten/01_Models/20240908-183342 Baseline Modell MaskZero/tokenizer.json"
 tokenizer = Tokenizer.from_file(tokenizer_path)
 model = load_model(model_path)
 directory_path = os.path.dirname(model_path)

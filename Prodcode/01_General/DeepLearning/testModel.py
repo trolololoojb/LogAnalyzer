@@ -30,8 +30,8 @@ def load_labels(file_path):
     return labels
 
 # Pfade zu den Daten
-logs_file_path = r"Datensätze/Vorbereitete Daten - Beispiel/bgl_v1/unique_data/content_list_bgl_unique.txt"
-labels_file_path = r"Datensätze/Vorbereitete Daten - Beispiel/bgl_v1/unique_data/label_list_bgl_unique.csv"
+logs_file_path = r"Datensätze/Vorbereitete Daten/bgl_v1/unique_data/content_list_bgl_unique.txt"
+labels_file_path = r"Datensätze/Vorbereitete Daten/bgl_v1/unique_data/label_list_bgl_unique.csv"
 
 current_time = datetime.now().strftime("%Y%m%d-%H%M%S")
 epochs = 10
@@ -44,7 +44,7 @@ log_examples_zookeeper = ["My election bind port: 9.9.9.9/9.9.9.9:9999", "Closed
 log_examples = [log_examples_bgl, log_examples_hdfs, log_examples_proxifier, log_examples_hpc, log_examples_zookeeper]
 
 # Erstelle den gesamten Pfad
-directory_path = f'Datensätze/Vorbereitete Daten - Beispiel/01_Models/{current_time}'
+directory_path = f'Datensätze/Vorbereitete Daten/01_Models/{current_time}'
 model_name = directory_path + '/tokenizedModel.keras'
 
 # Stelle sicher, dass das Verzeichnis existiert

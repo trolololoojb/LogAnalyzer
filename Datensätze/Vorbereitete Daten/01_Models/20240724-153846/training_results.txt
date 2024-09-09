@@ -429,7 +429,7 @@ Model: "sequential"
  Non-trainable params: 0 (0.00 B)
  Optimizer params: 1,665,540 (6.35 MB)
 
-Training auf folgende Datei: Datensätze/Vorbereitete Daten - Beispiel/zookeeper_v1/unique_data/content_list_zookeeper.txt
+Training auf folgende Datei: Datensätze/Vorbereitete Daten/zookeeper_v1/unique_data/content_list_zookeeper.txt
 Total Trainings-Loss: [0.04425400495529175, 0.03201039135456085]
 Total Trainings-Accuracy: [0.9055301547050476, 0.9094773530960083]
 Total Validierungs-Loss: [0.03134072944521904, 0.03075723722577095]

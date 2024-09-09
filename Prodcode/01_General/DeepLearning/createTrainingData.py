@@ -304,34 +304,34 @@ log_file_path_list = [
 
 csv_file_path_list = [
     r"Datensätze/Drain3 Datensätze/BGL/BGL_templates.csv",
-    r"Datensätze/Vorbereitete Daten - Beispiel/hdfs_v1/HDFS_v1_unique_event_templates.csv",
+    r"Datensätze/Vorbereitete Daten/hdfs_v1/HDFS_v1_unique_event_templates.csv",
     r"Datensätze/Drain3 Datensätze/HPC/HPC_2k.log_templates.csv",
     r"Datensätze/Drain3 Datensätze/Proxifier/Proxifier_2k.log_templates.csv",
     r'Datensätze/Drain3 Datensätze/Zookeeper/Zookeeper_2k.log_templates.csv'
 ]
 
 content_file_path_list = [
-    r'Datensätze/Vorbereitete Daten - Beispiel/bgl_v1/content_list_bgl.txt',
-    r"Datensätze/Vorbereitete Daten - Beispiel/hdfs_v1/content_list_hdfs.txt",
-    r"Datensätze/Vorbereitete Daten - Beispiel/hpc_v1/content_list_hpc.txt",
-    r"Datensätze/Vorbereitete Daten - Beispiel/proxifier_v1/content_list_proxifier.txt",
-    r"Datensätze/Vorbereitete Daten - Beispiel/zookeeper_v1/content_list_zookeeper.txt"
+    r'Datensätze/Vorbereitete Daten/bgl_v1/content_list_bgl.txt',
+    r"Datensätze/Vorbereitete Daten/hdfs_v1/content_list_hdfs.txt",
+    r"Datensätze/Vorbereitete Daten/hpc_v1/content_list_hpc.txt",
+    r"Datensätze/Vorbereitete Daten/proxifier_v1/content_list_proxifier.txt",
+    r"Datensätze/Vorbereitete Daten/zookeeper_v1/content_list_zookeeper.txt"
 ]
 
 new_content_file_path_list = [
-    r'Datensätze/Vorbereitete Daten - Beispiel/bgl_v1/content_list_bgl_new.txt',
-    r"Datensätze/Vorbereitete Daten - Beispiel/hdfs_v1/content_list_hdfs_new.txt",
-    r"Datensätze/Vorbereitete Daten - Beispiel/hpc_v1/content_list_hpc_new.txt",
-    r"Datensätze/Vorbereitete Daten - Beispiel/proxifier_v1/content_list_proxifier_new.txt",
-    r"Datensätze/Vorbereitete Daten - Beispiel/zookeeper_v1/content_list_zookeeper_new.txt"
+    r'Datensätze/Vorbereitete Daten/bgl_v1/content_list_bgl_new.txt',
+    r"Datensätze/Vorbereitete Daten/hdfs_v1/content_list_hdfs_new.txt",
+    r"Datensätze/Vorbereitete Daten/hpc_v1/content_list_hpc_new.txt",
+    r"Datensätze/Vorbereitete Daten/proxifier_v1/content_list_proxifier_new.txt",
+    r"Datensätze/Vorbereitete Daten/zookeeper_v1/content_list_zookeeper_new.txt"
 ]
 
 label_list_path_list = [
-    r'Datensätze/Vorbereitete Daten - Beispiel/bgl_v1/label_list_bgl.csv',
-    r"Datensätze/Vorbereitete Daten - Beispiel/hdfs_v1/label_list_hdfs.csv",
-    r"Datensätze/Vorbereitete Daten - Beispiel/hpc_v1/label_list_hpc.csv",
-    r"Datensätze/Vorbereitete Daten - Beispiel/proxifier_v1/label_list_proxifier.csv",
-    r"Datensätze/Vorbereitete Daten - Beispiel/zookeeper_v1/label_list_zookeeper.csv"
+    r'Datensätze/Vorbereitete Daten/bgl_v1/label_list_bgl.csv',
+    r"Datensätze/Vorbereitete Daten/hdfs_v1/label_list_hdfs.csv",
+    r"Datensätze/Vorbereitete Daten/hpc_v1/label_list_hpc.csv",
+    r"Datensätze/Vorbereitete Daten/proxifier_v1/label_list_proxifier.csv",
+    r"Datensätze/Vorbereitete Daten/zookeeper_v1/label_list_zookeeper.csv"
 ]
 
 # for log_file_path, csv_file_path, content_file_path, label_list_path in zip(log_file_path_list, csv_file_path_list, content_file_path_list, label_list_path_list):
