@@ -46,7 +46,7 @@ label_list_path_list = [
 # Pfade für eindeutige Labels
 unique_label_path_list = [
     r'Datensätze/Vorbereitete Daten/bgl_v1/unique_data/label_list_bgl_unique.csv',
-    r"Datensätze/Vorbereitete Daten/hdfs_v1/unique_data/label_list_hdfs.csv",
+    #r"Datensätze/Vorbereitete Daten/hdfs_v1/unique_data/label_list_hdfs.csv",
     r"Datensätze/Vorbereitete Daten/hpc_v1/unique_data/label_list_hpc.csv",
     r"Datensätze/Vorbereitete Daten/proxifier_v1/unique_data/label_list_proxifier.csv",
     r"Datensätze/Vorbereitete Daten/zookeeper_v1/unique_data/label_list_zookeeper.csv"
@@ -55,7 +55,7 @@ unique_label_path_list = [
 # Pfade für eindeutige Inhalte
 unique_content_path_list = [
     r'Datensätze/Vorbereitete Daten/bgl_v1/unique_data/content_list_bgl_unique.txt',
-    r"Datensätze/Vorbereitete Daten/hdfs_v1/unique_data/content_list_hdfs.txt",
+    #r"Datensätze/Vorbereitete Daten/hdfs_v1/unique_data/content_list_hdfs.txt",
     r"Datensätze/Vorbereitete Daten/hpc_v1/unique_data/content_list_hpc.txt",
     r"Datensätze/Vorbereitete Daten/proxifier_v1/unique_data/content_list_proxifier.txt",
     r"Datensätze/Vorbereitete Daten/zookeeper_v1/unique_data/content_list_zookeeper.txt"

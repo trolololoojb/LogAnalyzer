@@ -6,6 +6,22 @@ import model_load_MaskZero
 from sklearn.metrics import f1_score
 
 def select_random_lines(input_file, log_file, label_file, output_content, output_label, num_lines=2000):
+    """
+    Wählt zufällig Zeilen aus input_file und label_file, wobei Zeilen aus log_file 
+    ausgeschlossen werden. Speichert die ausgewählten Zeilen und zugehörigen Labels 
+    in output_content und output_label.
+
+    Parameter:
+    input_file (str): Pfad zur Datei mit den Hauptinhalten.
+    log_file (str): Pfad zur Datei mit auszuschließenden Zeilen.
+    label_file (str): Pfad zur Datei mit den zugehörigen Labels.
+    output_content (str): Pfad zur Datei für die ausgewählten Zeilen.
+    output_label (str): Pfad zur Datei für die ausgewählten Labels.
+    num_lines (int, optional): Anzahl der auszuwählenden Zeilen (Standard: 2000).
+
+    Rückgabewert:
+    Keine Rückgabe. Die Ergebnisse werden in den Ausgabedateien gespeichert.
+    """
 
     # Datei 2 einlesen und Zeilen in ein Set speichern
     with open(log_file, 'r') as f:
@@ -170,4 +186,4 @@ add_infos = input("Sonstige Infos hinzufügen:")
 # for content, label in zip(path.twok_content_path_list, path.twok_label_path_list):
 #     evaluate(content, label, add_infos)
 
-evaluate("Datensätze/Vorbereitete Daten/01_Models/20240908-183342 Baseline Modell MaskZero/validation_content.txt", "Datensätze/Vorbereitete Daten/01_Models/20240908-183342 Baseline Modell MaskZero/validation_labels.csv", add_infos)
+evaluate(path.twok_content_path_list[1], path.twok_label_path_list[1], add_infos)
